@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "a1829add45e78a9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a2af238fa760136",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e40a12c91b492744",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course Manual/Course Pacing Table - ESP Fashion Design Course Manual.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Course Pacing Table - ESP Fashion Design Course Manual"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "963b19be32073ae3",
+    "type": "split",
+    "children": [
+      {
+        "id": "b04b4fd45282ef73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0469d1d75170e59c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "61ba2c7b9fe02008",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5242abf8ece0aafd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "51d0302bd540b020",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ecd8940b4ff1025",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f0adcf713971e33",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Course Manual/Course Pacing Table - ESP Fashion Design Course Manual.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Course Pacing Table - ESP Fashion Design Course Manual"
+            }
+          },
+          {
+            "id": "e4dee41249f410ff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Course Manual/Course Pacing Table - ESP Fashion Design Course Manual.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Course Pacing Table - ESP Fashion Design Course Manual"
+            }
+          },
+          {
+            "id": "ba489c8f25ffb687",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bb5959d18681724c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d782d7d565f1dbc6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Course Manual/Course Pacing Table - ESP Fashion Design Course Manual.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Course Pacing Table - ESP Fashion Design Course Manual"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e40a12c91b492744",
+  "lastOpenFiles": [
+    "Course Manual/Core Weekly Activity Framework - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Module 1 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 14 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 13 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 12 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 11 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 10 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 9 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 8 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 7 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 6 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 5 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 4 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 3 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 2 - ESP Fashion Design Course Manual.md",
+    "Course Manual/Module 1/Activity Breakdown by Weeks/Week 1 - ESP Fashion Design Course Manual.md"
+  ]
+}
