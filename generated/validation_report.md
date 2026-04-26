@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-04-26T21:32:07.280195+00:00
+- Generated at (UTC): 2026-04-26T23:19:23.030397+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -34,14 +34,7 @@
 - None.
 
 ## Missing Assets
-- m01w01-img-001 — An adult Fashion Design student in a calm studio-classroom space with a sketchbook, fabric, and a simple work table. — assets/images/module-01/week-01/m01w01-img-001.png
-- m01w01-img-002 — A clear fashion sketchbook or croquis page suitable for A2 vocabulary recognition. — assets/images/module-01/week-01/m01w01-img-002.png
-- m01w01-img-003 — A close, readable fabric swatch image with visible textile texture and no distracting background. — assets/images/module-01/week-01/m01w01-img-003.png
-- m01w01-img-004 — A simple garment presented on a hanger or mannequin for beginner visual recognition. — assets/images/module-01/week-01/m01w01-img-004.png
-- m01w01-img-005 — A sewing machine or hand-sewing scene that clearly represents sewing as a class area. — assets/images/module-01/week-01/m01w01-img-005.png
-- m01w01-img-006 — A simple patternmaking scene with paper pattern pieces, ruler, and measuring tools. — assets/images/module-01/week-01/m01w01-img-006.png
-- m01w01-img-007 — A beginner-friendly portfolio board or page showing fashion work samples without readable brand text. — assets/images/module-01/week-01/m01w01-img-007.png
-- m01w01-aud-001 — A short first-person introduction from a first-semester Fashion Design student that mentions classes, interests, and English goals. — assets/audio/module-01/week-01/m01w01-aud-001.mp3
+- None.
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.

@@ -8,7 +8,7 @@
       "title": "Fashion student studio welcome visual",
       "description": "An adult Fashion Design student in a calm studio-classroom space with a sketchbook, fabric, and a simple work table.",
       "target_filename": "assets/images/module-01/week-01/m01w01-img-001.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w01-a02",
         "m01w01-a03"
@@ -23,7 +23,7 @@
       "title": "Sketchbook vocabulary image",
       "description": "A clear fashion sketchbook or croquis page suitable for A2 vocabulary recognition.",
       "target_filename": "assets/images/module-01/week-01/m01w01-img-002.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w01-a04"
       ],
@@ -37,7 +37,7 @@
       "title": "Fabric swatch vocabulary image",
       "description": "A close, readable fabric swatch image with visible textile texture and no distracting background.",
       "target_filename": "assets/images/module-01/week-01/m01w01-img-003.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w01-a04"
       ],
@@ -51,7 +51,7 @@
       "title": "Garment vocabulary image",
       "description": "A simple garment presented on a hanger or mannequin for beginner visual recognition.",
       "target_filename": "assets/images/module-01/week-01/m01w01-img-004.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w01-a04"
       ],
@@ -65,7 +65,7 @@
       "title": "Sewing vocabulary image",
       "description": "A sewing machine or hand-sewing scene that clearly represents sewing as a class area.",
       "target_filename": "assets/images/module-01/week-01/m01w01-img-005.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w01-a04"
       ],
@@ -79,7 +79,7 @@
       "title": "Patternmaking vocabulary image",
       "description": "A simple patternmaking scene with paper pattern pieces, ruler, and measuring tools.",
       "target_filename": "assets/images/module-01/week-01/m01w01-img-006.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w01-a04"
       ],
@@ -93,7 +93,7 @@
       "title": "Portfolio board vocabulary image",
       "description": "A beginner-friendly portfolio board or page showing fashion work samples without readable brand text.",
       "target_filename": "assets/images/module-01/week-01/m01w01-img-007.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w01-a04",
         "m01w01-a05"
@@ -108,7 +108,7 @@
       "title": "First-week student introduction audio",
       "description": "A short first-person introduction from a first-semester Fashion Design student that mentions classes, interests, and English goals.",
       "target_filename": "assets/audio/module-01/week-01/m01w01-aud-001.mp3",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w01-a03"
       ],
