@@ -1,0 +1,600 @@
+{
+  "week_id": "m01w01",
+  "activities": [
+    {
+      "activity_id": "m01w01-a01",
+      "week_id": "m01w01",
+      "sequence_number": 1,
+      "title": "Start Here: Your Fashion English Course",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "A short welcome task that introduces the weekly course rhythm and asks students to think about why English matters in Fashion Design.",
+      "student_facing": {
+        "en": {
+          "title": "Start Here: Your Fashion English Course",
+          "summary": "Learn how the week works and think about your English goals for Fashion Design.",
+          "instructions": "Read the short welcome, look at the weekly routine, and choose one reason you want to study English for Fashion Design.",
+          "success_criteria": [
+            "I can identify the main parts of the weekly routine.",
+            "I can name one reason English is useful in Fashion Design."
+          ],
+          "sentence_frames": [
+            "I want to learn English for ___.",
+            "English can help me with ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Comece Aqui: Seu Curso de Ingles para Moda",
+          "summary": "Entenda como a semana funciona e pense nos seus objetivos de ingles para Design de Moda.",
+          "instructions": "Leia a breve apresentacao, observe a rotina da semana e escolha um motivo para estudar ingles para Design de Moda.",
+          "success_criteria": [
+            "Eu consigo identificar as partes principais da rotina semanal.",
+            "Eu consigo dizer um motivo pelo qual o ingles e util no Design de Moda."
+          ],
+          "sentence_frames": [
+            "I want to learn English for ___.",
+            "English can help me with ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Briefly introduce the course rhythm and invite students to connect English to a real Fashion Design task such as sketch captions, portfolio texts, or class vocabulary.",
+      "estimated_minutes": 10,
+      "skill_focus": [
+        "vocabulary",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "welcome slide or handout"
+      ],
+      "vocabulary_refs": [
+        "m01w01-v001",
+        "m01w01-v003",
+        "m01w01-v005",
+        "m01w01-v006"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "reflection_prompt",
+        "prompt_en": "Why do you want to learn English for Fashion Design?",
+        "prompt_pt": "Por que voce quer aprender ingles para Design de Moda?",
+        "items": []
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Notice the weekly routine",
+          "student_action_en": "Look at the weekly routine and identify reading, listening, writing, and feedback.",
+          "student_action_pt": "Observe a rotina semanal e identifique leitura, escuta, escrita e feedback.",
+          "teacher_action": "Point out that the same rhythm will return in later weeks.",
+          "estimated_minutes": 4,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose your goal",
+          "student_action_en": "Choose one reason English is useful for your Fashion Design studies.",
+          "student_action_pt": "Escolha um motivo pelo qual o ingles e util para os seus estudos de Design de Moda.",
+          "teacher_action": "Invite a few volunteers to share one reason aloud.",
+          "estimated_minutes": 6,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reflection",
+        "description_en": "A short personal reason for studying English in Fashion Design.",
+        "description_pt": "Um motivo pessoal curto para estudar ingles em Design de Moda.",
+        "length_or_format": "1-2 sentences or one chosen option"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student identifies the weekly routine.",
+          "The student gives one relevant reason for learning English."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica a rotina semanal.",
+          "O aluno apresenta um motivo relevante para aprender ingles."
+        ],
+        "checklist_en": [
+          "I looked at the routine.",
+          "I chose a learning goal."
+        ],
+        "checklist_pt": [
+          "Eu observei a rotina.",
+          "Eu escolhi um objetivo de aprendizagem."
+        ],
+        "rubric": [],
+        "model_response_en": "English can help me describe my sketches and write portfolio texts.",
+        "model_response_pt": "O ingles pode me ajudar a descrever meus croquis e a escrever textos para o portfolio.",
+        "common_errors": [
+          "Very broad answers with no link to Fashion Design."
+        ],
+        "feedback_prompts_en": [
+          "Can you connect your answer to one real class or project?"
+        ],
+        "feedback_prompts_pt": [
+          "Voce pode relacionar sua resposta a uma aula ou projeto real?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Provide three example reasons on the board."
+        ],
+        "challenge": [
+          "Ask students to give one extra example connected to a portfolio or studio task."
+        ]
+      },
+      "extension_options": [
+        "Share your answer with a partner and find one similar goal."
+      ],
+      "notes_for_app_design": "This can become a simple onboarding screen with one reflection prompt and a completion checkpoint."
+    },
+    {
+      "activity_id": "m01w01-a02",
+      "week_id": "m01w01",
+      "sequence_number": 2,
+      "title": "Meet Ana, a Fashion Design Student",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read a short profile about a Fashion Design student and notice how course identity language works in context.",
+      "student_facing": {
+        "en": {
+          "title": "Meet Ana, a Fashion Design Student",
+          "summary": "Read a short profile and find key details about Ana's studies and goals.",
+          "instructions": "Read Ana's profile, look at the support image, and answer the comprehension questions.",
+          "success_criteria": [
+            "I can identify what Ana studies.",
+            "I can find one class and one English goal in the text."
+          ],
+          "sentence_frames": [
+            "Ana studies ___.",
+            "She wants to learn English for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Conheca Ana, uma estudante de Design de Moda",
+          "summary": "Leia um perfil curto e encontre detalhes importantes sobre os estudos e os objetivos da Ana.",
+          "instructions": "Leia o perfil da Ana, observe a imagem de apoio e responda as perguntas de compreensao.",
+          "success_criteria": [
+            "Eu consigo identificar o que a Ana estuda.",
+            "Eu consigo localizar uma disciplina e um objetivo de ingles no texto."
+          ],
+          "sentence_frames": [
+            "Ana studies ___.",
+            "She wants to learn English for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Use the text as a model for the later writing task. Highlight the sentence frames students can reuse in their own profile.",
+      "estimated_minutes": 15,
+      "skill_focus": [
+        "reading",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "B1",
+      "cefr_level": "A2-B1",
+      "materials": [
+        "short reading text",
+        "support image"
+      ],
+      "vocabulary_refs": [
+        "m01w01-v001",
+        "m01w01-v002",
+        "m01w01-v003",
+        "m01w01-v004"
+      ],
+      "asset_refs": [
+        "m01w01-img-001"
+      ],
+      "input": {
+        "input_type": "reading_questions",
+        "prompt_en": "Find the main study details in Ana's profile.",
+        "prompt_pt": "Encontre os principais detalhes de estudo no perfil da Ana.",
+        "items": [
+          {
+            "label_en": "What does Ana study?",
+            "label_pt": "O que a Ana estuda?"
+          },
+          {
+            "label_en": "Why does she want to learn English?",
+            "label_pt": "Por que ela quer aprender ingles?"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read for the main idea",
+          "student_action_en": "Read the profile once and decide who Ana is.",
+          "student_action_pt": "Leia o perfil uma vez e identifique quem e Ana.",
+          "teacher_action": "Remind students not to translate every word before finding the main idea.",
+          "estimated_minutes": 5,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Find the details",
+          "student_action_en": "Read again and find one class, one interest, and one English goal.",
+          "student_action_pt": "Leia novamente e encontre uma disciplina, um interesse e um objetivo de ingles.",
+          "teacher_action": "Monitor and point students back to sentence frames if needed.",
+          "estimated_minutes": 10,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "comprehension_answers",
+        "description_en": "Short answers showing understanding of Ana's study profile.",
+        "description_pt": "Respostas curtas que mostram compreensao do perfil de estudos da Ana.",
+        "length_or_format": "2-4 short answers"
+      },
+      "assessment": {
+        "mode": "self_check",
+        "completion_criteria_en": [
+          "The student identifies Ana's course correctly.",
+          "The student finds at least one accurate goal from the text."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica corretamente o curso da Ana.",
+          "O aluno encontra pelo menos um objetivo correto no texto."
+        ],
+        "checklist_en": [
+          "I found the main idea.",
+          "I found key details."
+        ],
+        "checklist_pt": [
+          "Eu encontrei a ideia principal.",
+          "Eu encontrei detalhes importantes."
+        ],
+        "rubric": [],
+        "model_response_en": "Ana studies Fashion Design and wants to learn English for vocabulary and portfolio texts.",
+        "model_response_pt": "Ana estuda Design de Moda e quer aprender ingles para vocabulario e textos de portfolio.",
+        "common_errors": [
+          "Copying isolated words without identifying the goal.",
+          "Confusing classes with interests."
+        ],
+        "feedback_prompts_en": [
+          "Which sentence in the text helped you find the answer?"
+        ],
+        "feedback_prompts_pt": [
+          "Qual frase do texto ajudou voce a encontrar a resposta?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Underline the sentence frames in the text before the second reading."
+        ],
+        "challenge": [
+          "Ask students to infer one likely future goal Ana may have."
+        ]
+      },
+      "extension_options": [
+        "Compare Ana's interests with your own."
+      ],
+      "notes_for_app_design": "This activity can become a short reading card with image support and auto-check questions."
+    },
+    {
+      "activity_id": "m01w01-a03",
+      "week_id": "m01w01",
+      "sequence_number": 3,
+      "title": "Listen: My First Week in Fashion Design",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to a short first-semester introduction and identify classes, interests, and language goals.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: My First Week in Fashion Design",
+          "summary": "Listen to a student introduction and catch key details.",
+          "instructions": "Listen to the audio two times and note what the student studies, likes, and wants to learn.",
+          "success_criteria": [
+            "I can identify the student's course.",
+            "I can hear one class and one English goal."
+          ],
+          "sentence_frames": [
+            "The student likes ___.",
+            "The student wants to learn English for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Escute: Minha primeira semana em Design de Moda",
+          "summary": "Escute a apresentacao de um estudante e identifique detalhes importantes.",
+          "instructions": "Escute o audio duas vezes e anote o que o estudante estuda, de que gosta e o que quer aprender.",
+          "success_criteria": [
+            "Eu consigo identificar o curso do estudante.",
+            "Eu consigo ouvir uma disciplina e um objetivo de ingles."
+          ],
+          "sentence_frames": [
+            "The student likes ___.",
+            "The student wants to learn English for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "If audio is not yet available, read the script aloud slowly. Emphasize the course words students will reuse in their writing.",
+      "estimated_minutes": 15,
+      "skill_focus": [
+        "listening",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "B1",
+      "cefr_level": "A2-B1",
+      "materials": [
+        "audio clip or teacher read-aloud script"
+      ],
+      "vocabulary_refs": [
+        "m01w01-v001",
+        "m01w01-v002",
+        "m01w01-v004",
+        "m01w01-v003"
+      ],
+      "asset_refs": [
+        "m01w01-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_questions",
+        "prompt_en": "Listen and identify the main study details.",
+        "prompt_pt": "Escute e identifique os principais detalhes de estudo.",
+        "items": [
+          {
+            "label_en": "Which classes does the student mention?",
+            "label_pt": "Quais disciplinas o estudante menciona?"
+          },
+          {
+            "label_en": "Why does the student want English?",
+            "label_pt": "Por que o estudante quer aprender ingles?"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Listen for the big picture",
+          "student_action_en": "Listen once and decide who is speaking and what they study.",
+          "student_action_pt": "Escute uma vez e identifique quem esta falando e o que essa pessoa estuda.",
+          "teacher_action": "Set a clear purpose before the first play.",
+          "estimated_minutes": 5,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen for details",
+          "student_action_en": "Listen again and note one class, one interest, and one reason for learning English.",
+          "student_action_pt": "Escute novamente e anote uma disciplina, um interesse e um motivo para aprender ingles.",
+          "teacher_action": "Pause between plays if learners need more support.",
+          "estimated_minutes": 10,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "comprehension_answers",
+        "description_en": "Short notes or answers showing listening comprehension.",
+        "description_pt": "Anotacoes ou respostas curtas que mostram compreensao auditiva.",
+        "length_or_format": "2-4 short answers"
+      },
+      "assessment": {
+        "mode": "self_check",
+        "completion_criteria_en": [
+          "The student identifies the speaker as a Fashion Design student.",
+          "The student catches at least two accurate details."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica o falante como estudante de Design de Moda.",
+          "O aluno percebe pelo menos dois detalhes corretos."
+        ],
+        "checklist_en": [
+          "I listened for the main idea.",
+          "I listened again for details."
+        ],
+        "checklist_pt": [
+          "Eu escutei para entender a ideia principal.",
+          "Eu escutei novamente para identificar detalhes."
+        ],
+        "rubric": [],
+        "model_response_en": "The student studies Fashion Design, likes sketches and fabric, and wants English for vocabulary and portfolio texts.",
+        "model_response_pt": "O estudante estuda Design de Moda, gosta de croquis e tecido, e quer ingles para vocabulario e textos de portfolio.",
+        "common_errors": [
+          "Missing the reason for learning English.",
+          "Only hearing isolated vocabulary items."
+        ],
+        "feedback_prompts_en": [
+          "What words helped you identify the student's goal?"
+        ],
+        "feedback_prompts_pt": [
+          "Quais palavras ajudaram voce a identificar o objetivo do estudante?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow one extra replay with a visible keyword bank."
+        ],
+        "challenge": [
+          "Ask students to paraphrase one idea instead of repeating exact words."
+        ]
+      },
+      "extension_options": [
+        "Use the audio as a pronunciation model for one sentence."
+      ],
+      "notes_for_app_design": "This activity needs audio playback plus a text-script fallback for accessibility and teacher use."
+    },
+    {
+      "activity_id": "m01w01-a04",
+      "week_id": "m01w01",
+      "sequence_number": 4,
+      "title": "Build Your Fashion Student Profile",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students write a short guided profile using identity, course, interest, and English-goal language from the week.",
+      "student_facing": {
+        "en": {
+          "title": "Build Your Fashion Student Profile",
+          "summary": "Write a short profile about yourself as a Fashion Design student.",
+          "instructions": "Use the sentence frames to write 50-80 words about who you are, what you study, what you like, and why you want English.",
+          "success_criteria": [
+            "I write about my studies and interests.",
+            "I include one reason I want to learn English.",
+            "I use at least three Fashion Design words."
+          ],
+          "sentence_frames": [
+            "My name is ___.",
+            "I am a Fashion Design student.",
+            "I like ___.",
+            "I want to learn English for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Monte o seu perfil de estudante de Moda",
+          "summary": "Escreva um perfil curto sobre voce como estudante de Design de Moda.",
+          "instructions": "Use as frases-modelo para escrever de 50 a 80 palavras sobre quem voce e, o que estuda, do que gosta e por que quer aprender ingles.",
+          "success_criteria": [
+            "Eu escrevo sobre meus estudos e interesses.",
+            "Eu incluo um motivo para querer aprender ingles.",
+            "Eu uso pelo menos tres palavras de Design de Moda."
+          ],
+          "sentence_frames": [
+            "My name is ___.",
+            "I am a Fashion Design student.",
+            "I like ___.",
+            "I want to learn English for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Model a short profile before students write. Prioritize clear meaning, basic sentence control, and relevant fashion vocabulary over perfect accuracy.",
+      "estimated_minutes": 25,
+      "skill_focus": [
+        "writing",
+        "professional_communication",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "B1",
+      "cefr_level": "A2-B1",
+      "materials": [
+        "sentence-frame handout",
+        "student notebook or writing space"
+      ],
+      "vocabulary_refs": [
+        "m01w01-v001",
+        "m01w01-v002",
+        "m01w01-v003",
+        "m01w01-v004",
+        "m01w01-v006"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "text_response",
+        "prompt_en": "Write a short Fashion Design student profile.",
+        "prompt_pt": "Escreva um perfil curto de estudante de Design de Moda.",
+        "items": []
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Plan your ideas",
+          "student_action_en": "Choose your main details: what you study, what you like, and why you want English.",
+          "student_action_pt": "Escolha suas informacoes principais: o que voce estuda, do que gosta e por que quer aprender ingles.",
+          "teacher_action": "Prompt students to stay close to real Fashion Design interests.",
+          "estimated_minutes": 5,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Write the profile",
+          "student_action_en": "Use the sentence frames to write your profile in English.",
+          "student_action_pt": "Use as frases-modelo para escrever seu perfil em ingles.",
+          "teacher_action": "Circulate and help students fix missing verbs or articles when they block meaning.",
+          "estimated_minutes": 15,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Review one sentence",
+          "student_action_en": "Read your profile again and improve one sentence before you submit it.",
+          "student_action_pt": "Leia seu perfil novamente e melhore uma frase antes de envia-lo.",
+          "teacher_action": "Ask students to check sentence starts, verb use, and clear vocabulary choices.",
+          "estimated_minutes": 5,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "written_profile",
+        "description_en": "A short self-introduction profile connected to Fashion Design study.",
+        "description_pt": "Um perfil curto de autoapresentacao ligado aos estudos de Design de Moda.",
+        "length_or_format": "50-80 words"
+      },
+      "assessment": {
+        "mode": "rubric",
+        "completion_criteria_en": [
+          "The profile includes study identity, interest, and English goal.",
+          "The profile is understandable and connected to Fashion Design."
+        ],
+        "completion_criteria_pt": [
+          "O perfil inclui identidade de estudo, interesse e objetivo de ingles.",
+          "O perfil e compreensivel e conectado ao Design de Moda."
+        ],
+        "checklist_en": [
+          "I wrote 50-80 words.",
+          "I used at least three Fashion Design words.",
+          "I checked one sentence before submitting."
+        ],
+        "checklist_pt": [
+          "Eu escrevi de 50 a 80 palavras.",
+          "Eu usei pelo menos tres palavras de Design de Moda.",
+          "Eu revisei uma frase antes de enviar."
+        ],
+        "rubric": [
+          {
+            "criterion": "Use of Fashion Design identity language",
+            "excellent_en": "The profile clearly introduces the student and connects English to real Fashion Design study goals.",
+            "excellent_pt": "O perfil apresenta claramente o estudante e conecta o ingles a objetivos reais de estudo em Design de Moda.",
+            "satisfactory_en": "The profile introduces the student and includes a basic study goal.",
+            "satisfactory_pt": "O perfil apresenta o estudante e inclui um objetivo basico de estudo.",
+            "needs_work_en": "The profile needs a clearer connection to the student's studies or goals.",
+            "needs_work_pt": "O perfil precisa de uma conexao mais clara com os estudos ou objetivos do estudante."
+          }
+        ],
+        "model_response_en": "My name is Mariana. I am a Fashion Design student. I study at university in Brazil. I like sketching garments and working with fabric. I want to learn English for fashion vocabulary and portfolio texts.",
+        "model_response_pt": "Meu nome e Mariana. Eu sou estudante de Design de Moda. Estudo na universidade no Brasil. Gosto de fazer croquis de roupas e trabalhar com tecido. Quero aprender ingles para vocabulario de moda e textos de portfolio.",
+        "common_errors": [
+          "Missing the verb in 'I am'.",
+          "Using Portuguese word order in English sentences.",
+          "Writing very general goals with no Fashion Design context."
+        ],
+        "feedback_prompts_en": [
+          "Can you add one clearer Fashion Design detail?",
+          "Can you improve one sentence with 'I am' or 'I want to'?"
+        ],
+        "feedback_prompts_pt": [
+          "Voce pode acrescentar um detalhe mais claro de Design de Moda?",
+          "Voce pode melhorar uma frase usando 'I am' ou 'I want to'?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to build the profile from a sentence bank before writing independently."
+        ],
+        "challenge": [
+          "Invite students to add one sentence about a future design interest such as sustainability or accessories."
+        ]
+      },
+      "extension_options": [
+        "Turn the written profile into a short spoken introduction for the teacher session."
+      ],
+      "notes_for_app_design": "This needs a text-entry component with saved drafts, sentence-frame support, and teacher review visibility."
+    }
+  ]
+}

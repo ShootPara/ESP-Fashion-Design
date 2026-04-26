@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Module Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "module_id",
+    "module_number",
+    "title",
+    "description",
+    "weeks",
+    "learning_goals",
+    "professional_outcomes",
+    "language_outcomes"
+  ],
+  "properties": {
+    "module_id": {
+      "type": "string",
+      "pattern": "^module-[0-9]{2}$"
+    },
+    "module_number": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "weeks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "week_id",
+          "week_number",
+          "title",
+          "status"
+        ],
+        "properties": {
+          "week_id": {
+            "type": "string",
+            "pattern": "^m[0-9]{2}w[0-9]{2}$"
+          },
+          "week_number": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "planned",
+              "seeded",
+              "in_progress",
+              "complete"
+            ]
+          }
+        }
+      }
+    },
+    "learning_goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "professional_outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "language_outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

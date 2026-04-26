@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vocabulary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "week_id",
+    "vocabulary_groups"
+  ],
+  "properties": {
+    "week_id": {
+      "type": "string",
+      "pattern": "^m[0-9]{2}w[0-9]{2}$"
+    },
+    "vocabulary_groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "group_id",
+          "title",
+          "description",
+          "items"
+        ],
+        "properties": {
+          "group_id": {
+            "type": "string",
+            "pattern": "^m[0-9]{2}w[0-9]{2}-vg[0-9]{2}$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "vocab_id",
+                "term",
+                "part_of_speech",
+                "definition_en",
+                "learner_friendly_definition_en",
+                "learner_friendly_definition_pt",
+                "example_sentence_en",
+                "example_sentence_pt",
+                "professional_context_en",
+                "professional_context_pt",
+                "translation_notes_pt",
+                "pronunciation_notes",
+                "related_terms",
+                "difficulty"
+              ],
+              "properties": {
+                "vocab_id": {
+                  "type": "string",
+                  "pattern": "^m[0-9]{2}w[0-9]{2}-v[0-9]{3}$"
+                },
+                "term": {
+                  "type": "string"
+                },
+                "part_of_speech": {
+                  "type": "string"
+                },
+                "definition_en": {
+                  "type": "string"
+                },
+                "learner_friendly_definition_en": {
+                  "type": "string"
+                },
+                "learner_friendly_definition_pt": {
+                  "type": "string"
+                },
+                "example_sentence_en": {
+                  "type": "string"
+                },
+                "example_sentence_pt": {
+                  "type": "string"
+                },
+                "professional_context_en": {
+                  "type": "string"
+                },
+                "professional_context_pt": {
+                  "type": "string"
+                },
+                "translation_notes_pt": {
+                  "type": "string"
+                },
+                "pronunciation_notes": {
+                  "type": "string"
+                },
+                "related_terms": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "difficulty": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

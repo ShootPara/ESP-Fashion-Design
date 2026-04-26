@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Audio Prompts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "week_id",
+    "audio_prompts"
+  ],
+  "properties": {
+    "week_id": {
+      "type": "string",
+      "pattern": "^m[0-9]{2}w[0-9]{2}$"
+    },
+    "audio_prompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "asset_id",
+          "purpose",
+          "target_filename",
+          "script",
+          "speaker_profile",
+          "accent_or_variety",
+          "speed",
+          "voice_direction",
+          "suggested_openai_voice_role",
+          "duration_estimate_seconds",
+          "used_by_activity_ids",
+          "status"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": "string",
+            "pattern": "^m[0-9]{2}w[0-9]{2}-aud-[0-9]{3}$"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "target_filename": {
+            "type": "string"
+          },
+          "script": {
+            "type": "string"
+          },
+          "speaker_profile": {
+            "type": "string"
+          },
+          "accent_or_variety": {
+            "type": "string"
+          },
+          "speed": {
+            "type": "string"
+          },
+          "voice_direction": {
+            "type": "string"
+          },
+          "suggested_openai_voice_role": {
+            "type": "string"
+          },
+          "duration_estimate_seconds": {
+            "type": "number"
+          },
+          "used_by_activity_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^m[0-9]{2}w[0-9]{2}-a[0-9]{2}$"
+            }
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "needed",
+              "planned",
+              "generated",
+              "provided",
+              "missing",
+              "not_required"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

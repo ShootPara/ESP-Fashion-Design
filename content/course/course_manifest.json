@@ -1,0 +1,84 @@
+{
+  "course_id": "fashion-design-english",
+  "title": "English for Fashion Design",
+  "subtitle": "A bilingual ESP content system for fashion-design learners",
+  "description": "Canonical structured source files for an English for Special Purposes course aligned to the Fashion Design curriculum and designed for future app delivery.",
+  "target_learners": [
+    "Brazilian Portuguese-speaking Fashion Design students",
+    "Mixed-level adult learners in the A2 to B2 range"
+  ],
+  "language_focus": [
+    "fashion vocabulary",
+    "visual description",
+    "guided speaking",
+    "professional writing"
+  ],
+  "professional_focus": [
+    "fashion design study routines",
+    "studio communication",
+    "portfolio language",
+    "design-process communication"
+  ],
+  "cefr_range": "A2-B2",
+  "total_modules": 8,
+  "total_weeks": 112,
+  "modules": [
+    {
+      "module_id": "module-01",
+      "module_number": 1,
+      "title": "Studio English Foundations I: Garments, Tools, and Classroom Language",
+      "planned_weeks": 14,
+      "status": "seeded"
+    },
+    {
+      "module_id": "module-02",
+      "module_number": 2,
+      "title": "Studio English Foundations II: Accessories, Sewing, and Simple Design Research",
+      "planned_weeks": 14,
+      "status": "planned"
+    },
+    {
+      "module_id": "module-03",
+      "module_number": 3,
+      "title": "Fashion History and Visual Description",
+      "planned_weeks": 14,
+      "status": "planned"
+    },
+    {
+      "module_id": "module-04",
+      "module_number": 4,
+      "title": "Textiles, Sustainability, and Collection Concepts",
+      "planned_weeks": 14,
+      "status": "planned"
+    },
+    {
+      "module_id": "module-05",
+      "module_number": 5,
+      "title": "Collection Planning, Styling, and Fashion Media",
+      "planned_weeks": 14,
+      "status": "planned"
+    },
+    {
+      "module_id": "module-06",
+      "module_number": 6,
+      "title": "Professional Fashion Communication",
+      "planned_weeks": 14,
+      "status": "planned"
+    },
+    {
+      "module_id": "module-07",
+      "module_number": 7,
+      "title": "Creative Identity, Prototyping, and Project Presentation I",
+      "planned_weeks": 14,
+      "status": "planned"
+    },
+    {
+      "module_id": "module-08",
+      "module_number": 8,
+      "title": "Portfolio, Retail, Ethics, and Final Project English",
+      "planned_weeks": 14,
+      "status": "planned"
+    }
+  ],
+  "version": "0.1.0"
+}

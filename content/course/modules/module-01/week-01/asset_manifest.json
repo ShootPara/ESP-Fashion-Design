@@ -1,0 +1,33 @@
+{
+  "week_id": "m01w01",
+  "assets": [
+    {
+      "asset_id": "m01w01-img-001",
+      "week_id": "m01w01",
+      "asset_type": "image",
+      "title": "Fashion student studio welcome visual",
+      "description": "A supportive visual showing a Fashion Design student with sketchbook and fabric in a studio-learning environment.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-001.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w01-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Plan only in Phase 1. Do not generate until the text content is approved."
+    },
+    {
+      "asset_id": "m01w01-aud-001",
+      "week_id": "m01w01",
+      "asset_type": "audio",
+      "title": "First-week student introduction audio",
+      "description": "Short listening model in which a first-semester Fashion Design student introduces their studies and goals.",
+      "target_filename": "assets/audio/module-01/week-01/m01w01-aud-001.mp3",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w01-a03"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Plan only in Phase 1. A teacher read-aloud version can substitute before audio generation."
+    }
+  ]
+}

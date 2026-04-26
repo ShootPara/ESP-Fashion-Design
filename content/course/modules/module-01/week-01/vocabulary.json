@@ -1,0 +1,139 @@
+{
+  "week_id": "m01w01",
+  "vocabulary_groups": [
+    {
+      "group_id": "m01w01-vg01",
+      "title": "Fashion student identity",
+      "description": "Core words for introducing yourself as a Fashion Design student.",
+      "items": [
+        {
+          "vocab_id": "m01w01-v001",
+          "term": "fashion design",
+          "part_of_speech": "noun",
+          "definition_en": "The field of creating clothing, accessories, and fashion concepts.",
+          "learner_friendly_definition_en": "The subject students study when they learn to create fashion products and ideas.",
+          "learner_friendly_definition_pt": "A area de estudo em que os alunos aprendem a criar roupas, acessorios e ideias de moda.",
+          "example_sentence_en": "I study fashion design at university.",
+          "example_sentence_pt": "Eu estudo design de moda na universidade.",
+          "professional_context_en": "Students use this term to describe their degree, coursework, and professional focus.",
+          "professional_context_pt": "Os alunos usam esse termo para descrever seu curso, suas disciplinas e seu foco profissional.",
+          "translation_notes_pt": "A traducao mais natural e 'design de moda'.",
+          "pronunciation_notes": "Say FASH-un de-ZINE with clear stress on the second word.",
+          "related_terms": [
+            "designer",
+            "collection",
+            "studio"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v002",
+          "term": "sketch",
+          "part_of_speech": "noun",
+          "definition_en": "A quick drawing that shows a fashion idea.",
+          "learner_friendly_definition_en": "A simple drawing of a clothing idea.",
+          "learner_friendly_definition_pt": "Um desenho simples de uma ideia de roupa.",
+          "example_sentence_en": "This is my first sketch for class.",
+          "example_sentence_pt": "Este e o meu primeiro croqui para a aula.",
+          "professional_context_en": "Fashion students often present sketches before making garments.",
+          "professional_context_pt": "Estudantes de moda costumam apresentar croquis antes de confeccionar pecas.",
+          "translation_notes_pt": "Em contexto de moda, 'sketch' pode ser traduzido como 'croqui' ou 'esboco'.",
+          "pronunciation_notes": "The final sound is short and clear: sketch.",
+          "related_terms": [
+            "drawing",
+            "illustration",
+            "garment"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v003",
+          "term": "portfolio",
+          "part_of_speech": "noun",
+          "definition_en": "A collection of work that shows a student's or designer's skills.",
+          "learner_friendly_definition_en": "A group of texts, images, or projects that shows what you can do.",
+          "learner_friendly_definition_pt": "Um conjunto de textos, imagens ou projetos que mostra o que voce sabe fazer.",
+          "example_sentence_en": "I want to write better texts for my portfolio.",
+          "example_sentence_pt": "Eu quero escrever textos melhores para o meu portfolio.",
+          "professional_context_en": "A portfolio helps Fashion Design students present work to teachers, internships, and future employers.",
+          "professional_context_pt": "O portfolio ajuda estudantes de moda a apresentar trabalhos para professores, estagios e futuros empregadores.",
+          "translation_notes_pt": "Muitos cursos usam a forma 'portfolio' no uso cotidiano.",
+          "pronunciation_notes": "Say port-FOH-lee-oh with stress on FOH.",
+          "related_terms": [
+            "project",
+            "presentation",
+            "caption"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w01-vg02",
+      "title": "Course routine and studio language",
+      "description": "Useful verbs and nouns for the weekly ESP workflow.",
+      "items": [
+        {
+          "vocab_id": "m01w01-v004",
+          "term": "fabric",
+          "part_of_speech": "noun",
+          "definition_en": "Material used to make clothing.",
+          "learner_friendly_definition_en": "The cloth used to make a garment.",
+          "learner_friendly_definition_pt": "O tecido usado para fazer uma peca de roupa.",
+          "example_sentence_en": "I like working with fabric in sewing class.",
+          "example_sentence_pt": "Eu gosto de trabalhar com tecido na aula de costura.",
+          "professional_context_en": "Fabric vocabulary appears often in studio classes, design descriptions, and portfolio work.",
+          "professional_context_pt": "O vocabulario de tecidos aparece com frequencia em aulas de atelie, descricoes de design e portfolio.",
+          "translation_notes_pt": "A traducao direta mais comum e 'tecido'.",
+          "pronunciation_notes": "Stress the first syllable: FAB-ric.",
+          "related_terms": [
+            "material",
+            "texture",
+            "garment"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v005",
+          "term": "submit",
+          "part_of_speech": "verb",
+          "definition_en": "To send your work for review.",
+          "learner_friendly_definition_en": "To send your answer or task to the teacher or platform.",
+          "learner_friendly_definition_pt": "Enviar sua resposta ou atividade para o professor ou para a plataforma.",
+          "example_sentence_en": "Please submit your profile after you review it.",
+          "example_sentence_pt": "Por favor, envie o seu perfil depois de revisa-lo.",
+          "professional_context_en": "Students need this verb for assignments, drafts, and portfolio tasks.",
+          "professional_context_pt": "Os alunos precisam desse verbo para tarefas, rascunhos e atividades de portfolio.",
+          "translation_notes_pt": "Pode ser traduzido como 'enviar' ou 'submeter', dependendo do contexto.",
+          "pronunciation_notes": "The stress is on the second syllable: sub-MIT.",
+          "related_terms": [
+            "review",
+            "feedback",
+            "task"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w01-v006",
+          "term": "feedback",
+          "part_of_speech": "noun",
+          "definition_en": "Comments that help improve work.",
+          "learner_friendly_definition_en": "Helpful comments about what is working and what to improve.",
+          "learner_friendly_definition_pt": "Comentarios uteis sobre o que esta funcionando e o que melhorar.",
+          "example_sentence_en": "I read the feedback and improve one sentence.",
+          "example_sentence_pt": "Eu leio o feedback e melhoro uma frase.",
+          "professional_context_en": "Feedback is central in critiques, writing revision, and teacher review.",
+          "professional_context_pt": "O feedback e central em criticas, revisao de escrita e avaliacao do professor.",
+          "translation_notes_pt": "Muitos professores usam 'feedback' diretamente, mas 'devolutiva' tambem pode aparecer.",
+          "pronunciation_notes": "Say FEED-back with stress on FEED.",
+          "related_terms": [
+            "correction",
+            "review",
+            "revision"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    }
+  ]
+}

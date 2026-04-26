@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w01",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w01-aud-001",
+      "purpose": "Listening model for a first-semester Fashion Design student introduction.",
+      "target_filename": "assets/audio/module-01/week-01/m01w01-aud-001.mp3",
+      "script": "Hi, my name is Lucas. I am a Fashion Design student. This is my first semester. I have classes in drawing, sewing, patternmaking, creativity, and text production. I like drawing sketches and working with fabric. I want to learn English because I need fashion vocabulary and I want to write better portfolio texts.",
+      "speaker_profile": "One young adult Fashion Design student speaking clearly and confidently.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2-B1 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Friendly, supportive, and easy to follow, with short pauses between ideas.",
+      "suggested_openai_voice_role": "Choose an OpenAI or ChatGPT voice available at generation time that sounds like a calm university student.",
+      "duration_estimate_seconds": 35,
+      "used_by_activity_ids": [
+        "m01w01-a03"
+      ],
+      "status": "needed"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Course Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "course_id",
+    "title",
+    "subtitle",
+    "description",
+    "target_learners",
+    "language_focus",
+    "professional_focus",
+    "cefr_range",
+    "total_modules",
+    "total_weeks",
+    "modules",
+    "version"
+  ],
+  "properties": {
+    "course_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "target_learners": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "language_focus": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "professional_focus": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cefr_range": {
+      "type": "string",
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "A1-A2",
+        "A2-B1",
+        "B1-B2",
+        "B2-C1",
+        "A2-B2"
+      ]
+    },
+    "total_modules": {
+      "type": "number"
+    },
+    "total_weeks": {
+      "type": "number"
+    },
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "module_id",
+          "module_number",
+          "title",
+          "planned_weeks",
+          "status"
+        ],
+        "properties": {
+          "module_id": {
+            "type": "string",
+            "pattern": "^module-[0-9]{2}$"
+          },
+          "module_number": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "planned_weeks": {
+            "type": "number"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "planned",
+              "seeded",
+              "in_progress",
+              "complete"
+            ]
+          }
+        }
+      }
+    },
+    "version": {
+      "type": "string"
+    }
+  }
+}

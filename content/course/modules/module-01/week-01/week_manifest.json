@@ -1,0 +1,62 @@
+{
+  "week_id": "m01w01",
+  "module_id": "module-01",
+  "week_number": 1,
+  "title": "Welcome to Fashion Design English",
+  "summary": "Students begin the course with a low-pressure introduction to fashion-study identity language, course routine vocabulary, and a first guided profile in English.",
+  "essential_question": "How can English help me describe who I am and what I study in Fashion Design?",
+  "professional_context": "The week is tied to first-semester Fashion Design study routines, including drawing, sewing, patternmaking, creativity, and early portfolio language.",
+  "language_focus": [
+    "self-introduction",
+    "course-routine vocabulary",
+    "fashion-study identity language",
+    "guided profile writing"
+  ],
+  "skill_focus": [
+    "reading",
+    "listening",
+    "writing",
+    "vocabulary",
+    "speaking"
+  ],
+  "target_vocabulary_groups": [
+    "m01w01-vg01",
+    "m01w01-vg02"
+  ],
+  "grammar_focus": [
+    "I am",
+    "I study",
+    "I like",
+    "I want to learn"
+  ],
+  "pronunciation_focus": [
+    "fashion",
+    "design",
+    "sketch",
+    "fabric",
+    "portfolio"
+  ],
+  "cefr_access_level": "A2",
+  "cefr_target_level": "B1",
+  "estimated_total_minutes": 65,
+  "activity_ids": [
+    "m01w01-a01",
+    "m01w01-a02",
+    "m01w01-a03",
+    "m01w01-a04"
+  ],
+  "asset_ids": [
+    "m01w01-img-001",
+    "m01w01-aud-001"
+  ],
+  "teacher_preparation": [
+    "Preview the model reading and listening script before class.",
+    "Prepare a quick oral introduction routine for the weekly teacher-led session.",
+    "Decide whether students will draft their profile on paper, in a shared document, or in a future app input."
+  ],
+  "student_deliverables": [
+    "Completion of welcome and comprehension activities.",
+    "A short written Fashion Design student profile in English.",
+    "A brief spoken self-introduction for the teacher-led session."
+  ]
+}

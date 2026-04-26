@@ -1,0 +1,19 @@
+{
+  "week_id": "m01w01",
+  "image_prompts": [
+    {
+      "asset_id": "m01w01-img-001",
+      "purpose": "Reading support visual for a welcome-week student profile.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-001.png",
+      "visual_description": "An adult Fashion Design student in a tidy studio classroom holding a sketchbook near fabric swatches and simple tools, with an approachable academic atmosphere.",
+      "style_instructions": "Use a digital watercolor style with clear educational detail and an adult learner tone.",
+      "composition_notes": "Keep the background uncluttered, show the sketchbook and fabric clearly, and avoid busy decorative elements that distract from the reading task.",
+      "text_in_image": "None.",
+      "avoid": "Avoid logos, childish cartoon styling, runway glamour poses, and dense background text.",
+      "used_by_activity_ids": [
+        "m01w01-a02"
+      ],
+      "status": "needed"
+    }
+  ]
+}
