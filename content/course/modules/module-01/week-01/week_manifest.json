@@ -3,60 +3,89 @@
   "module_id": "module-01",
   "week_number": 1,
   "title": "Welcome to Fashion Design English",
-  "summary": "Students begin the course with a low-pressure introduction to fashion-study identity language, course routine vocabulary, and a first guided profile in English.",
-  "essential_question": "How can English help me describe who I am and what I study in Fashion Design?",
-  "professional_context": "The week is tied to first-semester Fashion Design study routines, including drawing, sewing, patternmaking, creativity, and early portfolio language.",
+  "summary": "Students learn the Week 1 course rhythm, complete a light diagnostic, build starter vocabulary for Fashion Design study, and produce a short bilingual-supported English profile they can reuse in later speaking and portfolio work.",
+  "essential_question": "How can English help me introduce myself and participate in Fashion Design study from the first week?",
+  "professional_context": "Week 1 connects English directly to first-semester Fashion Design routines, including drawing, sewing, patternmaking, creativity, text production, and the habit of explaining personal interests and study goals in a studio context.",
   "language_focus": [
     "self-introduction",
     "course-routine vocabulary",
-    "fashion-study identity language",
-    "guided profile writing"
+    "fashion-student identity language",
+    "early visual and object description",
+    "guided profile writing",
+    "simple feedback and revision language"
   ],
   "skill_focus": [
     "reading",
     "listening",
     "writing",
     "vocabulary",
-    "speaking"
+    "speaking",
+    "professional_communication",
+    "pronunciation"
   ],
   "target_vocabulary_groups": [
     "m01w01-vg01",
-    "m01w01-vg02"
+    "m01w01-vg02",
+    "m01w01-vg03",
+    "m01w01-vg04",
+    "m01w01-vg05"
   ],
   "grammar_focus": [
-    "I am",
+    "My name is",
+    "I am a fashion design student",
     "I study",
     "I like",
-    "I want to learn"
+    "I am interested in",
+    "I want to learn",
+    "I need English for"
   ],
   "pronunciation_focus": [
     "fashion",
     "design",
     "sketch",
     "fabric",
-    "portfolio"
+    "garment",
+    "sewing",
+    "patternmaking",
+    "portfolio",
+    "studio"
   ],
   "cefr_access_level": "A2",
   "cefr_target_level": "B1",
-  "estimated_total_minutes": 65,
+  "estimated_total_minutes": 127,
   "activity_ids": [
     "m01w01-a01",
     "m01w01-a02",
     "m01w01-a03",
-    "m01w01-a04"
+    "m01w01-a04",
+    "m01w01-a05",
+    "m01w01-a06",
+    "m01w01-a07"
   ],
   "asset_ids": [
     "m01w01-img-001",
+    "m01w01-img-002",
+    "m01w01-img-003",
+    "m01w01-img-004",
+    "m01w01-img-005",
+    "m01w01-img-006",
+    "m01w01-img-007",
     "m01w01-aud-001"
   ],
   "teacher_preparation": [
-    "Preview the model reading and listening script before class.",
-    "Prepare a quick oral introduction routine for the weekly teacher-led session.",
-    "Decide whether students will draft their profile on paper, in a shared document, or in a future app input."
+    "Review the Week 1 manual sequence and keep the tone welcoming, visual, and low-pressure.",
+    "Preview the reading text, listening script, and vocabulary image set before class.",
+    "Prepare a pronunciation list for fashion design, sketch, fabric, garment, sewing, patternmaking, studio, and portfolio.",
+    "Decide whether students will draft the profile on paper, in a shared document, or in a future app text-response field.",
+    "Plan how to monitor the teacher-led speaking session and note which students need extra support with sentence frames."
   ],
   "student_deliverables": [
-    "Completion of welcome and comprehension activities.",
-    "A short written Fashion Design student profile in English.",
-    "A brief spoken self-introduction for the teacher-led session."
+    "Completion of the orientation and diagnostic task.",
+    "Reading-comprehension responses about a model Fashion Design student.",
+    "Listening-comprehension responses about a first-semester Fashion Design student.",
+    "Completion of the starter vocabulary practice set.",
+    "A 50-80 word Fashion Design student profile in English.",
+    "One corrected sentence saved after feedback review.",
+    "A short oral self-introduction during the teacher-led session."
   ]
 }

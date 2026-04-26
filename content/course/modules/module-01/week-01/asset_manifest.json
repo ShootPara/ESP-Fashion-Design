@@ -6,28 +6,114 @@
       "week_id": "m01w01",
       "asset_type": "image",
       "title": "Fashion student studio welcome visual",
-      "description": "A supportive visual showing a Fashion Design student with sketchbook and fabric in a studio-learning environment.",
+      "description": "An adult Fashion Design student in a calm studio-classroom space with a sketchbook, fabric, and a simple work table.",
       "target_filename": "assets/images/module-01/week-01/m01w01-img-001.png",
       "status": "needed",
       "used_by_activity_ids": [
-        "m01w01-a02"
+        "m01w01-a02",
+        "m01w01-a03"
       ],
       "generation_source": "image_generation",
-      "notes": "Plan only in Phase 1. Do not generate until the text content is approved."
+      "notes": "Use as a reading and listening support visual. Do not generate in Phase 2."
+    },
+    {
+      "asset_id": "m01w01-img-002",
+      "week_id": "m01w01",
+      "asset_type": "image",
+      "title": "Sketchbook vocabulary image",
+      "description": "A clear fashion sketchbook or croquis page suitable for A2 vocabulary recognition.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-002.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "This image should be simple enough for matching and sentence-frame practice."
+    },
+    {
+      "asset_id": "m01w01-img-003",
+      "week_id": "m01w01",
+      "asset_type": "image",
+      "title": "Fabric swatch vocabulary image",
+      "description": "A close, readable fabric swatch image with visible textile texture and no distracting background.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-003.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use for matching and phrase practice in the vocabulary starter."
+    },
+    {
+      "asset_id": "m01w01-img-004",
+      "week_id": "m01w01",
+      "asset_type": "image",
+      "title": "Garment vocabulary image",
+      "description": "A simple garment presented on a hanger or mannequin for beginner visual recognition.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-004.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Keep the garment easy to identify without advanced detail language."
+    },
+    {
+      "asset_id": "m01w01-img-005",
+      "week_id": "m01w01",
+      "asset_type": "image",
+      "title": "Sewing vocabulary image",
+      "description": "A sewing machine or hand-sewing scene that clearly represents sewing as a class area.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-005.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Avoid clutter so the image supports quick recognition."
+    },
+    {
+      "asset_id": "m01w01-img-006",
+      "week_id": "m01w01",
+      "asset_type": "image",
+      "title": "Patternmaking vocabulary image",
+      "description": "A simple patternmaking scene with paper pattern pieces, ruler, and measuring tools.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-006.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "The image should visually distinguish patternmaking from sewing."
+    },
+    {
+      "asset_id": "m01w01-img-007",
+      "week_id": "m01w01",
+      "asset_type": "image",
+      "title": "Portfolio board vocabulary image",
+      "description": "A beginner-friendly portfolio board or page showing fashion work samples without readable brand text.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-007.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w01-a04",
+        "m01w01-a05"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use as a visual bridge between vocabulary and the profile-writing goal."
     },
     {
       "asset_id": "m01w01-aud-001",
       "week_id": "m01w01",
       "asset_type": "audio",
       "title": "First-week student introduction audio",
-      "description": "Short listening model in which a first-semester Fashion Design student introduces their studies and goals.",
+      "description": "A short first-person introduction from a first-semester Fashion Design student that mentions classes, interests, and English goals.",
       "target_filename": "assets/audio/module-01/week-01/m01w01-aud-001.mp3",
       "status": "needed",
       "used_by_activity_ids": [
         "m01w01-a03"
       ],
       "generation_source": "audio_generation",
-      "notes": "Plan only in Phase 1. A teacher read-aloud version can substitute before audio generation."
+      "notes": "Teacher read-aloud can substitute until audio is generated."
     }
   ]
 }

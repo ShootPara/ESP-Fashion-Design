@@ -3,133 +3,494 @@
   "vocabulary_groups": [
     {
       "group_id": "m01w01-vg01",
-      "title": "Fashion student identity",
-      "description": "Core words for introducing yourself as a Fashion Design student.",
+      "title": "Student identity and course routine",
+      "description": "Core words students need to explain who they are and how the weekly course works.",
       "items": [
         {
           "vocab_id": "m01w01-v001",
-          "term": "fashion design",
+          "term": "student",
           "part_of_speech": "noun",
-          "definition_en": "The field of creating clothing, accessories, and fashion concepts.",
-          "learner_friendly_definition_en": "The subject students study when they learn to create fashion products and ideas.",
-          "learner_friendly_definition_pt": "A area de estudo em que os alunos aprendem a criar roupas, acessorios e ideias de moda.",
-          "example_sentence_en": "I study fashion design at university.",
-          "example_sentence_pt": "Eu estudo design de moda na universidade.",
-          "professional_context_en": "Students use this term to describe their degree, coursework, and professional focus.",
-          "professional_context_pt": "Os alunos usam esse termo para descrever seu curso, suas disciplinas e seu foco profissional.",
-          "translation_notes_pt": "A traducao mais natural e 'design de moda'.",
-          "pronunciation_notes": "Say FASH-un de-ZINE with clear stress on the second word.",
+          "definition_en": "A person who is studying in a school, course, or university.",
+          "learner_friendly_definition_en": "A person who is learning in a class or course.",
+          "learner_friendly_definition_pt": "Uma pessoa que está aprendendo em uma aula, curso ou universidade.",
+          "example_sentence_en": "I am a Fashion Design student.",
+          "example_sentence_pt": "Eu sou estudante de Design de Moda.",
+          "professional_context_en": "Students use this word to introduce themselves in class and in profile texts.",
+          "professional_context_pt": "Os alunos usam essa palavra para se apresentar na aula e em textos de perfil.",
+          "translation_notes_pt": "A tradução direta mais comum é 'estudante' ou 'aluno'.",
+          "pronunciation_notes": "Say STU-dent with stress on the first syllable.",
           "related_terms": [
-            "designer",
-            "collection",
-            "studio"
+            "teacher",
+            "class",
+            "course"
           ],
           "difficulty": "core"
         },
         {
           "vocab_id": "m01w01-v002",
-          "term": "sketch",
+          "term": "course",
           "part_of_speech": "noun",
-          "definition_en": "A quick drawing that shows a fashion idea.",
-          "learner_friendly_definition_en": "A simple drawing of a clothing idea.",
-          "learner_friendly_definition_pt": "Um desenho simples de uma ideia de roupa.",
-          "example_sentence_en": "This is my first sketch for class.",
-          "example_sentence_pt": "Este e o meu primeiro croqui para a aula.",
-          "professional_context_en": "Fashion students often present sketches before making garments.",
-          "professional_context_pt": "Estudantes de moda costumam apresentar croquis antes de confeccionar pecas.",
-          "translation_notes_pt": "Em contexto de moda, 'sketch' pode ser traduzido como 'croqui' ou 'esboco'.",
-          "pronunciation_notes": "The final sound is short and clear: sketch.",
+          "definition_en": "A program of study with classes and tasks.",
+          "learner_friendly_definition_en": "A set of classes that students follow to learn something.",
+          "learner_friendly_definition_pt": "Um conjunto de aulas que os alunos fazem para aprender alguma coisa.",
+          "example_sentence_en": "This course helps me learn English for Fashion Design.",
+          "example_sentence_pt": "Este curso me ajuda a aprender inglês para Design de Moda.",
+          "professional_context_en": "Week 1 uses this word to explain the ESP course routine and expectations.",
+          "professional_context_pt": "A Semana 1 usa essa palavra para explicar a rotina e as expectativas do curso de ESP.",
+          "translation_notes_pt": "Em contexto acadêmico, pode ser 'curso'.",
+          "pronunciation_notes": "Say KORS as one syllable in most common models.",
           "related_terms": [
-            "drawing",
-            "illustration",
-            "garment"
+            "class",
+            "semester",
+            "student"
           ],
           "difficulty": "core"
         },
         {
           "vocab_id": "m01w01-v003",
+          "term": "submit",
+          "part_of_speech": "verb",
+          "definition_en": "To send work for review.",
+          "learner_friendly_definition_en": "To send your task or answer to the teacher or platform.",
+          "learner_friendly_definition_pt": "Enviar sua atividade ou resposta para o professor ou para a plataforma.",
+          "example_sentence_en": "Submit your profile after you review one sentence.",
+          "example_sentence_pt": "Envie o seu perfil depois de revisar uma frase.",
+          "professional_context_en": "Students need this word for digital tasks, drafts, and weekly assignments.",
+          "professional_context_pt": "Os alunos precisam dessa palavra para tarefas digitais, rascunhos e atividades semanais.",
+          "translation_notes_pt": "Pode ser traduzido como 'enviar' ou 'submeter', dependendo do contexto.",
+          "pronunciation_notes": "Stress the second syllable: sub-MIT.",
+          "related_terms": [
+            "review",
+            "feedback",
+            "answer"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w01-v004",
+          "term": "feedback",
+          "part_of_speech": "noun",
+          "definition_en": "Comments that help improve work.",
+          "learner_friendly_definition_en": "Helpful comments about what is good and what can improve.",
+          "learner_friendly_definition_pt": "Comentários úteis sobre o que está bom e o que pode melhorar.",
+          "example_sentence_en": "I read the feedback and improve one sentence.",
+          "example_sentence_pt": "Eu leio o feedback e melhoro uma frase.",
+          "professional_context_en": "Feedback is important in writing revision, critiques, and teacher review.",
+          "professional_context_pt": "O feedback é importante na revisão de escrita, em críticas e na avaliação do professor.",
+          "translation_notes_pt": "A forma 'feedback' é comum, mas 'devolutiva' também pode aparecer.",
+          "pronunciation_notes": "Say FEED-back with stress on FEED.",
+          "related_terms": [
+            "review",
+            "correction",
+            "teacher"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v005",
+          "term": "review",
+          "part_of_speech": "verb",
+          "definition_en": "To look at work again carefully.",
+          "learner_friendly_definition_en": "To check your work again before or after feedback.",
+          "learner_friendly_definition_pt": "Verificar seu trabalho novamente antes ou depois do feedback.",
+          "example_sentence_en": "Review your profile before you submit it.",
+          "example_sentence_pt": "Revise o seu perfil antes de envia-lo.",
+          "professional_context_en": "Review is part of revision habits in class and in portfolio preparation.",
+          "professional_context_pt": "A revisão faz parte do hábito de melhorar textos na aula e na preparação de portfólio.",
+          "translation_notes_pt": "Pode ser traduzido como 'revisar' ou 'analisar novamente'.",
+          "pronunciation_notes": "Stress the second syllable: re-VIEW.",
+          "related_terms": [
+            "submit",
+            "feedback",
+            "correction"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w01-vg02",
+      "title": "Fashion-design identity",
+      "description": "Words students need to name their field and professional direction.",
+      "items": [
+        {
+          "vocab_id": "m01w01-v006",
+          "term": "fashion design",
+          "part_of_speech": "noun",
+          "definition_en": "The field of creating clothing, accessories, and fashion concepts.",
+          "learner_friendly_definition_en": "The subject students study when they learn to create fashion ideas and products.",
+          "learner_friendly_definition_pt": "A área em que os alunos aprendem a criar ideias e produtos de moda.",
+          "example_sentence_en": "I study Fashion Design at university.",
+          "example_sentence_pt": "Eu estudo Design de Moda na universidade.",
+          "professional_context_en": "Students use this phrase to explain their degree and professional area.",
+          "professional_context_pt": "Os alunos usam essa expressão para explicar o curso e a área profissional.",
+          "translation_notes_pt": "A tradução mais natural é 'Design de Moda'.",
+          "pronunciation_notes": "Say FASH-un de-ZINE with clear stress on the second word.",
+          "related_terms": [
+            "designer",
+            "studio",
+            "portfolio"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v007",
+          "term": "designer",
+          "part_of_speech": "noun",
+          "definition_en": "A person who creates fashion ideas, garments, or collections.",
+          "learner_friendly_definition_en": "A person who plans and creates designs.",
+          "learner_friendly_definition_pt": "Uma pessoa que planeja e cria designs.",
+          "example_sentence_en": "She wants to become a designer.",
+          "example_sentence_pt": "Ela quer se tornar designer.",
+          "professional_context_en": "The word helps students connect their studies to a future profession.",
+          "professional_context_pt": "A palavra ajuda os alunos a relacionar os estudos a uma profissao futura.",
+          "translation_notes_pt": "No uso cotidiano, 'designer' costuma ser mantido em inglês.",
+          "pronunciation_notes": "Say de-ZY-ner with stress on ZY.",
+          "related_terms": [
+            "fashion design",
+            "collection",
+            "portfolio"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v008",
+          "term": "studio",
+          "part_of_speech": "noun",
+          "definition_en": "A workspace for making, studying, or discussing design work.",
+          "learner_friendly_definition_en": "A place where design students work, practice, and create.",
+          "learner_friendly_definition_pt": "Um lugar onde estudantes de design trabalham, praticam e criam.",
+          "example_sentence_en": "We work in the studio during class.",
+          "example_sentence_pt": "Nós trabalhamos no estúdio durante a aula.",
+          "professional_context_en": "The studio is a key place for Fashion Design learning and critique.",
+          "professional_context_pt": "O estúdio é um lugar importante para aprendizagem e crítica em Design de Moda.",
+          "translation_notes_pt": "Pode ser 'estúdio' ou 'ateliê', dependendo do contexto.",
+          "pronunciation_notes": "Say STU-dee-oh with stress on the first syllable.",
+          "related_terms": [
+            "class",
+            "garment",
+            "sketch"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v009",
           "term": "portfolio",
           "part_of_speech": "noun",
           "definition_en": "A collection of work that shows a student's or designer's skills.",
-          "learner_friendly_definition_en": "A group of texts, images, or projects that shows what you can do.",
-          "learner_friendly_definition_pt": "Um conjunto de textos, imagens ou projetos que mostra o que voce sabe fazer.",
+          "learner_friendly_definition_en": "A group of projects, texts, or images that shows what you can do.",
+          "learner_friendly_definition_pt": "Um conjunto de projetos, textos ou imagens que mostra o que você sabe fazer.",
           "example_sentence_en": "I want to write better texts for my portfolio.",
-          "example_sentence_pt": "Eu quero escrever textos melhores para o meu portfolio.",
-          "professional_context_en": "A portfolio helps Fashion Design students present work to teachers, internships, and future employers.",
-          "professional_context_pt": "O portfolio ajuda estudantes de moda a apresentar trabalhos para professores, estagios e futuros empregadores.",
-          "translation_notes_pt": "Muitos cursos usam a forma 'portfolio' no uso cotidiano.",
+          "example_sentence_pt": "Eu quero escrever textos melhores para o meu portfólio.",
+          "professional_context_en": "Portfolio language matters for presentations, internships, and future jobs.",
+          "professional_context_pt": "A linguagem de portfólio é importante para apresentações, estágios e futuros trabalhos.",
+          "translation_notes_pt": "A forma 'portfólio' é comum em cursos de moda.",
           "pronunciation_notes": "Say port-FOH-lee-oh with stress on FOH.",
           "related_terms": [
+            "designer",
             "project",
-            "presentation",
-            "caption"
+            "presentation"
           ],
           "difficulty": "core"
         }
       ]
     },
     {
-      "group_id": "m01w01-vg02",
-      "title": "Course routine and studio language",
-      "description": "Useful verbs and nouns for the weekly ESP workflow.",
+      "group_id": "m01w01-vg03",
+      "title": "First-semester coursework",
+      "description": "Words tied to the first-semester foundation courses named in the Week 1 manual.",
       "items": [
         {
-          "vocab_id": "m01w01-v004",
-          "term": "fabric",
+          "vocab_id": "m01w01-v010",
+          "term": "drawing",
           "part_of_speech": "noun",
-          "definition_en": "Material used to make clothing.",
-          "learner_friendly_definition_en": "The cloth used to make a garment.",
-          "learner_friendly_definition_pt": "O tecido usado para fazer uma peca de roupa.",
-          "example_sentence_en": "I like working with fabric in sewing class.",
-          "example_sentence_pt": "Eu gosto de trabalhar com tecido na aula de costura.",
-          "professional_context_en": "Fabric vocabulary appears often in studio classes, design descriptions, and portfolio work.",
-          "professional_context_pt": "O vocabulario de tecidos aparece com frequencia em aulas de atelie, descricoes de design e portfolio.",
-          "translation_notes_pt": "A traducao direta mais comum e 'tecido'.",
-          "pronunciation_notes": "Stress the first syllable: FAB-ric.",
+          "definition_en": "The activity of making images or lines by hand.",
+          "learner_friendly_definition_en": "Making a picture with lines and shapes.",
+          "learner_friendly_definition_pt": "Fazer uma imagem com linhas e formas.",
+          "example_sentence_en": "I have drawing class this semester.",
+          "example_sentence_pt": "Eu tenho aula de desenho neste semestre.",
+          "professional_context_en": "Drawing is one of the first areas students mention in Fashion Design study.",
+          "professional_context_pt": "Desenho é uma das primeiras áreas que os alunos mencionam em Design de Moda.",
+          "translation_notes_pt": "A tradução mais comum é 'desenho'.",
+          "pronunciation_notes": "Say DRAW-ing, not draw-eeng.",
           "related_terms": [
-            "material",
-            "texture",
-            "garment"
+            "sketch",
+            "creativity",
+            "class"
           ],
           "difficulty": "core"
         },
         {
-          "vocab_id": "m01w01-v005",
-          "term": "submit",
-          "part_of_speech": "verb",
-          "definition_en": "To send your work for review.",
-          "learner_friendly_definition_en": "To send your answer or task to the teacher or platform.",
-          "learner_friendly_definition_pt": "Enviar sua resposta ou atividade para o professor ou para a plataforma.",
-          "example_sentence_en": "Please submit your profile after you review it.",
-          "example_sentence_pt": "Por favor, envie o seu perfil depois de revisa-lo.",
-          "professional_context_en": "Students need this verb for assignments, drafts, and portfolio tasks.",
-          "professional_context_pt": "Os alunos precisam desse verbo para tarefas, rascunhos e atividades de portfolio.",
-          "translation_notes_pt": "Pode ser traduzido como 'enviar' ou 'submeter', dependendo do contexto.",
-          "pronunciation_notes": "The stress is on the second syllable: sub-MIT.",
+          "vocab_id": "m01w01-v011",
+          "term": "sewing",
+          "part_of_speech": "noun",
+          "definition_en": "The activity of making or joining fabric with stitches.",
+          "learner_friendly_definition_en": "Working with fabric and stitches to make something.",
+          "learner_friendly_definition_pt": "Trabalhar com tecido e pontos para fazer alguma coisa.",
+          "example_sentence_en": "I like sewing and fabric work.",
+          "example_sentence_pt": "Eu gosto de costura e de trabalhar com tecido.",
+          "professional_context_en": "Sewing vocabulary supports both studio practice and later process descriptions.",
+          "professional_context_pt": "O vocabulário de costura ajuda tanto na prática de ateliê quanto em descrições de processo mais tarde.",
+          "translation_notes_pt": "A tradução direta mais comum é 'costura'.",
+          "pronunciation_notes": "Say SOH-ing. The w is silent.",
           "related_terms": [
-            "review",
-            "feedback",
-            "task"
+            "fabric",
+            "garment",
+            "studio"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v012",
+          "term": "patternmaking",
+          "part_of_speech": "noun",
+          "definition_en": "The process of creating pattern pieces for garments.",
+          "learner_friendly_definition_en": "Making the paper or shape pieces used to build a garment.",
+          "learner_friendly_definition_pt": "Criar as peças de papel ou de forma usadas para construir uma roupa.",
+          "example_sentence_en": "Patternmaking is important for garment construction.",
+          "example_sentence_pt": "Modelagem é importante para a construção da roupa.",
+          "professional_context_en": "Students hear this word early in Fashion Design programs and reuse it later in Module 1.",
+          "professional_context_pt": "Os alunos encontram essa palavra cedo no curso de Moda e a reutilizam depois no Módulo 1.",
+          "translation_notes_pt": "Em contexto de moda, a tradução mais natural costuma ser 'modelagem'.",
+          "pronunciation_notes": "Say PAT-ern-may-king with clear stress on PAT.",
+          "related_terms": [
+            "garment",
+            "studio",
+            "class"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v013",
+          "term": "creativity",
+          "part_of_speech": "noun",
+          "definition_en": "The ability to produce original ideas.",
+          "learner_friendly_definition_en": "The ability to think of new and interesting ideas.",
+          "learner_friendly_definition_pt": "A capacidade de pensar em ideias novas e interessantes.",
+          "example_sentence_en": "Creativity is important in design work.",
+          "example_sentence_pt": "Criatividade é importante no trabalho de design.",
+          "professional_context_en": "The word connects English learning to idea generation and design process.",
+          "professional_context_pt": "A palavra conecta o aprendizado de inglês à geração de ideias e ao processo de design.",
+          "translation_notes_pt": "A tradução direta é 'criatividade'.",
+          "pronunciation_notes": "Say kree-ay-TIV-i-tee with stress on TIV.",
+          "related_terms": [
+            "design",
+            "drawing",
+            "project"
           ],
           "difficulty": "support"
         },
         {
-          "vocab_id": "m01w01-v006",
-          "term": "feedback",
+          "vocab_id": "m01w01-v014",
+          "term": "art history",
           "part_of_speech": "noun",
-          "definition_en": "Comments that help improve work.",
-          "learner_friendly_definition_en": "Helpful comments about what is working and what to improve.",
-          "learner_friendly_definition_pt": "Comentarios uteis sobre o que esta funcionando e o que melhorar.",
-          "example_sentence_en": "I read the feedback and improve one sentence.",
-          "example_sentence_pt": "Eu leio o feedback e melhoro uma frase.",
-          "professional_context_en": "Feedback is central in critiques, writing revision, and teacher review.",
-          "professional_context_pt": "O feedback e central em criticas, revisao de escrita e avaliacao do professor.",
-          "translation_notes_pt": "Muitos professores usam 'feedback' diretamente, mas 'devolutiva' tambem pode aparecer.",
-          "pronunciation_notes": "Say FEED-back with stress on FEED.",
+          "definition_en": "The study of art from different periods and cultures.",
+          "learner_friendly_definition_en": "Learning about art from the past and from different places.",
+          "learner_friendly_definition_pt": "Estudar arte do passado e de lugares diferentes.",
+          "example_sentence_en": "Art history helps students understand visual references.",
+          "example_sentence_pt": "História da arte ajuda os alunos a entender referências visuais.",
+          "professional_context_en": "Week 1 uses this term to show that English connects to broader design study, not only making clothes.",
+          "professional_context_pt": "A Semana 1 usa esse termo para mostrar que o inglês se conecta ao estudo de design de forma ampla, não apenas a fazer roupas.",
+          "translation_notes_pt": "A tradução mais comum é 'história da arte'.",
+          "pronunciation_notes": "Say art HIS-to-ree with stress on HIS.",
           "related_terms": [
-            "correction",
-            "review",
-            "revision"
+            "drawing",
+            "creativity",
+            "research"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w01-v015",
+          "term": "text production",
+          "part_of_speech": "noun",
+          "definition_en": "The work of planning and writing texts.",
+          "learner_friendly_definition_en": "Writing texts for class or projects.",
+          "learner_friendly_definition_pt": "Escrever textos para a aula ou para projetos.",
+          "example_sentence_en": "Text production is useful for portfolio writing.",
+          "example_sentence_pt": "Produção textual é útil para a escrita de portfólio.",
+          "professional_context_en": "This term helps students connect English to academic and portfolio writing from the start.",
+          "professional_context_pt": "Esse termo ajuda os alunos a conectar o inglês à escrita acadêmica e de portfólio desde o início.",
+          "translation_notes_pt": "Pode ser aproximado por 'produção textual'.",
+          "pronunciation_notes": "Stress pro-DUC-tion in the first word and TEXT in the phrase.",
+          "related_terms": [
+            "portfolio",
+            "writing",
+            "review"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w01-vg04",
+      "title": "Design objects and visual starters",
+      "description": "Visible design words students begin to describe and notice in Week 1.",
+      "items": [
+        {
+          "vocab_id": "m01w01-v016",
+          "term": "sketch",
+          "part_of_speech": "noun",
+          "definition_en": "A quick drawing that shows a fashion idea.",
+          "learner_friendly_definition_en": "A simple drawing of a clothing or design idea.",
+          "learner_friendly_definition_pt": "Um desenho simples de uma ideia de roupa ou design.",
+          "example_sentence_en": "This is my first sketch for class.",
+          "example_sentence_pt": "Este é o meu primeiro croqui para a aula.",
+          "professional_context_en": "Sketch is a key word for visual design work and later portfolio tasks.",
+          "professional_context_pt": "Croqui é uma palavra importante para trabalho visual de design e para tarefas de portfólio depois.",
+          "translation_notes_pt": "Em moda, pode ser 'croqui' ou 'esboço'.",
+          "pronunciation_notes": "The final sound is short and clear: sketch.",
+          "related_terms": [
+            "drawing",
+            "garment",
+            "portfolio"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v017",
+          "term": "fabric",
+          "part_of_speech": "noun",
+          "definition_en": "Material used to make clothing.",
+          "learner_friendly_definition_en": "The cloth used to make a garment.",
+          "learner_friendly_definition_pt": "O tecido usado para fazer uma roupa.",
+          "example_sentence_en": "I like working with fabric in sewing class.",
+          "example_sentence_pt": "Eu gosto de trabalhar com tecido na aula de costura.",
+          "professional_context_en": "Fabric vocabulary appears often in design descriptions and studio classes.",
+          "professional_context_pt": "O vocabulário de tecido aparece com frequência em descrições de design e aulas de ateliê.",
+          "translation_notes_pt": "A tradução direta mais comum é 'tecido'.",
+          "pronunciation_notes": "Stress the first syllable: FAB-ric.",
+          "related_terms": [
+            "sewing",
+            "garment",
+            "studio"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v018",
+          "term": "garment",
+          "part_of_speech": "noun",
+          "definition_en": "A piece of clothing.",
+          "learner_friendly_definition_en": "One item of clothing.",
+          "learner_friendly_definition_pt": "Uma peça de roupa.",
+          "example_sentence_en": "This garment is simple and clean.",
+          "example_sentence_pt": "Esta peça de roupa é simples e limpa.",
+          "professional_context_en": "The term helps students sound more professional than using only clothes or thing.",
+          "professional_context_pt": "O termo ajuda os alunos a soar mais profissionais do que usando apenas clothes ou thing.",
+          "translation_notes_pt": "A tradução mais próxima é 'peça de roupa'.",
+          "pronunciation_notes": "Say GAR-ment with stress on GAR.",
+          "related_terms": [
+            "fabric",
+            "sketch",
+            "accessory"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v019",
+          "term": "accessory",
+          "part_of_speech": "noun",
+          "definition_en": "An extra fashion item worn with clothing.",
+          "learner_friendly_definition_en": "An item like a bag, belt, or necklace that goes with a look.",
+          "learner_friendly_definition_pt": "Um item como bolsa, cinto ou colar que acompanha um look.",
+          "example_sentence_en": "She is interested in accessories.",
+          "example_sentence_pt": "Ela tem interesse em acessórios.",
+          "professional_context_en": "The term supports early conversation about design interests and future course areas.",
+          "professional_context_pt": "O termo ajuda em conversas iniciais sobre interesses de design e areas futuras do curso.",
+          "translation_notes_pt": "A tradução direta é 'acessório'.",
+          "pronunciation_notes": "Say ak-SES-uh-ree with stress on SES.",
+          "related_terms": [
+            "garment",
+            "collection",
+            "designer"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w01-v020",
+          "term": "collection",
+          "part_of_speech": "noun",
+          "definition_en": "A group of fashion pieces designed together.",
+          "learner_friendly_definition_en": "A set of fashion items that belong together.",
+          "learner_friendly_definition_pt": "Um conjunto de itens de moda que pertencem ao mesmo grupo.",
+          "example_sentence_en": "This is my first collection idea.",
+          "example_sentence_pt": "Esta é a minha primeira ideia de coleção.",
+          "professional_context_en": "Collection is useful when students start talking about design direction and future projects.",
+          "professional_context_pt": "Coleção é útil quando os alunos começam a falar sobre direção de design e projetos futuros.",
+          "translation_notes_pt": "A tradução mais comum é 'coleção'.",
+          "pronunciation_notes": "Say kuh-LEK-shun with stress on LEK.",
+          "related_terms": [
+            "designer",
+            "garment",
+            "portfolio"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w01-vg05",
+      "title": "Goals, preferences, and support phrases",
+      "description": "Simple phrases students need for profile writing, speaking, and early feedback routines.",
+      "items": [
+        {
+          "vocab_id": "m01w01-v021",
+          "term": "I am interested in",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to name an area you want to know more about.",
+          "learner_friendly_definition_en": "A phrase for saying what area or topic attracts you.",
+          "learner_friendly_definition_pt": "Uma expressão para dizer qual área ou tema chama sua atenção.",
+          "example_sentence_en": "I am interested in sustainable fashion.",
+          "example_sentence_pt": "Eu tenho interesse em moda sustentável.",
+          "professional_context_en": "Students use this phrase to sound more specific when naming design interests.",
+          "professional_context_pt": "Os alunos usam essa expressão para soar mais específicos ao nomear interesses de design.",
+          "translation_notes_pt": "Pode ser aproximado por 'tenho interesse em'.",
+          "pronunciation_notes": "Stress IN in interested and keep the final d sound light.",
+          "related_terms": [
+            "I like",
+            "fashion design",
+            "collection"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v022",
+          "term": "I want to learn",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to express a learning goal.",
+          "learner_friendly_definition_en": "A phrase for saying what you hope to study or improve.",
+          "learner_friendly_definition_pt": "Uma expressão para dizer o que você espera estudar ou melhorar.",
+          "example_sentence_en": "I want to learn more fashion vocabulary.",
+          "example_sentence_pt": "Eu quero aprender mais vocabulário de moda.",
+          "professional_context_en": "This phrase is central to Week 1 profile writing and teacher-session speaking.",
+          "professional_context_pt": "Essa expressão é central na escrita do perfil da Semana 1 e na fala da sessão com o professor.",
+          "translation_notes_pt": "A tradução direta mais comum é 'quero aprender'.",
+          "pronunciation_notes": "Link want to as WAN-na in natural speech, but model the full form first.",
+          "related_terms": [
+            "goal",
+            "portfolio",
+            "feedback"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w01-v023",
+          "term": "I need English for",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to connect English to a real task or purpose.",
+          "learner_friendly_definition_en": "A phrase for saying why English is useful for you.",
+          "learner_friendly_definition_pt": "Uma expressão para dizer por que o inglês é útil para você.",
+          "example_sentence_en": "I need English for portfolio texts and research.",
+          "example_sentence_pt": "Eu preciso de inglês para textos de portfólio e pesquisa.",
+          "professional_context_en": "The phrase helps students connect English to design study and future professional work.",
+          "professional_context_pt": "A expressão ajuda os alunos a conectar o inglês ao estudo de design e ao futuro trabalho profissional.",
+          "translation_notes_pt": "A tradução mais comum é 'eu preciso de inglês para'.",
+          "pronunciation_notes": "Keep need clear and do not drop the final d sound.",
+          "related_terms": [
+            "I want to learn",
+            "portfolio",
+            "fashion design"
           ],
           "difficulty": "core"
         }

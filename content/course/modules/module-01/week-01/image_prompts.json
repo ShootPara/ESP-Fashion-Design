@@ -3,15 +3,101 @@
   "image_prompts": [
     {
       "asset_id": "m01w01-img-001",
-      "purpose": "Reading support visual for a welcome-week student profile.",
+      "purpose": "Reading and listening support visual for the Week 1 model student profile.",
       "target_filename": "assets/images/module-01/week-01/m01w01-img-001.png",
-      "visual_description": "An adult Fashion Design student in a tidy studio classroom holding a sketchbook near fabric swatches and simple tools, with an approachable academic atmosphere.",
-      "style_instructions": "Use a digital watercolor style with clear educational detail and an adult learner tone.",
-      "composition_notes": "Keep the background uncluttered, show the sketchbook and fabric clearly, and avoid busy decorative elements that distract from the reading task.",
+      "visual_description": "An adult Brazilian Fashion Design student in a tidy studio classroom, holding a sketchbook near fabric swatches and a work table, with a welcoming academic atmosphere.",
+      "style_instructions": "Use a soft digital watercolor style with realistic proportions and an adult educational tone.",
+      "composition_notes": "Show the student, sketchbook, and fabric clearly. Keep the background simple and studio-like, with no crowded details.",
       "text_in_image": "None.",
-      "avoid": "Avoid logos, childish cartoon styling, runway glamour poses, and dense background text.",
+      "avoid": "Avoid logos, runway glamour poses, childish cartoon style, and heavy background text.",
       "used_by_activity_ids": [
-        "m01w01-a02"
+        "m01w01-a02",
+        "m01w01-a03"
+      ],
+      "status": "needed"
+    },
+    {
+      "asset_id": "m01w01-img-002",
+      "purpose": "Vocabulary visual for the word sketch in the starter vocabulary activity.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-002.png",
+      "visual_description": "A clear fashion sketchbook page with one simple garment croquis and visible pencil lines.",
+      "style_instructions": "Use a fashion sketch style with clean linework and clear educational readability.",
+      "composition_notes": "Center the sketchbook page. Make the croquis easy to recognize at small size.",
+      "text_in_image": "None.",
+      "avoid": "Avoid extra text labels, multiple competing sketches, and overly technical detail.",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "status": "needed"
+    },
+    {
+      "asset_id": "m01w01-img-003",
+      "purpose": "Vocabulary visual for the word fabric in the starter vocabulary activity.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-003.png",
+      "visual_description": "A close-up textile swatch image with folds and visible material texture suitable for beginners.",
+      "style_instructions": "Use realistic educational product-photo styling with soft light and clear texture.",
+      "composition_notes": "Keep the fabric central and easy to read, with a neutral background.",
+      "text_in_image": "None.",
+      "avoid": "Avoid patterns or backgrounds that make the fabric hard to identify.",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "status": "needed"
+    },
+    {
+      "asset_id": "m01w01-img-004",
+      "purpose": "Vocabulary visual for the word garment in the starter vocabulary activity.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-004.png",
+      "visual_description": "A simple garment such as a blouse or dress on a hanger or mannequin, shown clearly as one clothing item.",
+      "style_instructions": "Use realistic catalog-style presentation with simple, clean lighting.",
+      "composition_notes": "Show only one main garment and keep the silhouette easy to read.",
+      "text_in_image": "None.",
+      "avoid": "Avoid full outfits, busy styling, brand labels, and crowded retail scenes.",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "status": "needed"
+    },
+    {
+      "asset_id": "m01w01-img-005",
+      "purpose": "Vocabulary visual for the word sewing in the starter vocabulary activity.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-005.png",
+      "visual_description": "A beginner-friendly sewing scene with a sewing machine, fabric, and hands guiding the material.",
+      "style_instructions": "Use realistic classroom-studio styling with clear task visibility.",
+      "composition_notes": "Focus on the sewing action and materials rather than the full room.",
+      "text_in_image": "None.",
+      "avoid": "Avoid industrial factory scenes, fashion-show imagery, and unclear hand positions.",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "status": "needed"
+    },
+    {
+      "asset_id": "m01w01-img-006",
+      "purpose": "Vocabulary visual for the word patternmaking in the starter vocabulary activity.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-006.png",
+      "visual_description": "A tabletop with paper pattern pieces, ruler, measuring tape, and pencil in a Fashion Design study setting.",
+      "style_instructions": "Use realistic educational still-life styling with strong object clarity.",
+      "composition_notes": "Arrange the tools so paper patterns are the main visual cue and the objects remain easy to identify.",
+      "text_in_image": "None.",
+      "avoid": "Avoid clutter, advanced technical drafting notes, and non-fashion engineering tools.",
+      "used_by_activity_ids": [
+        "m01w01-a04"
+      ],
+      "status": "needed"
+    },
+    {
+      "asset_id": "m01w01-img-007",
+      "purpose": "Vocabulary and motivation visual for the word portfolio in the Week 1 vocabulary and profile-writing sequence.",
+      "target_filename": "assets/images/module-01/week-01/m01w01-img-007.png",
+      "visual_description": "A simple fashion portfolio board or printed page with sketches, fabric ideas, and short caption blocks, designed for beginner recognition.",
+      "style_instructions": "Use a polished but uncluttered fashion-student presentation style with realistic materials.",
+      "composition_notes": "Show portfolio elements clearly, but do not make text readable enough to distract from the concept.",
+      "text_in_image": "None.",
+      "avoid": "Avoid logos, copyrighted designs, dense readable copy, and luxury-brand styling cues.",
+      "used_by_activity_ids": [
+        "m01w01-a04",
+        "m01w01-a05"
       ],
       "status": "needed"
     }
