@@ -1,0 +1,1673 @@
+{
+  "week_id": "m01w02",
+  "activities": [
+    {
+      "activity_id": "m01w02-a01",
+      "week_id": "m01w02",
+      "sequence_number": 1,
+      "title": "Welcome Back: Studio Words",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students look at a studio scene and choose the English words they already recognize.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: Studio Words",
+          "summary": "Look at the studio scene and choose the words you already know.",
+          "instructions": "Look at the picture of the fashion studio. Choose the English words that match the objects you can see.",
+          "success_criteria": [
+            "I can recognize some studio words in English.",
+            "I can connect a picture to a tool or material word.",
+            "I am ready to begin the Week 2 vocabulary set."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "These are ___.",
+            "I can see ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: palavras do estúdio",
+          "summary": "Observe a cena do estúdio e escolha as palavras que você já conhece.",
+          "instructions": "Observe a imagem do estúdio de moda. Escolha as palavras em inglês que combinam com os objetos que você consegue ver.",
+          "success_criteria": [
+            "Eu consigo reconhecer algumas palavras do estúdio em inglês.",
+            "Eu consigo relacionar uma imagem a uma palavra de ferramenta ou material.",
+            "Eu estou pronto para começar o vocabulário da Semana 2."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "These are ___.",
+            "I can see ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep this low-pressure and visual. Focus on recognition, not perfect production.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "multiple_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "studio-scene image"
+      ],
+      "vocabulary_refs": [
+        "m01w02-v001",
+        "m01w02-v003",
+        "m01w02-v006",
+        "m01w02-v007",
+        "m01w02-v008",
+        "m01w02-v016",
+        "m01w02-v017",
+        "m01w02-v018"
+      ],
+      "asset_refs": [
+        "m01w02-img-001"
+      ],
+      "input": {
+        "input_type": "visual_recognition_quiz",
+        "prompt_en": "Choose the English words that match the objects in the studio scene.",
+        "prompt_pt": "Escolha as palavras em inglês que combinam com os objetos na cena do estúdio.",
+        "items": [
+          {
+            "response_type": "multiple_choice",
+            "label_en": "Which words can you see in the picture?",
+            "label_pt": "Quais palavras você consegue ver na imagem?",
+            "options_en": ["ruler", "measuring tape", "sewing machine", "toothbrush", "helmet"],
+            "options_pt": ["régua", "fita métrica", "máquina de costura", "escova de dentes", "capacete"],
+            "correct_answers": ["ruler", "measuring tape", "sewing machine"]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose the object used for drawing.",
+            "label_pt": "Escolha o objeto usado para desenhar.",
+            "options_en": ["pencil", "pins", "thread"],
+            "options_pt": ["lápis", "alfinetes", "linha"],
+            "correct_answer": "pencil"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose the material on the table.",
+            "label_pt": "Escolha o material que está sobre a mesa.",
+            "options_en": ["fabric", "stone", "glass"],
+            "options_pt": ["tecido", "pedra", "vidro"],
+            "correct_answer": "fabric"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the studio scene",
+          "student_action_en": "Look at the main studio image and notice the tools and materials you already know.",
+          "student_action_pt": "Observe a imagem principal do estúdio e note as ferramentas e materiais que você já conhece.",
+          "teacher_action": "Keep the focus on noticing and recognition.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the words",
+          "student_action_en": "Choose the English words that match the objects in the picture.",
+          "student_action_pt": "Escolha as palavras em inglês que combinam com os objetos na imagem.",
+          "teacher_action": "Invite students to say one word aloud if time allows.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Three to five image-based recognition selections from the studio scene.",
+        "description_pt": "De três a cinco seleções de reconhecimento com base na imagem da cena do estúdio.",
+        "length_or_format": "1 multi-select item plus 2 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student looks at the studio scene.",
+          "The student selects words that match visible objects.",
+          "The student shows early recognition of Week 2 vocabulary."
+        ],
+        "completion_criteria_pt": [
+          "O aluno observa a cena do estúdio.",
+          "O aluno seleciona palavras que combinam com objetos visíveis.",
+          "O aluno mostra reconhecimento inicial do vocabulário da Semana 2."
+        ],
+        "checklist_en": [
+          "I looked carefully at the picture.",
+          "I chose the words I recognized.",
+          "I am ready for the vocabulary task."
+        ],
+        "checklist_pt": [
+          "Eu observei a imagem com atenção.",
+          "Eu escolhi as palavras que reconheci.",
+          "Eu estou pronto para a atividade de vocabulário."
+        ],
+        "rubric": [],
+        "model_response_en": "I can see a ruler, a measuring tape, a sewing machine, and fabric on the table.",
+        "model_response_pt": "Eu consigo ver uma régua, uma fita métrica, uma máquina de costura e tecido sobre a mesa.",
+        "common_errors": [
+          "Choosing words for objects that are not visible.",
+          "Confusing a ruler with a measuring tape."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the picture. Which object is long and straight, and which one is flexible?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe a imagem novamente. Qual objeto é longo e reto, e qual é flexível?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students compare answers with a partner before checking."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence with This is or These are."
+        ]
+      },
+      "extension_options": [
+        "Name one more object you can see in the image."
+      ],
+      "notes_for_app_design": "Render this as one studio-scene image followed by one multi-select recognition item and two single-choice checks. Save the selected options only. Immediate feedback should help students distinguish similar objects such as ruler and measuring tape."
+    },
+    {
+      "activity_id": "m01w02-a02",
+      "week_id": "m01w02",
+      "sequence_number": 2,
+      "title": "Studio Vocabulary: Tools and Materials",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students learn the core Week 2 vocabulary set by matching images to English words and using Portuguese support where useful.",
+      "student_facing": {
+        "en": {
+          "title": "Studio Vocabulary: Tools and Materials",
+          "summary": "Match the pictures to the correct English words and review the meaning with Portuguese support.",
+          "instructions": "Match each picture to the correct English word. After the main matching sets, use the Portuguese support and one short phrase for extra practice.",
+          "success_criteria": [
+            "I can match studio tools to English words.",
+            "I can connect English words to Portuguese support when I need it.",
+            "I can start to use the new words in short phrases."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "I use ___ to ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Vocabulário do estúdio: ferramentas e materiais",
+          "summary": "Relacione as imagens às palavras corretas em inglês e revise o significado com apoio em português.",
+          "instructions": "Relacione cada imagem à palavra correta em inglês. Depois dos conjuntos principais de relação, use o apoio em português e uma frase curta como prática extra.",
+          "success_criteria": [
+            "Eu consigo relacionar ferramentas do estúdio a palavras em inglês.",
+            "Eu consigo conectar palavras em inglês ao apoio em português quando preciso.",
+            "Eu consigo começar a usar as palavras novas em frases curtas."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "I use ___ to ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main task focused on image-to-word matching. Use Portuguese support as scaffolding rather than the final target.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "tool and material vocabulary boards"
+      ],
+      "vocabulary_refs": [
+        "m01w02-v006",
+        "m01w02-v007",
+        "m01w02-v008",
+        "m01w02-v009",
+        "m01w02-v010",
+        "m01w02-v011",
+        "m01w02-v012",
+        "m01w02-v013",
+        "m01w02-v014",
+        "m01w02-v015",
+        "m01w02-v016",
+        "m01w02-v017",
+        "m01w02-v018",
+        "m01w02-v019",
+        "m01w02-v020",
+        "m01w02-v027",
+        "m01w02-v028"
+      ],
+      "asset_refs": [
+        "m01w02-img-002",
+        "m01w02-img-003",
+        "m01w02-img-004"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the studio images to the correct English words.",
+        "prompt_pt": "Relacione as imagens do estúdio às palavras corretas em inglês.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match the basic tools.",
+            "label_pt": "Relacione as ferramentas básicas.",
+            "asset_id": "m01w02-img-002",
+            "matches": [
+              { "image_key": "tool_1", "answer_en": "scissors", "answer_pt": "tesoura" },
+              { "image_key": "tool_2", "answer_en": "ruler", "answer_pt": "régua" },
+              { "image_key": "tool_3", "answer_en": "measuring tape", "answer_pt": "fita métrica" },
+              { "image_key": "tool_4", "answer_en": "pencil", "answer_pt": "lápis" },
+              { "image_key": "tool_5", "answer_en": "eraser", "answer_pt": "borracha" }
+            ]
+          },
+          {
+            "response_type": "image_match",
+            "label_en": "Match the sewing tools and studio objects.",
+            "label_pt": "Relacione as ferramentas de costura e os objetos do estúdio.",
+            "asset_id": "m01w02-img-003",
+            "matches": [
+              { "image_key": "tool_1", "answer_en": "needle", "answer_pt": "agulha" },
+              { "image_key": "tool_2", "answer_en": "thread", "answer_pt": "linha" },
+              { "image_key": "tool_3", "answer_en": "pins", "answer_pt": "alfinetes" },
+              { "image_key": "tool_4", "answer_en": "sewing machine", "answer_pt": "máquina de costura" }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support to the English word.",
+            "label_pt": "Relacione o apoio em português à palavra em inglês.",
+            "pairs": [
+              { "pt": "manequim", "en": "mannequin" },
+              { "pt": "caderno de croquis", "en": "sketchbook" },
+              { "pt": "papel de modelagem", "en": "pattern paper" },
+              { "pt": "amostra de tecido", "en": "fabric swatch" }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the phrase.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "I use ___ to cut fabric.",
+            "sentence_frame_pt": "I use ___ to cut fabric.",
+            "word_bank": ["scissors", "pins", "sketchbook"],
+            "accepted_answers": ["scissors"]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look and notice",
+          "student_action_en": "Look carefully at the boards before you match the words.",
+          "student_action_pt": "Observe os painéis com atenção antes de relacionar as palavras.",
+          "teacher_action": "Point out that Week 2 starts with recognition, not long writing.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match images and words",
+          "student_action_en": "Match the pictures to the correct English words.",
+          "student_action_pt": "Relacione as imagens às palavras corretas em inglês.",
+          "teacher_action": "Monitor article and plural awareness while keeping the focus on vocabulary.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Bridge and use",
+          "student_action_en": "Check a few Portuguese links and complete one short use phrase.",
+          "student_action_pt": "Confira algumas ligações com o português e complete uma frase curta de uso.",
+          "teacher_action": "Use this moment to preview I use ___ to ___.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+    "description_en": "A saved set of two image-word matching sets as the main checked output, followed by short scaffolded support practice.",
+    "description_pt": "Um conjunto salvo de dois exercícios de relação entre imagem e palavra como resultado principal verificado, seguido por uma prática curta de apoio.",
+    "length_or_format": "2 image-match sets as the main checked output, plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+      "The student completes the two main image-word matching sets correctly or with minor support.",
+          "The student uses Portuguese support when needed without losing the English target.",
+      "The student may complete the follow-up bridge and short phrase after the main matching task."
+        ],
+        "completion_criteria_pt": [
+      "O aluno completa os dois conjuntos principais de relação imagem-palavra corretamente ou com pouco apoio.",
+          "O aluno usa apoio em português quando necessário sem perder o foco no inglês.",
+      "O aluno pode completar a ponte e a frase curta depois da tarefa principal de relação."
+        ],
+        "checklist_en": [
+      "I matched the pictures in the two main sets.",
+      "I checked the meanings with Portuguese support when I needed it.",
+      "I used one tool word in a short phrase after the matching task."
+        ],
+        "checklist_pt": [
+      "Eu relacionei as imagens nos dois conjuntos principais.",
+      "Eu conferi os significados com apoio em português quando precisei.",
+      "Eu usei uma palavra de ferramenta em uma frase curta depois da tarefa de relação."
+        ],
+        "rubric": [],
+        "model_response_en": "scissors, ruler, measuring tape, pencil, eraser, needle, thread, pins, sewing machine, mannequin, sketchbook, pattern paper, and fabric swatch",
+        "model_response_pt": "tesoura, régua, fita métrica, lápis, borracha, agulha, linha, alfinetes, máquina de costura, manequim, caderno de croquis, papel de modelagem e amostra de tecido",
+        "common_errors": [
+          "Confusing ruler and measuring tape.",
+          "Treating scissors as singular.",
+          "Matching sketchbook and pattern paper incorrectly."
+        ],
+        "feedback_prompts_en": [
+          "Look at the shape and purpose of the tool. Is it for cutting, measuring, drawing, or sewing?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe a forma e a função da ferramenta. Ela serve para cortar, medir, desenhar ou costurar?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete the image matches before the Portuguese bridge items."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence using This is, These are, or I use."
+        ]
+      },
+      "extension_options": [
+        "Sort three tools into drawing, measuring, and sewing categories."
+      ],
+      "notes_for_app_design": "Render this as an image-first matching activity with the vocabulary boards displayed one at a time. Save the two image-to-word matching sets as the main scored output. Portuguese bridge and phrase items should appear only as secondary support after the main matching sets. The app should auto-check all items immediately."
+    },
+    {
+      "activity_id": "m01w02-a03",
+      "week_id": "m01w02",
+      "sequence_number": 3,
+      "title": "Look Around the Studio",
+      "activity_type": "visual_analysis",
+      "activity_type_custom": "",
+      "summary": "Students inspect a detailed studio scene and answer concrete questions about object identity and location.",
+      "student_facing": {
+        "en": {
+          "title": "Look Around the Studio",
+          "summary": "Look carefully at the studio image and choose what the objects are and where they are.",
+          "instructions": "Study the studio image. Answer the questions about tools, materials, and location phrases.",
+          "success_criteria": [
+            "I can identify objects in a studio image.",
+            "I can understand simple location phrases.",
+            "I can connect the image to useful studio language."
+          ],
+          "sentence_frames": [
+            "The ___ is on the table.",
+            "The ___ is near the ___.",
+            "This is a ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Observe o estúdio",
+          "summary": "Observe a imagem do estúdio com atenção e escolha o que os objetos são e onde eles estão.",
+          "instructions": "Estude a imagem do estúdio. Responda às perguntas sobre ferramentas, materiais e expressões de localização.",
+          "success_criteria": [
+            "Eu consigo identificar objetos em uma imagem de estúdio.",
+            "Eu consigo entender expressões simples de localização.",
+            "Eu consigo relacionar a imagem à linguagem útil de estúdio."
+          ],
+          "sentence_frames": [
+            "The ___ is on the table.",
+            "The ___ is near the ___.",
+            "This is a ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "This task should feel like image reading, not abstract description. Keep the questions concrete and tied to visible evidence.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "visual_literacy",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "detailed studio image"
+      ],
+      "vocabulary_refs": [
+        "m01w02-v001",
+        "m01w02-v003",
+        "m01w02-v006",
+        "m01w02-v007",
+        "m01w02-v008",
+        "m01w02-v013",
+        "m01w02-v015",
+        "m01w02-v016",
+        "m01w02-v017",
+        "m01w02-v018",
+        "m01w02-v029"
+      ],
+      "asset_refs": [
+        "m01w02-img-001"
+      ],
+      "input": {
+        "input_type": "visual_reading_questions",
+        "prompt_en": "Use the studio image to answer the object and location questions.",
+        "prompt_pt": "Use a imagem do estúdio para responder às perguntas sobre objetos e localização.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which object is next to the fabric?",
+            "label_pt": "Qual objeto está ao lado do tecido?",
+            "options_en": ["pins", "banana", "shoe"],
+            "options_pt": ["alfinetes", "banana", "sapato"],
+            "correct_answer": "pins"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Where is the ruler?",
+            "label_pt": "Onde está a régua?",
+            "options_en": ["on the table", "under the chair", "in the window"],
+            "options_pt": ["sobre a mesa", "debaixo da cadeira", "na janela"],
+            "correct_answer": "on the table"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which object is used for measuring?",
+            "label_pt": "Qual objeto é usado para medir?",
+            "options_en": ["measuring tape", "button", "eraser"],
+            "options_pt": ["fita métrica", "botão", "borracha"],
+            "correct_answer": "measuring tape"
+          },
+          {
+            "response_type": "true_false",
+            "label_en": "The sketchbook is on the table.",
+            "label_pt": "O caderno de croquis está sobre a mesa.",
+            "correct_answer": true
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which object is near the sewing machine?",
+            "label_pt": "Qual objeto está perto da máquina de costura?",
+            "options_en": ["thread", "tree", "plate"],
+            "options_pt": ["linha", "árvore", "prato"],
+            "correct_answer": "thread"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose the correct label for the body-shaped form.",
+            "label_pt": "Escolha o rótulo correto para a forma em formato de corpo.",
+            "options_en": ["mannequin", "board", "ruler"],
+            "options_pt": ["manequim", "quadro", "régua"],
+            "correct_answer": "mannequin"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look for the main objects",
+          "student_action_en": "Scan the image and find the main tools, materials, and work areas.",
+          "student_action_pt": "Observe a imagem e encontre as principais ferramentas, materiais e áreas de trabalho.",
+          "teacher_action": "Encourage students to use the image as evidence.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Answer the image questions",
+          "student_action_en": "Choose the best answer about what each object is and where it is.",
+          "student_action_pt": "Escolha a melhor resposta sobre o que cada objeto é e onde ele está.",
+          "teacher_action": "Guide students back to phrases such as on the table and near the sewing machine.",
+          "estimated_minutes": 7,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check key phrases",
+          "student_action_en": "Review one or two correct location phrases after you answer.",
+          "student_action_pt": "Revise uma ou duas expressões corretas de localização depois de responder.",
+          "teacher_action": "Preview how these phrases support the writing task.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "visual_reading_answers",
+        "description_en": "Five to seven selected answers about object identity and location in the studio scene.",
+        "description_pt": "De cinco a sete respostas selecionadas sobre identidade e localização de objetos na cena do estúdio.",
+        "length_or_format": "6 app-checked selections"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student identifies key objects in the image.",
+          "The student understands at least one basic location phrase.",
+          "The student answers with image-based evidence."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica objetos importantes na imagem.",
+          "O aluno entende pelo menos uma expressão básica de localização.",
+          "O aluno responde com base em evidências da imagem."
+        ],
+        "checklist_en": [
+          "I looked closely at the image.",
+          "I answered the object questions.",
+          "I used location phrases from the picture."
+        ],
+        "checklist_pt": [
+          "Eu observei a imagem com atenção.",
+          "Eu respondi às perguntas sobre os objetos.",
+          "Eu usei expressões de localização da imagem."
+        ],
+        "rubric": [],
+        "model_response_en": "The ruler is on the table. The thread is near the sewing machine. The body-shaped form is a mannequin.",
+        "model_response_pt": "A régua está sobre a mesa. A linha está perto da máquina de costura. A forma em formato de corpo é um manequim.",
+        "common_errors": [
+          "Choosing answers without checking the image carefully.",
+          "Mixing up near and on the table."
+        ],
+        "feedback_prompts_en": [
+          "Point to the object in the image. What do you see next to it or under it?"
+        ],
+        "feedback_prompts_pt": [
+          "Aponte para o objeto na imagem. O que você vê ao lado dele ou embaixo dele?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to review the vocabulary boards before answering the image questions."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence with on the table or near the sewing machine."
+        ]
+      },
+      "extension_options": [
+        "Write one more location sentence about a visible object in the scene."
+      ],
+      "notes_for_app_design": "Render this as one large reusable studio-scene image with six short app-checked questions below it. Keep the interaction to quick taps and choices rather than typing. The app should surface location-language feedback after submission."
+    },
+    {
+      "activity_id": "m01w02-a04",
+      "week_id": "m01w02",
+      "sequence_number": 4,
+      "title": "Listen: Studio Instructions",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to short studio instructions and identify tools, actions, and a simple order of steps.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Studio Instructions",
+          "summary": "Listen to the studio instructions and choose the correct tools and actions.",
+          "instructions": "Listen once for the main idea. Listen again for details about the tools, actions, and order.",
+          "success_criteria": [
+            "I can understand the main studio task.",
+            "I can hear some important tools and actions.",
+            "I can follow a short sequence of simple instructions."
+          ],
+          "sentence_frames": [
+            "Take the ___.",
+            "Put the ___ on the ___.",
+            "I heard ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Escute: instruções do estúdio",
+          "summary": "Escute as instruções do estúdio e escolha as ferramentas e ações corretas.",
+          "instructions": "Escute uma vez para entender a ideia principal. Escute novamente para os detalhes sobre ferramentas, ações e ordem.",
+          "success_criteria": [
+            "Eu consigo entender a tarefa principal do estúdio.",
+            "Eu consigo ouvir algumas ferramentas e ações importantes.",
+            "Eu consigo acompanhar uma sequência curta de instruções simples."
+          ],
+          "sentence_frames": [
+            "Take the ___.",
+            "Put the ___ on the ___.",
+            "I heard ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Play the audio two or three times maximum. Keep the first listen focused on gist and reveal the transcript only after the attempt.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "vocabulary",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "audio player or teacher read-aloud script"
+      ],
+      "vocabulary_refs": [
+        "m01w02-v003",
+        "m01w02-v008",
+        "m01w02-v009",
+        "m01w02-v013",
+        "m01w02-v017",
+        "m01w02-v021",
+        "m01w02-v023",
+        "m01w02-v024",
+        "m01w02-v025",
+        "m01w02-v026"
+      ],
+      "asset_refs": [
+        "m01w02-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_questions",
+        "prompt_en": "Listen to the studio instructions and answer the questions.",
+        "prompt_pt": "Escute as instruções do estúdio e responda às perguntas.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "What is the main place in the audio?",
+            "label_pt": "Qual é o lugar principal no áudio?",
+            "options_en": ["the fashion studio", "the library", "the cafeteria"],
+            "options_pt": ["o estúdio de moda", "a biblioteca", "a lanchonete"],
+            "correct_answer": "the fashion studio"
+          },
+          {
+            "response_type": "multiple_choice",
+            "label_en": "Which objects should students take first?",
+            "label_pt": "Quais objetos os alunos devem pegar primeiro?",
+            "options_en": ["sketchbook", "pencil", "ruler", "measuring tape", "umbrella"],
+            "options_pt": ["caderno de croquis", "lápis", "régua", "fita métrica", "guarda-chuva"],
+            "correct_answers": ["sketchbook", "pencil", "ruler", "measuring tape"]
+          },
+          {
+            "response_type": "true_false",
+            "label_en": "The teacher says to sew immediately.",
+            "label_pt": "O professor diz para costurar imediatamente.",
+            "correct_answer": false
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What do students put on the table?",
+            "label_pt": "O que os alunos colocam sobre a mesa?",
+            "options_en": ["the fabric", "the bag", "the mannequin"],
+            "options_pt": ["o tecido", "a bolsa", "o manequim"],
+            "correct_answer": "the fabric"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which action comes before pin the fabric?",
+            "label_pt": "Qual ação acontece antes de prender o tecido com alfinetes?",
+            "options_en": ["fold the fabric", "close the classroom", "draw a dress"],
+            "options_pt": ["dobrar o tecido", "fechar a sala de aula", "desenhar um vestido"],
+            "correct_answer": "fold the fabric"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Listen for the main task",
+          "student_action_en": "Listen once and decide where the students are and what kind of task they are doing.",
+          "student_action_pt": "Escute uma vez e decida onde os alunos estão e que tipo de tarefa estão fazendo.",
+          "teacher_action": "Tell students not to worry about every word in the first listen.",
+          "estimated_minutes": 3,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen for tools and actions",
+          "student_action_en": "Listen again and choose the tools, actions, and details you hear.",
+          "student_action_pt": "Escute novamente e escolha as ferramentas, ações e detalhes que você ouve.",
+          "teacher_action": "Let students replay the audio up to two more times if needed.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check one sequence detail",
+          "student_action_en": "Notice which action comes before the next one.",
+          "student_action_pt": "Perceba qual ação acontece antes da próxima.",
+          "teacher_action": "Show the transcript only after students answer.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_answers",
+        "description_en": "Main-idea and detail selections about studio instructions, including one simple sequence check.",
+        "description_pt": "Seleções de ideia principal e detalhes sobre instruções do estúdio, incluindo uma verificação simples de sequência.",
+        "length_or_format": "5 app-checked listening items"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student identifies the studio context.",
+          "The student recognizes key tools and actions from the audio.",
+          "The student follows at least one simple order relationship."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica o contexto do estúdio.",
+          "O aluno reconhece ferramentas e ações importantes no áudio.",
+          "O aluno acompanha pelo menos uma relação simples de ordem."
+        ],
+        "checklist_en": [
+          "I listened for the main idea.",
+          "I listened again for details.",
+          "I checked the order of one action."
+        ],
+        "checklist_pt": [
+          "Eu escutei para entender a ideia principal.",
+          "Eu escutei novamente para os detalhes.",
+          "Eu conferi a ordem de uma ação."
+        ],
+        "rubric": [],
+        "model_response_en": "Students are in the fashion studio. They take the sketchbook, pencil, ruler, and measuring tape, put the fabric on the table, and fold the fabric before they use pins.",
+        "model_response_pt": "Os alunos estão no estúdio de moda. Eles pegam o caderno de croquis, o lápis, a régua e a fita métrica, colocam o tecido sobre a mesa e dobram o tecido antes de usar alfinetes.",
+        "common_errors": [
+          "Choosing an object that sounds familiar but is not in the audio.",
+          "Missing the negative instruction Do not sew yet."
+        ],
+        "feedback_prompts_en": [
+          "Listen again for the verbs. What do students do first, next, and later?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente os verbos. O que os alunos fazem primeiro, depois e mais tarde?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Show a small visual word bank of the key tools before the second listen."
+        ],
+        "challenge": [
+          "Ask stronger learners to repeat one instruction aloud after the final listen."
+        ]
+      },
+      "extension_options": [
+        "Write or say one more simple instruction using Week 2 words."
+      ],
+      "notes_for_app_design": "Render this as an audio player with replay support and five short objective questions underneath. Allow two or three plays. Keep transcript reveal behind the first attempt. Auto-check the responses and show which tools and verbs were important."
+    },
+    {
+      "activity_id": "m01w02-a05",
+      "week_id": "m01w02",
+      "sequence_number": 5,
+      "title": "Tool + Action Phrase Practice",
+      "activity_type": "custom",
+      "activity_type_custom": "Tool-action phrase practice for controlled studio-purpose language.",
+      "summary": "Students connect tools to actions by completing short I use ___ to ___ phrases with strong A2 support.",
+      "student_facing": {
+        "en": {
+          "title": "Tool + Action Phrase Practice",
+          "summary": "Complete the short phrases about tools and actions in the studio.",
+          "instructions": "Use the word bank to complete each sentence. Focus on the pattern I use ___ to ___.",
+          "success_criteria": [
+            "I can connect a tool to a simple action.",
+            "I can use the pattern I use ___ to ___.",
+            "I can build short studio-purpose phrases."
+          ],
+          "sentence_frames": [
+            "I use ___ to ___.",
+            "I use a ___ to ___.",
+            "I use pins to ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Prática de frases: ferramenta + ação",
+          "summary": "Complete as frases curtas sobre ferramentas e ações no estúdio.",
+          "instructions": "Use o banco de palavras para completar cada frase. Foque no padrão I use ___ to ___.",
+          "success_criteria": [
+            "Eu consigo conectar uma ferramenta a uma ação simples.",
+            "Eu consigo usar o padrão I use ___ to ___.",
+            "Eu consigo construir frases curtas de finalidade no estúdio."
+          ],
+          "sentence_frames": [
+            "I use ___ to ___.",
+            "I use a ___ to ___.",
+            "I use pins to ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the task controlled and fast. This is not free writing. The goal is accurate phrase-building that prepares students for the Week 2 writing task.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "vocabulary",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "tool icon support",
+        "word bank"
+      ],
+      "vocabulary_refs": [
+        "m01w02-v006",
+        "m01w02-v007",
+        "m01w02-v008",
+        "m01w02-v009",
+        "m01w02-v013",
+        "m01w02-v015",
+        "m01w02-v021",
+        "m01w02-v022",
+        "m01w02-v023",
+        "m01w02-v025",
+        "m01w02-v026"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "word_bank_fill_blank_set",
+        "prompt_en": "Complete the tool-and-action phrases.",
+        "prompt_pt": "Complete as frases de ferramenta e ação.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence about cutting.",
+            "label_pt": "Complete a frase sobre cortar.",
+            "sentence_frame_en": "I use ___ to cut fabric.",
+            "sentence_frame_pt": "I use ___ to cut fabric.",
+            "word_bank": ["scissors", "pins", "thread"],
+            "accepted_answers": ["scissors"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence about drawing.",
+            "label_pt": "Complete a frase sobre desenhar.",
+            "sentence_frame_en": "I use a ___ to draw lines.",
+            "sentence_frame_pt": "I use a ___ to draw lines.",
+            "word_bank": ["ruler", "needle", "button"],
+            "accepted_answers": ["ruler"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence about measuring.",
+            "label_pt": "Complete a frase sobre medir.",
+            "sentence_frame_en": "I use a ___ to measure.",
+            "sentence_frame_pt": "I use a ___ to measure.",
+            "word_bank": ["measuring tape", "pencil", "zipper"],
+            "accepted_answers": ["measuring tape"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence about pinning.",
+            "label_pt": "Complete a frase sobre prender com alfinetes.",
+            "sentence_frame_en": "I use ___ to hold fabric.",
+            "sentence_frame_pt": "I use ___ to hold fabric.",
+            "word_bank": ["pins", "eraser", "board"],
+            "accepted_answers": ["pins"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence about sewing.",
+            "label_pt": "Complete a frase sobre costurar.",
+            "sentence_frame_en": "I use a ___ to sew.",
+            "sentence_frame_pt": "I use a ___ to sew.",
+            "word_bank": ["sewing machine", "sketchbook", "ruler"],
+            "accepted_answers": ["sewing machine"]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Notice the pattern",
+          "student_action_en": "Look at the model pattern I use ___ to ___.",
+          "student_action_pt": "Observe o modelo I use ___ to ___.",
+          "teacher_action": "Model one example aloud before students complete the set.",
+          "estimated_minutes": 2,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the phrases",
+          "student_action_en": "Choose the correct tool from the word bank for each action.",
+          "student_action_pt": "Escolha a ferramenta correta do banco de palavras para cada ação.",
+          "teacher_action": "Remind students to notice articles with singular tools.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Say one phrase",
+          "student_action_en": "Read one completed phrase aloud or quietly to yourself.",
+          "student_action_pt": "Leia uma frase completa em voz alta ou em voz baixa para você mesmo.",
+          "teacher_action": "Use this as a bridge into the writing task.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "completed_phrases",
+        "description_en": "Five to six completed I use ___ to ___ phrases.",
+        "description_pt": "De cinco a seis frases completas com o padrão I use ___ to ___.",
+        "length_or_format": "5 fill-blank phrases"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student uses the target phrase pattern correctly.",
+          "The student matches tools to logical actions.",
+          "The student completes the set with short accurate answers."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa corretamente o padrão de frase-alvo.",
+          "O aluno relaciona ferramentas a ações lógicas.",
+          "O aluno completa o conjunto com respostas curtas e corretas."
+        ],
+        "checklist_en": [
+          "I used the sentence pattern.",
+          "I matched the tools and actions.",
+          "I am ready to use these phrases in writing."
+        ],
+        "checklist_pt": [
+          "Eu usei o padrão da frase.",
+          "Eu relacionei as ferramentas e as ações.",
+          "Eu estou pronto para usar essas frases na escrita."
+        ],
+        "rubric": [],
+        "model_response_en": "I use scissors to cut fabric. I use a ruler to draw lines. I use a measuring tape to measure. I use pins to hold fabric. I use a sewing machine to sew.",
+        "model_response_pt": "Eu uso tesoura para cortar tecido. Eu uso uma régua para desenhar linhas. Eu uso uma fita métrica para medir. Eu uso alfinetes para prender o tecido. Eu uso uma máquina de costura para costurar.",
+        "common_errors": [
+          "Leaving out to in the purpose phrase.",
+          "Using a singular tool without an article.",
+          "Choosing a tool that does not match the action."
+        ],
+        "feedback_prompts_en": [
+          "Check the pattern again. Do you have I use plus object plus to plus verb?"
+        ],
+        "feedback_prompts_pt": [
+          "Confira o padrão novamente. Você tem I use mais objeto mais to mais verbo?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Show a smaller word bank with only two choices per item."
+        ],
+        "challenge": [
+          "Ask stronger learners to add one extra phrase without a word bank."
+        ]
+      },
+      "extension_options": [
+        "Write one new phrase with a tool that is not in the activity set."
+      ],
+      "notes_for_app_design": "Render this as a controlled fill-blank set with visible word banks. Save the completed phrase set as objective output. Auto-check each blank and highlight the purpose pattern I use ___ to ___. If visual support is helpful, a future app may reuse the Week 2 vocabulary boards instead of requiring a dedicated new asset."
+    },
+    {
+      "activity_id": "m01w02-a06",
+      "week_id": "m01w02",
+      "sequence_number": 6,
+      "title": "My Studio Kit",
+      "activity_type": "writing_professional_text",
+      "activity_type_custom": "",
+      "summary": "Students build a short structured text about the tools and materials they use in the studio by completing sentence frames.",
+      "student_facing": {
+        "en": {
+          "title": "My Studio Kit",
+          "summary": "Build a short text about your studio kit with sentence frames.",
+          "instructions": "Complete the sentence frames about the tools and materials you have and use. Save your answers as one short studio-kit text.",
+          "success_criteria": [
+        "I can complete 4-5 sentence frames about my studio kit.",
+            "I can use Week 2 tool words in a short text.",
+            "I can submit a clear studio-kit description for teacher feedback."
+          ],
+          "sentence_frames": [
+            "In my studio kit, I have ___.",
+            "I use ___ to ___.",
+            "I need ___ for ___.",
+            "My favorite tool is ___.",
+            "It is on the table.",
+            "It is useful because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Meu kit de estúdio",
+          "summary": "Monte um texto curto sobre o seu kit de estúdio com frases-modelo.",
+          "instructions": "Complete as frases-modelo sobre as ferramentas e os materiais que você tem e usa. Salve as respostas como um texto curto sobre o seu kit de estúdio.",
+          "success_criteria": [
+        "Eu consigo completar de 4 a 5 frases-modelo sobre o meu kit de estúdio.",
+            "Eu consigo usar palavras da Semana 2 em um texto curto.",
+            "Eu consigo enviar uma descrição clara do meu kit de estúdio para feedback do professor."
+          ],
+          "sentence_frames": [
+            "In my studio kit, I have ___.",
+            "I use ___ to ___.",
+            "I need ___ for ___.",
+            "My favorite tool is ___.",
+            "It is on the table.",
+            "It is useful because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Treat this as the meaningful written output for Week 2. Keep the base requirement limited to 4-6 completed sentence frames. Focus feedback on task completion, accurate tool vocabulary, article use, plural forms, and the pattern I use ___ to ___. Allow one revision if needed.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "vocabulary",
+        "grammar",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "sentence frames",
+        "optional studio-scene support image"
+      ],
+      "vocabulary_refs": [
+        "m01w02-v003",
+        "m01w02-v006",
+        "m01w02-v007",
+        "m01w02-v008",
+        "m01w02-v009",
+        "m01w02-v013",
+        "m01w02-v015",
+        "m01w02-v016",
+        "m01w02-v017",
+        "m01w02-v018",
+        "m01w02-v021",
+        "m01w02-v022",
+        "m01w02-v023",
+        "m01w02-v029",
+        "m01w02-v030"
+      ],
+      "asset_refs": [
+        "m01w02-img-001"
+      ],
+      "input": {
+        "input_type": "structured_writing_frames",
+        "prompt_en": "Complete 4 to 6 sentence frames about your studio kit.",
+        "prompt_pt": "Complete de 4 a 6 frases-modelo sobre o seu kit de estúdio.",
+        "items": [
+          {
+            "response_type": "structured_text",
+            "label_en": "Sentence frame 1",
+            "label_pt": "Frase-modelo 1",
+            "sentence_frame_en": "In my studio kit, I have ___.",
+            "sentence_frame_pt": "In my studio kit, I have ___.",
+            "word_bank": ["a ruler", "a pencil", "a measuring tape", "pins", "a sketchbook", "scissors"]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Sentence frame 2",
+            "label_pt": "Frase-modelo 2",
+            "sentence_frame_en": "I use ___ to ___.",
+            "sentence_frame_pt": "I use ___ to ___.",
+            "word_bank": ["scissors to cut fabric", "a ruler to draw lines", "a measuring tape to measure", "pins to hold fabric"]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Sentence frame 3",
+            "label_pt": "Frase-modelo 3",
+            "sentence_frame_en": "I need ___ for ___.",
+            "sentence_frame_pt": "I need ___ for ___.",
+            "word_bank": ["pattern paper for class", "fabric for sewing", "a pencil for drawing"]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Sentence frame 4",
+            "label_pt": "Frase-modelo 4",
+            "sentence_frame_en": "My favorite tool is ___.",
+            "sentence_frame_pt": "My favorite tool is ___.",
+            "word_bank": ["my sketchbook", "my ruler", "my measuring tape", "my sewing machine"]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Optional challenge sentence",
+            "label_pt": "Frase opcional de desafio",
+            "sentence_frame_en": "It is useful because ___.",
+            "sentence_frame_pt": "It is useful because ___.",
+            "word_bank": ["I draw ideas in it", "I can measure fabric", "I can hold the fabric"]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the sentence frames",
+          "student_action_en": "Read the sentence frames and choose the tools and actions you want to use.",
+          "student_action_pt": "Leia as frases-modelo e escolha as ferramentas e ações que você quer usar.",
+          "teacher_action": "Remind students that the base task is short and structured, not a full paragraph.",
+          "estimated_minutes": 4,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Build your studio-kit text",
+          "student_action_en": "Complete 4 to 6 sentence frames and save them as one short text.",
+          "student_action_pt": "Complete de 4 a 6 frases-modelo e salve-as como um texto curto.",
+          "teacher_action": "Monitor article use, plural forms, and the phrase I use ___ to ___.",
+          "estimated_minutes": 10,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check before you submit",
+          "student_action_en": "Read your text once and check whether each sentence is clear.",
+          "student_action_pt": "Leia o seu texto uma vez e confira se cada frase está clara.",
+          "teacher_action": "Encourage a simple self-check before teacher review.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_studio_text",
+    "description_en": "A short saved studio-kit text built from 4 to 5 sentence-frame completions, with one extra sentence only as an optional challenge.",
+    "description_pt": "Um texto curto salvo sobre o kit de estúdio, construído a partir de 4 a 5 frases-modelo completadas, com uma frase extra apenas como desafio opcional.",
+    "length_or_format": "4 to 5 short sentences saved as one text, with 1 optional challenge sentence"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student completes at least four sentence frames.",
+          "The text names real Week 2 tools or materials.",
+          "The text includes at least one clear tool-and-purpose phrase."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa pelo menos quatro frases-modelo.",
+          "O texto nomeia ferramentas ou materiais reais da Semana 2.",
+          "O texto inclui pelo menos uma frase clara de ferramenta e finalidade."
+        ],
+        "checklist_en": [
+      "I completed 4 to 5 sentence frames.",
+          "I used Week 2 tool words.",
+          "I checked my text before I submitted it."
+        ],
+        "checklist_pt": [
+      "Eu completei de 4 a 5 frases-modelo.",
+          "Eu usei palavras de ferramentas da Semana 2.",
+          "Eu revisei o meu texto antes de enviar."
+        ],
+        "rubric": [
+          {
+            "criterion": "Task completion",
+            "excellent_en": "The text completes the required frames and includes clear tool, purpose, and need information.",
+            "excellent_pt": "O texto completa as frases obrigatórias e inclui informações claras sobre ferramenta, finalidade e necessidade.",
+            "satisfactory_en": "The text completes most required frames and is mostly clear.",
+            "satisfactory_pt": "O texto completa a maior parte das frases obrigatórias e está razoavelmente claro.",
+            "needs_work_en": "The text is missing required frames or is too incomplete to understand clearly.",
+            "needs_work_pt": "O texto não completa as frases obrigatórias ou está incompleto demais para ser entendido com clareza."
+          },
+          {
+            "criterion": "Target phrases and accuracy",
+            "excellent_en": "The text uses I use ___ to ___ and article or plural forms accurately most of the time.",
+            "excellent_pt": "O texto usa I use ___ to ___ e formas de artigo ou plural corretamente na maior parte do tempo.",
+            "satisfactory_en": "The text uses the target phrases with minor mistakes that do not block meaning.",
+            "satisfactory_pt": "O texto usa as frases-alvo com pequenos erros que não impedem a compreensão.",
+            "needs_work_en": "The text needs support with the target phrase pattern, articles, or plurals.",
+            "needs_work_pt": "O texto precisa de apoio com o padrão das frases-alvo, artigos ou plurais."
+          }
+        ],
+        "model_response_en": "In my studio kit, I have scissors, a ruler, a measuring tape, and a sketchbook. I use scissors to cut fabric. I need pattern paper for class. My favorite tool is my sketchbook. It is useful because I draw ideas in it.",
+        "model_response_pt": "No meu kit de estúdio, eu tenho tesoura, uma régua, uma fita métrica e um caderno de croquis. Eu uso tesoura para cortar tecido. Eu preciso de papel de modelagem para a aula. A minha ferramenta favorita é o meu caderno de croquis. Ele é útil porque eu desenho ideias nele.",
+        "common_errors": [
+          "Missing articles in a ruler or a pencil.",
+          "Using a singular form with scissors.",
+          "Writing I use scissors cut fabric without to.",
+          "Leaving the text too short to show the required elements."
+        ],
+        "feedback_prompts_en": [
+          "Add one clearer tool word from Week 2.",
+          "Check your article or plural form.",
+          "Please revise one sentence with I use ___ to ___."
+        ],
+        "feedback_prompts_pt": [
+          "Acrescente uma palavra de ferramenta da Semana 2 com mais clareza.",
+          "Confira o seu artigo ou a sua forma no plural.",
+          "Por favor, revise uma frase com o padrão I use ___ to ___."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to complete exactly four core frames with a visible word bank."
+        ],
+        "challenge": [
+          "Invite stronger learners to add one extra sentence about location or usefulness."
+        ]
+      },
+      "extension_options": [
+        "Turn one sentence from the text into a spoken sentence for the teacher session."
+      ],
+      "notes_for_app_design": "Render this as a teacher-reviewed structured writing submission with separate sentence-frame fields that are saved as one short text. Keep the base task to 4 to 5 required sentence-frame completions and show any extra sentence as an optional challenge only. The teacher view should show the completed frames, the required-elements checklist, common error prompts, quick feedback tags, and a return-for-revision option. Do not require long free writing."
+    },
+    {
+      "activity_id": "m01w02-a07",
+      "week_id": "m01w02",
+      "sequence_number": 7,
+      "title": "Review and Improve: Articles and Plurals",
+      "activity_type": "reflection",
+      "activity_type_custom": "",
+      "summary": "Students review one common Week 2 sentence problem and save one corrected version.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Articles and Plurals",
+          "summary": "Study one correction card and write the improved sentence.",
+          "instructions": "Choose one correction card, notice the mistake, and write the corrected sentence clearly.",
+          "success_criteria": [
+            "I can notice one common sentence problem.",
+            "I can write one corrected sentence clearly.",
+            "I can use the correction to improve my own writing."
+          ],
+          "sentence_frames": [
+            "I use a ruler to draw a line.",
+            "I use scissors to cut fabric.",
+            "My favorite tool is my sketchbook."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Revise e melhore: artigos e plurais",
+          "summary": "Observe um cartão de correção e escreva a frase melhorada.",
+          "instructions": "Escolha um cartão de correção, observe o erro e escreva a frase corrigida com clareza.",
+          "success_criteria": [
+            "Eu consigo perceber um problema comum em uma frase.",
+            "Eu consigo escrever uma frase corrigida com clareza.",
+            "Eu consigo usar a correção para melhorar a minha própria escrita."
+          ],
+          "sentence_frames": [
+            "I use a ruler to draw a line.",
+            "I use scissors to cut fabric.",
+            "My favorite tool is my sketchbook."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the revision target small and specific. Connect the correction back to the Week 2 writing task so students can transfer it immediately.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "critical_thinking"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w02-v006",
+        "m01w02-v007",
+        "m01w02-v013",
+        "m01w02-v016",
+        "m01w02-v022",
+        "m01w02-v027"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "correction_cards",
+        "prompt_en": "Choose one Week 2 sentence and write the corrected version.",
+        "prompt_pt": "Escolha uma frase da Semana 2 e escreva a versão corrigida.",
+        "items": [
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the article problem.",
+            "label_pt": "Corrija o problema de artigo.",
+            "incorrect_sentence": "I use ruler to draw line.",
+            "correct_sentence": "I use a ruler to draw a line.",
+            "accepted_answers": ["I use a ruler to draw a line."]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the plural form.",
+            "label_pt": "Corrija a forma no plural.",
+            "incorrect_sentence": "I use scissor to cut fabric.",
+            "correct_sentence": "I use scissors to cut fabric.",
+            "accepted_answers": ["I use scissors to cut fabric."]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the missing to.",
+            "label_pt": "Corrija a falta de to.",
+            "incorrect_sentence": "I use pins hold fabric.",
+            "correct_sentence": "I use pins to hold fabric.",
+            "accepted_answers": ["I use pins to hold fabric."]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose a correction card",
+          "student_action_en": "Read one incorrect sentence and the correction focus.",
+          "student_action_pt": "Leia uma frase incorreta e o foco da correção.",
+          "teacher_action": "Name the three main Week 2 correction targets: articles, plurals, and to plus verb.",
+          "estimated_minutes": 2,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Write the corrected sentence",
+          "student_action_en": "Rewrite the sentence clearly and accurately.",
+          "student_action_pt": "Reescreva a frase com clareza e precisão.",
+          "teacher_action": "Ask students to compare the corrected model with their own writing.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Transfer the correction",
+          "student_action_en": "Check if the same problem appears in your studio-kit text.",
+          "student_action_pt": "Confira se o mesmo problema aparece no seu texto sobre o kit de estúdio.",
+          "teacher_action": "Prompt students to fix their own sentence if needed.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentence",
+        "description_en": "One corrected Week 2 sentence saved after review.",
+        "description_pt": "Uma frase corrigida da Semana 2 salva após a revisão.",
+        "length_or_format": "1 sentence"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student chooses one correction card.",
+          "The student writes the corrected sentence accurately.",
+          "The student checks for transfer into personal writing."
+        ],
+        "completion_criteria_pt": [
+          "O aluno escolhe um cartão de correção.",
+          "O aluno escreve a frase corrigida corretamente.",
+          "O aluno verifica a possibilidade de transferir a correção para a própria escrita."
+        ],
+        "checklist_en": [
+          "I chose one correction card.",
+          "I wrote the corrected sentence.",
+          "I checked my own text for the same problem."
+        ],
+        "checklist_pt": [
+          "Eu escolhi um cartão de correção.",
+          "Eu escrevi a frase corrigida.",
+          "Eu verifiquei o meu próprio texto para o mesmo problema."
+        ],
+        "rubric": [],
+        "model_response_en": "I use a ruler to draw a line.",
+        "model_response_pt": "Eu uso uma régua para desenhar uma linha.",
+        "common_errors": [
+          "Keeping the original mistake in the new sentence.",
+          "Fixing one part but forgetting another missing word."
+        ],
+        "feedback_prompts_en": [
+          "Read the corrected model again. Which word was missing?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia o modelo corrigido novamente. Qual palavra estava faltando?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Limit the choice to two correction cards for students who need more support."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain the correction rule in simple English or Portuguese."
+        ]
+      },
+      "extension_options": [
+        "Correct one more sentence from your own Week 2 writing."
+      ],
+      "notes_for_app_design": "Render this as one correction-card activity with a small set of common Week 2 sentence problems. Let the student choose one card, type or select the corrected version, and compare against accepted answers. Save one corrected sentence as the mini-revision artifact."
+    },
+    {
+      "activity_id": "m01w02-a08",
+      "week_id": "m01w02",
+      "sequence_number": 8,
+      "title": "Teacher Session: Show Your Studio Kit",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use Week 2 writing and sentence frames to say what tools they have and what they use them for in a live teacher-supported session.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Show Your Studio Kit",
+          "summary": "Use your Week 2 writing to name your tools and say what they are for.",
+          "instructions": "Bring your Week 2 text, practice the key tool words, and say 4 to 6 short sentences about your studio kit.",
+          "success_criteria": [
+            "I can name several studio tools clearly.",
+            "I can say what I use a tool for.",
+            "I can speak in short sentences with teacher support."
+          ],
+          "sentence_frames": [
+            "In my studio kit, I have ___.",
+            "I use ___ to ___.",
+            "I need ___ for ___.",
+            "My favorite tool is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Sessão com o professor: mostre o seu kit de estúdio",
+          "summary": "Use a sua escrita da Semana 2 para nomear as suas ferramentas e dizer para que elas servem.",
+          "instructions": "Leve o seu texto da Semana 2, pratique as palavras principais das ferramentas e diga de 4 a 6 frases curtas sobre o seu kit de estúdio.",
+          "success_criteria": [
+            "Eu consigo nomear várias ferramentas do estúdio com clareza.",
+            "Eu consigo dizer para que uso uma ferramenta.",
+            "Eu consigo falar em frases curtas com apoio do professor."
+          ],
+          "sentence_frames": [
+            "In my studio kit, I have ___.",
+            "I use ___ to ___.",
+            "I need ___ for ___.",
+            "My favorite tool is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Use the live session to move the Week 2 language from recognition and writing into supported speaking. Keep the task short and concrete. Students may read from their Week 2 writing first, then try a more natural version. Focus on intelligibility, accurate tool words, and one clear I use ___ to ___ phrase.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication",
+        "listening"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "student Week 2 writing",
+        "pronunciation list",
+        "optional tool image cards"
+      ],
+      "vocabulary_refs": [
+        "m01w02-v006",
+        "m01w02-v007",
+        "m01w02-v008",
+        "m01w02-v013",
+        "m01w02-v014",
+        "m01w02-v015",
+        "m01w02-v016",
+        "m01w02-v017",
+        "m01w02-v021",
+        "m01w02-v022",
+        "m01w02-v023",
+        "m01w02-v026",
+        "m01w02-v030"
+      ],
+      "asset_refs": [
+        "m01w02-img-007"
+      ],
+      "input": {
+        "input_type": "speaking_prompt",
+        "prompt_en": "Use your Week 2 studio-kit text to speak about your tools and what they are for.",
+        "prompt_pt": "Use o seu texto da Semana 2 sobre o kit de estúdio para falar sobre as suas ferramentas e para que elas servem.",
+        "items": [
+          {
+            "label_en": "Say 4 to 6 short sentences about the tools in your studio kit.",
+            "label_pt": "Diga de 4 a 6 frases curtas sobre as ferramentas do seu kit de estúdio."
+          },
+          {
+            "label_en": "Include at least one sentence with I use ___ to ___.",
+            "label_pt": "Inclua pelo menos uma frase com I use ___ to ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Pronunciation review",
+          "student_action_en": "Practice key Week 2 words such as scissors, ruler, measuring tape, sewing machine, sketchbook, and mannequin.",
+          "student_action_pt": "Pratique palavras importantes da Semana 2 como scissors, ruler, measuring tape, sewing machine, sketchbook e mannequin.",
+          "teacher_action": "Model the pronunciation slowly and clearly, especially scissors, ruler, and mannequin.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Name the tools",
+          "student_action_en": "Look at the teacher’s image cards and say the name of each object.",
+          "student_action_pt": "Observe os cartões de imagem do professor e diga o nome de cada objeto.",
+          "teacher_action": "Use quick flashcard naming to build confidence before full speaking.",
+          "estimated_minutes": 10,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 3,
+          "title": "Show your studio kit",
+          "student_action_en": "Use your Week 2 text to say 4 to 6 sentences about the tools you have and what you use them for.",
+          "student_action_pt": "Use o seu texto da Semana 2 para dizer de 4 a 6 frases sobre as ferramentas que você tem e para que você as usa.",
+          "teacher_action": "Let students use notes first, then invite a more natural second attempt if appropriate.",
+          "estimated_minutes": 20,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 4,
+          "title": "Wrap up and preview",
+          "student_action_en": "Listen to one or two classmates and prepare for next week’s garment vocabulary focus.",
+          "student_action_pt": "Escute um ou dois colegas e prepare-se para o foco de vocabulário de peças de roupa da próxima semana.",
+          "teacher_action": "Close with one short review of articles, plurals, and the I use ___ to ___ pattern.",
+          "estimated_minutes": 10,
+          "mode": "pair"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_spoken_description",
+        "description_en": "A short teacher-observed oral description of the student’s studio kit and tool use.",
+        "description_pt": "Uma descrição oral curta, observada pelo professor, do kit de estúdio do aluno e do uso das ferramentas.",
+        "length_or_format": "4 to 6 short spoken sentences"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names several Week 2 tools or materials.",
+          "The student says at least one clear purpose sentence.",
+          "The student completes the short speaking task with support if needed."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia várias ferramentas ou materiais da Semana 2.",
+          "O aluno diz pelo menos uma frase clara de finalidade.",
+          "O aluno completa a tarefa curta de fala com apoio, se necessário."
+        ],
+        "checklist_en": [
+          "I practiced the key words.",
+          "I used my Week 2 text.",
+          "I said 4 to 6 short sentences."
+        ],
+        "checklist_pt": [
+          "Eu pratiquei as palavras principais.",
+          "Eu usei o meu texto da Semana 2.",
+          "Eu disse de 4 a 6 frases curtas."
+        ],
+        "rubric": [],
+        "model_response_en": "In my studio kit, I have a ruler, scissors, a measuring tape, and a sketchbook. I use scissors to cut fabric. I use a ruler to draw lines. I need pattern paper for class. My favorite tool is my sketchbook.",
+        "model_response_pt": "No meu kit de estúdio, eu tenho uma régua, tesoura, uma fita métrica e um caderno de croquis. Eu uso tesoura para cortar tecido. Eu uso uma régua para desenhar linhas. Eu preciso de papel de modelagem para a aula. A minha ferramenta favorita é o meu caderno de croquis.",
+        "common_errors": [
+          "Dropping articles in singular tool phrases.",
+          "Replacing the purpose phrase with a single word only.",
+          "Naming tools clearly but not saying what they are used for."
+        ],
+        "feedback_prompts_en": [
+          "Can you add one sentence with I use ___ to ___?",
+          "Can you say that again with a clearer tool word?"
+        ],
+        "feedback_prompts_pt": [
+          "Você pode acrescentar uma frase com I use ___ to ___?",
+          "Você pode dizer isso novamente com uma palavra de ferramenta mais clara?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to read directly from their Week 2 writing in the first round."
+        ],
+        "challenge": [
+          "Ask stronger learners one extra follow-up question about where a tool is or why it is useful."
+        ]
+      },
+      "extension_options": [
+        "Add one more sentence about where an item is in the studio."
+      ],
+      "notes_for_app_design": "Keep this as a teacher-observed speaking checkpoint with sentence-frame support, optional image cards, and a simple completion checklist. The app should not record or upload student audio. Its role is to display the prompt, store teacher completion notes, and connect the speaking task back to the Week 2 writing submission."
+    }
+  ]
+}

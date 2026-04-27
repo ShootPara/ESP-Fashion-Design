@@ -1,0 +1,94 @@
+{
+  "week_id": "m01w02",
+  "module_id": "module-01",
+  "week_number": 2,
+  "title": "The Fashion Studio",
+  "summary": "Students move from personal introduction language into the physical Fashion Design studio. They learn to recognize and name tools, materials, work areas, and basic actions, then use short A2 sentence frames to describe a studio kit, follow simple instructions, and speak about tool use in class.",
+  "essential_question": "How can I name studio tools, materials, and actions in English to work more confidently in Fashion Design class?",
+  "professional_context": "Week 2 connects English to the real spaces and objects students meet in introductory sewing, patternmaking, observation drawing, and creativity lab classes. The language focus is practical and visible: naming what is on the table, what students need, what they use, and what the teacher asks them to do.",
+  "language_focus": [
+    "studio vocabulary",
+    "tools and materials",
+    "basic classroom and studio instructions",
+    "object naming with this is and these are",
+    "purpose language with I use ___ to ___",
+    "short guided studio writing",
+    "article and plural review"
+  ],
+  "skill_focus": [
+    "reading",
+    "listening",
+    "writing",
+    "vocabulary",
+    "speaking",
+    "professional_communication",
+    "visual_literacy",
+    "grammar"
+  ],
+  "target_vocabulary_groups": [
+    "m01w02-vg01",
+    "m01w02-vg02",
+    "m01w02-vg03",
+    "m01w02-vg04",
+    "m01w02-vg05"
+  ],
+  "grammar_focus": [
+    "This is ___",
+    "These are ___",
+    "I use ___ to ___",
+    "I need ___",
+    "a and an with singular tools",
+    "plural forms such as scissors and pins",
+    "on the table"
+  ],
+  "pronunciation_focus": [
+    "scissors",
+    "ruler",
+    "measuring tape",
+    "needle",
+    "thread",
+    "pins",
+    "mannequin",
+    "sewing machine",
+    "pattern paper",
+    "fabric swatch"
+  ],
+  "cefr_access_level": "A2",
+  "cefr_target_level": "A2",
+  "estimated_total_minutes": 129,
+  "activity_ids": [
+    "m01w02-a01",
+    "m01w02-a02",
+    "m01w02-a03",
+    "m01w02-a04",
+    "m01w02-a05",
+    "m01w02-a06",
+    "m01w02-a07",
+    "m01w02-a08"
+  ],
+  "asset_ids": [
+    "m01w02-img-001",
+    "m01w02-img-002",
+    "m01w02-img-003",
+    "m01w02-img-004",
+    "m01w02-img-007",
+    "m01w02-aud-001"
+  ],
+  "teacher_preparation": [
+    "Preview the studio-scene image, vocabulary boards, and listening script before class.",
+    "Review article and plural targets such as a ruler, a pencil, scissors, pins, and fabric is.",
+    "Prepare visible sentence frames for I use ___ to ___ and In my studio kit, I have ___.",
+    "Decide whether students will draft My Studio Kit on paper first or type directly into a future app response field.",
+    "Bring optional printed image cards or projected visuals for the teacher-led naming and speaking session."
+  ],
+  "student_deliverables": [
+    "Completion of the visual opener about studio words.",
+    "Completion of the core studio vocabulary matching set.",
+    "Visual-reading responses about tools and object locations in a studio scene.",
+    "Listening-comprehension responses about short studio instructions.",
+    "Completion of tool-action phrase practice.",
+    "A short structured My Studio Kit text built from sentence frames.",
+    "One corrected Week 2 sentence saved after review.",
+    "A short teacher-observed oral description of a studio kit and tool use."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "week_id": "m01w02",
+  "assets": [
+    {
+      "asset_id": "m01w02-img-001",
+      "week_id": "m01w02",
+      "asset_type": "image",
+      "title": "Main fashion studio table scene",
+      "description": "A clear adult-oriented Fashion Design studio scene with a table, sketchbook, ruler, measuring tape, fabric, pins, thread, pattern paper, and a visible sewing machine nearby.",
+      "target_filename": "assets/images/module-01/week-02/m01w02-img-001.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w02-a01",
+        "m01w02-a03",
+        "m01w02-a06"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Primary reusable Week 2 visual. Keep object placement clear for recognition and location questions."
+    },
+    {
+      "asset_id": "m01w02-img-002",
+      "week_id": "m01w02",
+      "asset_type": "image",
+      "title": "Basic tools vocabulary board",
+      "description": "A simple educational board showing scissors, ruler, measuring tape, pencil, and eraser as separate labeled visual units without text embedded in the image.",
+      "target_filename": "assets/images/module-01/week-02/m01w02-img-002.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w02-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use for image-word matching and PT-EN bridge practice."
+    },
+    {
+      "asset_id": "m01w02-img-003",
+      "week_id": "m01w02",
+      "asset_type": "image",
+      "title": "Sewing tools vocabulary board",
+      "description": "A clean vocabulary board showing needle, thread, pins, and a sewing machine as distinct visual targets.",
+      "target_filename": "assets/images/module-01/week-02/m01w02-img-003.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w02-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Keep the sewing machine large enough for easy A2 recognition."
+    },
+    {
+      "asset_id": "m01w02-img-004",
+      "week_id": "m01w02",
+      "asset_type": "image",
+      "title": "Fashion tools and materials vocabulary board",
+      "description": "A visual board showing mannequin, sketchbook, pattern paper, and fabric swatch in a clean educational arrangement.",
+      "target_filename": "assets/images/module-01/week-02/m01w02-img-004.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w02-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use as the second half of the core Week 2 picture vocabulary set."
+    },
+    {
+      "asset_id": "m01w02-img-007",
+      "week_id": "m01w02",
+      "asset_type": "image",
+      "title": "Teacher session image cards set",
+      "description": "A simple flashcard-style set of the most important Week 2 tools for live naming and speaking support.",
+      "target_filename": "assets/images/module-01/week-02/m01w02-img-007.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w02-a08"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Can be printed or projected for pronunciation and speaking support."
+    },
+    {
+      "asset_id": "m01w02-aud-001",
+      "week_id": "m01w02",
+      "asset_type": "audio",
+      "title": "Studio instructions listening audio",
+      "description": "A short teacher-style studio instruction recording about taking tools, placing fabric, drawing a line, measuring, folding, pinning, and checking work.",
+      "target_filename": "assets/audio/module-01/week-02/m01w02-aud-001.mp3",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w02-a04"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Teacher read-aloud can substitute until audio is generated."
+    }
+  ]
+}
