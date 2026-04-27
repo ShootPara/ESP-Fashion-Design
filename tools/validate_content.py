@@ -33,6 +33,35 @@ ACTIVITY_TYPES = {
     "assessment_task",
     "custom",
 }
+PRIMARY_INTERACTION_TYPES = {
+    "single_choice",
+    "multiple_choice",
+    "true_false",
+    "image_match",
+    "translation_match",
+    "word_bank_fill_blank",
+    "sentence_frame_completion",
+    "word_ordering",
+    "read_and_choose",
+    "listen_and_choose",
+    "short_text",
+    "structured_text",
+    "correction_task",
+    "teacher_observed_speaking",
+    "custom",
+}
+SUBMISSION_TYPES = {
+    "none",
+    "selection",
+    "matching",
+    "fill_blank",
+    "short_text",
+    "structured_text",
+    "corrected_sentence",
+    "teacher_observed_speaking",
+    "self_check",
+}
+CHECKED_BY_VALUES = {"app", "teacher", "student", "not_submitted"}
 SKILL_FOCUS_VALUES = {
     "listening",
     "speaking",
@@ -387,6 +416,12 @@ def validate_activities(path: Path, week_id: str, ctx: ValidationContext) -> tup
                 "student_facing",
                 "teacher_instructions",
                 "estimated_minutes",
+                "primary_interaction_type",
+                "primary_interaction_type_custom",
+                "submission_type",
+                "checked_by",
+                "teacher_review_required",
+                "revision_supported",
                 "skill_focus",
                 "skill_focus_custom",
                 "cefr_access_level",
@@ -418,6 +453,26 @@ def validate_activities(path: Path, week_id: str, ctx: ValidationContext) -> tup
             ctx.error(f"{label} has invalid activity_type: {activity_type}")
         if activity_type == "custom" and not str(activity.get("activity_type_custom", "")).strip():
             ctx.error(f"{label} must include a non-empty activity_type_custom when activity_type is 'custom'")
+        primary_interaction_type = activity.get("primary_interaction_type")
+        if primary_interaction_type not in PRIMARY_INTERACTION_TYPES:
+            ctx.error(f"{label} has invalid primary_interaction_type: {primary_interaction_type}")
+        primary_interaction_type_custom = activity.get("primary_interaction_type_custom")
+        if not isinstance(primary_interaction_type_custom, str):
+            ctx.error(f"{label} primary_interaction_type_custom must be a string")
+        if primary_interaction_type == "custom" and not str(primary_interaction_type_custom).strip():
+            ctx.error(
+                f"{label} must include a non-empty primary_interaction_type_custom when primary_interaction_type is 'custom'"
+            )
+        submission_type = activity.get("submission_type")
+        if submission_type not in SUBMISSION_TYPES:
+            ctx.error(f"{label} has invalid submission_type: {submission_type}")
+        checked_by = activity.get("checked_by")
+        if checked_by not in CHECKED_BY_VALUES:
+            ctx.error(f"{label} has invalid checked_by: {checked_by}")
+        if not isinstance(activity.get("teacher_review_required"), bool):
+            ctx.error(f"{label} teacher_review_required must be a boolean")
+        if not isinstance(activity.get("revision_supported"), bool):
+            ctx.error(f"{label} revision_supported must be a boolean")
         skill_focus = activity.get("skill_focus")
         if isinstance(skill_focus, list):
             invalid_skills = [skill for skill in skill_focus if skill not in SKILL_FOCUS_VALUES]

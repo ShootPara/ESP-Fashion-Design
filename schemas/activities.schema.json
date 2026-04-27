@@ -108,6 +108,12 @@
         "student_facing",
         "teacher_instructions",
         "estimated_minutes",
+        "primary_interaction_type",
+        "primary_interaction_type_custom",
+        "submission_type",
+        "checked_by",
+        "teacher_review_required",
+        "revision_supported",
         "skill_focus",
         "skill_focus_custom",
         "cefr_access_level",
@@ -187,6 +193,58 @@
         },
         "estimated_minutes": {
           "type": "number"
+        },
+        "primary_interaction_type": {
+          "type": "string",
+          "enum": [
+            "single_choice",
+            "multiple_choice",
+            "true_false",
+            "image_match",
+            "translation_match",
+            "word_bank_fill_blank",
+            "sentence_frame_completion",
+            "word_ordering",
+            "read_and_choose",
+            "listen_and_choose",
+            "short_text",
+            "structured_text",
+            "correction_task",
+            "teacher_observed_speaking",
+            "custom"
+          ]
+        },
+        "primary_interaction_type_custom": {
+          "type": "string"
+        },
+        "submission_type": {
+          "type": "string",
+          "enum": [
+            "none",
+            "selection",
+            "matching",
+            "fill_blank",
+            "short_text",
+            "structured_text",
+            "corrected_sentence",
+            "teacher_observed_speaking",
+            "self_check"
+          ]
+        },
+        "checked_by": {
+          "type": "string",
+          "enum": [
+            "app",
+            "teacher",
+            "student",
+            "not_submitted"
+          ]
+        },
+        "teacher_review_required": {
+          "type": "boolean"
+        },
+        "revision_supported": {
+          "type": "boolean"
         },
         "skill_focus": {
           "type": "array",
@@ -479,7 +537,28 @@
         "notes_for_app_design": {
           "type": "string"
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "primary_interaction_type": {
+                "const": "custom"
+              }
+            },
+            "required": [
+              "primary_interaction_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "primary_interaction_type_custom": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }
