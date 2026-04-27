@@ -1,0 +1,600 @@
+{
+  "week_id": "m01w04",
+  "vocabulary_groups": [
+    {
+      "group_id": "m01w04-vg01",
+      "title": "Upper garment parts and orientation",
+      "description": "Core visible upper-garment parts students need for beginner description and labeling.",
+      "items": [
+        {
+          "vocab_id": "m01w04-v001",
+          "term": "collar",
+          "part_of_speech": "noun",
+          "definition_en": "The part around the neck of some shirts, jackets, or coats.",
+          "learner_friendly_definition_en": "The neck part on some garments.",
+          "learner_friendly_definition_pt": "A parte do pescoço em algumas peças de roupa.",
+          "example_sentence_en": "The shirt has a collar.",
+          "example_sentence_pt": "A camisa tem gola.",
+          "professional_context_en": "Students use collar to label and describe visible shirt and jacket details.",
+          "professional_context_pt": "Os alunos usam collar para rotular e descrever detalhes visíveis de camisas e jaquetas.",
+          "translation_notes_pt": "A tradução mais comum é gola.",
+          "pronunciation_notes": "Say KOL-er.",
+          "related_terms": [
+            "neckline",
+            "shirt",
+            "jacket"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v002",
+          "term": "neckline",
+          "part_of_speech": "noun",
+          "definition_en": "The shape or opening around the neck of a garment.",
+          "learner_friendly_definition_en": "The opening around the neck of the garment.",
+          "learner_friendly_definition_pt": "A abertura ao redor do pescoço da peça.",
+          "example_sentence_en": "The dress has a round neckline.",
+          "example_sentence_pt": "O vestido tem decote redondo.",
+          "professional_context_en": "Neckline helps students describe dresses, blouses, and design details more precisely.",
+          "professional_context_pt": "Neckline ajuda os alunos a descrever vestidos, blusas e detalhes de design com mais precisão.",
+          "translation_notes_pt": "A tradução mais comum é decote.",
+          "pronunciation_notes": "Say NEK-line.",
+          "related_terms": [
+            "collar",
+            "dress",
+            "blouse"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v003",
+          "term": "sleeve",
+          "part_of_speech": "noun",
+          "definition_en": "The part of a garment that covers the arm.",
+          "learner_friendly_definition_en": "The arm part of the garment.",
+          "learner_friendly_definition_pt": "A parte da peça que cobre o braço.",
+          "example_sentence_en": "The jacket has long sleeves.",
+          "example_sentence_pt": "A jaqueta tem mangas compridas.",
+          "professional_context_en": "Sleeve is one of the most useful Week 4 detail words for labeling and speaking.",
+          "professional_context_pt": "Sleeve é uma das palavras mais úteis da Semana 4 para rotular e falar sobre detalhes.",
+          "translation_notes_pt": "A tradução mais comum é manga.",
+          "pronunciation_notes": "Say SLEEV.",
+          "related_terms": [
+            "cuff",
+            "shoulder",
+            "long sleeves"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v004",
+          "term": "cuff",
+          "part_of_speech": "noun",
+          "definition_en": "The finished end part of a sleeve.",
+          "learner_friendly_definition_en": "The end part of the sleeve.",
+          "learner_friendly_definition_pt": "A parte final da manga.",
+          "example_sentence_en": "The cuff is at the end of the sleeve.",
+          "example_sentence_pt": "O punho fica no final da manga.",
+          "professional_context_en": "Cuff supports close observation of finished garment details.",
+          "professional_context_pt": "Cuff ajuda na observação mais próxima de detalhes acabados da roupa.",
+          "translation_notes_pt": "A tradução mais comum é punho.",
+          "pronunciation_notes": "Say KUF.",
+          "related_terms": [
+            "sleeve",
+            "shirt",
+            "jacket"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w04-v005",
+          "term": "shoulder",
+          "part_of_speech": "noun",
+          "definition_en": "The upper body area where the sleeve joins the garment.",
+          "learner_friendly_definition_en": "The top side part where the sleeve begins.",
+          "learner_friendly_definition_pt": "A parte superior onde a manga começa.",
+          "example_sentence_en": "The shoulder line is simple.",
+          "example_sentence_pt": "A linha do ombro é simples.",
+          "professional_context_en": "Shoulder helps students connect garment details to sketch and construction observation.",
+          "professional_context_pt": "Shoulder ajuda os alunos a relacionar detalhes da peça à observação de desenho e construção.",
+          "translation_notes_pt": "A tradução mais comum é ombro.",
+          "pronunciation_notes": "Say SHOHL-der.",
+          "related_terms": [
+            "sleeve",
+            "seam",
+            "top"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w04-v006",
+          "term": "front",
+          "part_of_speech": "noun",
+          "definition_en": "The front side of a garment.",
+          "learner_friendly_definition_en": "The side you see in the front.",
+          "learner_friendly_definition_pt": "O lado que aparece na frente.",
+          "example_sentence_en": "The zipper is on the front.",
+          "example_sentence_pt": "O zíper está na frente.",
+          "professional_context_en": "Front is essential for location phrases in visual reading and detail description.",
+          "professional_context_pt": "Front é essencial para frases de localização em leitura visual e descrição de detalhes.",
+          "translation_notes_pt": "A tradução mais comum é frente.",
+          "pronunciation_notes": "Say FRUNT.",
+          "related_terms": [
+            "back",
+            "on the front",
+            "zipper"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w04-vg02",
+      "title": "Lower garment parts and closures",
+      "description": "Common visible lower-garment details and closure words for A2 description.",
+      "items": [
+        {
+          "vocab_id": "m01w04-v007",
+          "term": "back",
+          "part_of_speech": "noun",
+          "definition_en": "The back side of a garment.",
+          "learner_friendly_definition_en": "The side behind the garment.",
+          "learner_friendly_definition_pt": "O lado de trás da peça.",
+          "example_sentence_en": "The zipper is on the back.",
+          "example_sentence_pt": "O zíper está nas costas.",
+          "professional_context_en": "Back helps students describe detail placement clearly in garments and technical observation.",
+          "professional_context_pt": "Back ajuda os alunos a descrever a posição dos detalhes com clareza em peças e observação técnica.",
+          "translation_notes_pt": "Pode ser traduzido como costas ou parte de trás.",
+          "pronunciation_notes": "Say BAK.",
+          "related_terms": [
+            "front",
+            "on the back",
+            "zipper"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v008",
+          "term": "waistband",
+          "part_of_speech": "noun",
+          "definition_en": "The band around the waist area of pants, skirts, or shorts.",
+          "learner_friendly_definition_en": "The top band around the waist.",
+          "learner_friendly_definition_pt": "A faixa da parte de cima ao redor da cintura.",
+          "example_sentence_en": "The skirt has a black waistband.",
+          "example_sentence_pt": "A saia tem um cós preto.",
+          "professional_context_en": "Waistband gives students one useful lower-garment structure word for skirts and pants.",
+          "professional_context_pt": "Waistband oferece aos alunos uma palavra útil de estrutura para saias e calças.",
+          "translation_notes_pt": "A tradução mais natural é cós.",
+          "pronunciation_notes": "Say WAYST-band.",
+          "related_terms": [
+            "hem",
+            "skirt",
+            "pants"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v009",
+          "term": "hem",
+          "part_of_speech": "noun",
+          "definition_en": "The finished lower edge of a garment.",
+          "learner_friendly_definition_en": "The bottom finished edge of the garment.",
+          "learner_friendly_definition_pt": "A borda acabada da parte de baixo da peça.",
+          "example_sentence_en": "The hem is at the bottom.",
+          "example_sentence_pt": "A bainha fica na parte de baixo.",
+          "professional_context_en": "Hem is a key Week 4 detail word for location and construction description.",
+          "professional_context_pt": "Hem é uma palavra-chave da Semana 4 para localização e descrição de construção.",
+          "translation_notes_pt": "A tradução mais natural é bainha ou barra, dependendo do contexto.",
+          "pronunciation_notes": "Say HEM.",
+          "related_terms": [
+            "at the bottom",
+            "skirt",
+            "dress"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v010",
+          "term": "pocket",
+          "part_of_speech": "noun",
+          "definition_en": "A small sewn space in a garment used to hold things.",
+          "learner_friendly_definition_en": "A place in the garment for objects or hands.",
+          "learner_friendly_definition_pt": "Um espaço na peça para objetos ou mãos.",
+          "example_sentence_en": "The jacket has two pockets.",
+          "example_sentence_pt": "A jaqueta tem dois bolsos.",
+          "professional_context_en": "Pocket is useful for both visible detail vocabulary and simple function comments.",
+          "professional_context_pt": "Pocket é útil tanto para vocabulário de detalhe visível quanto para comentários simples sobre função.",
+          "translation_notes_pt": "A tradução mais comum é bolso.",
+          "pronunciation_notes": "Say POK-it.",
+          "related_terms": [
+            "functional",
+            "front",
+            "jacket"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v011",
+          "term": "zipper",
+          "part_of_speech": "noun",
+          "definition_en": "A fastener with teeth that opens and closes.",
+          "learner_friendly_definition_en": "A part that opens and closes the garment.",
+          "learner_friendly_definition_pt": "Uma parte que abre e fecha a peça.",
+          "example_sentence_en": "The jacket has a zipper on the front.",
+          "example_sentence_pt": "A jaqueta tem um zíper na frente.",
+          "professional_context_en": "Zipper helps students describe closures and location clearly.",
+          "professional_context_pt": "Zipper ajuda os alunos a descrever fechamentos e localização com clareza.",
+          "translation_notes_pt": "A tradução mais comum é zíper.",
+          "pronunciation_notes": "Say ZIP-er.",
+          "related_terms": [
+            "button",
+            "front",
+            "back"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v012",
+          "term": "button",
+          "part_of_speech": "noun",
+          "definition_en": "A small fastener used to close a garment.",
+          "learner_friendly_definition_en": "A small part used to close clothes.",
+          "learner_friendly_definition_pt": "Uma parte pequena usada para fechar roupas.",
+          "example_sentence_en": "The shirt has one button at the top.",
+          "example_sentence_pt": "A camisa tem um botão na parte de cima.",
+          "professional_context_en": "Button supports singular and plural contrast in Week 4 grammar and description.",
+          "professional_context_pt": "Button ajuda no contraste entre singular e plural na gramática e descrição da Semana 4.",
+          "translation_notes_pt": "A tradução mais comum é botão.",
+          "pronunciation_notes": "Say BUT-un.",
+          "related_terms": [
+            "buttons",
+            "shirt",
+            "front"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w04-vg03",
+      "title": "Construction and detail terms",
+      "description": "Basic construction-detail words introduced with strong image support.",
+      "items": [
+        {
+          "vocab_id": "m01w04-v013",
+          "term": "buttons",
+          "part_of_speech": "noun",
+          "definition_en": "More than one button on a garment.",
+          "learner_friendly_definition_en": "Two or more buttons on clothes.",
+          "learner_friendly_definition_pt": "Dois ou mais botões na roupa.",
+          "example_sentence_en": "There are buttons on the shirt.",
+          "example_sentence_pt": "Há botões na camisa.",
+          "professional_context_en": "Buttons helps students practice plural detail language with there are.",
+          "professional_context_pt": "Buttons ajuda os alunos a praticar a linguagem de detalhe no plural com there are.",
+          "translation_notes_pt": "A tradução mais comum é botões.",
+          "pronunciation_notes": "Say BUT-uns.",
+          "related_terms": [
+            "button",
+            "there are",
+            "shirt"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v014",
+          "term": "seam",
+          "part_of_speech": "noun",
+          "definition_en": "The line where two fabric pieces are joined.",
+          "learner_friendly_definition_en": "The joined line between two fabric parts.",
+          "learner_friendly_definition_pt": "A linha unida entre duas partes de tecido.",
+          "example_sentence_en": "The seam is on the side.",
+          "example_sentence_pt": "A costura fica na lateral.",
+          "professional_context_en": "Seam is useful for early technical observation and later sewing or patternmaking contexts.",
+          "professional_context_pt": "Seam é útil para observação técnica inicial e para contextos futuros de costura ou modelagem.",
+          "translation_notes_pt": "A tradução mais comum é costura.",
+          "pronunciation_notes": "Say SEEM.",
+          "related_terms": [
+            "stitch",
+            "side",
+            "lining"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v015",
+          "term": "stitch",
+          "part_of_speech": "noun",
+          "definition_en": "A visible sewing mark or one unit of sewing.",
+          "learner_friendly_definition_en": "A sewing line or small sewing mark.",
+          "learner_friendly_definition_pt": "Uma linha de costura ou um pequeno ponto de costura.",
+          "example_sentence_en": "The stitch is visible on the pocket.",
+          "example_sentence_pt": "O ponto de costura está visível no bolso.",
+          "professional_context_en": "Stitch helps students notice visible sewing details on garment surfaces.",
+          "professional_context_pt": "Stitch ajuda os alunos a perceber detalhes visíveis de costura na superfície da peça.",
+          "translation_notes_pt": "Pode ser traduzido como ponto ou costura, dependendo do foco.",
+          "pronunciation_notes": "Say STICH.",
+          "related_terms": [
+            "seam",
+            "visible",
+            "pocket"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w04-v016",
+          "term": "pleat",
+          "part_of_speech": "noun",
+          "definition_en": "A folded part of fabric that adds shape or style.",
+          "learner_friendly_definition_en": "A fold in the fabric.",
+          "learner_friendly_definition_pt": "Uma dobra no tecido.",
+          "example_sentence_en": "The skirt has pleats.",
+          "example_sentence_pt": "A saia tem pregas.",
+          "professional_context_en": "Pleat is a useful visible detail word for skirts and design observation.",
+          "professional_context_pt": "Pleat é uma palavra útil de detalhe visível para saias e observação de design.",
+          "translation_notes_pt": "A tradução mais comum é prega.",
+          "pronunciation_notes": "Say PLEET.",
+          "related_terms": [
+            "skirt",
+            "hem",
+            "decorative"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w04-v017",
+          "term": "dart",
+          "part_of_speech": "noun",
+          "definition_en": "A sewn fold that helps shape a garment.",
+          "learner_friendly_definition_en": "A small shaped fold sewn into the garment.",
+          "learner_friendly_definition_pt": "Uma pequena dobra modelada e costurada na peça.",
+          "example_sentence_en": "The blouse has darts near the waist.",
+          "example_sentence_pt": "A blusa tem pences perto da cintura.",
+          "professional_context_en": "Dart connects garment observation to beginner patternmaking language.",
+          "professional_context_pt": "Dart conecta a observação da peça à linguagem inicial de modelagem.",
+          "translation_notes_pt": "A tradução mais comum em moda é pence.",
+          "pronunciation_notes": "Say DART.",
+          "related_terms": [
+            "waistband",
+            "seam",
+            "blouse"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w04-vg04",
+      "title": "Position and location phrases",
+      "description": "Stable A2 phrases students use to say where a detail is on a garment.",
+      "items": [
+        {
+          "vocab_id": "m01w04-v018",
+          "term": "lining",
+          "part_of_speech": "noun",
+          "definition_en": "The inside layer of a garment.",
+          "learner_friendly_definition_en": "The inside fabric layer.",
+          "learner_friendly_definition_pt": "A camada interna de tecido.",
+          "example_sentence_en": "The jacket has lining inside.",
+          "example_sentence_pt": "A jaqueta tem forro por dentro.",
+          "professional_context_en": "Lining introduces one important inside-garment detail for later fashion study.",
+          "professional_context_pt": "Lining introduz um detalhe interno importante da peça para estudos posteriores de moda.",
+          "translation_notes_pt": "A tradução mais comum é forro.",
+          "pronunciation_notes": "Say LY-ning.",
+          "related_terms": [
+            "inside",
+            "jacket",
+            "seam"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w04-v019",
+          "term": "on the front",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to say a detail is on the front side of a garment.",
+          "learner_friendly_definition_en": "A phrase for a detail on the front side.",
+          "learner_friendly_definition_pt": "Uma frase para um detalhe na parte da frente.",
+          "example_sentence_en": "There is a zipper on the front.",
+          "example_sentence_pt": "Há um zíper na frente.",
+          "professional_context_en": "On the front is a key Week 4 location phrase for labeling and technical observation.",
+          "professional_context_pt": "On the front é uma frase-chave da Semana 4 para rotulagem e observação técnica.",
+          "translation_notes_pt": "A tradução mais comum é na frente.",
+          "pronunciation_notes": "Link on the naturally in speech.",
+          "related_terms": [
+            "front",
+            "zipper",
+            "button"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v020",
+          "term": "on the back",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to say a detail is on the back side of a garment.",
+          "learner_friendly_definition_en": "A phrase for a detail on the back side.",
+          "learner_friendly_definition_pt": "Uma frase para um detalhe na parte de trás.",
+          "example_sentence_en": "The zipper is on the back.",
+          "example_sentence_pt": "O zíper está na parte de trás.",
+          "professional_context_en": "On the back helps students contrast garment locations clearly.",
+          "professional_context_pt": "On the back ajuda os alunos a contrastar localizações da peça com clareza.",
+          "translation_notes_pt": "Pode ser traduzido como atrás ou na parte de trás.",
+          "pronunciation_notes": "Stress BACK in the phrase.",
+          "related_terms": [
+            "back",
+            "zipper",
+            "dress"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v021",
+          "term": "at the top",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to say a detail is near the upper area of a garment.",
+          "learner_friendly_definition_en": "A phrase for a detail in the upper part.",
+          "learner_friendly_definition_pt": "Uma frase para um detalhe na parte de cima.",
+          "example_sentence_en": "The collar is at the top.",
+          "example_sentence_pt": "A gola fica na parte de cima.",
+          "professional_context_en": "At the top supports clear positional language in image labeling.",
+          "professional_context_pt": "At the top ajuda na linguagem de posição clara em atividades de rotulagem de imagem.",
+          "translation_notes_pt": "A tradução mais comum é na parte de cima.",
+          "pronunciation_notes": "Stress TOP in the phrase.",
+          "related_terms": [
+            "collar",
+            "neckline",
+            "front"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v022",
+          "term": "at the bottom",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to say a detail is near the lower edge of a garment.",
+          "learner_friendly_definition_en": "A phrase for a detail in the lower part.",
+          "learner_friendly_definition_pt": "Uma frase para um detalhe na parte de baixo.",
+          "example_sentence_en": "The hem is at the bottom.",
+          "example_sentence_pt": "A bainha fica na parte de baixo.",
+          "professional_context_en": "At the bottom gives students a stable phrase for hems and lower details.",
+          "professional_context_pt": "At the bottom oferece aos alunos uma frase estável para bainhas e detalhes inferiores.",
+          "translation_notes_pt": "A tradução mais comum é na parte de baixo.",
+          "pronunciation_notes": "Stress BOT in bottom.",
+          "related_terms": [
+            "hem",
+            "skirt",
+            "dress"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w04-vg05",
+      "title": "Description and function language",
+      "description": "Short descriptive and location phrases that help students comment on garment details.",
+      "items": [
+        {
+          "vocab_id": "m01w04-v023",
+          "term": "on the side",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to say a detail is on one side area of a garment.",
+          "learner_friendly_definition_en": "A phrase for a detail on the lateral part.",
+          "learner_friendly_definition_pt": "Uma frase para um detalhe na parte lateral.",
+          "example_sentence_en": "The seam is on the side.",
+          "example_sentence_pt": "A costura fica na lateral.",
+          "professional_context_en": "On the side is useful for seams, pockets, and simple technical observation.",
+          "professional_context_pt": "On the side é útil para costuras, bolsos e observação técnica simples.",
+          "translation_notes_pt": "A tradução mais comum é na lateral.",
+          "pronunciation_notes": "Stress SIDE in the phrase.",
+          "related_terms": [
+            "seam",
+            "pocket",
+            "front"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v024",
+          "term": "near the hem",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to say a detail is close to the lower edge of a garment.",
+          "learner_friendly_definition_en": "A phrase for a detail close to the hem.",
+          "learner_friendly_definition_pt": "Uma frase para um detalhe perto da bainha.",
+          "example_sentence_en": "There is a seam near the hem.",
+          "example_sentence_pt": "Há uma costura perto da bainha.",
+          "professional_context_en": "Near the hem gives students one more specific location phrase for detail description.",
+          "professional_context_pt": "Near the hem oferece aos alunos mais uma frase específica de localização para descrição de detalhes.",
+          "translation_notes_pt": "A tradução mais comum é perto da bainha.",
+          "pronunciation_notes": "Keep hem short and clear.",
+          "related_terms": [
+            "hem",
+            "seam",
+            "at the bottom"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w04-v025",
+          "term": "visible",
+          "part_of_speech": "adjective",
+          "definition_en": "Easy to see.",
+          "learner_friendly_definition_en": "Something you can see clearly.",
+          "learner_friendly_definition_pt": "Algo que você consegue ver com clareza.",
+          "example_sentence_en": "The stitch is visible on the pocket.",
+          "example_sentence_pt": "O ponto está visível no bolso.",
+          "professional_context_en": "Visible helps students describe details they can observe directly on a garment.",
+          "professional_context_pt": "Visible ajuda os alunos a descrever detalhes que podem observar diretamente em uma peça.",
+          "translation_notes_pt": "A tradução mais comum é visível.",
+          "pronunciation_notes": "Say VIZ-uh-bul.",
+          "related_terms": [
+            "stitch",
+            "seam",
+            "simple"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v026",
+          "term": "functional",
+          "part_of_speech": "adjective",
+          "definition_en": "Useful for the job or purpose of the garment.",
+          "learner_friendly_definition_en": "Useful and practical.",
+          "learner_friendly_definition_pt": "Útil e prático.",
+          "example_sentence_en": "The pockets are functional.",
+          "example_sentence_pt": "Os bolsos são funcionais.",
+          "professional_context_en": "Functional helps students comment on why a detail matters in design.",
+          "professional_context_pt": "Functional ajuda os alunos a comentar por que um detalhe importa no design.",
+          "translation_notes_pt": "A tradução mais comum é funcional.",
+          "pronunciation_notes": "Say FUNK-shuh-nul.",
+          "related_terms": [
+            "pocket",
+            "decorative",
+            "simple"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w04-v027",
+          "term": "decorative",
+          "part_of_speech": "adjective",
+          "definition_en": "Added mainly for style or visual effect.",
+          "learner_friendly_definition_en": "Added for beauty or style.",
+          "learner_friendly_definition_pt": "Adicionado mais para beleza ou estilo.",
+          "example_sentence_en": "The buttons are decorative.",
+          "example_sentence_pt": "Os botões são decorativos.",
+          "professional_context_en": "Decorative gives students a simple way to comment on design intention.",
+          "professional_context_pt": "Decorative oferece aos alunos uma forma simples de comentar a intenção de design.",
+          "translation_notes_pt": "A tradução mais comum é decorativo.",
+          "pronunciation_notes": "Say DEK-uh-ray-tiv.",
+          "related_terms": [
+            "functional",
+            "buttons",
+            "pleat"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w04-v028",
+          "term": "simple",
+          "part_of_speech": "adjective",
+          "definition_en": "Not complex or not very detailed.",
+          "learner_friendly_definition_en": "Easy, clean, and not complex.",
+          "learner_friendly_definition_pt": "Fácil, limpo e não complexo.",
+          "example_sentence_en": "The collar is simple.",
+          "example_sentence_pt": "A gola é simples.",
+          "professional_context_en": "Simple helps A2 learners give a short design comment without needing advanced critique language.",
+          "professional_context_pt": "Simple ajuda os alunos A2 a fazer um comentário curto de design sem precisar de linguagem avançada de crítica.",
+          "translation_notes_pt": "A tradução mais comum é simples.",
+          "pronunciation_notes": "Say SIM-pul.",
+          "related_terms": [
+            "visible",
+            "functional",
+            "decorative"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    }
+  ]
+}

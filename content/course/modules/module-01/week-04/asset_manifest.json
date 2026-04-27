@@ -1,0 +1,91 @@
+{
+  "week_id": "m01w04",
+  "assets": [
+    {
+      "asset_id": "m01w04-img-001",
+      "week_id": "m01w04",
+      "asset_type": "image",
+      "title": "Week 4 garment-detail overview board",
+      "description": "An overview board with several adult-oriented garments from Week 3 categories, each showing clear visible details such as buttons, pockets, collars, sleeves, waistbands, or zippers for quick review and detail noticing.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-001.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w04-a01"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use for the opener only. Keep garments large enough for students to notice one visible detail immediately."
+    },
+    {
+      "asset_id": "m01w04-img-002",
+      "week_id": "m01w04",
+      "asset_type": "image",
+      "title": "Garment-parts vocabulary board A",
+      "description": "A close-up educational vocabulary board showing collar, neckline, sleeve, cuff, shoulder, pocket, and button as separate detail visuals.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-002.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w04-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Main Week 4 detail board for upper-garment parts and small visible details."
+    },
+    {
+      "asset_id": "m01w04-img-003",
+      "week_id": "m01w04",
+      "asset_type": "image",
+      "title": "Garment-parts vocabulary board B",
+      "description": "A close-up educational vocabulary board showing zipper, waistband, hem, seam, pleat, dart, and lining as separate detail visuals.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-003.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w04-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use as the second Week 4 detail board and keep all detail edges easy to recognize."
+    },
+    {
+      "asset_id": "m01w04-img-004",
+      "week_id": "m01w04",
+      "asset_type": "image",
+      "title": "Single labeled-points garment image",
+      "description": "One clear shirt or jacket image with visible point markers for collar, sleeve, buttons, pocket, zipper, hem, front, and seam.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-004.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w04-a03"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Point markers should support app-checkable labels A through H, with distinct markers for the hem label and the separate bottom-location question."
+    },
+    {
+      "asset_id": "m01w04-img-005",
+      "week_id": "m01w04",
+      "asset_type": "image",
+      "title": "Reusable garment-detail card set",
+      "description": "A reusable card or gallery set showing four garments with clearly visible details: a white shirt with buttons, a black jacket with zipper and pockets, a blue skirt with waistband and pleats, and a red dress with neckline and back zipper.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-005.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w04-a04",
+        "m01w04-a06",
+        "m01w04-a08"
+      ],
+      "generation_source": "image_generation",
+      "notes": "One shared asset should support listening, writing choice, and teacher-led speaking."
+    },
+    {
+      "asset_id": "m01w04-aud-001",
+      "week_id": "m01w04",
+      "asset_type": "audio",
+      "title": "What Does It Have listening audio",
+      "description": "A short teacher-style audio clip with four garment descriptions that exactly match the Week 4 listening answer key.",
+      "target_filename": "assets/audio/module-01/week-04/m01w04-aud-001.mp3",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w04-a04"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Keep the script aligned exactly with the app-checked answers. Teacher read-aloud can substitute until audio is generated."
+    }
+  ]
+}

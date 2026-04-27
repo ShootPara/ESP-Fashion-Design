@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w04",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w04-aud-001",
+      "purpose": "Listening model for Week 4 garment-detail recognition with exact alignment between script and answer key.",
+      "target_filename": "assets/audio/module-01/week-04/m01w04-aud-001.mp3",
+      "script": "Look at the four garment cards. Number one: This is a white shirt. It has a collar, long sleeves, and three buttons on the front. Number two: This is a black jacket. It has a zipper, two pockets, and long sleeves. Number three: This is a blue skirt. It has a waistband, pleats, and a simple hem. Number four: This is a red dress. It has a round neckline, short sleeves, and a zipper on the back.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, direct, and easy to follow, with a short pause after each numbered description.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 48,
+      "used_by_activity_ids": [
+        "m01w04-a04"
+      ],
+      "status": "planned"
+    }
+  ]
+}

@@ -1,0 +1,2010 @@
+{
+  "week_id": "m01w04",
+  "activities": [
+    {
+      "activity_id": "m01w04-a01",
+      "week_id": "m01w04",
+      "sequence_number": 1,
+      "title": "Welcome Back: Find the Details",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students review familiar garments from Week 3 and notice visible details that will become the new Week 4 vocabulary set.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: Find the Details",
+          "summary": "Look at the garments and choose the detail you can see.",
+          "instructions": "Look at the garment board. Choose the correct garment or visible detail for each picture.",
+          "success_criteria": [
+            "I can identify a familiar garment.",
+            "I can notice one visible detail on a garment.",
+            "I am ready to learn the Week 4 detail words."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "It has ___.",
+            "I can see ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: encontre os detalhes",
+          "summary": "Observe as peças e escolha o detalhe que você consegue ver.",
+          "instructions": "Observe o painel de roupas. Escolha a peça correta ou o detalhe visível correto em cada imagem.",
+          "success_criteria": [
+            "Eu consigo identificar uma peça de roupa conhecida.",
+            "Eu consigo perceber um detalhe visível em uma peça.",
+            "Eu estou pronto para aprender as palavras de detalhes da Semana 4."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "It has ___.",
+            "I can see ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the opener fast and visual. Students should review garment names from Week 3 while noticing that Week 4 now focuses on parts and details instead of whole garments only.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "garment-detail overview board"
+      ],
+      "vocabulary_refs": [
+        "m01w04-v001",
+        "m01w04-v003",
+        "m01w04-v009",
+        "m01w04-v010",
+        "m01w04-v011",
+        "m01w04-v012",
+        "m01w04-v019"
+      ],
+      "asset_refs": [
+        "m01w04-img-001"
+      ],
+      "input": {
+        "input_type": "garment_detail_review",
+        "prompt_en": "Choose the garment or detail you can see.",
+        "prompt_pt": "Escolha a peça ou o detalhe que você consegue ver.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which garment has buttons on the front?",
+            "label_pt": "Qual peça tem botões na frente?",
+            "asset_id": "m01w04-img-001",
+            "options_en": [
+              "shirt",
+              "skirt",
+              "jeans"
+            ],
+            "options_pt": [
+              "camisa",
+              "saia",
+              "jeans"
+            ],
+            "correct_answer": "shirt"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which garment has a zipper and pockets?",
+            "label_pt": "Qual peça tem zíper e bolsos?",
+            "asset_id": "m01w04-img-001",
+            "options_en": [
+              "jacket",
+              "dress",
+              "blouse"
+            ],
+            "options_pt": [
+              "jaqueta",
+              "vestido",
+              "blusa"
+            ],
+            "correct_answer": "jacket"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which detail can you see at the top of the shirt?",
+            "label_pt": "Qual detalhe você consegue ver na parte de cima da camisa?",
+            "asset_id": "m01w04-img-001",
+            "options_en": [
+              "collar",
+              "hem",
+              "waistband"
+            ],
+            "options_pt": [
+              "gola",
+              "bainha",
+              "cós"
+            ],
+            "correct_answer": "collar"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which detail can you see on the skirt?",
+            "label_pt": "Qual detalhe você consegue ver na saia?",
+            "asset_id": "m01w04-img-001",
+            "options_en": [
+              "waistband",
+              "collar",
+              "cuff"
+            ],
+            "options_pt": [
+              "cós",
+              "gola",
+              "punho"
+            ],
+            "correct_answer": "waistband"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the garment board",
+          "student_action_en": "Look at the garments and notice one detail on each one.",
+          "student_action_pt": "Observe as peças e perceba um detalhe em cada uma.",
+          "teacher_action": "Remind students that this week moves from garment names to garment parts.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the detail answers",
+          "student_action_en": "Choose the correct garment or detail answer for each question.",
+          "student_action_pt": "Escolha a peça ou o detalhe correto em cada pergunta.",
+          "teacher_action": "Keep the pace light and encourage students to use the image instead of guessing from memory only.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Four quick review selections identifying a garment and one visible detail.",
+        "description_pt": "Quatro seleções rápidas de revisão identificando uma peça e um detalhe visível.",
+        "length_or_format": "4 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student reviews familiar garments from Week 3.",
+          "The student notices visible garment details.",
+          "The student is ready for the Week 4 vocabulary task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno revisa peças conhecidas da Semana 3.",
+          "O aluno percebe detalhes visíveis das peças.",
+          "O aluno está pronto para a atividade de vocabulário da Semana 4."
+        ],
+        "checklist_en": [
+          "I looked carefully at the garments.",
+          "I chose visible detail answers.",
+          "I am ready for the new Week 4 words."
+        ],
+        "checklist_pt": [
+          "Eu observei as peças com atenção.",
+          "Eu escolhi respostas sobre detalhes visíveis.",
+          "Eu estou pronto para as novas palavras da Semana 4."
+        ],
+        "rubric": [],
+        "model_response_en": "shirt, jacket, collar, and waistband",
+        "model_response_pt": "camisa, jaqueta, gola e cós",
+        "common_errors": [
+          "Choosing the garment category correctly but missing the detail word.",
+          "Confusing a collar with a waistband because the student looks too quickly."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the top and bottom parts of the garment. Which detail fits the picture?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente a parte de cima e a parte de baixo da peça. Qual detalhe combina com a imagem?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the Portuguese word quietly before choosing the English option."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence such as The jacket has a zipper."
+        ]
+      },
+      "extension_options": [
+        "Name one more visible detail from the board without using the options."
+      ],
+      "notes_for_app_design": "Render this as one overview board with four quick single-choice items. Save the selected answers only. Use immediate feedback to show that Week 4 now focuses on visible parts such as collar, waistband, buttons, and zipper."
+    },
+    {
+      "activity_id": "m01w04-a02",
+      "week_id": "m01w04",
+      "sequence_number": 2,
+      "title": "Garment Parts Vocabulary",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students learn the core Week 4 garment-part vocabulary by matching close-up visuals to English words, then using a short Portuguese bridge and one fill-blank as support.",
+      "student_facing": {
+        "en": {
+          "title": "Garment Parts Vocabulary",
+          "summary": "Match the garment-detail pictures to the correct English words.",
+          "instructions": "Match each close-up detail picture to the correct English word. After the main matching sets, use the Portuguese support and one short phrase as extra practice.",
+          "success_criteria": [
+            "I can match garment-detail pictures to English words.",
+            "I can use Portuguese support when I need it.",
+            "I can start to use the new words in a short phrase."
+          ],
+          "sentence_frames": [
+            "This is the ___.",
+            "It has a ___.",
+            "The ___ is visible."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Vocabulário de partes da roupa",
+          "summary": "Relacione as imagens de detalhes da peça às palavras corretas em inglês.",
+          "instructions": "Relacione cada imagem de detalhe à palavra correta em inglês. Depois dos conjuntos principais de relação, use o apoio em português e uma frase curta como prática extra.",
+          "success_criteria": [
+            "Eu consigo relacionar imagens de detalhes da peça às palavras em inglês.",
+            "Eu consigo usar apoio em português quando preciso.",
+            "Eu consigo começar a usar as novas palavras em uma frase curta."
+          ],
+          "sentence_frames": [
+            "This is the ___.",
+            "It has a ___.",
+            "The ___ is visible."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main checked output focused on the image-to-word matching sets. The Portuguese bridge and the final phrase item should appear as support after the main matching is finished.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "detail vocabulary boards"
+      ],
+      "vocabulary_refs": [
+        "m01w04-v001",
+        "m01w04-v002",
+        "m01w04-v003",
+        "m01w04-v004",
+        "m01w04-v005",
+        "m01w04-v010",
+        "m01w04-v011",
+        "m01w04-v012",
+        "m01w04-v014",
+        "m01w04-v016",
+        "m01w04-v017",
+        "m01w04-v018",
+        "m01w04-v025"
+      ],
+      "asset_refs": [
+        "m01w04-img-002",
+        "m01w04-img-003"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the garment-detail images to the correct English words.",
+        "prompt_pt": "Relacione as imagens dos detalhes da peça às palavras corretas em inglês.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match the upper-garment parts.",
+            "label_pt": "Relacione as partes superiores da peça.",
+            "asset_id": "m01w04-img-002",
+            "matches": [
+              {
+                "image_key": "detail_1",
+                "answer_en": "collar",
+                "answer_pt": "gola"
+              },
+              {
+                "image_key": "detail_2",
+                "answer_en": "neckline",
+                "answer_pt": "decote"
+              },
+              {
+                "image_key": "detail_3",
+                "answer_en": "sleeve",
+                "answer_pt": "manga"
+              },
+              {
+                "image_key": "detail_4",
+                "answer_en": "cuff",
+                "answer_pt": "punho"
+              },
+              {
+                "image_key": "detail_5",
+                "answer_en": "shoulder",
+                "answer_pt": "ombro"
+              }
+            ]
+          },
+          {
+            "response_type": "image_match",
+            "label_en": "Match the closures and construction details.",
+            "label_pt": "Relacione os fechamentos e detalhes de construção.",
+            "asset_id": "m01w04-img-003",
+            "matches": [
+              {
+                "image_key": "detail_1",
+                "answer_en": "zipper",
+                "answer_pt": "zíper"
+              },
+              {
+                "image_key": "detail_2",
+                "answer_en": "waistband",
+                "answer_pt": "cós"
+              },
+              {
+                "image_key": "detail_3",
+                "answer_en": "hem",
+                "answer_pt": "bainha"
+              },
+              {
+                "image_key": "detail_4",
+                "answer_en": "seam",
+                "answer_pt": "costura"
+              },
+              {
+                "image_key": "detail_5",
+                "answer_en": "pleat",
+                "answer_pt": "prega"
+              },
+              {
+                "image_key": "detail_6",
+                "answer_en": "dart",
+                "answer_pt": "pence"
+              }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support to the English word.",
+            "label_pt": "Relacione o apoio em português à palavra em inglês.",
+            "pairs": [
+              {
+                "pt": "bolso",
+                "en": "pocket"
+              },
+              {
+                "pt": "botão",
+                "en": "button"
+              },
+              {
+                "pt": "forro",
+                "en": "lining"
+              },
+              {
+                "pt": "visível",
+                "en": "visible"
+              }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the short phrase.",
+            "label_pt": "Complete a frase curta.",
+            "sentence_frame_en": "The jacket has a ___.",
+            "sentence_frame_pt": "The jacket has a ___.",
+            "word_bank": [
+              "zipper",
+              "hem",
+              "pleat"
+            ],
+            "accepted_answers": [
+              "zipper"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the close-up boards",
+          "student_action_en": "Look carefully at the detail images before you start matching.",
+          "student_action_pt": "Observe com atenção as imagens dos detalhes antes de começar a relacionar.",
+          "teacher_action": "Explain that the main goal is to connect one image to one English detail word.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the detail words",
+          "student_action_en": "Match the close-up garment details to the correct English words.",
+          "student_action_pt": "Relacione os detalhes da peça às palavras corretas em inglês.",
+          "teacher_action": "Monitor confusion points such as collar versus neckline and seam versus pleat.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use the support bridge",
+          "student_action_en": "Check a few Portuguese links and complete one short phrase.",
+          "student_action_pt": "Confira algumas ligações com o português e complete uma frase curta.",
+          "teacher_action": "Keep this as support after the main checked matching sets.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "Two saved image-word matching sets as the main checked output, followed by short Portuguese bridge and phrase support.",
+        "description_pt": "Dois conjuntos salvos de relação imagem-palavra como resultado principal verificado, seguidos por apoio curto de ponte com o português e frase.",
+        "length_or_format": "2 scored image-match sets as the main saved output, plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the two main image-word matching sets.",
+          "The student connects detail images to English words.",
+          "The student may use the Portuguese bridge and short phrase as support after the main matching task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa os dois conjuntos principais de relação imagem-palavra.",
+          "O aluno relaciona imagens de detalhes às palavras em inglês.",
+          "O aluno pode usar a ponte com o português e a frase curta como apoio depois da tarefa principal de relação."
+        ],
+        "checklist_en": [
+          "I matched the detail pictures.",
+          "I reviewed the English words.",
+          "I used the support items after the main matching task."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as imagens dos detalhes.",
+          "Eu revisei as palavras em inglês.",
+          "Eu usei os itens de apoio depois da tarefa principal de relação."
+        ],
+        "rubric": [],
+        "model_response_en": "collar, neckline, sleeve, cuff, shoulder, zipper, waistband, hem, seam, pleat, dart, pocket, button, lining, and visible",
+        "model_response_pt": "gola, decote, manga, punho, ombro, zíper, cós, bainha, costura, prega, pence, bolso, botão, forro e visível",
+        "common_errors": [
+          "Confusing collar and neckline because both appear near the neck.",
+          "Confusing seam and pleat because both appear as lines in the fabric."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the shape and position of the detail. Is it at the neck, on the edge, or in the fabric line?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente a forma e a posição do detalhe. Ele fica no pescoço, na borda ou na linha do tecido?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete the two main matching sets before they see the Portuguese bridge."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one short sentence with The ___ is visible."
+        ]
+      },
+      "extension_options": [
+        "Choose one detail and say whether it is simple, visible, or functional."
+      ],
+      "notes_for_app_design": "Render this as two main detail boards shown one at a time. Save only the two image-match sets as the primary checked output. Treat the PT-EN bridge and the final fill-blank as follow-up support screens after the main matching is complete, not as the main scored submission. Immediate feedback should explain close confusions such as collar versus neckline and seam versus pleat."
+    },
+    {
+      "activity_id": "m01w04-a03",
+      "week_id": "m01w04",
+      "sequence_number": 3,
+      "title": "Label the Garment",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students inspect one garment image with marked points and choose the correct detail labels and location phrases for each point.",
+      "student_facing": {
+        "en": {
+          "title": "Label the Garment",
+          "summary": "Look at the garment image and choose the correct label or location answer.",
+          "instructions": "Study the garment image with points A to H. Choose the correct detail label or location answer for each question.",
+          "success_criteria": [
+            "I can identify visible garment parts on one image.",
+            "I can connect a point key to the correct label.",
+            "I can use simple location language with the image."
+          ],
+          "sentence_frames": [
+            "Point ___ is the ___.",
+            "The ___ is on the ___.",
+            "The ___ is at the ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Rotule a peça",
+          "summary": "Observe a imagem da peça e escolha o rótulo ou a resposta de localização correta.",
+          "instructions": "Estude a imagem da peça com os pontos A a H. Escolha o rótulo de detalhe correto ou a resposta de localização correta em cada pergunta.",
+          "success_criteria": [
+            "Eu consigo identificar partes visíveis da peça em uma imagem.",
+            "Eu consigo relacionar uma letra ao rótulo correto.",
+            "Eu consigo usar linguagem simples de localização com a imagem."
+          ],
+          "sentence_frames": [
+            "Point ___ is the ___.",
+            "The ___ is on the ___.",
+            "The ___ is at the ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the garment image visible and encourage students to use the point markers instead of answering from memory. This task should feel like visual reading, not broad description yet.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "single garment image with point markers"
+      ],
+      "vocabulary_refs": [
+        "m01w04-v001",
+        "m01w04-v003",
+        "m01w04-v009",
+        "m01w04-v010",
+        "m01w04-v011",
+        "m01w04-v014",
+        "m01w04-v019",
+        "m01w04-v021",
+        "m01w04-v022",
+        "m01w04-v023"
+      ],
+      "asset_refs": [
+        "m01w04-img-004"
+      ],
+      "input": {
+        "input_type": "image_point_labeling",
+        "prompt_en": "Choose the correct label or location answer for each marked point on the garment.",
+        "prompt_pt": "Escolha o rótulo ou a resposta de localização correta para cada ponto marcado na peça.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "What is point A?",
+            "label_pt": "O que é o ponto A?",
+            "asset_id": "m01w04-img-004",
+            "image_point_key": "A",
+            "options_en": [
+              "collar",
+              "hem",
+              "pocket"
+            ],
+            "options_pt": [
+              "gola",
+              "bainha",
+              "bolso"
+            ],
+            "correct_answer": "collar"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What is point B?",
+            "label_pt": "O que é o ponto B?",
+            "asset_id": "m01w04-img-004",
+            "image_point_key": "B",
+            "options_en": [
+              "sleeve",
+              "zipper",
+              "waistband"
+            ],
+            "options_pt": [
+              "manga",
+              "zíper",
+              "cós"
+            ],
+            "correct_answer": "sleeve"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What can you see at point C?",
+            "label_pt": "O que você consegue ver no ponto C?",
+            "asset_id": "m01w04-img-004",
+            "image_point_key": "C",
+            "options_en": [
+              "buttons",
+              "pleats",
+              "lining"
+            ],
+            "options_pt": [
+              "botões",
+              "pregas",
+              "forro"
+            ],
+            "correct_answer": "buttons"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which detail is point D?",
+            "label_pt": "Qual detalhe é o ponto D?",
+            "asset_id": "m01w04-img-004",
+            "image_point_key": "D",
+            "options_en": [
+              "pocket",
+              "cuff",
+              "dart"
+            ],
+            "options_pt": [
+              "bolso",
+              "punho",
+              "pence"
+            ],
+            "correct_answer": "pocket"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Where is the zipper on this garment?",
+            "label_pt": "Onde está o zíper nesta peça?",
+            "asset_id": "m01w04-img-004",
+            "image_point_key": "E",
+            "options_en": [
+              "on the front",
+              "on the back",
+              "inside"
+            ],
+            "options_pt": [
+              "na frente",
+              "na parte de trás",
+              "por dentro"
+            ],
+            "correct_answer": "on the front"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What is point F?",
+            "label_pt": "O que é o ponto F?",
+            "asset_id": "m01w04-img-004",
+            "image_point_key": "H",
+            "options_en": [
+              "hem",
+              "shoulder",
+              "neckline"
+            ],
+            "options_pt": [
+              "bainha",
+              "ombro",
+              "decote"
+            ],
+            "correct_answer": "hem"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Where is the hem?",
+            "label_pt": "Onde fica a bainha?",
+            "asset_id": "m01w04-img-004",
+            "image_point_key": "F",
+            "options_en": [
+              "at the bottom",
+              "at the top",
+              "on the side"
+            ],
+            "options_pt": [
+              "na parte de baixo",
+              "na parte de cima",
+              "na lateral"
+            ],
+            "correct_answer": "at the bottom"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What is point G?",
+            "label_pt": "O que é o ponto G?",
+            "asset_id": "m01w04-img-004",
+            "image_point_key": "G",
+            "options_en": [
+              "seam",
+              "collar",
+              "button"
+            ],
+            "options_pt": [
+              "costura",
+              "gola",
+              "botão"
+            ],
+            "correct_answer": "seam"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Study the garment image",
+          "student_action_en": "Look at the garment and notice the point markers from A to H.",
+          "student_action_pt": "Observe a peça e perceba os marcadores de A a H.",
+          "teacher_action": "Remind students to use the picture carefully and not answer too quickly from memory.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the labels",
+          "student_action_en": "Choose the correct label or location answer for each point.",
+          "student_action_pt": "Escolha o rótulo ou a resposta de localização correta para cada ponto.",
+          "teacher_action": "Point out that some questions ask for the part name and others ask for the location phrase.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the image again",
+          "student_action_en": "Look again at the garment and compare the answers with the visible details.",
+          "student_action_pt": "Observe a peça novamente e compare as respostas com os detalhes visíveis.",
+          "teacher_action": "Use one or two answers to model how students can talk about a point with a short frame.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "label_and_location_selections",
+        "description_en": "Eight app-checked label and location selections linked to explicit image point keys.",
+        "description_pt": "Oito seleções de rótulo e localização verificadas pelo aplicativo e ligadas a pontos explícitos da imagem.",
+        "length_or_format": "8 single-choice answers with image-point keys"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student identifies visible garment parts on one image.",
+          "The student connects point keys to correct labels.",
+          "The student uses simple location choices with the image."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica partes visíveis da peça em uma imagem.",
+          "O aluno relaciona letras a rótulos corretos.",
+          "O aluno usa escolhas simples de localização com a imagem."
+        ],
+        "checklist_en": [
+          "I used the point keys.",
+          "I chose the correct labels.",
+          "I checked the locations on the image."
+        ],
+        "checklist_pt": [
+          "Eu usei as letras dos pontos.",
+          "Eu escolhi os rótulos corretos.",
+          "Eu conferi as localizações na imagem."
+        ],
+        "rubric": [],
+        "model_response_en": "A collar, B sleeve, C buttons, D pocket, E on the front, F hem, H at the bottom, and G seam",
+        "model_response_pt": "A gola, B manga, C botões, D bolso, E na frente, F bainha, H na parte de baixo e G costura",
+        "common_errors": [
+          "Choosing the correct part category but missing the exact point.",
+          "Mixing the part name question with the location phrase question."
+        ],
+        "feedback_prompts_en": [
+          "Look at the point key again. Does the question ask for the part name or the location phrase?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe a letra do ponto novamente. A pergunta pede o nome da parte ou a frase de localização?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Reduce the task to six points first for students who need more support."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence such as The seam is on the side."
+        ]
+      },
+      "extension_options": [
+        "Choose one point and say one short sentence about it."
+      ],
+      "notes_for_app_design": "Render this as one garment image with explicit point keys. Every app-checked item should include its image_point_key so the answer path is unambiguous. Mix label-name questions and location questions, but keep the item text explicit about which type of answer is required."
+    },
+    {
+      "activity_id": "m01w04-a04",
+      "week_id": "m01w04",
+      "sequence_number": 4,
+      "title": "Listen: What Does It Have?",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students hear four short garment descriptions and choose the correct garment, detail, or location answer using one shared image set.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: What Does It Have?",
+          "summary": "Listen to the short descriptions and choose the correct garment or detail answer.",
+          "instructions": "Look at the four garment cards. Listen once for the garment, then listen again for details and locations.",
+          "success_criteria": [
+            "I can identify the garment that the speaker describes.",
+            "I can hear important detail words.",
+            "I can choose the correct location answer after listening."
+          ],
+          "sentence_frames": [
+            "It has ___.",
+            "There is a ___ on the ___.",
+            "The ___ is on the ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Escute: o que ela tem?",
+          "summary": "Escute as descrições curtas e escolha a peça ou o detalhe correto.",
+          "instructions": "Observe os quatro cartões de roupa. Escute uma vez para identificar a peça e escute novamente para os detalhes e localizações.",
+          "success_criteria": [
+            "Eu consigo identificar a peça descrita pelo falante.",
+            "Eu consigo ouvir palavras importantes de detalhe.",
+            "Eu consigo escolher a resposta correta de localização depois de escutar."
+          ],
+          "sentence_frames": [
+            "It has ___.",
+            "There is a ___ on the ___.",
+            "The ___ is on the ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "The answer key must stay aligned exactly with the audio script. Encourage students to listen first for the garment and then for the details. Show the transcript only after the first attempt.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "vocabulary",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "audio clip",
+        "reusable garment card set"
+      ],
+      "vocabulary_refs": [
+        "m01w04-v001",
+        "m01w04-v002",
+        "m01w04-v003",
+        "m01w04-v008",
+        "m01w04-v009",
+        "m01w04-v010",
+        "m01w04-v011",
+        "m01w04-v013",
+        "m01w04-v016",
+        "m01w04-v019",
+        "m01w04-v020"
+      ],
+      "asset_refs": [
+        "m01w04-img-005",
+        "m01w04-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_questions",
+        "prompt_en": "Listen to the audio and choose the correct garment, detail, or location answer.",
+        "prompt_pt": "Escute o áudio e escolha a peça, o detalhe ou a localização correta.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which garment is Number Two?",
+            "label_pt": "Qual peça é o Número Dois?",
+            "asset_id": "m01w04-img-005",
+            "options_en": [
+              "white shirt",
+              "black jacket",
+              "blue skirt",
+              "red dress"
+            ],
+            "options_pt": [
+              "camisa branca",
+              "jaqueta preta",
+              "saia azul",
+              "vestido vermelho"
+            ],
+            "correct_answer": "black jacket"
+          },
+          {
+            "response_type": "multiple_choice",
+            "label_en": "What does Number One have?",
+            "label_pt": "O que o Número Um tem?",
+            "asset_id": "m01w04-img-005",
+            "options_en": [
+              "a collar",
+              "long sleeves",
+              "three buttons on the front",
+              "a zipper on the back"
+            ],
+            "options_pt": [
+              "uma gola",
+              "mangas compridas",
+              "três botões na frente",
+              "um zíper na parte de trás"
+            ],
+            "correct_answers": [
+              "a collar",
+              "long sleeves",
+              "three buttons on the front"
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which garment has pleats?",
+            "label_pt": "Qual peça tem pregas?",
+            "asset_id": "m01w04-img-005",
+            "options_en": [
+              "white shirt",
+              "black jacket",
+              "blue skirt",
+              "red dress"
+            ],
+            "options_pt": [
+              "camisa branca",
+              "jaqueta preta",
+              "saia azul",
+              "vestido vermelho"
+            ],
+            "correct_answer": "blue skirt"
+          },
+          {
+            "response_type": "true_false",
+            "label_en": "True or false: The red dress has short sleeves.",
+            "label_pt": "Verdadeiro ou falso: o vestido vermelho tem mangas curtas.",
+            "asset_id": "m01w04-img-005",
+            "correct_answer": true
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Where is the zipper on the red dress?",
+            "label_pt": "Onde está o zíper no vestido vermelho?",
+            "asset_id": "m01w04-img-005",
+            "options_en": [
+              "on the front",
+              "on the back",
+              "on the side"
+            ],
+            "options_pt": [
+              "na frente",
+              "na parte de trás",
+              "na lateral"
+            ],
+            "correct_answer": "on the back"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the garment cards",
+          "student_action_en": "Look at the four garment cards before you listen.",
+          "student_action_pt": "Observe os quatro cartões de roupa antes de escutar.",
+          "teacher_action": "Tell students to notice the key visual differences first.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen for the garment",
+          "student_action_en": "Listen once and identify which garment the speaker describes.",
+          "student_action_pt": "Escute uma vez e identifique qual peça o falante descreve.",
+          "teacher_action": "Keep the first listen broad and focused on the main image match.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Listen for details and location",
+          "student_action_en": "Listen again and choose the detail and location answers.",
+          "student_action_pt": "Escute novamente e escolha as respostas de detalhe e localização.",
+          "teacher_action": "Remind students to listen for phrases like on the front and on the back.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Five listening answers identifying garments, details, and locations from one short audio clip.",
+        "description_pt": "Cinco respostas de escuta identificando peças, detalhes e localizações a partir de um áudio curto.",
+        "length_or_format": "1 single-choice garment answer, 1 multi-select detail answer, 1 single-choice detail answer, 1 true-false item, and 1 location answer"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student identifies garments from the audio clip.",
+          "The student hears important detail words accurately.",
+          "The student chooses the correct location phrase from the script."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica peças de roupa a partir do áudio.",
+          "O aluno escuta palavras importantes de detalhe com precisão.",
+          "O aluno escolhe a frase de localização correta a partir do roteiro."
+        ],
+        "checklist_en": [
+          "I looked at the garment cards.",
+          "I listened for the garment first.",
+          "I listened again for details and location."
+        ],
+        "checklist_pt": [
+          "Eu observei os cartões de roupa.",
+          "Eu escutei primeiro para identificar a peça.",
+          "Eu escutei novamente para os detalhes e a localização."
+        ],
+        "rubric": [],
+        "model_response_en": "Number Two is the black jacket. Number One has a collar, long sleeves, and three buttons on the front. The blue skirt has pleats. The red dress has short sleeves. Its zipper is on the back.",
+        "model_response_pt": "O Número Dois é a jaqueta preta. O Número Um tem gola, mangas compridas e três botões na frente. A saia azul tem pregas. O vestido vermelho tem mangas curtas. O zíper dele fica na parte de trás.",
+        "common_errors": [
+          "Choosing the right garment card but missing one detail from the script.",
+          "Confusing on the front and on the back while listening."
+        ],
+        "feedback_prompts_en": [
+          "Listen again for the location phrase. Did you hear on the front or on the back?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente a frase de localização. Você ouviu on the front ou on the back?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the garment card before answering the detail questions."
+        ],
+        "challenge": [
+          "Ask stronger learners to repeat one short description sentence after checking the answers."
+        ]
+      },
+      "extension_options": [
+        "Say one new sentence about one of the garment cards after the listening task."
+      ],
+      "notes_for_app_design": "Render this as one audio player plus the four-card garment gallery. Keep the answer key aligned exactly with the audio prompt script. Allow replay. Reveal the transcript only after the first attempt. Use the same four garments in the script, the answer options, and the image asset so no listening mismatch appears."
+    },
+    {
+      "activity_id": "m01w04-a05",
+      "week_id": "m01w04",
+      "sequence_number": 5,
+      "title": "Phrase Practice: It Has / There Is / There Are",
+      "activity_type": "design_description",
+      "activity_type_custom": "",
+      "summary": "Students practice the core Week 4 phrase frames with controlled fill-blank and choice items about garment details and locations.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: It Has / There Is / There Are",
+          "summary": "Complete the detail and location phrases in English.",
+          "instructions": "Complete the short sentence frames. Focus on It has, There is, There are, and location phrases.",
+          "success_criteria": [
+            "I can complete the phrase It has correctly.",
+            "I can choose There is or There are.",
+            "I can use a location phrase such as on the front or at the bottom."
+          ],
+          "sentence_frames": [
+            "It has ___.",
+            "There is a ___ on the ___.",
+            "There are ___ on the ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Prática de frases: It Has / There Is / There Are",
+          "summary": "Complete as frases de detalhe e localização em inglês.",
+          "instructions": "Complete as frases curtas. Foque em It has, There is, There are e nas frases de localização.",
+          "success_criteria": [
+            "Eu consigo completar a frase It has corretamente.",
+            "Eu consigo escolher There is ou There are.",
+            "Eu consigo usar uma frase de localização como on the front ou at the bottom."
+          ],
+          "sentence_frames": [
+            "It has ___.",
+            "There is a ___ on the ___.",
+            "There are ___ on the ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep this primarily a controlled phrase-practice activity. The main checked output should be the fill-blank and phrase-completion items, not a correction workflow.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "optional garment image support"
+      ],
+      "vocabulary_refs": [
+        "m01w04-v001",
+        "m01w04-v009",
+        "m01w04-v010",
+        "m01w04-v011",
+        "m01w04-v013",
+        "m01w04-v019",
+        "m01w04-v021",
+        "m01w04-v022",
+        "m01w04-v023",
+        "m01w04-v024"
+      ],
+      "asset_refs": [
+        "m01w04-img-005"
+      ],
+      "input": {
+        "input_type": "phrase_frame_practice",
+        "prompt_en": "Complete the detail and location sentence frames.",
+        "prompt_pt": "Complete as frases de detalhe e localização.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "The jacket has a ___.",
+            "sentence_frame_pt": "The jacket has a ___.",
+            "word_bank": [
+              "zipper",
+              "hem",
+              "waistband"
+            ],
+            "accepted_answers": [
+              "zipper"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "The shirt has three ___.",
+            "sentence_frame_pt": "The shirt has three ___.",
+            "word_bank": [
+              "buttons",
+              "collar",
+              "lining"
+            ],
+            "accepted_answers": [
+              "buttons"
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose the correct phrase.",
+            "label_pt": "Escolha a frase correta.",
+            "options_en": [
+              "There is a zipper on the front.",
+              "There are a zipper on the front.",
+              "There is zipper on the front."
+            ],
+            "options_pt": [
+              "Há um zíper na frente.",
+              "Há um zíper na frente.",
+              "Há zíper na frente."
+            ],
+            "correct_answer": "There is a zipper on the front."
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose the correct phrase.",
+            "label_pt": "Escolha a frase correta.",
+            "options_en": [
+              "There is buttons on the shirt.",
+              "There are buttons on the shirt.",
+              "There are button on the shirt."
+            ],
+            "options_pt": [
+              "Há botões na camisa.",
+              "Há botões na camisa.",
+              "Há botão na camisa."
+            ],
+            "correct_answer": "There are buttons on the shirt."
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the location phrase.",
+            "label_pt": "Complete a frase de localização.",
+            "sentence_frame_en": "The hem is at the ___.",
+            "sentence_frame_pt": "The hem is at the ___.",
+            "word_bank": [
+              "bottom",
+              "front",
+              "back"
+            ],
+            "accepted_answers": [
+              "bottom"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the location phrase.",
+            "label_pt": "Complete a frase de localização.",
+            "sentence_frame_en": "There is a seam on the ___.",
+            "sentence_frame_pt": "There is a seam on the ___.",
+            "word_bank": [
+              "side",
+              "top",
+              "hem"
+            ],
+            "accepted_answers": [
+              "side"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the phrase patterns",
+          "student_action_en": "Look at the short pattern list before you answer.",
+          "student_action_pt": "Observe a lista curta de padrões antes de responder.",
+          "teacher_action": "Remind students that this task is about reliable frame building, not long writing.",
+          "estimated_minutes": 2,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the phrase items",
+          "student_action_en": "Complete the detail and location sentence frames.",
+          "student_action_pt": "Complete as frases de detalhe e localização.",
+          "teacher_action": "Monitor there is versus there are and singular versus plural detail nouns.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check one model phrase",
+          "student_action_en": "Compare your answers with one correct phrase pattern.",
+          "student_action_pt": "Compare as suas respostas com um padrão correto de frase.",
+          "teacher_action": "Use one example to preview the writing task that follows.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "phrase_completions",
+        "description_en": "Six app-checked phrase completions focused on It has, There is, There are, and location language.",
+        "description_pt": "Seis frases completadas e verificadas pelo aplicativo, focadas em It has, There is, There are e linguagem de localização.",
+        "length_or_format": "4 fill-blank items and 2 phrase-choice items"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the short phrase frames accurately.",
+          "The student distinguishes there is and there are.",
+          "The student uses the correct location word in controlled form."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as frases curtas com precisão.",
+          "O aluno distingue there is e there are.",
+          "O aluno usa a palavra de localização correta em forma controlada."
+        ],
+        "checklist_en": [
+          "I completed the detail phrases.",
+          "I checked singular and plural forms.",
+          "I used the location words."
+        ],
+        "checklist_pt": [
+          "Eu completei as frases de detalhe.",
+          "Eu conferi as formas no singular e no plural.",
+          "Eu usei as palavras de localização."
+        ],
+        "rubric": [],
+        "model_response_en": "The jacket has a zipper. The shirt has three buttons. There is a zipper on the front. There are buttons on the shirt. The hem is at the bottom. There is a seam on the side.",
+        "model_response_pt": "A jaqueta tem um zíper. A camisa tem três botões. Há um zíper na frente. Há botões na camisa. A bainha fica na parte de baixo. Há uma costura na lateral.",
+        "common_errors": [
+          "Using there is with plural nouns such as buttons.",
+          "Choosing front instead of bottom in the hem sentence."
+        ],
+        "feedback_prompts_en": [
+          "Look at the noun again. Is it one detail or more than one detail?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe o substantivo novamente. É um detalhe só ou mais de um detalhe?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Keep the phrase bank visible while students answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence with near the hem."
+        ]
+      },
+      "extension_options": [
+        "Write one more short sentence about a garment detail after the checked items."
+      ],
+      "notes_for_app_design": "Render this as a short controlled phrase-practice activity with the four fill-blank items as the main saved output. Treat the two there is versus there are choice items as support or review screens inside the same activity. Keep the interaction primarily word-bank and phrase completion so the output remains clear and unambiguous."
+    },
+    {
+      "activity_id": "m01w04-a06",
+      "week_id": "m01w04",
+      "sequence_number": 6,
+      "title": "Garment Details Card",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students create the main Week 4 writing artifact by choosing one garment and completing a scaffolded Garment Details Card with sentence frames.",
+      "student_facing": {
+        "en": {
+          "title": "Garment Details Card",
+          "summary": "Choose one garment and complete the detail card in short English lines.",
+          "instructions": "Choose one garment from the card set. Complete the required sentence-frame lines about the garment, its details, and one comment. Then add the optional challenge line if you can.",
+          "success_criteria": [
+            "I can name one garment clearly.",
+            "I can describe at least three details with sentence frames.",
+            "I can use one location phrase and one comment sentence."
+          ],
+          "sentence_frames": [
+            "This is a ___. / These are ___.",
+            "It has ___. / They have ___.",
+            "There is a ___ on the ___.",
+            "There are ___ near the ___.",
+            "One detail is ___.",
+            "I like this detail because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Cartão de detalhes da peça",
+          "summary": "Escolha uma peça e complete o cartão de detalhes em linhas curtas em inglês.",
+          "instructions": "Escolha uma peça do conjunto de cartões. Complete as linhas obrigatórias com frases-modelo sobre a peça, os detalhes e um comentário. Depois, acrescente a linha opcional de desafio, se conseguir.",
+          "success_criteria": [
+            "Eu consigo nomear uma peça com clareza.",
+            "Eu consigo descrever pelo menos três detalhes com frases-modelo.",
+            "Eu consigo usar uma frase de localização e uma frase de comentário."
+          ],
+          "sentence_frames": [
+            "This is a ___. / These are ___.",
+            "It has ___. / They have ___.",
+            "There is a ___ on the ___.",
+            "There are ___ near the ___.",
+            "One detail is ___.",
+            "I like this detail because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the base task to 5 or 6 required lines. Do not require a paragraph. The teacher should check task completion, accurate garment-part vocabulary, use of at least one location phrase, and one understandable comment sentence. If revision is needed, ask the student to fix one sentence or add one missing detail line.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "vocabulary",
+        "grammar",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "reusable garment card set",
+        "sentence-frame support"
+      ],
+      "vocabulary_refs": [
+        "m01w04-v001",
+        "m01w04-v002",
+        "m01w04-v003",
+        "m01w04-v008",
+        "m01w04-v009",
+        "m01w04-v010",
+        "m01w04-v011",
+        "m01w04-v013",
+        "m01w04-v019",
+        "m01w04-v020",
+        "m01w04-v021",
+        "m01w04-v022",
+        "m01w04-v024",
+        "m01w04-v025",
+        "m01w04-v026",
+        "m01w04-v027",
+        "m01w04-v028"
+      ],
+      "asset_refs": [
+        "m01w04-img-005"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Choose one garment and complete the Garment Details Card.",
+        "prompt_pt": "Escolha uma peça e complete o Cartão de Detalhes da Peça.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose your garment.",
+            "label_pt": "Escolha a sua peça.",
+            "asset_id": "m01w04-img-005",
+            "options_en": [
+              "white shirt",
+              "black jacket",
+              "blue skirt",
+              "red dress"
+            ],
+            "options_pt": [
+              "camisa branca",
+              "jaqueta preta",
+              "saia azul",
+              "vestido vermelho"
+            ]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Required lines",
+            "label_pt": "Linhas obrigatórias",
+            "prompt_en": "Complete the 5 required lines. Add the challenge line only if you want extra practice.",
+            "prompt_pt": "Complete as 5 linhas obrigatórias. Acrescente a linha de desafio apenas se quiser prática extra.",
+            "required_lines_en": [
+              "This is a ___ / These are ___.",
+              "It has ___ / They have ___.",
+              "There is a ___ on the ___ / There are ___ on the ___.",
+              "The ___ is at the ___ / There are ___ near the ___.",
+              "I like this detail because ___."
+            ],
+            "required_lines_pt": [
+              "This is a ___ / These are ___.",
+              "It has ___ / They have ___.",
+              "There is a ___ on the ___ / There are ___ on the ___.",
+              "The ___ is at the ___ / There are ___ near the ___.",
+              "I like this detail because ___."
+            ],
+            "optional_challenge_en": "One detail is decorative or functional because ___.",
+            "optional_challenge_pt": "One detail is decorative or functional because ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose one garment card",
+          "student_action_en": "Choose one garment from the card set and look at its visible details.",
+          "student_action_pt": "Escolha uma peça do conjunto de cartões e observe os detalhes visíveis.",
+          "teacher_action": "Encourage students to choose a garment with details they can describe confidently.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the required lines",
+          "student_action_en": "Complete the Garment Details Card one line at a time with the sentence frames.",
+          "student_action_pt": "Complete o Cartão de Detalhes da Peça, uma linha por vez, usando as frases-modelo.",
+          "teacher_action": "Keep the writing structured and prevent students from turning the task into an unsupported paragraph.",
+          "estimated_minutes": 11,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Review one detail sentence",
+          "student_action_en": "Read your lines again and check the detail words and location phrases.",
+          "student_action_pt": "Leia as suas linhas novamente e confira as palavras de detalhe e as frases de localização.",
+          "teacher_action": "Prompt students to fix one missing article, plural noun, or location phrase before submission.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_detail_card",
+        "description_en": "A teacher-reviewed Garment Details Card with 5 required sentence-frame lines and 1 optional challenge line.",
+        "description_pt": "Um Cartão de Detalhes da Peça revisado pelo professor, com 5 linhas obrigatórias de frases-modelo e 1 linha opcional de desafio.",
+        "length_or_format": "5 required lines plus 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names one garment clearly.",
+          "The student includes at least three garment details.",
+          "The student uses at least one location phrase and one comment sentence."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia uma peça com clareza.",
+          "O aluno inclui pelo menos três detalhes da peça.",
+          "O aluno usa pelo menos uma frase de localização e uma frase de comentário."
+        ],
+        "checklist_en": [
+          "I chose one garment.",
+          "I completed the required lines.",
+          "I used detail words and one location phrase.",
+          "I added one comment sentence."
+        ],
+        "checklist_pt": [
+          "Eu escolhi uma peça.",
+          "Eu completei as linhas obrigatórias.",
+          "Eu usei palavras de detalhe e uma frase de localização.",
+          "Eu acrescentei uma frase de comentário."
+        ],
+        "rubric": [
+          {
+            "criterion": "Task completion",
+            "excellent_en": "All required lines are complete and clearly connected to one garment.",
+            "excellent_pt": "Todas as linhas obrigatórias estão completas e claramente ligadas a uma peça.",
+            "satisfactory_en": "Most required lines are complete, with only small gaps.",
+            "satisfactory_pt": "A maioria das linhas obrigatórias está completa, com apenas pequenas lacunas.",
+            "needs_work_en": "Several required lines are missing or unclear.",
+            "needs_work_pt": "Várias linhas obrigatórias estão faltando ou não estão claras."
+          },
+          {
+            "criterion": "Garment-detail vocabulary",
+            "excellent_en": "The student uses Week 4 detail words accurately.",
+            "excellent_pt": "O aluno usa as palavras de detalhe da Semana 4 com precisão.",
+            "satisfactory_en": "The student uses some accurate Week 4 detail words with minor errors.",
+            "satisfactory_pt": "O aluno usa algumas palavras corretas de detalhe da Semana 4, com pequenos erros.",
+            "needs_work_en": "The detail words are missing, too broad, or often inaccurate.",
+            "needs_work_pt": "As palavras de detalhe estão ausentes, amplas demais ou frequentemente incorretas."
+          },
+          {
+            "criterion": "Target phrases",
+            "excellent_en": "The student uses It has or There is or There are and one location phrase correctly.",
+            "excellent_pt": "O aluno usa It has ou There is ou There are e uma frase de localização corretamente.",
+            "satisfactory_en": "The student uses the target phrases with some support or one small error.",
+            "satisfactory_pt": "O aluno usa as frases-alvo com algum apoio ou um pequeno erro.",
+            "needs_work_en": "The target phrases are missing or often incorrect.",
+            "needs_work_pt": "As frases-alvo estão ausentes ou frequentemente incorretas."
+          },
+          {
+            "criterion": "Clarity",
+            "excellent_en": "The meaning is clear and easy for the teacher to understand.",
+            "excellent_pt": "O sentido está claro e fácil para o professor entender.",
+            "satisfactory_en": "The meaning is mostly clear with small language problems.",
+            "satisfactory_pt": "O sentido está quase sempre claro, com pequenos problemas de linguagem.",
+            "needs_work_en": "The meaning is hard to understand without teacher guessing.",
+            "needs_work_pt": "O sentido é difícil de entender sem o professor precisar adivinhar."
+          }
+        ],
+        "model_response_en": "This is a black jacket. It has long sleeves, a zipper, and two pockets. There is a zipper on the front. The hem is at the bottom. I like this detail because it is functional. One detail is simple because the collar is small.",
+        "model_response_pt": "Esta é uma jaqueta preta. Ela tem mangas compridas, um zíper e dois bolsos. Há um zíper na frente. A bainha fica na parte de baixo. Eu gosto desse detalhe porque ele é funcional. Um detalhe é simples porque a gola é pequena.",
+        "common_errors": [
+          "Using a broad garment sentence with no specific detail vocabulary.",
+          "Writing There is buttons instead of There are buttons.",
+          "Using in the front or in the bottom instead of on the front or at the bottom."
+        ],
+        "feedback_prompts_en": [
+          "Add one clearer Week 4 detail word.",
+          "Check one singular or plural noun in your lines.",
+          "Fix one location phrase and submit again."
+        ],
+        "feedback_prompts_pt": [
+          "Acrescente uma palavra de detalhe da Semana 4 mais clara.",
+          "Confira um substantivo no singular ou no plural nas suas linhas.",
+          "Corrija uma frase de localização e envie novamente."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to complete exactly five lines with a visible word bank and one model line."
+        ],
+        "challenge": [
+          "Invite stronger learners to add the optional challenge line using decorative or functional."
+        ]
+      },
+      "extension_options": [
+        "Turn one line from the card into a speaking note for the teacher session."
+      ],
+      "notes_for_app_design": "Render this as a teacher-reviewed structured writing card with one garment-choice step and separate line fields saved as one submission. Keep the base task to 5 required lines plus 1 optional challenge line. The teacher view should show the selected garment, the completed lines, a checklist, the rubric, quick feedback prompts, and a return-for-revision option for one targeted correction."
+    },
+    {
+      "activity_id": "m01w04-a07",
+      "week_id": "m01w04",
+      "sequence_number": 7,
+      "title": "Review and Improve: Singular, Plural, and Location",
+      "activity_type": "reflection",
+      "activity_type_custom": "",
+      "summary": "Students review one common Week 4 sentence problem and save one corrected version they can transfer into their Garment Details Card.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Singular, Plural, and Location",
+          "summary": "Choose one correction card and write the improved sentence.",
+          "instructions": "Choose one correction card, notice the problem, and write the corrected sentence clearly.",
+          "success_criteria": [
+            "I can notice one common Week 4 sentence problem.",
+            "I can write one corrected sentence clearly.",
+            "I can use the correction to improve my own detail card."
+          ],
+          "sentence_frames": [
+            "It has a ___.",
+            "There are ___.",
+            "The ___ is at the ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Revise e melhore: singular, plural e localização",
+          "summary": "Escolha um cartão de correção e escreva a frase melhorada.",
+          "instructions": "Escolha um cartão de correção, perceba o problema e escreva a frase corrigida com clareza.",
+          "success_criteria": [
+            "Eu consigo perceber um problema comum de frase da Semana 4.",
+            "Eu consigo escrever uma frase corrigida com clareza.",
+            "Eu consigo usar a correção para melhorar o meu próprio cartão de detalhes."
+          ],
+          "sentence_frames": [
+            "It has a ___.",
+            "There are ___.",
+            "The ___ is at the ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the correction target narrow and transferable. Students should save one corrected sentence and then check whether the same problem appears in their own writing.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "critical_thinking"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w04-v001",
+        "m01w04-v009",
+        "m01w04-v013",
+        "m01w04-v019",
+        "m01w04-v022"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "correction_cards",
+        "prompt_en": "Choose one Week 4 sentence and write the corrected version.",
+        "prompt_pt": "Escolha uma frase da Semana 4 e escreva a versão corrigida.",
+        "items": [
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the missing article.",
+            "label_pt": "Corrija a falta de artigo.",
+            "incorrect_sentence": "It has collar.",
+            "correct_sentence": "It has a collar.",
+            "accepted_answers": [
+              "It has a collar."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the plural noun.",
+            "label_pt": "Corrija o substantivo no plural.",
+            "incorrect_sentence": "It has two pocket.",
+            "correct_sentence": "It has two pockets.",
+            "accepted_answers": [
+              "It has two pockets."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the there is or there are phrase.",
+            "label_pt": "Corrija a frase com there is ou there are.",
+            "incorrect_sentence": "There is buttons on the front.",
+            "correct_sentence": "There are buttons on the front.",
+            "accepted_answers": [
+              "There are buttons on the front."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the location phrase.",
+            "label_pt": "Corrija a frase de localização.",
+            "incorrect_sentence": "The hem is in the bottom.",
+            "correct_sentence": "The hem is at the bottom.",
+            "accepted_answers": [
+              "The hem is at the bottom."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose a correction card",
+          "student_action_en": "Read one incorrect sentence and notice the Week 4 correction focus.",
+          "student_action_pt": "Leia uma frase incorreta e perceba o foco de correção da Semana 4.",
+          "teacher_action": "Name the common targets clearly: article, plural noun, there is or there are, and location phrase.",
+          "estimated_minutes": 2,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Write the corrected sentence",
+          "student_action_en": "Rewrite the sentence clearly and accurately.",
+          "student_action_pt": "Reescreva a frase com clareza e precisão.",
+          "teacher_action": "Ask students to compare the corrected sentence with their own Garment Details Card.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Transfer the correction",
+          "student_action_en": "Check whether the same problem appears in your own writing.",
+          "student_action_pt": "Confira se o mesmo problema aparece na sua própria escrita.",
+          "teacher_action": "Prompt students to fix the same issue in their own card if needed.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentence",
+        "description_en": "One corrected Week 4 sentence saved after review.",
+        "description_pt": "Uma frase corrigida da Semana 4 salva após a revisão.",
+        "length_or_format": "1 sentence"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student chooses one correction card.",
+          "The student writes the corrected sentence accurately.",
+          "The student checks whether the same issue appears in personal writing."
+        ],
+        "completion_criteria_pt": [
+          "O aluno escolhe um cartão de correção.",
+          "O aluno escreve a frase corrigida com precisão.",
+          "O aluno verifica se o mesmo problema aparece na escrita pessoal."
+        ],
+        "checklist_en": [
+          "I chose one correction card.",
+          "I wrote the corrected sentence.",
+          "I checked my own detail card for the same problem."
+        ],
+        "checklist_pt": [
+          "Eu escolhi um cartão de correção.",
+          "Eu escrevi a frase corrigida.",
+          "Eu conferi o meu próprio cartão de detalhes para ver o mesmo problema."
+        ],
+        "rubric": [],
+        "model_response_en": "There are buttons on the front.",
+        "model_response_pt": "Há botões na frente.",
+        "common_errors": [
+          "Keeping the original mistake in the new sentence.",
+          "Fixing the noun but not the location phrase or article."
+        ],
+        "feedback_prompts_en": [
+          "Look at the noun again. Does the sentence need one detail or more than one detail?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe o substantivo novamente. A frase precisa de um detalhe ou de mais de um detalhe?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Limit the choice to two correction cards for students who need more support."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain the correction rule in simple English or Portuguese."
+        ]
+      },
+      "extension_options": [
+        "Correct one more sentence from your own Garment Details Card."
+      ],
+      "notes_for_app_design": "Render this as a small correction-card activity with four common Week 4 sentence problems. Let the student choose one card, type or select the corrected version, and compare against accepted answers. Save one corrected sentence as the Week 4 mini-revision artifact."
+    },
+    {
+      "activity_id": "m01w04-a08",
+      "week_id": "m01w04",
+      "sequence_number": 8,
+      "title": "Teacher Session: Explain the Details",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use their Week 4 Garment Details Card to pronounce garment-part vocabulary, label details live, and explain one garment in short supported sentences.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Explain the Details",
+          "summary": "Use your detail card to explain one garment in short sentences.",
+          "instructions": "Bring your Garment Details Card, practice the key detail words, and explain one garment in 4 to 6 short sentences.",
+          "success_criteria": [
+            "I can name one garment and several details clearly.",
+            "I can use one location phrase while speaking.",
+            "I can explain one garment with teacher support."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "It has ___.",
+            "There is a ___ on the ___.",
+            "There are ___ on the ___.",
+            "The ___ is at the ___.",
+            "I like the ___ because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Sessão com o professor: explique os detalhes",
+          "summary": "Use o seu cartão de detalhes para explicar uma peça em frases curtas.",
+          "instructions": "Leve o seu Cartão de Detalhes da Peça, pratique as palavras principais de detalhe e explique uma peça em 4 a 6 frases curtas.",
+          "success_criteria": [
+            "Eu consigo nomear uma peça e vários detalhes com clareza.",
+            "Eu consigo usar uma frase de localização enquanto falo.",
+            "Eu consigo explicar uma peça com apoio do professor."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "It has ___.",
+            "There is a ___ on the ___.",
+            "There are ___ on the ___.",
+            "The ___ is at the ___.",
+            "I like the ___ because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Use the live session to move Week 4 detail language from structured writing into supported speaking. Do not record student audio. Focus on intelligibility, accurate detail words, one clear location phrase, and student confidence with notes.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication",
+        "listening"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "student Garment Details Cards",
+        "garment-detail card set",
+        "pronunciation list"
+      ],
+      "vocabulary_refs": [
+        "m01w04-v001",
+        "m01w04-v002",
+        "m01w04-v003",
+        "m01w04-v008",
+        "m01w04-v009",
+        "m01w04-v010",
+        "m01w04-v011",
+        "m01w04-v013",
+        "m01w04-v019",
+        "m01w04-v020",
+        "m01w04-v021",
+        "m01w04-v022",
+        "m01w04-v023",
+        "m01w04-v024",
+        "m01w04-v026",
+        "m01w04-v027",
+        "m01w04-v028"
+      ],
+      "asset_refs": [
+        "m01w04-img-005"
+      ],
+      "input": {
+        "input_type": "speaking_prompt",
+        "prompt_en": "Use your Garment Details Card to explain one garment in short sentences.",
+        "prompt_pt": "Use o seu Cartão de Detalhes da Peça para explicar uma peça em frases curtas.",
+        "items": [
+          {
+            "label_en": "Say 4 to 6 short sentences about one garment and its details.",
+            "label_pt": "Diga de 4 a 6 frases curtas sobre uma peça e os seus detalhes."
+          },
+          {
+            "label_en": "Include one location phrase and one comment sentence.",
+            "label_pt": "Inclua uma frase de localização e uma frase de comentário."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Pronunciation clinic",
+          "student_action_en": "Practice key Week 4 words such as collar, neckline, sleeve, zipper, button, pocket, waistband, hem, and seam.",
+          "student_action_pt": "Pratique palavras importantes da Semana 4 como collar, neckline, sleeve, zipper, button, pocket, waistband, hem e seam.",
+          "teacher_action": "Model the words slowly and clearly, especially zipper, waistband, and seam.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Label details live",
+          "student_action_en": "Look at the garment cards and say the visible details.",
+          "student_action_pt": "Observe os cartões das peças e diga os detalhes visíveis.",
+          "teacher_action": "Use quick pointing and naming before the full speaking turn.",
+          "estimated_minutes": 10,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 3,
+          "title": "Explain one garment",
+          "student_action_en": "Use your Garment Details Card to explain one garment in 4 to 6 short sentences.",
+          "student_action_pt": "Use o seu Cartão de Detalhes da Peça para explicar uma peça em 4 a 6 frases curtas.",
+          "teacher_action": "Allow students to read from notes first, then invite a more natural second try when appropriate.",
+          "estimated_minutes": 20,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 4,
+          "title": "Wrap up and preview",
+          "student_action_en": "Listen to classmates and prepare for next week’s focus on body, figure, and observation drawing.",
+          "student_action_pt": "Escute os colegas e prepare-se para o foco da próxima semana em corpo, figura e desenho de observação.",
+          "teacher_action": "Close with one short review of It has, There is or There are, and the main location phrases.",
+          "estimated_minutes": 10,
+          "mode": "pair"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_detail_presentation",
+        "description_en": "A short teacher-observed spoken explanation of one garment and its visible details.",
+        "description_pt": "Uma explicação oral curta, observada pelo professor, de uma peça e dos seus detalhes visíveis.",
+        "length_or_format": "4 to 6 short spoken sentences"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names one garment and at least four details.",
+          "The student uses at least one correct location phrase.",
+          "The student completes the short speaking task with support if needed."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia uma peça e pelo menos quatro detalhes.",
+          "O aluno usa pelo menos uma frase de localização correta.",
+          "O aluno completa a tarefa curta de fala com apoio, se necessário."
+        ],
+        "checklist_en": [
+          "I practiced the detail words.",
+          "I used my Garment Details Card.",
+          "I explained one garment in short sentences."
+        ],
+        "checklist_pt": [
+          "Eu pratiquei as palavras de detalhe.",
+          "Eu usei o meu Cartão de Detalhes da Peça.",
+          "Eu expliquei uma peça em frases curtas."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a black jacket. It has long sleeves, a zipper, and two pockets. There is a zipper on the front. The hem is at the bottom. I like the pockets because they are functional.",
+        "model_response_pt": "Esta é uma jaqueta preta. Ela tem mangas compridas, um zíper e dois bolsos. Há um zíper na frente. A bainha fica na parte de baixo. Eu gosto dos bolsos porque eles são funcionais.",
+        "common_errors": [
+          "Naming the garment correctly but not adding enough detail words.",
+          "Using in the front instead of on the front while speaking."
+        ],
+        "feedback_prompts_en": [
+          "Can you add one more detail word?",
+          "Can you say the location again with on the front or at the bottom?"
+        ],
+        "feedback_prompts_pt": [
+          "Você pode acrescentar mais uma palavra de detalhe?",
+          "Você pode dizer a localização novamente usando on the front ou at the bottom?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to read directly from the Garment Details Card in the first round."
+        ],
+        "challenge": [
+          "Ask stronger learners one follow-up question about whether a detail is decorative or functional."
+        ]
+      },
+      "extension_options": [
+        "Add one more spoken sentence comparing two details on the garment."
+      ],
+      "notes_for_app_design": "Keep this as a teacher-observed speaking checkpoint with the Garment Details Card and the shared garment image set visible on screen. Do not record or upload student audio. The app role is to display the prompt, connect it to the Week 4 writing artifact, and store teacher completion notes only."
+    }
+  ]
+}

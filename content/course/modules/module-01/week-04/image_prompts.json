@@ -1,0 +1,77 @@
+{
+  "week_id": "m01w04",
+  "image_prompts": [
+    {
+      "asset_id": "m01w04-img-001",
+      "purpose": "Week 4 opener board for quick review of garment names plus visible detail noticing.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-001.png",
+      "visual_description": "An adult-oriented educational garment board showing several common garments such as a shirt, jacket, skirt, dress, and jeans, each with one or two visible details like buttons, pockets, collars, sleeves, waistbands, or zippers clearly shown.",
+      "style_instructions": "Use a polished educational fashion-illustration style with realistic garment proportions and clear visible details.",
+      "composition_notes": "Keep the garments separated on a neutral background so students can quickly identify both the garment and at least one visible part.",
+      "text_in_image": "None.",
+      "avoid": "Avoid runway poses, logos, tiny details, childlike styling, or backgrounds that hide the garment parts.",
+      "used_by_activity_ids": [
+        "m01w04-a01"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w04-img-002",
+      "purpose": "Week 4 vocabulary board A for upper-garment parts and small visible detail words.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-002.png",
+      "visual_description": "A clean close-up board showing collar, neckline, sleeve, cuff, shoulder, pocket, and button as separate garment-detail visuals suitable for A2 image matching.",
+      "style_instructions": "Use a clear educational close-up illustration style with realistic textures and simple backgrounds.",
+      "composition_notes": "Make each detail large enough for mobile recognition and visually distinct from the others without text labels in the image.",
+      "text_in_image": "None.",
+      "avoid": "Avoid decorative text, overlapping detail crops, or advanced technical diagrams that feel too dense for beginners.",
+      "used_by_activity_ids": [
+        "m01w04-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w04-img-003",
+      "purpose": "Week 4 vocabulary board B for closures, lower-garment details, and construction terms.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-003.png",
+      "visual_description": "A close-up educational board showing zipper, waistband, hem, seam, pleat, dart, and lining as separate detail visuals on simple garment fragments.",
+      "style_instructions": "Use a realistic but simplified fashion-detail illustration style that works for language learning.",
+      "composition_notes": "Keep each detail visually isolated enough that a beginner can match one word to one image without confusion.",
+      "text_in_image": "None.",
+      "avoid": "Avoid busy fabric prints, labels inside the image, and tiny construction details that are hard to see on small screens.",
+      "used_by_activity_ids": [
+        "m01w04-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w04-img-004",
+      "purpose": "Single garment image with point markers for the visual reading and labeling activity.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-004.png",
+      "visual_description": "One clear adult garment such as a shirt or jacket shown from the front with visible collar, sleeves, buttons or zipper, pocket, hem, and a visible side seam, plus simple point markers labeled A through H, with F placed on the hem and H placed to support the separate bottom-location question.",
+      "style_instructions": "Use a clean fashion-study illustration style with strong line clarity and explicit point markers for app checking.",
+      "composition_notes": "The garment should fill most of the frame, and each point marker should sit near one visible target detail without overlapping another part.",
+      "text_in_image": "Point keys only: A, B, C, D, E, F, G, H.",
+      "avoid": "Avoid dramatic poses, hidden parts, extra accessories, or marker placement that makes the answer ambiguous.",
+      "used_by_activity_ids": [
+        "m01w04-a03"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w04-img-005",
+      "purpose": "Reusable four-garment card set for listening, writing choice, and teacher-led speaking support.",
+      "target_filename": "assets/images/module-01/week-04/m01w04-img-005.png",
+      "visual_description": "A reusable gallery or card set with four clear garments: a white shirt with buttons and a collar, a black jacket with zipper and two pockets, a blue skirt with waistband and pleats, and a red dress with round neckline and a back zipper.",
+      "style_instructions": "Use a clear adult-oriented card or gallery style that works both on screen and in projected classroom use.",
+      "composition_notes": "Give each garment its own clear space and keep the visible details strong enough to support listening questions and student description choices.",
+      "text_in_image": "Optional card numbers 1 to 4 only if needed for listening support.",
+      "avoid": "Avoid patterned backgrounds, extra styling accessories, or mixed garments that hide the target details.",
+      "used_by_activity_ids": [
+        "m01w04-a04",
+        "m01w04-a06",
+        "m01w04-a08"
+      ],
+      "status": "planned"
+    }
+  ]
+}
