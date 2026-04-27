@@ -8,7 +8,7 @@
       "title": "Week 3 garment overview board",
       "description": "A clear adult-oriented garment overview board showing several common Week 3 garments for fast recognition, including a dress, jeans, hoodie, jacket, blouse, and blazer.",
       "target_filename": "assets/images/module-01/week-03/m01w03-img-001.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w03-a01"
       ],
@@ -22,7 +22,7 @@
       "title": "Tops and upper garments vocabulary board",
       "description": "A vocabulary board showing T-shirt, shirt, blouse, sweater, hoodie, and cardigan as separate adult-oriented garment visuals.",
       "target_filename": "assets/images/module-01/week-03/m01w03-img-002.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w03-a02"
       ],
@@ -36,7 +36,7 @@
       "title": "Bottoms and one-piece garments vocabulary board",
       "description": "A vocabulary board showing skirt, pants, shorts, jeans, dress, and jumpsuit as clear separate visuals.",
       "target_filename": "assets/images/module-01/week-03/m01w03-img-003.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w03-a02"
       ],
@@ -50,7 +50,7 @@
       "title": "Outerwear and complete-look vocabulary board",
       "description": "A vocabulary board showing jacket, coat, blazer, and one simple complete outfit or look as separate fashion-study visuals.",
       "target_filename": "assets/images/module-01/week-03/m01w03-img-004.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w03-a02"
       ],
@@ -64,7 +64,7 @@
       "title": "Three-garment reading board",
       "description": "One reading-support image board showing three clearly different garments that match the Week 3 short reading texts, such as a white shirt, blue dress, and black jeans.",
       "target_filename": "assets/images/module-01/week-03/m01w03-img-005.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w03-a03"
       ],
@@ -78,7 +78,7 @@
       "title": "Reusable garment card set",
       "description": "A reusable set of garment image cards or gallery visuals showing jacket, skirt, shorts, blouse, dress, jeans, and coat for listening, writing support, and live speaking.",
       "target_filename": "assets/images/module-01/week-03/m01w03-img-006.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w03-a04",
         "m01w03-a06",
@@ -94,7 +94,7 @@
       "title": "Garment description listening audio",
       "description": "A short teacher-style listening clip describing common garments, their category, and one or two features for beginner learners.",
       "target_filename": "assets/audio/module-01/week-03/m01w03-aud-001.mp3",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w03-a04"
       ],
