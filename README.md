@@ -8,13 +8,17 @@ This repository is not currently building the student app, teacher app, authenti
 
 ## Source of Truth
 
-The main requirements document is:
+Use these documents together:
 
 ```text
 docs/fashion-course-content-requirements.md
+docs/fashion-activity-design-guidance.md
 ```
 
-Read that document before making structural content changes.
+- `docs/fashion-course-content-requirements.md` is the source of truth for content-system structure, canonical content format, schemas, validation expectations, and phase boundaries.
+- `docs/fashion-activity-design-guidance.md` is the source of truth for activity-level design quality, concrete student interaction, app-readiness, teacher review needs, and revision workflow.
+
+If the current schema prevents the activity guidance from being followed, plan a requirements/schema/validator follow-up before generating more content.
 
 Existing material under `docs/` is living course-planning and reference material. It can guide content decisions and may be updated when a task specifically requires documentation or source-material cleanup.
 
@@ -51,6 +55,8 @@ SQLite is expected in a future phase, but it should be generated from the canoni
 ## Current Phase
 
 The current phase creates the content-production foundation.
+
+The project is making content app-ready without building the app itself in this phase.
 
 In scope:
 
@@ -338,6 +344,8 @@ The validator should check at minimum:
 - image/audio prompt asset IDs exist in `asset_manifest.json`
 - estimated minutes are numeric
 
+Schema and validator hardening for newer operational activity metadata is expected as follow-up work. This documentation pass does not change schemas or `tools/validate_content.py`, but new or rewritten activities should still be authored with the documented activity-design standard in mind.
+
 The schema files under `schemas/` describe the intended complete structure. The Python validator enforces the most important checks without third-party dependencies. Any known gap between schemas and validator enforcement should be documented.
 
 ## Phase Plan
@@ -389,9 +397,12 @@ Before making content-pipeline changes, Codex should read:
 
 ```text
 docs/fashion-course-content-requirements.md
+docs/fashion-activity-design-guidance.md
 AGENTS.md
 README.md
 ```
+
+For activity creation or revision work, both documentation files are required pre-reading, not optional reference material.
 
 After each implementation task, Codex should report:
 
@@ -410,6 +421,17 @@ Validation result:
 
 New activity IDs:
 - ...
+
+For each activity created or revised:
+- activity ID
+- title
+- primary interaction type
+- submission type
+- who checks it: app / teacher / student / not_submitted
+- expected student output
+- teacher review required: yes/no
+- revision supported: yes/no
+- media used
 
 New vocabulary IDs:
 - ...

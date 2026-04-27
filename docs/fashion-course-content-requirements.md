@@ -10,6 +10,10 @@ This phase does **not** include app development, UI implementation, authenticati
 
 The immediate goal is to create high-quality weekly course content in structured source files, supported by schemas, manifests, validation scripts, and clear asset-planning files.
 
+This document is the source of truth for content-system structure, canonical content format, schema and validator expectations, and current phase boundaries.
+
+The companion document `docs/fashion-activity-design-guidance.md` is the source of truth for activity-design quality, concrete student interaction, app-readiness at the activity level, teacher review needs, and revision workflow expectations.
+
 ## 2. Project Strategy
 
 The course content should be authored as human-readable structured files in the repository. These files are the canonical source of truth.
@@ -79,6 +83,19 @@ The current phase does not include:
 The canonical app-ready course source should live in structured files under `content/`.
 
 Existing curriculum material under `docs/` is living course-planning material. It should be treated as source/reference material for Codex and may provide specific guidance for content generation. It should remain in `docs/` unless a task explicitly asks Codex to reorganize it.
+
+For this project phase, both of these documents must be used together:
+
+```text
+docs/fashion-course-content-requirements.md
+docs/fashion-activity-design-guidance.md
+```
+
+Conflict-resolution rule:
+
+- `docs/fashion-course-content-requirements.md` controls file structure, canonical content format, schema and validator expectations, and phase boundaries.
+- `docs/fashion-activity-design-guidance.md` controls activity-design quality, student interaction, app-readiness, teacher review needs, and revision workflow.
+- If the current schema prevents the activity guidance from being followed, update the requirements, schema, and validator in a planned follow-up before generating more content.
 
 The structured content produced by this phase must live under `content/`. The `content/` files are the canonical source for future app/database consumption once they exist.
 
@@ -402,6 +419,12 @@ A complete activity object should follow this structure:
   },
   "teacher_instructions": "",
   "estimated_minutes": 15,
+  "primary_interaction_type": "single_choice",
+  "primary_interaction_type_custom": "",
+  "submission_type": "selection",
+  "checked_by": "app",
+  "teacher_review_required": false,
+  "revision_supported": false,
   "skill_focus": [],
   "skill_focus_custom": "",
   "cefr_access_level": "A2",
@@ -456,6 +479,11 @@ Each activity should include:
 - `student_facing`
 - `teacher_instructions`
 - `estimated_minutes`
+- `primary_interaction_type`
+- `submission_type`
+- `checked_by`
+- `teacher_review_required`
+- `revision_supported`
 - `skill_focus`
 - `cefr_access_level`
 - `cefr_target_level`
@@ -470,6 +498,10 @@ Each activity should include:
 - `adaptations`
 - `extension_options`
 - `notes_for_app_design`
+
+For all new or rewritten activities going forward, the operational activity metadata above is required. Existing activities such as the current Week 1 content may remain in their present structure during this documentation pass, but they should be brought into conformance in a later content/schema/validator follow-up.
+
+Each activity must define concrete student interaction, the expected student output, the submission type, who checks the result, whether teacher review is required, whether revision is supported, and concrete `notes_for_app_design`. The goal is to make the content app-ready without building the app itself in this phase.
 
 ### 10.1 Student-Facing Localization
 
@@ -582,6 +614,65 @@ Allowed values:
 - `B2-C1`
 
 For structured content, prefer `cefr_access_level` and `cefr_target_level`. Use `cefr_level` as a convenient display label when useful.
+
+### 10.6 Primary Interaction Type
+
+`primary_interaction_type` describes the main app/rendering interaction for the activity. It is distinct from `activity_type`, which remains the pedagogical category.
+
+Recommended values:
+
+- `single_choice`
+- `multiple_choice`
+- `true_false`
+- `image_match`
+- `translation_match`
+- `word_bank_fill_blank`
+- `sentence_frame_completion`
+- `word_ordering`
+- `read_and_choose`
+- `listen_and_choose`
+- `short_text`
+- `structured_text`
+- `correction_task`
+- `teacher_observed_speaking`
+- `custom`
+
+If an activity uses `primary_interaction_type: "custom"`, it must include `primary_interaction_type_custom` with a short explanation and the execution summary should also explain the custom choice.
+
+### 10.7 Submission Type
+
+`submission_type` describes what kind of student response is saved, checked, or tracked.
+
+Recommended values:
+
+- `none`
+- `selection`
+- `matching`
+- `fill_blank`
+- `short_text`
+- `structured_text`
+- `corrected_sentence`
+- `teacher_observed_speaking`
+- `self_check`
+
+### 10.8 Checked By
+
+`checked_by` identifies who checks or confirms completion of the activity.
+
+Allowed values:
+
+- `app`
+- `teacher`
+- `student`
+- `not_submitted`
+
+### 10.9 Teacher Review and Revision Flags
+
+`teacher_review_required` should be `true` only when teacher review adds clear value.
+
+`revision_supported` should be `true` when the activity is designed to support a feedback and revision cycle.
+
+Teacher-reviewed writing and speaking tasks should state the review expectation clearly in `assessment` and `notes_for_app_design`. If `revision_supported` is `true`, the activity should include specific revision guidance rather than a vague instruction to revise later.
 
 ## 11. Activity Step Requirements
 
@@ -1076,6 +1167,8 @@ Teacher instructions should explain:
 
 Although no app is being built in this phase, content should be designed so a future app can consume it.
 
+This means the project is making content app-ready without implementing the student app, teacher/admin systems, grading infrastructure, or future interface layer in this pass.
+
 Activities should therefore separate:
 
 - Student instructions.
@@ -1087,6 +1180,8 @@ Activities should therefore separate:
 - Asset references.
 
 Avoid burying app-critical information only in prose.
+
+For all new or rewritten activities, `notes_for_app_design` should be concrete enough to identify the expected interaction pattern, saved output, checking path, and any teacher-review or revision implications.
 
 Each activity should include `notes_for_app_design` describing likely app needs, such as:
 
@@ -1116,6 +1211,8 @@ Codex should create validation scripts that check at minimum:
 - Vocabulary references exist in `vocabulary.json`.
 - Estimated minutes are numeric.
 - Required student and teacher instruction fields are present.
+
+Schema and validator hardening for the new operational activity metadata is expected as follow-up work after this documentation alignment pass. That future work should add enforcement for fields such as `primary_interaction_type`, `submission_type`, `checked_by`, `teacher_review_required`, and `revision_supported`, along with any related controlled values and cross-field checks.
 
 ### 23.1 Validator Dependency Rule
 
@@ -1188,7 +1285,7 @@ But these tables should not constrain the current content authoring model premat
 
 When instructed to generate a week, Codex should:
 
-1. Read the requirements document.
+1. Read `docs/fashion-course-content-requirements.md` and `docs/fashion-activity-design-guidance.md`.
 2. Read the existing course/module/week structure.
 3. Use the previous week as a structural model where applicable.
 4. Review relevant existing `docs/` course materials as living source/reference material when available.
@@ -1218,6 +1315,21 @@ After each Codex task, Codex should report:
 - Any open questions or assumptions.
 
 The image and audio sections are important because this project will use later image/audio generation passes.
+
+When the task creates or revises activities, the execution summary should also include this per-activity block:
+
+```text
+For each activity:
+- activity ID
+- title
+- primary interaction type
+- submission type
+- who checks it: app / teacher / student / not_submitted
+- expected student output
+- teacher review required: yes/no
+- revision supported: yes/no
+- media used
+```
 
 The summary should include a clear asset checklist like:
 
@@ -1282,6 +1394,7 @@ This is explicitly outside the current content-generation phase.
 
 Codex should follow these rules:
 
+- Read `docs/fashion-course-content-requirements.md` and `docs/fashion-activity-design-guidance.md` before creating or revising activities.
 - Do not build an app unless explicitly instructed.
 - Do not modify unrelated files.
 - Do not rename established files, IDs, or folders without explicit instruction.
@@ -1375,7 +1488,7 @@ Use the following prompt for the first Codex implementation milestone after this
 ```text
 We are building the canonical content source structure for an English for Special Purposes fashion design course.
 
-Read docs/fashion-course-content-requirements.md and implement Phase 1 only.
+Read `docs/fashion-course-content-requirements.md` and `docs/fashion-activity-design-guidance.md` and implement Phase 1 only.
 
 Do not build an app. Do not create a production SQLite database. Do not generate images or audio. Do not modify unrelated files.
 
@@ -1434,7 +1547,7 @@ Requirements:
 - The validator should be runnable from the repo root.
 - The validator should write generated/validation_report.md and overwrite the previous report on each run.
 - The README should explain how to validate the content.
-- AGENTS.md should tell future Codex runs to treat docs/fashion-course-content-requirements.md as the source of truth, treat content/ as the canonical structured source, use relevant docs/ course materials as living source/reference material, and ignore .obsidian or other workspace metadata.
+- AGENTS.md should tell future Codex runs to treat `docs/fashion-course-content-requirements.md` as the source of truth for the content system, treat `docs/fashion-activity-design-guidance.md` as the source of truth for activity design quality, treat `content/` as the canonical structured source, use relevant `docs/` course materials as living source/reference material, and ignore `.obsidian` or other workspace metadata.
 
 After implementation, report:
 - Files created.

@@ -12,9 +12,15 @@ Read and follow:
 
 ```text
 docs/fashion-course-content-requirements.md
+docs/fashion-activity-design-guidance.md
 ```
 
-That requirements document is the source of truth for this phase.
+Use both documents together:
+
+- `docs/fashion-course-content-requirements.md` is the source of truth for content-system structure, canonical content format, schema and validator expectations, and phase boundaries.
+- `docs/fashion-activity-design-guidance.md` is the source of truth for activity-design quality, concrete student interaction, app-readiness, teacher review needs, and revision workflow.
+
+If the current schema prevents the activity guidance from being followed, plan a requirements/schema/validator follow-up before generating more content.
 
 Once `content/` exists, treat it as the canonical structured source for app-ready course content. Existing materials under `docs/` are living course-planning and reference materials. Use relevant `docs/` material to guide content decisions when needed, but do not treat existing docs as the final structured app-ready content format.
 
@@ -318,9 +324,11 @@ The validator should check at minimum:
 
 Schema files under `schemas/` describe the intended full structure. The Python validator enforces the most important checks without third-party packages. If a schema includes checks not enforced by the validator, document that gap in the README, validation report, or execution summary.
 
+Schema and validator hardening for the newer operational activity metadata is expected in a later pass. Do not treat the absence of that hardening as permission to ignore the documentation requirements for new or rewritten activities.
+
 ## Working Rules for Codex
 
-- Read `docs/fashion-course-content-requirements.md` before making content-pipeline changes.
+- Read `docs/fashion-course-content-requirements.md`, `docs/fashion-activity-design-guidance.md`, `AGENTS.md`, and `README.md` before creating or revising activities.
 - Keep work scoped to the user’s current milestone.
 - Do not build an app unless explicitly instructed.
 - Do not create production SQLite unless explicitly instructed.
@@ -358,14 +366,25 @@ Validation result:
 New activity IDs:
 - ...
 
+For each activity created or revised:
+- activity ID
+- title
+- primary interaction type
+- submission type
+- who checks it: app / teacher / student / not_submitted
+- expected student output
+- teacher review required: yes/no
+- revision supported: yes/no
+- media used
+
 New vocabulary IDs:
 - ...
 
 Images needed:
-- asset_id — description — target path
+- asset_id - description - target path
 
 Audio needed:
-- asset_id — description — target path
+- asset_id - description - target path
 
 Schema changes:
 - none / details

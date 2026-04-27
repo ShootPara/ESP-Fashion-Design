@@ -10,6 +10,12 @@ Use this document as the source of truth for activity-level design decisions.
 
 The current project is still content generation. This document does not ask Codex to build the app. It tells Codex how to write app-ready activity content so the future app can support the intended workflow without major redesign.
 
+Conflict-resolution rule:
+
+- `docs/fashion-course-content-requirements.md` controls file structure, canonical content format, schema and validator expectations, and phase boundaries.
+- `docs/fashion-activity-design-guidance.md` controls activity-design quality, student interaction, app-readiness, teacher review needs, and revision workflow.
+- If the current schema prevents this guidance from being followed, update the requirements, schema, and validator in a planned follow-up before generating more content.
+
 ## 2. Core Activity Design Principle
 
 Every activity must be designed from the student interaction outward.
@@ -290,7 +296,7 @@ These still need clear completion criteria, but they may not require teacher mar
 
 ## 9. Submission Types
 
-Each activity should imply or explicitly describe one of these submission types.
+Each activity should explicitly describe one of these submission types.
 
 Recommended submission types:
 
@@ -811,6 +817,14 @@ Recommended item fields:
 
 Do not force these fields if the schema rejects them. If the current schema is too narrow, report the limitation and propose a schema update separately.
 
+For all new or rewritten activities going forward, the activity should also carry top-level operational metadata when the requirements and schema allow it:
+
+- `primary_interaction_type`
+- `submission_type`
+- `checked_by`
+- `teacher_review_required`
+- `revision_supported`
+
 ## 23. App Design Notes Requirement
 
 Each activity must include concrete `notes_for_app_design`.
@@ -934,10 +948,10 @@ This summary is required because validation passing does not prove that the acti
 Save this document as:
 
 ```text
-docs/activity-design-guidance.md
+docs/fashion-activity-design-guidance.md
 ```
 
-AGENTS.md should eventually instruct Codex to read this document before creating or revising weekly activities.
+AGENTS.md and README.md should instruct Codex to read this document before creating or revising weekly activities.
 
 The main requirements document remains the overall source of truth for the content system. This document is the activity-design source of truth.
 
