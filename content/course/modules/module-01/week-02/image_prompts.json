@@ -15,7 +15,7 @@
         "m01w02-a03",
         "m01w02-a06"
       ],
-      "status": "needed"
+      "status": "generated"
     },
     {
       "asset_id": "m01w02-img-002",
@@ -29,7 +29,7 @@
       "used_by_activity_ids": [
         "m01w02-a02"
       ],
-      "status": "needed"
+      "status": "generated"
     },
     {
       "asset_id": "m01w02-img-003",
@@ -43,7 +43,7 @@
       "used_by_activity_ids": [
         "m01w02-a02"
       ],
-      "status": "needed"
+      "status": "generated"
     },
     {
       "asset_id": "m01w02-img-004",
@@ -57,7 +57,7 @@
       "used_by_activity_ids": [
         "m01w02-a02"
       ],
-      "status": "needed"
+      "status": "generated"
     },
     {
       "asset_id": "m01w02-img-007",
@@ -71,7 +71,7 @@
       "used_by_activity_ids": [
         "m01w02-a08"
       ],
-      "status": "needed"
+      "status": "generated"
     }
   ]
 }
