@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w03",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w03-aud-001",
+      "purpose": "Listening model for short Week 3 garment descriptions with category and feature language.",
+      "target_filename": "assets/audio/module-01/week-03/m01w03-aud-001.mp3",
+      "script": "Look at the garment cards. Number one: This is a black jacket. It is outerwear. It has a zipper and pockets. Number two: These are blue jeans. They are casual. They have pockets. Number three: This is a white blouse. It is a top. It has buttons and long sleeves. Number four: This is a red dress. It is a one-piece garment. It is for a party. Number five: These are shorts. They are casual and they are for hot weather.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and teacher-like, with short pauses after each numbered garment description.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 48,
+      "used_by_activity_ids": [
+        "m01w03-a04"
+      ],
+      "status": "needed"
+    }
+  ]
+}
