@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w02",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w02-aud-001",
+      "purpose": "Listening model for simple teacher-style studio instructions in Week 2.",
+      "target_filename": "assets/audio/module-01/week-02/m01w02-aud-001.mp3",
+      "script": "Good morning. Today we are working in the fashion studio. Take your sketchbook, pencil, ruler, and measuring tape. Put the fabric on the table. Look at the pattern paper. Draw one straight line with your ruler. Measure the fabric carefully. Fold the fabric. Then use pins to hold the fabric. Do not sew yet. First, check your work and your measurements.",
+      "speaker_profile": "One adult teacher or studio instructor speaking clearly to beginner Fashion Design students.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Calm, direct, and easy to follow, with short pauses between instructions and clear sentence boundaries.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom instructor.",
+      "duration_estimate_seconds": 54,
+      "used_by_activity_ids": [
+        "m01w02-a04"
+      ],
+      "status": "needed"
+    }
+  ]
+}
