@@ -1,0 +1,1868 @@
+{
+  "week_id": "m01w03",
+  "activities": [
+    {
+      "activity_id": "m01w03-a01",
+      "week_id": "m01w03",
+      "sequence_number": 1,
+      "title": "Welcome Back: What Garment Is It?",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students enter Week 3 by identifying common garments from a visual board and connecting new clothing vocabulary to the Fashion Design classroom.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: What Garment Is It?",
+          "summary": "Look at the garments and choose the correct English name.",
+          "instructions": "Look at the garment board. For each picture, choose the correct English garment word.",
+          "success_criteria": [
+            "I can identify some common garments in English.",
+            "I can connect a garment image to the correct word.",
+            "I am ready for the Week 3 garment vocabulary set."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "It is a ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: que peça é esta?",
+          "summary": "Observe as peças de roupa e escolha o nome correto em inglês.",
+          "instructions": "Observe o painel de roupas. Para cada imagem, escolha a palavra em inglês que corresponde à peça.",
+          "success_criteria": [
+            "Eu consigo identificar algumas peças de roupa comuns em inglês.",
+            "Eu consigo relacionar uma imagem de roupa à palavra correta.",
+            "Eu estou pronto para o vocabulário de roupas da Semana 3."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "It is a ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the opener fast and low-pressure. The goal is recognition, not full description yet. Use one or two items to remind students that Fashion Design English now moves from tools to garments.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "garment overview board"
+      ],
+      "vocabulary_refs": [
+        "m01w03-v001",
+        "m01w03-v006",
+        "m01w03-v012",
+        "m01w03-v016",
+        "m01w03-v019",
+        "m01w03-v021"
+      ],
+      "asset_refs": [
+        "m01w03-img-001"
+      ],
+      "input": {
+        "input_type": "garment_recognition_quiz",
+        "prompt_en": "Choose the correct English garment word for each image.",
+        "prompt_pt": "Escolha a palavra correta em inglês para cada imagem de roupa.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which picture shows a dress?",
+            "label_pt": "Qual imagem mostra um vestido?",
+            "asset_id": "m01w03-img-001",
+            "options_en": [
+              "dress",
+              "skirt",
+              "jacket"
+            ],
+            "options_pt": [
+              "vestido",
+              "saia",
+              "jaqueta"
+            ],
+            "correct_answer": "dress"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which picture shows jeans?",
+            "label_pt": "Qual imagem mostra um jeans?",
+            "asset_id": "m01w03-img-001",
+            "options_en": [
+              "jeans",
+              "blouse",
+              "coat"
+            ],
+            "options_pt": [
+              "jeans",
+              "blusa",
+              "casaco"
+            ],
+            "correct_answer": "jeans"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which picture shows a hoodie?",
+            "label_pt": "Qual imagem mostra um moletom com capuz?",
+            "asset_id": "m01w03-img-001",
+            "options_en": [
+              "hoodie",
+              "shirt",
+              "blazer"
+            ],
+            "options_pt": [
+              "moletom com capuz",
+              "camisa",
+              "blazer"
+            ],
+            "correct_answer": "hoodie"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which picture shows a jacket?",
+            "label_pt": "Qual imagem mostra uma jaqueta?",
+            "asset_id": "m01w03-img-001",
+            "options_en": [
+              "jacket",
+              "T-shirt",
+              "shorts"
+            ],
+            "options_pt": [
+              "jaqueta",
+              "camiseta",
+              "shorts"
+            ],
+            "correct_answer": "jacket"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the garment board",
+          "student_action_en": "Look at the garment images and notice which words you already know.",
+          "student_action_pt": "Observe as imagens de roupas e note quais palavras você já conhece.",
+          "teacher_action": "Remind students that Week 3 focuses on the garments they see, draw, and describe in Fashion Design class.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the garment words",
+          "student_action_en": "Choose the correct English word for each garment image.",
+          "student_action_pt": "Escolha a palavra correta em inglês para cada imagem de roupa.",
+          "teacher_action": "Keep the pace quick and encourage risk-free guessing before full vocabulary practice.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Four quick garment-identification selections from the Week 3 overview board.",
+        "description_pt": "Quatro seleções rápidas de identificação de roupas a partir do painel geral da Semana 3.",
+        "length_or_format": "4 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student looks at the garment board.",
+          "The student identifies several common garments in English.",
+          "The student is ready to move into the main Week 3 vocabulary task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno observa o painel de roupas.",
+          "O aluno identifica várias peças de roupa comuns em inglês.",
+          "O aluno está pronto para avançar para a atividade principal de vocabulário da Semana 3."
+        ],
+        "checklist_en": [
+          "I looked carefully at the images.",
+          "I chose the garment words.",
+          "I am ready for the main vocabulary task."
+        ],
+        "checklist_pt": [
+          "Eu observei as imagens com atenção.",
+          "Eu escolhi as palavras das roupas.",
+          "Eu estou pronto para a atividade principal de vocabulário."
+        ],
+        "rubric": [],
+        "model_response_en": "dress, jeans, hoodie, and jacket",
+        "model_response_pt": "vestido, jeans, moletom com capuz e jaqueta",
+        "common_errors": [
+          "Confusing a dress with a skirt.",
+          "Confusing a hoodie with a jacket."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the full shape. Is it one piece, a top, or outerwear?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente o formato completo. É uma peça única, uma parte de cima ou uma peça de sobreposição?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to say the Portuguese word quietly before choosing the English option."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one complete sentence such as This is a jacket."
+        ]
+      },
+      "extension_options": [
+        "Name one more garment from the board without looking at the options."
+      ],
+      "notes_for_app_design": "Render this as one overview garment board with four short single-choice items. Save the selected answers only. Use immediate feedback to highlight key category distinctions such as dress versus skirt and hoodie versus jacket."
+    },
+    {
+      "activity_id": "m01w03-a02",
+      "week_id": "m01w03",
+      "sequence_number": 2,
+      "title": "Garment Vocabulary: Categories and Names",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students learn the core Week 3 garment set by matching garment images to English names, then connecting them to category and Portuguese support.",
+      "student_facing": {
+        "en": {
+          "title": "Garment Vocabulary: Categories and Names",
+          "summary": "Match the garment images to the correct English words and review the categories.",
+          "instructions": "Match each garment image to the correct English word. After the main matching sets, check the category and complete one short phrase.",
+          "success_criteria": [
+            "I can match garment images to English names.",
+            "I can sort garments into simple categories.",
+            "I can use Portuguese support when I need it without losing the English target."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "It is a top or bottom."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Vocabulário de roupas: categorias e nomes",
+          "summary": "Relacione as imagens das roupas às palavras corretas em inglês e revise as categorias.",
+          "instructions": "Relacione cada imagem de roupa à palavra correta em inglês. Depois dos conjuntos principais de relação, confira a categoria e complete uma frase curta.",
+          "success_criteria": [
+            "Eu consigo relacionar imagens de roupas a nomes em inglês.",
+            "Eu consigo organizar roupas em categorias simples.",
+            "Eu consigo usar apoio em português quando preciso sem perder o foco no inglês."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "It is a top or bottom."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main checked and saved output focused on image-word matching. Category and Portuguese bridge items should support understanding after the main matching sets, not replace the target English vocabulary.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "garment vocabulary boards"
+      ],
+      "vocabulary_refs": [
+        "m01w03-v001",
+        "m01w03-v002",
+        "m01w03-v003",
+        "m01w03-v004",
+        "m01w03-v005",
+        "m01w03-v006",
+        "m01w03-v007",
+        "m01w03-v008",
+        "m01w03-v009",
+        "m01w03-v010",
+        "m01w03-v011",
+        "m01w03-v012",
+        "m01w03-v013",
+        "m01w03-v014",
+        "m01w03-v015",
+        "m01w03-v016",
+        "m01w03-v017",
+        "m01w03-v018",
+        "m01w03-v019",
+        "m01w03-v020",
+        "m01w03-v021",
+        "m01w03-v022"
+      ],
+      "asset_refs": [
+        "m01w03-img-002",
+        "m01w03-img-003",
+        "m01w03-img-004"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the garment images to the correct English words.",
+        "prompt_pt": "Relacione as imagens das roupas às palavras corretas em inglês.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match the tops and upper garments.",
+            "label_pt": "Relacione as partes de cima e roupas superiores.",
+            "asset_id": "m01w03-img-002",
+            "matches": [
+              { "image_key": "garment_1", "answer_en": "T-shirt", "answer_pt": "camiseta" },
+              { "image_key": "garment_2", "answer_en": "shirt", "answer_pt": "camisa" },
+              { "image_key": "garment_3", "answer_en": "blouse", "answer_pt": "blusa" },
+              { "image_key": "garment_4", "answer_en": "sweater", "answer_pt": "suéter" },
+              { "image_key": "garment_5", "answer_en": "hoodie", "answer_pt": "moletom com capuz" }
+            ]
+          },
+          {
+            "response_type": "image_match",
+            "label_en": "Match the bottoms and one-piece garments.",
+            "label_pt": "Relacione as partes de baixo e as peças únicas.",
+            "asset_id": "m01w03-img-003",
+            "matches": [
+              { "image_key": "garment_1", "answer_en": "skirt", "answer_pt": "saia" },
+              { "image_key": "garment_2", "answer_en": "pants", "answer_pt": "calça" },
+              { "image_key": "garment_3", "answer_en": "shorts", "answer_pt": "shorts" },
+              { "image_key": "garment_4", "answer_en": "jeans", "answer_pt": "jeans" },
+              { "image_key": "garment_5", "answer_en": "dress", "answer_pt": "vestido" },
+              { "image_key": "garment_6", "answer_en": "jumpsuit", "answer_pt": "macacão" }
+            ]
+          },
+          {
+            "response_type": "image_match",
+            "label_en": "Match the outerwear and complete look words.",
+            "label_pt": "Relacione as peças de sobreposição e as palavras de look completo.",
+            "asset_id": "m01w03-img-004",
+            "matches": [
+              { "image_key": "garment_1", "answer_en": "jacket", "answer_pt": "jaqueta" },
+              { "image_key": "garment_2", "answer_en": "coat", "answer_pt": "casaco" },
+              { "image_key": "garment_3", "answer_en": "blazer", "answer_pt": "blazer" },
+              { "image_key": "garment_4", "answer_en": "outfit", "answer_pt": "conjunto" }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support to the English word.",
+            "label_pt": "Relacione o apoio em português à palavra em inglês.",
+            "pairs": [
+              { "pt": "calça", "en": "pants" },
+              { "pt": "calça em contexto internacional", "en": "trousers" },
+              { "pt": "peça de roupa", "en": "garment" },
+              { "pt": "look", "en": "look" }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "These ___ are casual.",
+            "sentence_frame_pt": "These ___ are casual.",
+            "word_bank": [
+              "jeans",
+              "collar",
+              "blazer"
+            ],
+            "accepted_answers": [
+              "jeans"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the garment sets",
+          "student_action_en": "Look at the grouped garment boards before you start matching.",
+          "student_action_pt": "Observe os painéis organizados de roupas antes de começar a relacionar.",
+          "teacher_action": "Explain that the main target is English garment recognition, not memorizing every translation first.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match images and garment words",
+          "student_action_en": "Match the garment images to the correct English words.",
+          "student_action_pt": "Relacione as imagens das roupas às palavras corretas em inglês.",
+          "teacher_action": "Monitor dress versus skirt, pants versus shorts, and jacket versus blazer.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Bridge and sort",
+          "student_action_en": "Check a few Portuguese links, review categories, and complete one short phrase.",
+          "student_action_pt": "Confira algumas ligações com o português, revise as categorias e complete uma frase curta.",
+          "teacher_action": "Use this moment to highlight pants as the main production word and trousers as a support variant.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "Three saved image-word matching sets as the main scored output, followed by short support practice for category and Portuguese bridge review.",
+        "description_pt": "Três conjuntos salvos de relação entre imagem e palavra como resultado principal avaliado, seguidos de uma prática curta de apoio para revisão de categorias e ponte com o português.",
+        "length_or_format": "3 scored image-match sets as the main saved output, plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main garment matching sets correctly or with minor support.",
+          "The student connects the garments to simple categories during follow-up support practice.",
+          "The student uses Portuguese support only as a bridge to the English target after the main matching sets."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa os principais conjuntos de relação de roupas corretamente ou com pouco apoio.",
+          "O aluno relaciona as roupas a categorias simples durante a prática de apoio.",
+          "O aluno usa o apoio em português apenas como ponte para o alvo em inglês depois dos conjuntos principais de relação."
+        ],
+        "checklist_en": [
+          "I matched the garment pictures.",
+          "I checked the categories.",
+          "I used Portuguese support only when I needed it."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as imagens das roupas.",
+          "Eu conferi as categorias.",
+          "Eu usei o apoio em português apenas quando precisei."
+        ],
+        "rubric": [],
+        "model_response_en": "T-shirt, shirt, blouse, sweater, hoodie, skirt, pants, shorts, jeans, dress, jumpsuit, jacket, coat, blazer, and outfit",
+        "model_response_pt": "camiseta, camisa, blusa, suéter, moletom com capuz, saia, calça, shorts, jeans, vestido, macacão, jaqueta, casaco, blazer e conjunto",
+        "common_errors": [
+          "Confusing dress and skirt.",
+          "Confusing blazer and jacket.",
+          "Using trousers as the only production target instead of recognizing it as a support variant."
+        ],
+        "feedback_prompts_en": [
+          "Look at the full shape and use. Is it a top, a bottom, one piece, or outerwear?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe o formato completo e o uso. É uma parte de cima, uma parte de baixo, uma peça única ou uma peça de sobreposição?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete the image matches before the category and Portuguese bridge items."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one sentence such as This is a blouse or These are jeans."
+        ]
+      },
+      "extension_options": [
+        "Sort three garments into tops, bottoms, and outerwear without looking at the labels."
+      ],
+      "notes_for_app_design": "Render this as three image-first matching boards shown one at a time. Save the three image-to-word matching sets as the main scored and saved output. Category and Portuguese bridge items should appear only after the main matching sets as support layers, not as the primary saved artifact."
+    },
+    {
+      "activity_id": "m01w03-a03",
+      "week_id": "m01w03",
+      "sequence_number": 3,
+      "title": "Read: Three Garment Descriptions",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read three short A2 garment descriptions, match them to images, and identify details about features, category, and use.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Three Garment Descriptions",
+          "summary": "Read the short descriptions and match each text to the correct garment image.",
+          "instructions": "Read the three short garment descriptions. Match each text to the correct image and answer the detail questions.",
+          "success_criteria": [
+            "I can understand short garment descriptions.",
+            "I can match a text to the correct garment image.",
+            "I can find details about color, features, and use."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "It has ___.",
+            "They are ___ and ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Leitura: três descrições de roupas",
+          "summary": "Leia as descrições curtas e relacione cada texto à imagem correta da roupa.",
+          "instructions": "Leia as três descrições curtas de roupas. Relacione cada texto à imagem correta e responda às perguntas de detalhe.",
+          "success_criteria": [
+            "Eu consigo entender descrições curtas de roupas.",
+            "Eu consigo relacionar um texto à imagem correta da roupa.",
+            "Eu consigo localizar detalhes sobre cor, características e uso."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "It has ___.",
+            "They are ___ and ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the reading focused on visible, high-frequency language. Remind students to read for meaning first and to use the image board as support instead of translating every word.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary",
+        "visual_literacy",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "three-garment reading board"
+      ],
+      "vocabulary_refs": [
+        "m01w03-v007",
+        "m01w03-v016",
+        "m01w03-v017",
+        "m01w03-v023",
+        "m01w03-v025",
+        "m01w03-v026",
+        "m01w03-v027",
+        "m01w03-v028",
+        "m01w03-v029",
+        "m01w03-v030",
+        "m01w03-v031"
+      ],
+      "asset_refs": [
+        "m01w03-img-005"
+      ],
+      "input": {
+        "input_type": "reading_questions",
+        "prompt_en": "Read the descriptions and choose the correct garment image or detail.",
+        "prompt_pt": "Leia as descrições e escolha a imagem ou o detalhe correto da roupa.",
+        "items": [
+          {
+            "response_type": "reading_match",
+            "label_en": "Text A: This is a white shirt. It has long sleeves, a collar, and buttons. It is simple and classic. It is good for work or a formal class presentation.",
+            "label_pt": "Texto A: Esta é uma camisa branca. Ela tem mangas compridas, gola e botões. É simples e clássica. É boa para o trabalho ou para uma apresentação formal em aula.",
+            "asset_id": "m01w03-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "reading_match",
+            "label_en": "Text B: This is a blue dress. It has short sleeves and a loose shape. It is comfortable and casual. It is good for hot weather.",
+            "label_pt": "Texto B: Este é um vestido azul. Ele tem mangas curtas e forma solta. É confortável e casual. É bom para clima quente.",
+            "asset_id": "m01w03-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "reading_match",
+            "label_en": "Text C: These are black jeans. They have pockets and a zipper. They are casual and comfortable. They are good for class, work, or everyday use.",
+            "label_pt": "Texto C: Estes são jeans pretos. Eles têm bolsos e zíper. São casuais e confortáveis. São bons para aula, trabalho ou uso diário.",
+            "asset_id": "m01w03-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C"
+            ],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which garment has a collar and buttons?",
+            "label_pt": "Qual roupa tem gola e botões?",
+            "options_en": [
+              "shirt",
+              "dress",
+              "jeans"
+            ],
+            "options_pt": [
+              "camisa",
+              "vestido",
+              "jeans"
+            ],
+            "correct_answer": "shirt"
+          },
+          {
+            "response_type": "true_false",
+            "label_en": "The blue dress is for cold weather.",
+            "label_pt": "O vestido azul é para clima frio.",
+            "correct_answer": false
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read for the main idea",
+          "student_action_en": "Read each garment description once and identify the main garment.",
+          "student_action_pt": "Leia cada descrição de roupa uma vez e identifique a peça principal.",
+          "teacher_action": "Encourage students to match the text to the visual first before focusing on every feature word.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Find the details",
+          "student_action_en": "Read again and find color, features, and use details.",
+          "student_action_pt": "Leia novamente e encontre detalhes de cor, características e uso.",
+          "teacher_action": "Point students toward clue words such as collar, buttons, zipper, casual, and formal.",
+          "estimated_minutes": 5,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Choose the answers",
+          "student_action_en": "Choose the matching image and the correct detail answers.",
+          "student_action_pt": "Escolha a imagem correspondente e as respostas corretas de detalhe.",
+          "teacher_action": "Check that students are identifying evidence from the text, not guessing without rereading.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_comprehension_answers",
+        "description_en": "Three garment-text matches and two short detail checks based on A2 descriptions.",
+        "description_pt": "Três relações entre texto e roupa e duas verificações curtas de detalhe com base em descrições A2.",
+        "length_or_format": "3 text-image matches plus 2 comprehension selections"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student identifies the main garment in each text.",
+          "The student finds at least one useful feature or use detail.",
+          "The student connects the text to the visual board accurately."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica a peça principal em cada texto.",
+          "O aluno encontra pelo menos uma característica útil ou detalhe de uso.",
+          "O aluno relaciona o texto ao painel visual com precisão."
+        ],
+        "checklist_en": [
+          "I read the texts carefully.",
+          "I matched the descriptions to the images.",
+          "I checked color, feature, and use details."
+        ],
+        "checklist_pt": [
+          "Eu li os textos com atenção.",
+          "Eu relacionei as descrições às imagens.",
+          "Eu conferi detalhes de cor, característica e uso."
+        ],
+        "rubric": [],
+        "model_response_en": "Text A is the shirt. Text B is the dress. Text C is the jeans. The shirt has a collar and buttons. The blue dress is for hot weather.",
+        "model_response_pt": "O texto A é a camisa. O texto B é o vestido. O texto C é o jeans. A camisa tem gola e botões. O vestido azul é para clima quente.",
+        "common_errors": [
+          "Confusing dress and shirt because both are singular garments.",
+          "Ignoring feature words such as collar or zipper."
+        ],
+        "feedback_prompts_en": [
+          "Which words in the text helped you choose the garment?"
+        ],
+        "feedback_prompts_pt": [
+          "Quais palavras no texto ajudaram você a escolher a peça?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Underline key feature words in the text before students answer the detail questions."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain one answer with a full sentence such as The shirt has a collar and buttons."
+        ]
+      },
+      "extension_options": [
+        "Choose one text and say whether the garment is better for class, work, or hot weather."
+      ],
+      "notes_for_app_design": "Render this as one reading board with three garment images labeled image A, image B, and image C, plus three short text cards. Save the image-choice matches and the follow-up selection answers. After the first attempt, show a simple evidence review layer that highlights clue words such as collar, buttons, zipper, casual, and formal."
+    },
+    {
+      "activity_id": "m01w03-a04",
+      "week_id": "m01w03",
+      "sequence_number": 4,
+      "title": "Listen: Which Garment Is It?",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to five short garment descriptions and identify the correct garment, category, or feature from clear A2 listening choices.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Which Garment Is It?",
+          "summary": "Listen to the short descriptions and choose the correct garment or detail.",
+          "instructions": "Listen once for the main garment. Listen again for features and category details. Then choose the correct answers.",
+          "success_criteria": [
+          "I can identify a garment from a short numbered description.",
+          "I can hear one or two feature or use details.",
+          "I can connect the audio to the correct answer choice."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "It is for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Escuta: que peça é essa?",
+          "summary": "Escute as descrições curtas e escolha a roupa ou o detalhe correto.",
+          "instructions": "Escute uma vez para identificar a peça principal. Escute novamente para perceber características e categoria. Depois escolha as respostas corretas.",
+          "success_criteria": [
+          "Eu consigo identificar uma roupa a partir de uma descrição curta numerada.",
+          "Eu consigo ouvir um ou dois detalhes de característica ou uso.",
+          "Eu consigo relacionar o áudio à resposta correta."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "It is for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Play the audio once for overall identification and again for detail. Keep the listening concrete and choice-based for A2 learners. Reveal the transcript only after students have attempted the task.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "vocabulary",
+        "visual_literacy",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "garment listening audio",
+        "garment image choice board"
+      ],
+      "vocabulary_refs": [
+        "m01w03-v008",
+        "m01w03-v012",
+        "m01w03-v019",
+        "m01w03-v023",
+        "m01w03-v024",
+        "m01w03-v026",
+        "m01w03-v030"
+      ],
+      "asset_refs": [
+        "m01w03-img-006",
+        "m01w03-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_questions",
+        "prompt_en": "Listen to the five short garment descriptions and choose the correct garment, category, or feature.",
+        "prompt_pt": "Escute as cinco descrições curtas de roupas e escolha a peça, a categoria ou a característica correta.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Number one is:",
+            "label_pt": "O número um é:",
+            "asset_id": "m01w03-img-006",
+            "options_en": [
+              "jacket",
+              "dress",
+              "shorts"
+            ],
+            "options_pt": [
+              "jaqueta",
+              "vestido",
+              "shorts"
+            ],
+            "correct_answer": "jacket"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Number two is:",
+            "label_pt": "O número dois é:",
+            "asset_id": "m01w03-img-006",
+            "options_en": [
+              "jeans",
+              "skirt",
+              "coat"
+            ],
+            "options_pt": [
+              "jeans",
+              "saia",
+              "casaco"
+            ],
+            "correct_answer": "jeans"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Number three is:",
+            "label_pt": "O número três é:",
+            "asset_id": "m01w03-img-006",
+            "options_en": [
+              "blouse",
+              "dress",
+              "shorts"
+            ],
+            "options_pt": [
+              "blusa",
+              "vestido",
+              "shorts"
+            ],
+            "correct_answer": "blouse"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Number four is:",
+            "label_pt": "O número quatro é:",
+            "asset_id": "m01w03-img-006",
+            "options_en": [
+              "dress",
+              "blouse",
+              "jacket"
+            ],
+            "options_pt": [
+              "vestido",
+              "blusa",
+              "jaqueta"
+            ],
+            "correct_answer": "dress"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Number five is for:",
+            "label_pt": "O número cinco é para:",
+            "options_en": [
+              "hot weather",
+              "cold weather",
+              "a formal presentation"
+            ],
+            "options_pt": [
+              "clima quente",
+              "clima frio",
+              "uma apresentação formal"
+            ],
+            "correct_answer": "hot weather"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Listen for the main garment",
+          "student_action_en": "Listen once and identify the main garment in each short description.",
+          "student_action_pt": "Escute uma vez e identifique a peça principal em cada descrição curta.",
+          "teacher_action": "Tell students not to stop at unknown words. The first goal is garment recognition.",
+          "estimated_minutes": 4,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen for details",
+          "student_action_en": "Listen again and notice features, category, and weather or use clues.",
+          "student_action_pt": "Escute novamente e perceba características, categoria e pistas de clima ou uso.",
+          "teacher_action": "Point out that words such as zipper, top, and hot weather can guide the answer.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Choose the answers",
+          "student_action_en": "Choose the garment, category, and feature answers after listening.",
+          "student_action_pt": "Escolha as respostas de roupa, categoria e característica depois de ouvir.",
+          "teacher_action": "Reveal the transcript only after students complete the first attempt.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_comprehension_answers",
+        "description_en": "Five listening selections identifying the correct garment or one clear use detail from a short numbered audio clip.",
+        "description_pt": "Cinco seleções de compreensão auditiva identificando a roupa correta ou um detalhe claro de uso a partir de um áudio curto e numerado.",
+        "length_or_format": "5 listening selections"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student identifies the main garment in the short numbered descriptions.",
+          "The student notices at least one useful feature or use detail.",
+          "The student connects the audio to the correct answer choices."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica a peça principal nas descrições curtas numeradas.",
+          "O aluno percebe pelo menos uma característica útil ou detalhe de uso.",
+          "O aluno relaciona o áudio às alternativas corretas."
+        ],
+        "checklist_en": [
+          "I listened for the main garment first.",
+          "I listened again for details.",
+          "I chose the answers after checking the clues."
+        ],
+        "checklist_pt": [
+          "Eu escutei primeiro para identificar a peça principal.",
+          "Eu escutei novamente para perceber os detalhes.",
+          "Eu escolhi as respostas depois de conferir as pistas."
+        ],
+        "rubric": [],
+        "model_response_en": "Number one is a jacket. Number two is jeans. Number three is a blouse. Number four is a dress. Number five is for hot weather.",
+        "model_response_pt": "O número um é uma jaqueta. O número dois é jeans. O número três é uma blusa. O número quatro é um vestido. O número cinco é para clima quente.",
+        "common_errors": [
+          "Missing the garment word and guessing from one later detail only.",
+          "Confusing blouse and dress because both are singular garments in the audio set."
+        ],
+        "feedback_prompts_en": [
+          "Listen again. Which word tells you the garment, and which words tell you the feature or use detail?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente. Qual palavra indica a peça, e quais palavras indicam a característica ou o detalhe de uso?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Show the garment image choices before the second play so students can listen with a smaller answer set in mind."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence after the listening, such as Number one is a jacket."
+        ]
+      },
+      "extension_options": [
+        "Choose one garment from the audio and say one extra sentence about its feature or use."
+      ],
+      "notes_for_app_design": "Render this as an audio player with replay support and five short app-checked listening questions tied directly to the five numbered descriptions in the script. Allow two or three plays. Reveal the transcript only after the student submits a first attempt. Save the selected answers only."
+    },
+    {
+      "activity_id": "m01w03-a05",
+      "week_id": "m01w03",
+      "sequence_number": 5,
+      "title": "Phrase Practice: This Is, These Are, It Has",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students practice the exact singular and plural garment frames they will need in the writing and speaking tasks.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: This Is, These Are, It Has",
+          "summary": "Complete the garment sentences and choose the correct singular or plural form.",
+          "instructions": "Complete the short garment-description frames. Choose the correct singular or plural words and fix one sentence if needed.",
+          "success_criteria": [
+            "I can complete short garment-description frames.",
+            "I can choose This is or These are correctly.",
+            "I can choose It has or They have correctly."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "It has ___.",
+            "They have ___.",
+            "It is for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Prática de frases: This Is, These Are, It Has",
+          "summary": "Complete as frases sobre roupas e escolha a forma correta no singular ou no plural.",
+          "instructions": "Complete as frases curtas de descrição de roupas. Escolha corretamente as formas de singular ou plural e corrija uma frase se necessário.",
+          "success_criteria": [
+            "Eu consigo completar frases curtas de descrição de roupas.",
+            "Eu consigo escolher corretamente This is ou These are.",
+            "Eu consigo escolher corretamente It has ou They have."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "These are ___.",
+            "It has ___.",
+            "They have ___.",
+            "It is for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep this task focused on transfer into the Garment ID Card. Students should leave with the exact frame patterns they will reuse in writing and speaking.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "sentence_frame_completion",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "vocabulary",
+        "critical_thinking"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "sentence-frame practice set"
+      ],
+      "vocabulary_refs": [
+        "m01w03-v012",
+        "m01w03-v016",
+        "m01w03-v019",
+        "m01w03-v023",
+        "m01w03-v024",
+        "m01w03-v026",
+        "m01w03-v029",
+        "m01w03-v030",
+        "m01w03-v031"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "phrase_frame_practice",
+        "prompt_en": "Complete the garment-description frames with the correct words.",
+        "prompt_pt": "Complete as frases de descrição de roupas com as palavras corretas.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "This is a ___.",
+            "sentence_frame_pt": "This is a ___.",
+            "word_bank": [
+              "jacket",
+              "jeans",
+              "buttons"
+            ],
+            "accepted_answers": [
+              "jacket"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "These are ___.",
+            "sentence_frame_pt": "These are ___.",
+            "word_bank": [
+              "dress",
+              "jeans",
+              "collar"
+            ],
+            "accepted_answers": [
+              "jeans"
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose the correct form.",
+            "label_pt": "Escolha a forma correta.",
+            "options_en": [
+              "It has pockets.",
+              "They has pockets."
+            ],
+            "options_pt": [
+              "It has pockets.",
+              "They has pockets."
+            ],
+            "correct_answer": "It has pockets."
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose the correct form.",
+            "label_pt": "Escolha a forma correta.",
+            "options_en": [
+              "It is for hot weather.",
+              "They is for hot weather."
+            ],
+            "options_pt": [
+              "It is for hot weather.",
+              "They is for hot weather."
+            ],
+            "correct_answer": "It is for hot weather."
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the sentence.",
+            "label_pt": "Corrija a frase.",
+            "incorrect_sentence": "This are a dress.",
+            "correct_sentence": "This is a dress.",
+            "accepted_answers": [
+              "This is a dress."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the frame patterns",
+          "student_action_en": "Look at the Week 3 sentence frames before answering.",
+          "student_action_pt": "Observe as frases-modelo da Semana 3 antes de responder.",
+          "teacher_action": "Name the core contrasts clearly: This is versus These are, and It has versus They have.",
+          "estimated_minutes": 2,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the frames",
+          "student_action_en": "Complete the garment-description frames with the correct words.",
+          "student_action_pt": "Complete as frases de descrição de roupas com as palavras corretas.",
+          "teacher_action": "Keep the emphasis on accuracy that students can reuse in the Garment ID Card.",
+          "estimated_minutes": 5,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check singular and plural form",
+          "student_action_en": "Choose the correct singular or plural sentence and correct one sentence if needed.",
+          "student_action_pt": "Escolha a frase correta no singular ou no plural e corrija uma frase, se necessário.",
+          "teacher_action": "Prompt students to notice which garments behave like plural items, especially jeans and pants.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "controlled_phrase_completions",
+        "description_en": "Five controlled garment-frame completions and singular-plural checks.",
+        "description_pt": "Cinco completamentos controlados de frases sobre roupas e verificações de singular e plural.",
+        "length_or_format": "5 app-checked frame responses"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main garment frames with correct vocabulary.",
+          "The student identifies at least one correct singular-plural contrast.",
+          "The student leaves with frames ready for writing and speaking."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as principais frases sobre roupas com vocabulário correto.",
+          "O aluno identifica pelo menos um contraste correto de singular e plural.",
+          "O aluno termina a atividade com frases prontas para usar na escrita e na fala."
+        ],
+        "checklist_en": [
+          "I completed the sentence frames.",
+          "I checked singular and plural forms.",
+          "I am ready to use these frames in my Garment ID Card."
+        ],
+        "checklist_pt": [
+          "Eu completei as frases-modelo.",
+          "Eu conferi as formas de singular e plural.",
+          "Eu estou pronto para usar essas frases no meu Garment ID Card."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a jacket. These are jeans. It has pockets. It is for hot weather. This is a dress.",
+        "model_response_pt": "This is a jacket. These are jeans. It has pockets. It is for hot weather. This is a dress.",
+        "common_errors": [
+          "Using This are or They has.",
+          "Forgetting the article in a singular garment phrase."
+        ],
+        "feedback_prompts_en": [
+          "Check the garment first. Is it one item or a plural garment?"
+        ],
+        "feedback_prompts_pt": [
+          "Confira a peça primeiro. É um item no singular ou uma roupa que funciona no plural?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Leave a visible mini chart showing This is, These are, It has, and They have while students answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to add one extra sentence such as I like it because it is comfortable."
+        ]
+      },
+      "extension_options": [
+        "Create one new sentence about a garment using It is for or They are for."
+      ],
+      "notes_for_app_design": "Render this as a short sequence of sentence-frame completions, singular-plural choice items, and one correction card. Save the responses as fill-blank or selection data only. Immediate feedback should highlight the exact frame contrast students need for the Week 3 writing task."
+    },
+    {
+      "activity_id": "m01w03-a06",
+      "week_id": "m01w03",
+      "sequence_number": 6,
+      "title": "Create a Garment ID Card",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students create the main Week 3 artifact by choosing one garment and building a short structured description from sentence frames.",
+      "student_facing": {
+        "en": {
+          "title": "Create a Garment ID Card",
+          "summary": "Choose one garment and build a short ID card with sentence frames.",
+          "instructions": "Choose one garment from the image set. Complete the Garment ID Card in English with the sentence frames. Write the required lines first. Add the challenge line only if you are ready.",
+          "success_criteria": [
+            "I can name the garment clearly.",
+            "I can say the category, features, and use with sentence frames.",
+            "I can build a short Garment ID Card without writing a full paragraph."
+          ],
+          "sentence_frames": [
+            "This is a ___. / These are ___.",
+            "It is a ___. / They are ___.",
+            "It is ___. / They are ___.",
+            "It has ___. / They have ___.",
+            "It is for ___. / They are for ___.",
+            "I like it because ___. / I like them because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Crie um Garment ID Card",
+          "summary": "Escolha uma peça de roupa e monte um pequeno cartão de identificação com frases-modelo.",
+          "instructions": "Escolha uma peça de roupa do conjunto de imagens. Complete o Garment ID Card em inglês com as frases-modelo. Escreva primeiro as linhas obrigatórias. Acrescente a linha de desafio apenas se estiver pronto.",
+          "success_criteria": [
+            "Eu consigo nomear a peça de roupa com clareza.",
+            "Eu consigo dizer a categoria, as características e o uso com frases-modelo.",
+            "Eu consigo montar um Garment ID Card curto sem escrever um parágrafo completo."
+          ],
+          "sentence_frames": [
+            "This is a ___. / These are ___.",
+            "It is a ___. / They are ___.",
+            "It is ___. / They are ___.",
+            "It has ___. / They have ___.",
+            "It is for ___. / They are for ___.",
+            "I like it because ___. / I like them because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the writing tightly scaffolded. The base task is a set of required sentence-frame lines, not a free paragraph. Review for garment name, category, basic accuracy, and whether the student can control singular or plural language. If revision is needed, return one focused target only.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "vocabulary",
+        "grammar",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "garment image cards or gallery",
+        "sentence-frame writing fields"
+      ],
+      "vocabulary_refs": [
+        "m01w03-v001",
+        "m01w03-v002",
+        "m01w03-v003",
+        "m01w03-v004",
+        "m01w03-v005",
+        "m01w03-v012",
+        "m01w03-v016",
+        "m01w03-v019",
+        "m01w03-v023",
+        "m01w03-v024",
+        "m01w03-v025",
+        "m01w03-v026",
+        "m01w03-v027",
+        "m01w03-v028",
+        "m01w03-v029",
+        "m01w03-v030",
+        "m01w03-v031"
+      ],
+      "asset_refs": [
+        "m01w03-img-006"
+      ],
+      "input": {
+        "input_type": "structured_writing_submission",
+        "prompt_en": "Choose one garment and complete the Garment ID Card with the required sentence-frame lines.",
+        "prompt_pt": "Escolha uma peça de roupa e complete o Garment ID Card com as linhas obrigatórias de frases-modelo.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose one garment from the image set.",
+            "label_pt": "Escolha uma peça de roupa do conjunto de imagens.",
+            "asset_id": "m01w03-img-006",
+            "options_en": [
+              "jacket",
+              "dress",
+              "jeans",
+              "blouse"
+            ],
+            "options_pt": [
+              "jaqueta",
+              "vestido",
+              "jeans",
+              "blusa"
+            ]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Write the required Garment ID Card lines.",
+            "label_pt": "Escreva as linhas obrigatórias do Garment ID Card.",
+            "required_lines_en": [
+              "This is a ___ or These are ___.",
+              "It is a ___ or They are ___.",
+              "It is ___ or They are ___.",
+              "It has ___ or They have ___.",
+              "It is for ___ or They are for ___."
+            ],
+            "required_lines_pt": [
+              "This is a ___ ou These are ___.",
+              "It is a ___ ou They are ___.",
+              "It is ___ ou They are ___.",
+              "It has ___ ou They have ___.",
+              "It is for ___ ou They are for ___."
+            ],
+            "challenge_line_en": "I like it because ___ or I like them because ___.",
+            "challenge_line_pt": "I like it because ___ ou I like them because ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose the garment",
+          "student_action_en": "Choose one garment image that you want to describe.",
+          "student_action_pt": "Escolha uma imagem de roupa que você quer descrever.",
+          "teacher_action": "Help learners choose a singular or plural garment that matches their confidence level.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Build the required lines",
+          "student_action_en": "Complete the required sentence-frame lines about name, category, description, features, and use.",
+          "student_action_pt": "Complete as linhas obrigatórias de frases-modelo sobre nome, categoria, descrição, características e uso.",
+          "teacher_action": "Monitor accuracy and remind students to keep the structure short and complete rather than expanding into a paragraph.",
+          "estimated_minutes": 10,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the challenge line if ready",
+          "student_action_en": "Add one optional preference sentence only if you feel ready.",
+          "student_action_pt": "Acrescente uma frase opcional de preferência apenas se você estiver pronto.",
+          "teacher_action": "Treat the extra sentence as an extension, not a required completion target.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 4,
+          "title": "Submit the ID card",
+          "student_action_en": "Check your singular or plural form and submit the Garment ID Card.",
+          "student_action_pt": "Confira a forma no singular ou no plural e envie o Garment ID Card.",
+          "teacher_action": "Use a clear checklist for review and return only one focused revision target if needed.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_writing_card",
+        "description_en": "One Garment ID Card with 5 to 6 sentence-frame lines about garment name, category, description, features, use, and optional preference.",
+        "description_pt": "Um Garment ID Card com 5 a 6 linhas de frases-modelo sobre nome da roupa, categoria, descrição, características, uso e preferência opcional.",
+        "length_or_format": "5 required sentence-frame lines plus 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names one garment clearly.",
+          "The student includes category, description, features, and use.",
+          "The student uses the Week 3 sentence frames with mostly accurate singular or plural control."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia uma peça de roupa com clareza.",
+          "O aluno inclui categoria, descrição, características e uso.",
+          "O aluno usa as frases-modelo da Semana 3 com controle de singular ou plural em sua maior parte correto."
+        ],
+        "checklist_en": [
+          "I named the garment.",
+          "I added the category, description, features, and use.",
+          "I checked my singular or plural form before submitting."
+        ],
+        "checklist_pt": [
+          "Eu nomeei a peça de roupa.",
+          "Eu acrescentei a categoria, a descrição, as características e o uso.",
+          "Eu conferi a forma no singular ou no plural antes de enviar."
+        ],
+        "rubric": [
+          {
+            "criterion": "Task completion",
+            "excellent_en": "The card includes all required lines clearly and completely.",
+            "excellent_pt": "O cartão inclui todas as linhas obrigatórias com clareza e completude.",
+            "satisfactory_en": "The card includes most required lines with minor gaps.",
+            "satisfactory_pt": "O cartão inclui a maior parte das linhas obrigatórias com pequenas lacunas.",
+            "needs_work_en": "Important required lines are missing or incomplete.",
+            "needs_work_pt": "Faltam linhas obrigatórias importantes ou elas estão incompletas."
+          },
+          {
+            "criterion": "Target frames",
+            "excellent_en": "The student uses the Week 3 frames accurately, including singular or plural control.",
+            "excellent_pt": "O aluno usa as frases da Semana 3 com precisão, incluindo o controle de singular ou plural.",
+            "satisfactory_en": "The student uses the frames with small errors that do not block meaning.",
+            "satisfactory_pt": "O aluno usa as frases com pequenos erros que não bloqueiam o sentido.",
+            "needs_work_en": "The frames are incomplete or the singular-plural control blocks clarity.",
+            "needs_work_pt": "As frases estão incompletas ou o controle de singular-plural prejudica a clareza."
+          },
+          {
+            "criterion": "Garment vocabulary",
+            "excellent_en": "The student uses clear garment, category, and feature words appropriate to the image.",
+            "excellent_pt": "O aluno usa palavras claras de roupa, categoria e característica adequadas à imagem.",
+            "satisfactory_en": "The student uses some correct garment vocabulary with limited detail.",
+            "satisfactory_pt": "O aluno usa algum vocabulário correto de roupas com detalhes limitados.",
+            "needs_work_en": "The garment vocabulary is unclear, too limited, or mismatched to the image.",
+            "needs_work_pt": "O vocabulário de roupas está pouco claro, muito limitado ou não corresponde à imagem."
+          }
+        ],
+        "model_response_en": "This is a black jacket. It is outerwear. It is simple and modern. It has long sleeves, pockets, and a zipper. It is for cold weather. I like it because it is comfortable.",
+        "model_response_pt": "Esta é uma jaqueta preta. Ela é uma peça de sobreposição. É simples e moderna. Tem mangas compridas, bolsos e zíper. É para clima frio. Eu gosto dela porque é confortável.",
+        "common_errors": [
+          "Using This are with a singular garment.",
+          "Dropping the article in a phrase such as This is dress.",
+          "Using They have with a singular garment or It has with jeans or pants.",
+          "Writing too little to show category, features, and use."
+        ],
+        "feedback_prompts_en": [
+          "Check whether your garment is singular or plural and revise the frame.",
+          "Add one missing detail about category, feature, or use.",
+          "Please revise one sentence and submit again."
+        ],
+        "feedback_prompts_pt": [
+          "Confira se a sua roupa está no singular ou no plural e revise a frase.",
+          "Acrescente um detalhe que está faltando sobre categoria, característica ou uso.",
+          "Por favor, revise uma frase e envie novamente."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to complete exactly five required lines with a visible word bank and one model line."
+        ],
+        "challenge": [
+          "Invite stronger learners to add the optional preference line or compare the garment to another item in one extra sentence."
+        ]
+      },
+      "extension_options": [
+        "Turn one line from the Garment ID Card into a speaking note for the teacher session."
+      ],
+      "notes_for_app_design": "Render this as a teacher-reviewed structured writing submission with a garment choice step and separate sentence-frame fields saved as one Garment ID Card. The teacher view should show the selected garment, the completed lines, a required-elements checklist, the Week 3 rubric, common error prompts, and a return-for-revision action. Keep the base task as 5 required lines plus 1 optional challenge line, not a paragraph."
+    },
+    {
+      "activity_id": "m01w03-a07",
+      "week_id": "m01w03",
+      "sequence_number": 7,
+      "title": "Review and Improve: Articles and Plural Garments",
+      "activity_type": "reflection",
+      "activity_type_custom": "",
+      "summary": "Students review one common Week 3 sentence problem and save a corrected version they can transfer into their Garment ID Card.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Articles and Plural Garments",
+          "summary": "Study one correction card and write the improved sentence clearly.",
+          "instructions": "Choose one correction card, notice the problem, and write the corrected sentence clearly.",
+          "success_criteria": [
+            "I can notice one common Week 3 sentence problem.",
+            "I can write one corrected sentence clearly.",
+            "I can use the correction to improve my own Garment ID Card."
+          ],
+          "sentence_frames": [
+            "This is a dress.",
+            "These are jeans.",
+            "It has a zipper.",
+            "I like it because it is simple."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Revise e melhore: artigos e roupas no plural",
+          "summary": "Observe um cartão de correção e escreva a frase melhorada com clareza.",
+          "instructions": "Escolha um cartão de correção, perceba o problema e escreva a frase corrigida com clareza.",
+          "success_criteria": [
+            "Eu consigo perceber um problema comum de frase da Semana 3.",
+            "Eu consigo escrever uma frase corrigida com clareza.",
+            "Eu consigo usar a correção para melhorar o meu próprio Garment ID Card."
+          ],
+          "sentence_frames": [
+            "This is a dress.",
+            "These are jeans.",
+            "It has a zipper.",
+            "I like it because it is simple."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the revision target narrow and transferable. Students should correct one sentence and then check whether the same issue appears in their own Week 3 writing.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "critical_thinking"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w03-v012",
+        "m01w03-v016",
+        "m01w03-v030",
+        "m01w03-v031"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "correction_cards",
+        "prompt_en": "Choose one Week 3 sentence and write the corrected version.",
+        "prompt_pt": "Escolha uma frase da Semana 3 e escreva a versão corrigida.",
+        "items": [
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the missing article.",
+            "label_pt": "Corrija a falta de artigo.",
+            "incorrect_sentence": "This is dress.",
+            "correct_sentence": "This is a dress.",
+            "accepted_answers": [
+              "This is a dress."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the singular and plural agreement.",
+            "label_pt": "Corrija a concordância de singular e plural.",
+            "incorrect_sentence": "This are jeans.",
+            "correct_sentence": "These are jeans.",
+            "accepted_answers": [
+              "These are jeans."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the missing noun phrase.",
+            "label_pt": "Corrija a falta de um sintagma nominal.",
+            "incorrect_sentence": "It has pockets and zipper.",
+            "correct_sentence": "It has pockets and a zipper.",
+            "accepted_answers": [
+              "It has pockets and a zipper."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose a correction card",
+          "student_action_en": "Read one incorrect sentence and notice the Week 3 correction focus.",
+          "student_action_pt": "Leia uma frase incorreta e perceba o foco de correção da Semana 3.",
+          "teacher_action": "Name the most common problems clearly: missing article, wrong singular or plural form, and missing noun phrase detail.",
+          "estimated_minutes": 2,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Write the corrected sentence",
+          "student_action_en": "Rewrite the sentence clearly and accurately.",
+          "student_action_pt": "Reescreva a frase com clareza e precisão.",
+          "teacher_action": "Ask students to compare the corrected version with their own Garment ID Card.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Transfer the correction",
+          "student_action_en": "Check whether the same problem appears in your own writing.",
+          "student_action_pt": "Confira se o mesmo problema aparece na sua própria escrita.",
+          "teacher_action": "Prompt learners to fix the same issue in their Garment ID Card if needed.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentence",
+        "description_en": "One corrected Week 3 sentence saved after review.",
+        "description_pt": "Uma frase corrigida da Semana 3 salva após a revisão.",
+        "length_or_format": "1 sentence"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student chooses one correction card.",
+          "The student writes the corrected sentence accurately.",
+          "The student checks for the same issue in personal writing."
+        ],
+        "completion_criteria_pt": [
+          "O aluno escolhe um cartão de correção.",
+          "O aluno escreve a frase corrigida corretamente.",
+          "O aluno verifica o mesmo problema na própria escrita."
+        ],
+        "checklist_en": [
+          "I chose one correction card.",
+          "I wrote the corrected sentence.",
+          "I checked my Garment ID Card for the same problem."
+        ],
+        "checklist_pt": [
+          "Eu escolhi um cartão de correção.",
+          "Eu escrevi a frase corrigida.",
+          "Eu conferi o meu Garment ID Card para ver o mesmo problema."
+        ],
+        "rubric": [],
+        "model_response_en": "These are jeans.",
+        "model_response_pt": "These are jeans.",
+        "common_errors": [
+          "Keeping the original mistake in the new sentence.",
+          "Fixing one word but leaving the article or agreement problem in place."
+        ],
+        "feedback_prompts_en": [
+          "Look at the corrected model again. Which word changed?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe o modelo corrigido novamente. Qual palavra mudou?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Limit the choice to two correction cards for students who need more support."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain the correction rule in simple English or Portuguese."
+        ]
+      },
+      "extension_options": [
+        "Correct one more sentence from your own Garment ID Card."
+      ],
+      "notes_for_app_design": "Render this as a small correction-card activity with three common Week 3 problems. Let the student choose one card, type or select the corrected version, and compare against accepted answers. Save one corrected sentence as the Week 3 mini-revision artifact and connect it back to the Garment ID Card task."
+    },
+    {
+      "activity_id": "m01w03-a08",
+      "week_id": "m01w03",
+      "sequence_number": 8,
+      "title": "Teacher Session: Present One Garment",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use Week 3 vocabulary and their Garment ID Card to pronounce garment words, sort garments by category, and present one garment in a short live description.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Present One Garment",
+          "summary": "Use your Garment ID Card to present one garment in short sentences.",
+          "instructions": "Bring your Garment ID Card, practice the key garment words, and present one garment in 4 to 6 short sentences.",
+          "success_criteria": [
+            "I can name one garment clearly.",
+            "I can use category and feature language in short sentences.",
+            "I can speak with notes and teacher support."
+          ],
+          "sentence_frames": [
+            "This is a ___. / These are ___.",
+            "It is a ___. / They are ___.",
+            "It has ___. / They have ___.",
+            "It is for ___. / They are for ___.",
+            "I like it because ___. / I like them because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Sessão com o professor: apresente uma peça de roupa",
+          "summary": "Use o seu Garment ID Card para apresentar uma peça de roupa em frases curtas.",
+          "instructions": "Leve o seu Garment ID Card, pratique as palavras principais de roupa e apresente uma peça em 4 a 6 frases curtas.",
+          "success_criteria": [
+            "Eu consigo nomear uma peça de roupa com clareza.",
+            "Eu consigo usar linguagem de categoria e característica em frases curtas.",
+            "Eu consigo falar com anotações e apoio do professor."
+          ],
+          "sentence_frames": [
+            "This is a ___. / These are ___.",
+            "It is a ___. / They are ___.",
+            "It has ___. / They have ___.",
+            "It is for ___. / They are for ___.",
+            "I like it because ___. / I like them because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Use the live session to move the Week 3 language from recognition and writing into supported speaking. Allow notes, keep the speaking short and concrete, and focus on intelligibility, category language, and one or two accurate feature phrases.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication",
+        "listening"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "student Garment ID Cards",
+        "garment image cards",
+        "pronunciation list"
+      ],
+      "vocabulary_refs": [
+        "m01w03-v002",
+        "m01w03-v003",
+        "m01w03-v004",
+        "m01w03-v006",
+        "m01w03-v007",
+        "m01w03-v008",
+        "m01w03-v012",
+        "m01w03-v016",
+        "m01w03-v019",
+        "m01w03-v020",
+        "m01w03-v021",
+        "m01w03-v023",
+        "m01w03-v024",
+        "m01w03-v028",
+        "m01w03-v029",
+        "m01w03-v030",
+        "m01w03-v031"
+      ],
+      "asset_refs": [
+        "m01w03-img-006"
+      ],
+      "input": {
+        "input_type": "speaking_prompt",
+        "prompt_en": "Use your Garment ID Card to present one garment in short sentences.",
+        "prompt_pt": "Use o seu Garment ID Card para apresentar uma peça de roupa em frases curtas.",
+        "items": [
+          {
+            "label_en": "Say 4 to 6 short sentences about one garment.",
+            "label_pt": "Diga de 4 a 6 frases curtas sobre uma peça de roupa."
+          },
+          {
+            "label_en": "Include category, one or two features, and use or occasion.",
+            "label_pt": "Inclua a categoria, uma ou duas características e o uso ou ocasião."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Pronunciation review",
+          "student_action_en": "Practice key Week 3 words such as shirt, blouse, skirt, pants, jeans, dress, jacket, coat, blazer, and hoodie.",
+          "student_action_pt": "Pratique palavras importantes da Semana 3 como shirt, blouse, skirt, pants, jeans, dress, jacket, coat, blazer e hoodie.",
+          "teacher_action": "Model clear pronunciation and contrast similar garment words when useful.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Category sort live",
+          "student_action_en": "Look at the garment cards and say whether each one is a top, bottom, one-piece garment, outerwear, or outfit.",
+          "student_action_pt": "Observe os cartões de roupa e diga se cada um é uma parte de cima, parte de baixo, peça única, peça de sobreposição ou conjunto.",
+          "teacher_action": "Use quick category naming to build confidence before full student presentations.",
+          "estimated_minutes": 10,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 3,
+          "title": "Present one garment",
+          "student_action_en": "Use your Garment ID Card to present one garment in 4 to 6 short sentences.",
+          "student_action_pt": "Use o seu Garment ID Card para apresentar uma peça de roupa em 4 a 6 frases curtas.",
+          "teacher_action": "Allow students to read first if needed, then invite a more natural second attempt when appropriate.",
+          "estimated_minutes": 20,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 4,
+          "title": "Wrap up and preview",
+          "student_action_en": "Listen to classmates and prepare for next week’s focus on parts of a garment.",
+          "student_action_pt": "Escute os colegas e prepare-se para o foco da próxima semana em partes de uma roupa.",
+          "teacher_action": "Close with one short review of This is versus These are and It has versus They have.",
+          "estimated_minutes": 10,
+          "mode": "pair"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_garment_presentation",
+        "description_en": "A short teacher-observed oral presentation describing one garment with category, features, and use.",
+        "description_pt": "Uma apresentação oral curta, observada pelo professor, descrevendo uma peça de roupa com categoria, características e uso.",
+        "length_or_format": "4 to 6 short spoken sentences"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names one garment clearly.",
+          "The student includes category and at least one feature or use detail.",
+          "The student completes the short speaking task with support if needed."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia uma peça de roupa com clareza.",
+          "O aluno inclui a categoria e pelo menos uma característica ou detalhe de uso.",
+          "O aluno completa a tarefa curta de fala com apoio, se necessário."
+        ],
+        "checklist_en": [
+          "I practiced the garment words.",
+          "I used my Garment ID Card.",
+          "I presented one garment in short sentences."
+        ],
+        "checklist_pt": [
+          "Eu pratiquei as palavras de roupas.",
+          "Eu usei o meu Garment ID Card.",
+          "Eu apresentei uma peça de roupa em frases curtas."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a black jacket. It is outerwear. It has long sleeves, pockets, and a zipper. It is for cold weather. I like it because it is comfortable.",
+        "model_response_pt": "Esta é uma jaqueta preta. Ela é uma peça de sobreposição. Tem mangas compridas, bolsos e zíper. É para clima frio. Eu gosto dela porque é confortável.",
+        "common_errors": [
+          "Using the wrong singular or plural frame while speaking.",
+          "Naming the garment but not adding a category or feature detail.",
+          "Reading too quietly to be understood."
+        ],
+        "feedback_prompts_en": [
+          "Can you say that again with the correct frame: This is or These are?",
+          "Can you add one feature detail such as pockets, buttons, or zipper?"
+        ],
+        "feedback_prompts_pt": [
+          "Você pode dizer novamente com a frase correta: This is ou These are?",
+          "Você pode acrescentar um detalhe de característica, como pockets, buttons ou zipper?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to read directly from their Garment ID Card in the first round."
+        ],
+        "challenge": [
+          "Ask stronger learners one follow-up question about weather, category, or preference."
+        ]
+      },
+      "extension_options": [
+        "Add one extra sentence comparing your garment to another item from the card set."
+      ],
+      "notes_for_app_design": "Keep this as a teacher-observed speaking checkpoint with the Garment ID Card, image-card support, and a simple completion checklist. The app should not record or upload student audio. Its role is to display the prompt, connect the speaking task to the Week 3 writing artifact, and store teacher completion notes."
+    }
+  ]
+}

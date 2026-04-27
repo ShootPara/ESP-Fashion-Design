@@ -1,0 +1,105 @@
+{
+  "week_id": "m01w03",
+  "assets": [
+    {
+      "asset_id": "m01w03-img-001",
+      "week_id": "m01w03",
+      "asset_type": "image",
+      "title": "Week 3 garment overview board",
+      "description": "A clear adult-oriented garment overview board showing several common Week 3 garments for fast recognition, including a dress, jeans, hoodie, jacket, blouse, and blazer.",
+      "target_filename": "assets/images/module-01/week-03/m01w03-img-001.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w03-a01"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use as the opener asset for quick garment identification. Keep the silhouettes distinct and easy to recognize."
+    },
+    {
+      "asset_id": "m01w03-img-002",
+      "week_id": "m01w03",
+      "asset_type": "image",
+      "title": "Tops and upper garments vocabulary board",
+      "description": "A vocabulary board showing T-shirt, shirt, blouse, sweater, hoodie, and cardigan as separate adult-oriented garment visuals.",
+      "target_filename": "assets/images/module-01/week-03/m01w03-img-002.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w03-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Main Week 3 upper-garment matching board."
+    },
+    {
+      "asset_id": "m01w03-img-003",
+      "week_id": "m01w03",
+      "asset_type": "image",
+      "title": "Bottoms and one-piece garments vocabulary board",
+      "description": "A vocabulary board showing skirt, pants, shorts, jeans, dress, and jumpsuit as clear separate visuals.",
+      "target_filename": "assets/images/module-01/week-03/m01w03-img-003.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w03-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Keep dress and skirt visually distinct and make pants and jeans easy to compare."
+    },
+    {
+      "asset_id": "m01w03-img-004",
+      "week_id": "m01w03",
+      "asset_type": "image",
+      "title": "Outerwear and complete-look vocabulary board",
+      "description": "A vocabulary board showing jacket, coat, blazer, and one simple complete outfit or look as separate fashion-study visuals.",
+      "target_filename": "assets/images/module-01/week-03/m01w03-img-004.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w03-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use to support the final vocabulary matching set and category distinctions."
+    },
+    {
+      "asset_id": "m01w03-img-005",
+      "week_id": "m01w03",
+      "asset_type": "image",
+      "title": "Three-garment reading board",
+      "description": "One reading-support image board showing three clearly different garments that match the Week 3 short reading texts, such as a white shirt, blue dress, and black jeans.",
+      "target_filename": "assets/images/module-01/week-03/m01w03-img-005.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w03-a03"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Single board is preferred over three separate files to keep the asset set compact."
+    },
+    {
+      "asset_id": "m01w03-img-006",
+      "week_id": "m01w03",
+      "asset_type": "image",
+      "title": "Reusable garment card set",
+      "description": "A reusable set of garment image cards or gallery visuals showing jacket, skirt, shorts, blouse, dress, jeans, and coat for listening, writing support, and live speaking.",
+      "target_filename": "assets/images/module-01/week-03/m01w03-img-006.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w03-a04",
+        "m01w03-a06",
+        "m01w03-a08"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use one shared asset for multiple activities instead of separate listening, writing, and speaking image sets."
+    },
+    {
+      "asset_id": "m01w03-aud-001",
+      "week_id": "m01w03",
+      "asset_type": "audio",
+      "title": "Garment description listening audio",
+      "description": "A short teacher-style listening clip describing common garments, their category, and one or two features for beginner learners.",
+      "target_filename": "assets/audio/module-01/week-03/m01w03-aud-001.mp3",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w03-a04"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Transcript should remain inside audio_prompts.json rather than as a separate asset."
+    }
+  ]
+}
