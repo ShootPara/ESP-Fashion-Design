@@ -1,0 +1,2200 @@
+{
+  "week_id": "m01w05",
+  "activities": [
+    {
+      "activity_id": "m01w05-a01",
+      "week_id": "m01w05",
+      "sequence_number": 1,
+      "title": "Welcome Back: From Garment to Figure",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students bridge from Week 4 garment-detail language into Week 5 figure and croquis language by recognizing one garment, one visible detail, and one new figure or pose cue on a single image.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: From Garment to Figure",
+          "summary": "Look at the fashion figure and choose the words you can recognize.",
+          "instructions": "Look at the figure. Choose the correct garment, detail, and first Week 5 figure word for each question.",
+          "success_criteria": [
+            "I can recognize one familiar garment.",
+            "I can notice one visible garment detail.",
+            "I can identify one new Week 5 figure or pose word."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "The figure is ___.",
+            "The garment has ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: da roupa para a figura",
+          "summary": "Observe a figura de moda e escolha as palavras que você consegue reconhecer.",
+          "instructions": "Observe a figura. Escolha a roupa correta, um detalhe visível e a primeira palavra nova da Semana 5 em cada pergunta.",
+          "success_criteria": [
+            "Eu consigo reconhecer uma roupa conhecida.",
+            "Eu consigo perceber um detalhe visível da roupa.",
+            "Eu consigo identificar uma nova palavra de figura ou pose da Semana 5."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "The figure is ___.",
+            "The garment has ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the opener light and fast. Students should feel that they already know some of the visual language from Weeks 3 and 4 while noticing the new shift to figure, pose, and view.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "fashion figure opener board"
+      ],
+      "vocabulary_refs": [
+        "m01w05-v012",
+        "m01w05-v017",
+        "m01w05-v020",
+        "m01w05-v023",
+        "m01w05-v027",
+        "m01w05-v037"
+      ],
+      "asset_refs": [
+        "m01w05-img-001"
+      ],
+      "input": {
+        "input_type": "figure_preview_quiz",
+        "prompt_en": "Choose the review and preview words that match the figure image.",
+        "prompt_pt": "Escolha as palavras de revisão e de apresentação que combinam com a imagem da figura.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which garment is the figure wearing?",
+            "label_pt": "Qual roupa a figura está vestindo?",
+            "asset_id": "m01w05-img-001",
+            "options_en": [
+              "dress",
+              "ruler",
+              "hoodie"
+            ],
+            "options_pt": [
+              "vestido",
+              "régua",
+              "moletom com capuz"
+            ],
+            "correct_answer": "dress"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which detail can you see?",
+            "label_pt": "Qual detalhe você consegue ver?",
+            "asset_id": "m01w05-img-001",
+            "options_en": [
+              "short sleeves",
+              "waistband",
+              "button"
+            ],
+            "options_pt": [
+              "mangas curtas",
+              "cós",
+              "botão"
+            ],
+            "correct_answer": "short sleeves"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which new Week 5 word matches the image?",
+            "label_pt": "Qual nova palavra da Semana 5 combina com a imagem?",
+            "asset_id": "m01w05-img-001",
+            "options_en": [
+              "figure",
+              "needle",
+              "pattern paper"
+            ],
+            "options_pt": [
+              "figura",
+              "agulha",
+              "papel de modelagem"
+            ],
+            "correct_answer": "figure"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What is the figure doing?",
+            "label_pt": "O que a figura está fazendo?",
+            "asset_id": "m01w05-img-001",
+            "options_en": [
+              "standing",
+              "cutting",
+              "sewing"
+            ],
+            "options_pt": [
+              "em pé",
+              "cortando",
+              "costurando"
+            ],
+            "correct_answer": "standing"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the figure",
+          "student_action_en": "Look at the figure and notice the garment, one detail, and the body position.",
+          "student_action_pt": "Observe a figura e perceba a roupa, um detalhe e a posição do corpo.",
+          "teacher_action": "Remind students that Week 5 adds figure and pose language to the garment language they already know.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the review and preview words",
+          "student_action_en": "Choose the correct answer for each short question.",
+          "student_action_pt": "Escolha a resposta correta para cada pergunta curta.",
+          "teacher_action": "Keep the pace quick and supportive so the task feels like a bridge, not a test.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Four quick recognition selections linking one figure image to a garment, a detail, and new figure language.",
+        "description_pt": "Quatro seleções rápidas de reconhecimento ligando uma imagem de figura a uma roupa, um detalhe e nova linguagem de figura.",
+        "length_or_format": "4 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student identifies one familiar garment.",
+          "The student notices one visible detail.",
+          "The student recognizes one new figure or pose word."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica uma roupa conhecida.",
+          "O aluno percebe um detalhe visível.",
+          "O aluno reconhece uma nova palavra de figura ou pose."
+        ],
+        "checklist_en": [
+          "I looked carefully at the image.",
+          "I used garment language from earlier weeks.",
+          "I noticed one new Week 5 word."
+        ],
+        "checklist_pt": [
+          "Eu observei a imagem com atenção.",
+          "Eu usei linguagem de roupa de semanas anteriores.",
+          "Eu percebi uma nova palavra da Semana 5."
+        ],
+        "rubric": [],
+        "model_response_en": "dress, short sleeves, figure, and standing",
+        "model_response_pt": "vestido, mangas curtas, figura e em pé",
+        "common_errors": [
+          "Choosing a fashion-studio tool instead of a garment word.",
+          "Focusing only on the clothing and missing the figure word."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the full image. Which answer names the figure and not the tool?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente a imagem inteira. Qual resposta nomeia a figura e não a ferramenta?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the Portuguese support word quietly before choosing the English answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence such as The figure is standing."
+        ]
+      },
+      "extension_options": [
+        "Name one more body-reference point you can see without using the options."
+      ],
+      "notes_for_app_design": "Render this as one image card with four short single-choice items. Save the selections only. Keep the experience quick and clearly positioned as a bridge from garment language to figure language."
+    },
+    {
+      "activity_id": "m01w05-a02",
+      "week_id": "m01w05",
+      "sequence_number": 2,
+      "title": "Body and Figure Vocabulary",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students learn the core Week 5 vocabulary by completing two main image-word matching sets, then using a short Portuguese bridge and one fill-blank sentence as support.",
+      "student_facing": {
+        "en": {
+          "title": "Body and Figure Vocabulary",
+          "summary": "Match the body points and sketch words to the correct keyed images.",
+          "instructions": "Match each visible key on the board to the correct English word. After the two main matching sets, use the Portuguese support and one short sentence for extra practice.",
+          "success_criteria": [
+            "I can match body-reference points to English words.",
+            "I can match figure and sketch words to English words.",
+            "I can use Portuguese support when I need it without losing the English target."
+          ],
+          "sentence_frames": [
+            "This is the ___.",
+            "The figure is ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Vocabulário de corpo e figura",
+          "summary": "Relacione os pontos do corpo e as palavras de croqui às imagens com chave correta.",
+          "instructions": "Relacione cada chave visível do painel à palavra correta em inglês. Depois dos dois conjuntos principais de relação, use o apoio em português e uma frase curta como prática extra.",
+          "success_criteria": [
+            "Eu consigo relacionar pontos de referência do corpo a palavras em inglês.",
+            "Eu consigo relacionar palavras de figura e croqui a palavras em inglês.",
+            "Eu consigo usar apoio em português quando preciso sem perder o foco no inglês."
+          ],
+          "sentence_frames": [
+            "This is the ___.",
+            "The figure is ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on the two image-match sets. The Portuguese bridge and fill-blank sentence should come only after the main matching is complete.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "body-reference diagram",
+        "figure-sketch vocabulary board"
+      ],
+      "vocabulary_refs": [
+        "m01w05-v001",
+        "m01w05-v002",
+        "m01w05-v003",
+        "m01w05-v004",
+        "m01w05-v005",
+        "m01w05-v006",
+        "m01w05-v007",
+        "m01w05-v008",
+        "m01w05-v009",
+        "m01w05-v010",
+        "m01w05-v011",
+        "m01w05-v012",
+        "m01w05-v014",
+        "m01w05-v015",
+        "m01w05-v016",
+        "m01w05-v017",
+        "m01w05-v018",
+        "m01w05-v019",
+        "m01w05-v020",
+        "m01w05-v021"
+      ],
+      "asset_refs": [
+        "m01w05-img-002",
+        "m01w05-img-003"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the images to the correct English body and figure words.",
+        "prompt_pt": "Relacione as imagens às palavras corretas em inglês sobre corpo e figura.",
+        "items": [
+          {
+            "response_type": "image_match",
+        "label_en": "Match the body-reference points to keys A to F.",
+        "label_pt": "Relacione os pontos de referência do corpo.",
+        "asset_id": "m01w05-img-002",
+        "matches": [
+          {
+            "image_key": "A",
+            "answer_en": "head",
+            "answer_pt": "cabeça"
+          },
+          {
+            "image_key": "B",
+            "answer_en": "neck",
+            "answer_pt": "pescoço"
+          },
+          {
+            "image_key": "C",
+            "answer_en": "shoulder",
+            "answer_pt": "ombro"
+          },
+          {
+            "image_key": "D",
+            "answer_en": "waist",
+            "answer_pt": "cintura"
+          },
+          {
+            "image_key": "E",
+            "answer_en": "hip",
+            "answer_pt": "quadril"
+          },
+          {
+            "image_key": "F",
+            "answer_en": "knee",
+            "answer_pt": "joelho"
+          }
+        ]
+      },
+      {
+        "response_type": "image_match",
+        "label_en": "Match the figure and sketch words to keys A to F.",
+        "label_pt": "Relacione as palavras de figura e croqui.",
+        "asset_id": "m01w05-img-003",
+        "matches": [
+          {
+            "image_key": "A",
+            "answer_en": "figure",
+            "answer_pt": "figura"
+          },
+          {
+            "image_key": "B",
+            "answer_en": "croquis",
+            "answer_pt": "croqui"
+          },
+          {
+            "image_key": "C",
+            "answer_en": "outline",
+            "answer_pt": "contorno"
+          },
+          {
+            "image_key": "D",
+            "answer_en": "silhouette",
+            "answer_pt": "silhueta"
+          },
+          {
+            "image_key": "E",
+            "answer_en": "front view",
+            "answer_pt": "vista frontal"
+          },
+          {
+            "image_key": "F",
+            "answer_en": "side view",
+            "answer_pt": "vista lateral"
+          }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support to the English word.",
+            "label_pt": "Relacione o apoio em português à palavra em inglês.",
+            "pairs": [
+              {
+                "pt": "braço",
+                "en": "arm"
+              },
+              {
+                "pt": "mão",
+                "en": "hand"
+              },
+              {
+                "pt": "esboço",
+                "en": "sketch"
+              },
+              {
+                "pt": "proporção",
+                "en": "proportion"
+              }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "The figure is ___.",
+            "sentence_frame_pt": "The figure is ___.",
+            "word_bank": [
+              "standing",
+              "button",
+              "fabric"
+            ],
+            "accepted_answers": [
+              "standing"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the diagrams",
+      "student_action_en": "Look carefully at the body-reference diagram and the figure-sketch board and notice the visible keys before you start matching.",
+      "student_action_pt": "Observe com atenção o diagrama de referência do corpo e o painel de figura e croqui e perceba as chaves visíveis antes de começar a relacionar.",
+          "teacher_action": "Explain that the main task is image-to-word matching and that the support items come after the core matching sets.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the main vocabulary sets",
+      "student_action_en": "Match the visible keys on the body board and the figure-sketch board to the correct English words.",
+      "student_action_pt": "Relacione as chaves visíveis do painel do corpo e do painel de figura e croqui às palavras corretas em inglês.",
+          "teacher_action": "Monitor confusion points such as waist versus hip and outline versus silhouette.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use the support bridge",
+          "student_action_en": "Check a few Portuguese links and complete one short sentence.",
+          "student_action_pt": "Confira algumas relações com o português e complete uma frase curta.",
+          "teacher_action": "Use the bridge only as support after the main matching sets are done.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "Two saved image-word matching sets as the main scored output, followed by short Portuguese bridge and fill-blank support.",
+        "description_pt": "Dois conjuntos salvos de relação imagem-palavra como resultado principal avaliado, seguidos por apoio curto de ponte com o português e preenchimento de lacuna.",
+        "length_or_format": "2 scored image-match sets as the main saved output, plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the two main matching sets.",
+          "The student connects body and figure visuals to English words.",
+          "The student may use the Portuguese bridge and fill-blank item after the main matching task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa os dois conjuntos principais de relação.",
+          "O aluno relaciona elementos visuais do corpo e da figura a palavras em inglês.",
+          "O aluno pode usar a ponte com o português e a lacuna depois da tarefa principal de relação."
+        ],
+        "checklist_en": [
+          "I matched the main vocabulary images.",
+          "I checked the English words carefully.",
+          "I used the support items after the main task."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as imagens principais de vocabulário.",
+          "Eu conferi as palavras em inglês com atenção.",
+          "Eu usei os itens de apoio depois da tarefa principal."
+        ],
+        "rubric": [],
+    "model_response_en": "A head, B neck, C shoulder, D waist, E hip, F knee; A figure, B croquis, C outline, D silhouette, E front view, and F side view",
+    "model_response_pt": "A cabeça, B pescoço, C ombro, D cintura, E quadril, F joelho; A figura, B croqui, C contorno, D silhueta, E vista frontal e F vista lateral",
+        "common_errors": [
+          "Confusing waist and hip because both are in the middle body area.",
+          "Confusing outline and silhouette because both describe shape."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the location and the meaning. Is the word naming a body point, a drawing type, or a shape idea?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente a posição e o significado. A palavra nomeia um ponto do corpo, um tipo de desenho ou uma ideia de forma?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete the two main image-match sets before they see the Portuguese bridge items."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one short sentence after matching, such as The silhouette is long."
+        ]
+      },
+      "extension_options": [
+        "Sort two or three matched words into body point, drawing word, or view word."
+      ],
+      "notes_for_app_design": "Render the two image-match sets as the main scored and saved output. Both boards must show visible student-facing keys A to F, and the saved result should be the two A-F matching sets only. Show the Portuguese bridge and fill-blank sentence only after the matching sets are complete so the primary saved output remains matching."
+    },
+    {
+      "activity_id": "m01w05-a03",
+      "week_id": "m01w05",
+      "sequence_number": 3,
+      "title": "Label the Fashion Figure",
+      "activity_type": "visual_analysis",
+      "activity_type_custom": "",
+      "summary": "Students practice figure labeling by matching body-reference words to explicit point keys on one front-view fashion figure.",
+      "student_facing": {
+        "en": {
+          "title": "Label the Fashion Figure",
+          "summary": "Match the body words to the correct points on the figure.",
+          "instructions": "Look at the front-view figure with point keys A to H. Match each body word to the correct point.",
+          "success_criteria": [
+            "I can find the correct point on the fashion figure.",
+            "I can match body-reference words to visible keys.",
+            "I can use the figure image to check my answer."
+          ],
+          "sentence_frames": [
+            "Point A is the ___.",
+            "The ___ is at point ___.",
+            "This is the ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Rotule a figura de moda",
+          "summary": "Relacione as palavras do corpo aos pontos corretos da figura.",
+          "instructions": "Observe a figura em vista frontal com os pontos A até H. Relacione cada palavra do corpo ao ponto correto.",
+          "success_criteria": [
+            "Eu consigo encontrar o ponto correto na figura de moda.",
+            "Eu consigo relacionar palavras de referência do corpo a chaves visíveis.",
+            "Eu consigo usar a imagem da figura para conferir minha resposta."
+          ],
+          "sentence_frames": [
+            "Point A is the ___.",
+            "The ___ is at point ___.",
+            "This is the ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the task image-first. Students should use the visible A-H points rather than guessing from memory. Reinforce that the labels name reference points on a fashion figure, not general anatomy study.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "labeled front-view figure"
+      ],
+      "vocabulary_refs": [
+        "m01w05-v001",
+        "m01w05-v002",
+        "m01w05-v003",
+        "m01w05-v004",
+        "m01w05-v007",
+        "m01w05-v008",
+        "m01w05-v009",
+        "m01w05-v011"
+      ],
+      "asset_refs": [
+        "m01w05-img-004"
+      ],
+      "input": {
+        "input_type": "image_label_matching",
+        "prompt_en": "Match each body-reference word to the correct point key on the figure.",
+        "prompt_pt": "Relacione cada palavra de referência do corpo à chave de ponto correta na figura.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match the body words to points A to H.",
+            "label_pt": "Relacione as palavras do corpo aos pontos A até H.",
+            "asset_id": "m01w05-img-004",
+            "matches": [
+              {
+                "image_key": "A",
+                "answer_en": "head",
+                "answer_pt": "cabeça"
+              },
+              {
+                "image_key": "B",
+                "answer_en": "neck",
+                "answer_pt": "pescoço"
+              },
+              {
+                "image_key": "C",
+                "answer_en": "shoulder",
+                "answer_pt": "ombro"
+              },
+              {
+                "image_key": "D",
+                "answer_en": "arm",
+                "answer_pt": "braço"
+              },
+              {
+                "image_key": "E",
+                "answer_en": "waist",
+                "answer_pt": "cintura"
+              },
+              {
+                "image_key": "F",
+                "answer_en": "hip",
+                "answer_pt": "quadril"
+              },
+              {
+                "image_key": "G",
+                "answer_en": "leg",
+                "answer_pt": "perna"
+              },
+              {
+                "image_key": "H",
+                "answer_en": "foot",
+                "answer_pt": "pé"
+              }
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the point keys",
+          "student_action_en": "Look at the figure and notice where points A to H are placed.",
+          "student_action_pt": "Observe a figura e perceba onde os pontos A até H estão colocados.",
+          "teacher_action": "Point out that the same A-H keys appear in the task and the answer set.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the labels",
+          "student_action_en": "Match each body-reference word to the correct point key.",
+          "student_action_pt": "Relacione cada palavra de referência do corpo ao ponto correto.",
+          "teacher_action": "Encourage students to use the visible image instead of trying to answer from memory.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the figure again",
+          "student_action_en": "Look at the image again and check whether each point word really matches the body location.",
+          "student_action_pt": "Observe a imagem novamente e confira se cada palavra realmente corresponde ao local do corpo.",
+          "teacher_action": "Use this last step to reinforce waist versus hip if needed.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "A saved set of 8 label matches connecting body-reference words to points A to H on one fashion figure.",
+        "description_pt": "Um conjunto salvo de 8 relações ligando palavras de referência do corpo aos pontos A até H em uma figura de moda.",
+        "length_or_format": "8 point-label matches"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student uses the visible point keys.",
+          "The student matches the main body-reference words to the correct locations.",
+          "The student checks the image again before finishing."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa as chaves de ponto visíveis.",
+          "O aluno relaciona as principais palavras de referência do corpo aos locais corretos.",
+          "O aluno observa a imagem novamente antes de terminar."
+        ],
+        "checklist_en": [
+          "I looked at all the point keys.",
+          "I matched the body words carefully.",
+          "I checked the image again."
+        ],
+        "checklist_pt": [
+          "Eu observei todas as chaves de ponto.",
+          "Eu relacionei as palavras do corpo com cuidado.",
+          "Eu conferi a imagem novamente."
+        ],
+        "rubric": [],
+        "model_response_en": "A head, B neck, C shoulder, D arm, E waist, F hip, G leg, and H foot",
+        "model_response_pt": "A cabeça, B pescoço, C ombro, D braço, E cintura, F quadril, G perna e H pé",
+        "common_errors": [
+          "Confusing waist and hip because both are in the middle body area.",
+          "Looking too quickly and matching the shoulder to the arm."
+        ],
+        "feedback_prompts_en": [
+          "Look at the exact point again. Is it at the top of the body, the side, or lower down?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe o ponto exato novamente. Ele fica na parte de cima do corpo, na lateral ou mais abaixo?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Reduce the first attempt to six key labels, then add the remaining two labels."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one sentence aloud such as Point E is the waist."
+        ]
+      },
+      "extension_options": [
+        "Add one more sentence using a body-reference word from the image."
+      ],
+      "notes_for_app_design": "Render this as one explicit point-key labeling activity. The image must visibly show points A-H, and the saved output must be the A-H matching set. Do not use hidden coordinate logic or unlabeled click targets."
+    },
+    {
+      "activity_id": "m01w05-a04",
+      "week_id": "m01w05",
+      "sequence_number": 4,
+      "title": "Listen: Describe the Pose",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to four short figure descriptions and identify pose, view, garment, and silhouette details using the shared four-figure gallery.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Describe the Pose",
+          "summary": "Listen to the figure descriptions and choose the correct image or detail answer.",
+          "instructions": "Look at images A to D. Listen to the audio and choose the correct image or detail answer for each question.",
+          "success_criteria": [
+            "I can match a spoken description to the correct figure image.",
+            "I can identify pose and view words in the audio.",
+            "I can hear one garment or silhouette detail."
+          ],
+          "sentence_frames": [
+            "The figure is ___.",
+            "This is a ___ view.",
+            "The figure is wearing ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Escute: descreva a pose",
+          "summary": "Escute as descrições das figuras e escolha a imagem ou o detalhe correto.",
+          "instructions": "Observe as imagens A até D. Escute o áudio e escolha a imagem ou o detalhe correto para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo relacionar uma descrição falada à imagem correta da figura.",
+            "Eu consigo identificar palavras de pose e de vista no áudio.",
+            "Eu consigo ouvir um detalhe de roupa ou de silhueta."
+          ],
+          "sentence_frames": [
+            "The figure is ___.",
+            "This is a ___ view.",
+            "The figure is wearing ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the four-figure gallery visible while students listen. The audio, question labels, answer keys, and model response should all use the same image A-D mapping.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "four-figure gallery",
+        "listening audio"
+      ],
+      "vocabulary_refs": [
+        "m01w05-v017",
+        "m01w05-v019",
+        "m01w05-v020",
+        "m01w05-v021",
+        "m01w05-v023",
+        "m01w05-v025",
+        "m01w05-v027",
+        "m01w05-v032",
+        "m01w05-v037"
+      ],
+      "asset_refs": [
+        "m01w05-img-005",
+        "m01w05-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_image_choice",
+        "prompt_en": "Listen to the audio and choose the correct image or detail answer.",
+        "prompt_pt": "Escute o áudio e escolha a imagem ou o detalhe correto.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image is Number One?",
+            "label_pt": "Qual imagem é o Número Um?",
+            "asset_id": "m01w05-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C",
+              "imagem D"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which figure is in side view?",
+            "label_pt": "Qual figura está em vista lateral?",
+            "asset_id": "m01w05-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C",
+              "imagem D"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "true_false",
+            "label_en": "Number Three is walking.",
+            "label_pt": "O Número Três está caminhando.",
+            "correct_answer": true
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which figure has one hand on the hip?",
+            "label_pt": "Qual figura está com uma mão no quadril?",
+            "asset_id": "m01w05-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C",
+              "imagem D"
+            ],
+            "correct_answer": "image D"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which figure is wearing a jacket and pants?",
+            "label_pt": "Qual figura está vestindo jaqueta e calça?",
+            "asset_id": "m01w05-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C",
+              "imagem D"
+            ],
+            "correct_answer": "image B"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery",
+          "student_action_en": "Look at images A to D and notice the pose, view, and clothing in each one.",
+          "student_action_pt": "Observe as imagens A até D e perceba a pose, a vista e a roupa em cada uma.",
+          "teacher_action": "Remind students that the listening answers connect directly to the visible gallery, not to hidden information.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen and choose",
+          "student_action_en": "Listen to the audio and choose the correct image or detail answer for each item.",
+          "student_action_pt": "Escute o áudio e escolha a imagem ou o detalhe correto em cada item.",
+          "teacher_action": "Allow replay and encourage students to listen for pose, view, and garment words.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the image again",
+          "student_action_en": "Look at the gallery again and confirm why each answer matches the audio.",
+          "student_action_pt": "Observe a galeria novamente e confirme por que cada resposta combina com o áudio.",
+          "teacher_action": "Use the final review to reinforce image A-D and the key listening phrases.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_comprehension_answers",
+        "description_en": "Five listening selections identifying pose, view, and garment details from one audio clip using images A to D.",
+        "description_pt": "Cinco seleções de escuta identificando pose, vista e detalhes da roupa a partir de um áudio usando as imagens A até D.",
+        "length_or_format": "4 single-choice answers plus 1 true-false answer"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student uses the shared four-figure gallery while listening.",
+          "The student identifies pose, view, and garment clues from the audio.",
+          "The student connects the spoken description to the correct image key."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa a galeria compartilhada de quatro figuras enquanto escuta.",
+          "O aluno identifica pistas de pose, vista e roupa no áudio.",
+          "O aluno relaciona a descrição falada à chave correta da imagem."
+        ],
+        "checklist_en": [
+          "I looked at images A to D.",
+          "I listened for pose, view, and garment words.",
+          "I matched the audio to the image keys."
+        ],
+        "checklist_pt": [
+          "Eu observei as imagens A até D.",
+          "Eu escutei palavras de pose, vista e roupa.",
+          "Eu relacionei o áudio às chaves das imagens."
+        ],
+        "rubric": [],
+        "model_response_en": "Number One is image A. The side view is image B. Number Three is walking. The figure with one hand on the hip is image D. The figure wearing a jacket and pants is image B.",
+        "model_response_pt": "O Número Um é a imagem A. A vista lateral é a imagem B. O Número Três está caminhando. A figura com uma mão no quadril é a imagem D. A figura que está vestindo jaqueta e calça é a imagem B.",
+        "common_errors": [
+          "Confusing image A and image B because both figures are standing.",
+          "Hearing the garment but missing the view word."
+        ],
+        "feedback_prompts_en": [
+          "Listen again for the view word and the garment together. Does the audio say front view, side view, dress, or jacket and pants?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente a palavra da vista e a roupa juntas. O áudio diz front view, side view, dress ou jacket and pants?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Preview the gallery and say the key pose words before the first play."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full reason after checking, such as Image B is correct because it is in side view."
+        ]
+      },
+      "extension_options": [
+        "Choose one image and say one more sentence about its pose or clothing."
+      ],
+      "notes_for_app_design": "Render this as one audio player plus the shared image A-D gallery. The app should allow replay, keep the image keys visible, and auto-check against the exact script-aligned answer key. Do not create or reference a separate transcript asset."
+    },
+    {
+      "activity_id": "m01w05-a05",
+      "week_id": "m01w05",
+      "sequence_number": 5,
+      "title": "Read: Sketch Captions",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read four short sketch captions, match each one to the correct image in the shared four-figure gallery, and then answer one detail question.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Sketch Captions",
+          "summary": "Read the four short captions and match each one to the correct image.",
+          "instructions": "Read the four short sketch captions. Match Caption A, B, C, and D to image A, B, C, or D, then answer the detail question.",
+          "success_criteria": [
+            "I can match a short caption to the correct figure image.",
+            "I can identify pose, view, and garment words in reading.",
+            "I can find one detail answer in a short caption."
+          ],
+          "sentence_frames": [
+            "This is a ___ view.",
+            "The figure is ___.",
+            "The figure is wearing ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Leia: legendas de croqui",
+          "summary": "Leia as quatro legendas curtas e relacione cada uma à imagem correta.",
+          "instructions": "Leia as quatro legendas curtas de croqui. Relacione as Legendas A, B, C e D à imagem A, B, C ou D e depois responda à pergunta de detalhe.",
+          "success_criteria": [
+            "Eu consigo relacionar uma legenda curta à imagem correta da figura.",
+            "Eu consigo identificar palavras de pose, vista e roupa na leitura.",
+            "Eu consigo encontrar uma resposta de detalhe em uma legenda curta."
+          ],
+          "sentence_frames": [
+            "This is a ___ view.",
+            "The figure is ___.",
+            "The figure is wearing ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Reuse the same image A-D gallery from the listening task. Keep the captions short and concrete so students focus on matching visible evidence to language.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "four-figure gallery",
+        "short sketch captions"
+      ],
+      "vocabulary_refs": [
+        "m01w05-v012",
+        "m01w05-v014",
+        "m01w05-v015",
+        "m01w05-v016",
+        "m01w05-v017",
+        "m01w05-v019",
+        "m01w05-v020",
+        "m01w05-v021",
+        "m01w05-v023",
+        "m01w05-v025",
+        "m01w05-v027",
+        "m01w05-v032",
+        "m01w05-v037"
+      ],
+      "asset_refs": [
+        "m01w05-img-005"
+      ],
+      "input": {
+        "input_type": "caption_matching",
+        "prompt_en": "Read the captions and choose the correct image or detail answer.",
+        "prompt_pt": "Leia as legendas e escolha a imagem ou o detalhe correto.",
+      "items": [
+        {
+          "response_type": "single_choice",
+            "label_en": "Caption A: This is a front-view fashion figure. The figure is standing. She is wearing a simple dress with short sleeves. The hem is below the knee. Which image matches?",
+            "label_pt": "Legenda A: This is a front-view fashion figure. The figure is standing. She is wearing a simple dress with short sleeves. The hem is below the knee. Qual imagem combina?",
+            "asset_id": "m01w05-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C",
+              "imagem D"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Caption B: This is a side-view sketch. The figure is wearing a jacket and pants. The pose is relaxed. Which image matches?",
+            "label_pt": "Legenda B: This is a side-view sketch. The figure is wearing a jacket and pants. The pose is relaxed. Qual imagem combina?",
+            "asset_id": "m01w05-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C",
+              "imagem D"
+          ],
+          "correct_answer": "image B"
+        },
+        {
+          "response_type": "single_choice",
+          "label_en": "Caption C: This is a walking croquis. The figure is wearing a blouse and a skirt. The silhouette is long and simple. Which image matches?",
+          "label_pt": "Legenda C: This is a walking croquis. The figure is wearing a blouse and a skirt. The silhouette is long and simple. Qual imagem combina?",
+          "asset_id": "m01w05-img-005",
+          "options_en": [
+            "image A",
+            "image B",
+            "image C",
+            "image D"
+          ],
+          "options_pt": [
+            "imagem A",
+            "imagem B",
+            "imagem C",
+            "imagem D"
+          ],
+          "correct_answer": "image C"
+        },
+        {
+          "response_type": "single_choice",
+          "label_en": "Caption D: This fashion figure is standing. One hand is on the hip. The figure is wearing a fitted top and wide pants. Which image matches?",
+          "label_pt": "Legenda D: This fashion figure is standing. One hand is on the hip. The figure is wearing a fitted top and wide pants. Qual imagem combina?",
+          "asset_id": "m01w05-img-005",
+          "options_en": [
+            "image A",
+            "image B",
+            "image C",
+            "image D"
+          ],
+          "options_pt": [
+            "imagem A",
+            "imagem B",
+            "imagem C",
+            "imagem D"
+          ],
+          "correct_answer": "image D"
+        },
+        {
+          "response_type": "single_choice",
+          "label_en": "Which caption says the silhouette is long and simple?",
+          "label_pt": "Qual legenda diz que a silhueta é longa e simples?",
+          "options_en": [
+            "Caption A",
+            "Caption B",
+            "Caption C",
+            "Caption D"
+          ],
+          "options_pt": [
+            "Legenda A",
+            "Legenda B",
+            "Legenda C",
+            "Legenda D"
+          ],
+          "correct_answer": "Caption C"
+        }
+      ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the gallery first",
+          "student_action_en": "Look at images A to D and notice the main pose, view, and clothing in each one.",
+          "student_action_pt": "Observe as imagens A até D e perceba a pose principal, a vista e a roupa em cada uma.",
+          "teacher_action": "Remind students that the reading task reuses the same gallery from listening.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Read and match the captions",
+      "student_action_en": "Read all four captions and match each one to image A, B, C, or D before you answer the final detail question.",
+      "student_action_pt": "Leia as quatro legendas e relacione cada uma à imagem A, B, C ou D antes de responder à pergunta final de detalhe.",
+      "teacher_action": "Encourage students to look for evidence words such as front view, side view, walking, dress, jacket, one hand on the hip, and silhouette.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the details",
+      "student_action_en": "Look back at the visible captions and confirm the final detail answer.",
+      "student_action_pt": "Volte às legendas visíveis e confirme a resposta final de detalhe.",
+          "teacher_action": "Use the last minute to reinforce that reading depends on matching words to visible evidence.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_comprehension_answers",
+    "description_en": "Four caption-to-image matches plus one final reading-detail selection using the shared image A-D gallery.",
+    "description_pt": "Quatro relações entre legenda e imagem mais uma seleção final de detalhe de leitura usando a galeria compartilhada de imagens A até D.",
+    "length_or_format": "4 caption-to-image selections plus 1 detail selection"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student matches the captions to the visible gallery.",
+          "The student finds pose, view, or garment evidence in the short texts.",
+      "The student answers one final detail question from the visible captions."
+        ],
+        "completion_criteria_pt": [
+          "O aluno relaciona as legendas à galeria visível.",
+          "O aluno encontra evidências de pose, vista ou roupa nos textos curtos.",
+      "O aluno responde a uma pergunta final de detalhe a partir das legendas visíveis."
+        ],
+        "checklist_en": [
+          "I looked at images A to D.",
+          "I matched the captions carefully.",
+      "I checked the final detail clue in the text."
+        ],
+        "checklist_pt": [
+          "Eu observei as imagens A até D.",
+          "Eu relacionei as legendas com atenção.",
+      "Eu conferi a pista final de detalhe no texto."
+        ],
+        "rubric": [],
+    "model_response_en": "Caption A matches image A. Caption B matches image B. Caption C matches image C. Caption D matches image D. Caption C says the silhouette is long and simple.",
+    "model_response_pt": "A Legenda A combina com a imagem A. A Legenda B combina com a imagem B. A Legenda C combina com a imagem C. A Legenda D combina com a imagem D. A Legenda C diz que a silhueta é longa e simples.",
+        "common_errors": [
+          "Matching the right garment but missing the view word.",
+      "Reading the caption too fast and missing walking, one hand on the hip, or silhouette."
+        ],
+        "feedback_prompts_en": [
+      "Look again for the strongest clue. Is it the view, the pose, the garment, or the silhouette phrase?"
+        ],
+        "feedback_prompts_pt": [
+      "Observe novamente a pista mais forte. É a vista, a pose, a roupa ou a frase sobre a silhueta?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students underline one clue word in each caption before answering."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence about why the image and the caption match."
+        ]
+      },
+      "extension_options": [
+        "Choose one caption and rewrite one sentence using The figure is or The figure is wearing."
+      ],
+      "notes_for_app_design": "Render this as four short visible caption cards plus the shared image A-D gallery. Save four caption-to-image selections and one final detail selection. Keep the visible image keys aligned with the listening task so students can transfer the same figure mapping across tasks."
+    },
+    {
+      "activity_id": "m01w05-a06",
+      "week_id": "m01w05",
+      "sequence_number": 6,
+      "title": "Phrase Practice: The Figure Is / The Figure Is Wearing",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students practice the core Week 5 description frames through controlled fill-blank completions focused on pose, view, garment, silhouette, outline, and hem language.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: The Figure Is / The Figure Is Wearing",
+          "summary": "Complete the short description frames with the correct words.",
+          "instructions": "Use the word banks to complete each short sentence about the figure, the view, the garment, the silhouette, or the outline.",
+          "success_criteria": [
+            "I can complete the main Week 5 sentence frames.",
+            "I can use The figure is and The figure is wearing correctly.",
+            "I can describe one simple visual feature in English."
+          ],
+          "sentence_frames": [
+            "The figure is ___.",
+            "This is a ___ view.",
+            "The figure is wearing ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Prática de frases: The Figure Is / The Figure Is Wearing",
+          "summary": "Complete as frases curtas de descrição com as palavras corretas.",
+          "instructions": "Use os bancos de palavras para completar cada frase curta sobre a figura, a vista, a roupa, a silhueta ou o contorno.",
+          "success_criteria": [
+            "Eu consigo completar as principais estruturas de frase da Semana 5.",
+            "Eu consigo usar The figure is e The figure is wearing corretamente.",
+            "Eu consigo descrever uma característica visual simples em inglês."
+          ],
+          "sentence_frames": [
+            "The figure is ___.",
+            "This is a ___ view.",
+            "The figure is wearing ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main output clearly focused on fill-blank phrase completion. This activity should feel like controlled language support before the writing card, not a mixed grammar test.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "sentence frames",
+        "optional four-figure gallery"
+      ],
+      "vocabulary_refs": [
+        "m01w05-v017",
+        "m01w05-v019",
+        "m01w05-v020",
+        "m01w05-v021",
+        "m01w05-v023",
+        "m01w05-v025",
+        "m01w05-v027",
+        "m01w05-v030",
+        "m01w05-v034",
+        "m01w05-v037"
+      ],
+      "asset_refs": [
+        "m01w05-img-005"
+      ],
+      "input": {
+        "input_type": "phrase_frame_fill_blank",
+        "prompt_en": "Complete the short figure-description frames with the correct words.",
+        "prompt_pt": "Complete as estruturas curtas de descrição da figura com as palavras corretas.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the pose sentence.",
+            "label_pt": "Complete a frase sobre a pose.",
+            "sentence_frame_en": "The figure is ___.",
+            "sentence_frame_pt": "The figure is ___.",
+            "word_bank": [
+              "standing",
+              "outline",
+              "needle"
+            ],
+            "accepted_answers": [
+              "standing"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the view sentence.",
+            "label_pt": "Complete a frase sobre a vista.",
+            "sentence_frame_en": "This is a ___ view.",
+            "sentence_frame_pt": "This is a ___ view.",
+            "word_bank": [
+              "front",
+              "button",
+              "fabric"
+            ],
+            "accepted_answers": [
+              "front"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the garment sentence.",
+            "label_pt": "Complete a frase sobre a roupa.",
+            "sentence_frame_en": "The figure is wearing a ___.",
+            "sentence_frame_pt": "The figure is wearing a ___.",
+            "word_bank": [
+              "dress",
+              "ruler",
+              "seam"
+            ],
+            "accepted_answers": [
+              "dress"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the hem sentence.",
+            "label_pt": "Complete a frase sobre a bainha.",
+            "sentence_frame_en": "The hem is ___ the knee.",
+            "sentence_frame_pt": "The hem is ___ the knee.",
+            "word_bank": [
+              "below",
+              "figure",
+              "side"
+            ],
+            "accepted_answers": [
+              "below"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the silhouette sentence.",
+            "label_pt": "Complete a frase sobre a silhueta.",
+            "sentence_frame_en": "The silhouette is ___ and simple.",
+            "sentence_frame_pt": "The silhouette is ___ and simple.",
+            "word_bank": [
+              "long",
+              "collar",
+              "studio"
+            ],
+            "accepted_answers": [
+              "long"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the outline sentence.",
+            "label_pt": "Complete a frase sobre o contorno.",
+            "sentence_frame_en": "The outline is ___.",
+            "sentence_frame_pt": "The outline is ___.",
+            "word_bank": [
+              "straight",
+              "pocket",
+              "side view"
+            ],
+            "accepted_answers": [
+              "straight"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the frames",
+          "student_action_en": "Read the sentence frames and notice what type of word each blank needs.",
+          "student_action_pt": "Leia as estruturas de frase e perceba que tipo de palavra cada lacuna precisa.",
+          "teacher_action": "Remind students that these are the same frames they will reuse in the writing card.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the blanks",
+          "student_action_en": "Use the word banks to complete each short sentence.",
+          "student_action_pt": "Use os bancos de palavras para completar cada frase curta.",
+          "teacher_action": "Keep the focus on controlled completion, not free writing.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the pattern",
+          "student_action_en": "Read the completed phrases again and notice the full Week 5 pattern.",
+          "student_action_pt": "Leia novamente as frases completas e perceba o padrão completo da Semana 5.",
+          "teacher_action": "Use the final review to reinforce The figure is and The figure is wearing.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "fill_blank_answers",
+        "description_en": "Six controlled figure-description frame completions saved as the main scored output.",
+        "description_pt": "Seis completamentos controlados de estruturas de descrição da figura salvos como resultado principal avaliado.",
+        "length_or_format": "6 fill-blank phrase completions"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main Week 5 frames.",
+          "The student uses pose, view, garment, and silhouette language accurately.",
+          "The student prepares for the structured writing card with reusable patterns."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as principais estruturas da Semana 5.",
+          "O aluno usa com precisão linguagem de pose, vista, roupa e silhueta.",
+          "O aluno se prepara para o cartão de escrita estruturada com padrões reutilizáveis."
+        ],
+        "checklist_en": [
+          "I completed all the short frames.",
+          "I used the Week 5 patterns carefully.",
+          "I am ready to use these frames in writing."
+        ],
+        "checklist_pt": [
+          "Eu completei todas as frases curtas.",
+          "Eu usei os padrões da Semana 5 com cuidado.",
+          "Eu estou pronto para usar essas estruturas na escrita."
+        ],
+        "rubric": [],
+        "model_response_en": "The figure is standing. This is a front view. The figure is wearing a dress. The hem is below the knee. The silhouette is long and simple. The outline is straight.",
+        "model_response_pt": "A figura está em pé. Esta é uma vista frontal. A figura está vestindo um vestido. A bainha fica abaixo do joelho. A silhueta é longa e simples. O contorno é reto.",
+        "common_errors": [
+          "Writing The figure wearing instead of The figure is wearing.",
+          "Choosing a noun when the blank needs an adjective or a pose word."
+        ],
+        "feedback_prompts_en": [
+          "Read the full sentence again. Does the blank need a pose word, a view word, a garment word, or a descriptive word?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia a frase completa novamente. A lacuna precisa de uma palavra de pose, de vista, de roupa ou de descrição?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students see one completed model frame before they begin."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one of the completed sentences aloud and change one word."
+        ]
+      },
+      "extension_options": [
+        "Choose one image from the gallery and say two completed frame sentences about it."
+      ],
+      "notes_for_app_design": "Render this as a fill-blank activity with short word banks. The main saved output must be the six fill-blank completions. Keep any extra review elements out of the main scored path so the submission type stays clearly fill_blank."
+    },
+    {
+      "activity_id": "m01w05-a07",
+      "week_id": "m01w05",
+      "sequence_number": 7,
+      "title": "Fashion Figure Description Card",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students produce the main Week 5 artifact by choosing one fashion figure and completing a short structured description card with required sentence-frame lines and one optional challenge line.",
+      "student_facing": {
+        "en": {
+          "title": "Fashion Figure Description Card",
+          "summary": "Choose one figure and complete a short description card in English.",
+          "instructions": "Choose one figure from images A to D. Complete the required lines about the image type, pose, view, garment, one detail, and the silhouette. Add the challenge line only if you want extra practice.",
+          "success_criteria": [
+            "I can complete the required description lines.",
+            "I can use The figure is and The figure is wearing correctly.",
+            "I can describe one visible figure or garment feature in simple English."
+          ],
+          "sentence_frames": [
+            "This is a fashion figure / sketch / croquis.",
+            "The figure is standing / walking / sitting.",
+            "This is a front view / side view / back view.",
+            "The figure is wearing ___.",
+            "The garment has ___.",
+            "The silhouette is ___.",
+            "Optional challenge: I like the pose because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Cartão de descrição da figura de moda",
+          "summary": "Escolha uma figura e complete um cartão curto de descrição em inglês.",
+          "instructions": "Escolha uma figura das imagens A até D. Complete as linhas obrigatórias sobre o tipo de imagem, a pose, a vista, a roupa, um detalhe e a silhueta. Acrescente a linha de desafio apenas se você quiser prática extra.",
+          "success_criteria": [
+            "Eu consigo completar as linhas obrigatórias de descrição.",
+            "Eu consigo usar The figure is e The figure is wearing corretamente.",
+            "Eu consigo descrever uma característica visível da figura ou da roupa em inglês simples."
+          ],
+          "sentence_frames": [
+            "This is a fashion figure / sketch / croquis.",
+            "The figure is standing / walking / sitting.",
+            "This is a front view / side view / back view.",
+            "The figure is wearing ___.",
+            "The garment has ___.",
+            "The silhouette is ___.",
+            "Desafio opcional: I like the pose because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the task structured and line-based. Do not turn it into a paragraph or a word-count task. Students should complete 5 to 6 required lines plus 1 optional challenge line only if ready.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "vocabulary",
+        "grammar",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "four-figure gallery",
+        "description card sentence frames"
+      ],
+      "vocabulary_refs": [
+        "m01w05-v012",
+        "m01w05-v014",
+        "m01w05-v015",
+        "m01w05-v017",
+        "m01w05-v019",
+        "m01w05-v020",
+        "m01w05-v021",
+        "m01w05-v023",
+        "m01w05-v024",
+        "m01w05-v025",
+        "m01w05-v027",
+        "m01w05-v030",
+        "m01w05-v031",
+        "m01w05-v032",
+        "m01w05-v034",
+        "m01w05-v037"
+      ],
+      "asset_refs": [
+        "m01w05-img-005"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Choose one figure from images A to D and complete the required description lines.",
+        "prompt_pt": "Escolha uma figura das imagens A até D e complete as linhas obrigatórias de descrição.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose your figure image.",
+            "label_pt": "Escolha a imagem da sua figura.",
+            "asset_id": "m01w05-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "imagem A",
+              "imagem B",
+              "imagem C",
+              "imagem D"
+            ]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 1: Name the image type.",
+            "label_pt": "Linha 1: Nomeie o tipo de imagem.",
+            "sentence_frame_en": "This is a ___.",
+            "sentence_frame_pt": "This is a ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 2: Describe the pose.",
+            "label_pt": "Linha 2: Descreva a pose.",
+            "sentence_frame_en": "The figure is ___.",
+            "sentence_frame_pt": "The figure is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 3: Name the view.",
+            "label_pt": "Linha 3: Nomeie a vista.",
+            "sentence_frame_en": "This is a ___ view.",
+            "sentence_frame_pt": "This is a ___ view."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 4: Describe the garment.",
+            "label_pt": "Linha 4: Descreva a roupa.",
+            "sentence_frame_en": "The figure is wearing ___.",
+            "sentence_frame_pt": "The figure is wearing ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 5: Add one detail.",
+            "label_pt": "Linha 5: Acrescente um detalhe.",
+        "sentence_frame_en": "The garment has ___.",
+        "sentence_frame_pt": "The garment has ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 6: Describe the silhouette.",
+            "label_pt": "Linha 6: Descreva a silhueta.",
+            "sentence_frame_en": "The silhouette is ___.",
+            "sentence_frame_pt": "The silhouette is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Optional challenge line",
+            "label_pt": "Linha de desafio opcional",
+            "sentence_frame_en": "I like the pose because ___.",
+            "sentence_frame_pt": "I like the pose because ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose one figure",
+          "student_action_en": "Look at images A to D and choose one figure to describe.",
+          "student_action_pt": "Observe as imagens A até D e escolha uma figura para descrever.",
+          "teacher_action": "Guide students toward a figure that matches their confidence level.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the required lines",
+          "student_action_en": "Complete the required sentence-frame lines about image type, pose, view, garment, one detail, and silhouette.",
+          "student_action_pt": "Complete as linhas obrigatórias com frases-modelo sobre tipo de imagem, pose, vista, roupa, um detalhe e silhueta.",
+          "teacher_action": "Keep the writing structured. Encourage students to finish one line at a time.",
+          "estimated_minutes": 11,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge only if ready",
+          "student_action_en": "Add the challenge line only if you want extra practice.",
+          "student_action_pt": "Acrescente a linha de desafio apenas se você quiser prática extra.",
+          "teacher_action": "Make it clear that the challenge line is optional, not required.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 4,
+          "title": "Check and submit",
+          "student_action_en": "Read your lines again and submit the card for teacher review.",
+          "student_action_pt": "Leia suas linhas novamente e envie o cartão para revisão do professor.",
+          "teacher_action": "Prompt students to check The figure is and The figure is wearing before submission.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_description_card",
+        "description_en": "A saved Fashion Figure Description Card with 5 to 6 required sentence-frame lines and 1 optional challenge line.",
+        "description_pt": "Um Cartão de Descrição da Figura de Moda salvo com 5 a 6 linhas obrigatórias de frases-modelo e 1 linha de desafio opcional.",
+        "length_or_format": "5 to 6 required lines plus 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student completes the required description lines.",
+          "The student uses pose, view, garment, and silhouette language clearly.",
+          "The student may add the optional challenge line, but it is not required."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as linhas obrigatórias de descrição.",
+          "O aluno usa com clareza linguagem de pose, vista, roupa e silhueta.",
+          "O aluno pode acrescentar a linha de desafio opcional, mas ela não é obrigatória."
+        ],
+        "checklist_en": [
+          "The card names the image type.",
+          "The card includes pose and view.",
+          "The card includes the garment.",
+          "The card includes one visible detail.",
+          "The card includes a silhouette description.",
+          "The challenge line is optional only."
+        ],
+        "checklist_pt": [
+          "O cartão nomeia o tipo de imagem.",
+          "O cartão inclui pose e vista.",
+          "O cartão inclui a roupa.",
+          "O cartão inclui um detalhe visível.",
+          "O cartão inclui uma descrição da silhueta.",
+          "A linha de desafio é apenas opcional."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a fashion figure. The figure is standing. This is a front view. The figure is wearing a simple dress. The garment has short sleeves. The silhouette is long and simple. Optional challenge: I like the pose because it is clear.",
+        "model_response_pt": "Esta é uma figura de moda. A figura está em pé. Esta é uma vista frontal. A figura está vestindo um vestido simples. A roupa tem mangas curtas. A silhueta é longa e simples. Desafio opcional: Eu gosto da pose porque ela é clara.",
+        "common_errors": [
+          "Writing The figure standing instead of The figure is standing.",
+          "Writing The figure is using a dress instead of The figure is wearing a dress.",
+          "Using the challenge line as if it were required.",
+          "Writing only a garment name without a full sentence frame."
+        ],
+        "feedback_prompts_en": [
+          "Please add the missing be verb in one line.",
+          "Please change using to wearing for clothing.",
+          "Please make one detail line clearer.",
+          "Please revise one line and submit again."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, acrescente o verbo be que está faltando em uma linha.",
+          "Por favor, troque using por wearing quando falar de roupa.",
+          "Por favor, deixe uma linha de detalhe mais clara.",
+          "Por favor, revise uma linha e envie novamente."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete exactly five core lines with a visible word bank and one model line."
+        ],
+        "challenge": [
+          "Invite stronger learners to add the optional challenge line or use outline in the detail line."
+        ]
+      },
+      "extension_options": [
+        "Turn one line from the card into a speaking note for the teacher session."
+      ],
+      "notes_for_app_design": "Render this as a teacher-reviewed structured writing card with separate saved line fields, not a paragraph text box. Keep 5 to 6 lines required, 1 challenge line optional, and show the teacher the checklist, common errors, feedback prompts, and return-for-revision workflow."
+    },
+    {
+      "activity_id": "m01w05-a08",
+      "week_id": "m01w05",
+      "sequence_number": 8,
+      "title": "Review and Improve: Body Words and Adjective Order",
+      "activity_type": "reflection",
+      "activity_type_custom": "",
+      "summary": "Students review one common Week 5 sentence problem and save one corrected version they can transfer into the Fashion Figure Description Card.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Body Words and Adjective Order",
+          "summary": "Choose one correction card and write the improved sentence.",
+          "instructions": "Choose one correction card, notice the problem, and write the corrected sentence clearly.",
+          "success_criteria": [
+            "I can notice one common Week 5 sentence problem.",
+            "I can write one corrected sentence clearly.",
+            "I can use the correction to improve my description card."
+          ],
+          "sentence_frames": [
+            "The figure is ___.",
+            "The figure is wearing ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Revise e melhore: palavras do corpo e ordem dos adjetivos",
+          "summary": "Escolha um cartão de correção e escreva a frase melhorada.",
+          "instructions": "Escolha um cartão de correção, perceba o problema e escreva a frase corrigida com clareza.",
+          "success_criteria": [
+            "Eu consigo perceber um problema comum de frase da Semana 5.",
+            "Eu consigo escrever uma frase corrigida com clareza.",
+            "Eu consigo usar a correção para melhorar meu cartão de descrição."
+          ],
+          "sentence_frames": [
+            "The figure is ___.",
+            "The figure is wearing ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep one narrow correction target per card. The goal is transfer back into the Week 5 description card, not broad grammar explanation.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "critical_thinking"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w05-v017",
+        "m01w05-v019",
+        "m01w05-v023",
+        "m01w05-v027",
+        "m01w05-v034",
+        "m01w05-v037"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "correction_cards",
+        "prompt_en": "Choose one Week 5 sentence and write the corrected version.",
+        "prompt_pt": "Escolha uma frase da Semana 5 e escreva a versão corrigida.",
+        "items": [
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the missing be verb.",
+            "label_pt": "Corrija a falta do verbo be.",
+            "incorrect_sentence": "The figure standing.",
+            "correct_sentence": "The figure is standing.",
+            "accepted_answers": [
+              "The figure is standing."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the clothing phrase.",
+            "label_pt": "Corrija a expressão de roupa.",
+            "incorrect_sentence": "The figure is using a dress.",
+            "correct_sentence": "The figure is wearing a dress.",
+            "accepted_answers": [
+              "The figure is wearing a dress."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the article in the view phrase.",
+            "label_pt": "Corrija o artigo na expressão de vista.",
+            "incorrect_sentence": "This is front view.",
+            "correct_sentence": "This is a front view.",
+            "accepted_answers": [
+              "This is a front view."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the adjective order.",
+            "label_pt": "Corrija a ordem dos adjetivos.",
+            "incorrect_sentence": "The silhouette is simple long.",
+            "correct_sentence": "The silhouette is long and simple.",
+            "accepted_answers": [
+              "The silhouette is long and simple."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose a correction card",
+          "student_action_en": "Read one incorrect sentence and notice the correction focus.",
+          "student_action_pt": "Leia uma frase incorreta e perceba o foco da correção.",
+          "teacher_action": "Name the four main targets clearly: missing is, wearing, article in front view, and adjective order.",
+          "estimated_minutes": 2,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Write the corrected sentence",
+          "student_action_en": "Rewrite the sentence clearly and accurately.",
+          "student_action_pt": "Reescreva a frase com clareza e precisão.",
+          "teacher_action": "Ask students to compare the corrected sentence with their own writing card.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Transfer the correction",
+          "student_action_en": "Check whether the same problem appears in your own description card.",
+          "student_action_pt": "Confira se o mesmo problema aparece no seu próprio cartão de descrição.",
+          "teacher_action": "Prompt students to fix the same issue in their card if needed.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentence",
+        "description_en": "One corrected Week 5 sentence saved after review.",
+        "description_pt": "Uma frase corrigida da Semana 5 salva após a revisão.",
+        "length_or_format": "1 sentence"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student chooses one correction card.",
+          "The student writes the corrected sentence accurately.",
+          "The student checks for the same issue in personal writing."
+        ],
+        "completion_criteria_pt": [
+          "O aluno escolhe um cartão de correção.",
+          "O aluno escreve a frase corrigida com precisão.",
+          "O aluno verifica o mesmo problema na própria escrita."
+        ],
+        "checklist_en": [
+          "I chose one correction card.",
+          "I wrote the corrected sentence.",
+          "I checked my own description card."
+        ],
+        "checklist_pt": [
+          "Eu escolhi um cartão de correção.",
+          "Eu escrevi a frase corrigida.",
+          "Eu conferi meu próprio cartão de descrição."
+        ],
+        "rubric": [],
+        "model_response_en": "The figure is wearing a dress.",
+        "model_response_pt": "A figura está vestindo um vestido.",
+        "common_errors": [
+          "Keeping the original mistake in the corrected sentence.",
+          "Fixing the word but forgetting the article or the verb."
+        ],
+        "feedback_prompts_en": [
+          "Read the corrected model again. Which word or small grammar part changed?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia o modelo corrigido novamente. Que palavra ou pequena parte gramatical mudou?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Limit the first attempt to two correction cards for students who need more support."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain the correction rule in simple English or Portuguese."
+        ]
+      },
+      "extension_options": [
+        "Correct one more sentence from your own description card."
+      ],
+      "notes_for_app_design": "Render this as one small correction-card activity. Let the student choose one card, type or select the corrected version, and compare against accepted answers. Save one corrected sentence as the mini-revision artifact."
+    },
+    {
+      "activity_id": "m01w05-a09",
+      "week_id": "m01w05",
+      "sequence_number": 9,
+      "title": "Teacher Session: Describe a Sketch",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use their Week 5 figure-description card to practice pronunciation, label body-reference points live, and describe one figure or sketch in short supported sentences.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Describe a Sketch",
+          "summary": "Use your card to describe one figure or sketch in short sentences.",
+          "instructions": "Bring your Fashion Figure Description Card, practice the key words, and describe one figure or sketch in 4 to 6 short sentences.",
+          "success_criteria": [
+            "I can name one figure or sketch clearly.",
+            "I can use pose, view, and garment language while speaking.",
+            "I can describe one visible feature with teacher support."
+          ],
+          "sentence_frames": [
+            "This is a fashion figure / sketch / croquis.",
+            "The figure is standing / walking / sitting.",
+            "This is a front view / side view / back view.",
+            "The figure is wearing ___.",
+            "The garment has ___.",
+            "The silhouette is ___.",
+            "I like the pose because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Sessão com o professor: descreva um croqui",
+          "summary": "Use o seu cartão para descrever uma figura ou um croqui em frases curtas.",
+          "instructions": "Leve o seu Cartão de Descrição da Figura de Moda, pratique as palavras principais e descreva uma figura ou um croqui em 4 a 6 frases curtas.",
+          "success_criteria": [
+            "Eu consigo nomear uma figura ou um croqui com clareza.",
+            "Eu consigo usar linguagem de pose, vista e roupa ao falar.",
+            "Eu consigo descrever uma característica visível com apoio do professor."
+          ],
+          "sentence_frames": [
+            "This is a fashion figure / sketch / croquis.",
+            "The figure is standing / walking / sitting.",
+            "This is a front view / side view / back view.",
+            "The figure is wearing ___.",
+            "The garment has ___.",
+            "The silhouette is ___.",
+            "I like the pose because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep this teacher-observed only. Do not record student audio. Focus on intelligibility, accurate Week 5 frames, and confidence with a short supported description rather than long performance.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication",
+        "listening"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "student Fashion Figure Description Cards",
+        "four-figure gallery",
+        "pronunciation list"
+      ],
+      "vocabulary_refs": [
+        "m01w05-v001",
+        "m01w05-v003",
+        "m01w05-v007",
+        "m01w05-v008",
+        "m01w05-v010",
+        "m01w05-v012",
+        "m01w05-v014",
+        "m01w05-v015",
+        "m01w05-v016",
+        "m01w05-v017",
+        "m01w05-v018",
+        "m01w05-v019",
+        "m01w05-v020",
+        "m01w05-v021",
+        "m01w05-v023",
+        "m01w05-v025",
+        "m01w05-v027",
+        "m01w05-v030",
+        "m01w05-v034"
+      ],
+      "asset_refs": [
+        "m01w05-img-005"
+      ],
+      "input": {
+        "input_type": "speaking_prompt",
+        "prompt_en": "Use your Fashion Figure Description Card to describe one figure or sketch in short sentences.",
+        "prompt_pt": "Use o seu Cartão de Descrição da Figura de Moda para descrever uma figura ou um croqui em frases curtas.",
+        "items": [
+          {
+            "label_en": "Say 4 to 6 short sentences about one figure or sketch.",
+            "label_pt": "Diga de 4 a 6 frases curtas sobre uma figura ou um croqui."
+          },
+          {
+            "label_en": "Include pose, view, garment, and one visible feature.",
+            "label_pt": "Inclua pose, vista, roupa e uma característica visível."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Pronunciation clinic",
+          "student_action_en": "Practice key Week 5 words such as figure, sketch, croquis, outline, silhouette, shoulder, waist, hip, and knee.",
+          "student_action_pt": "Pratique palavras importantes da Semana 5 como figure, sketch, croquis, outline, silhouette, shoulder, waist, hip e knee.",
+          "teacher_action": "Model the words slowly and clearly, especially croquis, silhouette, shoulder, and proportion.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Label the figure live",
+          "student_action_en": "Look at the shared figure or gallery and say the main body-reference points.",
+          "student_action_pt": "Observe a figura compartilhada ou a galeria e diga os principais pontos de referência do corpo.",
+          "teacher_action": "Use quick pointing and naming before the full speaking turn.",
+          "estimated_minutes": 10,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 3,
+          "title": "Describe one sketch",
+          "student_action_en": "Use your Week 5 card to describe one figure or sketch in 4 to 6 short sentences.",
+          "student_action_pt": "Use o seu cartão da Semana 5 para descrever uma figura ou um croqui em 4 a 6 frases curtas.",
+          "teacher_action": "Allow students to read from their card first, then invite a more natural second try when appropriate.",
+          "estimated_minutes": 20,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 4,
+          "title": "Wrap up and preview",
+          "student_action_en": "Listen to classmates and prepare for next week’s focus on color, shape, and line.",
+          "student_action_pt": "Escute os colegas e prepare-se para o foco da próxima semana em cor, forma e linha.",
+          "teacher_action": "Close with one short review of The figure is, The figure is wearing, and the main Week 5 visual words.",
+          "estimated_minutes": 10,
+          "mode": "pair"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_sketch_description",
+        "description_en": "A short teacher-observed spoken description of one fashion figure or sketch using Week 5 sentence frames.",
+        "description_pt": "Uma descrição oral curta, observada pelo professor, de uma figura de moda ou croqui usando as estruturas da Semana 5.",
+        "length_or_format": "4 to 6 short spoken sentences"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names one figure or sketch clearly.",
+          "The student uses pose, view, and garment language in short sentences.",
+          "The student adds at least one visible detail or design comment with support if needed."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia com clareza uma figura ou um croqui.",
+          "O aluno usa linguagem de pose, vista e roupa em frases curtas.",
+          "O aluno acrescenta pelo menos um detalhe visível ou comentário de design com apoio, se necessário."
+        ],
+        "checklist_en": [
+          "I practiced the Week 5 words.",
+          "I used my description card.",
+          "I described one figure or sketch in short sentences."
+        ],
+        "checklist_pt": [
+          "Eu pratiquei as palavras da Semana 5.",
+          "Eu usei o meu cartão de descrição.",
+          "Eu descrevi uma figura ou um croqui em frases curtas."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a fashion figure. The figure is standing. This is a front view. The figure is wearing a simple dress. The garment has short sleeves. The silhouette is long and simple. I like the pose because it is clear.",
+        "model_response_pt": "Esta é uma figura de moda. A figura está em pé. Esta é uma vista frontal. A figura está vestindo um vestido simples. A roupa tem mangas curtas. A silhueta é longa e simples. Eu gosto da pose porque ela é clara.",
+        "common_errors": [
+          "Saying the garment only and skipping the pose or the view.",
+          "Using using instead of wearing while speaking.",
+          "Reading too quietly to be understood."
+        ],
+        "feedback_prompts_en": [
+          "Can you add one pose or view sentence?",
+          "Can you say that again with is wearing?",
+          "Can you add one visible detail?"
+        ],
+        "feedback_prompts_pt": [
+          "Você pode acrescentar uma frase de pose ou de vista?",
+          "Você pode dizer novamente usando is wearing?",
+          "Você pode acrescentar um detalhe visível?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to read directly from the Fashion Figure Description Card in the first round."
+        ],
+        "challenge": [
+          "Ask stronger learners one follow-up question about silhouette, pose, or garment shape."
+        ]
+      },
+      "extension_options": [
+        "Add one more spoken sentence comparing two figures from the gallery."
+      ],
+      "notes_for_app_design": "Keep this as a teacher-observed speaking checkpoint with the shared figure gallery and the saved Week 5 description card visible on screen. Do not record or upload student audio. The app role is to display prompts, link to the writing artifact, and store teacher completion notes only."
+    }
+  ]
+}

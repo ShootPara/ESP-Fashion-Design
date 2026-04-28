@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-04-28T20:56:21.184154+00:00
+- Generated at (UTC): 2026-04-28T22:08:18.176305+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -40,6 +40,14 @@
 - `content/course/modules/module-01/week-04/teacher_notes.md`
 - `content/course/modules/module-01/week-04/vocabulary.json`
 - `content/course/modules/module-01/week-04/week_manifest.json`
+- `content/course/modules/module-01/week-05/activities.json`
+- `content/course/modules/module-01/week-05/asset_manifest.json`
+- `content/course/modules/module-01/week-05/audio_prompts.json`
+- `content/course/modules/module-01/week-05/image_prompts.json`
+- `content/course/modules/module-01/week-05/lesson_plan.md`
+- `content/course/modules/module-01/week-05/teacher_notes.md`
+- `content/course/modules/module-01/week-05/vocabulary.json`
+- `content/course/modules/module-01/week-05/week_manifest.json`
 - `docs/fashion-course-content-requirements.md`
 - `schemas/activities.schema.json`
 - `schemas/asset_manifest.schema.json`
@@ -58,7 +66,12 @@
 - None.
 
 ## Missing Assets
-- None.
+- m01w05-img-001 — A simple fashion figure or croquis wearing one clear garment, designed for quick review of garment language and preview of pose and view language. — assets/images/module-01/week-05/m01w05-img-001.png
+- m01w05-img-002 — A neutral front-view fashion figure diagram with clear body-reference points for head, neck, shoulder, arm, elbow, hand, waist, hip, leg, knee, and foot. — assets/images/module-01/week-05/m01w05-img-002.png
+- m01w05-img-003 — A concept board showing a fashion figure, a croquis or sketch, and clear examples of outline, silhouette, front view, side view, and pose differences. — assets/images/module-01/week-05/m01w05-img-003.png
+- m01w05-img-004 — One front-view fashion figure with explicit visible point keys A-H for body-reference labeling. — assets/images/module-01/week-05/m01w05-img-004.png
+- m01w05-img-005 — A reusable gallery with four clearly separated fashion figures for listening, reading, writing, and speaking. — assets/images/module-01/week-05/m01w05-img-005.png
+- m01w05-aud-001 — A short Week 5 listening clip describing four fashion figures by pose, view, garment, and one visible detail. — assets/audio/module-01/week-05/m01w05-aud-001.mp3
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.

@@ -1,0 +1,93 @@
+{
+  "week_id": "m01w05",
+  "assets": [
+    {
+      "asset_id": "m01w05-img-001",
+      "week_id": "m01w05",
+      "asset_type": "image",
+      "title": "Week 5 fashion figure opener board",
+      "description": "A simple fashion figure or croquis wearing one clear garment, designed for quick review of garment language and preview of pose and view language.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-001.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w05-a01"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use as a quick review-preview board. Keep the garment, one visible detail, and one clear pose or view cue easy to identify."
+    },
+    {
+      "asset_id": "m01w05-img-002",
+      "week_id": "m01w05",
+      "asset_type": "image",
+      "title": "Body reference points diagram",
+      "description": "A neutral front-view fashion figure diagram with clear body-reference points for head, neck, shoulder, arm, elbow, hand, waist, hip, leg, knee, and foot.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-002.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w05-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required visible-key strategy: A head, B neck, C shoulder, D waist, E hip, F knee. The image, activity answers, and prompt notes must all use the same A-F labels, and the student must be able to see those keys directly on the board."
+    },
+    {
+      "asset_id": "m01w05-img-003",
+      "week_id": "m01w05",
+      "asset_type": "image",
+      "title": "Figure and sketch vocabulary board",
+      "description": "A concept board showing a fashion figure, a croquis or sketch, and clear examples of outline, silhouette, front view, side view, and pose differences.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-003.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w05-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required visible-key strategy: A figure, B croquis, C outline, D silhouette, E front view, F side view. The image, activity answers, and prompt notes must all use the same A-F labels, and the student must be able to see those keys directly on the board."
+    },
+    {
+      "asset_id": "m01w05-img-004",
+      "week_id": "m01w05",
+      "asset_type": "image",
+      "title": "Labeled fashion figure with point keys",
+      "description": "One front-view fashion figure with explicit visible point keys A-H for body-reference labeling.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-004.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w05-a03"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required point-key strategy: A head, B neck, C shoulder, D arm, E waist, F hip, G leg, H foot. The image, activity answers, and prompt notes must all use the same A-H labels."
+    },
+    {
+      "asset_id": "m01w05-img-005",
+      "week_id": "m01w05",
+      "asset_type": "image",
+      "title": "Reusable four-figure gallery",
+      "description": "A reusable gallery with four clearly separated fashion figures for listening, reading, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-005.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w05-a04",
+        "m01w05-a05",
+        "m01w05-a06",
+        "m01w05-a07",
+        "m01w05-a09"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required image-key strategy: image A is standing in front view with a simple dress and short sleeves, image B is relaxed in side view with a jacket and pants, image C is walking with a blouse and skirt, image D is standing with one hand on the hip wearing a fitted top and wide pants."
+    },
+    {
+      "asset_id": "m01w05-aud-001",
+      "week_id": "m01w05",
+      "asset_type": "audio",
+      "title": "Describe the pose listening audio",
+      "description": "A short Week 5 listening clip describing four fashion figures by pose, view, garment, and one visible detail.",
+      "target_filename": "assets/audio/module-01/week-05/m01w05-aud-001.mp3",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w05-a04"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Transcript remains inside audio_prompts.json only. Do not create a separate transcript asset in the current phase."
+    }
+  ]
+}

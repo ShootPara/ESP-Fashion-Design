@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w05",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w05-aud-001",
+      "purpose": "Listening model for Week 5 pose, view, garment, and silhouette identification.",
+      "target_filename": "assets/audio/module-01/week-05/m01w05-aud-001.mp3",
+      "script": "Look at the four figures. Number one: This figure is standing in a front view. The figure is wearing a simple dress. The dress has short sleeves, and the hem is below the knee. Number two: This figure is in a side view. The figure is wearing a jacket and pants. The pose is relaxed. Number three: This figure is walking. The figure is wearing a blouse and a skirt. The silhouette is long and simple. Number four: This figure is standing with one hand on the hip. The figure is wearing a fitted top and wide pants.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and easy to follow, with short pauses after each numbered figure description.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 58,
+      "used_by_activity_ids": [
+        "m01w05-a04"
+      ],
+      "status": "planned"
+    }
+  ]
+}

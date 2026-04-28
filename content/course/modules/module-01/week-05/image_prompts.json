@@ -1,0 +1,79 @@
+{
+  "week_id": "m01w05",
+  "image_prompts": [
+    {
+      "asset_id": "m01w05-img-001",
+      "purpose": "Week 5 opener board for moving from garment language to figure and croquis language.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-001.png",
+      "visual_description": "One adult-oriented fashion figure or croquis wearing a clear garment such as a simple dress, with one visible detail and one obvious pose or view cue.",
+      "style_instructions": "Use a clean fashion-sketch or polished educational illustration style with realistic adult proportions.",
+      "composition_notes": "Keep the garment, one detail, and the figure position easy to read at small size. Do not crowd the image with extra figures.",
+      "text_in_image": "None.",
+      "avoid": "Avoid runway glamour styling, logos, childlike cartoon proportions, and cluttered backgrounds.",
+      "used_by_activity_ids": [
+        "m01w05-a01"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w05-img-002",
+      "purpose": "Body-reference-points diagram for the main Week 5 vocabulary matching task.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-002.png",
+      "visual_description": "A neutral front-view fashion figure diagram with six visible point labels placed clearly on the body: A at the head, B at the neck, C at the shoulder, D at the waist, E at the hip, and F at the knee.",
+      "style_instructions": "Use a clear educational fashion-figure style with enough realism for adult learners and enough simplicity for label matching.",
+      "composition_notes": "Keep the figure centered and uncluttered. Emphasize clean body-point visibility over garment detail, and make each visible key A to F easy to read on mobile.",
+      "text_in_image": "Only the point keys A, B, C, D, E, and F.",
+      "avoid": "Avoid dramatic poses, crowded annotations, extra props, overlapping garments, and extra letters beyond A to F.",
+      "used_by_activity_ids": [
+        "m01w05-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w05-img-003",
+      "purpose": "Concept board for figure, sketch, croquis, outline, silhouette, and view language.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-003.png",
+      "visual_description": "A clean concept board with six clearly separated keyed visuals: A for figure, B for croquis, C for outline, D for silhouette, E for front view, and F for side view.",
+      "style_instructions": "Use a polished fashion-education illustration style that clearly separates each visual concept.",
+      "composition_notes": "Use distinct sections or cards so the student can easily compare front versus side view and outline versus silhouette. Make the visible keys A to F part of the board design and easy to read on mobile.",
+      "text_in_image": "Only the visible concept keys A, B, C, D, E, and F.",
+      "avoid": "Avoid dense technical labels, decorative typography, too many small examples, and extra letters beyond A to F.",
+      "used_by_activity_ids": [
+        "m01w05-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w05-img-004",
+      "purpose": "Single labeled fashion figure with explicit point keys for the Week 5 figure-labeling task.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-004.png",
+      "visual_description": "One front-view fashion figure with eight visible point labels placed clearly on the body: A at the head, B at the neck, C at the shoulder, D at the arm, E at the waist, F at the hip, G at the leg, and H at the foot.",
+      "style_instructions": "Use a clean educational figure style with high contrast point labels and simple body lines.",
+      "composition_notes": "Make each point key large enough for mobile reading and keep the lines from each key short and unambiguous.",
+      "text_in_image": "Only the point keys A, B, C, D, E, F, G, and H.",
+      "avoid": "Avoid extra letters, extra points, decorative arrows, and overlapping labels.",
+      "used_by_activity_ids": [
+        "m01w05-a03"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w05-img-005",
+      "purpose": "Shared four-figure gallery for listening, reading, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-05/m01w05-img-005.png",
+      "visual_description": "A gallery with four clearly separated fashion figures labeled only as image A, image B, image C, and image D. Image A shows a standing front-view figure wearing a simple dress with short sleeves and a hem below the knee. Image B shows a relaxed side-view figure wearing a jacket and pants. Image C shows a walking figure wearing a blouse and a skirt with a long simple silhouette. Image D shows a standing figure with one hand on the hip wearing a fitted top and wide pants.",
+      "style_instructions": "Use a clean adult-oriented fashion-sketch gallery style with strong silhouette contrast and easy visual comparison.",
+      "composition_notes": "Keep the four figures evenly spaced and visually distinct. The gallery must support exact answer-key matching across listening and reading tasks.",
+      "text_in_image": "Only the visible image keys A, B, C, and D.",
+      "avoid": "Avoid extra decorative text, background scenes, accessories that hide the garment, and pose ambiguity.",
+      "used_by_activity_ids": [
+        "m01w05-a04",
+        "m01w05-a05",
+        "m01w05-a06",
+        "m01w05-a07",
+        "m01w05-a09"
+      ],
+      "status": "planned"
+    }
+  ]
+}
