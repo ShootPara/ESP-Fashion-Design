@@ -8,7 +8,7 @@
       "title": "Week 4 garment-detail overview board",
       "description": "An overview board with several adult-oriented garments from Week 3 categories, each showing clear visible details such as buttons, pockets, collars, sleeves, waistbands, or zippers for quick review and detail noticing.",
       "target_filename": "assets/images/module-01/week-04/m01w04-img-001.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w04-a01"
       ],
@@ -22,7 +22,7 @@
       "title": "Garment-parts vocabulary board A",
       "description": "A close-up educational vocabulary board showing collar, neckline, sleeve, cuff, shoulder, pocket, and button as separate detail visuals.",
       "target_filename": "assets/images/module-01/week-04/m01w04-img-002.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w04-a02"
       ],
@@ -36,7 +36,7 @@
       "title": "Garment-parts vocabulary board B",
       "description": "A close-up educational vocabulary board showing zipper, waistband, hem, seam, pleat, dart, and lining as separate detail visuals.",
       "target_filename": "assets/images/module-01/week-04/m01w04-img-003.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w04-a02"
       ],
@@ -50,7 +50,7 @@
       "title": "Single labeled-points garment image",
       "description": "One clear shirt or jacket image with visible point markers for collar, sleeve, buttons, pocket, zipper, hem, front, and seam.",
       "target_filename": "assets/images/module-01/week-04/m01w04-img-004.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w04-a03"
       ],
@@ -64,7 +64,7 @@
       "title": "Reusable garment-detail card set",
       "description": "A reusable card or gallery set showing four garments with clearly visible details: a white shirt with buttons, a black jacket with zipper and pockets, a blue skirt with waistband and pleats, and a red dress with neckline and back zipper.",
       "target_filename": "assets/images/module-01/week-04/m01w04-img-005.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w04-a04",
         "m01w04-a06",
@@ -80,7 +80,7 @@
       "title": "What Does It Have listening audio",
       "description": "A short teacher-style audio clip with four garment descriptions that exactly match the Week 4 listening answer key.",
       "target_filename": "assets/audio/module-01/week-04/m01w04-aud-001.mp3",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w04-a04"
       ],

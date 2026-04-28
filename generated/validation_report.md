@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-04-27T22:05:51.202184+00:00
+- Generated at (UTC): 2026-04-28T20:56:21.184154+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -58,12 +58,7 @@
 - None.
 
 ## Missing Assets
-- m01w04-img-001 — An overview board with several adult-oriented garments from Week 3 categories, each showing clear visible details such as buttons, pockets, collars, sleeves, waistbands, or zippers for quick review and detail noticing. — assets/images/module-01/week-04/m01w04-img-001.png
-- m01w04-img-002 — A close-up educational vocabulary board showing collar, neckline, sleeve, cuff, shoulder, pocket, and button as separate detail visuals. — assets/images/module-01/week-04/m01w04-img-002.png
-- m01w04-img-003 — A close-up educational vocabulary board showing zipper, waistband, hem, seam, pleat, dart, and lining as separate detail visuals. — assets/images/module-01/week-04/m01w04-img-003.png
-- m01w04-img-004 — One clear shirt or jacket image with visible point markers for collar, sleeve, buttons, pocket, zipper, hem, front, and seam. — assets/images/module-01/week-04/m01w04-img-004.png
-- m01w04-img-005 — A reusable card or gallery set showing four garments with clearly visible details: a white shirt with buttons, a black jacket with zipper and pockets, a blue skirt with waistband and pleats, and a red dress with neckline and back zipper. — assets/images/module-01/week-04/m01w04-img-005.png
-- m01w04-aud-001 — A short teacher-style audio clip with four garment descriptions that exactly match the Week 4 listening answer key. — assets/audio/module-01/week-04/m01w04-aud-001.mp3
+- None.
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.
