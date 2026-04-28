@@ -8,7 +8,7 @@
       "title": "Week 5 fashion figure opener board",
       "description": "A simple fashion figure or croquis wearing one clear garment, designed for quick review of garment language and preview of pose and view language.",
       "target_filename": "assets/images/module-01/week-05/m01w05-img-001.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w05-a01"
       ],
@@ -22,7 +22,7 @@
       "title": "Body reference points diagram",
       "description": "A neutral front-view fashion figure diagram with clear body-reference points for head, neck, shoulder, arm, elbow, hand, waist, hip, leg, knee, and foot.",
       "target_filename": "assets/images/module-01/week-05/m01w05-img-002.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w05-a02"
       ],
@@ -36,7 +36,7 @@
       "title": "Figure and sketch vocabulary board",
       "description": "A concept board showing a fashion figure, a croquis or sketch, and clear examples of outline, silhouette, front view, side view, and pose differences.",
       "target_filename": "assets/images/module-01/week-05/m01w05-img-003.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w05-a02"
       ],
@@ -50,7 +50,7 @@
       "title": "Labeled fashion figure with point keys",
       "description": "One front-view fashion figure with explicit visible point keys A-H for body-reference labeling.",
       "target_filename": "assets/images/module-01/week-05/m01w05-img-004.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w05-a03"
       ],
@@ -64,7 +64,7 @@
       "title": "Reusable four-figure gallery",
       "description": "A reusable gallery with four clearly separated fashion figures for listening, reading, writing, and speaking.",
       "target_filename": "assets/images/module-01/week-05/m01w05-img-005.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w05-a04",
         "m01w05-a05",
@@ -82,7 +82,7 @@
       "title": "Describe the pose listening audio",
       "description": "A short Week 5 listening clip describing four fashion figures by pose, view, garment, and one visible detail.",
       "target_filename": "assets/audio/module-01/week-05/m01w05-aud-001.mp3",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w05-a04"
       ],
