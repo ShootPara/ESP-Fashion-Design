@@ -39,11 +39,19 @@ existing curriculum notes and planning materials
         ↓
 structured weekly content files under content/
         ↓
-schema and reference validation
+planning pass
         ↓
-human review
+execution/content creation pass
         ↓
-asset generation planning
+student-render review pass
+        ↓
+surgical refinement pass if needed
+        ↓
+commit only after review/refinement passes
+        ↓
+separate media-generation pass
+        ↓
+media verification/status-update pass
         ↓
 future database/content-pack build
         ↓
@@ -347,6 +355,41 @@ The validator should check at minimum:
 Schema and validator hardening for newer operational activity metadata is expected as follow-up work. This documentation pass does not change schemas or `tools/validate_content.py`, but new or rewritten activities should still be authored with the documented activity-design standard in mind.
 
 The schema files under `schemas/` describe the intended complete structure. The Python validator enforces the most important checks without third-party dependencies. Any known gap between schemas and validator enforcement should be documented.
+
+## Quality Gates
+
+Validation passing is necessary but not sufficient. The normal weekly workflow is:
+
+1. Read `docs/fashion-course-content-requirements.md`, `docs/fashion-activity-design-guidance.md`, `AGENTS.md`, and `README.md`.
+2. Plan the week when the task calls for a planning pass.
+3. Create or revise the canonical week files.
+4. Run validation.
+5. Run a student-render review pass.
+6. Apply surgical refinement if needed.
+7. Commit only after review and refinement are complete.
+8. Handle media generation later in a separate pass.
+9. After binaries exist, run a media verification/status-update pass.
+
+For detailed rules about A2 writing limits, app-checked answer data, listening alignment, image-point keys, and speaking constraints, use the two `docs/` policy files plus `AGENTS.md`.
+
+## Week Status
+
+Use only current documented statuses in `module_manifest.json`:
+
+- `planned`: source material exists or the week is expected, but canonical structured content is not yet complete
+- `seeded`: canonical structured content exists, has passed student-render review/refinement, and validates
+
+Do not invent additional status values unless the schema, data, documentation, and workflow are updated together.
+
+## Media Workflow
+
+Media is planned in:
+
+- `asset_manifest.json`
+- `image_prompts.json`
+- `audio_prompts.json`
+
+Generated binaries are handled later in a separate pass. After binaries are pushed, verify the target files exist, update prompt and asset statuses, rerun validation, and confirm the week no longer appears under missing assets in `generated/validation_report.md`.
 
 ## Phase Plan
 

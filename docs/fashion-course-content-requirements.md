@@ -20,18 +20,24 @@ The course content should be authored as human-readable structured files in the 
 
 A future phase may convert the content into SQLite or another app-consumable format. However, SQLite must be treated as a generated artifact, not the primary authoring format.
 
-The intended workflow is:
+The intended workflow for weekly production is:
 
 ```text
 existing curriculum notes and planning materials
         ↓
-structured weekly content files under content/
+planning pass
         ↓
-schema and reference validation
+execution/content creation pass
         ↓
-human review
+student-render review pass
         ↓
-asset generation planning
+surgical refinement pass if needed
+        ↓
+commit only after review/refinement passes
+        ↓
+separate media-generation pass
+        ↓
+media verification/status-update pass
         ↓
 future database/content-pack build
         ↓
@@ -206,6 +212,15 @@ Example module ID:
 ```text
 module-01
 ```
+
+### 7.1 Week Status Meanings
+
+When a module manifest lists week status values, use only documented and already-supported values.
+
+- `planned` means the week is expected or source material exists, but the canonical structured week content is not yet complete.
+- `seeded` means the canonical structured week folder exists, has passed student-render review and any needed refinement, and validates successfully.
+
+Do not invent additional week status values unless the schema, data, documentation, and workflow are updated together.
 
 ## 8. Week Manifest Requirements
 
@@ -503,7 +518,19 @@ For all new or rewritten activities going forward, the operational activity meta
 
 Each activity must define concrete student interaction, the expected student output, the submission type, who checks the result, whether teacher review is required, whether revision is supported, and concrete `notes_for_app_design`. The goal is to make the content app-ready without building the app itself in this phase.
 
-### 10.1 Student-Facing Localization
+### 10.1 Main Saved-Output Alignment Rule
+
+Operational activity metadata must match the primary saved or scored output.
+
+Examples:
+
+- If `primary_interaction_type` is `image_match` and `submission_type` is `matching`, the main saved or scored output must be matching.
+- If `primary_interaction_type` is `word_bank_fill_blank` and `submission_type` is `fill_blank`, the main saved or scored output must be fill-blank phrase completion.
+- If every app-checked item is single-choice, do not label the activity `multiple_choice`.
+
+Secondary support screens are allowed, such as Portuguese bridge items, category sort items, grammar choices, or follow-up fill-blanks, but they must be described as secondary support when the submission type remains `matching` or `fill_blank`.
+
+### 10.2 Student-Facing Localization
 
 Student-facing activity content must be bilingual from the beginning so a future app can support a language toggle without major restructuring.
 
@@ -538,7 +565,7 @@ Internal JSON field names should remain English. Student-facing display strings 
 
 `title` and `summary` may remain as top-level internal/reviewer fields, but the app-facing versions belong inside `student_facing.en` and `student_facing.pt`.
 
-### 10.2 Activity ID Format
+### 10.3 Activity ID Format
 
 Activity IDs should use stable, sortable IDs.
 
@@ -550,7 +577,7 @@ m01w01-a02
 m01w01-a03
 ```
 
-### 10.3 Activity Types
+### 10.4 Activity Types
 
 Activity types should use a controlled list, but the system should remain extensible.
 
@@ -577,7 +604,7 @@ Phase 1 schemas should hard-fail unknown activity types unless the activity uses
 
 If Codex adds a custom type, it must explain the addition in its execution summary.
 
-### 10.4 Skill Focus
+### 10.5 Skill Focus
 
 Skill focus should use a controlled list, but the system should remain extensible.
 
@@ -597,7 +624,7 @@ Recommended values:
 
 Phase 1 schemas should hard-fail unknown skill values unless the activity includes `custom` in `skill_focus` and includes a non-empty `skill_focus_custom` field with a short explanation.
 
-### 10.5 CEFR Values
+### 10.6 CEFR Values
 
 CEFR values should be controlled.
 
@@ -615,7 +642,7 @@ Allowed values:
 
 For structured content, prefer `cefr_access_level` and `cefr_target_level`. Use `cefr_level` as a convenient display label when useful.
 
-### 10.6 Primary Interaction Type
+### 10.7 Primary Interaction Type
 
 `primary_interaction_type` describes the main app/rendering interaction for the activity. It is distinct from `activity_type`, which remains the pedagogical category.
 
@@ -639,7 +666,7 @@ Recommended values:
 
 If an activity uses `primary_interaction_type: "custom"`, it must include `primary_interaction_type_custom` with a short explanation and the execution summary should also explain the custom choice.
 
-### 10.7 Submission Type
+### 10.8 Submission Type
 
 `submission_type` describes what kind of student response is saved, checked, or tracked.
 
@@ -655,7 +682,7 @@ Recommended values:
 - `teacher_observed_speaking`
 - `self_check`
 
-### 10.8 Checked By
+### 10.9 Checked By
 
 `checked_by` identifies who checks or confirms completion of the activity.
 
@@ -1100,6 +1127,8 @@ Audio scripts should be useful both for generated audio and for teacher read-alo
 
 Where a dialogue has multiple speakers, the audio prompt should identify speaker turns clearly and may recommend contrasting voice roles, such as instructor, student designer, client, peer reviewer, studio manager, or narrator.
 
+For the current phase, keep the usable transcript or script inside `audio_prompts.json`. Do not create a separate transcript asset unless the schema and workflow are explicitly updated to support one.
+
 ## 18. Language and Pedagogical Requirements
 
 The course is English for Special Purposes.
@@ -1194,6 +1223,8 @@ Each activity should include `notes_for_app_design` describing likely app needs,
 - self-check quiz
 - rubric-based review
 
+Validation passing is necessary but not sufficient. A week is not model-ready or commit-ready until a student-render review confirms that student interaction, exact output, checker path, A2 suitability, metadata alignment, media use, and `notes_for_app_design` are all clear and workable.
+
 ## 23. Validation Requirements
 
 Codex should create validation scripts that check at minimum:
@@ -1213,6 +1244,8 @@ Codex should create validation scripts that check at minimum:
 - Required student and teacher instruction fields are present.
 
 Schema and validator hardening for the new operational activity metadata is expected as follow-up work after this documentation alignment pass. That future work should add enforcement for fields such as `primary_interaction_type`, `submission_type`, `checked_by`, `teacher_review_required`, and `revision_supported`, along with any related controlled values and cross-field checks.
+
+Validation can confirm structure, references, and many required fields, but it may not catch metadata/output mismatches, overlong A2 writing tasks, unclear student interaction, audio-answer mismatch, image-label ambiguity, or vague app-design notes. Those issues belong in student-render review.
 
 ### 23.1 Validator Dependency Rule
 
@@ -1289,15 +1322,29 @@ When instructed to generate a week, Codex should:
 2. Read the existing course/module/week structure.
 3. Use the previous week as a structural model where applicable.
 4. Review relevant existing `docs/` course materials as living source/reference material when available.
-5. Update `docs/` only when the assigned task requires documentation changes, requirements updates, or source-material cleanup.
+5. Start with a planning pass when the task calls for planning or review-first workflow.
 6. Create or update only the target week folder unless instructed otherwise.
-7. Create complete weekly files.
+7. Create complete weekly files during the execution pass.
 8. Keep IDs stable and consistent.
 9. Add bilingual English/Portuguese student-facing content.
 10. Add asset planning records for needed images and audio.
 11. Run validation.
 12. Fix validation errors.
-13. Produce an execution summary.
+13. Run a student-render review pass before calling the week complete or model-ready.
+14. Apply a surgical refinement pass if the review finds interaction or metadata issues.
+15. Commit only after review and refinement passes are complete.
+16. Handle media generation and post-generation verification in separate later passes.
+17. Produce an execution summary.
+
+The normal weekly workflow is:
+
+1. planning pass
+2. execution/content creation pass
+3. student-render review pass
+4. surgical refinement pass if needed
+5. commit only after review/refinement passes
+6. separate media-generation pass
+7. media verification/status-update pass after binaries are pushed
 
 ## 26. Execution Summary Requirements
 
@@ -1342,7 +1389,34 @@ Audio needed:
 - m01w01-aud-001 — Short designer-client greeting dialogue — assets/audio/module-01/week-01/m01w01-aud-001.mp3
 ```
 
-## 27. Phased Implementation Plan
+## 27. Media Workflow Requirements
+
+Media assets are planned inside canonical week content but generated separately.
+
+When a later pass generates image or audio binaries, the follow-up workflow should:
+
+1. verify the target files exist at the planned filenames
+2. update `asset_manifest.json` statuses
+3. update `image_prompts.json` statuses
+4. update `audio_prompts.json` statuses
+5. run validation again
+6. confirm the week no longer appears under missing assets in `generated/validation_report.md`
+
+Completed weeks later need a separate media-production bundle drawn from:
+
+- `asset_manifest.json`
+- `image_prompts.json`
+- `audio_prompts.json`
+
+That bundle should include:
+
+- image-generation prompts
+- TTS or teacher read-aloud scripts
+- target filenames
+- asset checklist
+- post-generation verification and status-update instructions
+
+## 28. Phased Implementation Plan
 
 ### Phase 1 — Content System Foundation
 
@@ -1372,7 +1446,7 @@ Week 1 becomes the model for later weeks.
 
 Generate each remaining week one at a time.
 
-Each week should pass validation before moving on.
+Each week should pass validation, complete student-render review, and receive any needed refinement before it becomes the next model week.
 
 ### Phase 4 — Asset Generation Planning Review
 
@@ -1390,7 +1464,7 @@ Use the generated database/content pack in a future app.
 
 This is explicitly outside the current content-generation phase.
 
-## 28. Codex Working Rules
+## 29. Codex Working Rules
 
 Codex should follow these rules:
 
@@ -1409,10 +1483,12 @@ Codex should follow these rules:
 - Do not derive content from `.obsidian`, workspace metadata, editor settings, cache files, or other non-curriculum metadata.
 - Report assumptions clearly.
 - Run validation before reporting completion.
+- Treat validation as necessary but not sufficient for model-ready content.
+- Require student-render review before treating a week as commit-ready or the next structural model.
 - Include exact commands used for validation.
 - Include exact file paths in summaries.
 
-## 29. Naming Conventions
+## 30. Naming Conventions
 
 Use lowercase directory names and stable IDs.
 
@@ -1439,7 +1515,7 @@ assets/images/module-01/week-01/m01w01-img-001.png
 assets/audio/module-01/week-01/m01w01-aud-001.mp3
 ```
 
-## 30. Quality Bar
+## 31. Quality Bar
 
 The content should be good enough that a future teacher, app designer, or developer can understand what students are supposed to do without reading the original planning conversation.
 
@@ -1455,7 +1531,7 @@ Each activity should answer:
 
 If an activity does not answer these questions, it is not complete.
 
-## 31. Phase 1 Implementation Decisions
+## 32. Phase 1 Implementation Decisions
 
 These decisions resolve expected implementation ambiguities for Codex.
 
@@ -1480,8 +1556,11 @@ These decisions resolve expected implementation ambiguities for Codex.
 19. Image style should remain flexible and task-appropriate, with digital watercolor and fashion sketch style as common preferred defaults.
 20. Audio planning should target OpenAI/ChatGPT voice generation, using voice-role and delivery guidance rather than hard-coded provider-specific voice names.
 21. Existing `docs/` content is living material and may be updated when the task requires it, but weekly canonical app-ready content belongs under `content/`.
+22. Validation passing is required but does not replace student-render review.
+23. For early Module 1 weeks, teacher-reviewed writing should use structured sentence-frame outputs instead of paragraph-length base requirements.
+24. Media generation and media verification happen in separate later passes from weekly content authoring.
 
-## 32. First Milestone Prompt for Codex
+## 33. First Milestone Prompt for Codex
 
 Use the following prompt for the first Codex implementation milestone after this requirements document is placed in `docs/`.
 

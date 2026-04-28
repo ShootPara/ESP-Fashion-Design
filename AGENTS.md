@@ -346,6 +346,45 @@ Schema and validator hardening for the newer operational activity metadata is ex
 - Include exact commands used for validation.
 - Include exact file paths in summaries.
 
+## Weekly Workflow Rules
+
+Future weeks should normally follow this sequence:
+
+1. planning pass
+2. execution/content creation pass
+3. student-render review pass
+4. surgical refinement pass if needed
+5. commit only after review/refinement passes
+6. separate media-generation pass
+7. media verification/status-update pass after binaries are pushed
+
+Validation alone is not enough. A week is not model-ready or commit-ready until student-render review confirms:
+
+- what the student sees first
+- what the student taps, chooses, matches, types, listens to, reads, or says
+- exact expected output
+- checker path
+- A2 suitability
+- metadata/content alignment
+- media use
+- `notes_for_app_design` clarity
+
+## Activity Guardrails
+
+- For early Module 1 weeks, teacher-reviewed writing must not use paragraph-length word counts as the base requirement. Use sentence frames, structured text fields, 4 to 6 required lines, 1 optional challenge sentence, teacher checklist, feedback prompts, and revision support where meaningful.
+- Operational metadata must match the primary saved or scored output. If `primary_interaction_type` is `image_match` and `submission_type` is `matching`, the main saved output must be matching. If `primary_interaction_type` is `word_bank_fill_blank` and `submission_type` is `fill_blank`, the main saved output must be fill-blank phrase completion. If every app-checked item is single-choice, do not label the activity `multiple_choice`.
+- Any `checked_by: app` activity must include enough answer data for future app checking: visible options, `correct_answer` or `accepted_answers`, image keys or point labels where relevant, clear answer match to the prompt, and no hidden teacher judgment.
+- For `listen_and_choose` activities, the audio script must match every app-checked item. Question labels, options, correct answers, expected output, model response, and the `audio_prompts.json` script must agree. Keep the transcript or script in `audio_prompts.json` for now. Do not create a separate transcript asset in the current phase.
+- For reading or visual tasks using image boards, app-checked image matching or label tasks must use explicit visible keys such as image A/B/C or point A-H. `correct_answer` values must resolve clearly to those keys, and `image_prompts.json` plus `asset_manifest.json` notes must match the same point/key strategy used in `activities.json`.
+- Speaking activities are teacher-observed. Do not design them around audio recording, upload, or automated speech scoring unless a future requirement explicitly changes that rule.
+
+## Media and Status Rules
+
+- Media assets are planned in canonical week files but generated separately.
+- After media binaries are pushed, verify target files exist, update `asset_manifest.json` statuses, update `image_prompts.json` statuses, update `audio_prompts.json` statuses, run validation, and confirm the week no longer appears under missing assets in `generated/validation_report.md`.
+- In module manifests, `planned` means the week is expected or source material exists but canonical structured content is not yet complete. `seeded` means the canonical structured week folder exists, has passed student-render review/refinement, and validates.
+- Do not invent additional status values unless schemas, data, documentation, and workflow are updated together.
+
 ## Required Execution Summary
 
 After each task, report:

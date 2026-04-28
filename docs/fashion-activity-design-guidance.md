@@ -117,6 +117,18 @@ For A2 learners:
 - Do not require abstract reflection as the main task.
 - Do not require long free writing unless it is built from smaller steps.
 
+For early Module 1 teacher-reviewed writing, do not use paragraph-length word counts as the base requirement. Do not set base requirements such as `50-80 words`, `60-90 words`, or `70-100 words` unless a later module or level explicitly justifies that shift.
+
+Prefer:
+
+- sentence frames
+- structured text fields
+- 4 to 6 required lines
+- 1 optional challenge sentence only
+- teacher checklist
+- feedback prompts
+- revision support where meaningful
+
 A2 students can complete meaningful professional tasks when the task is scaffolded.
 
 A2-appropriate outputs include:
@@ -282,6 +294,8 @@ Content should provide:
 
 The future app may support these with a checklist, script, vocabulary card, or teacher notes, but the speaking itself happens with the teacher.
 
+Speaking activities are teacher-observed. Do not design them around audio recording, upload, or automated speech scoring unless a future requirement explicitly changes that rule.
+
 ### 8.4 Not-Submitted Practice Activities
 
 Some activities are practice only.
@@ -325,6 +339,16 @@ Definitions:
 - `self_check`: student marks completion or compares with model.
 
 Codex should make the submission type obvious in the activity input, expected output, assessment, and notes for app design.
+
+The operational metadata must match the primary saved or scored output.
+
+Examples:
+
+- If `primary_interaction_type` is `image_match` and `submission_type` is `matching`, the main saved or scored output must be matching.
+- If `primary_interaction_type` is `word_bank_fill_blank` and `submission_type` is `fill_blank`, the main saved or scored output must be fill-blank phrase completion.
+- If every app-checked item is single-choice, do not label the activity `multiple_choice`.
+
+Portuguese bridge items, category sort items, grammar choices, and follow-up fill-blank items can appear as secondary support inside a larger activity, but they must be described as secondary when the submission type remains `matching` or `fill_blank`.
 
 ## 10. Free-Form Writing and Correction Workflow
 
@@ -451,6 +475,14 @@ Auto-checkable activities should include:
 - feedback for wrong answers where useful
 - retry policy if pedagogically relevant
 
+Any `checked_by: app` activity must include enough answer data for future app checking:
+
+- visible options
+- `correct_answer` or `accepted_answers`
+- image keys or point labels where relevant
+- clear answer match to the prompt
+- no hidden teacher judgment
+
 Example item:
 
 ```json
@@ -543,6 +575,8 @@ Questions should focus on main idea, specific detail, and evidence.
 Use for listening comprehension.
 
 Include replay support and transcript-after-attempt guidance.
+
+The audio script must align exactly with every app-checked listening item. Question labels, options, correct answers, expected output, model response, and the `audio_prompts.json` script should all agree.
 
 ### 13.11 `short_text`
 
@@ -686,6 +720,8 @@ After you answer: show transcript.
 
 Do not ask A2 students for open listening notes as the required output.
 
+For the current phase, keep the transcript or script in `audio_prompts.json`. Do not create a separate transcript asset unless the schema and workflow later change to support one.
+
 ## 18. Reading Activity Rules
 
 Reading activities should be short and task-focused.
@@ -707,6 +743,8 @@ Tap the sentence that helped you answer.
 ```
 
 Do not require written comprehension answers unless the task is specifically a writing task.
+
+For app-checked reading or visual tasks that use image boards, labels, or marked diagrams, use explicit visible keys such as image A/B/C or point A-H. `correct_answer` values must resolve clearly to those keys, and `image_prompts.json` plus `asset_manifest.json` notes should match the same point or key strategy used in `activities.json`.
 
 ## 19. Vocabulary Activity Rules
 
@@ -908,12 +946,24 @@ Are app design notes concrete?
 
 If the answer to any of these is no, the activity needs revision.
 
+Validation passing is necessary but not sufficient. Before a week becomes model-ready or commit-ready, a student-render review should also confirm:
+
+- what the student sees first
+- what the student taps, chooses, matches, types, listens to, reads, or says
+- exact expected output
+- checker path: app, teacher, student, or not submitted
+- A2 suitability
+- metadata/content alignment
+- media use
+- `notes_for_app_design` clarity
+
 ## 27. Red Flags
 
 Codex should stop and revise if an activity contains:
 
 - vague output such as “student reflects” without a concrete response
 - broad open writing for A2 learners
+- paragraph-length base writing requirements in early Module 1 weeks
 - no clear submission type
 - teacher-reviewed work with no marking checklist
 - free text with no revision path
@@ -921,8 +971,13 @@ Codex should stop and revise if an activity contains:
 - student-facing instructions that sound like teacher notes
 - too many tasks in one screen
 - no answer key for objective items
+- app-checked questions without explicit options or answers
+- image-label tasks without explicit point keys
+- metadata or output mismatch between interaction type, submission type, expected output, and actual item structure
+- audio-answer mismatch between the listening script and app-checked items
 - media references that do not resolve
 - app design notes that do not name the interaction type
+- vague `notes_for_app_design` that do not explain the actual future interaction
 
 ## 28. Execution Summary Additions
 
