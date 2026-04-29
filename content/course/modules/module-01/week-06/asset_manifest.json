@@ -8,7 +8,7 @@
       "title": "Week 6 opener multi-look board",
       "description": "A compact opener board with 3 to 4 clearly different fashion looks that make color, silhouette, and first visual impression easy to notice.",
       "target_filename": "assets/images/module-01/week-06/m01w06-img-001.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w06-a01"
       ],
@@ -22,7 +22,7 @@
       "title": "Color swatch and palette board",
       "description": "One combined board showing basic color swatches and keyed palette examples for warm, cool, neutral, bright, soft, and monochrome.",
       "target_filename": "assets/images/module-01/week-06/m01w06-img-002.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w06-a02"
       ],
@@ -36,7 +36,7 @@
       "title": "Shape, line, and silhouette board",
       "description": "A combined board showing clear keyed examples of line direction, line shape, and garment silhouette comparisons.",
       "target_filename": "assets/images/module-01/week-06/m01w06-img-003.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w06-a03"
       ],
@@ -50,7 +50,7 @@
       "title": "Three-look reading gallery",
       "description": "A reading gallery with three clearly separated looks for matching short visual descriptions to image A, image B, and image C.",
       "target_filename": "assets/images/module-01/week-06/m01w06-img-004.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w06-a04"
       ],
@@ -64,7 +64,7 @@
       "title": "Reusable four-look visual gallery",
       "description": "A reusable gallery with four clearly separated fashion looks for listening, writing, and speaking.",
       "target_filename": "assets/images/module-01/week-06/m01w06-img-005.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w06-a05",
         "m01w06-a06",
@@ -81,7 +81,7 @@
       "title": "Color, shape, and line listening audio",
       "description": "A short Week 6 listening clip describing four looks by palette, color, silhouette, line, and overall impression.",
       "target_filename": "assets/audio/module-01/week-06/m01w06-aud-001.mp3",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w06-a05"
       ],
