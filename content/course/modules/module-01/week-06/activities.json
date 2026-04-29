@@ -1,0 +1,2248 @@
+{
+  "week_id": "m01w06",
+  "activities": [
+    {
+      "activity_id": "m01w06-a01",
+      "week_id": "m01w06",
+      "sequence_number": 1,
+      "title": "Welcome Back: What Do You See First?",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students bridge from Week 5 figure language into Week 6 visual-description language by looking at a small multi-look board and choosing what they notice first: color, silhouette, garment, or contrast.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: What Do You See First?",
+          "summary": "Look at the fashion looks and choose what you notice first.",
+          "instructions": "Look at the small gallery. Choose the correct answer for each quick question about color, silhouette, garment, or contrast.",
+          "success_criteria": [
+            "I can notice one visual feature quickly.",
+            "I can connect one look to one clear color or silhouette idea.",
+            "I can get ready for Week 6 visual language."
+          ],
+          "sentence_frames": [
+            "I notice ___.",
+            "The color is ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: o que você vê primeiro?",
+          "summary": "Observe os looks de moda e escolha o que você percebe primeiro.",
+          "instructions": "Observe a pequena galeria. Escolha a resposta correta para cada pergunta rápida sobre cor, silhueta, roupa ou contraste.",
+          "success_criteria": [
+            "Eu consigo perceber rapidamente uma característica visual.",
+            "Eu consigo relacionar um look a uma ideia clara de cor ou silhueta.",
+            "Eu consigo me preparar para a linguagem visual da Semana 6."
+          ],
+          "sentence_frames": [
+            "I notice ___.",
+            "The color is ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the opener light and fast. The goal is to shift students from naming garments and figure parts to noticing visual elements and overall impression.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "opener multi-look board"
+      ],
+      "vocabulary_refs": [
+        "m01w06-v001",
+        "m01w06-v002",
+        "m01w06-v019",
+        "m01w06-v020",
+        "m01w06-v029",
+        "m01w06-v039"
+      ],
+      "asset_refs": [
+        "m01w06-img-001"
+      ],
+      "input": {
+        "input_type": "visual_preview_quiz",
+        "prompt_en": "Choose the quick visual answers that match the gallery.",
+        "prompt_pt": "Escolha as respostas visuais rápidas que combinam com a galeria.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which look is black and white?",
+            "label_pt": "Qual look é preto e branco?",
+            "asset_id": "m01w06-img-001",
+            "options_en": [
+              "look A",
+              "look B",
+              "look C",
+              "look D"
+            ],
+            "options_pt": [
+              "look A",
+              "look B",
+              "look C",
+              "look D"
+            ],
+            "correct_answer": "look A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which look has a long silhouette?",
+            "label_pt": "Qual look tem uma silhueta longa?",
+            "asset_id": "m01w06-img-001",
+            "options_en": [
+              "look A",
+              "look B",
+              "look C",
+              "look D"
+            ],
+            "options_pt": [
+              "look A",
+              "look B",
+              "look C",
+              "look D"
+            ],
+            "correct_answer": "look C"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which look looks bright and playful?",
+            "label_pt": "Qual look parece vibrante e divertido?",
+            "asset_id": "m01w06-img-001",
+            "options_en": [
+              "look A",
+              "look B",
+              "look C",
+              "look D"
+            ],
+            "options_pt": [
+              "look A",
+              "look B",
+              "look C",
+              "look D"
+            ],
+            "correct_answer": "look D"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which visual idea is new this week?",
+            "label_pt": "Qual ideia visual é nova nesta semana?",
+            "asset_id": "m01w06-img-001",
+            "options_en": [
+              "color palette",
+              "needle",
+              "waistband",
+              "sewing machine"
+            ],
+            "options_pt": [
+              "paleta de cores",
+              "agulha",
+              "cós",
+              "máquina de costura"
+            ],
+            "correct_answer": "color palette"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery",
+          "student_action_en": "Look at the small gallery and notice the colors, silhouettes, and first visual impression.",
+          "student_action_pt": "Observe a pequena galeria e perceba as cores, as silhuetas e a primeira impressão visual.",
+          "teacher_action": "Remind students that this week is about what the look looks like visually, not only what garment it is.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the quick answers",
+          "student_action_en": "Choose the best answer for each short visual question.",
+          "student_action_pt": "Escolha a melhor resposta para cada pergunta visual curta.",
+          "teacher_action": "Keep the pace quick and supportive so the task feels like a preview, not a test.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Four quick recognition selections linking the opener gallery to color, silhouette, and visual-preview language.",
+        "description_pt": "Quatro seleções rápidas de reconhecimento ligando a galeria de abertura à linguagem de cor, silhueta e prévia visual.",
+        "length_or_format": "4 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student notices one clear color or palette idea.",
+          "The student recognizes one silhouette or visual feature.",
+          "The student completes the quick Week 6 preview choices."
+        ],
+        "completion_criteria_pt": [
+          "O aluno percebe uma ideia clara de cor ou paleta.",
+          "O aluno reconhece uma silhueta ou característica visual.",
+          "O aluno completa as escolhas rápidas de prévia da Semana 6."
+        ],
+        "checklist_en": [
+          "I looked carefully at the looks.",
+          "I noticed color or silhouette information.",
+          "I completed the preview questions."
+        ],
+        "checklist_pt": [
+          "Eu observei os looks com atenção.",
+          "Eu percebi informações de cor ou silhueta.",
+          "Eu completei as perguntas de prévia."
+        ],
+        "rubric": [],
+        "model_response_en": "look A, look C, look D, and color palette",
+        "model_response_pt": "look A, look C, look D e paleta de cores",
+        "common_errors": [
+          "Choosing a studio or garment-part word instead of a visual-design word.",
+          "Focusing on one garment only and missing the overall look."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the full look. Which answer names the visual idea instead of the tool or part?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente o look completo. Qual resposta nomeia a ideia visual em vez da ferramenta ou da parte?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students quietly say the Portuguese support word before choosing the English answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence such as The silhouette is long."
+        ]
+      },
+      "extension_options": [
+        "Name one more visual thing you notice without using the options."
+      ],
+      "notes_for_app_design": "Render this as one opener image card with four short single-choice items. Save the selections only. Keep the experience fast and clearly positioned as a bridge into Week 6 visual-description language."
+    },
+    {
+      "activity_id": "m01w06-a02",
+      "week_id": "m01w06",
+      "sequence_number": 2,
+      "title": "Color Vocabulary and Palettes",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students learn the core Week 6 color and palette words by completing one main keyed image-matching set with a visible answer inventory, then using a short Portuguese bridge and one support item after the main matching task.",
+      "student_facing": {
+        "en": {
+          "title": "Color Vocabulary and Palettes",
+          "summary": "Match the color swatches and palette cards to the correct English words.",
+          "instructions": "Match each visible key on the board to the correct English color or palette word from the word bank. After the main matching set, use the Portuguese support and one short extra item.",
+          "success_criteria": [
+            "I can match basic colors to English words.",
+            "I can identify simple palette types.",
+            "I can use Portuguese support after the main matching task."
+          ],
+          "sentence_frames": [
+            "The color is ___.",
+            "The palette is ___.",
+            "The look has ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Vocabulário de cores e paletas",
+          "summary": "Relacione as amostras de cor e os cartões de paleta às palavras corretas em inglês.",
+          "instructions": "Relacione cada chave visível do painel à palavra correta em inglês para cor ou paleta usando o banco de palavras. Depois do conjunto principal de relação, use o apoio em português e um item extra curto.",
+          "success_criteria": [
+            "Eu consigo relacionar cores básicas às palavras em inglês.",
+            "Eu consigo identificar tipos simples de paleta.",
+            "Eu consigo usar o apoio em português depois da tarefa principal de relação."
+          ],
+          "sentence_frames": [
+            "The color is ___.",
+            "The palette is ___.",
+            "The look has ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on the image-match set. The student should see one explicit answer inventory for the A-L keys before saving the main matching set. The Portuguese bridge and short support item should come only after the main matching is complete.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "color swatch and palette board"
+      ],
+      "vocabulary_refs": [
+        "m01w06-v001",
+        "m01w06-v002",
+        "m01w06-v003",
+        "m01w06-v004",
+        "m01w06-v005",
+        "m01w06-v006",
+        "m01w06-v016",
+        "m01w06-v017",
+        "m01w06-v018",
+        "m01w06-v019",
+        "m01w06-v020",
+        "m01w06-v021"
+      ],
+      "asset_refs": [
+        "m01w06-img-002"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the visible keys to the correct English color and palette words from the answer inventory.",
+        "prompt_pt": "Relacione as chaves visíveis às palavras corretas em inglês para cor e paleta usando o inventário de respostas.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match the color swatches and palette cards to the correct words from the answer inventory.",
+            "label_pt": "Relacione as amostras de cor e os cartões de paleta às palavras corretas usando o inventário de respostas.",
+            "asset_id": "m01w06-img-002",
+            "matches": [
+              {
+                "image_key": "A",
+                "answer_en": "black",
+                "answer_pt": "preto"
+              },
+              {
+                "image_key": "B",
+                "answer_en": "white",
+                "answer_pt": "branco"
+              },
+              {
+                "image_key": "C",
+                "answer_en": "red",
+                "answer_pt": "vermelho"
+              },
+              {
+                "image_key": "D",
+                "answer_en": "blue",
+                "answer_pt": "azul"
+              },
+              {
+                "image_key": "E",
+                "answer_en": "green",
+                "answer_pt": "verde"
+              },
+              {
+                "image_key": "F",
+                "answer_en": "yellow",
+                "answer_pt": "amarelo"
+              },
+              {
+                "image_key": "G",
+                "answer_en": "warm palette",
+                "answer_pt": "paleta quente"
+              },
+              {
+                "image_key": "H",
+                "answer_en": "cool palette",
+                "answer_pt": "paleta fria"
+              },
+              {
+                "image_key": "I",
+                "answer_en": "neutral palette",
+                "answer_pt": "paleta neutra"
+              },
+              {
+                "image_key": "J",
+                "answer_en": "bright palette",
+                "answer_pt": "paleta vibrante"
+              },
+              {
+                "image_key": "K",
+                "answer_en": "soft palette",
+                "answer_pt": "paleta suave"
+              },
+              {
+                "image_key": "L",
+                "answer_en": "monochrome palette",
+                "answer_pt": "paleta monocromática"
+              }
+            ],
+            "options_en": [
+              "black",
+              "white",
+              "red",
+              "blue",
+              "green",
+              "yellow",
+              "warm palette",
+              "cool palette",
+              "neutral palette",
+              "bright palette",
+              "soft palette",
+              "monochrome palette"
+            ],
+            "options_pt": [
+              "preto",
+              "branco",
+              "vermelho",
+              "azul",
+              "verde",
+              "amarelo",
+              "paleta quente",
+              "paleta fria",
+              "paleta neutra",
+              "paleta vibrante",
+              "paleta suave",
+              "paleta monocromática"
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support to the English word.",
+            "label_pt": "Relacione o apoio em português à palavra em inglês.",
+            "pairs": [
+              {
+                "pt": "contraste",
+                "en": "contrast"
+              },
+              {
+                "pt": "claro",
+                "en": "light"
+              },
+              {
+                "pt": "escuro",
+                "en": "dark"
+              },
+              {
+                "pt": "paleta de cores",
+                "en": "color palette"
+              }
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which palette is usually black, white, gray, or beige?",
+            "label_pt": "Qual paleta normalmente é preta, branca, cinza ou bege?",
+            "options_en": [
+              "neutral palette",
+              "bright palette",
+              "warm palette"
+            ],
+            "options_pt": [
+              "paleta neutra",
+              "paleta vibrante",
+              "paleta quente"
+            ],
+            "correct_answer": "neutral palette"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the board",
+          "student_action_en": "Look carefully at the swatches and palette cards and notice the visible keys before matching.",
+          "student_action_pt": "Observe com atenção as amostras de cor e os cartões de paleta e perceba as chaves visíveis antes de relacionar.",
+          "teacher_action": "Explain that the main task is matching the keyed visuals to English words.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the main set",
+          "student_action_en": "Match the visible keys to the correct English color and palette words from the answer inventory.",
+          "student_action_pt": "Relacione as chaves visíveis às palavras corretas em inglês para cor e paleta usando o inventário de respostas.",
+          "teacher_action": "Monitor confusion between palette labels such as warm, cool, soft, and bright.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use the support bridge",
+          "student_action_en": "Check a few Portuguese links and complete one short support item.",
+          "student_action_pt": "Confira algumas relações com o português e complete um item curto de apoio.",
+          "teacher_action": "Keep the support items secondary so the main saved output remains matching.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "One main saved image-word matching set for colors and palettes using a visible answer inventory, followed by a short Portuguese bridge and one support item.",
+        "description_pt": "Um conjunto principal salvo de relação imagem-palavra para cores e paletas usando um inventário visível de respostas, seguido por uma ponte curta com o português e um item de apoio.",
+        "length_or_format": "1 scored image-match set as the main saved output, plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main color and palette matching set.",
+          "The student connects visible keys to the correct English words.",
+          "The student may use the Portuguese bridge and support item after the main set."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relação de cor e paleta.",
+          "O aluno relaciona as chaves visíveis às palavras corretas em inglês.",
+          "O aluno pode usar a ponte com o português e o item de apoio depois do conjunto principal."
+        ],
+        "checklist_en": [
+          "I matched the main color board.",
+          "I checked the English words carefully.",
+          "I used the support items after the main task."
+        ],
+        "checklist_pt": [
+          "Eu relacionei o painel principal de cores.",
+          "Eu conferi as palavras em inglês com atenção.",
+          "Eu usei os itens de apoio depois da tarefa principal."
+        ],
+        "rubric": [],
+        "model_response_en": "A black, B white, C red, D blue, E green, F yellow, G warm palette, H cool palette, I neutral palette, J bright palette, K soft palette, and L monochrome palette",
+        "model_response_pt": "A preto, B branco, C vermelho, D azul, E verde, F amarelo, G paleta quente, H paleta fria, I paleta neutra, J paleta vibrante, K paleta suave e L paleta monocromática",
+        "common_errors": [
+          "Confusing bright with warm.",
+          "Choosing a single color when the key shows a full palette card."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Is this one color, or is it a whole palette card?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Isto é uma cor só ou é um cartão de paleta completo?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the Portuguese color word first before selecting the English answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence such as The palette is warm."
+        ]
+      },
+      "extension_options": [
+        "Name one more color or palette idea you know from fashion images outside class."
+      ],
+      "notes_for_app_design": "Render this as one keyed image-match board with a visible answer inventory and a single main saved matching submission. After submission, show the translation bridge and one short support item. Keep the main scored output clearly aligned to matching, with the A-L key strategy matching the asset and image-prompt notes exactly."
+    },
+    {
+      "activity_id": "m01w06-a03",
+      "week_id": "m01w06",
+      "sequence_number": 3,
+      "title": "Shape, Line, and Silhouette",
+      "activity_type": "visual_analysis",
+      "activity_type_custom": "",
+      "summary": "Students learn the core Week 6 line, silhouette, and garment-shape words by completing one main keyed visual-matching set with a visible answer inventory and then using one short support item after the main matching task.",
+      "student_facing": {
+        "en": {
+          "title": "Shape, Line, and Silhouette",
+          "summary": "Match the diagrams and silhouettes to the correct English words.",
+          "instructions": "Match each visible key on the board to the correct English line, silhouette, or garment-shape word from the word bank. After the main matching set, complete one short support item.",
+          "success_criteria": [
+            "I can identify basic line types.",
+            "I can identify basic silhouette and garment-shape words.",
+            "I can connect a visual example to the correct English word."
+          ],
+          "sentence_frames": [
+            "The lines are ___.",
+            "The silhouette is ___.",
+            "The shape is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Forma, linha e silhueta",
+          "summary": "Relacione os diagramas e as silhuetas às palavras corretas em inglês.",
+          "instructions": "Relacione cada chave visível do painel à palavra correta em inglês para linha, silhueta ou forma da roupa usando o banco de palavras. Depois do conjunto principal de relação, complete um item curto de apoio.",
+          "success_criteria": [
+            "Eu consigo identificar tipos básicos de linha.",
+            "Eu consigo identificar palavras básicas de silhueta e forma da roupa.",
+            "Eu consigo relacionar um exemplo visual à palavra correta em inglês."
+          ],
+          "sentence_frames": [
+            "The lines are ___.",
+            "The silhouette is ___.",
+            "The shape is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on matching the keyed board. The student should see one explicit answer inventory for the A-K keys before saving the main matching set. If you discuss line categories or extra examples, keep them clearly secondary.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "shape, line, and silhouette board"
+      ],
+      "vocabulary_refs": [
+        "m01w06-v022",
+        "m01w06-v023",
+        "m01w06-v024",
+        "m01w06-v025",
+        "m01w06-v026",
+        "m01w06-v027",
+        "m01w06-v028",
+        "m01w06-v029",
+        "m01w06-v031",
+        "m01w06-v032",
+        "m01w06-v033",
+        "m01w06-v034",
+        "m01w06-v035",
+        "m01w06-v036",
+        "m01w06-v037",
+        "m01w06-v038"
+      ],
+      "asset_refs": [
+        "m01w06-img-003"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the visible keys to the correct English line, silhouette, and garment-shape words from the answer inventory.",
+        "prompt_pt": "Relacione as chaves visíveis às palavras corretas em inglês para linha, silhueta e forma da roupa usando o inventário de respostas.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match the line, silhouette, and garment-shape examples to the correct words from the answer inventory.",
+            "label_pt": "Relacione os exemplos de linha, silhueta e forma da roupa às palavras corretas usando o inventário de respostas.",
+            "asset_id": "m01w06-img-003",
+            "matches": [
+              {
+                "image_key": "A",
+                "answer_en": "straight line",
+                "answer_pt": "linha reta"
+              },
+              {
+                "image_key": "B",
+                "answer_en": "curved line",
+                "answer_pt": "linha curva"
+              },
+              {
+                "image_key": "C",
+                "answer_en": "vertical line",
+                "answer_pt": "linha vertical"
+              },
+              {
+                "image_key": "D",
+                "answer_en": "horizontal line",
+                "answer_pt": "linha horizontal"
+              },
+              {
+                "image_key": "E",
+                "answer_en": "diagonal line",
+                "answer_pt": "linha diagonal"
+              },
+              {
+                "image_key": "F",
+                "answer_en": "fitted silhouette",
+                "answer_pt": "silhueta ajustada"
+              },
+              {
+                "image_key": "G",
+                "answer_en": "loose silhouette",
+                "answer_pt": "silhueta solta"
+              },
+              {
+                "image_key": "H",
+                "answer_en": "straight silhouette",
+                "answer_pt": "silhueta reta"
+              },
+              {
+                "image_key": "I",
+                "answer_en": "flared silhouette",
+                "answer_pt": "silhueta evasê"
+              },
+              {
+                "image_key": "J",
+                "answer_en": "oversized jacket",
+                "answer_pt": "jaqueta oversized"
+              },
+              {
+                "image_key": "K",
+                "answer_en": "cropped top",
+                "answer_pt": "top cropped"
+              }
+            ],
+            "options_en": [
+              "straight line",
+              "curved line",
+              "vertical line",
+              "horizontal line",
+              "diagonal line",
+              "fitted silhouette",
+              "loose silhouette",
+              "straight silhouette",
+              "flared silhouette",
+              "oversized jacket",
+              "cropped top"
+            ],
+            "options_pt": [
+              "linha reta",
+              "linha curva",
+              "linha vertical",
+              "linha horizontal",
+              "linha diagonal",
+              "silhueta ajustada",
+              "silhueta solta",
+              "silhueta reta",
+              "silhueta evasê",
+              "jaqueta oversized",
+              "top cropped"
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which line goes from top to bottom?",
+            "label_pt": "Qual linha vai de cima para baixo?",
+            "options_en": [
+              "vertical line",
+              "horizontal line",
+              "curved line"
+            ],
+            "options_pt": [
+              "linha vertical",
+              "linha horizontal",
+              "linha curva"
+            ],
+            "correct_answer": "vertical line"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the board",
+          "student_action_en": "Look at the line diagrams and silhouette examples and notice the visible keys before matching.",
+          "student_action_pt": "Observe os diagramas de linha e os exemplos de silhueta e perceba as chaves visíveis antes de relacionar.",
+          "teacher_action": "Point out that the main task is matching the visible examples to the correct English words.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the main set",
+          "student_action_en": "Match the visible keys to the correct line, silhouette, and garment-shape words from the answer inventory.",
+          "student_action_pt": "Relacione as chaves visíveis às palavras corretas para linha, silhueta e forma da roupa usando o inventário de respostas.",
+          "teacher_action": "Monitor confusion between straight line and straight silhouette, and between loose and oversized.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Complete the support check",
+          "student_action_en": "Complete one short support question after the main matching set.",
+          "student_action_pt": "Complete uma pergunta curta de apoio depois do conjunto principal de relação.",
+          "teacher_action": "Keep the support question secondary so the main saved output remains matching.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "One main saved matching set connecting visible line, silhouette, and garment-shape keys to the correct English words from a visible answer inventory, followed by one short support check.",
+        "description_pt": "Um conjunto principal salvo de relação ligando chaves visíveis de linha, silhueta e forma da roupa às palavras corretas em inglês a partir de um inventário visível de respostas, seguido por uma verificação curta de apoio.",
+        "length_or_format": "1 scored image-match set as the main saved output, plus 1 support check"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main shape-line-silhouette matching set.",
+          "The student matches visible keys to correct English words.",
+          "The student completes the short support check after the main task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relação de forma-linha-silhueta.",
+          "O aluno relaciona as chaves visíveis às palavras corretas em inglês.",
+          "O aluno completa a verificação curta de apoio depois da tarefa principal."
+        ],
+        "checklist_en": [
+          "I matched the main visual board.",
+          "I checked the line and silhouette words carefully.",
+          "I completed the support check."
+        ],
+        "checklist_pt": [
+          "Eu relacionei o painel visual principal.",
+          "Eu conferi com atenção as palavras de linha e silhueta.",
+          "Eu completei a verificação de apoio."
+        ],
+        "rubric": [],
+        "model_response_en": "A straight line, B curved line, C vertical line, D horizontal line, E diagonal line, F fitted silhouette, G loose silhouette, H straight silhouette, I flared silhouette, J oversized jacket, and K cropped top",
+        "model_response_pt": "A linha reta, B linha curva, C linha vertical, D linha horizontal, E linha diagonal, F silhueta ajustada, G silhueta solta, H silhueta reta, I silhueta evasê, J jaqueta oversized e K top cropped",
+        "common_errors": [
+          "Confusing line direction with garment shape.",
+          "Choosing oversized when the image shows loose, not clearly oversized."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Is this example a line direction or a garment shape?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Este exemplo mostra direção de linha ou forma da roupa?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Point to the line direction with your finger while reading the options."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one sentence such as The silhouette is flared."
+        ]
+      },
+      "extension_options": [
+        "Find one more curved or straight line in another fashion image outside the task."
+      ],
+      "notes_for_app_design": "Render this as one keyed board with a visible answer inventory and a single main matching submission. If a category or support question appears, place it after the main matching is saved so the primary output remains matching. Keep the A-K key strategy aligned exactly with the asset and image-prompt notes."
+    },
+    {
+      "activity_id": "m01w06-a04",
+      "week_id": "m01w06",
+      "sequence_number": 4,
+      "title": "Read: Three Visual Look Descriptions",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read three short English descriptions of looks and match them to image A, image B, or image C, then answer a few detail questions about palette, silhouette, and garment features.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Three Visual Look Descriptions",
+          "summary": "Read the short descriptions and choose the correct image.",
+          "instructions": "Read each short look description. Match it to image A, image B, or image C, then answer the detail questions.",
+          "success_criteria": [
+            "I can match a short text to the correct image.",
+            "I can find one important detail in the description.",
+            "I can read color and silhouette words in context."
+          ],
+          "sentence_frames": [
+            "The look has ___.",
+            "The silhouette is ___.",
+            "The palette is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Leia: três descrições visuais de looks",
+          "summary": "Leia as descrições curtas e escolha a imagem correta.",
+          "instructions": "Leia cada descrição curta do look. Relacione-a à image A, image B ou image C e depois responda às perguntas de detalhe.",
+          "success_criteria": [
+            "Eu consigo relacionar um texto curto à imagem correta.",
+            "Eu consigo encontrar um detalhe importante na descrição.",
+            "Eu consigo ler palavras de cor e silhueta em contexto."
+          ],
+          "sentence_frames": [
+            "The look has ___.",
+            "The silhouette is ___.",
+            "The palette is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the reading short and visual. The goal is recognition of visual-description language, not long reading stamina.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "three-look reading gallery"
+      ],
+      "vocabulary_refs": [
+        "m01w06-v001",
+        "m01w06-v002",
+        "m01w06-v007",
+        "m01w06-v014",
+        "m01w06-v015",
+        "m01w06-v016",
+        "m01w06-v019",
+        "m01w06-v020",
+        "m01w06-v025",
+        "m01w06-v029",
+        "m01w06-v033",
+        "m01w06-v036",
+        "m01w06-v038",
+        "m01w06-v040",
+        "m01w06-v042"
+      ],
+      "asset_refs": [
+        "m01w06-img-004"
+      ],
+      "input": {
+        "input_type": "reading_with_keyed_gallery",
+        "prompt_en": "Read the three descriptions and choose image A, image B, or image C.",
+        "prompt_pt": "Leia as três descrições e escolha image A, image B ou image C.",
+        "items": [
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Text A: This look has a black and white color palette. The jacket is black, and the shirt is white. The silhouette is straight and modern. The look has strong contrast.",
+            "label_pt": "Texto A: This look has a black and white color palette. The jacket is black, and the shirt is white. The silhouette is straight and modern. The look has strong contrast.",
+            "asset_id": "m01w06-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Text B: This is a soft, warm look. The dress is light orange and beige. The silhouette is loose and comfortable. The lines are curved and simple.",
+            "label_pt": "Texto B: This is a soft, warm look. The dress is light orange and beige. The silhouette is loose and comfortable. The lines are curved and simple.",
+            "asset_id": "m01w06-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Text C: This look has a bright color palette. The top is pink, and the pants are blue. The pants are wide, and the top is cropped. The look is playful and modern.",
+            "label_pt": "Texto C: This look has a bright color palette. The top is pink, and the pants are blue. The pants are wide, and the top is cropped. The look is playful and modern.",
+            "asset_id": "m01w06-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which look has strong contrast?",
+            "label_pt": "Qual look tem contraste forte?",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What color are the pants in Text C?",
+            "label_pt": "De que cor é a calça no Texto C?",
+            "options_en": [
+              "blue",
+              "black",
+              "orange"
+            ],
+            "options_pt": [
+              "azul",
+              "preta",
+              "laranja"
+            ],
+            "correct_answer": "blue"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the gallery first",
+          "student_action_en": "Look at image A, image B, and image C before reading the texts.",
+          "student_action_pt": "Observe a image A, a image B e a image C antes de ler os textos.",
+          "teacher_action": "Tell students to notice palette, silhouette, and one garment clue in each image first.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Read and match the texts",
+          "student_action_en": "Read each short description and choose the correct image key.",
+          "student_action_pt": "Leia cada descrição curta e escolha a chave de imagem correta.",
+          "teacher_action": "Encourage students to match using clear visual clues, not translation word by word.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the details",
+          "student_action_en": "Answer the detail questions about contrast and color.",
+          "student_action_pt": "Responda às perguntas de detalhe sobre contraste e cor.",
+          "teacher_action": "Use the detail questions to reinforce careful reading of visual-description vocabulary.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_selections",
+        "description_en": "Three image-key choices and two short detail answers based on the visual look descriptions.",
+        "description_pt": "Três escolhas de chave de imagem e duas respostas curtas de detalhe com base nas descrições visuais dos looks.",
+        "length_or_format": "5 app-checked selections"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student matches the three texts to the correct keyed images.",
+          "The student answers the detail questions.",
+          "The student uses visual clues from color and silhouette language."
+        ],
+        "completion_criteria_pt": [
+          "O aluno relaciona os três textos às imagens com chave correta.",
+          "O aluno responde às perguntas de detalhe.",
+          "O aluno usa pistas visuais da linguagem de cor e silhueta."
+        ],
+        "checklist_en": [
+          "I looked at the gallery first.",
+          "I matched each text to an image key.",
+          "I checked the details after matching."
+        ],
+        "checklist_pt": [
+          "Eu observei a galeria primeiro.",
+          "Eu relacionei cada texto a uma chave de imagem.",
+          "Eu conferi os detalhes depois de relacionar."
+        ],
+        "rubric": [],
+        "model_response_en": "Text A image A, Text B image B, Text C image C, strong contrast image A, and blue pants in Text C",
+        "model_response_pt": "Texto A image A, Texto B image B, Texto C image C, contraste forte na image A e calça azul no Texto C",
+        "common_errors": [
+          "Choosing by one color word only and missing the silhouette clue.",
+          "Mixing image B and image C because both are colorful."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the whole sentence. What do the palette and silhouette tell you together?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente a frase completa. O que a paleta e a silhueta dizem juntas?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the image while reading the key words in the text."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one reason sentence such as I chose image B because the palette is warm."
+        ]
+      },
+      "extension_options": [
+        "Write one more short detail sentence for one image using Week 6 words."
+      ],
+      "notes_for_app_design": "Render this as a keyed reading gallery with image A, B, and C visible at all times. Save selections for each text and each detail question. Keep the keyed-image strategy consistent across the asset notes and answer data."
+    },
+    {
+      "activity_id": "m01w06-a05",
+      "week_id": "m01w06",
+      "sequence_number": 5,
+      "title": "Listen: Color, Shape, and Line",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to four short spoken descriptions of looks and identify the correct image or key visual detail using the shared four-look gallery.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Color, Shape, and Line",
+          "summary": "Listen to the four look descriptions and choose the correct image or detail.",
+          "instructions": "Look at image A, image B, image C, and image D. Listen to the audio and choose the correct image or detail answer for each question.",
+          "success_criteria": [
+            "I can identify a look from a short audio description.",
+            "I can hear color, silhouette, and line words in context.",
+            "I can connect numbered audio information to the correct image key."
+          ],
+          "sentence_frames": [
+            "The palette is ___.",
+            "The silhouette is ___.",
+            "The lines are ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Escute: cor, forma e linha",
+          "summary": "Escute as quatro descrições de looks e escolha a imagem ou o detalhe correto.",
+          "instructions": "Observe a image A, a image B, a image C e a image D. Escute o áudio e escolha a imagem ou a resposta de detalhe correta para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo identificar um look a partir de uma descrição curta em áudio.",
+            "Eu consigo ouvir palavras de cor, silhueta e linha em contexto.",
+            "Eu consigo relacionar informações numeradas do áudio à chave de imagem correta."
+          ],
+          "sentence_frames": [
+            "The palette is ___.",
+            "The silhouette is ___.",
+            "The lines are ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the audio and image keys fully aligned. Do not add any question that asks for information not stated clearly in the script.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "four-look gallery",
+        "Week 6 listening audio"
+      ],
+      "vocabulary_refs": [
+        "m01w06-v004",
+        "m01w06-v005",
+        "m01w06-v007",
+        "m01w06-v009",
+        "m01w06-v014",
+        "m01w06-v017",
+        "m01w06-v020",
+        "m01w06-v025",
+        "m01w06-v029",
+        "m01w06-v030",
+        "m01w06-v032",
+        "m01w06-v035",
+        "m01w06-v036",
+        "m01w06-v037",
+        "m01w06-v038",
+        "m01w06-v041",
+        "m01w06-v042"
+      ],
+      "asset_refs": [
+        "m01w06-img-005",
+        "m01w06-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_with_keyed_gallery",
+        "prompt_en": "Listen to the four descriptions and choose the correct image or detail answer.",
+        "prompt_pt": "Escute as quatro descrições e escolha a imagem ou a resposta de detalhe correta.",
+        "items": [
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image is Number One?",
+            "label_pt": "Qual imagem é o Número Um?",
+            "asset_id": "m01w06-aud-001",
+            "image_asset_id": "m01w06-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image is Number Two?",
+            "label_pt": "Qual imagem é o Número Dois?",
+            "asset_id": "m01w06-aud-001",
+            "image_asset_id": "m01w06-img-005",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image has a flared skirt?",
+            "label_pt": "Qual imagem tem uma saia evas??",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image C",
+            "asset_id": "m01w06-aud-001",
+            "image_asset_id": "m01w06-img-005"
+          },
+          {
+            "response_type": "true_false",
+            "label_en": "Number Two has strong contrast.",
+            "label_pt": "O Número Dois tem contraste forte.",
+            "correct_answer": true,
+            "asset_id": "m01w06-aud-001",
+            "image_asset_id": "m01w06-img-005"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What color is the top in Number Four?",
+            "label_pt": "De que cor é o top no Número Quatro?",
+            "options_en": [
+              "yellow",
+              "pink",
+              "blue"
+            ],
+            "options_pt": [
+              "amarelo",
+              "rosa",
+              "azul"
+            ],
+            "correct_answer": "yellow",
+            "asset_id": "m01w06-aud-001",
+            "image_asset_id": "m01w06-img-005"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery first",
+          "student_action_en": "Look at image A, image B, image C, and image D before playing the audio.",
+          "student_action_pt": "Observe a image A, a image B, a image C e a image D antes de tocar o áudio.",
+          "teacher_action": "Tell students to notice color, silhouette, and one detail in each look before listening.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen and choose",
+          "student_action_en": "Listen to the numbered descriptions and choose the correct image or detail answer.",
+          "student_action_pt": "Escute as descrições numeradas e escolha a imagem ou a resposta de detalhe correta.",
+          "teacher_action": "Allow replay and remind students to connect each numbered description to a visible image key.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the details",
+          "student_action_en": "Answer the final detail questions after listening again if needed.",
+          "student_action_pt": "Responda às perguntas finais de detalhe depois de escutar novamente, se necessário.",
+          "teacher_action": "Keep the focus on what the audio says clearly rather than on guessing from style alone.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Five app-checked listening selections linked to one audio clip and the four-look image gallery.",
+        "description_pt": "Cinco seleções de escuta verificadas pelo app ligadas a um áudio e à galeria de quatro looks.",
+        "length_or_format": "5 app-checked answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student uses the numbered audio descriptions to identify the correct looks.",
+          "The student answers the detail questions accurately.",
+          "The student connects audio details to the visible image keys."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa as descrições numeradas do áudio para identificar os looks corretos.",
+          "O aluno responde às perguntas de detalhe com precisão.",
+          "O aluno relaciona os detalhes do áudio às chaves visíveis das imagens."
+        ],
+        "checklist_en": [
+          "I looked at the gallery before listening.",
+          "I used the image keys while listening.",
+          "I checked the detail questions carefully."
+        ],
+        "checklist_pt": [
+          "Eu observei a galeria antes de escutar.",
+          "Eu usei as chaves das imagens enquanto escutava.",
+          "Eu conferi as perguntas de detalhe com atenção."
+        ],
+        "rubric": [],
+        "model_response_en": "Number One image A, Number Two image B, flared skirt image C, Number Two true, and yellow top in Number Four",
+        "model_response_pt": "Número Um image A, Número Dois image B, saia evasê na image C, Número Dois verdadeiro e top amarelo no Número Quatro",
+        "common_errors": [
+          "Choosing by one familiar color word only and missing the silhouette clue.",
+          "Mixing image C and image D because both are colorful."
+        ],
+        "feedback_prompts_en": [
+          "Listen again. Which color and silhouette words help you choose the image?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente. Quais palavras de cor e silhueta ajudam você a escolher a imagem?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the image key while listening the second time."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one sentence after listening, such as The palette is cool."
+        ]
+      },
+      "extension_options": [
+        "Write one more short detail sentence about your favorite listening image."
+      ],
+      "notes_for_app_design": "Render this as an audio player plus a keyed gallery with image A-D visible at all times. Save selection answers only. Allow replay. Keep the script, image keys, options, and model response fully aligned, and reveal the script only through audio_prompts.json after the activity if needed."
+    },
+    {
+      "activity_id": "m01w06-a06",
+      "week_id": "m01w06",
+      "sequence_number": 6,
+      "title": "Phrase Practice: A Long Black Dress",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students practice adjective order and core Week 6 look-description frames by completing fill-blank items, with one short correction-style prompt used only as support after the main phrase completion.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: A Long Black Dress",
+          "summary": "Complete the sentence frames for color, silhouette, and adjective order.",
+          "instructions": "Read each frame and complete the missing word or phrase. Use the word bank and the look gallery when needed.",
+          "success_criteria": [
+            "I can complete simple look-description frames.",
+            "I can use adjective order in a garment phrase.",
+            "I can describe color, silhouette, and line with short phrases."
+          ],
+          "sentence_frames": [
+            "The palette is ___.",
+            "The silhouette is long and ___.",
+            "This is a ___ ___ dress."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Prática de frases: a long black dress",
+          "summary": "Complete as estruturas de frase para cor, silhueta e ordem dos adjetivos.",
+          "instructions": "Leia cada estrutura e complete a palavra ou expressão que falta. Use o banco de palavras e a galeria de looks quando precisar.",
+          "success_criteria": [
+            "Eu consigo completar estruturas simples de descrição de look.",
+            "Eu consigo usar a ordem dos adjetivos em uma expressão de roupa.",
+            "Eu consigo descrever cor, silhueta e linha com frases curtas."
+          ],
+          "sentence_frames": [
+            "The palette is ___.",
+            "The silhouette is long and ___.",
+            "This is a ___ ___ dress."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output as fill-blank phrase completion. If you discuss corrections, keep them clearly secondary and tied back to the fill-blank frames.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "look gallery",
+        "sentence frames"
+      ],
+      "vocabulary_refs": [
+        "m01w06-v014",
+        "m01w06-v015",
+        "m01w06-v016",
+        "m01w06-v019",
+        "m01w06-v024",
+        "m01w06-v029",
+        "m01w06-v030",
+        "m01w06-v033",
+        "m01w06-v034",
+        "m01w06-v035",
+        "m01w06-v043",
+        "m01w06-v044"
+      ],
+      "asset_refs": [
+        "m01w06-img-005"
+      ],
+      "input": {
+        "input_type": "fill_blank_frames",
+        "prompt_en": "Complete the Week 6 phrase frames with the correct word or phrase.",
+        "prompt_pt": "Complete as estruturas de frase da Semana 6 com a palavra ou expressão correta.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "The color palette is ___.",
+            "sentence_frame_pt": "The color palette is ___.",
+            "word_bank": [
+              "warm",
+              "sketch",
+              "needle"
+            ],
+            "accepted_answers": [
+              "warm"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "The silhouette is long and ___.",
+            "sentence_frame_pt": "The silhouette is long and ___.",
+            "word_bank": [
+              "straight",
+              "button",
+              "scissors"
+            ],
+            "accepted_answers": [
+              "straight"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the phrase with adjective order.",
+            "label_pt": "Complete a expressão com ordem correta dos adjetivos.",
+            "sentence_frame_en": "This is a ___ ___ dress.",
+            "sentence_frame_pt": "This is a ___ ___ dress.",
+            "word_bank": [
+              "long",
+              "black",
+              "warm"
+            ],
+            "accepted_answers": [
+              "long black"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "The lines are ___.",
+            "sentence_frame_pt": "The lines are ___.",
+            "word_bank": [
+              "curved",
+              "neutral",
+              "cropped"
+            ],
+            "accepted_answers": [
+              "curved"
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which phrase is correct?",
+            "label_pt": "Qual expressão está correta?",
+            "options_en": [
+              "a long black dress",
+              "a black long dress",
+              "a dress black long"
+            ],
+            "options_pt": [
+              "a long black dress",
+              "a black long dress",
+              "a dress black long"
+            ],
+            "correct_answer": "a long black dress"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the frames",
+          "student_action_en": "Read the sentence frames and look at the word bank before filling the blanks.",
+          "student_action_pt": "Leia as estruturas de frase e observe o banco de palavras antes de preencher as lacunas.",
+          "teacher_action": "Remind students that the main goal is to complete the frames correctly, not to write long answers.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the blanks",
+          "student_action_en": "Fill the blanks with the correct words or phrase.",
+          "student_action_pt": "Preencha as lacunas com as palavras ou a expressão corretas.",
+          "teacher_action": "Monitor adjective order and the use of Week 6 visual words.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the phrase pattern",
+          "student_action_en": "Choose the correct adjective-order phrase at the end.",
+          "student_action_pt": "Escolha a expressão correta de ordem dos adjetivos ao final.",
+          "teacher_action": "Use the final phrase choice to reinforce the pattern long plus color plus garment.",
+          "estimated_minutes": 2,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "fill_blank_frames",
+        "description_en": "Completed look-description frames with one short adjective-order check as support.",
+        "description_pt": "Estruturas de descrição de look preenchidas com uma verificação curta de ordem dos adjetivos como apoio.",
+        "length_or_format": "4 fill-blank answers and 1 support selection"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes the fill-blank phrase frames.",
+          "The student uses the main Week 6 color and silhouette words correctly.",
+          "The student recognizes the correct adjective-order phrase."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as estruturas de frase com lacunas.",
+          "O aluno usa corretamente as principais palavras de cor e silhueta da Semana 6.",
+          "O aluno reconhece a expressão correta de ordem dos adjetivos."
+        ],
+        "checklist_en": [
+          "I completed the phrase frames.",
+          "I checked the word order.",
+          "I used the visual word bank."
+        ],
+        "checklist_pt": [
+          "Eu completei as estruturas de frase.",
+          "Eu conferi a ordem das palavras.",
+          "Eu usei o banco de palavras visuais."
+        ],
+        "rubric": [],
+        "model_response_en": "warm, straight, long black, curved, and a long black dress",
+        "model_response_pt": "warm, straight, long black, curved e a long black dress",
+        "common_errors": [
+          "Using the right words but in the wrong order.",
+          "Choosing a palette word when the frame asks for a line or silhouette word."
+        ],
+        "feedback_prompts_en": [
+          "Read the full frame again. Does it ask for color, silhouette, or line?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia novamente a estrutura completa. Ela pede cor, silhueta ou linha?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Keep the look gallery visible while students complete the frames."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one completed frame aloud after finishing."
+        ]
+      },
+      "extension_options": [
+        "Write one extra phrase for your favorite image from the gallery."
+      ],
+      "notes_for_app_design": "Render this as a fill-blank activity with word-bank support. Save the phrase completions as the main output. If a correction-style check appears, keep it clearly secondary so the primary saved output remains fill-blank phrase completion."
+    },
+    {
+      "activity_id": "m01w06-a07",
+      "week_id": "m01w06",
+      "sequence_number": 7,
+      "title": "Color + Shape Look Description",
+      "activity_type": "design_description",
+      "activity_type_custom": "",
+      "summary": "Students choose one look from the gallery and complete a teacher-reviewed structured writing card with 6 required sentence-frame lines and 1 optional challenge sentence about palette, garments, silhouette, lines, and overall impression.",
+      "student_facing": {
+        "en": {
+          "title": "Color + Shape Look Description",
+          "summary": "Choose one look and complete the description card in short English lines.",
+          "instructions": "Choose one look from the gallery. Complete the 6 required sentence-frame lines about the palette, garments, silhouette, lines, and overall impression. Add the optional challenge sentence only if you are ready.",
+          "success_criteria": [
+            "I can describe one look with short guided sentences.",
+            "I can include palette, garment, silhouette, and line information.",
+            "I can check one sentence and improve it after feedback."
+          ],
+          "sentence_frames": [
+            "Required 1: This is a look / sketch / fashion figure.",
+            "Required 2: The color palette is ___.",
+            "Required 3: The figure is wearing ___.",
+            "Required 4: The silhouette is ___.",
+            "Required 5: The lines are ___.",
+            "Required 6: The look is ___.",
+            "Optional challenge: I like the ___ because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Descrição de look com cor e forma",
+          "summary": "Escolha um look e complete o cartão de descrição em linhas curtas em inglês.",
+          "instructions": "Escolha um look da galeria. Complete as 6 linhas obrigatórias com estruturas de frase sobre paleta, roupas, silhueta, linhas e impressão geral. Acrescente a frase opcional de desafio apenas se estiver pronto.",
+          "success_criteria": [
+            "Eu consigo descrever um look com frases curtas guiadas.",
+            "Eu consigo incluir informações de paleta, roupa, silhueta e linha.",
+            "Eu consigo conferir uma frase e melhorá-la depois do feedback."
+          ],
+          "sentence_frames": [
+            "Obrigatória 1: This is a look / sketch / fashion figure.",
+            "Obrigatória 2: The color palette is ___.",
+            "Obrigatória 3: The figure is wearing ___.",
+            "Obrigatória 4: The silhouette is ___.",
+            "Obrigatória 5: The lines are ___.",
+            "Obrigatória 6: The look is ___.",
+            "Desafio opcional: I like the ___ because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep this as a structured writing card, not a paragraph. Require exactly 6 short lines and allow 1 optional challenge line only. Use the checklist and feedback prompts to support a small revision cycle.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "vocabulary",
+        "grammar",
+        "professional_communication",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "four-look gallery",
+        "structured writing card",
+        "sentence frames"
+      ],
+      "vocabulary_refs": [
+        "m01w06-v001",
+        "m01w06-v002",
+        "m01w06-v004",
+        "m01w06-v005",
+        "m01w06-v007",
+        "m01w06-v009",
+        "m01w06-v014",
+        "m01w06-v015",
+        "m01w06-v016",
+        "m01w06-v017",
+        "m01w06-v018",
+        "m01w06-v019",
+        "m01w06-v020",
+        "m01w06-v025",
+        "m01w06-v029",
+        "m01w06-v030",
+        "m01w06-v031",
+        "m01w06-v033",
+        "m01w06-v034",
+        "m01w06-v035",
+        "m01w06-v036",
+        "m01w06-v037",
+        "m01w06-v038",
+        "m01w06-v039",
+        "m01w06-v040",
+        "m01w06-v041",
+        "m01w06-v042",
+        "m01w06-v044"
+      ],
+      "asset_refs": [
+        "m01w06-img-005"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Choose one look and complete the Week 6 description card with 6 required short English lines and 1 optional challenge line.",
+        "prompt_pt": "Escolha um look e complete o cartão de descrição da Semana 6 com 6 linhas curtas obrigatórias em inglês e 1 linha opcional de desafio.",
+        "items": [
+          {
+            "label_en": "Choose image A, B, C, or D.",
+            "label_pt": "Escolha image A, B, C ou D."
+          },
+          {
+            "label_en": "Complete these 6 required lines: This is a look. The color palette is ___. The figure is wearing ___. The silhouette is ___. The lines are ___. The look is ___.",
+            "label_pt": "Complete estas 6 linhas obrigatórias: This is a look. The color palette is ___. The figure is wearing ___. The silhouette is ___. The lines are ___. The look is ___."
+          },
+          {
+            "label_en": "Optional challenge line: I like the ___ because ___.",
+            "label_pt": "Linha opcional de desafio: I like the ___ because ___."
+          },
+          {
+            "label_en": "Use palette, garment, silhouette, line, and impression words.",
+            "label_pt": "Use palavras de paleta, roupa, silhueta, linha e impressão."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose one look",
+          "student_action_en": "Choose image A, image B, image C, or image D from the gallery.",
+          "student_action_pt": "Escolha a image A, a image B, a image C ou a image D da galeria.",
+          "teacher_action": "Help students choose a visually clear look if they need more support.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the required lines",
+          "student_action_en": "Write the 6 required sentence-frame lines about the palette, garments, silhouette, lines, and impression.",
+          "student_action_pt": "Escreva as 6 linhas obrigatórias com estruturas de frase sobre paleta, roupas, silhueta, linhas e impressão.",
+          "teacher_action": "Remind students to keep each line short and focused on one idea.",
+          "estimated_minutes": 11,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge only if ready",
+          "student_action_en": "Add the optional challenge sentence only if you are ready.",
+          "student_action_pt": "Acrescente a frase opcional de desafio apenas se estiver pronto.",
+          "teacher_action": "Keep the challenge optional so the base task stays A2-accessible.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 4,
+          "title": "Check and submit",
+          "student_action_en": "Read your lines again and submit the card.",
+          "student_action_pt": "Leia suas linhas novamente e envie o cartão.",
+          "teacher_action": "Prompt students to check adjective order and The color palette is before submission.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_look_description",
+        "description_en": "A scaffolded look-description card with 6 required sentence-frame lines and 1 optional challenge sentence.",
+        "description_pt": "Um cartão de descrição de look com 6 linhas obrigatórias com estruturas de frase e 1 frase opcional de desafio.",
+        "length_or_format": "6 required short lines plus 1 optional challenge sentence"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student completes the 6 required sentence-frame lines.",
+          "The student includes palette, garment, silhouette, line, and impression information.",
+          "The student uses Week 6 vocabulary clearly enough for teacher feedback and revision."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as 6 linhas obrigatórias com estruturas de frase.",
+          "O aluno inclui informações de paleta, roupa, silhueta, linha e impressão.",
+          "O aluno usa o vocabulário da Semana 6 com clareza suficiente para feedback e revisão do professor."
+        ],
+        "checklist_en": [
+          "The card names one chosen image or look.",
+          "The card describes the color palette.",
+          "The card includes a garment sentence.",
+          "The card includes a silhouette sentence.",
+          "The card includes a line or shape sentence.",
+          "The card includes one impression sentence.",
+          "The optional challenge sentence is used only if the student chooses to add it.",
+          "The language is understandable in short lines."
+        ],
+        "checklist_pt": [
+          "O cartão nomeia uma imagem ou um look escolhido.",
+          "O cartão descreve a paleta de cores.",
+          "O cartão inclui uma frase sobre a roupa.",
+          "O cartão inclui uma frase sobre a silhueta.",
+          "O cartão inclui uma frase sobre linha ou forma.",
+          "O cartão inclui uma frase de impressão.",
+          "A frase opcional de desafio é usada apenas se o aluno escolher acrescentá-la.",
+          "A linguagem é compreensível em linhas curtas."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a look. The color palette is cool. The figure is wearing a blue and green dress. The silhouette is long and straight. The lines are simple. The look is modern. I like the palette because it is clear.",
+        "model_response_pt": "Este é um look. A paleta de cores é fria. A figura está vestindo um vestido azul e verde. A silhueta é longa e reta. As linhas são simples. O look é moderno. Eu gosto da paleta porque ela é clara.",
+        "common_errors": [
+          "Using paragraph-style writing instead of short guided lines.",
+          "Writing a black long dress instead of a long black dress.",
+          "Using The pants is instead of The pants are.",
+          "Missing The color palette is and writing only color words without a sentence frame.",
+          "Giving a broad opinion without naming visible features."
+        ],
+        "feedback_prompts_en": [
+          "Add the missing required line before you revise the optional challenge sentence.",
+          "Check the adjective order in your garment phrase.",
+          "Add one clearer required line about the silhouette or the lines.",
+          "Fix one grammar detail and submit the card again."
+        ],
+        "feedback_prompts_pt": [
+          "Acrescente a linha obrigatória que falta antes de revisar a frase opcional de desafio.",
+          "Confira a ordem dos adjetivos na sua expressão de roupa.",
+          "Acrescente uma linha obrigatória mais clara sobre a silhueta ou as linhas.",
+          "Corrija um detalhe de gramática e envie o cartão novamente."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Keep all 6 required lines, but allow a short phrase in the impression line if needed and skip the optional challenge sentence."
+        ],
+        "challenge": [
+          "Invite stronger learners to add the optional challenge sentence comparing two visual features."
+        ]
+      },
+      "extension_options": [
+        "Turn one line from the card into a speaking note for the teacher session."
+      ],
+      "notes_for_app_design": "Render this as a teacher-reviewed structured writing card with separate saved line fields, not a paragraph text box. Require exactly 6 saved line fields and show 1 separate optional challenge field. Show the teacher the checklist, common errors, feedback prompts, and a return-for-revision workflow."
+    },
+    {
+      "activity_id": "m01w06-a08",
+      "week_id": "m01w06",
+      "sequence_number": 8,
+      "title": "Review and Improve: Adjective Order and Color Words",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students review one common Week 6 sentence problem and save one corrected visual-description sentence they can transfer into the writing card.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Adjective Order and Color Words",
+          "summary": "Choose one correction card and write the improved sentence.",
+          "instructions": "Choose one correction card, notice the problem, and write the corrected sentence clearly.",
+          "success_criteria": [
+            "I can notice one common Week 6 sentence problem.",
+            "I can write one corrected sentence clearly.",
+            "I can use the correction to improve my own look description."
+          ],
+          "sentence_frames": [
+            "The color palette is ___.",
+            "The silhouette is ___.",
+            "I like the ___ because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Revise e melhore: ordem dos adjetivos e palavras de cor",
+          "summary": "Escolha um cartão de correção e escreva a frase melhorada.",
+          "instructions": "Escolha um cartão de correção, perceba o problema e escreva a frase corrigida com clareza.",
+          "success_criteria": [
+            "Eu consigo perceber um problema comum de frase da Semana 6.",
+            "Eu consigo escrever uma frase corrigida com clareza.",
+            "Eu consigo usar a correção para melhorar minha própria descrição de look."
+          ],
+          "sentence_frames": [
+            "The color palette is ___.",
+            "The silhouette is ___.",
+            "I like the ___ because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep one narrow correction target per card. The goal is transfer back into the Week 6 look-description card, not broad grammar explanation.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "critical_thinking"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w06-v007",
+        "m01w06-v019",
+        "m01w06-v020",
+        "m01w06-v029",
+        "m01w06-v035",
+        "m01w06-v039",
+        "m01w06-v040",
+        "m01w06-v044"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "correction_cards",
+        "prompt_en": "Choose one Week 6 sentence and write the corrected version.",
+        "prompt_pt": "Escolha uma frase da Semana 6 e escreva a versão corrigida.",
+        "items": [
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the adjective order.",
+            "label_pt": "Corrija a ordem dos adjetivos.",
+            "incorrect_sentence": "This is a dress black long.",
+            "correct_sentence": "This is a long black dress.",
+            "accepted_answers": [
+              "This is a long black dress."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the plural agreement.",
+            "label_pt": "Corrija a concordância no plural.",
+            "incorrect_sentence": "The pants is blue.",
+            "correct_sentence": "The pants are blue.",
+            "accepted_answers": [
+              "The pants are blue."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the palette sentence.",
+            "label_pt": "Corrija a frase da paleta.",
+            "incorrect_sentence": "The color palette are warm.",
+            "correct_sentence": "The color palette is warm.",
+            "accepted_answers": [
+              "The color palette is warm."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the reason sentence.",
+            "label_pt": "Corrija a frase de justificativa.",
+            "incorrect_sentence": "I like because is modern.",
+            "correct_sentence": "I like it because it is modern.",
+            "accepted_answers": [
+              "I like it because it is modern."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose a correction card",
+          "student_action_en": "Read one incorrect sentence and notice the correction focus.",
+          "student_action_pt": "Leia uma frase incorreta e perceba o foco da correção.",
+          "teacher_action": "Name the main correction targets clearly: adjective order, plural agreement, palette sentence, and reason sentence.",
+          "estimated_minutes": 2,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Write the corrected sentence",
+          "student_action_en": "Rewrite the sentence clearly and accurately.",
+          "student_action_pt": "Reescreva a frase com clareza e precisão.",
+          "teacher_action": "Ask students to compare the corrected sentence with their own writing card.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Transfer the correction",
+          "student_action_en": "Check whether the same problem appears in your own description card.",
+          "student_action_pt": "Confira se o mesmo problema aparece no seu próprio cartão de descrição.",
+          "teacher_action": "Prompt students to fix the same issue in their card if needed.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentence",
+        "description_en": "One corrected Week 6 sentence saved after review.",
+        "description_pt": "Uma frase corrigida da Semana 6 salva após a revisão.",
+        "length_or_format": "1 sentence"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student chooses one correction card.",
+          "The student writes the corrected sentence accurately.",
+          "The student checks for the same issue in personal writing."
+        ],
+        "completion_criteria_pt": [
+          "O aluno escolhe um cartão de correção.",
+          "O aluno escreve a frase corrigida com precisão.",
+          "O aluno verifica o mesmo problema na própria escrita."
+        ],
+        "checklist_en": [
+          "I chose one correction card.",
+          "I wrote the corrected sentence.",
+          "I checked my own look description."
+        ],
+        "checklist_pt": [
+          "Eu escolhi um cartão de correção.",
+          "Eu escrevi a frase corrigida.",
+          "Eu conferi a minha própria descrição de look."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a long black dress.",
+        "model_response_pt": "Este é um vestido preto longo.",
+        "common_errors": [
+          "Keeping the original mistake in the corrected sentence.",
+          "Fixing one word but forgetting the verb or article."
+        ],
+        "feedback_prompts_en": [
+          "Read the corrected model again. Which small part changed?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia o modelo corrigido novamente. Qual pequena parte mudou?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Limit the first attempt to two correction cards for students who need more support."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain the correction rule in simple English or Portuguese."
+        ]
+      },
+      "extension_options": [
+        "Correct one more sentence from your own description card."
+      ],
+      "notes_for_app_design": "Render this as one small correction-card activity. Let the student choose one card, type or select the corrected version, and compare against accepted answers. Save one corrected sentence as the mini-revision artifact."
+    },
+    {
+      "activity_id": "m01w06-a09",
+      "week_id": "m01w06",
+      "sequence_number": 9,
+      "title": "Teacher Session: Describe the Look",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use their Week 6 writing card to practice pronunciation, identify palette and silhouette terms, and describe one look in short supported sentences.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Describe the Look",
+          "summary": "Use your card to describe one look in short sentences.",
+          "instructions": "Bring your Color + Shape Look Description, practice the key words, and describe one look in 4 to 6 short sentences.",
+          "success_criteria": [
+            "I can name one look clearly.",
+            "I can use palette, silhouette, and line language while speaking.",
+            "I can give one short reason sentence with teacher support."
+          ],
+          "sentence_frames": [
+            "This is a look / sketch / fashion figure.",
+            "The color palette is ___.",
+            "The figure is wearing ___.",
+            "The silhouette is ___.",
+            "The lines are ___.",
+            "The look is ___.",
+            "I like the ___ because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Sessão com o professor: descreva o look",
+          "summary": "Use o seu cartão para descrever um look em frases curtas.",
+          "instructions": "Leve a sua Descrição de Look com Cor e Forma, pratique as palavras principais e descreva um look em 4 a 6 frases curtas.",
+          "success_criteria": [
+            "Eu consigo nomear um look com clareza.",
+            "Eu consigo usar linguagem de paleta, silhueta e linha ao falar.",
+            "Eu consigo dar uma frase curta de justificativa com apoio do professor."
+          ],
+          "sentence_frames": [
+            "This is a look / sketch / fashion figure.",
+            "The color palette is ___.",
+            "The figure is wearing ___.",
+            "The silhouette is ___.",
+            "The lines are ___.",
+            "The look is ___.",
+            "I like the ___ because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep this teacher-observed only. Do not record student audio. Focus on intelligibility, accurate Week 6 frames, and confidence with a short supported description rather than on long performance.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication",
+        "listening"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "student Color + Shape Look Descriptions",
+        "four-look gallery",
+        "pronunciation list"
+      ],
+      "vocabulary_refs": [
+        "m01w06-v012",
+        "m01w06-v014",
+        "m01w06-v015",
+        "m01w06-v016",
+        "m01w06-v017",
+        "m01w06-v018",
+        "m01w06-v019",
+        "m01w06-v020",
+        "m01w06-v023",
+        "m01w06-v024",
+        "m01w06-v025",
+        "m01w06-v026",
+        "m01w06-v028",
+        "m01w06-v029",
+        "m01w06-v033",
+        "m01w06-v034",
+        "m01w06-v035",
+        "m01w06-v036",
+        "m01w06-v037",
+        "m01w06-v038",
+        "m01w06-v039",
+        "m01w06-v040",
+        "m01w06-v041",
+        "m01w06-v042",
+        "m01w06-v044"
+      ],
+      "asset_refs": [
+        "m01w06-img-005"
+      ],
+      "input": {
+        "input_type": "speaking_prompt",
+        "prompt_en": "Use your Week 6 writing card to describe one look in short sentences.",
+        "prompt_pt": "Use o seu cartão de escrita da Semana 6 para descrever um look em frases curtas.",
+        "items": [
+          {
+            "label_en": "Say 4 to 6 short sentences about one look.",
+            "label_pt": "Diga de 4 a 6 frases curtas sobre um look."
+          },
+          {
+            "label_en": "Include palette, garment, silhouette, and one line or impression detail.",
+            "label_pt": "Inclua paleta, roupa, silhueta e um detalhe de linha ou impressão."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Pronunciation clinic",
+          "student_action_en": "Practice key Week 6 words such as palette, contrast, silhouette, straight, curved, neutral, oversized, and cropped.",
+          "student_action_pt": "Pratique palavras importantes da Semana 6 como palette, contrast, silhouette, straight, curved, neutral, oversized e cropped.",
+          "teacher_action": "Model the words slowly and clearly, especially palette, silhouette, contrast, diagonal, and oversized.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Warm up with the gallery",
+          "student_action_en": "Look at the shared gallery and name one palette or silhouette word for each image.",
+          "student_action_pt": "Observe a galeria compartilhada e diga uma palavra de paleta ou silhueta para cada imagem.",
+          "teacher_action": "Use quick pointing and naming before the full speaking turn.",
+          "estimated_minutes": 10,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 3,
+          "title": "Describe one look",
+          "student_action_en": "Use your Week 6 card to describe one look in 4 to 6 short sentences.",
+          "student_action_pt": "Use o seu cartão da Semana 6 para descrever um look em 4 a 6 frases curtas.",
+          "teacher_action": "Allow students to read from their card first, then invite a more natural second try when appropriate.",
+          "estimated_minutes": 20,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 4,
+          "title": "Wrap up and preview",
+          "student_action_en": "Listen to classmates and prepare for next week’s focus on fabric and texture.",
+          "student_action_pt": "Escute os colegas e prepare-se para o foco da próxima semana em tecido e textura.",
+          "teacher_action": "Close with one short review of The color palette is, The silhouette is, and one adjective-order phrase.",
+          "estimated_minutes": 10,
+          "mode": "pair"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_look_description",
+        "description_en": "A short teacher-observed spoken description of one look using Week 6 sentence frames.",
+        "description_pt": "Uma descrição oral curta, observada pelo professor, de um look usando as estruturas da Semana 6.",
+        "length_or_format": "4 to 6 short spoken sentences"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names one chosen look clearly.",
+          "The student uses palette, garment, silhouette, and line or impression language in short sentences.",
+          "The student adds at least one clear reason or visual detail with support if needed."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia com clareza um look escolhido.",
+          "O aluno usa linguagem de paleta, roupa, silhueta e linha ou impressão em frases curtas.",
+          "O aluno acrescenta pelo menos uma justificativa clara ou um detalhe visual com apoio, se necessário."
+        ],
+        "checklist_en": [
+          "I practiced the Week 6 words.",
+          "I used my description card.",
+          "I described one look in short sentences."
+        ],
+        "checklist_pt": [
+          "Eu pratiquei as palavras da Semana 6.",
+          "Eu usei o meu cartão de descrição.",
+          "Eu descrevi um look em frases curtas."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a look. The color palette is cool. The figure is wearing a blue and green dress. The silhouette is long and straight. The lines are simple. I like the palette because it is clear.",
+        "model_response_pt": "Este é um look. A paleta de cores é fria. A figura está vestindo um vestido azul e verde. A silhueta é longa e reta. As linhas são simples. Eu gosto da paleta porque ela é clara.",
+        "common_errors": [
+          "Saying color words only and skipping the full sentence frames.",
+          "Using a black long dress instead of a long black dress while speaking.",
+          "Reading too quietly to be understood."
+        ],
+        "feedback_prompts_en": [
+          "Can you add one silhouette sentence?",
+          "Can you say that again with the correct adjective order?",
+          "Can you add one reason sentence?"
+        ],
+        "feedback_prompts_pt": [
+          "Você pode acrescentar uma frase sobre a silhueta?",
+          "Você pode dizer novamente com a ordem correta dos adjetivos?",
+          "Você pode acrescentar uma frase de justificativa?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to read directly from the writing card in the first round."
+        ],
+        "challenge": [
+          "Ask stronger learners one follow-up question about palette, contrast, or visual impression."
+        ]
+      },
+      "extension_options": [
+        "Add one extra spoken sentence comparing two images from the gallery."
+      ],
+      "notes_for_app_design": "Keep this as a teacher-observed speaking checkpoint with the shared look gallery and the saved Week 6 writing card visible on screen. Do not record or upload student audio. The app role is to display prompts, link to the writing artifact, and store teacher completion notes only."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "week_id": "m01w06",
+  "image_prompts": [
+    {
+      "asset_id": "m01w06-img-001",
+      "purpose": "Week 6 opener board for quick recognition of color, silhouette, and visual impression differences.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-001.png",
+      "visual_description": "A compact board with four adult-oriented fashion looks or sketches that are visually distinct in palette and silhouette: one black-and-white contrast look, one warm soft look, one cool long look, and one bright playful look.",
+      "style_instructions": "Use a polished fashion-education illustration or fashion-sketch style with strong clarity and adult proportions.",
+      "composition_notes": "Keep the four looks separated and easy to scan on mobile. Emphasize clear color differences and silhouette differences over background detail.",
+      "text_in_image": "None.",
+      "avoid": "Avoid logos, dense backgrounds, childlike cartoon proportions, and cluttered moodboard-style layouts.",
+      "used_by_activity_ids": [
+        "m01w06-a01"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w06-img-002",
+      "purpose": "Color vocabulary and palette board for the main Week 6 color-matching task.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-002.png",
+      "visual_description": "One clear educational board combining six basic color swatches and six palette cards. Visible key A is black, B is white, C is red, D is blue, E is green, F is yellow, G is warm palette, H is cool palette, I is neutral palette, J is bright palette, K is soft palette, and L is monochrome palette.",
+      "style_instructions": "Use a clean educational design with high-contrast swatches and simple look cards that read well on a phone screen.",
+      "composition_notes": "Keep each key A to L large and easy to read. Make the palette cards visually obvious, with no ambiguous color families.",
+      "text_in_image": "Only the visible keys A to L.",
+      "avoid": "Avoid decorative typography, extra keys, extra palette labels, and color combinations that blur warm, cool, soft, and bright distinctions.",
+      "used_by_activity_ids": [
+        "m01w06-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w06-img-003",
+      "purpose": "Shape, line, and silhouette board for the main Week 6 visual-vocabulary task.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-003.png",
+      "visual_description": "One clean board combining line examples and silhouette examples. Visible key A is straight line, B is curved line, C is vertical line, D is horizontal line, E is diagonal line, F is fitted silhouette, G is loose silhouette, H is straight silhouette, I is flared silhouette, J is oversized jacket, and K is cropped top.",
+      "style_instructions": "Use a polished fashion-education visual style with simple diagrams and clean garment silhouettes.",
+      "composition_notes": "Separate the line diagrams from the garment silhouettes while keeping all keys A to K visible and unambiguous. Optimize for mobile readability and direct answer-key matching.",
+      "text_in_image": "Only the visible keys A to K.",
+      "avoid": "Avoid extra arrows, extra labels, tiny details, or overlapping silhouettes that make matching unclear.",
+      "used_by_activity_ids": [
+        "m01w06-a03"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w06-img-004",
+      "purpose": "Three-look reading gallery for matching short visual descriptions to keyed images.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-004.png",
+      "visual_description": "A gallery with three clearly separated adult-oriented fashion looks labeled only as image A, image B, and image C. Image A shows a black-and-white look with a straight silhouette and strong contrast. Image B shows a soft warm look with a light orange and beige dress, loose silhouette, and curved lines. Image C shows a bright look with a pink top, wide blue pants, and a cropped top silhouette.",
+      "style_instructions": "Use a clean fashion-sketch or polished editorial-education hybrid style with strong silhouette and color readability.",
+      "composition_notes": "Make the three looks easy to compare. The visible image keys A, B, and C must be clear and the looks must align exactly with the reading task details.",
+      "text_in_image": "Only the visible image keys A, B, and C.",
+      "avoid": "Avoid background scenes, decorative text, or any garment details that contradict the reading descriptions.",
+      "used_by_activity_ids": [
+        "m01w06-a04"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w06-img-005",
+      "purpose": "Reusable four-look gallery for listening, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-005.png",
+      "visual_description": "A gallery with four clearly separated fashion looks labeled only as image A, image B, image C, and image D. Image A shows a cool look with blue and green colors and a long straight silhouette. Image B shows a black-and-white contrast look with an oversized jacket and narrow pants. Image C shows a look with a flared skirt, a soft pink blouse, and curved lines. Image D shows a bright and playful look with a yellow top, orange shorts, and simple lines.",
+      "style_instructions": "Use a clean adult-oriented fashion-sketch gallery style with strong color contrast and easy comparison.",
+      "composition_notes": "Keep the four looks visually distinct and evenly spaced. The gallery must support exact answer-key matching across listening, writing, and speaking tasks.",
+      "text_in_image": "Only the visible image keys A, B, C, and D.",
+      "avoid": "Avoid extra decorative text, ambiguous colors, cluttered backgrounds, or details that conflict with the Week 6 listening script.",
+      "used_by_activity_ids": [
+        "m01w06-a05",
+        "m01w06-a06",
+        "m01w06-a07",
+        "m01w06-a09"
+      ],
+      "status": "planned"
+    }
+  ]
+}

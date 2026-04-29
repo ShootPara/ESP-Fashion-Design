@@ -1,0 +1,92 @@
+{
+  "week_id": "m01w06",
+  "assets": [
+    {
+      "asset_id": "m01w06-img-001",
+      "week_id": "m01w06",
+      "asset_type": "image",
+      "title": "Week 6 opener multi-look board",
+      "description": "A compact opener board with 3 to 4 clearly different fashion looks that make color, silhouette, and first visual impression easy to notice.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-001.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w06-a01"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use as a fast review-preview board. Keep the looks visually different in color and silhouette so students can answer quick recognition questions without crowding."
+    },
+    {
+      "asset_id": "m01w06-img-002",
+      "week_id": "m01w06",
+      "asset_type": "image",
+      "title": "Color swatch and palette board",
+      "description": "One combined board showing basic color swatches and keyed palette examples for warm, cool, neutral, bright, soft, and monochrome.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-002.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w06-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required visible-key strategy: A black, B white, C red, D blue, E green, F yellow, G warm palette, H cool palette, I neutral palette, J bright palette, K soft palette, L monochrome palette. The image, activity answers, and prompt notes must all use the same A-L labels."
+    },
+    {
+      "asset_id": "m01w06-img-003",
+      "week_id": "m01w06",
+      "asset_type": "image",
+      "title": "Shape, line, and silhouette board",
+      "description": "A combined board showing clear keyed examples of line direction, line shape, and garment silhouette comparisons.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-003.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w06-a03"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required visible-key strategy: A straight line, B curved line, C vertical line, D horizontal line, E diagonal line, F fitted silhouette, G loose silhouette, H straight silhouette, I flared silhouette, J oversized jacket, K cropped top. The image, activity answers, and prompt notes must all use the same A-K labels."
+    },
+    {
+      "asset_id": "m01w06-img-004",
+      "week_id": "m01w06",
+      "asset_type": "image",
+      "title": "Three-look reading gallery",
+      "description": "A reading gallery with three clearly separated looks for matching short visual descriptions to image A, image B, and image C.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-004.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w06-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required image-key strategy: image A is a black and white look with a straight silhouette and strong contrast, image B is a soft warm look with a loose dress and curved lines, image C is a bright playful look with a cropped top and wide blue pants."
+    },
+    {
+      "asset_id": "m01w06-img-005",
+      "week_id": "m01w06",
+      "asset_type": "image",
+      "title": "Reusable four-look visual gallery",
+      "description": "A reusable gallery with four clearly separated fashion looks for listening, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-06/m01w06-img-005.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w06-a05",
+        "m01w06-a06",
+        "m01w06-a07",
+        "m01w06-a09"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required image-key strategy: image A is a cool look with blue and green colors and a long straight silhouette, image B is a black-and-white contrast look with an oversized jacket and narrow pants, image C is a soft pink and flared-skirt look with curved lines, image D is a bright yellow-and-orange look with a playful impression and simple lines."
+    },
+    {
+      "asset_id": "m01w06-aud-001",
+      "week_id": "m01w06",
+      "asset_type": "audio",
+      "title": "Color, shape, and line listening audio",
+      "description": "A short Week 6 listening clip describing four looks by palette, color, silhouette, line, and overall impression.",
+      "target_filename": "assets/audio/module-01/week-06/m01w06-aud-001.mp3",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w06-a05"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Transcript remains inside audio_prompts.json only. Do not create a separate transcript asset in the current phase."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w06",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w06-aud-001",
+      "purpose": "Listening model for Week 6 color, shape, line, and silhouette identification.",
+      "target_filename": "assets/audio/module-01/week-06/m01w06-aud-001.mp3",
+      "script": "Look at the four looks. Number one: This look has a cool color palette. The dress is blue and green. The silhouette is long and straight. Number two: This look is black and white. The jacket is oversized, and the pants are narrow. The look has strong contrast. Number three: This look has curved lines. The skirt is flared, and the blouse is soft pink. The look feels classic and soft. Number four: This look is bright and playful. The top is yellow, and the shorts are orange. The lines are simple.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and easy to follow, with short pauses after each numbered description.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 54,
+      "used_by_activity_ids": [
+        "m01w06-a05"
+      ],
+      "status": "planned"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-04-28T22:58:54.193202+00:00
+- Generated at (UTC): 2026-04-29T18:46:10.167805+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -48,6 +48,14 @@
 - `content/course/modules/module-01/week-05/teacher_notes.md`
 - `content/course/modules/module-01/week-05/vocabulary.json`
 - `content/course/modules/module-01/week-05/week_manifest.json`
+- `content/course/modules/module-01/week-06/activities.json`
+- `content/course/modules/module-01/week-06/asset_manifest.json`
+- `content/course/modules/module-01/week-06/audio_prompts.json`
+- `content/course/modules/module-01/week-06/image_prompts.json`
+- `content/course/modules/module-01/week-06/lesson_plan.md`
+- `content/course/modules/module-01/week-06/teacher_notes.md`
+- `content/course/modules/module-01/week-06/vocabulary.json`
+- `content/course/modules/module-01/week-06/week_manifest.json`
 - `docs/fashion-course-content-requirements.md`
 - `schemas/activities.schema.json`
 - `schemas/asset_manifest.schema.json`
@@ -66,7 +74,12 @@
 - None.
 
 ## Missing Assets
-- None.
+- m01w06-img-001 — A compact opener board with 3 to 4 clearly different fashion looks that make color, silhouette, and first visual impression easy to notice. — assets/images/module-01/week-06/m01w06-img-001.png
+- m01w06-img-002 — One combined board showing basic color swatches and keyed palette examples for warm, cool, neutral, bright, soft, and monochrome. — assets/images/module-01/week-06/m01w06-img-002.png
+- m01w06-img-003 — A combined board showing clear keyed examples of line direction, line shape, and garment silhouette comparisons. — assets/images/module-01/week-06/m01w06-img-003.png
+- m01w06-img-004 — A reading gallery with three clearly separated looks for matching short visual descriptions to image A, image B, and image C. — assets/images/module-01/week-06/m01w06-img-004.png
+- m01w06-img-005 — A reusable gallery with four clearly separated fashion looks for listening, writing, and speaking. — assets/images/module-01/week-06/m01w06-img-005.png
+- m01w06-aud-001 — A short Week 6 listening clip describing four looks by palette, color, silhouette, line, and overall impression. — assets/audio/module-01/week-06/m01w06-aud-001.mp3
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.
