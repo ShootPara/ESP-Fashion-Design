@@ -1,0 +1,900 @@
+{
+  "week_id": "m01w07",
+  "vocabulary_groups": [
+    {
+      "group_id": "m01w07-vg01",
+      "title": "Fabric, textile, and swatch words",
+      "description": "Core naming words for fabric study, swatches, and beginner textile observation.",
+      "items": [
+        {
+          "vocab_id": "m01w07-v001",
+          "term": "fabric",
+          "part_of_speech": "noun",
+          "definition_en": "Cloth or material used to make clothes.",
+          "learner_friendly_definition_en": "Cloth used for garments.",
+          "learner_friendly_definition_pt": "Tecido usado para roupas.",
+          "example_sentence_en": "This fabric is soft.",
+          "example_sentence_pt": "Este tecido é macio.",
+          "professional_context_en": "Fabric is the main Week 7 word for textile and garment-material description.",
+          "professional_context_pt": "Fabric é a principal palavra da Semana 7 para descrever têxteis e materiais de roupas.",
+          "translation_notes_pt": "Use fabric como palavra principal para tecido.",
+          "pronunciation_notes": "Say FAB-rik.",
+          "related_terms": [
+            "material",
+            "fabric swatch",
+            "textile"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v002",
+          "term": "textile",
+          "part_of_speech": "noun",
+          "definition_en": "A broader technical word for fabric or cloth materials.",
+          "learner_friendly_definition_en": "A general word for cloth material.",
+          "learner_friendly_definition_pt": "Uma palavra mais geral para material de tecido.",
+          "example_sentence_en": "This textile is lightweight.",
+          "example_sentence_pt": "Este têxtil é leve.",
+          "professional_context_en": "Textile is useful as a support-tier word for later fabric, sustainability, and design-study work.",
+          "professional_context_pt": "Textile é útil como palavra de apoio para trabalhos futuros sobre tecidos, sustentabilidade e estudos de design.",
+          "translation_notes_pt": "Explique textile como uma palavra mais técnica e geral do que fabric.",
+          "pronunciation_notes": "Say TEKS-tyl.",
+          "related_terms": [
+            "fabric",
+            "material",
+            "sample"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v003",
+          "term": "material",
+          "part_of_speech": "noun",
+          "definition_en": "The substance used to make a garment or object.",
+          "learner_friendly_definition_en": "What something is made from.",
+          "learner_friendly_definition_pt": "Aquilo de que algo é feito.",
+          "example_sentence_en": "The material is smooth.",
+          "example_sentence_pt": "O material é liso.",
+          "professional_context_en": "Material is a useful general design word when students talk about garment choice or function.",
+          "professional_context_pt": "Material é uma palavra geral útil de design quando os alunos falam sobre escolha de roupa ou função.",
+          "translation_notes_pt": "Material é parecido com o português, mas continue mantendo fabric como a palavra central para tecido.",
+          "pronunciation_notes": "Say muh-TEER-ee-ul.",
+          "related_terms": [
+            "fabric",
+            "made of",
+            "garment"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v004",
+          "term": "fabric swatch",
+          "part_of_speech": "phrase",
+          "definition_en": "A small sample piece of fabric.",
+          "learner_friendly_definition_en": "A small piece of fabric for study or choice.",
+          "learner_friendly_definition_pt": "Um pequeno pedaço de tecido para estudo ou escolha.",
+          "example_sentence_en": "This is a fabric swatch.",
+          "example_sentence_pt": "Esta é uma amostra de tecido.",
+          "professional_context_en": "Fabric swatch is a key Week 7 phrase for material observation and the main writing artifact.",
+          "professional_context_pt": "Fabric swatch é uma expressão central da Semana 7 para observação de materiais e para a principal produção escrita.",
+          "translation_notes_pt": "A tradução mais útil é amostra de tecido.",
+          "pronunciation_notes": "Stress FAB-rik and SWOTCH.",
+          "related_terms": [
+            "sample",
+            "fabric",
+            "material"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v005",
+          "term": "sample",
+          "part_of_speech": "noun",
+          "definition_en": "A small example of a material.",
+          "learner_friendly_definition_en": "A small example piece.",
+          "learner_friendly_definition_pt": "Uma pequena peça de exemplo.",
+          "example_sentence_en": "These are fabric samples.",
+          "example_sentence_pt": "Estas são amostras de tecido.",
+          "professional_context_en": "Sample supports later work with swatches, moodboards, and material selection.",
+          "professional_context_pt": "Sample ajuda em trabalhos futuros com amostras, moodboards e seleção de materiais.",
+          "translation_notes_pt": "Explique como amostra; é contável em inglês.",
+          "pronunciation_notes": "Say SAM-pul.",
+          "related_terms": [
+            "fabric swatch",
+            "textile",
+            "fabric"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w07-vg02",
+      "title": "Common fabrics and materials",
+      "description": "Common material words students need for beginner garment and swatch description.",
+      "items": [
+        {
+          "vocab_id": "m01w07-v006",
+          "term": "cotton",
+          "part_of_speech": "noun",
+          "definition_en": "A common soft natural fabric used for many clothes.",
+          "learner_friendly_definition_en": "A soft common fabric.",
+          "learner_friendly_definition_pt": "Um tecido comum e macio.",
+          "example_sentence_en": "The shirt is made of cotton.",
+          "example_sentence_pt": "A camisa é feita de algodão.",
+          "professional_context_en": "Cotton is a core material example for comfort, summer clothing, and breathable fabrics.",
+          "professional_context_pt": "Cotton é um exemplo central de material para conforto, roupas de verão e tecidos respiráveis.",
+          "translation_notes_pt": "Use cotton sem artigo em frases simples como This is cotton.",
+          "pronunciation_notes": "Say KOT-un.",
+          "related_terms": [
+            "fabric",
+            "lightweight",
+            "breathable"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v007",
+          "term": "denim",
+          "part_of_speech": "noun",
+          "definition_en": "A strong fabric often used for jeans and jackets.",
+          "learner_friendly_definition_en": "A strong blue fabric for jeans.",
+          "learner_friendly_definition_pt": "Um tecido forte, muito usado em jeans.",
+          "example_sentence_en": "The jacket is made of denim.",
+          "example_sentence_pt": "A jaqueta é feita de denim.",
+          "professional_context_en": "Denim is a visually easy material for structure, weight, and garment-use language.",
+          "professional_context_pt": "Denim é um material visualmente fácil para trabalhar estrutura, peso e uso da roupa.",
+          "translation_notes_pt": "Os alunos podem associar a jeans ou brim; mantenha denim como alvo em inglês.",
+          "pronunciation_notes": "Say DEN-im.",
+          "related_terms": [
+            "heavy",
+            "structured",
+            "jacket"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v008",
+          "term": "linen",
+          "part_of_speech": "noun",
+          "definition_en": "A natural fabric often used for light and cool clothing.",
+          "learner_friendly_definition_en": "A light fabric often used in warm weather.",
+          "learner_friendly_definition_pt": "Um tecido leve, muito usado em clima quente.",
+          "example_sentence_en": "Linen is good for hot weather.",
+          "example_sentence_pt": "Linho é bom para clima quente.",
+          "professional_context_en": "Linen helps students connect fabric choice to weather and comfort.",
+          "professional_context_pt": "Linen ajuda os alunos a relacionar a escolha do tecido com clima e conforto.",
+          "translation_notes_pt": "A tradução mais comum é linho.",
+          "pronunciation_notes": "Say LIN-in.",
+          "related_terms": [
+            "lightweight",
+            "cool",
+            "summer"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v009",
+          "term": "silk",
+          "part_of_speech": "noun",
+          "definition_en": "A smooth fabric that often looks shiny and elegant.",
+          "learner_friendly_definition_en": "A smooth elegant fabric.",
+          "learner_friendly_definition_pt": "Um tecido liso e elegante.",
+          "example_sentence_en": "The blouse is made of silk.",
+          "example_sentence_pt": "A blusa é feita de seda.",
+          "professional_context_en": "Silk is useful for smooth, shiny, lightweight, and elegant fabric description.",
+          "professional_context_pt": "Silk é útil para descrever tecidos lisos, brilhantes, leves e elegantes.",
+          "translation_notes_pt": "A tradução mais comum é seda.",
+          "pronunciation_notes": "Say SILK.",
+          "related_terms": [
+            "shiny",
+            "smooth",
+            "blouse"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v010",
+          "term": "wool",
+          "part_of_speech": "noun",
+          "definition_en": "A warm fabric often used for colder weather.",
+          "learner_friendly_definition_en": "A warm fabric for cold weather.",
+          "learner_friendly_definition_pt": "Um tecido quente para clima frio.",
+          "example_sentence_en": "Wool is good for cold weather.",
+          "example_sentence_pt": "Lã é boa para clima frio.",
+          "professional_context_en": "Wool helps students connect fabric to warmth, thickness, and winter garments.",
+          "professional_context_pt": "Wool ajuda os alunos a ligar o tecido a calor, espessura e roupas de inverno.",
+          "translation_notes_pt": "A tradução mais comum é lã.",
+          "pronunciation_notes": "Say WOOL.",
+          "related_terms": [
+            "thick",
+            "warm",
+            "coat"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v011",
+          "term": "polyester",
+          "part_of_speech": "noun",
+          "definition_en": "A common synthetic fabric used in many garments.",
+          "learner_friendly_definition_en": "A common artificial fabric.",
+          "learner_friendly_definition_pt": "Um tecido sintético comum.",
+          "example_sentence_en": "The skirt is made of polyester.",
+          "example_sentence_pt": "A saia é feita de poliéster.",
+          "professional_context_en": "Polyester adds useful contrast to natural materials in beginner textile vocabulary.",
+          "professional_context_pt": "Polyester acrescenta um contraste útil com materiais naturais no vocabulário têxtil inicial.",
+          "translation_notes_pt": "A tradução mais comum é poliéster.",
+          "pronunciation_notes": "Say pol-ee-ES-ter.",
+          "related_terms": [
+            "material",
+            "fabric",
+            "synthetic"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v012",
+          "term": "knit fabric",
+          "part_of_speech": "phrase",
+          "definition_en": "Fabric made with loops that is often stretchy.",
+          "learner_friendly_definition_en": "A fabric that is often soft and stretchy.",
+          "learner_friendly_definition_pt": "Um tecido que costuma ser macio e elástico.",
+          "example_sentence_en": "Knit fabric is often stretchy.",
+          "example_sentence_pt": "Tecido de malha costuma ser elástico.",
+          "professional_context_en": "Knit fabric is a useful support-tier term for fabric behavior and sewing vocabulary.",
+          "professional_context_pt": "Knit fabric é um termo útil de apoio para comportamento do tecido e vocabulário de costura.",
+          "translation_notes_pt": "A tradução mais útil é tecido de malha ou malha.",
+          "pronunciation_notes": "Stress KNIT and FAB-rik.",
+          "related_terms": [
+            "stretchy",
+            "fabric",
+            "woven fabric"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v013",
+          "term": "woven fabric",
+          "part_of_speech": "phrase",
+          "definition_en": "Fabric made with crossing threads that is often more stable.",
+          "learner_friendly_definition_en": "A fabric with crossing threads, often less stretchy.",
+          "learner_friendly_definition_pt": "Um tecido com fios cruzados, geralmente menos elástico.",
+          "example_sentence_en": "Woven fabric is often more stable.",
+          "example_sentence_pt": "Tecido plano costuma ser mais estável.",
+          "professional_context_en": "Woven fabric supports early textile observation and later sewing vocabulary.",
+          "professional_context_pt": "Woven fabric apoia a observação têxtil inicial e o vocabulário futuro de costura.",
+          "translation_notes_pt": "A tradução mais útil é tecido plano.",
+          "pronunciation_notes": "Stress WOH-vun and FAB-rik.",
+          "related_terms": [
+            "knit fabric",
+            "stiff",
+            "structured"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v014",
+          "term": "lace",
+          "part_of_speech": "noun",
+          "definition_en": "A decorative fabric with open areas or holes.",
+          "learner_friendly_definition_en": "A decorative fabric with visible open parts.",
+          "learner_friendly_definition_pt": "Um tecido decorativo com partes abertas visíveis.",
+          "example_sentence_en": "The sleeve is made of lace.",
+          "example_sentence_pt": "A manga é feita de renda.",
+          "professional_context_en": "Lace is useful for texture, transparency, and decorative-use language.",
+          "professional_context_pt": "Lace é útil para linguagem de textura, transparência e uso decorativo.",
+          "translation_notes_pt": "A tradução mais comum é renda.",
+          "pronunciation_notes": "Say LAYS.",
+          "related_terms": [
+            "transparent",
+            "decorative",
+            "sleeve"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v015",
+          "term": "leather",
+          "part_of_speech": "noun",
+          "definition_en": "A strong material often used for jackets, shoes, or bags.",
+          "learner_friendly_definition_en": "A strong material for jackets, shoes, or bags.",
+          "learner_friendly_definition_pt": "Um material forte para jaquetas, sapatos ou bolsas.",
+          "example_sentence_en": "The bag is made of leather.",
+          "example_sentence_pt": "A bolsa é feita de couro.",
+          "professional_context_en": "Leather supports material-choice discussion for structure, strength, and garment or accessory use.",
+          "professional_context_pt": "Leather apoia a discussão sobre escolha de material para estrutura, resistência e uso em roupa ou acessório.",
+          "translation_notes_pt": "A tradução mais comum é couro.",
+          "pronunciation_notes": "Say LEDH-er.",
+          "related_terms": [
+            "structured",
+            "heavy",
+            "jacket"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w07-vg03",
+      "title": "Texture and surface qualities",
+      "description": "Core feel and surface words for describing how a fabric feels and how it looks.",
+      "items": [
+        {
+          "vocab_id": "m01w07-v016",
+          "term": "soft",
+          "part_of_speech": "adjective",
+          "definition_en": "Pleasant and gentle to touch.",
+          "learner_friendly_definition_en": "Nice and gentle to touch.",
+          "learner_friendly_definition_pt": "Agradável e suave ao toque.",
+          "example_sentence_en": "The fabric feels soft.",
+          "example_sentence_pt": "O tecido é macio ao toque.",
+          "professional_context_en": "Soft is one of the most useful beginner touch words for fabric description.",
+          "professional_context_pt": "Soft é uma das palavras iniciais mais úteis para falar do toque do tecido.",
+          "translation_notes_pt": "A tradução mais comum é macio ou macia.",
+          "pronunciation_notes": "Say SOFT.",
+          "related_terms": [
+            "smooth",
+            "comfortable",
+            "feels"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v017",
+          "term": "rough",
+          "part_of_speech": "adjective",
+          "definition_en": "Not smooth; with a harder surface feel.",
+          "learner_friendly_definition_en": "Not smooth to touch.",
+          "learner_friendly_definition_pt": "Não liso ao toque.",
+          "example_sentence_en": "The fabric feels rough.",
+          "example_sentence_pt": "O tecido é áspero ao toque.",
+          "professional_context_en": "Rough helps students describe clear touch contrast in fabric observation.",
+          "professional_context_pt": "Rough ajuda os alunos a descrever um contraste claro de toque na observação do tecido.",
+          "translation_notes_pt": "A tradução mais comum é áspero ou áspera.",
+          "pronunciation_notes": "Say RUF.",
+          "related_terms": [
+            "soft",
+            "smooth",
+            "feels"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v018",
+          "term": "smooth",
+          "part_of_speech": "adjective",
+          "definition_en": "Even and not rough to touch.",
+          "learner_friendly_definition_en": "Nice and not rough.",
+          "learner_friendly_definition_pt": "Liso e não áspero.",
+          "example_sentence_en": "The fabric feels smooth.",
+          "example_sentence_pt": "O tecido é liso ao toque.",
+          "professional_context_en": "Smooth supports both touch description and silk-like fabric observation.",
+          "professional_context_pt": "Smooth ajuda tanto na descrição do toque quanto na observação de tecidos como a seda.",
+          "translation_notes_pt": "A tradução mais comum é liso ou lisa.",
+          "pronunciation_notes": "Say SMOODH.",
+          "related_terms": [
+            "soft",
+            "shiny",
+            "silk"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v019",
+          "term": "shiny",
+          "part_of_speech": "adjective",
+          "definition_en": "Reflecting light and looking bright on the surface.",
+          "learner_friendly_definition_en": "Looking bright because it reflects light.",
+          "learner_friendly_definition_pt": "Com aparência brilhante porque reflete luz.",
+          "example_sentence_en": "The silk looks shiny.",
+          "example_sentence_pt": "A seda parece brilhante.",
+          "professional_context_en": "Shiny is a key visual word for silk-like surfaces and elegant fabric description.",
+          "professional_context_pt": "Shiny é uma palavra visual central para superfícies parecidas com seda e descrições elegantes de tecido.",
+          "translation_notes_pt": "A tradução mais comum é brilhante.",
+          "pronunciation_notes": "Say SHY-nee.",
+          "related_terms": [
+            "matte",
+            "looks",
+            "silk"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v020",
+          "term": "matte",
+          "part_of_speech": "adjective",
+          "definition_en": "Not shiny; without a bright reflective surface.",
+          "learner_friendly_definition_en": "Not shiny on the surface.",
+          "learner_friendly_definition_pt": "Sem brilho na superfície.",
+          "example_sentence_en": "The fabric looks matte.",
+          "example_sentence_pt": "O tecido parece fosco.",
+          "professional_context_en": "Matte helps students contrast surface appearance clearly.",
+          "professional_context_pt": "Matte ajuda os alunos a contrastar a aparência da superfície com clareza.",
+          "translation_notes_pt": "A tradução mais comum é fosco ou fosca.",
+          "pronunciation_notes": "Say MAT.",
+          "related_terms": [
+            "shiny",
+            "plain",
+            "looks"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v021",
+          "term": "textured",
+          "part_of_speech": "adjective",
+          "definition_en": "Having a surface with visible or touchable variation.",
+          "learner_friendly_definition_en": "Not flat or plain on the surface.",
+          "learner_friendly_definition_pt": "Sem superfície plana; com textura visível.",
+          "example_sentence_en": "The lace is textured.",
+          "example_sentence_pt": "A renda é texturizada.",
+          "professional_context_en": "Textured is a useful support word for closer textile observation.",
+          "professional_context_pt": "Textured é uma palavra útil de apoio para observação têxtil mais detalhada.",
+          "translation_notes_pt": "Pode ser explicado como texturizado ou com textura.",
+          "pronunciation_notes": "Say TEKS-cherd.",
+          "related_terms": [
+            "plain",
+            "rough",
+            "lace"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v022",
+          "term": "plain",
+          "part_of_speech": "adjective",
+          "definition_en": "Simple and without decoration or strong surface detail.",
+          "learner_friendly_definition_en": "Simple and not decorative.",
+          "learner_friendly_definition_pt": "Simples e sem decoração.",
+          "example_sentence_en": "The fabric looks plain.",
+          "example_sentence_pt": "O tecido parece simples.",
+          "professional_context_en": "Plain helps students contrast decorative versus simple surface impression.",
+          "professional_context_pt": "Plain ajuda os alunos a contrastar uma aparência de superfície decorativa com uma aparência simples.",
+          "translation_notes_pt": "Pode ser simples ou liso, dependendo do contexto.",
+          "pronunciation_notes": "Say PLAYN.",
+          "related_terms": [
+            "matte",
+            "textured",
+            "looks"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w07-vg04",
+      "title": "Weight, movement, structure, and visibility",
+      "description": "Words students need to describe how a fabric behaves, how heavy it is, and how much can be seen through it.",
+      "items": [
+        {
+          "vocab_id": "m01w07-v023",
+          "term": "lightweight",
+          "part_of_speech": "adjective",
+          "definition_en": "Not heavy.",
+          "learner_friendly_definition_en": "Light and not heavy.",
+          "learner_friendly_definition_pt": "Leve e não pesado.",
+          "example_sentence_en": "The fabric is lightweight.",
+          "example_sentence_pt": "O tecido é leve.",
+          "professional_context_en": "Lightweight is a core word for comfort, summer wear, and fabric movement.",
+          "professional_context_pt": "Lightweight é uma palavra central para conforto, roupa de verão e movimento do tecido.",
+          "translation_notes_pt": "A tradução mais comum é leve.",
+          "pronunciation_notes": "Stress LYT and WAYT.",
+          "related_terms": [
+            "heavy",
+            "flowy",
+            "summer"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v024",
+          "term": "heavy",
+          "part_of_speech": "adjective",
+          "definition_en": "Having a lot of weight.",
+          "learner_friendly_definition_en": "Not light; with more weight.",
+          "learner_friendly_definition_pt": "Não leve; com mais peso.",
+          "example_sentence_en": "The denim is heavy.",
+          "example_sentence_pt": "O denim é pesado.",
+          "professional_context_en": "Heavy helps students describe structure, winter use, and fabric behavior.",
+          "professional_context_pt": "Heavy ajuda os alunos a descrever estrutura, uso no inverno e comportamento do tecido.",
+          "translation_notes_pt": "A tradução mais comum é pesado ou pesada.",
+          "pronunciation_notes": "Say HEV-ee.",
+          "related_terms": [
+            "lightweight",
+            "structured",
+            "denim"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v025",
+          "term": "thick",
+          "part_of_speech": "adjective",
+          "definition_en": "Having more depth or body.",
+          "learner_friendly_definition_en": "Not thin; with more body.",
+          "learner_friendly_definition_pt": "Não fino; com mais corpo.",
+          "example_sentence_en": "The wool is thick.",
+          "example_sentence_pt": "A lã é grossa.",
+          "professional_context_en": "Thick is a useful support word for weight and warmth.",
+          "professional_context_pt": "Thick é uma palavra útil de apoio para peso e calor.",
+          "translation_notes_pt": "A tradução mais comum é grosso ou grossa.",
+          "pronunciation_notes": "Say THIK.",
+          "related_terms": [
+            "thin",
+            "heavy",
+            "wool"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v026",
+          "term": "thin",
+          "part_of_speech": "adjective",
+          "definition_en": "Not thick.",
+          "learner_friendly_definition_en": "Light and not thick.",
+          "learner_friendly_definition_pt": "Fino e não grosso.",
+          "example_sentence_en": "The fabric is thin.",
+          "example_sentence_pt": "O tecido é fino.",
+          "professional_context_en": "Thin helps students describe lighter fabric body and compare materials.",
+          "professional_context_pt": "Thin ajuda os alunos a descrever um corpo de tecido mais leve e a comparar materiais.",
+          "translation_notes_pt": "A tradução mais comum é fino ou fina.",
+          "pronunciation_notes": "Say THIN.",
+          "related_terms": [
+            "thick",
+            "lightweight",
+            "fabric"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v027",
+          "term": "stretchy",
+          "part_of_speech": "adjective",
+          "definition_en": "Able to stretch easily.",
+          "learner_friendly_definition_en": "Able to become longer or wider when pulled.",
+          "learner_friendly_definition_pt": "Capaz de esticar quando puxado.",
+          "example_sentence_en": "Knit fabric is stretchy.",
+          "example_sentence_pt": "A malha é elástica.",
+          "professional_context_en": "Stretchy is a core Week 7 behavior word for comfort and garment fit.",
+          "professional_context_pt": "Stretchy é uma palavra central de comportamento do tecido na Semana 7 para conforto e caimento.",
+          "translation_notes_pt": "A tradução mais comum é elástico ou elástica.",
+          "pronunciation_notes": "Say STRECH-ee.",
+          "related_terms": [
+            "knit fabric",
+            "flexible",
+            "comfortable"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v028",
+          "term": "stiff",
+          "part_of_speech": "adjective",
+          "definition_en": "Not easy to bend or move.",
+          "learner_friendly_definition_en": "Not soft or flexible.",
+          "learner_friendly_definition_pt": "Não macio nem flexível.",
+          "example_sentence_en": "The fabric is stiff.",
+          "example_sentence_pt": "O tecido é rígido.",
+          "professional_context_en": "Stiff helps students describe structure and lack of movement in a material.",
+          "professional_context_pt": "Stiff ajuda os alunos a descrever estrutura e pouca movimentação do material.",
+          "translation_notes_pt": "A tradução mais comum é rígido ou rígida.",
+          "pronunciation_notes": "Say STIF.",
+          "related_terms": [
+            "structured",
+            "flexible",
+            "fabric"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v029",
+          "term": "flexible",
+          "part_of_speech": "adjective",
+          "definition_en": "Easy to bend or move.",
+          "learner_friendly_definition_en": "Able to bend and move easily.",
+          "learner_friendly_definition_pt": "Capaz de dobrar e se mover facilmente.",
+          "example_sentence_en": "The material is flexible.",
+          "example_sentence_pt": "O material é flexível.",
+          "professional_context_en": "Flexible is a useful support word for contrast with stiff fabrics.",
+          "professional_context_pt": "Flexible é uma palavra útil de apoio para contrastar com tecidos rígidos.",
+          "translation_notes_pt": "A tradução mais comum é flexível.",
+          "pronunciation_notes": "Say FLEK-suh-bul.",
+          "related_terms": [
+            "stretchy",
+            "stiff",
+            "movement"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v030",
+          "term": "flowy",
+          "part_of_speech": "adjective",
+          "definition_en": "Moving softly and easily.",
+          "learner_friendly_definition_en": "Moving in a soft and free way.",
+          "learner_friendly_definition_pt": "Com movimento suave e solto.",
+          "example_sentence_en": "The dress fabric is flowy.",
+          "example_sentence_pt": "O tecido do vestido é fluido.",
+          "professional_context_en": "Flowy helps students connect material behavior to dresses, skirts, and soft silhouettes.",
+          "professional_context_pt": "Flowy ajuda os alunos a ligar o comportamento do material a vestidos, saias e silhuetas suaves.",
+          "translation_notes_pt": "A tradução mais comum é fluido ou fluida.",
+          "pronunciation_notes": "Say FLOH-ee.",
+          "related_terms": [
+            "lightweight",
+            "structured",
+            "dress"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v031",
+          "term": "structured",
+          "part_of_speech": "adjective",
+          "definition_en": "Holding shape clearly.",
+          "learner_friendly_definition_en": "Keeping a clear shape.",
+          "learner_friendly_definition_pt": "Mantendo uma forma clara.",
+          "example_sentence_en": "The jacket fabric is structured.",
+          "example_sentence_pt": "O tecido da jaqueta é estruturado.",
+          "professional_context_en": "Structured is a core Week 7 word for jackets, tailoring, and shape support.",
+          "professional_context_pt": "Structured é uma palavra central da Semana 7 para jaquetas, alfaiataria e sustentação da forma.",
+          "translation_notes_pt": "A tradução mais comum é estruturado ou estruturada.",
+          "pronunciation_notes": "Say STRUK-cherd.",
+          "related_terms": [
+            "stiff",
+            "heavy",
+            "jacket"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v032",
+          "term": "transparent",
+          "part_of_speech": "adjective",
+          "definition_en": "Easy to see through.",
+          "learner_friendly_definition_en": "You can see through it.",
+          "learner_friendly_definition_pt": "Você consegue ver através dele.",
+          "example_sentence_en": "The fabric is transparent.",
+          "example_sentence_pt": "O tecido é transparente.",
+          "professional_context_en": "Transparent is a core visibility word for lace and light fabric description.",
+          "professional_context_pt": "Transparent é uma palavra central de visibilidade para descrever renda e tecidos leves.",
+          "translation_notes_pt": "A tradução mais comum é transparente.",
+          "pronunciation_notes": "Say trans-PAIR-ent.",
+          "related_terms": [
+            "opaque",
+            "sheer",
+            "lace"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v033",
+          "term": "sheer",
+          "part_of_speech": "adjective",
+          "definition_en": "Very light and partly transparent.",
+          "learner_friendly_definition_en": "Light and easy to see through.",
+          "learner_friendly_definition_pt": "Leve e fácil de ver através.",
+          "example_sentence_en": "The lace looks sheer.",
+          "example_sentence_pt": "A renda parece transparente.",
+          "professional_context_en": "Sheer is a useful support-tier fashion word that pairs well with transparent.",
+          "professional_context_pt": "Sheer é uma palavra útil de apoio do vocabulário de moda e combina bem com transparent.",
+          "translation_notes_pt": "Explique junto com transparent para facilitar a compreensão.",
+          "pronunciation_notes": "Say SHEER.",
+          "related_terms": [
+            "transparent",
+            "lightweight",
+            "lace"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v034",
+          "term": "opaque",
+          "part_of_speech": "adjective",
+          "definition_en": "Not easy to see through.",
+          "learner_friendly_definition_en": "You cannot see through it easily.",
+          "learner_friendly_definition_pt": "Você não consegue ver através dele com facilidade.",
+          "example_sentence_en": "The fabric is opaque.",
+          "example_sentence_pt": "O tecido é opaco.",
+          "professional_context_en": "Opaque is a core contrast word for visibility and coverage.",
+          "professional_context_pt": "Opaque é uma palavra central de contraste para visibilidade e cobertura.",
+          "translation_notes_pt": "A tradução mais comum é opaco ou opaca.",
+          "pronunciation_notes": "Say oh-PAYK.",
+          "related_terms": [
+            "transparent",
+            "sheer",
+            "coverage"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w07-vg05",
+      "title": "Use, comfort, and material-description phrases",
+      "description": "Simple reusable phrases for saying what a fabric feels like, what it is made of, and what it suits.",
+      "items": [
+        {
+          "vocab_id": "m01w07-v035",
+          "term": "comfortable",
+          "part_of_speech": "adjective",
+          "definition_en": "Feeling good and easy to wear.",
+          "learner_friendly_definition_en": "Nice and easy to wear.",
+          "learner_friendly_definition_pt": "Bom e fácil de usar.",
+          "example_sentence_en": "This fabric feels comfortable.",
+          "example_sentence_pt": "Este tecido parece confortável.",
+          "professional_context_en": "Comfortable helps students connect fabric choice to wearability and user experience.",
+          "professional_context_pt": "Comfortable ajuda os alunos a relacionar a escolha do tecido à usabilidade e à experiência de quem veste.",
+          "translation_notes_pt": "A tradução mais comum é confortável.",
+          "pronunciation_notes": "Say KUMF-ter-bul.",
+          "related_terms": [
+            "soft",
+            "good for",
+            "breathable"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v036",
+          "term": "warm",
+          "part_of_speech": "adjective",
+          "definition_en": "Helping the body stay hot or protected from cold.",
+          "learner_friendly_definition_en": "Good for cold weather.",
+          "learner_friendly_definition_pt": "Bom para clima frio.",
+          "example_sentence_en": "This fabric feels warm.",
+          "example_sentence_pt": "Este tecido parece quente.",
+          "professional_context_en": "Warm helps students connect fabric to season and garment function.",
+          "professional_context_pt": "Warm ajuda os alunos a conectar o tecido à estação e à função da roupa.",
+          "translation_notes_pt": "A tradução mais comum é quente; explique que está ligada à sensação térmica.",
+          "pronunciation_notes": "Say WORM.",
+          "related_terms": [
+            "cool",
+            "wool",
+            "winter"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v037",
+          "term": "cool",
+          "part_of_speech": "adjective",
+          "definition_en": "Helping the body feel less hot.",
+          "learner_friendly_definition_en": "Good for warm weather.",
+          "learner_friendly_definition_pt": "Bom para clima quente.",
+          "example_sentence_en": "Linen feels cool.",
+          "example_sentence_pt": "O linho parece fresco.",
+          "professional_context_en": "Cool supports fabric-choice language for summer and breathable materials.",
+          "professional_context_pt": "Cool apoia a linguagem de escolha de tecido para o verão e para materiais respiráveis.",
+          "translation_notes_pt": "Pode ser explicado como fresco quando falar de sensação.",
+          "pronunciation_notes": "Say KOOL.",
+          "related_terms": [
+            "warm",
+            "linen",
+            "summer"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v038",
+          "term": "breathable",
+          "part_of_speech": "adjective",
+          "definition_en": "Allowing air to move through easily.",
+          "learner_friendly_definition_en": "Letting air pass and feel fresh.",
+          "learner_friendly_definition_pt": "Deixando o ar passar e trazendo frescor.",
+          "example_sentence_en": "Cotton is breathable.",
+          "example_sentence_pt": "Algodão é respirável.",
+          "professional_context_en": "Breathable is a useful support-tier word for comfort, sportswear, and summer fabric choice.",
+          "professional_context_pt": "Breathable é uma palavra útil de apoio para conforto, sportswear e escolha de tecido para o verão.",
+          "translation_notes_pt": "Explique como respirável; mantenha como vocabulário de reconhecimento.",
+          "pronunciation_notes": "Say BREE-thuh-bul.",
+          "related_terms": [
+            "comfortable",
+            "cool",
+            "cotton"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w07-v039",
+          "term": "made of",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to say the material of a garment or object.",
+          "learner_friendly_definition_en": "A phrase for saying the material.",
+          "learner_friendly_definition_pt": "Uma expressão para dizer o material.",
+          "example_sentence_en": "The jacket is made of denim.",
+          "example_sentence_pt": "A jaqueta é feita de denim.",
+          "professional_context_en": "Made of is one of the main Week 7 grammar and description phrases.",
+          "professional_context_pt": "Made of é uma das principais estruturas gramaticais e de descrição da Semana 7.",
+          "translation_notes_pt": "Mostre que of não pode faltar na estrutura.",
+          "pronunciation_notes": "Practice linking made of smoothly.",
+          "related_terms": [
+            "material",
+            "fabric",
+            "good for"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v040",
+          "term": "feels",
+          "part_of_speech": "verb",
+          "definition_en": "A verb used to describe touch or physical sensation.",
+          "learner_friendly_definition_en": "A word for touch description.",
+          "learner_friendly_definition_pt": "Uma palavra para descrever o toque.",
+          "example_sentence_en": "It feels soft.",
+          "example_sentence_pt": "Parece macio ao toque.",
+          "professional_context_en": "Feels is a core Week 7 verb for texture and comfort language.",
+          "professional_context_pt": "Feels é um verbo central da Semana 7 para linguagem de textura e conforto.",
+          "translation_notes_pt": "Ajude os alunos a diferenciar feels de looks.",
+          "pronunciation_notes": "Say FEELZ.",
+          "related_terms": [
+            "looks",
+            "soft",
+            "rough"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v041",
+          "term": "looks",
+          "part_of_speech": "verb",
+          "definition_en": "A verb used to describe visual appearance.",
+          "learner_friendly_definition_en": "A word for visual description.",
+          "learner_friendly_definition_pt": "Uma palavra para descrever a aparência visual.",
+          "example_sentence_en": "It looks shiny.",
+          "example_sentence_pt": "Parece brilhante.",
+          "professional_context_en": "Looks is a core Week 7 verb for surface and appearance language.",
+          "professional_context_pt": "Looks é um verbo central da Semana 7 para linguagem de superfície e aparência.",
+          "translation_notes_pt": "Ajude os alunos a diferenciar looks de feels.",
+          "pronunciation_notes": "Say LOOKS.",
+          "related_terms": [
+            "feels",
+            "shiny",
+            "matte"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v042",
+          "term": "good for",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to say the best use of a fabric.",
+          "learner_friendly_definition_en": "A phrase for saying what it suits.",
+          "learner_friendly_definition_pt": "Uma expressão para dizer para que serve melhor.",
+          "example_sentence_en": "It is good for dresses.",
+          "example_sentence_pt": "É bom para vestidos.",
+          "professional_context_en": "Good for helps students link material choice to garment type, weather, and use.",
+          "professional_context_pt": "Good for ajuda os alunos a ligar a escolha do material ao tipo de roupa, clima e uso.",
+          "translation_notes_pt": "Mostre a estrutura completa it is good for ...",
+          "pronunciation_notes": "Stress GOOD and FOR.",
+          "related_terms": [
+            "made of",
+            "can be used for",
+            "garment"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w07-v043",
+          "term": "can be used for",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to say possible fabric use.",
+          "learner_friendly_definition_en": "A phrase for saying one possible use.",
+          "learner_friendly_definition_pt": "Uma expressão para dizer um uso possível.",
+          "example_sentence_en": "It can be used for sleeves and details.",
+          "example_sentence_pt": "Pode ser usado para mangas e detalhes.",
+          "professional_context_en": "Can be used for is a useful support phrase for simple design reasoning.",
+          "professional_context_pt": "Can be used for é uma expressão útil de apoio para raciocínio simples de design.",
+          "translation_notes_pt": "Mantenha como expressão de apoio, não como exigência principal do cartão.",
+          "pronunciation_notes": "Practice linking can be used for smoothly.",
+          "related_terms": [
+            "good for",
+            "use",
+            "design"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    }
+  ]
+}

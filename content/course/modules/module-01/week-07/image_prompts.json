@@ -1,0 +1,77 @@
+{
+  "week_id": "m01w07",
+  "image_prompts": [
+    {
+      "asset_id": "m01w07-img-001",
+      "purpose": "Week 7 opener board for bridging from Week 6 visual description into Week 7 fabric and material language.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-001.png",
+      "visual_description": "A compact board with four clearly different adult-oriented garment or swatch visuals that make material differences obvious: blue denim jeans or jacket, a soft white cotton fabric or shirt, a smooth shiny silk-like blouse or swatch, and a black lace detail or swatch.",
+      "style_instructions": "Use a polished fashion-education illustration or realistic fashion-reference style with strong visual clarity and adult proportions.",
+      "composition_notes": "Keep the four visuals separated and easy to scan on mobile. Emphasize material differences more than background detail. Allow fast recognition of denim, cotton, shiny silk, and lace.",
+      "text_in_image": "None.",
+      "avoid": "Avoid logos, dense backgrounds, tiny details, childlike cartoon proportions, and cluttered collage layouts.",
+      "used_by_activity_ids": [
+        "m01w07-a01"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w07-img-002",
+      "purpose": "Common fabric and material board for the main Week 7 materials-matching task.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-002.png",
+      "visual_description": "One clean educational board showing ten clearly different fabric or material examples. Visible key A is cotton, B is denim, C is linen, D is silk, E is wool, F is polyester, G is knit fabric, H is woven fabric, I is lace, and J is leather.",
+      "style_instructions": "Use a clear educational board style with close-up swatches or unmistakable fabric examples that remain readable on a phone screen.",
+      "composition_notes": "Keep each key A to J large and easy to compare. Show texture and material differences clearly, especially between knit fabric and woven fabric.",
+      "text_in_image": "Only the visible keys A to J.",
+      "avoid": "Avoid extra labels, decorative typography, duplicate-looking swatches, or ambiguous material examples that make the answer key uncertain.",
+      "used_by_activity_ids": [
+        "m01w07-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w07-img-003",
+      "purpose": "Texture and material qualities board for the main Week 7 qualities-matching task.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-003.png",
+      "visual_description": "One clean board combining close-up fabric-quality examples. Visible key A is soft, B is rough, C is smooth, D is shiny, E is matte, F is lightweight, G is heavy, H is stretchy, I is stiff, J is flowy, K is structured, L is transparent, and M is opaque.",
+      "style_instructions": "Use a polished educational visual style with close-up fabric examples and simple garment-shape comparisons where needed.",
+      "composition_notes": "Separate the qualities clearly and keep all keys A to M visible. Group the board into clear mobile-readable sections such as touch and surface, weight and structure, and visibility so students do not have to scan all 13 examples as one flat grid. Make soft versus rough versus smooth, lightweight versus heavy, flowy versus structured, and transparent versus opaque especially easy to compare with strong visual contrast, larger samples, and clean spacing.",
+      "text_in_image": "Only the visible keys A to M.",
+      "avoid": "Avoid crowded boards, decorative text, extra keys, tiny samples, dense ungrouped layouts, or ambiguous pairs that blur the difference between feels and looks qualities.",
+      "used_by_activity_ids": [
+        "m01w07-a03"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w07-img-004",
+      "purpose": "Three-swatch reading gallery for matching short fabric descriptions to keyed images.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-004.png",
+      "visual_description": "A gallery with three clearly separated fabric swatches labeled only as image A, image B, and image C. Image A shows a white cotton swatch with a soft matte surface, image B shows a blue denim swatch with a strong structured texture, and image C shows a black lace swatch with decorative open areas.",
+      "style_instructions": "Use a clean close-up fabric-reference style that makes texture and color easy to read on mobile.",
+      "composition_notes": "Make the three swatches easy to compare. The visible image keys A, B, and C must be clear and the swatches must align exactly with the reading descriptions.",
+      "text_in_image": "Only the visible image keys A, B, and C.",
+      "avoid": "Avoid busy backgrounds, folded garments that hide texture, decorative text, or any fabric details that contradict the reading descriptions.",
+      "used_by_activity_ids": [
+        "m01w07-a04"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w07-img-005",
+      "purpose": "Reusable four-swatch gallery for listening, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-005.png",
+      "visual_description": "A gallery with four clearly separated fabric swatches labeled only as image A, image B, image C, and image D. Image A shows white cotton that looks soft and lightweight, image B shows blue denim that looks heavy and structured, image C shows smooth shiny silk in a light elegant color, and image D shows black lace that looks textured, sheer, and decorative.",
+      "style_instructions": "Use a polished close-up swatch gallery style with strong texture readability and adult-oriented fashion-reference quality.",
+      "composition_notes": "Keep the four swatches visually distinct and evenly spaced. The gallery must support exact answer-key matching across listening, writing, and speaking tasks.",
+      "text_in_image": "Only the visible image keys A, B, C, and D.",
+      "avoid": "Avoid extra decorative text, cluttered backgrounds, or swatches that do not clearly communicate cotton, denim, silk, and lace.",
+      "used_by_activity_ids": [
+        "m01w07-a05",
+        "m01w07-a07",
+        "m01w07-a09"
+      ],
+      "status": "planned"
+    }
+  ]
+}

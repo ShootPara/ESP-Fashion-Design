@@ -1,0 +1,91 @@
+{
+  "week_id": "m01w07",
+  "assets": [
+    {
+      "asset_id": "m01w07-img-001",
+      "week_id": "m01w07",
+      "asset_type": "image",
+      "title": "Week 7 opener materials bridge board",
+      "description": "A compact opener board with garments and swatches that clearly suggest different materials so students can bridge from visual description to fabric description.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-001.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w07-a01"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use as a fast review-preview board. Include visually clear denim, a soft light fabric, a shiny fabric, and a lace-like fabric. Keep the scene uncluttered so students can answer quick recognition questions."
+    },
+    {
+      "asset_id": "m01w07-img-002",
+      "week_id": "m01w07",
+      "asset_type": "image",
+      "title": "Common fabric and material swatch board",
+      "description": "One combined board showing common fabric and material examples with visible keys for the main Week 7 materials-matching task.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-002.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w07-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required visible-key strategy: A cotton, B denim, C linen, D silk, E wool, F polyester, G knit fabric, H woven fabric, I lace, J leather. The image, activity answers, and prompt notes must all use the same A-J labels."
+    },
+    {
+      "asset_id": "m01w07-img-003",
+      "week_id": "m01w07",
+      "asset_type": "image",
+      "title": "Texture and material qualities board",
+      "description": "A combined board showing clear keyed examples of fabric texture, surface, weight, movement, and visibility.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-003.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w07-a03"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required visible-key strategy: A soft, B rough, C smooth, D shiny, E matte, F lightweight, G heavy, H stretchy, I stiff, J flowy, K structured, L transparent, M opaque. The image, activity answers, and prompt notes must all use the same A-M labels."
+    },
+    {
+      "asset_id": "m01w07-img-004",
+      "week_id": "m01w07",
+      "asset_type": "image",
+      "title": "Three-swatch reading gallery",
+      "description": "A reading gallery with three clearly separated swatches for matching short fabric descriptions to image A, image B, and image C.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-004.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w07-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required image-key strategy: image A is a white cotton swatch, image B is a blue denim swatch, and image C is a black lace swatch. The reading texts, activity answers, and prompt notes must all use the same A-C mapping."
+    },
+    {
+      "asset_id": "m01w07-img-005",
+      "week_id": "m01w07",
+      "asset_type": "image",
+      "title": "Reusable four-swatch fabric gallery",
+      "description": "A reusable gallery with four clearly separated fabric swatches for listening, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-07/m01w07-img-005.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w07-a05",
+        "m01w07-a07",
+        "m01w07-a09"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required image-key strategy: image A is white cotton, image B is blue denim, image C is smooth shiny silk, and image D is black lace. The listening script, writing-card options, speaking prompts, and prompt notes must all use the same A-D mapping."
+    },
+    {
+      "asset_id": "m01w07-aud-001",
+      "week_id": "m01w07",
+      "asset_type": "audio",
+      "title": "Which fabric is it listening audio",
+      "description": "A short Week 7 listening clip describing four fabrics by color, feel, look, weight, and garment use.",
+      "target_filename": "assets/audio/module-01/week-07/m01w07-aud-001.mp3",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w07-a05"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Transcript remains inside audio_prompts.json only. Do not create a separate transcript asset in the current phase."
+    }
+  ]
+}

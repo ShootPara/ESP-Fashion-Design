@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-04-29T20:07:57.964856+00:00
+- Generated at (UTC): 2026-04-29T21:09:04.813414+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -56,6 +56,14 @@
 - `content/course/modules/module-01/week-06/teacher_notes.md`
 - `content/course/modules/module-01/week-06/vocabulary.json`
 - `content/course/modules/module-01/week-06/week_manifest.json`
+- `content/course/modules/module-01/week-07/activities.json`
+- `content/course/modules/module-01/week-07/asset_manifest.json`
+- `content/course/modules/module-01/week-07/audio_prompts.json`
+- `content/course/modules/module-01/week-07/image_prompts.json`
+- `content/course/modules/module-01/week-07/lesson_plan.md`
+- `content/course/modules/module-01/week-07/teacher_notes.md`
+- `content/course/modules/module-01/week-07/vocabulary.json`
+- `content/course/modules/module-01/week-07/week_manifest.json`
 - `docs/fashion-course-content-requirements.md`
 - `schemas/activities.schema.json`
 - `schemas/asset_manifest.schema.json`
@@ -74,7 +82,12 @@
 - None.
 
 ## Missing Assets
-- None.
+- m01w07-img-001 — A compact opener board with garments and swatches that clearly suggest different materials so students can bridge from visual description to fabric description. — assets/images/module-01/week-07/m01w07-img-001.png
+- m01w07-img-002 — One combined board showing common fabric and material examples with visible keys for the main Week 7 materials-matching task. — assets/images/module-01/week-07/m01w07-img-002.png
+- m01w07-img-003 — A combined board showing clear keyed examples of fabric texture, surface, weight, movement, and visibility. — assets/images/module-01/week-07/m01w07-img-003.png
+- m01w07-img-004 — A reading gallery with three clearly separated swatches for matching short fabric descriptions to image A, image B, and image C. — assets/images/module-01/week-07/m01w07-img-004.png
+- m01w07-img-005 — A reusable gallery with four clearly separated fabric swatches for listening, writing, and speaking. — assets/images/module-01/week-07/m01w07-img-005.png
+- m01w07-aud-001 — A short Week 7 listening clip describing four fabrics by color, feel, look, weight, and garment use. — assets/audio/module-01/week-07/m01w07-aud-001.mp3
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.

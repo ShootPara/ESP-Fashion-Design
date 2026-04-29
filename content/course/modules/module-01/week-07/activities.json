@@ -1,0 +1,2137 @@
+{
+  "week_id": "m01w07",
+  "activities": [
+    {
+      "activity_id": "m01w07-a01",
+      "week_id": "m01w07",
+      "sequence_number": 1,
+      "title": "Welcome Back: What Is It Made Of?",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students bridge from Week 6 visual-description language into Week 7 fabric language by recognizing familiar look words and previewing material questions on one compact opener board.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: What Is It Made Of?",
+          "summary": "Look at the images and choose the best fabric or material answer.",
+          "instructions": "Look at the garments and swatches. Choose the correct answer for each short question about material, fabric, and one Week 6 review detail.",
+          "success_criteria": [
+            "I can connect one visual clue to a fabric or material word.",
+            "I can remember one Week 6 visual word while I start Week 7.",
+            "I can notice that fabric description is the new focus this week."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "It is made of ___.",
+            "The fabric is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: de que é feito?",
+          "summary": "Observe as imagens e escolha a melhor resposta sobre tecido ou material.",
+          "instructions": "Observe as roupas e as amostras. Escolha a resposta correta para cada pergunta curta sobre material, tecido e um detalhe de revisão da Semana 6.",
+          "success_criteria": [
+            "Eu consigo ligar uma pista visual a uma palavra de tecido ou material.",
+            "Eu consigo lembrar uma palavra visual da Semana 6 enquanto começo a Semana 7.",
+            "Eu consigo perceber que a descrição de tecido é o novo foco desta semana."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "It is made of ___.",
+            "The fabric is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the opener light and fast. Students should feel that they are carrying Week 6 observation language into a new focus on materials, not starting a second full vocabulary lesson.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "materials bridge opener board"
+      ],
+      "vocabulary_refs": [
+        "m01w07-v001",
+        "m01w07-v004",
+        "m01w07-v007",
+        "m01w07-v009",
+        "m01w07-v014",
+        "m01w07-v039",
+        "m01w07-v041"
+      ],
+      "asset_refs": [
+        "m01w07-img-001"
+      ],
+      "input": {
+        "input_type": "materials_preview_quiz",
+        "prompt_en": "Choose the best review and preview answer for each image question.",
+        "prompt_pt": "Escolha a melhor resposta de revisão e apresentação para cada pergunta sobre a imagem.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image looks like denim?",
+            "label_pt": "Qual imagem parece denim?",
+            "asset_id": "m01w07-img-001",
+            "options_en": [
+              "the blue jeans image",
+              "the black lace image",
+              "the white cotton swatch"
+            ],
+            "options_pt": [
+              "a imagem do jeans azul",
+              "a imagem da renda preta",
+              "a amostra de algodão branco"
+            ],
+            "correct_answer": "the blue jeans image"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What does fabric mean?",
+            "label_pt": "O que significa fabric?",
+            "options_en": [
+              "tecido",
+              "zíper",
+              "manga"
+            ],
+            "options_pt": [
+              "tecido",
+              "zíper",
+              "manga"
+            ],
+            "correct_answer": "tecido"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Complete the phrase: It is made ___ cotton.",
+            "label_pt": "Complete a expressão: It is made ___ cotton.",
+            "options_en": [
+              "of",
+              "to",
+              "with"
+            ],
+            "options_pt": [
+              "of",
+              "to",
+              "with"
+            ],
+            "correct_answer": "of"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which Week 6 review word describes color, not fabric?",
+            "label_pt": "Qual palavra de revisão da Semana 6 descreve cor, e não tecido?",
+            "options_en": [
+              "palette",
+              "denim",
+              "lace"
+            ],
+            "options_pt": [
+              "palette",
+              "denim",
+              "lace"
+            ],
+            "correct_answer": "palette"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which fabric looks shiny?",
+            "label_pt": "Qual tecido parece brilhante?",
+            "asset_id": "m01w07-img-001",
+            "options_en": [
+              "the silk-like fabric",
+              "the denim image",
+              "the cotton swatch"
+            ],
+            "options_pt": [
+              "o tecido parecido com seda",
+              "a imagem de denim",
+              "a amostra de algodão"
+            ],
+            "correct_answer": "the silk-like fabric"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the materials board",
+          "student_action_en": "Look at the garments and swatches and notice what looks familiar from Week 6.",
+          "student_action_pt": "Observe as roupas e as amostras e perceba o que parece familiar da Semana 6.",
+          "teacher_action": "Remind students that last week they described what a look looked like, and this week they begin describing what the material is like.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the short answers",
+          "student_action_en": "Choose the correct answer for each short review and preview question.",
+          "student_action_pt": "Escolha a resposta correta para cada pergunta curta de revisão e apresentação.",
+          "teacher_action": "Keep the pace supportive and quick so the opener feels like a bridge, not a test.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Five quick recognition selections linking one opener board to fabric, material, and review language.",
+        "description_pt": "Cinco seleções rápidas de reconhecimento ligando um painel inicial à linguagem de tecido, material e revisão.",
+        "length_or_format": "5 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student identifies at least one material clue correctly.",
+          "The student uses one review item from Week 6 successfully.",
+          "The student notices that Week 7 focuses on fabric description."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica corretamente pelo menos uma pista de material.",
+          "O aluno usa com sucesso um item de revisão da Semana 6.",
+          "O aluno percebe que a Semana 7 tem foco na descrição de tecidos."
+        ],
+        "checklist_en": [
+          "I looked carefully at the images.",
+          "I used one review word from Week 6.",
+          "I noticed one new Week 7 material word."
+        ],
+        "checklist_pt": [
+          "Eu observei as imagens com atenção.",
+          "Eu usei uma palavra de revisão da Semana 6.",
+          "Eu percebi uma nova palavra de material da Semana 7."
+        ],
+        "rubric": [],
+        "model_response_en": "the blue jeans image, tecido, of, palette, and the silk-like fabric",
+        "model_response_pt": "a imagem do jeans azul, tecido, of, palette e o tecido parecido com seda",
+        "common_errors": [
+          "Choosing a Week 6 visual word when the question asks for a material.",
+          "Missing of in the phrase made of."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which answer names the material and not only the color or style?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual resposta nomeia o material e não apenas a cor ou o estilo?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students quietly say the Portuguese support word before choosing the English-linked answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence such as It is made of denim."
+        ]
+      },
+      "extension_options": [
+        "Say one more material word you already know without using the options."
+      ],
+      "notes_for_app_design": "Render this as one image card with five short single-choice items. Save the selections only. Keep the experience quick and clearly positioned as a bridge from Week 6 visual language to Week 7 material language."
+    },
+    {
+      "activity_id": "m01w07-a02",
+      "week_id": "m01w07",
+      "sequence_number": 2,
+      "title": "Fabric Vocabulary: Common Materials",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students learn the core Week 7 material words by completing one main swatch-to-word matching set, then using a short Portuguese bridge and one use sentence as support.",
+      "student_facing": {
+        "en": {
+          "title": "Fabric Vocabulary: Common Materials",
+          "summary": "Match the swatches and materials to the correct English words.",
+          "instructions": "Match each visible key on the board to the correct English material word. After the main matching set, use the Portuguese support and one short sentence for extra practice.",
+          "success_criteria": [
+            "I can match common fabrics and materials to English words.",
+            "I can use Portuguese support when I need it without losing the English target.",
+            "I can connect a fabric word to a garment use sentence."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "It is made of ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Vocabulário de tecido: materiais comuns",
+          "summary": "Relacione as amostras e os materiais às palavras corretas em inglês.",
+          "instructions": "Relacione cada chave visível do painel à palavra correta de material em inglês. Depois do conjunto principal de relação, use o apoio em português e uma frase curta para prática extra.",
+          "success_criteria": [
+            "Eu consigo relacionar tecidos e materiais comuns a palavras em inglês.",
+            "Eu consigo usar apoio em português quando preciso sem perder o foco no inglês.",
+            "Eu consigo ligar uma palavra de tecido a uma frase sobre uso da roupa."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "It is made of ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on the image-to-word matching set. The Portuguese bridge and use sentence should come only after the main matching is complete.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "common-materials swatch board"
+      ],
+      "vocabulary_refs": [
+        "m01w07-v001",
+        "m01w07-v002",
+        "m01w07-v003",
+        "m01w07-v004",
+        "m01w07-v005",
+        "m01w07-v006",
+        "m01w07-v007",
+        "m01w07-v008",
+        "m01w07-v009",
+        "m01w07-v010",
+        "m01w07-v011",
+        "m01w07-v012",
+        "m01w07-v013",
+        "m01w07-v014",
+        "m01w07-v015",
+        "m01w07-v039",
+        "m01w07-v042"
+      ],
+      "asset_refs": [
+        "m01w07-img-002"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the swatch keys to the correct English material words.",
+        "prompt_pt": "Relacione as chaves das amostras às palavras corretas de material em inglês.",
+        "items": [
+      {
+        "response_type": "image_match",
+        "label_en": "Match the board keys A to J to the correct material words from the answer inventory.",
+        "label_pt": "Relacione as chaves A a J do painel às palavras corretas de material usando o inventário de respostas.",
+        "asset_id": "m01w07-img-002",
+        "match_terms_en": [
+          "cotton",
+          "denim",
+          "linen",
+          "silk",
+          "wool",
+          "polyester",
+          "knit fabric",
+          "woven fabric",
+          "lace",
+          "leather"
+        ],
+        "match_terms_pt": [
+          "algodão",
+          "denim",
+          "linho",
+          "seda",
+          "lã",
+          "poliéster",
+          "malha",
+          "tecido plano",
+          "renda",
+          "couro"
+        ],
+        "matches": [
+              { "image_key": "A", "answer_en": "cotton", "answer_pt": "algodão" },
+              { "image_key": "B", "answer_en": "denim", "answer_pt": "denim" },
+              { "image_key": "C", "answer_en": "linen", "answer_pt": "linho" },
+              { "image_key": "D", "answer_en": "silk", "answer_pt": "seda" },
+              { "image_key": "E", "answer_en": "wool", "answer_pt": "lã" },
+              { "image_key": "F", "answer_en": "polyester", "answer_pt": "poliéster" },
+              { "image_key": "G", "answer_en": "knit fabric", "answer_pt": "malha" },
+              { "image_key": "H", "answer_en": "woven fabric", "answer_pt": "tecido plano" },
+              { "image_key": "I", "answer_en": "lace", "answer_pt": "renda" },
+              { "image_key": "J", "answer_en": "leather", "answer_pt": "couro" }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support to the English word.",
+            "label_pt": "Relacione o apoio em português à palavra em inglês.",
+            "pairs": [
+              { "pt": "algodão", "en": "cotton" },
+              { "pt": "linho", "en": "linen" },
+              { "pt": "seda", "en": "silk" },
+              { "pt": "renda", "en": "lace" }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "The jacket is made of ___.",
+            "sentence_frame_pt": "The jacket is made of ___.",
+            "word_bank": [
+              "denim",
+              "soft",
+              "summer dresses"
+            ],
+            "accepted_answers": [
+              "denim"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the board",
+          "student_action_en": "Look carefully at the common-materials board and notice the visible keys before you start matching.",
+          "student_action_pt": "Observe com atenção o painel de materiais comuns e perceba as chaves visíveis antes de começar a relacionar.",
+          "teacher_action": "Explain that the main task is swatch-to-word matching and that the support items come after the core matching set.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the material words",
+          "student_action_en": "Match the visible keys on the board to the correct English material words.",
+          "student_action_pt": "Relacione as chaves visíveis do painel às palavras corretas de material em inglês.",
+          "teacher_action": "Monitor confusion points such as knit fabric versus woven fabric and lace versus leather.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use the support bridge",
+          "student_action_en": "Check a few Portuguese links and complete one short use sentence.",
+          "student_action_pt": "Confira algumas relações com o português e complete uma frase curta de uso.",
+          "teacher_action": "Use the bridge only as support after the main matching set is done.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "One saved image-word matching set as the main scored output, followed by short Portuguese bridge and fill-blank support.",
+        "description_pt": "Um conjunto salvo de relação imagem-palavra como resultado principal avaliado, seguido por apoio curto de ponte com o português e preenchimento de lacuna.",
+        "length_or_format": "1 scored image-match set as the main saved output, plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main matching set.",
+          "The student connects common materials to English words.",
+          "The student may use the Portuguese bridge and fill-blank item after the main matching task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relação.",
+          "O aluno relaciona materiais comuns a palavras em inglês.",
+          "O aluno pode usar a ponte com o português e o item de lacuna depois da tarefa principal de relação."
+        ],
+        "checklist_en": [
+          "I matched the main material images.",
+          "I checked the English words carefully.",
+          "I used the support items after the main task."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as imagens principais de materiais.",
+          "Eu conferi as palavras em inglês com atenção.",
+          "Eu usei os itens de apoio depois da tarefa principal."
+        ],
+        "rubric": [],
+        "model_response_en": "A cotton, B denim, C linen, D silk, E wool, F polyester, G knit fabric, H woven fabric, I lace, J leather, and denim for the jacket sentence",
+        "model_response_pt": "A algodão, B denim, C linho, D seda, E lã, F poliéster, G malha, H tecido plano, I renda, J couro, e denim para a frase da jaqueta",
+        "common_errors": [
+          "Mixing knit fabric and woven fabric because both are fabric-construction words.",
+          "Confusing lace and leather by sound instead of by image."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the texture and surface. Which key shows a soft cloth and which key shows a stronger material?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente a textura e a superfície. Qual chave mostra um tecido macio e qual chave mostra um material mais forte?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the Portuguese support word quietly before choosing the English material word."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence such as Linen is good for summer."
+        ]
+      },
+      "extension_options": [
+        "Name one more garment that could be made of one of the materials on the board."
+      ],
+      "notes_for_app_design": "Render this as one main keyed image-matching task with the board visible at all times. Save the matching set as the primary output. Show the Portuguese bridge and one fill-blank sentence only after the main matching is complete."
+    },
+    {
+      "activity_id": "m01w07-a03",
+      "week_id": "m01w07",
+      "sequence_number": 3,
+      "title": "Texture and Material Qualities",
+      "activity_type": "visual_analysis",
+      "activity_type_custom": "",
+      "summary": "Students learn the core Week 7 fabric-quality words by completing one main quality-matching set, then using a short opposite pair and one support sentence after the main task.",
+      "student_facing": {
+        "en": {
+          "title": "Texture and Material Qualities",
+          "summary": "Match the fabric qualities to the correct keyed images.",
+          "instructions": "Match each visible key on the board to the correct English quality word. After the main matching set, use the short support items for extra practice.",
+          "success_criteria": [
+            "I can match texture and surface words to clear fabric examples.",
+            "I can match movement, weight, and visibility words to clear fabric examples.",
+            "I can use one quality word in a short sentence."
+          ],
+          "sentence_frames": [
+            "It feels ___.",
+            "It looks ___.",
+            "It is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Textura e qualidades do material",
+          "summary": "Relacione as qualidades do tecido às imagens com chave correta.",
+          "instructions": "Relacione cada chave visível do painel à palavra correta de qualidade em inglês. Depois do conjunto principal de relação, use os itens curtos de apoio para prática extra.",
+          "success_criteria": [
+            "Eu consigo relacionar palavras de textura e superfície a exemplos claros de tecido.",
+            "Eu consigo relacionar palavras de movimento, peso e visibilidade a exemplos claros de tecido.",
+            "Eu consigo usar uma palavra de qualidade em uma frase curta."
+          ],
+          "sentence_frames": [
+            "It feels ___.",
+            "It looks ___.",
+            "It is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on the quality-matching set. The support items should stay clearly secondary and should not replace the main matching path.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "texture and material qualities board"
+      ],
+      "vocabulary_refs": [
+        "m01w07-v016",
+        "m01w07-v017",
+        "m01w07-v018",
+        "m01w07-v019",
+        "m01w07-v020",
+        "m01w07-v021",
+        "m01w07-v022",
+        "m01w07-v023",
+        "m01w07-v024",
+        "m01w07-v027",
+        "m01w07-v028",
+        "m01w07-v029",
+        "m01w07-v030",
+        "m01w07-v031",
+        "m01w07-v032",
+        "m01w07-v033",
+        "m01w07-v034",
+        "m01w07-v040",
+        "m01w07-v041"
+      ],
+      "asset_refs": [
+        "m01w07-img-003"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the board keys to the correct English quality words.",
+        "prompt_pt": "Relacione as chaves do painel às palavras corretas de qualidade em inglês.",
+        "items": [
+      {
+        "response_type": "image_match",
+        "label_en": "Match the board keys A to M to the correct quality words from the answer inventory.",
+        "label_pt": "Relacione as chaves A a M do painel às palavras corretas de qualidade usando o inventário de respostas.",
+        "asset_id": "m01w07-img-003",
+        "match_terms_en": [
+          "soft",
+          "rough",
+          "smooth",
+          "shiny",
+          "matte",
+          "lightweight",
+          "heavy",
+          "stretchy",
+          "stiff",
+          "flowy",
+          "structured",
+          "transparent",
+          "opaque"
+        ],
+        "match_terms_pt": [
+          "macio",
+          "áspero",
+          "liso",
+          "brilhante",
+          "fosco",
+          "leve",
+          "pesado",
+          "elástico",
+          "rígido",
+          "fluido",
+          "estruturado",
+          "transparente",
+          "opaco"
+        ],
+        "matches": [
+              { "image_key": "A", "answer_en": "soft", "answer_pt": "macio" },
+              { "image_key": "B", "answer_en": "rough", "answer_pt": "áspero" },
+              { "image_key": "C", "answer_en": "smooth", "answer_pt": "liso" },
+              { "image_key": "D", "answer_en": "shiny", "answer_pt": "brilhante" },
+              { "image_key": "E", "answer_en": "matte", "answer_pt": "fosco" },
+              { "image_key": "F", "answer_en": "lightweight", "answer_pt": "leve" },
+              { "image_key": "G", "answer_en": "heavy", "answer_pt": "pesado" },
+              { "image_key": "H", "answer_en": "stretchy", "answer_pt": "elástico" },
+              { "image_key": "I", "answer_en": "stiff", "answer_pt": "rígido" },
+              { "image_key": "J", "answer_en": "flowy", "answer_pt": "fluido" },
+              { "image_key": "K", "answer_en": "structured", "answer_pt": "estruturado" },
+              { "image_key": "L", "answer_en": "transparent", "answer_pt": "transparente" },
+              { "image_key": "M", "answer_en": "opaque", "answer_pt": "opaco" }
+            ]
+          },
+          {
+            "response_type": "multiple_choice",
+            "label_en": "Which opposite pair matches the fabric qualities?",
+            "label_pt": "Qual par de opostos combina com as qualidades do tecido?",
+            "options_en": [
+              "soft and rough",
+              "silk and denim",
+              "cotton and jacket"
+            ],
+            "options_pt": [
+              "soft e rough",
+              "silk e denim",
+              "cotton e jacket"
+            ],
+            "correct_answer": "soft and rough"
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "The lace looks ___.",
+            "sentence_frame_pt": "The lace looks ___.",
+            "word_bank": [
+              "sheer",
+              "waist",
+              "palette"
+            ],
+            "accepted_answers": [
+              "sheer"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the qualities board",
+          "student_action_en": "Look carefully at the board and notice the visible keys before you start matching.",
+          "student_action_pt": "Observe com atenção o painel e perceba as chaves visíveis antes de começar a relacionar.",
+          "teacher_action": "Explain that the main task is matching the visible examples to quality words and that the small support items come after the core matching.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the quality words",
+          "student_action_en": "Match the visible keys on the board to the correct English quality words.",
+          "student_action_pt": "Relacione as chaves visíveis do painel às palavras corretas de qualidade em inglês.",
+          "teacher_action": "Monitor confusion points such as feels versus looks, flowy versus structured, and transparent versus opaque.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use the short support items",
+          "student_action_en": "Complete one opposite pair and one short sentence after the main matching set.",
+          "student_action_pt": "Complete um par de opostos e uma frase curta depois do conjunto principal de relação.",
+          "teacher_action": "Keep the support items clearly secondary to the main matching work.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "One saved image-word matching set for fabric qualities as the main scored output, followed by short support practice.",
+        "description_pt": "Um conjunto salvo de relação imagem-palavra para qualidades do tecido como resultado principal avaliado, seguido por prática curta de apoio.",
+        "length_or_format": "1 scored image-match set as the main saved output, plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main quality-matching set.",
+          "The student connects visible fabric qualities to English words.",
+          "The student uses one short support item after the main task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relação de qualidades.",
+          "O aluno relaciona qualidades visíveis do tecido a palavras em inglês.",
+          "O aluno usa um item curto de apoio depois da tarefa principal."
+        ],
+        "checklist_en": [
+          "I matched the main quality images.",
+          "I checked the English quality words carefully.",
+          "I used the support items after the main task."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as imagens principais de qualidades.",
+          "Eu conferi com atenção as palavras de qualidade em inglês.",
+          "Eu usei os itens de apoio depois da tarefa principal."
+        ],
+        "rubric": [],
+        "model_response_en": "A soft, B rough, C smooth, D shiny, E matte, F lightweight, G heavy, H stretchy, I stiff, J flowy, K structured, L transparent, M opaque, with sheer for the lace sentence",
+        "model_response_pt": "A macio, B áspero, C liso, D brilhante, E fosco, F leve, G pesado, H elástico, I rígido, J fluido, K estruturado, L transparente, M opaco, com sheer para a frase sobre renda",
+        "common_errors": [
+          "Choosing a look word when the task asks for a touch or fabric-behavior word.",
+          "Mixing transparent and opaque because the image is not checked carefully."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which quality is about touch, which is about appearance, and which is about visibility?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual qualidade fala do toque, qual fala da aparência e qual fala da visibilidade?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the fabric example and say the Portuguese support word before matching the English answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence such as The fabric feels soft and looks matte."
+        ]
+      },
+      "extension_options": [
+        "Compare two quality words aloud, such as flowy and structured."
+      ],
+      "notes_for_app_design": "Render this as one main keyed image-matching task with the board visible at all times. Save the matching set as the primary output. Show the opposite pair and one fill-blank support item only after the main matching is complete."
+    },
+    {
+      "activity_id": "m01w07-a04",
+      "week_id": "m01w07",
+      "sequence_number": 4,
+      "title": "Read: Fabric Swatch Descriptions",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read three short A2 fabric descriptions and match them to the correct keyed swatches before answering detail questions about texture, appearance, and use.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Fabric Swatch Descriptions",
+          "summary": "Read the short fabric texts and choose the correct image or detail answer.",
+          "instructions": "Read Text A, Text B, and Text C. Look at image A, image B, and image C. Choose the correct image or detail answer for each question.",
+          "success_criteria": [
+            "I can match a short fabric description to the correct swatch.",
+            "I can find one important detail in a short text.",
+            "I can connect fabric words to texture and use."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "It feels ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Leia: descrições de amostras de tecido",
+          "summary": "Leia os textos curtos sobre tecido e escolha a imagem ou o detalhe correto.",
+          "instructions": "Leia o Texto A, o Texto B e o Texto C. Observe a image A, a image B e a image C. Escolha a imagem ou a resposta de detalhe correta para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo relacionar uma descrição curta de tecido à amostra correta.",
+            "Eu consigo encontrar um detalhe importante em um texto curto.",
+            "Eu consigo ligar palavras de tecido à textura e ao uso."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "It feels ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the reading short and concrete. All detail questions must be answerable from the visible text and the visible keyed images.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "three-swatch reading gallery",
+        "three short fabric texts"
+      ],
+      "vocabulary_refs": [
+        "m01w07-v004",
+        "m01w07-v006",
+        "m01w07-v007",
+        "m01w07-v009",
+        "m01w07-v014",
+        "m01w07-v016",
+        "m01w07-v018",
+        "m01w07-v019",
+        "m01w07-v021",
+        "m01w07-v023",
+        "m01w07-v031",
+        "m01w07-v033",
+        "m01w07-v038",
+        "m01w07-v042",
+        "m01w07-v043"
+      ],
+      "asset_refs": [
+        "m01w07-img-004"
+      ],
+      "input": {
+        "input_type": "reading_with_keyed_gallery",
+        "prompt_en": "Read the texts and choose the correct image or detail answer.",
+        "prompt_pt": "Leia os textos e escolha a imagem ou a resposta de detalhe correta.",
+        "items": [
+          {
+            "response_type": "reading_text",
+            "label_en": "Text A",
+            "label_pt": "Texto A",
+            "reading_text_en": "This is a cotton fabric swatch. It is white and lightweight. It feels soft and smooth. It is good for shirts and summer dresses.",
+            "reading_text_pt": "Este é um texto em inglês sobre uma amostra de algodão. Leia o texto em inglês para responder."
+          },
+          {
+            "response_type": "reading_text",
+            "label_en": "Text B",
+            "label_pt": "Texto B",
+            "reading_text_en": "This is denim. It is blue, heavy, and structured. It feels thick and strong. It is good for jeans and jackets.",
+            "reading_text_pt": "Este é um texto em inglês sobre denim. Leia o texto em inglês para responder."
+          },
+          {
+            "response_type": "reading_text",
+            "label_en": "Text C",
+            "label_pt": "Texto C",
+            "reading_text_en": "This is lace. It is black and textured. It looks sheer and decorative. It can be used for sleeves, details, or accessories.",
+            "reading_text_pt": "Este é um texto em inglês sobre renda. Leia o texto em inglês para responder."
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image matches Text A?",
+            "label_pt": "Qual imagem combina com o Texto A?",
+            "asset_id": "m01w07-img-004",
+            "options_en": ["image A", "image B", "image C"],
+            "options_pt": ["image A", "image B", "image C"],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which fabric is heavy and structured?",
+            "label_pt": "Qual tecido é pesado e estruturado?",
+            "options_en": ["cotton", "denim", "lace"],
+            "options_pt": ["cotton", "denim", "lace"],
+            "correct_answer": "denim"
+          },
+          {
+            "response_type": "true_false",
+            "label_en": "Cotton is good for shirts and summer dresses.",
+            "label_pt": "Cotton é bom para camisas e vestidos de verão.",
+            "correct_answer": true
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What color is the lace?",
+            "label_pt": "Qual é a cor da renda?",
+            "options_en": ["white", "blue", "black"],
+            "options_pt": ["branca", "azul", "preta"],
+            "correct_answer": "black"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Sheer means ...",
+            "label_pt": "Sheer significa ...",
+            "options_en": ["transparent", "heavy", "rough"],
+            "options_pt": ["transparente", "pesado", "áspero"],
+            "correct_answer": "transparent"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the three short texts",
+          "student_action_en": "Read Text A, Text B, and Text C once before answering.",
+          "student_action_pt": "Leia o Texto A, o Texto B e o Texto C uma vez antes de responder.",
+          "teacher_action": "Remind students to look for color, feel, and use clues in each text.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the text to the swatch",
+          "student_action_en": "Look at image A, image B, and image C and choose the correct image answer.",
+          "student_action_pt": "Observe a image A, a image B e a image C e escolha a resposta correta de imagem.",
+          "teacher_action": "Keep the visible image keys on screen while students answer.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Answer the detail questions",
+          "student_action_en": "Answer the final detail questions about weight, color, and meaning.",
+          "student_action_pt": "Responda às perguntas finais de detalhe sobre peso, cor e significado.",
+          "teacher_action": "Point students back to the exact sentence in the text when needed.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_selections",
+        "description_en": "Five app-checked reading selections linked to three short texts and one keyed swatch gallery.",
+        "description_pt": "Cinco seleções de leitura verificadas pelo app ligadas a três textos curtos e a uma galeria de amostras com chave.",
+        "length_or_format": "5 app-checked answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student matches the reading text to the correct swatch.",
+          "The student answers the detail questions accurately.",
+          "The student uses text evidence rather than guessing from one word only."
+        ],
+        "completion_criteria_pt": [
+          "O aluno relaciona o texto de leitura à amostra correta.",
+          "O aluno responde às perguntas de detalhe com precisão.",
+          "O aluno usa evidência do texto em vez de adivinhar por uma palavra apenas."
+        ],
+        "checklist_en": [
+          "I read the three texts first.",
+          "I used the image keys carefully.",
+          "I checked the detail words in the text."
+        ],
+        "checklist_pt": [
+          "Eu li os três textos primeiro.",
+          "Eu usei as chaves das imagens com atenção.",
+          "Eu conferi as palavras de detalhe no texto."
+        ],
+        "rubric": [],
+        "model_response_en": "image A, denim, true, black, and transparent",
+        "model_response_pt": "image A, denim, verdadeiro, preto e transparente",
+        "common_errors": [
+          "Choosing by one color word only and missing the fabric-use clue.",
+          "Confusing transparent and decorative because both appear in the lace text."
+        ],
+        "feedback_prompts_en": [
+          "Read the sentence again. Which word tells you the color, weight, or use clearly?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia a frase novamente. Qual palavra mostra com clareza a cor, o peso ou o uso?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students underline one clue word in each text before answering the questions."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence about why the text matches the image."
+        ]
+      },
+      "extension_options": [
+        "Find one more adjective in the texts and say whether it is about feel or appearance."
+      ],
+      "notes_for_app_design": "Render this as three visible short texts plus a keyed image gallery with image A-C visible at all times. Save selection answers only. Keep the text, image keys, question wording, and correct answers fully aligned."
+    },
+    {
+      "activity_id": "m01w07-a05",
+      "week_id": "m01w07",
+      "sequence_number": 5,
+      "title": "Listen: Which Fabric Is It?",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to four short spoken fabric descriptions and identify the correct swatch or key detail using the shared four-swatch gallery.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Which Fabric Is It?",
+          "summary": "Listen to the four fabric descriptions and choose the correct image or detail answer.",
+          "instructions": "Look at image A, image B, image C, and image D. Listen to the audio and choose the correct image or detail answer for each question.",
+          "success_criteria": [
+            "I can identify a fabric from a short audio description.",
+            "I can hear words about feel, look, and use in context.",
+            "I can connect numbered audio information to the correct image key."
+          ],
+          "sentence_frames": [
+            "It feels ___.",
+            "It looks ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Escute: qual tecido é esse?",
+          "summary": "Escute as quatro descrições de tecido e escolha a imagem ou o detalhe correto.",
+          "instructions": "Observe a image A, a image B, a image C e a image D. Escute o áudio e escolha a imagem ou a resposta de detalhe correta para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo identificar um tecido a partir de uma descrição curta em áudio.",
+            "Eu consigo ouvir palavras sobre toque, aparência e uso em contexto.",
+            "Eu consigo relacionar informações numeradas do áudio à chave correta da imagem."
+          ],
+          "sentence_frames": [
+            "It feels ___.",
+            "It looks ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the audio and image keys fully aligned. Do not add any question that asks for information not stated clearly in the script.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "four-swatch gallery",
+        "Week 7 listening audio"
+      ],
+      "vocabulary_refs": [
+        "m01w07-v006",
+        "m01w07-v007",
+        "m01w07-v009",
+        "m01w07-v014",
+        "m01w07-v016",
+        "m01w07-v018",
+        "m01w07-v019",
+        "m01w07-v023",
+        "m01w07-v024",
+        "m01w07-v031",
+        "m01w07-v033",
+        "m01w07-v035",
+        "m01w07-v040",
+        "m01w07-v041",
+        "m01w07-v042",
+        "m01w07-v043"
+      ],
+      "asset_refs": [
+        "m01w07-img-005",
+        "m01w07-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_with_keyed_gallery",
+        "prompt_en": "Listen to the four descriptions and choose the correct image or detail answer.",
+        "prompt_pt": "Escute as quatro descrições e escolha a imagem ou a resposta de detalhe correta.",
+        "items": [
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image is Number One?",
+            "label_pt": "Qual imagem é o Número Um?",
+            "asset_id": "m01w07-aud-001",
+            "image_asset_id": "m01w07-img-005",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image is Number Two?",
+            "label_pt": "Qual imagem é o Número Dois?",
+            "asset_id": "m01w07-aud-001",
+            "image_asset_id": "m01w07-img-005",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image is shiny and smooth?",
+            "label_pt": "Qual imagem é brilhante e lisa?",
+            "asset_id": "m01w07-aud-001",
+            "image_asset_id": "m01w07-img-005",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "true_false",
+            "label_en": "Number Four looks sheer and decorative.",
+            "label_pt": "O Número Quatro parece transparente e decorativo.",
+            "correct_answer": true,
+            "asset_id": "m01w07-aud-001",
+            "image_asset_id": "m01w07-img-005"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which fabric is good for jeans and jackets?",
+            "label_pt": "Qual tecido é bom para jeans e jaquetas?",
+            "options_en": ["cotton", "denim", "lace"],
+            "options_pt": ["cotton", "denim", "lace"],
+            "correct_answer": "denim",
+            "asset_id": "m01w07-aud-001",
+            "image_asset_id": "m01w07-img-005"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery first",
+          "student_action_en": "Look at image A, image B, image C, and image D before playing the audio.",
+          "student_action_pt": "Observe a image A, a image B, a image C e a image D antes de tocar o áudio.",
+          "teacher_action": "Tell students to notice color, texture, and one possible use in each swatch before listening.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen and choose",
+          "student_action_en": "Listen to the numbered descriptions and choose the correct image or detail answer.",
+          "student_action_pt": "Escute as descrições numeradas e escolha a imagem ou a resposta de detalhe correta.",
+          "teacher_action": "Allow replay and remind students to connect each numbered description to a visible image key.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the details",
+          "student_action_en": "Answer the final detail questions after listening again if needed.",
+          "student_action_pt": "Responda às perguntas finais de detalhe depois de escutar novamente, se necessário.",
+          "teacher_action": "Keep the focus on what the audio says clearly rather than on guessing from style alone.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Five app-checked listening selections linked to one audio clip and the four-swatch image gallery.",
+        "description_pt": "Cinco seleções de escuta verificadas pelo app ligadas a um áudio e à galeria de quatro amostras.",
+        "length_or_format": "5 app-checked answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student uses the numbered audio descriptions to identify the correct fabrics.",
+          "The student answers the detail questions accurately.",
+          "The student connects audio details to the visible image keys."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa as descrições numeradas do áudio para identificar os tecidos corretos.",
+          "O aluno responde às perguntas de detalhe com precisão.",
+          "O aluno relaciona os detalhes do áudio às chaves visíveis das imagens."
+        ],
+        "checklist_en": [
+          "I looked at the gallery before listening.",
+          "I used the image keys while listening.",
+          "I checked the detail questions carefully."
+        ],
+        "checklist_pt": [
+          "Eu observei a galeria antes de escutar.",
+          "Eu usei as chaves das imagens enquanto escutava.",
+          "Eu conferi as perguntas de detalhe com atenção."
+        ],
+        "rubric": [],
+        "model_response_en": "Number One image A, Number Two image B, shiny and smooth image C, Number Four true, and denim for jeans and jackets",
+        "model_response_pt": "Número Um image A, Número Dois image B, brilhante e lisa image C, Número Quatro verdadeiro e denim para jeans e jaquetas",
+        "common_errors": [
+          "Choosing by one color word only and missing the feel or use clue.",
+          "Mixing image C and image D because both look special or decorative."
+        ],
+        "feedback_prompts_en": [
+          "Listen again. Which words tell you the feel, look, or use of the fabric?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente. Quais palavras mostram o toque, a aparência ou o uso do tecido?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the image key while listening the second time."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence after listening, such as The fabric is structured."
+        ]
+      },
+      "extension_options": [
+        "Choose one listening image and say one more quality word for it."
+      ],
+      "notes_for_app_design": "Render this as an audio player plus a keyed gallery with image A-D visible at all times. Save selection answers only. Allow replay. Keep the script, image keys, options, and model response fully aligned, and keep the script inside audio_prompts.json only."
+    },
+    {
+      "activity_id": "m01w07-a06",
+      "week_id": "m01w07",
+      "sequence_number": 6,
+      "title": "Phrase Practice: Made Of / Feels / Looks / Good For",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students practice the main Week 7 description frames through short fill-blank items, with one small support review item after the main phrase-completion work.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: Made Of / Feels / Looks / Good For",
+          "summary": "Complete the fabric phrases with the correct word or short phrase.",
+          "instructions": "Complete each short sentence with the correct word or phrase. Focus on made of, feels, looks, and good for.",
+          "success_criteria": [
+            "I can complete short fabric-description phrases correctly.",
+            "I can choose feels for touch and looks for appearance.",
+            "I can connect one fabric to one garment use."
+          ],
+          "sentence_frames": [
+            "It is made of ___.",
+            "It feels ___.",
+            "It looks ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Prática de frases: made of / feels / looks / good for",
+          "summary": "Complete as frases sobre tecido com a palavra ou expressão correta.",
+          "instructions": "Complete cada frase curta com a palavra ou expressão correta. Foque em made of, feels, looks e good for.",
+          "success_criteria": [
+            "Eu consigo completar corretamente frases curtas de descrição de tecido.",
+            "Eu consigo escolher feels para toque e looks para aparência.",
+            "Eu consigo ligar um tecido a um uso de roupa."
+          ],
+          "sentence_frames": [
+            "It is made of ___.",
+            "It feels ___.",
+            "It looks ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on fill-blank phrase completion. Any extra choice or correction item should stay clearly secondary and framed as support or review.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 7 phrase frames"
+      ],
+      "vocabulary_refs": [
+        "m01w07-v006",
+        "m01w07-v007",
+        "m01w07-v009",
+        "m01w07-v016",
+        "m01w07-v018",
+        "m01w07-v019",
+        "m01w07-v023",
+        "m01w07-v031",
+        "m01w07-v039",
+        "m01w07-v040",
+        "m01w07-v041",
+        "m01w07-v042",
+        "m01w07-v043"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "phrase_fill_blank",
+        "prompt_en": "Complete the Week 7 fabric-description phrases.",
+        "prompt_pt": "Complete as frases de descrição de tecido da Semana 7.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "The jacket is made of ___.",
+            "label_pt": "The jacket is made of ___.",
+            "sentence_frame_en": "The jacket is made of ___.",
+            "sentence_frame_pt": "The jacket is made of ___.",
+            "word_bank": ["denim", "soft", "summer dresses"],
+            "accepted_answers": ["denim"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "The fabric feels ___.",
+            "label_pt": "The fabric feels ___.",
+            "sentence_frame_en": "The fabric feels ___.",
+            "sentence_frame_pt": "The fabric feels ___.",
+            "word_bank": ["soft", "shiny", "jacket"],
+            "accepted_answers": ["soft"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "The fabric looks ___.",
+            "label_pt": "The fabric looks ___.",
+            "sentence_frame_en": "The fabric looks ___.",
+            "sentence_frame_pt": "The fabric looks ___.",
+            "word_bank": ["shiny", "rough", "cotton"],
+            "accepted_answers": ["shiny"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "This fabric is ___.",
+            "label_pt": "This fabric is ___.",
+            "sentence_frame_en": "This fabric is ___.",
+            "sentence_frame_pt": "This fabric is ___.",
+            "word_bank": ["lightweight", "lace", "feels"],
+            "accepted_answers": ["lightweight"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Lace can be used for ___.",
+            "label_pt": "Lace can be used for ___.",
+            "sentence_frame_en": "Lace can be used for ___.",
+            "sentence_frame_pt": "Lace can be used for ___.",
+            "word_bank": ["sleeves and details", "jeans and jackets", "palette and line"],
+            "accepted_answers": ["sleeves and details"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Cotton is good for ___.",
+            "label_pt": "Cotton is good for ___.",
+            "sentence_frame_en": "Cotton is good for ___.",
+            "sentence_frame_pt": "Cotton is good for ___.",
+            "word_bank": ["shirts and summer dresses", "heavy coats", "boots and belts"],
+            "accepted_answers": ["shirts and summer dresses"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Denim is ___.",
+            "label_pt": "Denim is ___.",
+            "sentence_frame_en": "Denim is ___.",
+            "sentence_frame_pt": "Denim is ___.",
+            "word_bank": ["structured", "transparent", "smooth and shiny"],
+            "accepted_answers": ["structured"]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which sentence is correct?",
+            "label_pt": "Qual frase está correta?",
+            "options_en": ["It looks shiny.", "It feels shiny for the eyes.", "It made of silk."],
+            "options_pt": ["It looks shiny.", "It feels shiny for the eyes.", "It made of silk."],
+            "correct_answer": "It looks shiny."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the phrase frames",
+          "student_action_en": "Read the Week 7 phrase frames before you start filling the blanks.",
+          "student_action_pt": "Leia as frases-modelo da Semana 7 antes de começar a preencher as lacunas.",
+          "teacher_action": "Remind students that the main goal is phrase completion, not long writing.",
+          "estimated_minutes": 2,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the main phrase set",
+          "student_action_en": "Complete the short sentences with the correct word or phrase.",
+          "student_action_pt": "Complete as frases curtas com a palavra ou expressão correta.",
+          "teacher_action": "Monitor made of, feels, looks, and good for closely because they prepare the writing card.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check one support item",
+          "student_action_en": "Use the final review item to check one small phrase choice.",
+          "student_action_pt": "Use o item final de revisão para conferir uma pequena escolha de frase.",
+          "teacher_action": "Keep the support review short and clearly secondary to the fill-blank task.",
+          "estimated_minutes": 2,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "phrase_fill_blanks",
+        "description_en": "Seven app-checked fill-blank phrase completions as the main saved output, followed by one small review choice.",
+        "description_pt": "Sete preenchimentos de lacuna verificados pelo app como resultado principal salvo, seguidos por uma pequena escolha de revisão.",
+        "length_or_format": "7 scored fill-blank answers as the main saved output, plus 1 support review choice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main phrase frames accurately.",
+          "The student uses feels for touch and looks for appearance.",
+          "The student connects one fabric to one clear garment use."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa corretamente as principais frases-modelo.",
+          "O aluno usa feels para toque e looks para aparência.",
+          "O aluno liga um tecido a um uso claro de roupa."
+        ],
+        "checklist_en": [
+          "I completed the main Week 7 phrase frames.",
+          "I checked feels and looks carefully.",
+          "I connected the fabric to a garment use."
+        ],
+        "checklist_pt": [
+          "Eu completei as principais frases-modelo da Semana 7.",
+          "Eu conferi feels e looks com atenção.",
+          "Eu liguei o tecido a um uso de roupa."
+        ],
+        "rubric": [],
+        "model_response_en": "denim, soft, shiny, lightweight, sleeves and details, shirts and summer dresses, structured, and It looks shiny.",
+        "model_response_pt": "denim, soft, shiny, lightweight, sleeves and details, shirts and summer dresses, structured e It looks shiny.",
+        "common_errors": [
+          "Using looks when the sentence asks about touch.",
+          "Leaving out of in made of or choosing a material that does not match the garment use."
+        ],
+        "feedback_prompts_en": [
+          "Check the frame again. Is the sentence about touch, appearance, material, or use?"
+        ],
+        "feedback_prompts_pt": [
+          "Confira a frase-modelo novamente. A frase fala de toque, aparência, material ou uso?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to say the full sentence aloud before selecting the answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to create one extra sentence using good for or can be used for."
+        ]
+      },
+      "extension_options": [
+        "Turn one completed phrase into a full sentence of your own."
+      ],
+      "notes_for_app_design": "Render this as a short fill-blank sequence with a visible word bank for each item. Save the fill-blank answers as the primary output. Keep the final single-choice review item clearly marked as secondary support."
+    },
+    {
+      "activity_id": "m01w07-a07",
+      "week_id": "m01w07",
+      "sequence_number": 7,
+      "title": "Fabric Swatch Description Card",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students produce the main Week 7 artifact by choosing one swatch and completing a short structured description card with 6 required sentence-frame lines and 1 optional challenge line.",
+      "student_facing": {
+        "en": {
+          "title": "Fabric Swatch Description Card",
+          "summary": "Choose one swatch and complete a short description card in English.",
+          "instructions": "Choose one swatch from images A to D. Complete the 6 required sentence-frame lines about the fabric name, color, feel, look, behavior, and use. Add the challenge line only if you want extra practice.",
+          "success_criteria": [
+            "I can complete the required description lines.",
+            "I can use fabric, feel, look, and use language in short English sentences.",
+            "I can revise one sentence after teacher feedback."
+          ],
+          "sentence_frames": [
+            "Line 1: This is ___. / This is a ___ fabric swatch.",
+            "Line 2: It is ___.",
+            "Line 3: It feels ___.",
+            "Line 4: It looks ___.",
+            "Line 5: It is ___.",
+            "Line 6: It is good for ___. / It can be used for ___.",
+            "Optional challenge: I like this fabric because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Cartão de descrição da amostra de tecido",
+          "summary": "Escolha uma amostra e complete um cartão curto de descrição em inglês.",
+          "instructions": "Escolha uma amostra das imagens A até D. Complete as 6 linhas obrigatórias com frases-modelo sobre o nome do tecido, a cor, o toque, a aparência, o comportamento e o uso. Acrescente a linha de desafio apenas se você quiser prática extra.",
+          "success_criteria": [
+            "Eu consigo completar as linhas obrigatórias de descrição.",
+            "Eu consigo usar linguagem de tecido, toque, aparência e uso em frases curtas em inglês.",
+            "Eu consigo revisar uma frase depois do feedback do professor."
+          ],
+          "sentence_frames": [
+            "Linha 1: This is ___. / This is a ___ fabric swatch.",
+            "Linha 2: It is ___.",
+            "Linha 3: It feels ___.",
+            "Linha 4: It looks ___.",
+            "Linha 5: It is ___.",
+            "Linha 6: It is good for ___. / It can be used for ___.",
+            "Desafio opcional: I like this fabric because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the task structured and line-based. Do not turn it into a paragraph or a word-count task. Students should complete 6 required lines plus 1 optional challenge line only if ready.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "vocabulary",
+        "grammar",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "four-swatch gallery",
+        "description card sentence frames"
+      ],
+      "vocabulary_refs": [
+        "m01w07-v004",
+        "m01w07-v006",
+        "m01w07-v007",
+        "m01w07-v009",
+        "m01w07-v014",
+        "m01w07-v016",
+        "m01w07-v018",
+        "m01w07-v019",
+        "m01w07-v023",
+        "m01w07-v024",
+        "m01w07-v027",
+        "m01w07-v028",
+        "m01w07-v030",
+        "m01w07-v031",
+        "m01w07-v032",
+        "m01w07-v034",
+        "m01w07-v039",
+        "m01w07-v040",
+        "m01w07-v041",
+        "m01w07-v042",
+        "m01w07-v043"
+      ],
+      "asset_refs": [
+        "m01w07-img-005"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Choose one swatch from images A to D and complete the required description lines.",
+        "prompt_pt": "Escolha uma amostra das imagens A até D e complete as linhas obrigatórias de descrição.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Choose your swatch image.",
+            "label_pt": "Escolha a imagem da sua amostra.",
+            "asset_id": "m01w07-img-005",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["imagem A", "imagem B", "imagem C", "imagem D"]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 1: Name the fabric or swatch.",
+            "label_pt": "Linha 1: Nomeie o tecido ou a amostra.",
+            "sentence_frame_en": "This is ___. / This is a ___ fabric swatch.",
+            "sentence_frame_pt": "This is ___. / This is a ___ fabric swatch."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 2: Add one color or first visible quality.",
+            "label_pt": "Linha 2: Acrescente uma cor ou primeira qualidade visível.",
+            "sentence_frame_en": "It is ___.",
+            "sentence_frame_pt": "It is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 3: Describe the feel.",
+            "label_pt": "Linha 3: Descreva o toque.",
+            "sentence_frame_en": "It feels ___.",
+            "sentence_frame_pt": "It feels ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 4: Describe the look.",
+            "label_pt": "Linha 4: Descreva a aparência.",
+            "sentence_frame_en": "It looks ___.",
+            "sentence_frame_pt": "It looks ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 5: Describe the behavior or structure.",
+            "label_pt": "Linha 5: Descreva o comportamento ou a estrutura.",
+            "sentence_frame_en": "It is ___.",
+            "sentence_frame_pt": "It is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 6: Describe the use.",
+            "label_pt": "Linha 6: Descreva o uso.",
+            "sentence_frame_en": "It is good for ___. / It can be used for ___.",
+            "sentence_frame_pt": "It is good for ___. / It can be used for ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Optional challenge line",
+            "label_pt": "Linha de desafio opcional",
+            "sentence_frame_en": "I like this fabric because ___.",
+            "sentence_frame_pt": "I like this fabric because ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose one swatch",
+          "student_action_en": "Look at images A to D and choose one swatch to describe.",
+          "student_action_pt": "Observe as imagens A até D e escolha uma amostra para descrever.",
+          "teacher_action": "Guide students toward a swatch that matches their confidence level.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the required lines",
+          "student_action_en": "Complete the required sentence-frame lines about the fabric name, color, feel, look, behavior, and use.",
+          "student_action_pt": "Complete as linhas obrigatórias com frases-modelo sobre o nome do tecido, a cor, o toque, a aparência, o comportamento e o uso.",
+          "teacher_action": "Keep the writing structured. Encourage students to finish one line at a time.",
+          "estimated_minutes": 11,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge only if ready",
+          "student_action_en": "Add the challenge line only if you want extra practice.",
+          "student_action_pt": "Acrescente a linha de desafio apenas se você quiser prática extra.",
+          "teacher_action": "Make it clear that the challenge line is optional, not required.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 4,
+          "title": "Check and submit",
+          "student_action_en": "Read your lines again and submit the card for teacher review.",
+          "student_action_pt": "Leia suas linhas novamente e envie o cartão para revisão do professor.",
+          "teacher_action": "Prompt students to check made of, feels, and looks before submission when relevant.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_description_card",
+        "description_en": "A saved Fabric Swatch Description Card with 6 required sentence-frame lines and 1 optional challenge line.",
+        "description_pt": "Um Cartão de Descrição da Amostra de Tecido salvo com 6 linhas obrigatórias de frases-modelo e 1 linha de desafio opcional.",
+        "length_or_format": "6 required lines plus 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student completes the required description lines.",
+          "The student uses fabric, feel, look, and use language clearly.",
+          "The optional challenge line may be added, but it is not required."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as linhas obrigatórias de descrição.",
+          "O aluno usa com clareza linguagem de tecido, toque, aparência e uso.",
+          "A linha de desafio opcional pode ser acrescentada, mas não é obrigatória."
+        ],
+        "checklist_en": [
+          "The card names the fabric or swatch clearly.",
+          "The card includes one feel sentence.",
+          "The card includes one look sentence.",
+          "The card includes one behavior or structure sentence.",
+          "The card includes one use sentence.",
+          "The challenge line is optional only."
+        ],
+        "checklist_pt": [
+          "O cartão nomeia com clareza o tecido ou a amostra.",
+          "O cartão inclui uma frase sobre o toque.",
+          "O cartão inclui uma frase sobre a aparência.",
+          "O cartão inclui uma frase sobre comportamento ou estrutura.",
+          "O cartão inclui uma frase sobre uso.",
+          "A linha de desafio é apenas opcional."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a cotton fabric swatch. It is white. It feels soft. It looks smooth. It is lightweight. It is good for shirts and summer dresses. Optional challenge: I like this fabric because it is comfortable.",
+        "model_response_pt": "Esta é uma amostra de algodão. Ela é branca. Parece macia ao toque. Parece lisa. Ela é leve. É boa para camisas e vestidos de verão. Desafio opcional: Eu gosto deste tecido porque ele é confortável.",
+        "common_errors": [
+          "Writing a list of words instead of complete sentence-frame lines.",
+          "Using feels for appearance or looks for touch.",
+          "Leaving out of when trying to use made of in a garment sentence.",
+          "Treating the optional challenge line like a required line."
+        ],
+        "feedback_prompts_en": [
+          "Please complete one line as a full sentence.",
+          "Please check whether this idea should use feels or looks.",
+          "Please add one clearer use sentence.",
+          "Please revise one line and submit again."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, complete uma linha como frase inteira.",
+          "Por favor, confira se esta ideia deve usar feels ou looks.",
+          "Por favor, acrescente uma frase mais clara sobre o uso.",
+          "Por favor, revise uma linha e envie novamente."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete exactly six core lines with a visible word bank and one model line on screen."
+        ],
+        "challenge": [
+          "Invite stronger learners to add the optional challenge line with a clear reason linked to comfort, garment type, or season."
+        ]
+      },
+      "extension_options": [
+        "Turn one line from the card into a speaking note for the teacher session."
+      ],
+      "notes_for_app_design": "Render this as a teacher-reviewed structured writing card with separate saved line fields, not a paragraph text box. Keep 6 lines required, 1 challenge line optional, and show the teacher the checklist, common errors, feedback prompts, and return-for-revision workflow."
+    },
+    {
+      "activity_id": "m01w07-a08",
+      "week_id": "m01w07",
+      "sequence_number": 8,
+      "title": "Review and Improve: Fabric Phrases and Adjectives",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students review one narrow Week 7 sentence problem and save one corrected fabric-description sentence they can transfer back into the writing card.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Fabric Phrases and Adjectives",
+          "summary": "Choose one correction card and write the improved sentence.",
+          "instructions": "Choose one correction card, notice the problem, and write the corrected sentence clearly.",
+          "success_criteria": [
+            "I can notice one common Week 7 sentence problem.",
+            "I can write one corrected sentence clearly.",
+            "I can use the correction to improve my own fabric description."
+          ],
+          "sentence_frames": [
+            "It is made of ___.",
+            "It feels ___.",
+            "It looks ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Revise e melhore: frases e adjetivos sobre tecido",
+          "summary": "Escolha um cartão de correção e escreva a frase melhorada.",
+          "instructions": "Escolha um cartão de correção, perceba o problema e escreva a frase corrigida com clareza.",
+          "success_criteria": [
+            "Eu consigo perceber um problema comum de frase da Semana 7.",
+            "Eu consigo escrever uma frase corrigida com clareza.",
+            "Eu consigo usar a correção para melhorar minha própria descrição de tecido."
+          ],
+          "sentence_frames": [
+            "It is made of ___.",
+            "It feels ___.",
+            "It looks ___.",
+            "It is good for ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep one narrow correction target per card. The goal is transfer back into the Week 7 fabric-description card, not broad grammar explanation.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "critical_thinking"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w07-v016",
+        "m01w07-v018",
+        "m01w07-v019",
+        "m01w07-v023",
+        "m01w07-v039",
+        "m01w07-v040",
+        "m01w07-v041",
+        "m01w07-v042"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "correction_cards",
+        "prompt_en": "Choose one Week 7 sentence and write the corrected version.",
+        "prompt_pt": "Escolha uma frase da Semana 7 e escreva a versão corrigida.",
+        "items": [
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the made of phrase.",
+            "label_pt": "Corrija a frase com made of.",
+            "incorrect_sentence": "It is made cotton.",
+            "correct_sentence": "It is made of cotton.",
+            "accepted_answers": [
+              "It is made of cotton."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the touch sentence.",
+            "label_pt": "Corrija a frase sobre o toque.",
+            "incorrect_sentence": "The fabric is touch soft.",
+            "correct_sentence": "The fabric feels soft.",
+            "accepted_answers": [
+              "The fabric feels soft."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the look sentence.",
+            "label_pt": "Corrija a frase sobre a aparência.",
+            "incorrect_sentence": "It feels shiny.",
+            "correct_sentence": "It looks shiny.",
+            "accepted_answers": [
+              "It looks shiny."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct the use sentence.",
+            "label_pt": "Corrija a frase sobre o uso.",
+            "incorrect_sentence": "It is good to dresses.",
+            "correct_sentence": "It is good for dresses.",
+            "accepted_answers": [
+              "It is good for dresses."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose a correction card",
+          "student_action_en": "Read the four Week 7 correction cards and choose one sentence to fix.",
+          "student_action_pt": "Leia os quatro cartões de correção da Semana 7 e escolha uma frase para corrigir.",
+          "teacher_action": "Remind students to choose one card only so the task stays quick and focused.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Write the corrected sentence",
+          "student_action_en": "Write the improved sentence clearly.",
+          "student_action_pt": "Escreva a frase melhorada com clareza.",
+          "teacher_action": "Prompt students to check made of, feels, looks, and good for carefully.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Transfer the correction",
+          "student_action_en": "Check whether the same problem appears in your writing card.",
+          "student_action_pt": "Verifique se o mesmo problema aparece no seu cartão de escrita.",
+          "teacher_action": "Link the correction task back to the Week 7 writing card before the speaking session.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "single_corrected_sentence",
+        "description_en": "One corrected Week 7 sentence saved after review.",
+        "description_pt": "Uma frase corrigida da Semana 7 salva após a revisão.",
+        "length_or_format": "1 corrected sentence"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student chooses one card and writes a corrected sentence.",
+          "The corrected sentence matches an accepted answer.",
+          "The student checks for the same problem in the writing card."
+        ],
+        "completion_criteria_pt": [
+          "O aluno escolhe um cartão e escreve uma frase corrigida.",
+          "A frase corrigida corresponde a uma resposta aceita.",
+          "O aluno verifica o mesmo problema no cartão de escrita."
+        ],
+        "checklist_en": [
+          "I chose one correction card.",
+          "I wrote one corrected sentence.",
+          "I checked my Week 7 writing card."
+        ],
+        "checklist_pt": [
+          "Eu escolhi um cartão de correção.",
+          "Eu escrevi uma frase corrigida.",
+          "Eu conferi o meu cartão de escrita da Semana 7."
+        ],
+        "rubric": [],
+        "model_response_en": "It is made of cotton.",
+        "model_response_pt": "It is made of cotton.",
+        "common_errors": [
+          "Keeping the same sentence problem and changing only one word.",
+          "Using feels for visual qualities or looks for touch.",
+          "Forgetting for after good."
+        ],
+        "feedback_prompts_en": [
+          "Please check the full phrase again.",
+          "Please choose feels or looks more carefully.",
+          "Please compare your answer with the model phrase."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, confira a frase completa novamente.",
+          "Por favor, escolha feels ou looks com mais cuidado.",
+          "Por favor, compare a sua resposta com a frase-modelo."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the corrected sentence quietly before typing it."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain why the original sentence is incorrect."
+        ]
+      },
+      "extension_options": [
+        "Rewrite one line from the writing card after checking the correction."
+      ],
+      "notes_for_app_design": "Render this as one small correction-card activity. Let the student choose one card, type the corrected version, and compare against accepted answers. Save one corrected sentence as the mini-revision artifact."
+    },
+    {
+      "activity_id": "m01w07-a09",
+      "week_id": "m01w07",
+      "sequence_number": 9,
+      "title": "Teacher Session: Describe a Fabric",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use their Week 7 writing card to practice pronunciation, identify key fabric qualities, and describe one swatch in short supported sentences.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Describe a Fabric",
+          "summary": "Use your card to describe one fabric in short sentences.",
+          "instructions": "Bring your Fabric Swatch Description Card, practice the key words, and describe one swatch in 4 to 6 short sentences.",
+          "success_criteria": [
+            "I can name one fabric clearly.",
+            "I can use feel, look, and use language while speaking.",
+            "I can give one short reason sentence with teacher support."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "This is a fabric swatch.",
+            "It feels ___.",
+            "It looks ___.",
+            "It is ___.",
+            "It is good for ___.",
+            "I like this fabric because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Sessão com o professor: descreva um tecido",
+          "summary": "Use o seu cartão para descrever um tecido em frases curtas.",
+          "instructions": "Leve o seu Cartão de Descrição da Amostra de Tecido, pratique as palavras principais e descreva uma amostra em 4 a 6 frases curtas.",
+          "success_criteria": [
+            "Eu consigo nomear um tecido com clareza.",
+            "Eu consigo usar linguagem de toque, aparência e uso ao falar.",
+            "Eu consigo dar uma frase curta de justificativa com apoio do professor."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "This is a fabric swatch.",
+            "It feels ___.",
+            "It looks ___.",
+            "It is ___.",
+            "It is good for ___.",
+            "I like this fabric because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep this teacher-observed only. Do not record student audio. Focus on intelligibility, accurate Week 7 sentence frames, and confidence with a short supported fabric description rather than on long performance.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication",
+        "listening"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "student Fabric Swatch Description Cards",
+        "four-swatch gallery",
+        "pronunciation list"
+      ],
+      "vocabulary_refs": [
+        "m01w07-v004",
+        "m01w07-v006",
+        "m01w07-v007",
+        "m01w07-v009",
+        "m01w07-v014",
+        "m01w07-v016",
+        "m01w07-v018",
+        "m01w07-v019",
+        "m01w07-v023",
+        "m01w07-v027",
+        "m01w07-v028",
+        "m01w07-v030",
+        "m01w07-v031",
+        "m01w07-v032",
+        "m01w07-v034",
+        "m01w07-v035",
+        "m01w07-v039",
+        "m01w07-v040",
+        "m01w07-v041",
+        "m01w07-v042",
+        "m01w07-v043"
+      ],
+      "asset_refs": [
+        "m01w07-img-005"
+      ],
+      "input": {
+        "input_type": "speaking_prompt",
+        "prompt_en": "Use your Week 7 writing card to describe one fabric in short sentences.",
+        "prompt_pt": "Use o seu cartão de escrita da Semana 7 para descrever um tecido em frases curtas.",
+        "items": [
+          {
+            "label_en": "Say 4 to 6 short sentences about one fabric swatch.",
+            "label_pt": "Diga de 4 a 6 frases curtas sobre uma amostra de tecido."
+          },
+          {
+            "label_en": "Include the fabric name, one feel detail, one look detail, and one use detail.",
+            "label_pt": "Inclua o nome do tecido, um detalhe de toque, um detalhe de aparência e um detalhe de uso."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Pronunciation clinic",
+          "student_action_en": "Practice key Week 7 words such as fabric, swatch, cotton, denim, silk, lace, lightweight, structured, and opaque.",
+          "student_action_pt": "Pratique palavras importantes da Semana 7 como fabric, swatch, cotton, denim, silk, lace, lightweight, structured e opaque.",
+          "teacher_action": "Model the words slowly and clearly, especially swatch, cotton, denim, lightweight, structured, transparent, and opaque.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Warm up with the swatches",
+          "student_action_en": "Look at the shared gallery and say one quality word for each image.",
+          "student_action_pt": "Observe a galeria compartilhada e diga uma palavra de qualidade para cada imagem.",
+          "teacher_action": "Use quick pointing and naming before the full speaking turn.",
+          "estimated_minutes": 10,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 3,
+          "title": "Describe one fabric",
+          "student_action_en": "Use your Week 7 card to describe one fabric in 4 to 6 short sentences.",
+          "student_action_pt": "Use o seu cartão da Semana 7 para descrever um tecido em 4 a 6 frases curtas.",
+          "teacher_action": "Allow students to read from their card first, then invite a more natural second try when appropriate.",
+          "estimated_minutes": 20,
+          "mode": "whole_class"
+        },
+        {
+          "step_number": 4,
+          "title": "Wrap up and preview",
+          "student_action_en": "Listen to classmates and prepare for next week’s work with garment construction and sewing actions.",
+          "student_action_pt": "Escute os colegas e prepare-se para o trabalho da próxima semana com construção de peças e ações de costura.",
+          "teacher_action": "Close with one short review of feels, looks, and good for.",
+          "estimated_minutes": 10,
+          "mode": "pair"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_fabric_description",
+        "description_en": "A short teacher-observed spoken description of one fabric using Week 7 sentence frames.",
+        "description_pt": "Uma descrição oral curta, observada pelo professor, de um tecido usando as estruturas da Semana 7.",
+        "length_or_format": "4 to 6 short spoken sentences"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names one chosen fabric clearly.",
+          "The student uses feel, look, and use language in short sentences.",
+          "The student adds at least one clear reason or function detail with support if needed."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia com clareza um tecido escolhido.",
+          "O aluno usa linguagem de toque, aparência e uso em frases curtas.",
+          "O aluno acrescenta pelo menos uma justificativa clara ou um detalhe de função com apoio, se necessário."
+        ],
+        "checklist_en": [
+          "I practiced the Week 7 words.",
+          "I used my description card.",
+          "I described one fabric in short sentences."
+        ],
+        "checklist_pt": [
+          "Eu pratiquei as palavras da Semana 7.",
+          "Eu usei o meu cartão de descrição.",
+          "Eu descrevi um tecido em frases curtas."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a silk fabric swatch. It feels smooth. It looks shiny. It is lightweight. It is good for elegant blouses. I like this fabric because it looks beautiful.",
+        "model_response_pt": "Esta é uma amostra de seda. Ela parece lisa ao toque. Ela parece brilhante. Ela é leve. É boa para blusas elegantes. Eu gosto deste tecido porque ele parece bonito.",
+        "common_errors": [
+          "Saying fabric names only and skipping the full sentence frames.",
+          "Using feels for visual qualities or looks for touch.",
+          "Speaking too quietly to be understood."
+        ],
+        "feedback_prompts_en": [
+          "Can you add one feel sentence?",
+          "Can you say that again with looks or feels in the best place?",
+          "Can you add one use sentence?"
+        ],
+        "feedback_prompts_pt": [
+          "Você pode acrescentar uma frase sobre o toque?",
+          "Você pode dizer novamente com looks ou feels no melhor lugar?",
+          "Você pode acrescentar uma frase sobre o uso?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to read directly from the writing card in the first round."
+        ],
+        "challenge": [
+          "Ask stronger learners one follow-up question about weather, comfort, or garment type."
+        ]
+      },
+      "extension_options": [
+        "Add one extra spoken sentence comparing two swatches from the gallery."
+      ],
+      "notes_for_app_design": "Keep this as a teacher-observed speaking checkpoint with the shared swatch gallery and the saved Week 7 writing card visible on screen. Do not record or upload student audio. The app role is to display prompts, link to the writing artifact, and store teacher completion notes only."
+    }
+  ]
+}
