@@ -8,7 +8,7 @@
       "title": "Week 8 sewing workspace bridge board",
       "description": "A compact opener board with familiar sewing tools, fabric, and one or two visible action clues so students can bridge from Week 7 materials language into Week 8 process language.",
       "target_filename": "assets/images/module-01/week-08/m01w08-img-001.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w08-a01"
       ],
@@ -22,7 +22,7 @@
       "title": "Sewing actions vocabulary board",
       "description": "One combined board showing clear keyed examples of common sewing actions and sewing-result nouns for the main Week 8 matching task.",
       "target_filename": "assets/images/module-01/week-08/m01w08-img-002.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w08-a02"
       ],
@@ -36,7 +36,7 @@
       "title": "Tools and actions board",
       "description": "A clean board showing key sewing tools and objects used for controlled Use ___ to ___ phrase completion.",
       "target_filename": "assets/images/module-01/week-08/m01w08-img-003.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w08-a03"
       ],
@@ -50,7 +50,7 @@
       "title": "Simple hem reading sequence board",
       "description": "A reading board with six clearly separated sewing-process images for the Week 8 hem-sample reading task.",
       "target_filename": "assets/images/module-01/week-08/m01w08-img-004.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w08-a04"
       ],
@@ -64,7 +64,7 @@
       "title": "Reusable sewing-process gallery",
       "description": "A reusable gallery with five clearly separated process images for listening, writing, and speaking.",
       "target_filename": "assets/images/module-01/week-08/m01w08-img-005.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w08-a05",
         "m01w08-a07",
@@ -80,7 +80,7 @@
       "title": "Which step comes next listening audio",
       "description": "A short Week 8 listening clip describing one simple sewing sequence with clear first, next, and final actions.",
       "target_filename": "assets/audio/module-01/week-08/m01w08-aud-001.mp3",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w08-a05"
       ],

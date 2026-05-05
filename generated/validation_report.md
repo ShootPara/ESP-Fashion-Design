@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-05-05T22:53:36.262244+00:00
+- Generated at (UTC): 2026-05-05T23:27:05.236991+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -90,12 +90,7 @@
 - None.
 
 ## Missing Assets
-- m01w08-img-001 — A compact opener board with familiar sewing tools, fabric, and one or two visible action clues so students can bridge from Week 7 materials language into Week 8 process language. — assets/images/module-01/week-08/m01w08-img-001.png
-- m01w08-img-002 — One combined board showing clear keyed examples of common sewing actions and sewing-result nouns for the main Week 8 matching task. — assets/images/module-01/week-08/m01w08-img-002.png
-- m01w08-img-003 — A clean board showing key sewing tools and objects used for controlled Use ___ to ___ phrase completion. — assets/images/module-01/week-08/m01w08-img-003.png
-- m01w08-img-004 — A reading board with six clearly separated sewing-process images for the Week 8 hem-sample reading task. — assets/images/module-01/week-08/m01w08-img-004.png
-- m01w08-img-005 — A reusable gallery with five clearly separated process images for listening, writing, and speaking. — assets/images/module-01/week-08/m01w08-img-005.png
-- m01w08-aud-001 — A short Week 8 listening clip describing one simple sewing sequence with clear first, next, and final actions. — assets/audio/module-01/week-08/m01w08-aud-001.mp3
+- None.
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.
