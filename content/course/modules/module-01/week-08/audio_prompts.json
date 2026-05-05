@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w08",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w08-aud-001",
+      "purpose": "Listening model for Week 8 sewing-process identification by step order, tool, and final check.",
+      "target_filename": "assets/audio/module-01/week-08/m01w08-aud-001.mp3",
+      "script": "Look at the five process images. First, measure the fabric for a small sample. Then, mark a straight line with a pencil. Next, cut the fabric carefully. After that, fold one edge and pin it. Finally, sew near the edge, press the hem with an iron, and check the stitches.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and easy to follow, with a short pause after each sequence marker.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 34,
+      "used_by_activity_ids": [
+        "m01w08-a05"
+      ],
+      "status": "planned"
+    }
+  ]
+}

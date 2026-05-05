@@ -1,0 +1,2196 @@
+{
+  "week_id": "m01w08",
+  "activities": [
+    {
+      "activity_id": "m01w08-a01",
+      "week_id": "m01w08",
+      "sequence_number": 1,
+      "title": "Welcome Back: From Fabric to Sewing",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students bridge from Week 7 fabric and tool language into Week 8 sewing-process language by recognizing familiar materials and choosing quick review answers on one compact sewing workspace board.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: From Fabric to Sewing",
+          "summary": "Look at the sewing workspace and choose the best answer for each quick question.",
+          "instructions": "Look at the sewing workspace board first. Choose the correct answer for each short question about tools, materials, and one preview action word.",
+          "success_criteria": [
+            "I can connect one workspace clue to a tool or material word.",
+            "I can remember one Week 7 fabric word while I start Week 8.",
+            "I can notice that sewing actions are the new focus this week."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "Use ___ to ___.",
+            "The fabric is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: do tecido para a costura",
+          "summary": "Observe o espaço de costura e escolha a melhor resposta para cada pergunta rápida.",
+          "instructions": "Observe primeiro o painel do espaço de costura. Escolha a resposta correta para cada pergunta curta sobre ferramentas, materiais e uma palavra de ação de apresentação.",
+          "success_criteria": [
+            "Eu consigo ligar uma pista do espaço a uma palavra de ferramenta ou material.",
+            "Eu consigo lembrar uma palavra de tecido da Semana 7 enquanto começo a Semana 8.",
+            "Eu consigo perceber que as ações de costura são o novo foco desta semana."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "Use ___ to ___.",
+            "The fabric is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the opener light and fast. The preview action word should stay clearly secondary to the main selection-based review items.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "sewing workspace bridge board"
+      ],
+      "vocabulary_refs": [
+        "m01w08-v001",
+        "m01w08-v011",
+        "m01w08-v016",
+        "m01w08-v017",
+        "m01w08-v019",
+        "m01w08-v020",
+        "m01w08-v026"
+      ],
+      "asset_refs": [
+        "m01w08-img-001"
+      ],
+      "input": {
+        "input_type": "sewing_workspace_preview_quiz",
+        "prompt_en": "Choose the best review and preview answer for each sewing workspace question.",
+        "prompt_pt": "Escolha a melhor resposta de revisão e apresentação para cada pergunta sobre o espaço de costura.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which tool is used to cut the fabric?",
+            "label_pt": "Qual ferramenta é usada para cortar o tecido?",
+            "asset_id": "m01w08-img-001",
+            "options_en": [
+              "scissors",
+              "pins",
+              "iron"
+            ],
+            "options_pt": [
+              "tesoura",
+              "alfinetes",
+              "ferro"
+            ],
+            "correct_answer": "scissors"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which object helps you measure the fabric?",
+            "label_pt": "Qual objeto ajuda você a medir o tecido?",
+            "asset_id": "m01w08-img-001",
+            "options_en": [
+              "measuring tape",
+              "needle",
+              "thread"
+            ],
+            "options_pt": [
+              "fita métrica",
+              "agulha",
+              "linha"
+            ],
+            "correct_answer": "measuring tape"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What material do you see on the table?",
+            "label_pt": "Que material você vê sobre a mesa?",
+            "asset_id": "m01w08-img-001",
+            "options_en": [
+              "fabric",
+              "zipper",
+              "button"
+            ],
+            "options_pt": [
+              "tecido",
+              "zíper",
+              "botão"
+            ],
+            "correct_answer": "fabric"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which preview action means dobrar?",
+            "label_pt": "Qual ação de apresentação significa dobrar?",
+            "options_en": [
+              "fold",
+              "check",
+              "measure"
+            ],
+            "options_pt": [
+              "fold",
+              "check",
+              "measure"
+            ],
+            "correct_answer": "fold"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the sewing workspace board",
+          "student_action_en": "Look at the workspace and notice the tools, fabric, and one or two action clues before answering.",
+          "student_action_pt": "Observe o espaço e perceba as ferramentas, o tecido e uma ou duas pistas de ação antes de responder.",
+          "teacher_action": "Remind students that last week they described fabric qualities, and this week they begin describing sewing steps.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the quick answers",
+          "student_action_en": "Choose the correct answer for each short review and preview question.",
+          "student_action_pt": "Escolha a resposta correta para cada pergunta curta de revisão e apresentação.",
+          "teacher_action": "Keep the pace supportive and quick so the opener feels like a bridge, not a test.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Four quick recognition selections linking one opener board to tools, materials, and the new sewing-action focus.",
+        "description_pt": "Quatro seleções rápidas de reconhecimento ligando um painel inicial a ferramentas, materiais e ao novo foco em ações de costura.",
+        "length_or_format": "4 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student identifies the main tools and fabric correctly.",
+          "The student recognizes one preview sewing-action word.",
+          "The student notices that Week 8 focuses on process language."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica corretamente as principais ferramentas e o tecido.",
+          "O aluno reconhece uma palavra de ação de costura de apresentação.",
+          "O aluno percebe que a Semana 8 tem foco em linguagem de processo."
+        ],
+        "checklist_en": [
+          "I looked carefully at the workspace board.",
+          "I used one tool clue and one material clue.",
+          "I noticed one new sewing-action word."
+        ],
+        "checklist_pt": [
+          "Eu observei com atenção o painel do espaço de costura.",
+          "Eu usei uma pista de ferramenta e uma pista de material.",
+          "Eu percebi uma nova palavra de ação de costura."
+        ],
+        "rubric": [],
+        "model_response_en": "scissors, measuring tape, fabric, and fold",
+        "model_response_pt": "scissors, measuring tape, fabric e fold",
+        "common_errors": [
+          "Choosing a Week 7 material word when the question asks for a tool.",
+          "Treating the preview action word like the main task instead of answering the selection questions."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which answer names the tool or material you can see clearly?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual resposta nomeia a ferramenta ou o material que você consegue ver com clareza?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students quietly say the Portuguese support word before choosing the English-linked answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence such as Use scissors to cut the fabric."
+        ]
+      },
+      "extension_options": [
+        "Say one more sewing action you already know after the opener."
+      ],
+      "notes_for_app_design": "Render this as one compact opener board with four single-choice items. Save the selections only. Keep the preview action clue secondary so the main saved output stays selection."
+    },
+    {
+      "activity_id": "m01w08-a02",
+      "week_id": "m01w08",
+      "sequence_number": 2,
+      "title": "Sewing Action Vocabulary",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students learn the core Week 8 sewing-action words by completing one main keyed matching set, then using a short Portuguese bridge and one support sentence after the core matching.",
+      "student_facing": {
+        "en": {
+          "title": "Sewing Action Vocabulary",
+          "summary": "Match the sewing actions and sewing words to the correct keyed images.",
+          "instructions": "Match each visible key on the board to the correct English sewing word. After the main matching set, use the short support items for extra practice.",
+          "success_criteria": [
+            "I can match common sewing actions to clear visual examples.",
+            "I can match simple sewing-result words such as seam and stitch.",
+            "I can use one short support item after the main matching task."
+          ],
+          "sentence_frames": [
+            "Cut the fabric.",
+            "Fold the edge.",
+            "Check the stitches."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Vocabulário de ações de costura",
+          "summary": "Relacione as ações e palavras de costura às imagens com chave correta.",
+          "instructions": "Relacione cada chave visível do painel à palavra correta de costura em inglês. Depois do conjunto principal de relação, use os itens curtos de apoio para prática extra.",
+          "success_criteria": [
+            "Eu consigo relacionar ações comuns de costura a exemplos visuais claros.",
+            "Eu consigo relacionar palavras simples de resultado de costura como seam e stitch.",
+            "Eu consigo usar um item curto de apoio depois da tarefa principal de relação."
+          ],
+          "sentence_frames": [
+            "Cut the fabric.",
+            "Fold the edge.",
+            "Check the stitches."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on the keyed matching set. The bridge items should stay clearly secondary and should not replace the main matching path.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "sewing actions vocabulary board"
+      ],
+      "vocabulary_refs": [
+        "m01w08-v001",
+        "m01w08-v002",
+        "m01w08-v003",
+        "m01w08-v004",
+        "m01w08-v005",
+        "m01w08-v006",
+        "m01w08-v007",
+        "m01w08-v008",
+        "m01w08-v009",
+        "m01w08-v010"
+      ],
+      "asset_refs": [
+        "m01w08-img-002"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the board keys to the correct English sewing words.",
+        "prompt_pt": "Relacione as chaves do painel às palavras corretas de costura em inglês.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match the board keys A to J to the correct sewing words from the answer inventory.",
+            "label_pt": "Relacione as chaves A a J do painel às palavras corretas de costura usando o inventário de respostas.",
+            "asset_id": "m01w08-img-002",
+            "match_terms_en": [
+              "cut",
+              "fold",
+              "pin",
+              "sew",
+              "press",
+              "measure",
+              "mark",
+              "check",
+              "seam",
+              "stitch"
+            ],
+            "match_terms_pt": [
+              "cortar",
+              "dobrar",
+              "alfinetar",
+              "costurar",
+              "passar ou prensar",
+              "medir",
+              "marcar",
+              "verificar",
+              "costura",
+              "ponto"
+            ],
+            "matches": [
+              {
+                "image_key": "A",
+                "answer_en": "cut",
+                "answer_pt": "cortar"
+              },
+              {
+                "image_key": "B",
+                "answer_en": "fold",
+                "answer_pt": "dobrar"
+              },
+              {
+                "image_key": "C",
+                "answer_en": "pin",
+                "answer_pt": "alfinetar"
+              },
+              {
+                "image_key": "D",
+                "answer_en": "sew",
+                "answer_pt": "costurar"
+              },
+              {
+                "image_key": "E",
+                "answer_en": "press",
+                "answer_pt": "passar ou prensar"
+              },
+              {
+                "image_key": "F",
+                "answer_en": "measure",
+                "answer_pt": "medir"
+              },
+              {
+                "image_key": "G",
+                "answer_en": "mark",
+                "answer_pt": "marcar"
+              },
+              {
+                "image_key": "H",
+                "answer_en": "check",
+                "answer_pt": "verificar"
+              },
+              {
+                "image_key": "I",
+                "answer_en": "seam",
+                "answer_pt": "costura"
+              },
+              {
+                "image_key": "J",
+                "answer_en": "stitch",
+                "answer_pt": "ponto"
+              }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support to the English sewing word.",
+            "label_pt": "Relacione o apoio em português à palavra de costura em inglês.",
+            "pairs": [
+              {
+                "pt": "cortar",
+                "en": "cut"
+              },
+              {
+                "pt": "dobrar",
+                "en": "fold"
+              },
+              {
+                "pt": "costura",
+                "en": "seam"
+              },
+              {
+                "pt": "ponto",
+                "en": "stitch"
+              }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "___ the edge carefully.",
+            "sentence_frame_pt": "___ the edge carefully.",
+            "word_bank": [
+              "Fold",
+              "Denim",
+              "Palette"
+            ],
+            "accepted_answers": [
+              "Fold"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the action board",
+          "student_action_en": "Look carefully at the sewing-action board and notice the visible keys before you start matching.",
+          "student_action_pt": "Observe com atenção o painel de ações de costura e perceba as chaves visíveis antes de começar a relacionar.",
+          "teacher_action": "Explain that the main task is matching the visible examples to sewing words and that the short bridge items come after the core matching.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the sewing words",
+          "student_action_en": "Match the visible keys on the board to the correct English sewing words.",
+          "student_action_pt": "Relacione as chaves visíveis do painel às palavras corretas de costura em inglês.",
+          "teacher_action": "Monitor confusion points such as pins versus pin, iron versus press, and seam versus stitch.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use the support items",
+          "student_action_en": "Complete the short Portuguese bridge and one support sentence after the main matching set.",
+          "student_action_pt": "Complete a ponte curta com o português e uma frase de apoio depois do conjunto principal de relação.",
+          "teacher_action": "Keep the support items clearly secondary to the main matching work.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "One saved image-word matching set for sewing actions as the main scored output, followed by short support practice.",
+        "description_pt": "Um conjunto salvo de relação imagem-palavra para ações de costura como resultado principal avaliado, seguido por prática curta de apoio.",
+        "length_or_format": "1 scored image-match set as the main saved output, plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main sewing-actions matching set.",
+          "The student connects clear visual actions to English sewing words.",
+          "The student uses one short support item after the main task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relação de ações de costura.",
+          "O aluno relaciona ações visuais claras a palavras de costura em inglês.",
+          "O aluno usa um item curto de apoio depois da tarefa principal."
+        ],
+        "checklist_en": [
+          "I matched the main sewing images.",
+          "I checked the English sewing words carefully.",
+          "I used the support items after the main task."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as imagens principais de costura.",
+          "Eu conferi com atenção as palavras de costura em inglês.",
+          "Eu usei os itens de apoio depois da tarefa principal."
+        ],
+        "rubric": [],
+        "model_response_en": "A cut, B fold, C pin, D sew, E press, F measure, G mark, H check, I seam, and J stitch",
+        "model_response_pt": "A cut, B fold, C pin, D sew, E press, F measure, G mark, H check, I seam e J stitch",
+        "common_errors": [
+          "Choosing the tool word iron when the task asks for the action word press.",
+          "Confusing seam and stitch because both relate to sewing results."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which image shows the action, and which image shows the sewing result?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual imagem mostra a ação e qual imagem mostra o resultado da costura?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the image and say the Portuguese support word before matching the English answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence such as Press the hem with an iron."
+        ]
+      },
+      "extension_options": [
+        "Say one more tool plus action phrase after the matching set."
+      ],
+      "notes_for_app_design": "Render this as one main keyed image-matching task with the board visible at all times. Save the matching set as the primary output. Show the translation bridge and one fill-blank support item only after the main matching is complete."
+    },
+    {
+      "activity_id": "m01w08-a03",
+      "week_id": "m01w08",
+      "sequence_number": 3,
+      "title": "Tools + Actions: Use ___ to ___",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students connect key sewing tools to their typical actions by completing short controlled tool-action phrases built around the Week 8 pattern Use ___ to ___.",
+      "student_facing": {
+        "en": {
+          "title": "Tools + Actions: Use ___ to ___",
+          "summary": "Complete the short tool-action phrases.",
+          "instructions": "Look at the tool board first. Then complete each short sentence with the correct action word from the word bank.",
+          "success_criteria": [
+            "I can connect a tool to one clear sewing action.",
+            "I can use the pattern Use ___ to ___ correctly.",
+            "I can complete the short phrases without writing a full paragraph."
+          ],
+          "sentence_frames": [
+            "Use scissors to ___.",
+            "Use pins to ___.",
+            "Use an iron to ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Ferramentas + ações: Use ___ to ___",
+          "summary": "Complete as frases curtas de ferramenta e ação.",
+          "instructions": "Observe primeiro o painel de ferramentas. Depois complete cada frase curta com a palavra de ação correta do banco de palavras.",
+          "success_criteria": [
+            "Eu consigo ligar uma ferramenta a uma ação clara de costura.",
+            "Eu consigo usar corretamente o padrão Use ___ to ___.",
+            "Eu consigo completar as frases curtas sem escrever um parágrafo inteiro."
+          ],
+          "sentence_frames": [
+            "Use scissors to ___.",
+            "Use pins to ___.",
+            "Use an iron to ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep this as controlled phrase completion. Do not turn it into matching or open typing.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "vocabulary",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "tools and actions board"
+      ],
+      "vocabulary_refs": [
+        "m01w08-v001",
+        "m01w08-v003",
+        "m01w08-v005",
+        "m01w08-v006",
+        "m01w08-v016",
+        "m01w08-v017",
+        "m01w08-v018",
+        "m01w08-v019",
+        "m01w08-v020",
+        "m01w08-v026",
+        "m01w08-v034"
+      ],
+      "asset_refs": [
+        "m01w08-img-003"
+      ],
+      "input": {
+        "input_type": "tool_action_fill_blank",
+        "prompt_en": "Complete the tool-action phrases with the correct action word.",
+        "prompt_pt": "Complete as frases de ferramenta e ação com a palavra de ação correta.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the phrase.",
+            "label_pt": "Complete a frase.",
+            "asset_id": "m01w08-img-003",
+            "sentence_frame_en": "Use scissors to ___ the fabric.",
+            "sentence_frame_pt": "Use scissors to ___ the fabric.",
+            "word_bank": [
+              "cut",
+              "pin",
+              "press"
+            ],
+            "accepted_answers": [
+              "cut"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the phrase.",
+            "label_pt": "Complete a frase.",
+            "asset_id": "m01w08-img-003",
+            "sentence_frame_en": "Use a measuring tape to ___ the fabric.",
+            "sentence_frame_pt": "Use a measuring tape to ___ the fabric.",
+            "word_bank": [
+              "measure",
+              "sew",
+              "remove"
+            ],
+            "accepted_answers": [
+              "measure"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the phrase.",
+            "label_pt": "Complete a frase.",
+            "asset_id": "m01w08-img-003",
+            "sentence_frame_en": "Use pins to ___ the fabric.",
+            "sentence_frame_pt": "Use pins to ___ the fabric.",
+            "word_bank": [
+              "hold",
+              "press",
+              "trace"
+            ],
+            "accepted_answers": [
+              "hold"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the phrase.",
+            "label_pt": "Complete a frase.",
+            "asset_id": "m01w08-img-003",
+            "sentence_frame_en": "Use a sewing machine to ___ near the edge.",
+            "sentence_frame_pt": "Use a sewing machine to ___ near the edge.",
+            "word_bank": [
+              "sew",
+              "mark",
+              "fold"
+            ],
+            "accepted_answers": [
+              "sew"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the phrase.",
+            "label_pt": "Complete a frase.",
+            "asset_id": "m01w08-img-003",
+            "sentence_frame_en": "Use an iron to ___ the hem.",
+            "sentence_frame_pt": "Use an iron to ___ the hem.",
+            "word_bank": [
+              "press",
+              "measure",
+              "check"
+            ],
+            "accepted_answers": [
+              "press"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the tool board",
+          "student_action_en": "Look at the main sewing tools and notice what each tool is used for.",
+          "student_action_pt": "Observe as principais ferramentas de costura e perceba para que cada ferramenta é usada.",
+          "teacher_action": "Remind students of the Week 2 pattern Use ___ to ___ before they begin.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the short phrases",
+          "student_action_en": "Complete each tool phrase with the correct action word from the word bank.",
+          "student_action_pt": "Complete cada frase de ferramenta com a palavra de ação correta do banco de palavras.",
+          "teacher_action": "Keep the task focused on short controlled phrases, not full sentence expansion.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the pattern",
+          "student_action_en": "Read the phrases again and notice the pattern Use ___ to ___.",
+          "student_action_pt": "Leia as frases novamente e perceba o padrão Use ___ to ___.",
+          "teacher_action": "Point out missing to as a common correction target.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "tool_action_fill_blanks",
+        "description_en": "Five app-checked tool-action phrase completions using the pattern Use ___ to ___.",
+        "description_pt": "Cinco completamentos de frases de ferramenta e ação verificados pelo app usando o padrão Use ___ to ___.",
+        "length_or_format": "5 fill-blank phrases"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes the five tool-action phrases.",
+          "The student uses the correct action word for each tool.",
+          "The student notices the pattern Use ___ to ___."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as cinco frases de ferramenta e ação.",
+          "O aluno usa a palavra de ação correta para cada ferramenta.",
+          "O aluno percebe o padrão Use ___ to ___."
+        ],
+        "checklist_en": [
+          "I matched the right action to the tool.",
+          "I used the word bank carefully.",
+          "I checked the pattern Use ___ to ___."
+        ],
+        "checklist_pt": [
+          "Eu relacionei a ação certa à ferramenta.",
+          "Eu usei o banco de palavras com atenção.",
+          "Eu conferi o padrão Use ___ to ___."
+        ],
+        "rubric": [],
+        "model_response_en": "cut, measure, hold, sew, and press",
+        "model_response_pt": "cut, measure, hold, sew e press",
+        "common_errors": [
+          "Choosing a tool-related noun instead of an action word.",
+          "Forgetting that the main output is phrase completion, not matching."
+        ],
+        "feedback_prompts_en": [
+          "Which action word shows what the tool does in this sentence?"
+        ],
+        "feedback_prompts_pt": [
+          "Qual palavra de ação mostra o que a ferramenta faz nesta frase?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the tool on the board before choosing the word-bank answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra tool phrase aloud after finishing."
+        ]
+      },
+      "extension_options": [
+        "Say one more tool plus action phrase without the word bank."
+      ],
+      "notes_for_app_design": "Render this as five short word-bank fill-blank items with the tools board visible above. Save phrase completions only. Do not turn the main interaction into matching."
+    },
+    {
+      "activity_id": "m01w08-a04",
+      "week_id": "m01w08",
+      "sequence_number": 4,
+      "title": "Read: Make a Simple Hem Sample",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read a short hem process, use a fixed visible-key board, and answer clear sequence and detail questions about the process.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Make a Simple Hem Sample",
+          "summary": "Read the short process and choose the correct answers.",
+          "instructions": "Look at the step board first. Then read the short process text and choose the correct answer for each question.",
+          "success_criteria": [
+            "I can follow a short sewing process in English.",
+            "I can connect the text to the correct step key.",
+            "I can find the tool or next action from the text."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Finally, ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Leitura: faça uma amostra simples de barra",
+          "summary": "Leia o processo curto e escolha as respostas corretas.",
+          "instructions": "Observe primeiro o painel das etapas. Depois leia o texto curto do processo e escolha a resposta correta para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo seguir um processo curto de costura em inglês.",
+            "Eu consigo ligar o texto à chave correta da etapa.",
+            "Eu consigo encontrar no texto a ferramenta ou a próxima ação."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Finally, ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the image keys and the reading text fully aligned. This should stay question-based, not a new drag-reorder interaction.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "simple hem reading sequence board"
+      ],
+      "vocabulary_refs": [
+        "m01w08-v001",
+        "m01w08-v002",
+        "m01w08-v003",
+        "m01w08-v004",
+        "m01w08-v005",
+        "m01w08-v008",
+        "m01w08-v011",
+        "m01w08-v012",
+        "m01w08-v016",
+        "m01w08-v021",
+        "m01w08-v022",
+        "m01w08-v023",
+        "m01w08-v024",
+        "m01w08-v025"
+      ],
+      "asset_refs": [
+        "m01w08-img-004"
+      ],
+      "input": {
+        "input_type": "reading_with_keyed_sequence_board",
+        "prompt_en": "Read the short process and choose the correct answers from the text and image keys.",
+        "prompt_pt": "Leia o processo curto e escolha as respostas corretas com base no texto e nas chaves das imagens.",
+        "items": [
+          {
+            "response_type": "reading_text",
+            "label_en": "Read the process text.",
+            "label_pt": "Leia o texto do processo.",
+            "text_en": "Make a Simple Hem Sample. First, cut a small rectangle of fabric. Then, fold one edge of the fabric. Next, pin the fold carefully. After that, sew a straight line near the folded edge. Then, remove the pins. Finally, press the hem and check the stitches.",
+            "text_pt": "Make a Simple Hem Sample. First, cut a small rectangle of fabric. Then, fold one edge of the fabric. Next, pin the fold carefully. After that, sew a straight line near the folded edge. Then, remove the pins. Finally, press the hem and check the stitches."
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which step key shows the first action?",
+            "label_pt": "Qual chave de etapa mostra a primeira ação?",
+            "asset_id": "m01w08-img-004",
+            "options_en": [
+              "A",
+              "C",
+              "F"
+            ],
+            "options_pt": [
+              "A",
+              "C",
+              "F"
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What do you do after you fold the edge?",
+            "label_pt": "O que você faz depois de dobrar a borda?",
+            "options_en": [
+              "Pin the fold.",
+              "Press the hem.",
+              "Cut the thread."
+            ],
+            "options_pt": [
+              "Alfineta a dobra.",
+              "Passa a barra.",
+              "Corta a linha."
+            ],
+            "correct_answer": "Pin the fold."
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which tool do you use to cut the fabric?",
+            "label_pt": "Que ferramenta você usa para cortar o tecido?",
+            "options_en": [
+              "scissors",
+              "iron",
+              "pins"
+            ],
+            "options_pt": [
+              "tesoura",
+              "ferro",
+              "alfinetes"
+            ],
+            "correct_answer": "scissors"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which step key shows sewing near the folded edge?",
+            "label_pt": "Qual chave de etapa mostra costurar perto da borda dobrada?",
+            "asset_id": "m01w08-img-004",
+            "options_en": [
+              "D",
+              "B",
+              "E"
+            ],
+            "options_pt": [
+              "D",
+              "B",
+              "E"
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What happens at the end?",
+            "label_pt": "O que acontece no final?",
+            "options_en": [
+              "Press the hem and check the stitches.",
+              "Measure the fabric and mark the line.",
+              "Fold the edge and pin it."
+            ],
+            "options_pt": [
+              "Passar a barra e verificar os pontos.",
+              "Medir o tecido e marcar a linha.",
+              "Dobrar a borda e alfinetá-la."
+            ],
+            "correct_answer": "Press the hem and check the stitches."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the step board first",
+          "student_action_en": "Look at the six step images and notice the visible keys before reading.",
+          "student_action_pt": "Observe as seis imagens de etapa e perceba as chaves visíveis antes de ler.",
+          "teacher_action": "Tell students to notice that the same small fabric sample appears across the sequence.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Read the short process",
+          "student_action_en": "Read the short hem process and connect the actions to the visible keys.",
+          "student_action_pt": "Leia o processo curto da barra e ligue as ações às chaves visíveis.",
+          "teacher_action": "Keep students focused on a few high-frequency actions rather than every possible detail word.",
+          "estimated_minutes": 5,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Choose the answers",
+          "student_action_en": "Answer the first-step, next-step, tool, and final-detail questions.",
+          "student_action_pt": "Responda às perguntas sobre primeira etapa, próxima etapa, ferramenta e detalhe final.",
+          "teacher_action": "Remind students to return to the text and the step keys instead of guessing.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_selections",
+        "description_en": "Five app-checked reading selections linked to one short process text and the keyed step board.",
+        "description_pt": "Cinco seleções de leitura verificadas pelo app ligadas a um texto curto de processo e ao painel de etapas com chaves.",
+        "length_or_format": "5 app-checked answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student identifies the first step and one middle step correctly.",
+          "The student finds one tool detail from the text.",
+          "The student identifies the final action from the text."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica corretamente a primeira etapa e uma etapa do meio.",
+          "O aluno encontra no texto um detalhe sobre ferramenta.",
+          "O aluno identifica no texto a ação final."
+        ],
+        "checklist_en": [
+          "I looked at the step keys first.",
+          "I read the short process carefully.",
+          "I used the text and the board to choose my answers."
+        ],
+        "checklist_pt": [
+          "Eu observei primeiro as chaves das etapas.",
+          "Eu li o processo curto com atenção.",
+          "Eu usei o texto e o painel para escolher as respostas."
+        ],
+        "rubric": [],
+        "model_response_en": "A, Pin the fold, scissors, D, and Press the hem and check the stitches.",
+        "model_response_pt": "A, Pin the fold, scissors, D e Press the hem and check the stitches.",
+        "common_errors": [
+          "Jumping to the images only and skipping the reading text.",
+          "Confusing the sewing step with the final press and check step."
+        ],
+        "feedback_prompts_en": [
+          "Read the process again. Which sentence gives the exact next step or final action?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia o processo novamente. Qual frase mostra exatamente a próxima etapa ou a ação final?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the image key while they reread the text."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full process sentence aloud after the reading task."
+        ]
+      },
+      "extension_options": [
+        "Choose one image key and say the matching step in English."
+      ],
+      "notes_for_app_design": "Render this as a short reading text plus a fixed keyed sequence board. Save selection answers only. Keep sequence checking question-based and do not introduce a reorder interaction."
+    },
+    {
+      "activity_id": "m01w08-a05",
+      "week_id": "m01w08",
+      "sequence_number": 5,
+      "title": "Listen: Which Step Comes Next?",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to one short sewing-process script, use the shared process gallery, and answer clear questions about the first step, next step, final action, tool, and sewing detail.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Which Step Comes Next?",
+          "summary": "Listen to the short sewing process and choose the correct answer for each question.",
+          "instructions": "Look at image A, image B, image C, image D, and image E first. Then listen to the audio and choose the correct answer for each question. You can replay the audio.",
+          "success_criteria": [
+            "I can follow a short sewing process in spoken English.",
+            "I can connect each question to the correct image key or detail from the audio.",
+            "I can hear the first, next, and final actions clearly."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Next, ___.",
+            "Finally, ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Escute: qual etapa vem depois?",
+          "summary": "Escute o processo curto de costura e escolha a resposta correta para cada pergunta.",
+          "instructions": "Observe primeiro as imagens marcadas \"image A\", \"image B\", \"image C\", \"image D\" e \"image E\". Depois escute o audio e escolha a resposta correta para cada pergunta. Voce pode repetir o audio.",
+          "success_criteria": [
+            "Eu consigo seguir um processo curto de costura em inglês falado.",
+            "Eu consigo ligar cada pergunta à chave correta da imagem ou a um detalhe do áudio.",
+            "Eu consigo ouvir com clareza a primeira, a próxima e a ação final."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Next, ___.",
+            "Finally, ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the audio script, gallery keys, questions, options, correct answers, expected output, and model response fully aligned. Do not ask for any detail that is not stated clearly in the script.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "reusable sewing-process gallery",
+        "Week 8 listening audio"
+      ],
+      "vocabulary_refs": [
+        "m01w08-v004",
+        "m01w08-v005",
+        "m01w08-v006",
+        "m01w08-v007",
+        "m01w08-v008",
+        "m01w08-v011",
+        "m01w08-v015",
+        "m01w08-v019",
+        "m01w08-v021",
+        "m01w08-v022",
+        "m01w08-v023",
+        "m01w08-v024",
+        "m01w08-v025",
+        "m01w08-v027",
+        "m01w08-v037"
+      ],
+      "asset_refs": [
+        "m01w08-img-005",
+        "m01w08-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_with_keyed_gallery",
+        "prompt_en": "Listen to the process and choose the correct image key or detail answer.",
+        "prompt_pt": "Escute o processo e escolha a chave de imagem ou o detalhe correto.",
+        "items": [
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image shows the first step?",
+            "label_pt": "Qual imagem mostra a primeira etapa?",
+            "asset_id": "m01w08-aud-001",
+            "image_asset_id": "m01w08-img-005",
+            "options_en": [
+              "image A",
+              "image C",
+              "image E"
+            ],
+            "options_pt": [
+              "image A",
+              "image C",
+              "image E"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image comes after marking the line?",
+            "label_pt": "Qual imagem vem depois de marcar a linha?",
+            "asset_id": "m01w08-aud-001",
+            "image_asset_id": "m01w08-img-005",
+            "options_en": [
+              "image C",
+              "image D",
+              "image E"
+            ],
+            "options_pt": [
+              "image C",
+              "image D",
+              "image E"
+            ],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What tool is used to press the hem?",
+            "label_pt": "Que ferramenta é usada para passar a barra?",
+            "asset_id": "m01w08-aud-001",
+            "image_asset_id": "m01w08-img-005",
+            "options_en": [
+              "an iron",
+              "pins",
+              "a measuring tape"
+            ],
+            "options_pt": [
+              "um ferro",
+              "alfinetes",
+              "uma fita métrica"
+            ],
+            "correct_answer": "an iron"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Where does the student sew?",
+            "label_pt": "Onde o estudante costura?",
+            "asset_id": "m01w08-aud-001",
+            "image_asset_id": "m01w08-img-005",
+            "options_en": [
+              "near the edge",
+              "under the table",
+              "inside the machine box"
+            ],
+            "options_pt": [
+              "perto da borda",
+              "debaixo da mesa",
+              "dentro da caixa da máquina"
+            ],
+            "correct_answer": "near the edge"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image shows the final action?",
+            "label_pt": "Qual imagem mostra a ação final?",
+            "asset_id": "m01w08-aud-001",
+            "image_asset_id": "m01w08-img-005",
+            "options_en": [
+              "image E",
+              "image B",
+              "image D"
+            ],
+            "options_pt": [
+              "image E",
+              "image B",
+              "image D"
+            ],
+            "correct_answer": "image E"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery first",
+          "student_action_en": "Look at image A, image B, image C, image D, and image E before you play the audio.",
+          "student_action_pt": "Observe as imagens com as chaves \"image A\", \"image B\", \"image C\", \"image D\" e \"image E\" antes de tocar o audio.",
+          "teacher_action": "Tell students to notice the five visible process steps before listening.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen and choose",
+          "student_action_en": "Listen to the short sewing process and choose the correct image key or detail answer.",
+          "student_action_pt": "Escute o processo curto de costura e escolha a chave da imagem ou o detalhe correto.",
+          "teacher_action": "Allow replay and remind students to connect each sequence word to the visible gallery.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the details",
+          "student_action_en": "Answer the tool and location questions after listening again if needed.",
+          "student_action_pt": "Responda às perguntas sobre ferramenta e localização depois de escutar novamente, se necessário.",
+          "teacher_action": "Keep the focus on exact audio details rather than guessing from the pictures alone.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Five app-checked listening selections linked to one audio clip and the shared five-image process gallery.",
+        "description_pt": "Cinco seleções de escuta verificadas pelo app ligadas a um áudio e à galeria compartilhada de processo com cinco imagens.",
+        "length_or_format": "5 app-checked answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student identifies the first and next steps from the audio.",
+          "The student answers the tool and location questions accurately.",
+          "The student connects the final action to the correct image key."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica no áudio a primeira e a próxima etapas.",
+          "O aluno responde com precisão às perguntas sobre ferramenta e localização.",
+          "O aluno relaciona a ação final à chave correta da imagem."
+        ],
+        "checklist_en": [
+          "I looked at the gallery before listening.",
+          "I used the image keys while listening.",
+          "I listened again to check the details."
+        ],
+        "checklist_pt": [
+          "Eu observei a galeria antes de escutar.",
+          "Eu usei as chaves das imagens enquanto escutava.",
+          "Eu escutei novamente para conferir os detalhes."
+        ],
+        "rubric": [],
+        "model_response_en": "image A, image C, an iron, near the edge, and image E",
+        "model_response_pt": "image A, image C, an iron, near the edge e image E",
+        "common_errors": [
+          "Choosing a later image because it looks more finished without checking the sequence words.",
+          "Answering from the picture only instead of listening for the exact tool or location detail."
+        ],
+        "feedback_prompts_en": [
+          "Listen again. Which words tell you the first step, the next step, and the final action?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente. Quais palavras mostram a primeira etapa, a próxima etapa e a ação final?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the image key while listening the second time."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence after listening, such as Finally, press the hem."
+        ]
+      },
+      "extension_options": [
+        "Choose one image key and say the matching step aloud after the listening task."
+      ],
+      "notes_for_app_design": "Render this as an audio player plus a keyed gallery with image A-E visible at all times. Save selection answers only. Allow replay. Keep the script inside audio_prompts.json only, and keep the script, questions, options, correct answers, and model response fully aligned."
+    },
+    {
+      "activity_id": "m01w08-a06",
+      "week_id": "m01w08",
+      "sequence_number": 6,
+      "title": "Phrase Practice: First, Then, Finally",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students practice sequence words and imperative process sentences through short controlled fill-blank items built around the Week 8 process patterns.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: First, Then, Finally",
+          "summary": "Complete the short process phrases with the correct words.",
+          "instructions": "Complete each short sentence with the correct sequence word or process word from the word bank.",
+          "success_criteria": [
+            "I can use sequence words in the right place.",
+            "I can complete short process phrases clearly.",
+            "I can keep the task at sentence length."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Finally, ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Prática de frases: First, Then, Finally",
+          "summary": "Complete as frases curtas de processo com as palavras corretas.",
+          "instructions": "Complete cada frase curta com a palavra correta de sequência ou de processo do banco de palavras.",
+          "success_criteria": [
+            "Eu consigo usar as palavras de sequência no lugar certo.",
+            "Eu consigo completar frases curtas de processo com clareza.",
+            "Eu consigo manter a tarefa no tamanho de uma frase."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Finally, ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep this tightly controlled and sentence-length only. Avoid turning it into a mixed-format task.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "sequence-word phrase frames"
+      ],
+      "vocabulary_refs": [
+        "m01w08-v004",
+        "m01w08-v008",
+        "m01w08-v011",
+        "m01w08-v021",
+        "m01w08-v022",
+        "m01w08-v023",
+        "m01w08-v024",
+        "m01w08-v025"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "process_phrase_fill_blank",
+        "prompt_en": "Complete the short process phrases with the correct words.",
+        "prompt_pt": "Complete as frases curtas de processo com as palavras corretas.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Choose the correct sequence word.",
+            "label_pt": "Escolha a palavra de sequência correta.",
+            "sentence_frame_en": "___, measure the fabric.",
+            "sentence_frame_pt": "___, measure the fabric.",
+            "word_bank": [
+              "First",
+              "Finally",
+              "Correct"
+            ],
+            "accepted_answers": [
+              "First"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Choose the correct sequence word.",
+            "label_pt": "Escolha a palavra de sequência correta.",
+            "sentence_frame_en": "___, mark the line.",
+            "sentence_frame_pt": "___, mark the line.",
+            "word_bank": [
+              "Then",
+              "Hem",
+              "Needle"
+            ],
+            "accepted_answers": [
+              "Then"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Choose the correct sequence word.",
+            "label_pt": "Escolha a palavra de sequência correta.",
+            "sentence_frame_en": "___, cut the fabric.",
+            "sentence_frame_pt": "___, cut the fabric.",
+            "word_bank": [
+              "Next",
+              "Scissors",
+              "Place"
+            ],
+            "accepted_answers": [
+              "Next"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the final step.",
+            "label_pt": "Complete a etapa final.",
+            "sentence_frame_en": "Finally, ___ the hem.",
+            "sentence_frame_pt": "Finally, ___ the hem.",
+            "word_bank": [
+              "press",
+              "measure",
+              "align"
+            ],
+            "accepted_answers": [
+              "press"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the check phrase.",
+            "label_pt": "Complete a frase de verificação.",
+            "sentence_frame_en": "Check the ___.",
+            "sentence_frame_pt": "Check the ___.",
+            "word_bank": [
+              "stitches",
+              "palette",
+              "skirt"
+            ],
+            "accepted_answers": [
+              "stitches"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the short frames",
+          "student_action_en": "Read the short process frames and notice the missing word in each sentence.",
+          "student_action_pt": "Leia as frases curtas de processo e perceba a palavra que falta em cada sentença.",
+          "teacher_action": "Remind students that each blank has one short correct answer from the word bank.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the main phrase set",
+          "student_action_en": "Complete the five sequence and process phrases.",
+          "student_action_pt": "Complete as cinco frases de sequência e processo.",
+          "teacher_action": "Keep the task focused on one blank at a time and short controlled output.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the sentence pattern",
+          "student_action_en": "Read the completed process phrases again in order.",
+          "student_action_pt": "Leia novamente as frases de processo completas em ordem.",
+          "teacher_action": "Point out punctuation after sequence words as a common process-writing feature.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "process_phrase_fill_blanks",
+        "description_en": "Five app-checked sequence-word and process-word fill blanks.",
+        "description_pt": "Cinco lacunas de palavras de sequência e palavras de processo verificadas pelo app.",
+        "length_or_format": "5 fill-blank phrases"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes the five short process phrases.",
+          "The student uses the correct sequence words and process words.",
+          "The student keeps the output at sentence length."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as cinco frases curtas de processo.",
+          "O aluno usa as palavras corretas de sequência e de processo.",
+          "O aluno mantém a produção no tamanho de uma frase."
+        ],
+        "checklist_en": [
+          "I used the word bank carefully.",
+          "I checked the sequence words in order.",
+          "I completed the short process phrases."
+        ],
+        "checklist_pt": [
+          "Eu usei o banco de palavras com atenção.",
+          "Eu conferi as palavras de sequência em ordem.",
+          "Eu completei as frases curtas de processo."
+        ],
+        "rubric": [],
+        "model_response_en": "First, Then, Next, press, and stitches",
+        "model_response_pt": "First, Then, Next, press e stitches",
+        "common_errors": [
+          "Choosing a tool or noun when the sentence needs a sequence word.",
+          "Trying to expand the answer into a longer sentence instead of using the controlled blank."
+        ],
+        "feedback_prompts_en": [
+          "Which kind of word does this blank need: a sequence word or a process word?"
+        ],
+        "feedback_prompts_pt": [
+          "Que tipo de palavra esta lacuna precisa: uma palavra de sequência ou uma palavra de processo?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the full sentence quietly before selecting the missing word."
+        ],
+        "challenge": [
+          "Ask stronger learners to read the five completed phrases aloud in order."
+        ]
+      },
+      "extension_options": [
+        "Add one extra process sentence aloud after the fill blanks."
+      ],
+      "notes_for_app_design": "Render this as a tightly controlled fill-blank set with one blank per sentence. Save phrase completions only. Keep the task sentence-length and do not mix in matching or reordering."
+    },
+    {
+      "activity_id": "m01w08-a07",
+      "week_id": "m01w08",
+      "sequence_number": 7,
+      "title": "Simple Sewing Process Card",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students produce the main Week 8 artifact by using the shared gallery as a visual reference and completing a short structured process card with 6 required sentence-frame lines and 1 optional challenge line.",
+      "student_facing": {
+        "en": {
+          "title": "Simple Sewing Process Card",
+          "summary": "Use the shared process gallery and complete a short process card in English.",
+          "instructions": "Use the shared process gallery from image A to image E as your visual reference. Complete the 6 required sentence-frame lines about the first step, next steps, one tool phrase, and the final check. Add the challenge line only if you want extra practice.",
+          "success_criteria": [
+            "I can complete the required process lines.",
+            "I can use sequence words and sewing verbs in short English sentences.",
+            "I can revise one line after teacher feedback."
+          ],
+          "sentence_frames": [
+            "Line 1: First, ___.",
+            "Line 2: Then, ___.",
+            "Line 3: Next, ___.",
+            "Line 4: After that, ___.",
+            "Line 5: Use ___ to ___.",
+            "Line 6: Finally, check ___.",
+            "Optional challenge: This step is important because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Cartao de processo simples de costura",
+          "summary": "Use a galeria compartilhada de processo e complete um cartao curto de processo em ingles.",
+          "instructions": "Use a galeria compartilhada com as imagens marcadas \"image A\" a \"image E\" como referencia visual. Complete as 6 linhas obrigatorias de frases-modelo sobre a primeira etapa, as proximas etapas, uma frase com ferramenta e a verificacao final. Acrescente a linha de desafio apenas se voce quiser pratica extra.",
+          "success_criteria": [
+            "Eu consigo completar as linhas obrigatorias do processo.",
+            "Eu consigo usar palavras de sequencia e verbos de costura em frases curtas em ingles.",
+            "Eu consigo revisar uma linha depois do feedback do professor."
+          ],
+          "sentence_frames": [
+            "Linha 1: First, ___.",
+            "Linha 2: Then, ___.",
+            "Linha 3: Next, ___.",
+            "Linha 4: After that, ___.",
+            "Linha 5: Use ___ to ___.",
+            "Linha 6: Finally, check ___.",
+            "Desafio opcional: This step is important because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the task structured and line-based. Do not turn it into a paragraph or word-count task. Students should complete 6 required lines plus 1 optional challenge line only if ready.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "vocabulary",
+        "grammar",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "reusable sewing-process gallery",
+        "process card sentence frames"
+      ],
+      "vocabulary_refs": [
+        "m01w08-v001",
+        "m01w08-v002",
+        "m01w08-v003",
+        "m01w08-v004",
+        "m01w08-v005",
+        "m01w08-v006",
+        "m01w08-v007",
+        "m01w08-v008",
+        "m01w08-v011",
+        "m01w08-v016",
+        "m01w08-v019",
+        "m01w08-v021",
+        "m01w08-v022",
+        "m01w08-v023",
+        "m01w08-v024",
+        "m01w08-v025",
+        "m01w08-v026",
+        "m01w08-v027",
+        "m01w08-v037",
+        "m01w08-v038"
+      ],
+      "asset_refs": [
+        "m01w08-img-005"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Use the shared sewing gallery and complete the required process-card lines.",
+        "prompt_pt": "Use a galeria compartilhada de costura e complete as linhas obrigatorias do cartao de processo.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Look at the shared process gallery before you write.",
+            "label_pt": "Observe a galeria compartilhada de processo antes de escrever.",
+            "asset_id": "m01w08-img-005",
+            "options_en": [
+              "I can see image A to image E clearly."
+            ],
+            "options_pt": [
+              "Eu consigo ver com clareza \"image A\" a \"image E\"."
+            ],
+            "correct_answer": "I can see image A to image E clearly."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 1: Write the first step.",
+            "label_pt": "Linha 1: escreva a primeira etapa.",
+            "sentence_frame_en": "First, ___.",
+            "sentence_frame_pt": "First, ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 2: Write the next step.",
+            "label_pt": "Linha 2: escreva a proxima etapa.",
+            "sentence_frame_en": "Then, ___.",
+            "sentence_frame_pt": "Then, ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 3: Write the next process step.",
+            "label_pt": "Linha 3: escreva a proxima etapa do processo.",
+            "sentence_frame_en": "Next, ___.",
+            "sentence_frame_pt": "Next, ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 4: Add another process step.",
+            "label_pt": "Linha 4: acrescente outra etapa do processo.",
+            "sentence_frame_en": "After that, ___.",
+            "sentence_frame_pt": "After that, ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 5: Add one tool phrase.",
+            "label_pt": "Linha 5: acrescente uma frase com ferramenta.",
+            "sentence_frame_en": "Use ___ to ___.",
+            "sentence_frame_pt": "Use ___ to ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 6: Add the final check.",
+            "label_pt": "Linha 6: acrescente a verificacao final.",
+            "sentence_frame_en": "Finally, check ___.",
+            "sentence_frame_pt": "Finally, check ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Optional challenge line",
+            "label_pt": "Linha de desafio opcional",
+            "sentence_frame_en": "This step is important because ___.",
+            "sentence_frame_pt": "This step is important because ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the shared gallery",
+          "student_action_en": "Look at the shared process gallery from image A to image E before you start writing.",
+          "student_action_pt": "Observe a galeria compartilhada com as imagens marcadas \"image A\" a \"image E\" antes de comecar a escrever.",
+          "teacher_action": "Keep the shared gallery visible and remind students to use it as a reference, not as a scored choice.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the required lines",
+          "student_action_en": "Complete the 6 required sentence-frame lines about the sequence steps, one tool phrase, and the final check.",
+          "student_action_pt": "Complete as 6 linhas obrigatorias de frases-modelo sobre as etapas da sequencia, uma frase com ferramenta e a verificacao final.",
+          "teacher_action": "Keep the writing structured. Encourage students to finish one line at a time.",
+          "estimated_minutes": 11,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge only if ready",
+          "student_action_en": "Add the challenge line only if you want extra practice.",
+          "student_action_pt": "Acrescente a linha de desafio apenas se você quiser prática extra.",
+          "teacher_action": "Make it clear that the challenge line is optional, not required.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 4,
+          "title": "Check and submit",
+          "student_action_en": "Read your lines again and submit the card for teacher review.",
+          "student_action_pt": "Leia suas linhas novamente e envie o cartão para revisão do professor.",
+          "teacher_action": "Prompt students to check tool phrases, sequence order, and final check wording before submission.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_process_card",
+        "description_en": "A saved Simple Sewing Process Card with 6 required sentence-frame lines and 1 optional challenge line.",
+        "description_pt": "Um Cartao de Processo Simples de Costura salvo com 6 linhas obrigatorias de frases-modelo e 1 linha de desafio opcional.",
+        "length_or_format": "6 required lines plus 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student completes the 6 required process-card lines.",
+          "The student uses sequence words and sewing verbs clearly.",
+          "The optional challenge line may be added, but it is not required."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as 6 linhas obrigatorias do cartao de processo.",
+          "O aluno usa com clareza palavras de sequencia e verbos de costura.",
+          "A linha de desafio opcional pode ser acrescentada, mas nao e obrigatoria."
+        ],
+        "checklist_en": [
+          "The card includes the 6 required lines.",
+          "The card includes at least four ordered process steps.",
+          "The card includes one tool phrase with Use ___ to ___.",
+          "The card includes a final check line.",
+          "The writing stays line-based, not paragraph-based.",
+          "The challenge line is optional only."
+        ],
+        "checklist_pt": [
+          "O cartao inclui as 6 linhas obrigatorias.",
+          "O cartao inclui pelo menos quatro etapas de processo em ordem.",
+          "O cartao inclui uma frase com ferramenta usando Use ___ to ___.",
+          "O cartao inclui uma linha de verificacao final.",
+          "A escrita continua em linhas, e nao em paragrafo.",
+          "A linha de desafio e apenas opcional."
+        ],
+        "rubric": [],
+        "model_response_en": "First, measure the fabric. Then, mark the line. Next, cut the fabric. After that, fold the edge and pin it. Use scissors to cut the fabric. Finally, check the stitches. Optional challenge: This step is important because the line should stay straight.",
+        "model_response_pt": "First, measure the fabric. Then, mark the line. Next, cut the fabric. After that, fold the edge and pin it. Use scissors to cut the fabric. Finally, check the stitches. Desafio opcional: This step is important because the line should stay straight.",
+        "common_errors": [
+          "Writing a list of words instead of complete sentence-frame lines.",
+          "Forgetting to use a sequence word at the start of a line.",
+          "Leaving out to in the tool phrase Use ___ to ___.",
+          "Treating the optional challenge line like a required line.",
+          "Turning the task into a paragraph instead of separate line fields."
+        ],
+        "feedback_prompts_en": [
+          "Please complete one line as a full sentence.",
+          "Please check the sequence order again.",
+          "Please add one clearer tool phrase.",
+          "Please revise one line and submit again."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, complete uma linha como frase inteira.",
+          "Por favor, confira novamente a ordem da sequência.",
+          "Por favor, acrescente uma frase mais clara com ferramenta.",
+          "Por favor, revise uma linha e envie novamente."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete exactly six core lines with a visible word bank and one model line on screen."
+        ],
+        "challenge": [
+          "Invite stronger learners to add the optional challenge line with a clear reason linked to quality, order, or tool choice."
+        ]
+      },
+      "extension_options": [
+        "Turn one line from the card into a speaking note for the teacher session."
+      ],
+      "notes_for_app_design": "Render this as a teacher-reviewed structured writing card with the shared gallery visible and separate saved line fields, not a paragraph text box. Keep 6 lines required, 1 challenge line optional, and show the teacher the checklist, common errors, feedback prompts, and return-for-revision workflow."
+    },
+    {
+      "activity_id": "m01w08-a08",
+      "week_id": "m01w08",
+      "sequence_number": 8,
+      "title": "Review and Improve: Clear Process Sentences",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students improve short sewing-process sentences by correcting one clear error at a time and submitting two corrected sentences for app checking.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Clear Process Sentences",
+          "summary": "Read each short sentence, find the mistake, and write the corrected sentence.",
+          "instructions": "Look at one correction card at a time. Read the short sewing sentence, find the mistake, and rewrite the sentence correctly. Write two corrected sentences.",
+          "success_criteria": [
+            "I can notice one mistake in a short process sentence.",
+            "I can rewrite the sentence clearly in English.",
+            "I can keep my correction short and accurate."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Use ___ to ___."
+          ],
+          "word_bank_label": "Helpful words"
+        },
+        "pt": {
+          "title": "Reveja e melhore: frases claras de processo",
+          "summary": "Leia cada frase curta, encontre o erro e escreva a frase corrigida.",
+          "instructions": "Observe um cartao de correcao por vez. Leia a frase curta de costura, encontre o erro e reescreva a frase corretamente. Escreva duas frases corrigidas.",
+          "success_criteria": [
+            "Eu consigo perceber um erro em uma frase curta de processo.",
+            "Eu consigo reescrever a frase com clareza em ingles.",
+            "Eu consigo manter minha correcao curta e correta."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Use ___ to ___."
+          ],
+          "word_bank_label": "Palavras de apoio"
+        }
+      },
+      "teacher_instructions": "Keep the task focused on visible sentence correction only. Students should correct two short sentences and the app should check against accepted answers, not teacher judgment.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "short correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w08-v001",
+        "m01w08-v004",
+        "m01w08-v005",
+        "m01w08-v006",
+        "m01w08-v011",
+        "m01w08-v016",
+        "m01w08-v021",
+        "m01w08-v022",
+        "m01w08-v023",
+        "m01w08-v025"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "sentence_correction",
+        "prompt_en": "Correct the short sewing-process sentences.",
+        "prompt_pt": "Corrija as frases curtas de processo de costura.",
+        "items": [
+          {
+            "response_type": "corrected_sentence",
+            "label_en": "Correction card 1",
+            "label_pt": "Cartao de correcao 1",
+            "source_text_en": "Then cut carefully.",
+            "source_text_pt": "Then cut carefully.",
+            "student_prompt_en": "Rewrite the sentence with the correct sequence punctuation and object.",
+            "student_prompt_pt": "Reescreva a frase com a pontuacao correta da sequencia e com o objeto correto.",
+            "accepted_answers": [
+              "Then, cut the fabric carefully.",
+              "Then cut the fabric carefully."
+            ]
+          },
+          {
+            "response_type": "corrected_sentence",
+            "label_en": "Correction card 2",
+            "label_pt": "Cartao de correcao 2",
+            "source_text_en": "Use scissors cut the fabric.",
+            "source_text_pt": "Use scissors cut the fabric.",
+            "student_prompt_en": "Rewrite the sentence with the correct tool phrase.",
+            "student_prompt_pt": "Reescreva a frase com a expressao correta de ferramenta.",
+            "accepted_answers": [
+              "Use scissors to cut the fabric.",
+              "Use the scissors to cut the fabric."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the first correction card",
+          "student_action_en": "Read the first short sentence and notice the sequence problem.",
+          "student_action_pt": "Leia a primeira frase curta e perceba o problema de sequencia e de completude.",
+          "teacher_action": "Remind students to compare the sentence with the frame shown on the card.",
+          "estimated_minutes": 2,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Rewrite the corrected sentence",
+          "student_action_en": "Write the corrected sentence for the first card, then repeat the process for the second card.",
+          "student_action_pt": "Escreva a frase corrigida do primeiro cartao e depois repita o processo no segundo cartao.",
+          "teacher_action": "Encourage short accurate rewrites instead of longer explanations.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check and submit",
+          "student_action_en": "Read both corrected sentences again and submit them.",
+          "student_action_pt": "Leia novamente as duas frases corrigidas e envie as respostas.",
+          "teacher_action": "Point out that the task checks exact sentence correction, not extra details.",
+          "estimated_minutes": 1,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentences",
+        "description_en": "Two corrected sewing-process sentences checked by the app.",
+        "description_pt": "Duas frases corrigidas de processo de costura verificadas pelo app.",
+        "length_or_format": "2 corrected sentences"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student rewrites both sentences correctly.",
+          "The student uses the visible sentence frame or tool phrase correctly.",
+          "The student keeps each correction short and complete."
+        ],
+        "completion_criteria_pt": [
+          "O aluno reescreve as duas frases corretamente.",
+          "O aluno usa corretamente a estrutura visivel da frase ou a expressao com ferramenta.",
+          "O aluno mantem cada correcao curta e completa."
+        ],
+        "checklist_en": [
+          "I fixed the sequence frame in sentence 1.",
+          "I used Use ___ to ___ correctly in sentence 2.",
+          "I submitted two complete corrected sentences."
+        ],
+        "checklist_pt": [
+          "Eu corrigi a estrutura de sequencia na frase 1.",
+          "Eu usei Use ___ to ___ corretamente na frase 2.",
+          "Eu enviei duas frases corrigidas completas."
+        ],
+        "rubric": [],
+        "model_response_en": "Then, cut the fabric carefully. Use scissors to cut the fabric.",
+        "model_response_pt": "Then, cut the fabric carefully. Use scissors to cut the fabric.",
+        "common_errors": [
+          "Leaving out the object in the first correction.",
+          "Leaving out to in the tool phrase.",
+          "Adding extra ideas that are not needed for the correction."
+        ],
+        "feedback_prompts_en": [
+          "Which sequence word should start this sentence?",
+          "Does your tool phrase include to after the tool?"
+        ],
+        "feedback_prompts_pt": [
+          "Qual objeto esta faltando nesta frase?",
+          "Sua frase com ferramenta inclui to depois da ferramenta?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students reread the visible sentence frame before they type the correction."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain orally why each corrected sentence is better."
+        ]
+      },
+      "extension_options": [
+        "Turn one corrected sentence into a model line for the speaking task."
+      ],
+      "notes_for_app_design": "Render one correction card at a time. Save two corrected sentences as the main output and check them against explicit accepted answers only."
+    },
+    {
+      "activity_id": "m01w08-a09",
+      "week_id": "m01w08",
+      "sequence_number": 9,
+      "title": "Teacher Session: Explain the Steps",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use the shared process board and their writing card to explain a short sewing sequence aloud in a teacher-observed speaking routine.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Explain the Steps",
+          "summary": "Look at the process board and explain the steps aloud in short English sentences.",
+          "instructions": "Use the process board and your process card. Say 5 to 6 short steps aloud. Use sequence words and at least one tool phrase.",
+          "success_criteria": [
+            "I can say the steps in order.",
+            "I can use short clear sewing words in English.",
+            "I can include at least one tool phrase."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Next, ___.",
+            "Use ___ to ___.",
+            "Finally, check ___."
+          ],
+          "word_bank_label": "Speaking help"
+        },
+        "pt": {
+          "title": "Sessao com o professor: explique as etapas",
+          "summary": "Observe o painel de processo e explique as etapas em voz alta com frases curtas em ingles.",
+          "instructions": "Use o painel de processo e o seu cartao de processo. Diga 5 a 6 etapas curtas em voz alta. Use palavras de sequencia e pelo menos uma frase com ferramenta.",
+          "success_criteria": [
+            "Eu consigo dizer as etapas em ordem.",
+            "Eu consigo usar palavras curtas e claras de costura em ingles.",
+            "Eu consigo incluir pelo menos uma frase com ferramenta."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Next, ___.",
+            "Use ___ to ___.",
+            "Finally, check ___."
+          ],
+          "word_bank_label": "Ajuda para falar"
+        }
+      },
+      "teacher_instructions": "This is a teacher-observed speaking task only. Do not require recording, upload, or automated scoring. Keep the output scaffolded and short by using the process board and the student's card as speaking supports.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "reusable sewing-process gallery",
+        "student process card",
+        "teacher observation checklist"
+      ],
+      "vocabulary_refs": [
+        "m01w08-v001",
+        "m01w08-v002",
+        "m01w08-v003",
+        "m01w08-v004",
+        "m01w08-v005",
+        "m01w08-v006",
+        "m01w08-v007",
+        "m01w08-v008",
+        "m01w08-v016",
+        "m01w08-v019",
+        "m01w08-v021",
+        "m01w08-v022",
+        "m01w08-v023",
+        "m01w08-v024",
+        "m01w08-v025",
+        "m01w08-v026",
+        "m01w08-v027"
+      ],
+      "asset_refs": [
+        "m01w08-img-005"
+      ],
+      "input": {
+        "input_type": "teacher_observed_speaking",
+        "prompt_en": "Use the board and your process card to explain the simple sewing process aloud.",
+        "prompt_pt": "Use o painel e o seu cartao de processo para explicar em voz alta o processo simples de costura.",
+        "items": [
+          {
+            "response_type": "speaking_prompt",
+            "label_en": "Speaking task",
+            "label_pt": "Tarefa de fala",
+            "asset_id": "m01w08-img-005",
+            "prompt_en": "Explain the steps from image A to image E in 5 to 6 short sentences.",
+            "prompt_pt": "Explique as etapas da sequencia marcada de \"image A\" a \"image E\" em 5 a 6 frases curtas."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the board and card",
+          "student_action_en": "Look at the process board and your process card before you speak.",
+          "student_action_pt": "Observe o painel de processo e o seu cartao de processo antes de falar.",
+          "teacher_action": "Give students a short preparation moment with the visible sequence frames.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Explain the steps aloud",
+          "student_action_en": "Say 5 to 6 short process steps aloud in order and include one tool phrase.",
+          "student_action_pt": "Diga em voz alta 5 a 6 etapas curtas de processo em ordem e inclua uma frase com ferramenta.",
+          "teacher_action": "Observe for clarity, sequence words, tool phrase use, and key pronunciation targets.",
+          "estimated_minutes": 30,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Close with brief feedback",
+          "student_action_en": "Listen to one short teacher comment about your speaking.",
+          "student_action_pt": "Escute um comentario curto do professor sobre a sua fala.",
+          "teacher_action": "Give one strength and one next-step note. Keep the feedback brief and supportive.",
+          "estimated_minutes": 10,
+          "mode": "whole_class"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_spoken_process",
+        "description_en": "One teacher-observed spoken explanation of a simple sewing process with 5 to 6 short steps.",
+        "description_pt": "Uma explicacao oral observada pelo professor sobre um processo simples de costura com 5 a 6 etapas curtas.",
+        "length_or_format": "5 to 6 short spoken steps"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student explains the steps in a clear order.",
+          "The student uses sequence words and at least one tool phrase.",
+          "The student completes a short spoken explanation without recording or upload."
+        ],
+        "completion_criteria_pt": [
+          "O aluno explica as etapas em uma ordem clara.",
+          "O aluno usa palavras de sequencia e pelo menos uma frase com ferramenta.",
+          "O aluno completa uma explicacao oral curta sem gravacao nem envio."
+        ],
+        "checklist_en": [
+          "The student says 5 to 6 short steps.",
+          "The student uses at least one tool phrase.",
+          "The student uses understandable pronunciation for key sewing words.",
+          "The student stays on the visible process path."
+        ],
+        "checklist_pt": [
+          "O aluno diz 5 a 6 etapas curtas.",
+          "O aluno usa pelo menos uma frase com ferramenta.",
+          "O aluno usa pronuncia compreensivel para palavras-chave de costura.",
+          "O aluno permanece no caminho de processo visivel."
+        ],
+        "rubric": [],
+        "model_response_en": "First, measure the fabric. Then, mark the line. Next, cut the fabric. After that, fold the edge and pin it. Use scissors to cut the fabric. Finally, check the stitches.",
+        "model_response_pt": "First, measure the fabric. Then, mark the line. Next, cut the fabric. After that, fold the edge and pin it. Use scissors to cut the fabric. Finally, check the stitches.",
+        "common_errors": [
+          "Skipping sequence words.",
+          "Switching the order of the visible process steps.",
+          "Speaking in single words instead of short sentences.",
+          "Trying to record instead of speaking live to the teacher."
+        ],
+        "feedback_prompts_en": [
+          "Please say the steps again with sequence words.",
+          "Please add one tool phrase to your explanation.",
+          "Please keep your sentences short and clear."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, diga novamente as etapas com palavras de sequencia.",
+          "Por favor, acrescente uma frase com ferramenta a sua explicacao.",
+          "Por favor, mantenha suas frases curtas e claras."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students keep the process card visible while they speak."
+        ],
+        "challenge": [
+          "Invite stronger learners to add one reason sentence after the final step."
+        ]
+      },
+      "extension_options": [
+        "Pair students for one extra rehearsal before the next live explanation."
+      ],
+      "notes_for_app_design": "Show the speaking frame and image board as supports, but store only teacher observation/completion data. Do not add recording, upload, or automated speech scoring."
+    }
+  ]
+}

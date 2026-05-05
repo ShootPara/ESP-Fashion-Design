@@ -1,0 +1,77 @@
+{
+  "week_id": "m01w08",
+  "image_prompts": [
+    {
+      "asset_id": "m01w08-img-001",
+      "purpose": "Week 8 opener board for bridging from Week 7 materials language into Week 8 sewing actions.",
+      "target_filename": "assets/images/module-01/week-08/m01w08-img-001.png",
+      "visual_description": "A compact adult-oriented sewing workspace board with clearly visible fabric pieces, scissors, pins, measuring tape, and a sewing machine, plus one or two obvious action clues such as folded fabric and a marked line.",
+      "style_instructions": "Use a polished fashion-education illustration or realistic sewing-reference style with strong visual clarity and adult proportions.",
+      "composition_notes": "Keep the visuals separated and easy to scan on mobile. Make the tools and materials obvious first, with light process clues that preview Week 8 without turning the opener into a full sequence board.",
+      "text_in_image": "Only short visible keys if needed for the opener questions.",
+      "avoid": "Avoid logos, unsafe sewing practices, tiny unreadable labels, childlike styling, cluttered backgrounds, and dense tool piles.",
+      "used_by_activity_ids": [
+        "m01w08-a01"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w08-img-002",
+      "purpose": "Sewing actions board for the main Week 8 vocabulary-matching task.",
+      "target_filename": "assets/images/module-01/week-08/m01w08-img-002.png",
+      "visual_description": "One clean educational board showing ten clear sewing-action or sewing-result examples. Visible key A is cut, B is fold, C is pin, D is sew, E is press, F is measure, G is mark, H is check, I is seam, and J is stitch.",
+      "style_instructions": "Use a clear educational board style with close-up action scenes or unmistakable sewing examples that remain readable on a phone screen.",
+      "composition_notes": "Keep each key A to J large and easy to compare. Show the action clearly with adult hands, safe tool handling, and simple backgrounds. The noun examples for seam and stitch should still feel visually distinct from the action images.",
+      "text_in_image": "Only the visible keys A to J.",
+      "avoid": "Avoid extra labels, brand logos, duplicate-looking action images, unsafe needle or scissors handling, or ambiguous scenes that make the answer key uncertain.",
+      "used_by_activity_ids": [
+        "m01w08-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w08-img-003",
+      "purpose": "Tools-and-actions board for controlled tool phrase practice.",
+      "target_filename": "assets/images/module-01/week-08/m01w08-img-003.png",
+      "visual_description": "A clean board with clearly separated sewing tools and objects: scissors, measuring tape, pins, sewing machine, and iron, with fabric and a marked line visible as support context.",
+      "style_instructions": "Use a polished instructional sewing-reference style with strong object clarity and minimal background distraction.",
+      "composition_notes": "Make each tool large enough to recognize quickly on mobile. The board should support fill-blank tool phrases rather than a matching task, so keep the layout simple and the tools unmistakable.",
+      "text_in_image": "Minimal visible keys only if needed for teacher reference.",
+      "avoid": "Avoid clutter, extra decorative text, tiny measurement markings, unsafe iron or needle placement, and brand-specific machine details.",
+      "used_by_activity_ids": [
+        "m01w08-a03"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w08-img-004",
+      "purpose": "Reading sequence board for the simple hem sample task.",
+      "target_filename": "assets/images/module-01/week-08/m01w08-img-004.png",
+      "visual_description": "A sequence board with six clearly separated process images labeled only A, B, C, D, E, and F. A shows cutting a small rectangle of fabric, B folding one edge, C pinning the fold, D sewing a straight line near the folded edge, E removing the pins, and F pressing the hem while checking the stitches.",
+      "style_instructions": "Use a clean educational sequence-board style with consistent fabric color and consistent workspace details across all six images.",
+      "composition_notes": "Keep the six steps easy to compare and scan in order on mobile. The same fabric sample should appear across the sequence so the process feels continuous and credible.",
+      "text_in_image": "Only the visible keys A to F.",
+      "avoid": "Avoid busy backgrounds, changing fabric colors between steps, extra instruction text, ambiguous hand positions, or step scenes that do not clearly match the reading text.",
+      "used_by_activity_ids": [
+        "m01w08-a04"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w08-img-005",
+      "purpose": "Reusable process gallery for listening, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-08/m01w08-img-005.png",
+      "visual_description": "A gallery with five clearly separated sewing-process images labeled only image A, image B, image C, image D, and image E. Image A shows measuring a small piece of fabric, image B marking a guide line, image C cutting the fabric, image D folding one edge and pinning it, and image E sewing near the edge with the finished result ready to press and check.",
+      "style_instructions": "Use a polished fashion-studio instructional style with strong step clarity, adult learner context, and safe sewing practice.",
+      "composition_notes": "Keep the five images visually distinct and evenly spaced. The gallery must support exact answer-key matching across listening, writing, and speaking, so the same process path and fabric sample should remain consistent throughout.",
+      "text_in_image": "Only the visible image keys A, B, C, D, and E.",
+      "avoid": "Avoid extra decorative text, cluttered studio backgrounds, childlike styling, unsafe tool handling, or image sequences that contradict the Week 8 listening and writing flow.",
+      "used_by_activity_ids": [
+        "m01w08-a05",
+        "m01w08-a07",
+        "m01w08-a09"
+      ],
+      "status": "planned"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "week_id": "m01w08",
+  "module_id": "module-01",
+  "week_number": 8,
+  "title": "Sewing Actions",
+  "summary": "Students connect familiar tools and fabrics to sewing actions, read and hear a simple sewing sequence, practice imperative process language, and produce a short app-ready process card.",
+  "essential_question": "How can I explain a simple sewing process clearly in English?",
+  "professional_context": "Week 8 connects English to introductory sewing workflow, handling fabric safely, following basic studio instructions, and describing a simple hem or stitch sample. Students begin using process language that will support later patternmaking, prototyping, and garment-construction discussion.",
+  "language_focus": [
+    "sewing verbs such as cut, fold, pin, sew, press, measure, mark, and check",
+    "tool-action phrases such as Use scissors to cut the fabric",
+    "step-order language such as first, then, next, after that, and finally",
+    "location phrases such as along the line and at the hem",
+    "quality-check language such as straight, even, and check the stitches",
+    "guided sewing-process writing",
+    "teacher-supported process explanation speaking"
+  ],
+  "skill_focus": [
+    "reading",
+    "listening",
+    "writing",
+    "vocabulary",
+    "speaking",
+    "professional_communication",
+    "visual_literacy",
+    "grammar"
+  ],
+  "target_vocabulary_groups": [
+    "m01w08-vg01",
+    "m01w08-vg02",
+    "m01w08-vg03",
+    "m01w08-vg04",
+    "m01w08-vg05"
+  ],
+  "grammar_focus": [
+    "imperatives",
+    "use ___ to ___",
+    "first / then / next / after that / finally",
+    "sew along the line",
+    "press the hem",
+    "check the stitches"
+  ],
+  "pronunciation_focus": [
+    "cut",
+    "fold",
+    "pin",
+    "sew",
+    "stitch",
+    "press",
+    "measure",
+    "mark",
+    "seam",
+    "hem",
+    "iron"
+  ],
+  "cefr_access_level": "A2",
+  "cefr_target_level": "A2",
+  "estimated_total_minutes": 139,
+  "activity_ids": [
+    "m01w08-a01",
+    "m01w08-a02",
+    "m01w08-a03",
+    "m01w08-a04",
+    "m01w08-a05",
+    "m01w08-a06",
+    "m01w08-a07",
+    "m01w08-a08",
+    "m01w08-a09"
+  ],
+  "asset_ids": [
+    "m01w08-img-001",
+    "m01w08-img-002",
+    "m01w08-img-003",
+    "m01w08-img-004",
+    "m01w08-img-005",
+    "m01w08-aud-001"
+  ],
+  "teacher_preparation": [
+    "Preview the Week 8 opener board, the sewing-actions board, the tools-and-actions board, the hem reading board, and the reusable process gallery before class.",
+    "Prepare visible sentence frames for Cut the fabric, Fold the edge, Use ___ to ___, First ..., Then ..., Next ..., After that ..., and Finally ....",
+    "Keep the writing task line-based and scaffolded. Do not turn the Simple Sewing Process Card into a paragraph or word-count assignment.",
+    "Review likely Week 8 correction targets such as missing articles, missing to in tool phrases, punctuation after sequence words, and along the line versus on the line.",
+    "Keep the Week 8 listening audio or teacher read-aloud fallback aligned exactly to the same image A to E gallery used in listening, writing, and speaking.",
+    "Decide whether students will use projected process boards, printed cards, or simple physical sewing tools alongside the future app-style visuals in the teacher session."
+  ],
+  "student_deliverables": [
+    "Completion of the Week 8 opener selections.",
+    "Completion of the main sewing-actions matching set.",
+    "Completion of tool-action fill-blank phrase practice.",
+    "Reading-comprehension responses about a simple hem process.",
+    "Listening-comprehension responses about one simple sewing sequence.",
+    "Completion of sequence-word and imperative phrase practice.",
+    "A scaffolded Simple Sewing Process Card with 6 required sentence-frame lines and 1 optional challenge sentence.",
+    "Two corrected Week 8 process sentences saved after review.",
+    "A short teacher-observed oral explanation of one simple sewing process."
+  ]
+}
