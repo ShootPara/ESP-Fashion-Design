@@ -1,0 +1,2206 @@
+{
+  "week_id": "m01w10",
+  "activities": [
+    {
+      "activity_id": "m01w10-a01",
+      "week_id": "m01w10",
+      "sequence_number": 1,
+      "title": "Welcome Back: Build a Full Description",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students use one keyed sketch board to review garment, detail, palette, silhouette, and fabric language before they build full sketch descriptions this week.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: Build a Full Description",
+          "summary": "Look at the sketch board and choose the best answer for each quick question.",
+          "instructions": "Look at the keyed sketch board first. Choose the correct answer for each short question about the garment, one detail, the color palette, the silhouette, and a likely fabric.",
+          "success_criteria": [
+            "I can notice key visual clues on one sketch board.",
+            "I can review garment, detail, and color words.",
+            "I can prepare for a full sketch description."
+          ],
+          "sentence_frames": [
+            "The figure is wearing ___.",
+            "It has ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: construa uma descricao completa",
+          "summary": "Observe o painel do croqui e escolha a melhor resposta para cada pergunta rapida.",
+          "instructions": "Observe primeiro o painel do croqui com chaves visiveis. Escolha a resposta correta para cada pergunta curta sobre a roupa, um detalhe, a paleta de cores, a silhueta e um tecido provavel.",
+          "success_criteria": [
+            "Eu consigo perceber pistas visuais importantes em um painel de croqui.",
+            "Eu consigo revisar palavras de roupa, detalhe e cor.",
+            "Eu consigo me preparar para uma descricao completa do croqui."
+          ],
+          "sentence_frames": [
+            "The figure is wearing ___.",
+            "It has ___.",
+            "The silhouette is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the opener fast and visual. Every answer should come from visible clues on the keyed board.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "keyed sketch opener board"
+      ],
+      "vocabulary_refs": [
+        "m01w10-v003",
+        "m01w10-v007",
+        "m01w10-v013",
+        "m01w10-v016",
+        "m01w10-v017",
+        "m01w10-v023"
+      ],
+      "asset_refs": [
+        "m01w10-img-001"
+      ],
+      "input": {
+        "input_type": "keyed_sketch_preview_quiz",
+        "prompt_en": "Choose the best review answer for each sketch question.",
+        "prompt_pt": "Escolha a melhor resposta de revisao para cada pergunta sobre o croqui.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which garment is the main piece on the board?",
+            "label_pt": "Qual roupa e a peca principal no painel?",
+            "asset_id": "m01w10-img-001",
+            "options_en": [
+              "a jacket",
+              "a skirt",
+              "a hoodie"
+            ],
+            "options_pt": [
+              "uma jaqueta",
+              "uma saia",
+              "um moletom com capuz"
+            ],
+            "correct_answer": "a jacket"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which visible detail is easy to see?",
+            "label_pt": "Qual detalhe visivel e facil de ver?",
+            "asset_id": "m01w10-img-001",
+            "options_en": [
+              "two pockets",
+              "a hood",
+              "long pleats"
+            ],
+            "options_pt": [
+              "dois bolsos",
+              "um capuz",
+              "pregas longas"
+            ],
+            "correct_answer": "two pockets"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which phrase best describes the color palette?",
+            "label_pt": "Qual expressao descreve melhor a paleta de cores?",
+            "asset_id": "m01w10-img-001",
+            "options_en": [
+              "neutral and dark",
+              "bright and playful",
+              "pastel and warm"
+            ],
+            "options_pt": [
+              "neutra e escura",
+              "vibrante e divertida",
+              "pastel e quente"
+            ],
+            "correct_answer": "neutral and dark"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which silhouette fits the sketch best?",
+            "label_pt": "Qual silhueta combina melhor com o croqui?",
+            "asset_id": "m01w10-img-001",
+            "options_en": [
+              "straight",
+              "flared",
+              "very fitted"
+            ],
+            "options_pt": [
+              "reta",
+              "evasada",
+              "muito ajustada"
+            ],
+            "correct_answer": "straight"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which fabric is the best visual guess?",
+            "label_pt": "Qual tecido e a melhor pista visual?",
+            "asset_id": "m01w10-img-001",
+            "options_en": [
+              "denim",
+              "lace",
+              "silk"
+            ],
+            "options_pt": [
+              "denim",
+              "renda",
+              "seda"
+            ],
+            "correct_answer": "denim"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the keyed board",
+          "student_action_en": "Look at the sketch board before you answer.",
+          "student_action_pt": "Observe o painel do croqui antes de responder.",
+          "teacher_action": "Remind students to use only visible clues.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the quick answers",
+          "student_action_en": "Choose the correct answer for each short question.",
+          "student_action_pt": "Escolha a resposta correta para cada pergunta curta.",
+          "teacher_action": "Keep the pace quick and supportive.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Five app-checked selections about one keyed fashion sketch.",
+        "description_pt": "Cinco selecoes verificadas pelo app sobre um croqui de moda com chaves visiveis.",
+        "length_or_format": "5 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student answers all five opener items.",
+          "The student identifies garment, detail, color, and silhouette language from visible clues.",
+          "The student uses a likely fabric answer that is supported by the image."
+        ],
+        "completion_criteria_pt": [
+          "O aluno responde os cinco itens iniciais.",
+          "O aluno identifica linguagem de roupa, detalhe, cor e silhueta a partir de pistas visiveis.",
+          "O aluno usa uma resposta de tecido provavel apoiada pela imagem."
+        ],
+        "checklist_en": [
+          "I looked at the board first.",
+          "I answered all five items.",
+          "I used visible clues for the fabric answer."
+        ],
+        "checklist_pt": [
+          "Eu observei o painel primeiro.",
+          "Eu respondi os cinco itens.",
+          "Eu usei pistas visiveis para a resposta sobre tecido."
+        ],
+        "rubric": [],
+        "model_response_en": "a jacket, two pockets, neutral and dark, straight, denim",
+        "model_response_pt": "a jacket, two pockets, neutral and dark, straight, denim",
+        "common_errors": [
+          "Choosing a bright palette when the colors are dark and neutral.",
+          "Guessing a fabric that is not visually supported."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which answer matches the visible clue on the board?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual resposta combina com a pista visivel no painel?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students name one clue in Portuguese before choosing the English answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence after each answer."
+        ]
+      },
+      "extension_options": [
+        "Say one more sentence about the sketch after the opener."
+      ],
+      "notes_for_app_design": "Render one static opener board with five single-choice items. Keep all options visible and save selections only."
+    },
+    {
+      "activity_id": "m01w10-a02",
+      "week_id": "m01w10",
+      "sequence_number": 2,
+      "title": "Sketch Description Vocabulary Review",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students review mixed Week 10 vocabulary by matching English terms to Portuguese support and sorting the same terms into sketch-description categories.",
+      "student_facing": {
+        "en": {
+          "title": "Sketch Description Vocabulary Review",
+          "summary": "Match the words and sort them into the correct category.",
+          "instructions": "Match the English words to the Portuguese support words. Then sort the same words into figure, garment, detail, color, fabric, and design-comment groups.",
+          "success_criteria": [
+            "I can connect English fashion words to Portuguese support.",
+            "I can sort sketch-description words by category.",
+            "I can prepare for reading, listening, and writing this week."
+          ],
+          "sentence_frames": [
+            "This word is in the ___ group.",
+            "The English word is ___.",
+            "In Portuguese support, it is ___."
+          ],
+          "word_bank_label": "Word groups"
+        },
+        "pt": {
+          "title": "Revisao de vocabulario para descrever croquis",
+          "summary": "Relacione as palavras e organize-as na categoria correta.",
+          "instructions": "Relacione as palavras em ingles ao apoio em portugues. Depois organize as mesmas palavras nos grupos de figura, roupa, detalhe, cor, tecido e comentario de design.",
+          "success_criteria": [
+            "Eu consigo ligar palavras de moda em ingles ao apoio em portugues.",
+            "Eu consigo organizar palavras de descricao de croqui por categoria.",
+            "Eu consigo me preparar para leitura, escuta e escrita nesta semana."
+          ],
+          "sentence_frames": [
+            "This word is in the ___ group.",
+            "The English word is ___.",
+            "In Portuguese support, it is ___."
+          ],
+          "word_bank_label": "Grupos de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output as matching and sorting only. Do not turn this into a typing task.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "translation_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 10 vocabulary bank"
+      ],
+      "vocabulary_refs": [
+        "m01w10-v001",
+        "m01w10-v003",
+        "m01w10-v007",
+        "m01w10-v012",
+        "m01w10-v016",
+        "m01w10-v017",
+        "m01w10-v023",
+        "m01w10-v027",
+        "m01w10-v028",
+        "m01w10-v029"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "translation_and_category_matching",
+        "prompt_en": "Match the words and sort them into the correct category groups.",
+        "prompt_pt": "Relacione as palavras e organize-as nos grupos corretos.",
+        "items": [
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the English words to Portuguese support.",
+            "label_pt": "Relacione as palavras em ingles ao apoio em portugues.",
+            "match_terms_en": [
+              "sketch",
+              "figure",
+              "jacket",
+              "neckline",
+              "color palette",
+              "silhouette",
+              "denim",
+              "main feature"
+            ],
+            "match_terms_pt": [
+              "croqui",
+              "figura",
+              "jaqueta",
+              "decote",
+              "paleta de cores",
+              "silhueta",
+              "denim",
+              "detalhe principal"
+            ],
+            "pairs": [
+              {
+                "term_en": "sketch",
+                "term_pt": "croqui"
+              },
+              {
+                "term_en": "figure",
+                "term_pt": "figura"
+              },
+              {
+                "term_en": "jacket",
+                "term_pt": "jaqueta"
+              },
+              {
+                "term_en": "neckline",
+                "term_pt": "decote"
+              },
+              {
+                "term_en": "color palette",
+                "term_pt": "paleta de cores"
+              },
+              {
+                "term_en": "silhouette",
+                "term_pt": "silhueta"
+              },
+              {
+                "term_en": "denim",
+                "term_pt": "denim"
+              },
+              {
+                "term_en": "main feature",
+                "term_pt": "detalhe principal"
+              }
+            ]
+          },
+          {
+            "response_type": "category_sort",
+            "label_en": "Sort the words into the correct groups.",
+            "label_pt": "Organize as palavras nos grupos corretos.",
+            "terms_en": [
+              "figure",
+              "pose",
+              "dress",
+              "skirt",
+              "zipper",
+              "buttons",
+              "bright",
+              "soft",
+              "cotton",
+              "lightweight",
+              "overall look",
+              "comfortable"
+            ],
+            "category_targets": [
+              "figure",
+              "garment",
+              "detail",
+              "color",
+              "fabric",
+              "design_comment"
+            ],
+            "category_display_labels": [
+              {
+                "key": "figure",
+                "label_en": "Figure / pose",
+                "label_pt": "Figura / pose"
+              },
+              {
+                "key": "garment",
+                "label_en": "Garment",
+                "label_pt": "Peca de roupa"
+              },
+              {
+                "key": "detail",
+                "label_en": "Garment detail",
+                "label_pt": "Detalhe da peca"
+              },
+              {
+                "key": "color",
+                "label_en": "Color / palette",
+                "label_pt": "Cor / paleta"
+              },
+              {
+                "key": "fabric",
+                "label_en": "Fabric / texture",
+                "label_pt": "Tecido / textura"
+              },
+              {
+                "key": "design_comment",
+                "label_en": "Design comment",
+                "label_pt": "Comentario de design"
+              }
+            ],
+            "category_matches": [
+              {
+                "term_en": "figure",
+                "category": "figure"
+              },
+              {
+                "term_en": "pose",
+                "category": "figure"
+              },
+              {
+                "term_en": "dress",
+                "category": "garment"
+              },
+              {
+                "term_en": "skirt",
+                "category": "garment"
+              },
+              {
+                "term_en": "zipper",
+                "category": "detail"
+              },
+              {
+                "term_en": "buttons",
+                "category": "detail"
+              },
+              {
+                "term_en": "bright",
+                "category": "color"
+              },
+              {
+                "term_en": "soft",
+                "category": "color"
+              },
+              {
+                "term_en": "cotton",
+                "category": "fabric"
+              },
+              {
+                "term_en": "lightweight",
+                "category": "fabric"
+              },
+              {
+                "term_en": "overall look",
+                "category": "design_comment"
+              },
+              {
+                "term_en": "comfortable",
+                "category": "design_comment"
+              }
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Match the support words",
+          "student_action_en": "Match the English words to the Portuguese support words.",
+          "student_action_pt": "Relacione as palavras em ingles ao apoio em portugues.",
+          "teacher_action": "Remind students that the target production stays in English.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Sort the words",
+          "student_action_en": "Sort the same words into the correct category groups.",
+          "student_action_pt": "Organize as mesmas palavras nos grupos corretos.",
+          "teacher_action": "Point out that words can be grouped by use in a sketch description.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_and_sorting_set",
+        "description_en": "One saved matching and sorting set with explicit answer pairs and category targets.",
+        "description_pt": "Um conjunto salvo de relacao e organizacao com pares de resposta explicitos e categorias definidas.",
+        "length_or_format": "1 translation-match set and 1 category-sort set"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student matches the visible English and Portuguese terms correctly.",
+          "The student sorts the terms into the correct sketch-description groups.",
+          "The student keeps the task as matching and sorting, not free writing."
+        ],
+        "completion_criteria_pt": [
+          "O aluno relaciona corretamente os termos visiveis em ingles e portugues.",
+          "O aluno organiza os termos nos grupos corretos de descricao de croqui.",
+          "O aluno mantem a tarefa como relacao e organizacao, nao como escrita livre."
+        ],
+        "checklist_en": [
+          "I matched the English and Portuguese support words.",
+          "I sorted the words into the category groups.",
+          "I checked the category names before I submitted."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as palavras em ingles e o apoio em portugues.",
+          "Eu organizei as palavras nos grupos de categoria.",
+          "Eu conferi os nomes das categorias antes de enviar."
+        ],
+        "rubric": [],
+        "model_response_en": "sketch-croqui, figure-figura, jacket-jaqueta, neckline-decote, color palette-paleta de cores, silhouette-silhueta, denim-denim, main feature-detalhe principal; dress and skirt are garment words; zipper and buttons are detail words.",
+        "model_response_pt": "sketch-croqui, figure-figura, jacket-jaqueta, neckline-decote, color palette-paleta de cores, silhouette-silhueta, denim-denim, main feature-detalhe principal; dress e skirt sao palavras de roupa; zipper e buttons sao palavras de detalhe.",
+        "common_errors": [
+          "Putting color words in the fabric group.",
+          "Treating silhouette like a garment name."
+        ],
+        "feedback_prompts_en": [
+          "Check the word again. Does it name a garment, a detail, a color idea, a fabric, or a design comment?"
+        ],
+        "feedback_prompts_pt": [
+          "Confira a palavra novamente. Ela nomeia uma roupa, um detalhe, uma ideia de cor, um tecido ou um comentario de design?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete the translation matching before the category sorting."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence using a sorted word."
+        ]
+      },
+      "extension_options": [
+        "Name one more word for each category without using the matching list."
+      ],
+      "notes_for_app_design": "Primary saved output is matching. Render a translation-match set first and a category-sort screen second. Display the student-facing EN/PT category labels while saving and checking the stable category keys only. Save explicit pairs and category placements only."
+    },
+    {
+      "activity_id": "m01w10-a03",
+      "week_id": "m01w10",
+      "sequence_number": 3,
+      "title": "Read: Three Sketch Descriptions",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read three short sketch descriptions, match them to image A to image C, and answer detail questions using visible gallery keys.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Three Sketch Descriptions",
+          "summary": "Read the short descriptions and choose the correct image or detail answer.",
+          "instructions": "Look at image A to image C first. Read the three short descriptions. Match each text to the correct image and answer the detail questions.",
+          "success_criteria": [
+            "I can connect a short text to the correct sketch.",
+            "I can use visible image keys while I read.",
+            "I can notice garment, color, and detail words in a model description."
+          ],
+          "sentence_frames": [
+            "This text matches image ___.",
+            "The garment is ___.",
+            "The main detail is ___."
+          ],
+          "word_bank_label": "Reading clues"
+        },
+        "pt": {
+          "title": "Leitura: tres descricoes de croquis",
+          "summary": "Leia as descricoes curtas e escolha a imagem ou o detalhe correto.",
+          "instructions": "Observe primeiro as imagens A a C. Leia as tres descricoes curtas. Relacione cada texto a imagem correta e responda as perguntas de detalhe.",
+          "success_criteria": [
+            "Eu consigo ligar um texto curto ao croqui correto.",
+            "Eu consigo usar as chaves visiveis das imagens durante a leitura.",
+            "Eu consigo perceber palavras de roupa, cor e detalhe em uma descricao modelo."
+          ],
+          "sentence_frames": [
+            "This text matches image ___.",
+            "The garment is ___.",
+            "The main detail is ___."
+          ],
+          "word_bank_label": "Pistas de leitura"
+        }
+      },
+      "teacher_instructions": "Keep image A to image C visible during the whole task so students can match text to image keys directly.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "keyed reading gallery image A to image C"
+      ],
+      "vocabulary_refs": [
+        "m01w10-v005",
+        "m01w10-v007",
+        "m01w10-v012",
+        "m01w10-v016",
+        "m01w10-v017",
+        "m01w10-v023",
+        "m01w10-v025",
+        "m01w10-v028"
+      ],
+      "asset_refs": [
+        "m01w10-img-002"
+      ],
+      "input": {
+        "input_type": "reading_with_keyed_gallery",
+        "prompt_en": "Read the texts and choose the correct image key or detail answer.",
+        "prompt_pt": "Leia os textos e escolha a chave da imagem ou a resposta correta sobre detalhe.",
+        "items": [
+          {
+            "response_type": "reading_passages",
+            "label_en": "Read the three model descriptions.",
+            "label_pt": "Leia as tres descricoes modelo.",
+            "passages_en": [
+              "Text 1: The figure is wearing a short denim jacket over a white top. The pants are black and straight. The jacket has buttons and two pockets.",
+              "Text 2: This sketch shows a long soft blue dress. It has short sleeves and a round neckline. The overall look is calm and elegant.",
+              "Text 3: The figure is wearing a cropped yellow top and wide pink pants. The pants have large pockets. The color palette is bright and playful."
+            ],
+            "passages_pt": [
+              "Texto 1: The figure is wearing a short denim jacket over a white top. The pants are black and straight. The jacket has buttons and two pockets.",
+              "Texto 2: This sketch shows a long soft blue dress. It has short sleeves and a round neckline. The overall look is calm and elegant.",
+              "Texto 3: The figure is wearing a cropped yellow top and wide pink pants. The pants have large pockets. The color palette is bright and playful."
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image matches Text 1?",
+            "label_pt": "Qual imagem combina com o Texto 1?",
+            "asset_id": "m01w10-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image matches Text 2?",
+            "label_pt": "Qual imagem combina com o Texto 2?",
+            "asset_id": "m01w10-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image matches Text 3?",
+            "label_pt": "Qual imagem combina com o Texto 3?",
+            "asset_id": "m01w10-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image has a round neckline?",
+            "label_pt": "Qual imagem tem um decote redondo?",
+            "asset_id": "m01w10-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image has large pockets on the pants?",
+            "label_pt": "Qual imagem tem bolsos grandes na calca?",
+            "asset_id": "m01w10-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "correct_answer": "image C"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery first",
+          "student_action_en": "Look at image A to image C before you read.",
+          "student_action_pt": "Observe as imagens A a C antes de ler.",
+          "teacher_action": "Keep the gallery visible the whole time.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Read the three texts",
+          "student_action_en": "Read the three short model descriptions carefully.",
+          "student_action_pt": "Leia com atencao as tres descricoes modelo.",
+          "teacher_action": "Encourage students to underline garment and detail clues.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Choose the image and detail answers",
+          "student_action_en": "Match each text to an image and answer the detail questions.",
+          "student_action_pt": "Relacione cada texto a uma imagem e responda as perguntas de detalhe.",
+          "teacher_action": "Remind students to use the image keys, not guess from memory.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_selections",
+        "description_en": "Five app-checked reading selections tied to image A to image C and short model texts.",
+        "description_pt": "Cinco selecoes de leitura verificadas pelo app ligadas as imagens A a C e a textos modelo curtos.",
+        "length_or_format": "5 selected answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student matches all three texts to the correct image keys.",
+          "The student answers the visible detail questions correctly.",
+          "The student uses the gallery and text wording together."
+        ],
+        "completion_criteria_pt": [
+          "O aluno relaciona os tres textos as chaves de imagem corretas.",
+          "O aluno responde corretamente as perguntas visiveis de detalhe.",
+          "O aluno usa a galeria e o texto juntos."
+        ],
+        "checklist_en": [
+          "I looked at image A to image C first.",
+          "I matched each text to one image.",
+          "I checked the detail words in the text before I answered."
+        ],
+        "checklist_pt": [
+          "Eu observei as imagens A a C primeiro.",
+          "Eu relacionei cada texto a uma imagem.",
+          "Eu conferi as palavras de detalhe no texto antes de responder."
+        ],
+        "rubric": [],
+        "model_response_en": "Text 1-image A, Text 2-image B, Text 3-image C, round neckline-image B, large pockets-image C",
+        "model_response_pt": "Text 1-image A, Text 2-image B, Text 3-image C, round neckline-image B, large pockets-image C",
+        "common_errors": [
+          "Mixing image A and image C because both show separates.",
+          "Missing that the round neckline belongs to the dress in image B."
+        ],
+        "feedback_prompts_en": [
+          "Read the garment and detail clues again. Which image shows that exact combination?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia novamente as pistas de roupa e detalhe. Qual imagem mostra essa combinacao exata?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the image while reading the clue sentence."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra comparison sentence."
+        ]
+      },
+      "extension_options": [
+        "Say which description is your favorite and why in one short sentence."
+      ],
+      "notes_for_app_design": "Show one stable gallery with visible image A to image C keys and a text panel with three model descriptions. Save six selections only."
+    },
+    {
+      "activity_id": "m01w10-a04",
+      "week_id": "m01w10",
+      "sequence_number": 4,
+      "title": "Listen: Which Sketch Is It?",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to four numbered sketch descriptions and answer image-key and detail questions that align exactly with the Week 10 listening script.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Which Sketch Is It?",
+          "summary": "Listen to the numbered descriptions and choose the correct image or detail answer.",
+          "instructions": "Look at image A to image D before the audio starts. Listen to the four numbered descriptions. Choose the correct image or detail answer for each question. Replay is allowed.",
+          "success_criteria": [
+            "I can connect a short audio description to a visible sketch key.",
+            "I can listen for garment, detail, and silhouette clues.",
+            "I can answer the questions using exact information from the audio."
+          ],
+          "sentence_frames": [
+            "Number ___ is image ___.",
+            "The garment is ___.",
+            "The detail is ___."
+          ],
+          "word_bank_label": "Listening clues"
+        },
+        "pt": {
+          "title": "Escuta: qual croqui e esse?",
+          "summary": "Escute as descricoes numeradas e escolha a imagem ou o detalhe correto.",
+          "instructions": "Observe as imagens A a D antes de o audio comecar. Escute as quatro descricoes numeradas. Escolha a imagem ou o detalhe correto para cada pergunta. Voce pode ouvir novamente.",
+          "success_criteria": [
+            "Eu consigo ligar uma descricao curta em audio a uma chave visivel de croqui.",
+            "Eu consigo escutar pistas de roupa, detalhe e silhueta.",
+            "Eu consigo responder usando informacao exata do audio."
+          ],
+          "sentence_frames": [
+            "Number ___ is image ___.",
+            "The garment is ___.",
+            "The detail is ___."
+          ],
+          "word_bank_label": "Pistas de escuta"
+        }
+      },
+      "teacher_instructions": "This activity must stay tightly aligned to the Week 10 listening script. Keep transcript reveal for after the first attempt only.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 10 listening gallery image A to image D",
+        "Week 10 listening audio"
+      ],
+      "vocabulary_refs": [
+        "m01w10-v005",
+        "m01w10-v006",
+        "m01w10-v007",
+        "m01w10-v012",
+        "m01w10-v014",
+        "m01w10-v020",
+        "m01w10-v024",
+        "m01w10-v026"
+      ],
+      "asset_refs": [
+        "m01w10-img-003",
+        "m01w10-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_with_keyed_gallery",
+        "prompt_en": "Listen to the numbered sketch descriptions and choose the correct image key or detail answer.",
+        "prompt_pt": "Escute as descricoes numeradas do croqui e escolha a chave da imagem ou a resposta correta sobre detalhe.",
+        "items": [
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image matches number one?",
+            "label_pt": "Qual imagem combina com o numero um?",
+            "asset_id": "m01w10-aud-001",
+            "image_asset_id": "m01w10-img-003",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image shows the long green dress from number two?",
+            "label_pt": "Qual imagem mostra o vestido verde longo do numero dois?",
+            "asset_id": "m01w10-aud-001",
+            "image_asset_id": "m01w10-img-003",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What detail is named in number one?",
+            "label_pt": "Qual detalhe e citado no numero um?",
+            "asset_id": "m01w10-aud-001",
+            "image_asset_id": "m01w10-img-003",
+            "options_en": [
+              "a zipper and two pockets",
+              "a V-neckline and pleats",
+              "a hood and shorts"
+            ],
+            "options_pt": [
+              "um zipper e dois bolsos",
+              "um decote em V e pregas",
+              "um capuz e shorts"
+            ],
+            "correct_answer": "a zipper and two pockets"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image has a soft and warm color palette in number three?",
+            "label_pt": "Qual imagem tem uma paleta de cores suave e quente no numero tres?",
+            "asset_id": "m01w10-aud-001",
+            "image_asset_id": "m01w10-img-003",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which look is described as bright streetwear in number four?",
+            "label_pt": "Qual look e descrito como streetwear vibrante no numero quatro?",
+            "asset_id": "m01w10-aud-001",
+            "image_asset_id": "m01w10-img-003",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image D"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery before the audio",
+          "student_action_en": "Look at image A to image D before you press play.",
+          "student_action_pt": "Observe as imagens A a D antes de iniciar o audio.",
+          "teacher_action": "Make sure the visible image keys stay on screen.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen for the four descriptions",
+          "student_action_en": "Listen once for the four numbered sketch descriptions.",
+          "student_action_pt": "Escute uma vez as quatro descricoes numeradas do croqui.",
+          "teacher_action": "Set a clear purpose before the first play.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Replay and choose answers",
+          "student_action_en": "Replay the audio if needed and choose the image and detail answers.",
+          "student_action_pt": "Ouca novamente se necessario e escolha as respostas de imagem e detalhe.",
+          "teacher_action": "Allow replay, but keep the first attempt before any script reveal.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Five app-checked listening selections aligned to one numbered sketch-description audio and image A to image D.",
+        "description_pt": "Cinco selecoes de escuta verificadas pelo app alinhadas a um audio numerado de descricao de croqui e as imagens A a D.",
+        "length_or_format": "5 selected answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student uses the audio and visible image keys together.",
+          "The student answers the image and detail questions with exact information from the script.",
+          "The student completes the task without needing hidden teacher judgment."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa o audio e as chaves visiveis das imagens juntos.",
+          "O aluno responde as perguntas de imagem e detalhe com informacao exata do roteiro.",
+          "O aluno completa a tarefa sem precisar de julgamento oculto do professor."
+        ],
+        "checklist_en": [
+          "I looked at image A to image D before listening.",
+          "I used the numbered descriptions to choose the answers.",
+          "I replayed the audio only if I needed more detail."
+        ],
+        "checklist_pt": [
+          "Eu observei as imagens A a D antes de escutar.",
+          "Eu usei as descricoes numeradas para escolher as respostas.",
+          "Eu ouvi novamente apenas se precisei de mais detalhe."
+        ],
+        "rubric": [],
+        "model_response_en": "number one-image A; number two-image B; number one detail-a zipper and two pockets; soft and warm palette-image C; bright streetwear-image D",
+        "model_response_pt": "number one-image A; number two-image B; number one detail-a zipper and two pockets; soft and warm palette-image C; bright streetwear-image D",
+        "common_errors": [
+          "Choosing image B for number one because both are front views.",
+          "Forgetting that pleats belong to number three, not number two."
+        ],
+        "feedback_prompts_en": [
+          "Listen again for the exact garment and detail words. Which image key matches those words?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente as palavras exatas de roupa e detalhe. Qual chave de imagem combina com essas palavras?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Pause briefly between descriptions if students need processing time."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence about a chosen image after the listening task."
+        ]
+      },
+      "extension_options": [
+        "Say which numbered description was easiest to understand and why."
+      ],
+      "notes_for_app_design": "Render a keyed gallery and one audio player together. Save five selections only. Allow replay. Reveal the script only after the first completed attempt."
+    },
+    {
+      "activity_id": "m01w10-a05",
+      "week_id": "m01w10",
+      "sequence_number": 5,
+      "title": "Organize the Description",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students organize six scrambled description lines into a logical order and then answer two short support questions about the opening and final sentence roles.",
+      "student_facing": {
+        "en": {
+          "title": "Organize the Description",
+          "summary": "Put the description lines in the best order.",
+          "instructions": "Read the six scrambled lines. Put them in a logical order to build one clear sketch description. Then answer the two short support questions.",
+          "success_criteria": [
+            "I can organize a simple description in a logical order.",
+            "I can identify a good opening sentence.",
+            "I can identify a good final sentence."
+          ],
+          "sentence_frames": [
+            "First, say ___.",
+            "Then, add ___.",
+            "Finally, say ___."
+          ],
+          "word_bank_label": "Order clues"
+        },
+        "pt": {
+          "title": "Organize a descricao",
+          "summary": "Coloque as linhas da descricao na melhor ordem.",
+          "instructions": "Leia as seis linhas embaralhadas. Coloque-as em uma ordem logica para construir uma descricao clara do croqui. Depois responda as duas perguntas curtas de apoio.",
+          "success_criteria": [
+            "Eu consigo organizar uma descricao simples em ordem logica.",
+            "Eu consigo identificar uma boa frase de abertura.",
+            "Eu consigo identificar uma boa frase final."
+          ],
+          "sentence_frames": [
+            "First, say ___.",
+            "Then, add ___.",
+            "Finally, say ___."
+          ],
+          "word_bank_label": "Pistas de ordem"
+        }
+      },
+      "teacher_instructions": "The main saved output is the ordering sequence. Keep the support questions secondary.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_ordering",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "grammar",
+        "writing"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "sentence-ordering cards"
+      ],
+      "vocabulary_refs": [
+        "m01w10-v001",
+        "m01w10-v007",
+        "m01w10-v016",
+        "m01w10-v021",
+        "m01w10-v025",
+        "m01w10-v028"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "sentence_ordering_with_support_checks",
+        "prompt_en": "Put the scrambled lines in the best order and answer the two short support questions.",
+        "prompt_pt": "Coloque as linhas embaralhadas na melhor ordem e responda as duas perguntas curtas de apoio.",
+        "items": [
+          {
+            "response_type": "word_ordering",
+            "label_en": "Put the six description lines in order.",
+            "label_pt": "Coloque as seis linhas da descricao em ordem.",
+            "lines_en": [
+              "The color palette is neutral and soft.",
+              "This sketch shows a figure in a front view.",
+              "The jacket has a zipper and two pockets.",
+              "The silhouette is straight.",
+              "I imagine this garment in structured cotton.",
+              "The figure is wearing a short jacket and black pants."
+            ],
+            "lines_pt": [
+              "The color palette is neutral and soft.",
+              "This sketch shows a figure in a front view.",
+              "The jacket has a zipper and two pockets.",
+              "The silhouette is straight.",
+              "I imagine this garment in structured cotton.",
+              "The figure is wearing a short jacket and black pants."
+            ],
+            "correct_order": [
+              "This sketch shows a figure in a front view.",
+              "The figure is wearing a short jacket and black pants.",
+              "The jacket has a zipper and two pockets.",
+              "The color palette is neutral and soft.",
+              "The silhouette is straight.",
+              "I imagine this garment in structured cotton."
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which sentence is the best opening line?",
+            "label_pt": "Qual frase e a melhor linha de abertura?",
+            "options_en": [
+              "This sketch shows a figure in a front view.",
+              "The jacket has a zipper and two pockets.",
+              "I imagine this garment in structured cotton."
+            ],
+            "options_pt": [
+              "This sketch shows a figure in a front view.",
+              "The jacket has a zipper and two pockets.",
+              "I imagine this garment in structured cotton."
+            ],
+            "correct_answer": "This sketch shows a figure in a front view."
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which sentence works best as the final line?",
+            "label_pt": "Qual frase funciona melhor como linha final?",
+            "options_en": [
+              "The figure is wearing a short jacket and black pants.",
+              "The silhouette is straight.",
+              "I imagine this garment in structured cotton."
+            ],
+            "options_pt": [
+              "The figure is wearing a short jacket and black pants.",
+              "The silhouette is straight.",
+              "I imagine this garment in structured cotton."
+            ],
+            "correct_answer": "I imagine this garment in structured cotton."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the scrambled lines",
+          "student_action_en": "Read all six lines before you move them.",
+          "student_action_pt": "Leia as seis linhas antes de move-las.",
+          "teacher_action": "Remind students to look for a logical description order.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Build the best order",
+          "student_action_en": "Put the lines in the best order for one clear description.",
+          "student_action_pt": "Coloque as linhas na melhor ordem para uma descricao clara.",
+          "teacher_action": "Keep the focus on ordering as the main task.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Answer the support checks",
+          "student_action_en": "Answer the two short support questions about the opening and final lines.",
+          "student_action_pt": "Responda as duas perguntas curtas de apoio sobre a abertura e a linha final.",
+          "teacher_action": "Position the support questions as quick checks only.",
+          "estimated_minutes": 2,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "ordered_sequence_and_support_checks",
+        "description_en": "One ordered six-line description sequence plus two short support selections.",
+        "description_pt": "Uma sequencia ordenada de seis linhas de descricao mais duas selecoes curtas de apoio.",
+        "length_or_format": "1 ordered sequence and 2 selected answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student places the six lines in the logical order.",
+          "The student identifies the opening and final sentence roles correctly.",
+          "The student keeps the main focus on ordering."
+        ],
+        "completion_criteria_pt": [
+          "O aluno coloca as seis linhas na ordem logica.",
+          "O aluno identifica corretamente as funcoes da frase inicial e da frase final.",
+          "O aluno mantem o foco principal na organizacao."
+        ],
+        "checklist_en": [
+          "I read all six lines first.",
+          "I built one full description order.",
+          "I checked the opening and final line choices."
+        ],
+        "checklist_pt": [
+          "Eu li as seis linhas primeiro.",
+          "Eu construi uma ordem completa de descricao.",
+          "Eu conferi as escolhas da linha inicial e da linha final."
+        ],
+        "rubric": [],
+        "model_response_en": "front view sentence first, garment sentence second, detail sentence third, palette sentence fourth, silhouette sentence fifth, fabric sentence last",
+        "model_response_pt": "front view sentence first, garment sentence second, detail sentence third, palette sentence fourth, silhouette sentence fifth, fabric sentence last",
+        "common_errors": [
+          "Putting the fabric comment too early.",
+          "Starting with a detail instead of the overall figure."
+        ],
+        "feedback_prompts_en": [
+          "Which sentence gives the big picture first? Which sentence sounds like a good final comment?"
+        ],
+        "feedback_prompts_pt": [
+          "Qual frase apresenta primeiro a ideia geral? Qual frase parece um bom comentario final?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say first, then, and finally quietly while ordering."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain why one line should come later."
+        ]
+      },
+      "extension_options": [
+        "Create one extra line that could fit between the garment and color sentences."
+      ],
+      "notes_for_app_design": "Primary saved output is the ordered sequence. Render the two support checks after the ordering interaction and save them as secondary selections."
+    },
+    {
+      "activity_id": "m01w10-a06",
+      "week_id": "m01w10",
+      "sequence_number": 6,
+      "title": "Phrase Practice: From Sketch to Design Comment",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students complete six sketch-description sentence frames with a small word bank so they can move from simple observation to one short design comment.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: From Sketch to Design Comment",
+          "summary": "Use the word bank to complete the short description phrases.",
+          "instructions": "Read each sentence frame and choose the best word or phrase from the word bank. Complete all six lines.",
+          "success_criteria": [
+            "I can complete short sketch-description phrases.",
+            "I can use the correct grammar in simple frames.",
+            "I can move from observation to one design comment."
+          ],
+          "sentence_frames": [
+            "This sketch shows a ___.",
+            "The figure is wearing a short ___.",
+            "The color palette is ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Pratica de frases: do croqui ao comentario de design",
+          "summary": "Use o banco de palavras para completar as frases curtas de descricao.",
+          "instructions": "Leia cada frase-modelo e escolha a melhor palavra ou expressao do banco de palavras. Complete as seis linhas.",
+          "success_criteria": [
+            "Eu consigo completar frases curtas de descricao de croqui.",
+            "Eu consigo usar a gramatica correta em estruturas simples.",
+            "Eu consigo passar da observacao para um comentario de design."
+          ],
+          "sentence_frames": [
+            "This sketch shows a ___.",
+            "The figure is wearing a short ___.",
+            "The color palette is ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output as fill-blank phrase completion with explicit accepted answers.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "short sentence frames",
+        "small word bank"
+      ],
+      "vocabulary_refs": [
+        "m01w10-v001",
+        "m01w10-v007",
+        "m01w10-v016",
+        "m01w10-v017",
+        "m01w10-v022",
+        "m01w10-v028"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "word_bank_fill_blanks",
+        "prompt_en": "Use the word bank to complete each short sentence.",
+        "prompt_pt": "Use o banco de palavras para completar cada frase curta.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 1",
+            "label_pt": "Linha 1",
+            "sentence_frame_en": "This sketch shows a ___.",
+            "sentence_frame_pt": "This sketch shows a ___.",
+            "word_bank": [
+              "figure",
+              "buttons",
+              "cotton"
+            ],
+            "accepted_answers": [
+              "figure"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 2",
+            "label_pt": "Linha 2",
+            "sentence_frame_en": "The figure is wearing a short ___.",
+            "sentence_frame_pt": "The figure is wearing a short ___.",
+            "word_bank": [
+              "jacket",
+              "palette",
+              "silhouette"
+            ],
+            "accepted_answers": [
+              "jacket"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 3",
+            "label_pt": "Linha 3",
+            "sentence_frame_en": "The color palette is ___.",
+            "sentence_frame_pt": "The color palette is ___.",
+            "word_bank": [
+              "soft",
+              "jacket",
+              "cotton"
+            ],
+            "accepted_answers": [
+              "soft"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 4",
+            "label_pt": "Linha 4",
+            "sentence_frame_en": "The silhouette is ___.",
+            "sentence_frame_pt": "The silhouette is ___.",
+            "word_bank": [
+              "straight",
+              "buttons",
+              "look"
+            ],
+            "accepted_answers": [
+              "straight"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 5",
+            "label_pt": "Linha 5",
+            "sentence_frame_en": "I imagine this garment in ___.",
+            "sentence_frame_pt": "I imagine this garment in ___.",
+            "word_bank": [
+              "cotton",
+              "figure",
+              "overall look"
+            ],
+            "accepted_answers": [
+              "cotton"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 6",
+            "label_pt": "Linha 6",
+            "sentence_frame_en": "The overall look is ___.",
+            "sentence_frame_pt": "The overall look is ___.",
+            "word_bank": [
+              "structured",
+              "zipper",
+              "pose"
+            ],
+            "accepted_answers": [
+              "structured"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the frames",
+          "student_action_en": "Read the six short sentence frames first.",
+          "student_action_pt": "Leia primeiro as seis frases-modelo curtas.",
+          "teacher_action": "Point out that the task moves from observation to design comment.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the lines",
+          "student_action_en": "Choose the best word or phrase from each word bank.",
+          "student_action_pt": "Escolha a melhor palavra ou expressao em cada banco de palavras.",
+          "teacher_action": "Encourage students to read each completed line aloud quietly.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check and submit",
+          "student_action_en": "Check all six completed lines and submit them.",
+          "student_action_pt": "Confira as seis linhas completas e envie as respostas.",
+          "teacher_action": "Keep the task focused on exact fill-blank answers.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "completed_phrase_set",
+        "description_en": "Six app-checked fill-blank answers that build a simple sketch-description sequence.",
+        "description_pt": "Seis respostas de lacuna verificadas pelo app que constroem uma sequencia simples de descricao de croqui.",
+        "length_or_format": "6 fill-blank answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes all six sentence frames correctly.",
+          "The student uses the visible word banks accurately.",
+          "The student keeps the output as short fill-blank phrases."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa corretamente as seis frases-modelo.",
+          "O aluno usa os bancos de palavras visiveis com precisao.",
+          "O aluno mantem a resposta como frases curtas de lacuna."
+        ],
+        "checklist_en": [
+          "I completed all six lines.",
+          "I used the word bank for each line.",
+          "I checked the grammar in the finished phrases."
+        ],
+        "checklist_pt": [
+          "Eu completei as seis linhas.",
+          "Eu usei o banco de palavras em cada linha.",
+          "Eu conferi a gramatica nas frases finalizadas."
+        ],
+        "rubric": [],
+        "model_response_en": "figure, jacket, soft, straight, cotton, structured",
+        "model_response_pt": "figure, jacket, soft, straight, cotton, structured",
+        "common_errors": [
+          "Choosing a noun when the frame needs an adjective.",
+          "Mixing color and fabric language."
+        ],
+        "feedback_prompts_en": [
+          "Read the whole sentence again. Does the word fit the grammar and the meaning?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia a frase inteira novamente. A palavra combina com a gramatica e com o sentido?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students cross out word-bank options after they use them."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full extra sentence after line 6."
+        ]
+      },
+      "extension_options": [
+        "Write one extra line using because after you finish the six lines."
+      ],
+      "notes_for_app_design": "Render six separate fill-blank cards or one compact form with separate saved answers. Keep the main scored output as fill-blank completion only."
+    },
+    {
+      "activity_id": "m01w10-a07",
+      "week_id": "m01w10",
+      "sequence_number": 7,
+      "title": "Fashion Sketch Description Card",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students choose one sketch from the shared gallery and complete a structured six-line description card plus one optional challenge line.",
+      "student_facing": {
+        "en": {
+          "title": "Fashion Sketch Description Card",
+          "summary": "Choose one sketch and complete the six required lines of your description card.",
+          "instructions": "Look at image A to image C and choose one sketch. Complete the 6 required lines in order. Add the optional challenge line only if you are ready.",
+          "success_criteria": [
+            "I can describe one sketch in six short lines.",
+            "I can use the sentence frames to organize my ideas.",
+            "I can revise my card after teacher feedback."
+          ],
+          "sentence_frames": [
+            "Line 1: This sketch shows a figure in ___.",
+            "Line 2: The figure is wearing ___.",
+            "Line 3: The garment has ___.",
+            "Line 4: The color palette is ___.",
+            "Line 5: The silhouette is ___.",
+            "Line 6: I imagine this garment in ___."
+          ],
+          "word_bank_label": "Sketch description frames"
+        },
+        "pt": {
+          "title": "Cartao de descricao de croqui de moda",
+          "summary": "Escolha um croqui e complete as seis linhas obrigatorias do seu cartao de descricao.",
+          "instructions": "Observe as imagens A a C e escolha um croqui. Complete as 6 linhas obrigatorias em ordem. Acrescente a linha opcional de desafio apenas se voce estiver pronto.",
+          "success_criteria": [
+            "Eu consigo descrever um croqui em seis linhas curtas.",
+            "Eu consigo usar as frases-modelo para organizar minhas ideias.",
+            "Eu consigo revisar meu cartao depois do feedback do professor."
+          ],
+          "sentence_frames": [
+            "Linha 1: This sketch shows a figure in ___.",
+            "Linha 2: The figure is wearing ___.",
+            "Linha 3: The garment has ___.",
+            "Linha 4: The color palette is ___.",
+            "Linha 5: The silhouette is ___.",
+            "Linha 6: I imagine this garment in ___."
+          ],
+          "word_bank_label": "Frases-modelo para descrever o croqui"
+        }
+      },
+      "teacher_instructions": "Use the checklist, common errors, and feedback prompts to review one line at a time. Return the card for revision if two or more required lines are incomplete or unclear.",
+      "estimated_minutes": 20,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "shared sketch gallery image A to image C",
+        "structured description card"
+      ],
+      "vocabulary_refs": [
+        "m01w10-v001",
+        "m01w10-v003",
+        "m01w10-v007",
+        "m01w10-v012",
+        "m01w10-v016",
+        "m01w10-v017",
+        "m01w10-v022",
+        "m01w10-v023",
+        "m01w10-v025",
+        "m01w10-v027",
+        "m01w10-v028"
+      ],
+      "asset_refs": [
+        "m01w10-img-002"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Choose one sketch from image A to image C and complete the required description-card lines.",
+        "prompt_pt": "Escolha um croqui das imagens A a C e complete as linhas obrigatorias do cartao de descricao.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Selected sketch key",
+            "label_pt": "Chave do croqui selecionado",
+            "asset_id": "m01w10-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C"
+            ]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 1: Name the view or pose.",
+            "label_pt": "Linha 1: nomeie a vista ou a pose.",
+            "sentence_frame_en": "This sketch shows a figure in ___.",
+            "sentence_frame_pt": "This sketch shows a figure in ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 2: Say what the figure is wearing.",
+            "label_pt": "Linha 2: diga o que a figura esta vestindo.",
+            "sentence_frame_en": "The figure is wearing ___.",
+            "sentence_frame_pt": "The figure is wearing ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 3: Add one visible detail.",
+            "label_pt": "Linha 3: acrescente um detalhe visivel.",
+            "sentence_frame_en": "The garment has ___.",
+            "sentence_frame_pt": "The garment has ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 4: Describe the color palette.",
+            "label_pt": "Linha 4: descreva a paleta de cores.",
+            "sentence_frame_en": "The color palette is ___.",
+            "sentence_frame_pt": "The color palette is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 5: Describe the silhouette.",
+            "label_pt": "Linha 5: descreva a silhueta.",
+            "sentence_frame_en": "The silhouette is ___.",
+            "sentence_frame_pt": "The silhouette is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 6: Imagine the fabric.",
+            "label_pt": "Linha 6: imagine o tecido.",
+            "sentence_frame_en": "I imagine this garment in ___.",
+            "sentence_frame_pt": "I imagine this garment in ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Optional challenge line",
+            "label_pt": "Linha opcional de desafio",
+            "sentence_frame_en": "I chose this sketch because ___.",
+            "sentence_frame_pt": "I chose this sketch because ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose one sketch",
+          "student_action_en": "Look at image A to image C and choose one sketch.",
+          "student_action_pt": "Observe as imagens A a C e escolha um croqui.",
+          "teacher_action": "Keep the shared gallery visible and stable.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the six required lines",
+          "student_action_en": "Write one short response in each required line.",
+          "student_action_pt": "Escreva uma resposta curta em cada linha obrigatoria.",
+          "teacher_action": "Coach students to move line by line instead of writing a paragraph.",
+          "estimated_minutes": 12,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge if ready",
+          "student_action_en": "Add the challenge line only if you want extra practice.",
+          "student_action_pt": "Acrescente a linha de desafio apenas se voce quiser pratica extra.",
+          "teacher_action": "Make it clear that the challenge line is optional.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 4,
+          "title": "Review and submit",
+          "student_action_en": "Check the six required lines and submit the card.",
+          "student_action_pt": "Confira as seis linhas obrigatorias e envie o cartao.",
+          "teacher_action": "Use the teacher checklist during review and return for revision if needed.",
+          "estimated_minutes": 3,
+          "mode": "teacher_led"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_description_card",
+        "description_en": "One saved six-line sketch description card with one optional challenge line.",
+        "description_pt": "Um cartao salvo de descricao de croqui com seis linhas e uma linha opcional de desafio.",
+        "length_or_format": "6 required short lines plus 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student completes all six required sentence-frame lines.",
+          "The student describes one chosen sketch with visible details and clear simple language.",
+          "The student keeps the output as structured lines, not a paragraph."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as seis linhas obrigatorias com frases-modelo.",
+          "O aluno descreve um croqui escolhido com detalhes visiveis e linguagem simples clara.",
+          "O aluno mantem a resposta como linhas estruturadas, e nao como paragrafo."
+        ],
+        "checklist_en": [
+          "The student chooses one sketch and stays with it.",
+          "The student completes all six required lines.",
+          "The student includes one garment detail.",
+          "The student names the color palette and the silhouette.",
+          "The student uses understandable simple English."
+        ],
+        "checklist_pt": [
+          "O aluno escolhe um croqui e mantem essa escolha.",
+          "O aluno completa as seis linhas obrigatorias.",
+          "O aluno inclui um detalhe da roupa.",
+          "O aluno nomeia a paleta de cores e a silhueta.",
+          "O aluno usa ingles simples compreensivel."
+        ],
+        "rubric": [],
+        "model_response_en": "This sketch shows a figure in a front view. The figure is wearing a short denim jacket and black pants. The garment has two pockets and buttons. The color palette is neutral and dark. The silhouette is straight. I imagine this garment in cotton. I chose this sketch because it looks practical and comfortable.",
+        "model_response_pt": "This sketch shows a figure in a front view. The figure is wearing a short denim jacket and black pants. The garment has two pockets and buttons. The color palette is neutral and dark. The silhouette is straight. I imagine this garment in cotton. I chose this sketch because it looks practical and comfortable.",
+        "common_errors": [
+          "Writing a paragraph instead of completing one line at a time.",
+          "Forgetting the verb is or has in short sentences.",
+          "Mixing details from two different sketches."
+        ],
+        "feedback_prompts_en": [
+          "Please finish the missing line before you add extra ideas.",
+          "Please describe one visible detail more clearly.",
+          "Please use the frame exactly and keep the sentence short."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, complete a linha que falta antes de acrescentar ideias extras.",
+          "Por favor, descreva um detalhe visivel com mais clareza.",
+          "Por favor, use a frase-modelo exatamente e mantenha a frase curta."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the chosen image while completing each line."
+        ],
+        "challenge": [
+          "Encourage stronger learners to use because in the optional line."
+        ]
+      },
+      "extension_options": [
+        "Turn the six lines into a short oral rehearsal before the speaking activity."
+      ],
+      "notes_for_app_design": "Render the m01w10-img-002 gallery with stable literal keys image A, image B, and image C. Require the student to select one sketch key before completing the writing card, and save that selected sketch key with the structured_text submission. Save the six required line fields separately and keep the optional challenge line visible but not required for completion. Show the selected sketch key and the related gallery image to the teacher during review. In the review view, show the teacher checklist, common-error shortcuts, and feedback prompts, and support return-for-revision on one specific line or one specific missing required element. Do not use a paragraph box and do not use any word-count requirement."
+    },
+    {
+      "activity_id": "m01w10-a08",
+      "week_id": "m01w10",
+      "sequence_number": 8,
+      "title": "Review and Improve: Clear Sketch Description Sentences",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students rewrite two incorrect sketch-description sentences so the language becomes clear, grammatical, and easy to understand.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Clear Sketch Description Sentences",
+          "summary": "Rewrite each incorrect sentence so it is clear and correct.",
+          "instructions": "Read one correction card at a time. Rewrite each incorrect sentence so it becomes a correct sketch-description sentence.",
+          "success_criteria": [
+            "I can notice short grammar problems in sketch-description sentences.",
+            "I can rewrite the sentence clearly.",
+            "I can use the correct simple form without extra ideas."
+          ],
+          "sentence_frames": [
+            "The figure is wearing ___.",
+            "The color palette is ___.",
+            "I chose this sketch because ___."
+          ],
+          "word_bank_label": "Correction clues"
+        },
+        "pt": {
+          "title": "Revise e melhore: frases claras para descrever croquis",
+          "summary": "Reescreva cada frase incorreta para que fique clara e correta.",
+          "instructions": "Leia um cartao de correcao por vez. Reescreva cada frase incorreta para que ela se torne uma frase correta de descricao de croqui.",
+          "success_criteria": [
+            "Eu consigo perceber problemas curtos de gramatica em frases de descricao de croqui.",
+            "Eu consigo reescrever a frase com clareza.",
+            "Eu consigo usar a forma simples correta sem ideias extras."
+          ],
+          "sentence_frames": [
+            "The figure is wearing ___.",
+            "The color palette is ___.",
+            "I chose this sketch because ___."
+          ],
+          "word_bank_label": "Pistas de correcao"
+        }
+      },
+      "teacher_instructions": "Keep accepted answers explicit and tight enough for app checking.",
+      "estimated_minutes": 9,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "two short correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w10-v007",
+        "m01w10-v016",
+        "m01w10-v018",
+        "m01w10-v023"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "sentence_correction",
+        "prompt_en": "Correct the short sketch-description sentences.",
+        "prompt_pt": "Corrija as frases curtas de descricao de croqui.",
+        "items": [
+          {
+            "response_type": "corrected_sentence",
+            "label_en": "Correction card 1",
+            "label_pt": "Cartao de correcao 1",
+            "source_text_en": "The figure wearing short denim jacket.",
+            "source_text_pt": "The figure wearing short denim jacket.",
+            "student_prompt_en": "Rewrite the sentence with the correct verb and article use.",
+            "student_prompt_pt": "Reescreva a frase com o verbo correto e o uso correto do artigo.",
+            "accepted_answers": [
+              "The figure is wearing a short denim jacket."
+            ]
+          },
+          {
+            "response_type": "corrected_sentence",
+            "label_en": "Correction card 2",
+            "label_pt": "Cartao de correcao 2",
+            "source_text_en": "I chose this sketch because is comfortable.",
+            "source_text_pt": "I chose this sketch because is comfortable.",
+            "student_prompt_en": "Rewrite the sentence with a correct because clause.",
+            "student_prompt_pt": "Reescreva a frase com uma oracao correta com because.",
+            "accepted_answers": [
+              "I chose this sketch because it is comfortable."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the first card",
+          "student_action_en": "Read the first incorrect sentence and notice the grammar problem.",
+          "student_action_pt": "Leia a primeira frase incorreta e perceba o problema de gramatica.",
+          "teacher_action": "Point students to the visible frame if needed.",
+          "estimated_minutes": 2,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Rewrite both sentences",
+          "student_action_en": "Rewrite the corrected sentence for card 1 and then card 2.",
+          "student_action_pt": "Reescreva a frase corrigida do cartao 1 e depois do cartao 2.",
+          "teacher_action": "Encourage short complete corrections only.",
+          "estimated_minutes": 5,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check and submit",
+          "student_action_en": "Read both corrected sentences again and submit them.",
+          "student_action_pt": "Leia novamente as duas frases corrigidas e envie as respostas.",
+          "teacher_action": "Keep the focus on exact corrected output.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentences",
+        "description_en": "Two corrected sketch-description sentences checked by the app.",
+        "description_pt": "Duas frases corrigidas de descricao de croqui verificadas pelo app.",
+        "length_or_format": "2 corrected sentences"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student rewrites both sentences correctly.",
+          "The student fixes the missing verb and because clause problem.",
+          "The student keeps each correction short and exact."
+        ],
+        "completion_criteria_pt": [
+          "O aluno reescreve corretamente as duas frases.",
+          "O aluno corrige o verbo que faltava e o problema na oracao com because.",
+          "O aluno mantem cada correcao curta e exata."
+        ],
+        "checklist_en": [
+          "I fixed the verb problem in sentence 1.",
+          "I fixed the because sentence in sentence 2.",
+          "I submitted two complete corrected sentences."
+        ],
+        "checklist_pt": [
+          "Eu corrigi o problema do verbo na frase 1.",
+          "Eu corrigi a frase com because na frase 2.",
+          "Eu enviei duas frases corrigidas completas."
+        ],
+        "rubric": [],
+        "model_response_en": "The figure is wearing a short denim jacket. I chose this sketch because it is comfortable.",
+        "model_response_pt": "The figure is wearing a short denim jacket. I chose this sketch because it is comfortable.",
+        "common_errors": [
+          "Leaving out is again in the first correction.",
+          "Writing because comfortable without a subject in the second correction."
+        ],
+        "feedback_prompts_en": [
+          "Read the sentence aloud. Which small word is still missing?",
+          "Because needs a complete short clause. What subject can you add?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia a frase em voz alta. Qual palavra pequena ainda esta faltando?",
+          "Because precisa de uma oracao curta completa. Que sujeito voce pode acrescentar?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students compare the incorrect sentence with a visible sentence frame."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain the correction rule in one short note."
+        ]
+      },
+      "extension_options": [
+        "Say one more correct sentence with is wearing after the correction task."
+      ],
+      "notes_for_app_design": "Render one correction card at a time with explicit accepted answers. Save two corrected sentences only."
+    },
+    {
+      "activity_id": "m01w10-a09",
+      "week_id": "m01w10",
+      "sequence_number": 9,
+      "title": "Teacher Session: Present Your Sketch",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use the shared sketch gallery and their description card to give one short teacher-observed spoken sketch presentation.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Present Your Sketch",
+          "summary": "Use your card and present one sketch in 5 to 6 short sentences.",
+          "instructions": "Look at your chosen sketch and your description card. Say 5 to 6 short sentences about the sketch. Use the speaking frame if you need support.",
+          "success_criteria": [
+            "I can present one sketch in short clear sentences.",
+            "I can use my description card to support my speaking.",
+            "I can speak live to the teacher without recording."
+          ],
+          "sentence_frames": [
+            "This sketch shows ___.",
+            "The figure is wearing ___.",
+            "The color palette is ___.",
+            "The silhouette is ___.",
+            "I chose this sketch because ___."
+          ],
+          "word_bank_label": "Speaking frame"
+        },
+        "pt": {
+          "title": "Sessao com o professor: apresente seu croqui",
+          "summary": "Use seu cartao e apresente um croqui em 5 a 6 frases curtas.",
+          "instructions": "Observe o croqui escolhido e o seu cartao de descricao. Diga 5 a 6 frases curtas sobre o croqui. Use a estrutura de fala se precisar de apoio.",
+          "success_criteria": [
+            "Eu consigo apresentar um croqui em frases curtas e claras.",
+            "Eu consigo usar meu cartao de descricao para apoiar minha fala.",
+            "Eu consigo falar ao vivo com o professor sem gravacao."
+          ],
+          "sentence_frames": [
+            "This sketch shows ___.",
+            "The figure is wearing ___.",
+            "The color palette is ___.",
+            "The silhouette is ___.",
+            "I chose this sketch because ___."
+          ],
+          "word_bank_label": "Estrutura de fala"
+        }
+      },
+      "teacher_instructions": "Observe live speaking only. Do not use recording, upload, or automated scoring.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "shared sketch gallery image A to image C",
+        "student description card",
+        "teacher observation checklist"
+      ],
+      "vocabulary_refs": [
+        "m01w10-v001",
+        "m01w10-v003",
+        "m01w10-v007",
+        "m01w10-v016",
+        "m01w10-v017",
+        "m01w10-v023",
+        "m01w10-v028",
+        "m01w10-v029"
+      ],
+      "asset_refs": [
+        "m01w10-img-002"
+      ],
+      "input": {
+        "input_type": "teacher_observed_speaking",
+        "prompt_en": "Use your chosen sketch and your description card to present one short sketch description aloud.",
+        "prompt_pt": "Use o croqui escolhido e o seu cartao de descricao para apresentar em voz alta uma descricao curta do croqui.",
+        "items": [
+          {
+            "response_type": "speaking_prompt",
+            "label_en": "Speaking task",
+            "label_pt": "Tarefa de fala",
+            "asset_id": "m01w10-img-002",
+            "prompt_en": "Present one sketch from image A to image C in 5 to 6 short sentences.",
+            "prompt_pt": "Apresente um croqui das imagens A a C em 5 a 6 frases curtas."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the sketch and card",
+          "student_action_en": "Look at your chosen sketch and your completed card before you speak.",
+          "student_action_pt": "Observe o croqui escolhido e o cartao completo antes de falar.",
+          "teacher_action": "Give students a short preparation moment with the speaking frame visible.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Present the sketch aloud",
+          "student_action_en": "Say 5 to 6 short sentences about one sketch.",
+          "student_action_pt": "Diga 5 a 6 frases curtas sobre um croqui.",
+          "teacher_action": "Observe clarity, pronunciation, garment naming, detail language, and simple overall organization.",
+          "estimated_minutes": 30,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Close with short feedback",
+          "student_action_en": "Listen to one short teacher comment about your presentation.",
+          "student_action_pt": "Escute um comentario curto do professor sobre a sua apresentacao.",
+          "teacher_action": "Give one strength and one next-step note.",
+          "estimated_minutes": 10,
+          "mode": "whole_class"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_spoken_sketch_description",
+        "description_en": "One teacher-observed spoken sketch description with 5 to 6 short sentences.",
+        "description_pt": "Uma descricao oral do croqui observada pelo professor com 5 a 6 frases curtas.",
+        "length_or_format": "5 to 6 short spoken sentences"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student presents one chosen sketch clearly.",
+          "The student says 5 to 6 short sentences with understandable pronunciation.",
+          "The student completes the live speaking task without recording or upload."
+        ],
+        "completion_criteria_pt": [
+          "O aluno apresenta com clareza um croqui escolhido.",
+          "O aluno diz 5 a 6 frases curtas com pronuncia compreensivel.",
+          "O aluno completa a tarefa oral ao vivo sem gravacao nem envio."
+        ],
+        "checklist_en": [
+          "The student says 5 to 6 short sentences.",
+          "The student names the garment and one detail.",
+          "The student says something about color or silhouette.",
+          "The student uses understandable pronunciation for key words.",
+          "The student does the task live without recording."
+        ],
+        "checklist_pt": [
+          "O aluno diz 5 a 6 frases curtas.",
+          "O aluno nomeia a roupa e um detalhe.",
+          "O aluno fala algo sobre cor ou silhueta.",
+          "O aluno usa pronuncia compreensivel para palavras-chave.",
+          "O aluno faz a tarefa ao vivo sem gravacao."
+        ],
+        "rubric": [],
+        "model_response_en": "This sketch shows a figure in a front view. The figure is wearing a short denim jacket and black pants. The jacket has two pockets and buttons. The color palette is neutral and dark. The silhouette is straight. I chose this sketch because it looks comfortable.",
+        "model_response_pt": "This sketch shows a figure in a front view. The figure is wearing a short denim jacket and black pants. The jacket has two pockets and buttons. The color palette is neutral and dark. The silhouette is straight. I chose this sketch because it looks comfortable.",
+        "common_errors": [
+          "Speaking in single words instead of short sentences.",
+          "Switching to a different sketch in the middle of the presentation.",
+          "Trying to use recording instead of live speaking."
+        ],
+        "feedback_prompts_en": [
+          "Please say the garment sentence again in one full short sentence.",
+          "Please add one visible detail from your sketch.",
+          "Please slow down for sketch, silhouette, and palette."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, diga novamente a frase sobre a roupa em uma frase curta completa.",
+          "Por favor, acrescente um detalhe visivel do seu croqui.",
+          "Por favor, fale mais devagar em sketch, silhouette e palette."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to keep the card visible while speaking."
+        ],
+        "challenge": [
+          "Ask stronger learners to add one extra because sentence."
+        ]
+      },
+      "extension_options": [
+        "Present a second sketch in a pair if there is extra time."
+      ],
+      "notes_for_app_design": "Render the chosen sketch and the student's saved card together with a visible speaking frame. Store only teacher observation and completion data in future app flows."
+    }
+  ]
+}

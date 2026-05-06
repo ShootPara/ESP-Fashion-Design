@@ -1,0 +1,49 @@
+{
+  "week_id": "m01w10",
+  "image_prompts": [
+    {
+      "asset_id": "m01w10-img-001",
+      "purpose": "Week 10 opener board for reviewing one complete sketch description before the main integrated tasks.",
+      "target_filename": "assets/images/module-01/week-10/m01w10-img-001.png",
+      "visual_description": "One adult-oriented fashion sketch board with a single clearly visible look that shows garment type, at least two visible details, one readable silhouette, and a clear color palette suitable for an A2 review opener.",
+      "style_instructions": "Use a polished fashion-sketch or fashion-education illustration style with adult proportions, strong contrast, and clear clothing details.",
+      "composition_notes": "Keep the board simple and easy to scan on mobile. If visible keys are used, keep them minimal and aligned to the opener questions only. Make the silhouette and details readable without clutter.",
+      "text_in_image": "Only minimal visible keys if needed for the opener questions.",
+      "avoid": "Avoid brand logos, childlike styling, crowd scenes, tiny unreadable labels, unrealistic construction details, and decorative backgrounds.",
+      "used_by_activity_ids": [
+        "m01w10-a01"
+      ],
+      "status": "needed"
+    },
+    {
+      "asset_id": "m01w10-img-002",
+      "purpose": "Reusable sketch gallery for reading, writing, and speaking in Week 10.",
+      "target_filename": "assets/images/module-01/week-10/m01w10-img-002.png",
+      "visual_description": "A gallery with three clearly separated fashion sketches labeled only image A, image B, and image C. Image A shows a front-view figure wearing a short denim jacket, white top, and black pants with front buttons and pockets. Image B shows a long soft blue dress with short sleeves, a round neckline, and a hem below the knee in a relaxed pose. Image C shows a bright look with a cropped yellow top and wide pink pants with a high waistband and large pockets.",
+      "style_instructions": "Use a polished fashion-studio instructional style with clean sketch lines, adult learner context, and strong visual clarity for garment, color, and silhouette.",
+      "composition_notes": "Keep the three images visually distinct and evenly spaced. The gallery must support exact reading, writing, and speaking references, so the same garment details and color cues must remain stable across all uses.",
+      "text_in_image": "Only the visible image keys A, B, and C.",
+      "avoid": "Avoid extra decorative text, cluttered backgrounds, ambiguous details, or sketches that contradict the Week 10 reading descriptions.",
+      "used_by_activity_ids": [
+        "m01w10-a03",
+        "m01w10-a07",
+        "m01w10-a09"
+      ],
+      "status": "needed"
+    },
+    {
+      "asset_id": "m01w10-img-003",
+      "purpose": "Listening gallery for the Week 10 numbered sketch-identification task.",
+      "target_filename": "assets/images/module-01/week-10/m01w10-img-003.png",
+      "visual_description": "A gallery with four clearly separated fashion sketches labeled only image A, image B, image C, and image D. Image A shows a black jacket, white shirt, and blue jeans with a zipper and two pockets. Image B shows a long green dress with a V-neckline, short sleeves, and a loose silhouette. Image C shows a pink blouse and a flared skirt with pleats and a hem below the knee. Image D shows an oversized orange hoodie and black shorts in a relaxed streetwear pose.",
+      "style_instructions": "Use a clean fashion-sketch gallery style with adult proportions, strong clothing contrast, and visible silhouette differences that stay readable on a phone screen.",
+      "composition_notes": "Keep the four images easy to compare. The listening script depends on exact image-key matching, so each outfit must be distinct and the visible details must align tightly with the audio wording.",
+      "text_in_image": "Only the visible image keys A, B, C, and D.",
+      "avoid": "Avoid clutter, extra labels, duplicate-looking outfits, hidden garment details, or visual choices that make the audio answer key uncertain.",
+      "used_by_activity_ids": [
+        "m01w10-a04"
+      ],
+      "status": "needed"
+    }
+  ]
+}

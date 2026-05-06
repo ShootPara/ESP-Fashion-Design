@@ -1,0 +1,63 @@
+{
+  "week_id": "m01w10",
+  "assets": [
+    {
+      "asset_id": "m01w10-img-001",
+      "week_id": "m01w10",
+      "asset_type": "image",
+      "title": "Week 10 opener integrated sketch board",
+      "description": "A compact opener board with one clear fashion sketch showing visible garment type, color palette, silhouette, and at least two details so students can review Week 10 sketch-description language.",
+      "target_filename": "assets/images/module-01/week-10/m01w10-img-001.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w10-a01"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use as a fast review board. Keep one adult-oriented sketch only, with visible keys if needed for the opener questions. The garment, detail, palette, silhouette, and likely fabric choice should be visually supported by the image and not inferred from hidden information."
+    },
+    {
+      "asset_id": "m01w10-img-002",
+      "week_id": "m01w10",
+      "asset_type": "image",
+      "title": "Reusable sketch gallery for reading, writing, and speaking",
+      "description": "A reusable gallery with three clearly separated fashion sketches for the Week 10 reading task and for the shared writing and speaking reference.",
+      "target_filename": "assets/images/module-01/week-10/m01w10-img-002.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w10-a03",
+        "m01w10-a07",
+        "m01w10-a09"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required image-key strategy: image A shows a front-view figure wearing a short denim jacket, white top, and black pants with buttons and pockets; image B shows a long soft blue dress with short sleeves, a round neckline, and a hem below the knee; image C shows a cropped yellow top and wide pink pants with a high waistband and large pockets. The reading text, writing card prompts, speaking prompts, and prompt notes must all use the same A-C mapping."
+    },
+    {
+      "asset_id": "m01w10-img-003",
+      "week_id": "m01w10",
+      "asset_type": "image",
+      "title": "Listening sketch gallery",
+      "description": "A listening gallery with four clearly separated fashion sketches for the Week 10 numbered listening task.",
+      "target_filename": "assets/images/module-01/week-10/m01w10-img-003.png",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w10-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required image-key strategy: image A shows a black jacket, white shirt, and blue jeans with a zipper and two pockets; image B shows a long green dress with a V-neckline and short sleeves; image C shows a pink blouse and a flared skirt with pleats and a hem below the knee; image D shows an oversized orange hoodie and black shorts in a relaxed streetwear pose. The listening script, questions, correct answers, and prompt notes must all use the same A-D mapping."
+    },
+    {
+      "asset_id": "m01w10-aud-001",
+      "week_id": "m01w10",
+      "asset_type": "audio",
+      "title": "Week 10 numbered sketch-description listening audio",
+      "description": "A short Week 10 listening clip with four numbered sketch descriptions aligned exactly to the Week 10 listening gallery.",
+      "target_filename": "assets/audio/module-01/week-10/m01w10-aud-001.mp3",
+      "status": "needed",
+      "used_by_activity_ids": [
+        "m01w10-a04"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Keep the full script only in audio_prompts.json. Do not create a separate transcript asset in the current phase."
+    }
+  ]
+}

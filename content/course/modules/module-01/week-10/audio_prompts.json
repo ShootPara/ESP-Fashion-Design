@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w10",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w10-aud-001",
+      "purpose": "Listening model for Week 10 sketch identification by image key, garment, visible detail, and design quality.",
+      "target_filename": "assets/audio/module-01/week-10/m01w10-aud-001.mp3",
+      "script": "Look at image A to image D. Number one: This sketch shows a figure in a front view. The figure is wearing a black jacket, a white shirt, and blue jeans. The jacket has a zipper and two pockets. The silhouette is straight and casual. Number two: This sketch shows a long green dress. The dress has a V-neckline, short sleeves, and a loose silhouette. The fabric looks lightweight and flowy. Number three: This figure is wearing a pink blouse and a flared skirt. The color palette is soft and warm. The skirt has pleats and a hem below the knee. Number four: This sketch shows a bright streetwear look. The figure is wearing an oversized orange hoodie and black shorts. The pose is relaxed.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and easy to follow, with short pauses after each number.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 46,
+      "used_by_activity_ids": [
+        "m01w10-a04"
+      ],
+      "status": "needed"
+    }
+  ]
+}

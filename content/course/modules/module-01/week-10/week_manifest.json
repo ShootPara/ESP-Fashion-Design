@@ -1,0 +1,93 @@
+{
+  "week_id": "m01w10",
+  "module_id": "module-01",
+  "week_number": 10,
+  "title": "Describing a Sketch",
+  "summary": "Students integrate earlier Module 1 vocabulary to describe a fashion sketch clearly and in a logical order, ending with one structured written sketch-description card and one short oral presentation.",
+  "essential_question": "How can I describe a fashion sketch clearly in simple English?",
+  "professional_context": "Week 10 connects English to beginner portfolio caption language and short in-class sketch presentation language. Students combine garment, detail, color, silhouette, fabric, and design-comment vocabulary to explain one visible sketch clearly from general information to specific details.",
+  "language_focus": [
+    "integrated sketch-description frames such as This is a fashion sketch, The figure is wearing, and The garment has",
+    "visible-detail language for garment parts, color palette, silhouette, and fabric ideas",
+    "simple rationale with because",
+    "guided sketch-description writing",
+    "teacher-supported sketch presentation speaking"
+  ],
+  "skill_focus": [
+    "reading",
+    "listening",
+    "writing",
+    "vocabulary",
+    "speaking",
+    "professional_communication",
+    "visual_literacy",
+    "grammar"
+  ],
+  "target_vocabulary_groups": [
+    "m01w10-vg01",
+    "m01w10-vg02",
+    "m01w10-vg03",
+    "m01w10-vg04",
+    "m01w10-vg05"
+  ],
+  "grammar_focus": [
+    "is wearing",
+    "has",
+    "is",
+    "adjective order",
+    "simple because",
+    "singular and plural nouns",
+    "logical description order"
+  ],
+  "pronunciation_focus": [
+    "sketch",
+    "figure",
+    "silhouette",
+    "palette",
+    "feature",
+    "overall",
+    "denim",
+    "lightweight",
+    "structured",
+    "comfortable"
+  ],
+  "cefr_access_level": "A2",
+  "cefr_target_level": "A2",
+  "estimated_total_minutes": 143,
+  "activity_ids": [
+    "m01w10-a01",
+    "m01w10-a02",
+    "m01w10-a03",
+    "m01w10-a04",
+    "m01w10-a05",
+    "m01w10-a06",
+    "m01w10-a07",
+    "m01w10-a08",
+    "m01w10-a09"
+  ],
+  "asset_ids": [
+    "m01w10-img-001",
+    "m01w10-img-002",
+    "m01w10-img-003",
+    "m01w10-aud-001"
+  ],
+  "teacher_preparation": [
+    "Preview the opener sketch board, the reading and presentation sketch gallery, and the listening sketch gallery before class.",
+    "Keep visible sentence frames for This is a fashion sketch, The figure is wearing, The garment has, The color palette is, The silhouette is, I imagine this garment in, and The overall look is.",
+    "Keep the main writing task line-based and scaffolded. Do not turn the Fashion Sketch Description Card into a paragraph or word-count assignment.",
+    "Check that the Week 10 listening gallery keys image A to image D, the audio script, the question labels, and the correct answers all match exactly.",
+    "Prepare quick correction support for is wearing, color palette is, plural details, adjective order, and I chose ... because ....",
+    "Decide whether students will use projected sketch galleries, printed sketch cards, or teacher-selected visual references during the speaking session."
+  ],
+  "student_deliverables": [
+    "Completion of the Week 10 opener selections.",
+    "Completion of the main sketch-description vocabulary matching and sorting set.",
+    "Reading-comprehension responses matching three sketch descriptions to image A, image B, or image C and answering detail questions.",
+    "Listening-comprehension responses identifying sketches and details from one short numbered listening clip.",
+    "Completion of one ordered sketch-description sequence plus two support checks.",
+    "Completion of sketch-description phrase-practice fill blanks.",
+    "A scaffolded Fashion Sketch Description Card with 6 required sentence-frame lines and 1 optional challenge sentence.",
+    "Two corrected Week 10 sketch-description sentences saved after review.",
+    "A short teacher-observed oral presentation describing one sketch."
+  ]
+}
