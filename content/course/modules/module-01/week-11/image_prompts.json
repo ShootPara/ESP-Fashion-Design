@@ -13,7 +13,7 @@
       "used_by_activity_ids": [
         "m01w11-a01"
       ],
-      "status": "planned"
+      "status": "generated"
     },
     {
       "asset_id": "m01w11-img-002",
@@ -27,7 +27,7 @@
       "used_by_activity_ids": [
         "m01w11-a02"
       ],
-      "status": "planned"
+      "status": "generated"
     },
     {
       "asset_id": "m01w11-img-003",
@@ -41,7 +41,7 @@
       "used_by_activity_ids": [
         "m01w11-a03"
       ],
-      "status": "planned"
+      "status": "generated"
     },
     {
       "asset_id": "m01w11-img-004",
@@ -58,7 +58,7 @@
         "m01w11-a07",
         "m01w11-a09"
       ],
-      "status": "planned"
+      "status": "generated"
     }
   ]
 }

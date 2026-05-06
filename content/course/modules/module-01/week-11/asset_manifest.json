@@ -8,7 +8,7 @@
       "title": "Week 11 opener board with one full look and three close-up detail crops",
       "description": "A single board that shows one adult fashion garment or sketch in full view plus three close-up crops so students can move from overall observation to design-detail noticing.",
       "target_filename": "assets/images/module-01/week-11/m01w11-img-001.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w11-a01"
       ],
@@ -22,7 +22,7 @@
       "title": "Week 11 keyed close-up vocabulary board A to J",
       "description": "A clear adult-learning board with ten close-up garment details labeled A to J for explicit image-to-word matching.",
       "target_filename": "assets/images/module-01/week-11/m01w11-img-002.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w11-a02"
       ],
@@ -36,7 +36,7 @@
       "title": "Week 11 scavenger garment with point labels A to H",
       "description": "One garment or sketch with eight unambiguous point labels so students can identify visible details and then classify some of them as functional, decorative, or both.",
       "target_filename": "assets/images/module-01/week-11/m01w11-img-003.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w11-a03"
       ],
@@ -50,7 +50,7 @@
       "title": "Week 11 reusable detail gallery image A to image D",
       "description": "A reusable four-image detail gallery for reading, listening, writing, and speaking. Each gallery image should show one clearly identifiable garment detail with a stable visible key.",
       "target_filename": "assets/images/module-01/week-11/m01w11-img-004.png",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w11-a04",
         "m01w11-a05",
@@ -67,7 +67,7 @@
       "title": "Week 11 numbered detail-identification listening clip",
       "description": "One short A2 listening clip with numbered descriptions aligned exactly to the Week 11 reusable detail gallery.",
       "target_filename": "assets/audio/module-01/week-11/m01w11-aud-001.mp3",
-      "status": "planned",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w11-a05"
       ],
