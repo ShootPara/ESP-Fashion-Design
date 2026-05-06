@@ -1,0 +1,2105 @@
+{
+  "week_id": "m01w12",
+  "activities": [
+    {
+      "activity_id": "m01w12-a01",
+      "week_id": "m01w12",
+      "sequence_number": 1,
+      "title": "Welcome Back: What Inspired This Look?",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students use one opener board to choose a likely inspiration source and two visible design clues before the week moves into fuller rationale language.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: What Inspired This Look?",
+          "summary": "Look at one design board and choose the best inspiration clues.",
+          "instructions": "Look at the opener board. Choose the most likely inspiration source and the best visible clues. Complete all three quick selections.",
+          "success_criteria": [
+            "I can notice one likely inspiration source.",
+            "I can choose visible clues from the board.",
+            "I can prepare for this week's design-rationale work."
+          ],
+          "sentence_frames": [
+            "This look is inspired by ___.",
+            "I can see ___.",
+            "The mood looks ___."
+          ],
+          "word_bank_label": "Inspiration clues"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: o que inspirou este look?",
+          "summary": "Observe um painel de design e escolha as melhores pistas de inspiracao.",
+          "instructions": "Observe o painel inicial. Escolha a fonte de inspiracao mais provavel e as melhores pistas visiveis. Complete as tres selecoes rapidas.",
+          "success_criteria": [
+            "Eu consigo perceber uma fonte de inspiracao provavel.",
+            "Eu consigo escolher pistas visiveis no painel.",
+            "Eu consigo me preparar para o trabalho de justificativa de design desta semana."
+          ],
+          "sentence_frames": [
+            "This look is inspired by ___.",
+            "I can see ___.",
+            "The mood looks ___."
+          ],
+          "word_bank_label": "Pistas de inspiracao"
+        }
+      },
+      "teacher_instructions": "Keep the opener short and controlled. The visible clue questions should rely only on obvious design details from the board.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 12 opener board with one look and several inspiration thumbnails"
+      ],
+      "vocabulary_refs": [
+        "m01w12-v001",
+        "m01w12-v005",
+        "m01w12-v006",
+        "m01w12-v007",
+        "m01w12-v008",
+        "m01w12-v009",
+        "m01w12-v015"
+      ],
+      "asset_refs": [
+        "m01w12-img-001"
+      ],
+      "input": {
+        "input_type": "single_choice_opener",
+        "prompt_en": "Choose the best inspiration source and visible clues from the opener board.",
+        "prompt_pt": "Escolha a melhor fonte de inspiracao e as pistas visiveis no painel inicial.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "What is the most likely inspiration source for this look?",
+            "label_pt": "Qual e a fonte de inspiracao mais provavel para este look?",
+            "asset_id": "m01w12-img-001",
+            "options_en": [
+              "nature",
+              "zipper",
+              "pattern paper",
+              "shoe box"
+            ],
+            "options_pt": [
+              "nature",
+              "zipper",
+              "papel de modelagem",
+              "caixa de sapato"
+            ],
+            "correct_answer": "nature"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which visible clue supports your answer best?",
+            "label_pt": "Qual pista visivel apoia melhor a sua resposta?",
+            "asset_id": "m01w12-img-001",
+            "options_en": [
+              "blue and green palette",
+              "metal zipper teeth",
+              "grid paper lines",
+              "sports logo"
+            ],
+            "options_pt": [
+              "paleta azul e verde",
+              "dentes metalicos de zipper",
+              "linhas de papel quadriculado",
+              "logo esportivo"
+            ],
+            "correct_answer": "blue and green palette"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which mood fits the look best?",
+            "label_pt": "Qual clima combina melhor com o look?",
+            "asset_id": "m01w12-img-001",
+            "options_en": [
+              "calm",
+              "angry",
+              "chaotic",
+              "noisy"
+            ],
+            "options_pt": [
+              "calm",
+              "bravo",
+              "caotico",
+              "barulhento"
+            ],
+            "correct_answer": "calm"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the board",
+          "student_action_en": "Study the main look and the inspiration thumbnails.",
+          "student_action_pt": "Observe o look principal e as miniaturas de inspiracao.",
+          "teacher_action": "Remind students to use only visible clues.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the source and clues",
+          "student_action_en": "Complete the three short selections.",
+          "student_action_pt": "Complete as tres selecoes curtas.",
+          "teacher_action": "Keep the pace quick and low-pressure.",
+          "estimated_minutes": 5,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "opener_selections",
+        "description_en": "Three app-checked opener selections about source, visible clue, and mood.",
+        "description_pt": "Tres selecoes iniciais verificadas pelo app sobre fonte, pista visivel e clima.",
+        "length_or_format": "3 selected answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes all three selections.",
+          "The student uses visible board clues only.",
+          "The task stays short and controlled."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as tres selecoes.",
+          "O aluno usa apenas pistas visiveis no painel.",
+          "A tarefa permanece curta e controlada."
+        ],
+        "checklist_en": [
+          "I looked at the board first.",
+          "I chose the most likely source.",
+          "I used visible clues for my answers."
+        ],
+        "checklist_pt": [
+          "Eu observei o painel primeiro.",
+          "Eu escolhi a fonte mais provavel.",
+          "Eu usei pistas visiveis nas minhas respostas."
+        ],
+        "rubric": [],
+        "model_response_en": "nature; blue and green palette; calm",
+        "model_response_pt": "nature; blue and green palette; calm",
+        "common_errors": [
+          "Choosing a source that is not shown in the board thumbnails.",
+          "Using a mood word that does not fit the visible palette."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which answer is supported by the visible colors and shapes?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual resposta e apoiada pelas cores e formas visiveis?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the clue before they choose it."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence after the three selections."
+        ]
+      },
+      "extension_options": [
+        "Say one short sentence with This look is inspired by ... after you finish."
+      ],
+      "notes_for_app_design": "Render one simple opener board with three single-choice items. Save three selections only. Keep the task on one short screen."
+    },
+    {
+      "activity_id": "m01w12-a02",
+      "week_id": "m01w12",
+      "sequence_number": 2,
+      "title": "Inspiration Sources Vocabulary",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students match a keyed inspiration-source board to core English source words, then use two short Portuguese support checks without changing the main matching output.",
+      "student_facing": {
+        "en": {
+          "title": "Inspiration Sources Vocabulary",
+          "summary": "Match the board keys to the correct English inspiration words.",
+          "instructions": "Look at the board labeled A to H. Match each key to the correct English inspiration word. Then complete the short support items.",
+          "success_criteria": [
+            "I can match inspiration images to English words.",
+            "I can use Portuguese support without changing my main English answer.",
+            "I can prepare for reading, listening, and writing this week."
+          ],
+          "sentence_frames": [
+            "Key ___ shows ___.",
+            "This source is ___.",
+            "In Portuguese support, it is ___."
+          ],
+          "word_bank_label": "Inspiration words"
+        },
+        "pt": {
+          "title": "Vocabulario de fontes de inspiracao",
+          "summary": "Relacione as chaves do painel com as palavras corretas de inspiracao em ingles.",
+          "instructions": "Observe o painel rotulado de A a H. Relacione cada chave com a palavra correta de inspiracao em ingles. Depois complete os itens curtos de apoio.",
+          "success_criteria": [
+            "Eu consigo relacionar imagens de inspiracao a palavras em ingles.",
+            "Eu consigo usar apoio em portugues sem mudar minha resposta principal em ingles.",
+            "Eu consigo me preparar para leitura, escuta e escrita nesta semana."
+          ],
+          "sentence_frames": [
+            "Key ___ shows ___.",
+            "This source is ___.",
+            "In Portuguese support, it is ___."
+          ],
+          "word_bank_label": "Palavras de inspiracao"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output as the matching set. The Portuguese support items are secondary and should stay short.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 12 keyed inspiration-source board A to H"
+      ],
+      "vocabulary_refs": [
+        "m01w12-v001",
+        "m01w12-v002",
+        "m01w12-v003",
+        "m01w12-v004",
+        "m01w12-v005",
+        "m01w12-v006",
+        "m01w12-v007",
+        "m01w12-v008",
+        "m01w12-v023",
+        "m01w12-v024",
+        "m01w12-v025",
+        "m01w12-v026",
+        "m01w12-v021",
+        "m01w12-v022"
+      ],
+      "asset_refs": [
+        "m01w12-img-002"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the board keys to the correct English inspiration words.",
+        "prompt_pt": "Relacione as chaves do painel com as palavras corretas de inspiracao em ingles.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match keys A to H to the correct inspiration words.",
+            "label_pt": "Relacione as chaves A a H com as palavras corretas de inspiracao.",
+            "asset_id": "m01w12-img-002",
+            "match_terms_en": [
+              "nature",
+              "city",
+              "street style",
+              "music",
+              "art",
+              "architecture",
+              "history",
+              "memory"
+            ],
+            "match_terms_pt": [
+              "natureza",
+              "cidade",
+              "estilo de rua",
+              "musica",
+              "arte",
+              "arquitetura",
+              "historia",
+              "memoria"
+            ],
+            "matches": [
+              {
+                "image_key": "A",
+                "answer_en": "nature",
+                "answer_pt": "natureza"
+              },
+              {
+                "image_key": "B",
+                "answer_en": "city",
+                "answer_pt": "cidade"
+              },
+              {
+                "image_key": "C",
+                "answer_en": "street style",
+                "answer_pt": "estilo de rua"
+              },
+              {
+                "image_key": "D",
+                "answer_en": "music",
+                "answer_pt": "musica"
+              },
+              {
+                "image_key": "E",
+                "answer_en": "art",
+                "answer_pt": "arte"
+              },
+              {
+                "image_key": "F",
+                "answer_en": "architecture",
+                "answer_pt": "arquitetura"
+              },
+              {
+                "image_key": "G",
+                "answer_en": "history",
+                "answer_pt": "historia"
+              },
+              {
+                "image_key": "H",
+                "answer_en": "memory",
+                "answer_pt": "memoria"
+              }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support words.",
+            "label_pt": "Relacione as palavras de apoio em portugues.",
+            "pairs": [
+              {
+                "term_en": "architecture",
+                "term_pt": "arquitetura"
+              },
+              {
+                "term_en": "street style",
+                "term_pt": "estilo de rua"
+              },
+              {
+                "term_en": "history",
+                "term_pt": "historia"
+              },
+              {
+                "term_en": "memory",
+                "term_pt": "memoria"
+              }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence for Key F.",
+            "label_pt": "Complete a frase para a chave F.",
+            "sentence_frame_en": "Key F shows ___.",
+            "sentence_frame_pt": "Key F shows ___.",
+            "word_bank": [
+              "architecture",
+              "cotton",
+              "zipper"
+            ],
+            "accepted_answers": [
+              "architecture"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Study the board",
+          "student_action_en": "Look at keys A to H before you match.",
+          "student_action_pt": "Observe as chaves A a H antes de relacionar.",
+          "teacher_action": "Point to one or two source images without giving the whole answer set.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the main inspiration words",
+          "student_action_en": "Match each key to the correct English word.",
+          "student_action_pt": "Relacione cada chave com a palavra correta em ingles.",
+          "teacher_action": "Keep the main output focused on matching.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use the short support items",
+          "student_action_en": "Complete the Portuguese support and one short sentence.",
+          "student_action_pt": "Complete o apoio em portugues e uma frase curta.",
+          "teacher_action": "Keep the support items secondary and brief.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set_with_support_checks",
+        "description_en": "One saved image-matching set with explicit answer pairs and two short secondary support checks.",
+        "description_pt": "Um conjunto salvo de relacao imagem-palavra com pares de resposta explicitos e dois itens curtos secundarios de apoio.",
+        "length_or_format": "8 saved matches plus 2 short support items"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main keyed matching set.",
+          "The student links the images to the English source words clearly.",
+          "The student uses the short support items without changing the main matching task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relacao com chaves.",
+          "O aluno liga com clareza as imagens as palavras de fonte em ingles.",
+          "O aluno usa os itens curtos de apoio sem mudar a tarefa principal de relacao."
+        ],
+        "checklist_en": [
+          "I matched the main board keys.",
+          "I checked the English inspiration words carefully.",
+          "I completed the short support items."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as chaves principais do painel.",
+          "Eu conferi com cuidado as palavras de inspiracao em ingles.",
+          "Eu completei os itens curtos de apoio."
+        ],
+        "rubric": [],
+        "model_response_en": "A nature, B city, C street style, D music, E art, F architecture, G history, H memory; architecture-arquitetura, street style-estilo de rua, history-historia, memory-memoria; architecture",
+        "model_response_pt": "A nature, B city, C street style, D music, E art, F architecture, G history, H memory; architecture-arquitetura, street style-estilo de rua, history-historia, memory-memoria; architecture",
+        "common_errors": [
+          "Confusing city with architecture when the board image is too general.",
+          "Choosing reference words that are not shown as source images."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which key shows the source image most clearly?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual chave mostra a imagem de fonte com mais clareza?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete the main image match before the Portuguese support items."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence with This design is inspired by ...."
+        ]
+      },
+      "extension_options": [
+        "Name one more source from the board and say what kind of look it could inspire."
+      ],
+      "notes_for_app_design": "Render the A to H board as one keyed image-matching task and save that matching set as the primary output. Keep the Portuguese support pairings and the final fill blank as secondary checks."
+    },
+    {
+      "activity_id": "m01w12-a03",
+      "week_id": "m01w12",
+      "sequence_number": 3,
+      "title": "Mood and Visual Effect",
+      "activity_type": "visual_analysis",
+      "activity_type_custom": "",
+      "summary": "Students match a keyed board to clear mood-and-effect phrases, then complete one short secondary clue check without changing the main matching output.",
+      "student_facing": {
+        "en": {
+          "title": "Mood and Visual Effect",
+          "summary": "Match each image key to the best mood and effect phrase.",
+          "instructions": "Look at the board labeled A to D. Match each image key to the best mood and effect phrase. Then answer the short support question.",
+          "success_criteria": [
+            "I can connect visible design cues to one mood and one effect.",
+            "I can keep matching as my main task.",
+            "I can use clear visual evidence for my answers."
+          ],
+          "sentence_frames": [
+            "Image ___ looks ___.",
+            "This creates ___.",
+            "The effect is ___."
+          ],
+          "word_bank_label": "Mood and effect words"
+        },
+        "pt": {
+          "title": "Clima e efeito visual",
+          "summary": "Relacione cada chave de imagem com a melhor frase de clima e efeito.",
+          "instructions": "Observe o painel rotulado de A a D. Relacione cada chave de imagem com a melhor frase de clima e efeito. Depois responda a pergunta curta de apoio.",
+          "success_criteria": [
+            "Eu consigo ligar pistas visiveis de design a um clima e a um efeito.",
+            "Eu consigo manter a relacao como minha tarefa principal.",
+            "Eu consigo usar evidencia visual clara nas minhas respostas."
+          ],
+          "sentence_frames": [
+            "Image ___ looks ___.",
+            "This creates ___.",
+            "The effect is ___."
+          ],
+          "word_bank_label": "Palavras de clima e efeito"
+        }
+      },
+      "teacher_instructions": "Matching is the primary saved output. Use mood and effect phrases that are clearly supported by visible design cues only.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "visual_literacy",
+        "vocabulary",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 12 keyed mood-and-effect board"
+      ],
+      "vocabulary_refs": [
+        "m01w12-v009",
+        "m01w12-v010",
+        "m01w12-v011",
+        "m01w12-v012",
+        "m01w12-v013",
+        "m01w12-v015",
+        "m01w12-v019",
+        "m01w12-v020",
+        "m01w12-v022",
+        "m01w12-v027",
+        "m01w12-v028",
+        "m01w12-v029"
+      ],
+      "asset_refs": [
+        "m01w12-img-003"
+      ],
+      "input": {
+        "input_type": "image_mood_matching",
+        "prompt_en": "Match image A to image D to the best mood and effect phrase.",
+        "prompt_pt": "Relacione image A a image D com a melhor frase de clima e efeito.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match image A to image D to the correct mood and effect phrase.",
+            "label_pt": "Relacione image A a image D com a frase correta de clima e efeito.",
+            "asset_id": "m01w12-img-003",
+            "match_terms_en": [
+              "calm mood and soft effect",
+              "bold mood and strong contrast",
+              "playful mood and visible movement",
+              "elegant mood and structured effect"
+            ],
+            "match_terms_pt": [
+              "clima calmo e efeito suave",
+              "clima marcante e contraste forte",
+              "clima divertido e movimento visivel",
+              "clima elegante e efeito estruturado"
+            ],
+            "matches": [
+              {
+                "image_key": "A",
+                "answer_en": "calm mood and soft effect",
+                "answer_pt": "clima calmo e efeito suave"
+              },
+              {
+                "image_key": "B",
+                "answer_en": "bold mood and strong contrast",
+                "answer_pt": "clima marcante e contraste forte"
+              },
+              {
+                "image_key": "C",
+                "answer_en": "playful mood and visible movement",
+                "answer_pt": "clima divertido e movimento visivel"
+              },
+              {
+                "image_key": "D",
+                "answer_en": "elegant mood and structured effect",
+                "answer_pt": "clima elegante e efeito estruturado"
+              }
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which visual clue helps image B look bold?",
+            "label_pt": "Qual pista visual ajuda a image B a parecer marcante?",
+            "asset_id": "m01w12-img-003",
+            "options_en": [
+              "strong contrast",
+              "tiny flowers",
+              "pastel lace",
+              "faded watercolor"
+            ],
+            "options_pt": [
+              "contraste forte",
+              "flores pequenas",
+              "renda pastel",
+              "aquarela desbotada"
+            ],
+            "correct_answer": "strong contrast"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Scan the four images",
+          "student_action_en": "Look at image A to image D before you match.",
+          "student_action_pt": "Observe image A a image D antes de relacionar.",
+          "teacher_action": "Remind students to look for color, silhouette, and contrast clues.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the moods and effects",
+          "student_action_en": "Match each image to the best phrase.",
+          "student_action_pt": "Relacione cada imagem com a melhor frase.",
+          "teacher_action": "Keep matching as the primary task.",
+          "estimated_minutes": 7,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Answer one clue question",
+          "student_action_en": "Complete the short support question.",
+          "student_action_pt": "Complete a pergunta curta de apoio.",
+          "teacher_action": "Keep the support item brief.",
+          "estimated_minutes": 2,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set_with_support_check",
+        "description_en": "One saved image-to-phrase matching set plus one short secondary clue selection.",
+        "description_pt": "Um conjunto salvo de relacao entre imagem e frase mais uma selecao curta secundaria de pista.",
+        "length_or_format": "4 saved matches plus 1 short support item"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes the main matching set.",
+          "The student uses visible design cues for the mood and effect phrases.",
+          "The support question stays secondary."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relacao.",
+          "O aluno usa pistas visiveis de design para as frases de clima e efeito.",
+          "A pergunta de apoio permanece secundaria."
+        ],
+        "checklist_en": [
+          "I matched all four images.",
+          "I used visible clues from the board.",
+          "I answered the short clue question."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as quatro imagens.",
+          "Eu usei pistas visiveis do painel.",
+          "Eu respondi a pergunta curta de pista."
+        ],
+        "rubric": [],
+        "model_response_en": "A calm mood and soft effect, B bold mood and strong contrast, C playful mood and visible movement, D elegant mood and structured effect; strong contrast",
+        "model_response_pt": "A clima calmo e efeito suave, B clima marcante e contraste forte, C clima divertido e movimento visivel, D clima elegante e efeito estruturado; contraste forte",
+        "common_errors": [
+          "Choosing a mood based on personal taste instead of visible clues.",
+          "Confusing elegant with calm when the panel is clearly structured."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which color, line, or silhouette clue supports your answer?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual pista de cor, linha ou silhueta apoia a sua resposta?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Pre-teach the four target mood phrases before students match."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra because sentence after the matching task."
+        ]
+      },
+      "extension_options": [
+        "Choose one image and explain its mood in one extra sentence."
+      ],
+      "notes_for_app_design": "Render one four-image keyed board as the primary matching task. Save the matching set as the main output and place the clue question on a follow-up screen."
+    },
+    {
+      "activity_id": "m01w12-a04",
+      "week_id": "m01w12",
+      "sequence_number": 4,
+      "title": "Read: Four Inspiration Notes",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read four short inspiration notes tied to the reusable gallery and answer image-key and rationale questions that stay tightly aligned to the same A to D mapping used later in the week.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Four Inspiration Notes",
+          "summary": "Read the short notes and choose the correct image or detail answer.",
+          "instructions": "Look at image A to image D. Read the four short inspiration notes carefully. Choose the correct image key or detail answer for each question.",
+          "success_criteria": [
+            "I can connect a short text to a visible image key.",
+            "I can read for source, color, and design clues.",
+            "I can answer using exact information from the note."
+          ],
+          "sentence_frames": [
+            "Note ___ matches image ___.",
+            "The source is ___.",
+            "The overall look is ___."
+          ],
+          "word_bank_label": "Reading clues"
+        },
+        "pt": {
+          "title": "Leitura: quatro notas de inspiracao",
+          "summary": "Leia as notas curtas e escolha a imagem ou o detalhe correto.",
+          "instructions": "Observe image A a image D. Leia com atencao as quatro notas curtas de inspiracao. Escolha a chave correta da imagem ou a resposta correta de detalhe para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo ligar um texto curto a uma chave visivel de imagem.",
+            "Eu consigo ler pistas de fonte, cor e design.",
+            "Eu consigo responder usando a informacao exata da nota."
+          ],
+          "sentence_frames": [
+            "Note ___ matches image ___.",
+            "The source is ___.",
+            "The overall look is ___."
+          ],
+          "word_bank_label": "Pistas de leitura"
+        }
+      },
+      "teacher_instructions": "Keep the texts short, A2-readable, and perfectly aligned to the reusable gallery image A to image D.",
+      "estimated_minutes": 15,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 12 reusable inspiration gallery image A to image D",
+        "Four short inspiration notes"
+      ],
+      "vocabulary_refs": [
+        "m01w12-v001",
+        "m01w12-v005",
+        "m01w12-v006",
+        "m01w12-v007",
+        "m01w12-v008",
+        "m01w12-v009",
+        "m01w12-v010",
+        "m01w12-v011",
+        "m01w12-v012",
+        "m01w12-v013",
+        "m01w12-v015",
+        "m01w12-v020",
+        "m01w12-v022"
+      ],
+      "asset_refs": [
+        "m01w12-img-004"
+      ],
+      "input": {
+        "input_type": "reading_with_keyed_gallery",
+        "prompt_en": "Read the four short inspiration notes below, then choose the correct image key or detail answer.",
+        "prompt_pt": "Leia abaixo as quatro notas curtas de inspiracao e depois escolha a chave correta da imagem ou a resposta correta de detalhe.",
+        "reference_text_en": "Note 1: This design is inspired by nature and the ocean. The colors are blue, green, and white. I chose a flowy fabric because it looks like water. The mood is calm and soft.\n\nNote 2: This look is inspired by the city. The palette is black, gray, and white. I chose a structured jacket because it looks modern and practical. The contrast makes the look bold.\n\nNote 3: This look is inspired by music. The colors are bright, and the silhouette is loose. I used wide sleeves to show movement. The mood is playful and energetic.\n\nNote 4: This design is inspired by architecture. The jacket has straight lines and structured shoulders. The palette is neutral. The overall look is elegant and strong.",
+        "reference_text_pt": "Nota 1: This design is inspired by nature and the ocean. The colors are blue, green, and white. I chose a flowy fabric because it looks like water. The mood is calm and soft.\n\nNota 2: This look is inspired by the city. The palette is black, gray, and white. I chose a structured jacket because it looks modern and practical. The contrast makes the look bold.\n\nNota 3: This look is inspired by music. The colors are bright, and the silhouette is loose. I used wide sleeves to show movement. The mood is playful and energetic.\n\nNota 4: This design is inspired by architecture. The jacket has straight lines and structured shoulders. The palette is neutral. The overall look is elegant and strong.",
+        "items": [
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Which image matches Note 1?",
+            "label_pt": "Qual imagem combina com a Nota 1?",
+            "asset_id": "m01w12-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Which image matches Note 2?",
+            "label_pt": "Qual imagem combina com a Nota 2?",
+            "asset_id": "m01w12-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Which image matches Note 3?",
+            "label_pt": "Qual imagem combina com a Nota 3?",
+            "asset_id": "m01w12-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Which image matches Note 4?",
+            "label_pt": "Qual imagem combina com a Nota 4?",
+            "asset_id": "m01w12-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image D"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Why did the designer choose a flowy fabric in Note 1?",
+            "label_pt": "Por que o designer escolheu um tecido fluido na Nota 1?",
+            "asset_id": "m01w12-img-004",
+            "options_en": [
+              "because it looks like water",
+              "because it is heavy",
+              "because it hides pockets"
+            ],
+            "options_pt": [
+              "porque parece agua",
+              "porque e pesado",
+              "porque esconde bolsos"
+            ],
+            "correct_answer": "because it looks like water"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery",
+          "student_action_en": "Study image A to image D before you read.",
+          "student_action_pt": "Observe image A a image D antes de ler.",
+          "teacher_action": "Keep the visible image keys on screen.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Read the four notes",
+          "student_action_en": "Read each note for source, color, and design clues.",
+          "student_action_pt": "Leia cada nota em busca de pistas de fonte, cor e design.",
+          "teacher_action": "Remind students to read for exact details, not general feeling only.",
+          "estimated_minutes": 6,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Choose the answers",
+          "student_action_en": "Choose the image key or detail answer for each question.",
+          "student_action_pt": "Escolha a chave da imagem ou a resposta de detalhe para cada pergunta.",
+          "teacher_action": "Keep the A to D mapping stable.",
+          "estimated_minutes": 7,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_selections",
+        "description_en": "Five app-checked reading selections aligned to the reusable image A to image D gallery.",
+        "description_pt": "Cinco selecoes de leitura verificadas pelo app alinhadas a galeria reutilizavel image A a image D.",
+        "length_or_format": "5 selected answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student uses the reading text and the visible image keys together.",
+          "The student answers the image and rationale questions with exact information from the notes.",
+          "The student completes the task without hidden teacher judgment."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa juntos o texto de leitura e as chaves visiveis das imagens.",
+          "O aluno responde as perguntas de imagem e justificativa com a informacao exata das notas.",
+          "O aluno completa a tarefa sem julgamento oculto do professor."
+        ],
+        "checklist_en": [
+          "I looked at image A to image D first.",
+          "I used exact clues from the notes.",
+          "I answered all five questions."
+        ],
+        "checklist_pt": [
+          "Eu observei image A a image D primeiro.",
+          "Eu usei pistas exatas das notas.",
+          "Eu respondi as cinco perguntas."
+        ],
+        "rubric": [],
+        "model_response_en": "image A, image B, image C, image D, because it looks like water",
+        "model_response_pt": "image A, image B, image C, image D, because it looks like water",
+        "common_errors": [
+          "Choosing image B for Note 4 because both city and architecture can look structured.",
+          "Missing the exact phrase looks like water in Note 1."
+        ],
+        "feedback_prompts_en": [
+          "Read again. Which exact source or design clue points to the correct image?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia novamente. Qual pista exata de fonte ou design indica a imagem correta?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students underline the source word and one design clue in each note before answering."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence about why one note fits its image."
+        ]
+      },
+      "extension_options": [
+        "Choose one note and say one more design clue you can see in the image."
+      ],
+      "notes_for_app_design": "Render the reusable image A to image D gallery beside or above one shared block of four short note cards. Keep the question labels short and save five selections only. Keep the exact A to D mapping identical to the later listening, writing, and speaking tasks."
+    },
+    {
+      "activity_id": "m01w12-a05",
+      "week_id": "m01w12",
+      "sequence_number": 5,
+      "title": "Listen: Inspiration and Design Choices",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to four numbered inspiration descriptions and answer image-key and detail questions that align exactly with the Week 12 listening script and the reusable gallery.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Inspiration and Design Choices",
+          "summary": "Listen to the numbered descriptions and choose the correct image or detail answer.",
+          "instructions": "Look at image A to image D before the audio starts. Listen to the four numbered descriptions. Choose the correct image or detail answer for each question. Replay is allowed.",
+          "success_criteria": [
+            "I can connect a short audio description to a visible image key.",
+            "I can listen for source, color, and design clues.",
+            "I can answer the questions using exact information from the audio."
+          ],
+          "sentence_frames": [
+            "Number ___ is image ___.",
+            "The source is ___.",
+            "The mood is ___."
+          ],
+          "word_bank_label": "Listening clues"
+        },
+        "pt": {
+          "title": "Escuta: inspiracao e escolhas de design",
+          "summary": "Escute as descricoes numeradas e escolha a imagem ou o detalhe correto.",
+          "instructions": "Observe image A a image D antes de o audio comecar. Escute as quatro descricoes numeradas. Escolha a imagem ou o detalhe correto para cada pergunta. Voce pode ouvir novamente.",
+          "success_criteria": [
+            "Eu consigo ligar uma descricao curta em audio a uma chave visivel de imagem.",
+            "Eu consigo escutar pistas de fonte, cor e design.",
+            "Eu consigo responder usando informacao exata do audio."
+          ],
+          "sentence_frames": [
+            "Number ___ is image ___.",
+            "The source is ___.",
+            "The mood is ___."
+          ],
+          "word_bank_label": "Pistas de escuta"
+        }
+      },
+      "teacher_instructions": "This activity must stay tightly aligned to the Week 12 listening script. Keep script reveal for after the first attempt only.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 12 reusable inspiration gallery image A to image D",
+        "Week 12 numbered listening audio"
+      ],
+      "vocabulary_refs": [
+        "m01w12-v005",
+        "m01w12-v006",
+        "m01w12-v007",
+        "m01w12-v008",
+        "m01w12-v009",
+        "m01w12-v010",
+        "m01w12-v011",
+        "m01w12-v012",
+        "m01w12-v013",
+        "m01w12-v014",
+        "m01w12-v015",
+        "m01w12-v018",
+        "m01w12-v020",
+        "m01w12-v022"
+      ],
+      "asset_refs": [
+        "m01w12-img-004",
+        "m01w12-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_with_keyed_gallery",
+        "prompt_en": "Listen to the numbered inspiration descriptions and choose the correct image key or detail answer.",
+        "prompt_pt": "Escute as descricoes numeradas de inspiracao e escolha a chave da imagem ou a resposta correta de detalhe.",
+        "items": [
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image matches number one?",
+            "label_pt": "Qual imagem combina com o numero um?",
+            "asset_id": "m01w12-aud-001",
+            "image_asset_id": "m01w12-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which design is inspired by the city?",
+            "label_pt": "Qual design e inspirado pela cidade?",
+            "asset_id": "m01w12-aud-001",
+            "image_asset_id": "m01w12-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Why did the designer choose a flowy fabric in number one?",
+            "label_pt": "Por que o designer escolheu um tecido fluido no numero um?",
+            "asset_id": "m01w12-aud-001",
+            "image_asset_id": "m01w12-img-004",
+            "options_en": [
+              "because it looks like water",
+              "because it is heavy",
+              "because it hides pockets"
+            ],
+            "options_pt": [
+              "porque parece agua",
+              "porque e pesado",
+              "porque esconde bolsos"
+            ],
+            "correct_answer": "because it looks like water"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image has wide sleeves that show movement?",
+            "label_pt": "Qual imagem tem mangas largas que mostram movimento?",
+            "asset_id": "m01w12-aud-001",
+            "image_asset_id": "m01w12-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image is described as elegant and strong?",
+            "label_pt": "Qual imagem e descrita como elegante e forte?",
+            "asset_id": "m01w12-aud-001",
+            "image_asset_id": "m01w12-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image D"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery before the audio",
+          "student_action_en": "Look at image A to image D before you press play.",
+          "student_action_pt": "Observe image A a image D antes de iniciar o audio.",
+          "teacher_action": "Make sure the visible image keys stay on screen.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen for the four descriptions",
+          "student_action_en": "Listen once for the four numbered inspiration descriptions.",
+          "student_action_pt": "Escute uma vez as quatro descricoes numeradas de inspiracao.",
+          "teacher_action": "Set a clear purpose before the first play.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Replay and choose answers",
+          "student_action_en": "Replay the audio if needed and choose the image and detail answers.",
+          "student_action_pt": "Ouca novamente se necessario e escolha as respostas de imagem e detalhe.",
+          "teacher_action": "Allow replay, but keep the first attempt before any script reveal.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Five app-checked listening selections aligned to one numbered inspiration audio and image A to image D.",
+        "description_pt": "Cinco selecoes de escuta verificadas pelo app alinhadas a um audio numerado de inspiracao e a image A a image D.",
+        "length_or_format": "5 selected answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student uses the audio and visible image keys together.",
+          "The student answers the image and detail questions with exact information from the script.",
+          "The student completes the task without hidden teacher judgment."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa juntos o audio e as chaves visiveis das imagens.",
+          "O aluno responde as perguntas de imagem e detalhe com a informacao exata do roteiro.",
+          "O aluno completa a tarefa sem julgamento oculto do professor."
+        ],
+        "checklist_en": [
+          "I looked at image A to image D before listening.",
+          "I used the numbered descriptions to choose the answers.",
+          "I replayed the audio only if I needed more detail."
+        ],
+        "checklist_pt": [
+          "Eu observei image A a image D antes de escutar.",
+          "Eu usei as descricoes numeradas para escolher as respostas.",
+          "Eu ouvi novamente apenas se precisei de mais detalhe."
+        ],
+        "rubric": [],
+        "model_response_en": "image A, image B, because it looks like water, image C, image D",
+        "model_response_pt": "image A, image B, because it looks like water, image C, image D",
+        "common_errors": [
+          "Choosing image D for the city because both B and D look structured.",
+          "Forgetting that wide sleeves appear in number three, not number four."
+        ],
+        "feedback_prompts_en": [
+          "Listen again for the exact source or design clue. Which image key matches it?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente a pista exata de fonte ou design. Qual chave de imagem combina com ela?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Pause briefly between descriptions if students need processing time."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence about one image after the listening task."
+        ]
+      },
+      "extension_options": [
+        "Say which numbered description was easiest to understand and why."
+      ],
+      "notes_for_app_design": "Render a keyed gallery and one audio player together. Save five selections only. Allow replay. Reveal the script only after the first completed attempt."
+    },
+    {
+      "activity_id": "m01w12-a06",
+      "week_id": "m01w12",
+      "sequence_number": 6,
+      "title": "Phrase Practice: Inspired By / I Chose / Because",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students complete five design-rationale sentence frames with small word banks so they can move from source words to short clear reasons.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: Inspired By / I Chose / Because",
+          "summary": "Use the word bank to complete the short rationale phrases.",
+          "instructions": "Read each sentence frame and choose the best word or phrase from the word bank. Complete all five lines.",
+          "success_criteria": [
+            "I can complete short design-rationale phrases.",
+            "I can use the correct grammar in simple frames.",
+            "I can give one clear reason for a design choice."
+          ],
+          "sentence_frames": [
+            "This design is inspired by ___.",
+            "The colors come from ___.",
+            "I chose ___ because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Pratica de frases: inspired by / I chose / because",
+          "summary": "Use o banco de palavras para completar as frases curtas de justificativa.",
+          "instructions": "Leia cada frase-modelo e escolha a melhor palavra ou expressao do banco de palavras. Complete as cinco linhas.",
+          "success_criteria": [
+            "Eu consigo completar frases curtas de justificativa de design.",
+            "Eu consigo usar a gramatica correta em estruturas simples.",
+            "Eu consigo dar uma razao clara para uma escolha de design."
+          ],
+          "sentence_frames": [
+            "This design is inspired by ___.",
+            "The colors come from ___.",
+            "I chose ___ because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output as fill-blank phrase completion with explicit accepted answers.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "short sentence frames",
+        "small word bank"
+      ],
+      "vocabulary_refs": [
+        "m01w12-v005",
+        "m01w12-v006",
+        "m01w12-v009",
+        "m01w12-v015",
+        "m01w12-v016",
+        "m01w12-v018",
+        "m01w12-v019",
+        "m01w12-v020",
+        "m01w12-v022"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "word_bank_fill_blanks",
+        "prompt_en": "Use the word bank to complete each short sentence.",
+        "prompt_pt": "Use o banco de palavras para completar cada frase curta.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 1",
+            "label_pt": "Linha 1",
+            "sentence_frame_en": "This design is inspired by ___.",
+            "sentence_frame_pt": "This design is inspired by ___.",
+            "word_bank": [
+              "nature",
+              "zipper",
+              "thread"
+            ],
+            "accepted_answers": [
+              "nature"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 2",
+            "label_pt": "Linha 2",
+            "sentence_frame_en": "The colors come from ___.",
+            "sentence_frame_pt": "The colors come from ___.",
+            "word_bank": [
+              "the ocean",
+              "the sleeve",
+              "the seam"
+            ],
+            "accepted_answers": [
+              "the ocean"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 3",
+            "label_pt": "Linha 3",
+            "sentence_frame_en": "I chose a structured jacket because it looks ___.",
+            "sentence_frame_pt": "I chose a structured jacket because it looks ___.",
+            "word_bank": [
+              "modern",
+              "water",
+              "music"
+            ],
+            "accepted_answers": [
+              "modern"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 4",
+            "label_pt": "Linha 4",
+            "sentence_frame_en": "I used wide sleeves to show ___.",
+            "sentence_frame_pt": "I used wide sleeves to show ___.",
+            "word_bank": [
+              "movement",
+              "history",
+              "paper"
+            ],
+            "accepted_answers": [
+              "movement"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Line 5",
+            "label_pt": "Linha 5",
+            "sentence_frame_en": "This creates a ___ mood.",
+            "sentence_frame_pt": "This creates a ___ mood.",
+            "word_bank": [
+              "calm",
+              "zipper",
+              "button"
+            ],
+            "accepted_answers": [
+              "calm"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the frames",
+          "student_action_en": "Read the five short sentence frames first.",
+          "student_action_pt": "Leia primeiro as cinco frases-modelo curtas.",
+          "teacher_action": "Point out that the task moves from source words to design reasons.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the lines",
+          "student_action_en": "Choose the best word or phrase from each word bank.",
+          "student_action_pt": "Escolha a melhor palavra ou expressao em cada banco de palavras.",
+          "teacher_action": "Encourage students to read each completed line aloud quietly.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check and submit",
+          "student_action_en": "Check all five completed lines and submit them.",
+          "student_action_pt": "Confira as cinco linhas completas e envie as respostas.",
+          "teacher_action": "Keep the task focused on exact fill-blank answers.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "completed_phrase_set",
+        "description_en": "Five app-checked fill-blank answers that build a simple design-rationale sequence.",
+        "description_pt": "Cinco respostas de lacuna verificadas pelo app que constroem uma sequencia simples de justificativa de design.",
+        "length_or_format": "5 fill-blank answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes all five sentence frames correctly.",
+          "The student uses the visible word banks accurately.",
+          "The student keeps the output as short fill-blank phrases."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa corretamente as cinco frases-modelo.",
+          "O aluno usa os bancos de palavras visiveis com precisao.",
+          "O aluno mantem a resposta como frases curtas de lacuna."
+        ],
+        "checklist_en": [
+          "I completed all five lines.",
+          "I used the word bank for each line.",
+          "I checked the grammar in the finished phrases."
+        ],
+        "checklist_pt": [
+          "Eu completei as cinco linhas.",
+          "Eu usei o banco de palavras em cada linha.",
+          "Eu conferi a gramatica nas frases finalizadas."
+        ],
+        "rubric": [],
+        "model_response_en": "nature, the ocean, modern, movement, calm",
+        "model_response_pt": "nature, the ocean, modern, movement, calm",
+        "common_errors": [
+          "Choosing a noun when the frame needs an adjective.",
+          "Mixing source words and design-choice words."
+        ],
+        "feedback_prompts_en": [
+          "Read the whole sentence again. Does the word fit the grammar and the meaning?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia a frase inteira novamente. A palavra combina com a gramatica e com o sentido?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students cross out word-bank options after they use them."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full extra sentence after line 5."
+        ]
+      },
+      "extension_options": [
+        "Write one extra line using because after you finish the five lines."
+      ],
+      "notes_for_app_design": "Render five separate fill-blank cards or one compact form with separate saved answers. Keep the main scored output as fill-blank completion only."
+    },
+    {
+      "activity_id": "m01w12-a07",
+      "week_id": "m01w12",
+      "sequence_number": 7,
+      "title": "Design Inspiration Note Card",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students choose one gallery image and complete a scaffolded six-line inspiration-note card with one optional challenge line for teacher review.",
+      "student_facing": {
+        "en": {
+          "title": "Design Inspiration Note Card",
+          "summary": "Choose one gallery image and complete the six required lines.",
+          "instructions": "Choose one image key from image A to image D. Then complete the six required short lines about that design. You can add the optional challenge line after you finish the required lines.",
+          "success_criteria": [
+            "I can choose one image and stay with it.",
+            "I can complete six short lines, not one paragraph.",
+            "I can name the source, one design choice, and one mood clearly."
+          ],
+          "sentence_frames": [
+            "This design is inspired by ___.",
+            "I chose ___ because ___.",
+            "The mood is ___ and the overall look is ___."
+          ],
+          "word_bank_label": "Inspiration note frames"
+        },
+        "pt": {
+          "title": "Cartao de nota de inspiracao de design",
+          "summary": "Escolha uma imagem da galeria e complete as seis linhas obrigatorias.",
+          "instructions": "Escolha uma chave de imagem entre image A e image D. Depois complete as seis linhas curtas obrigatorias sobre esse design. Voce pode acrescentar a linha opcional de desafio depois de terminar as linhas obrigatorias.",
+          "success_criteria": [
+            "Eu consigo escolher uma imagem e manter essa escolha.",
+            "Eu consigo completar seis linhas curtas, e nao um paragrafo.",
+            "Eu consigo nomear com clareza a fonte, uma escolha de design e um clima."
+          ],
+          "sentence_frames": [
+            "This design is inspired by ___.",
+            "I chose ___ because ___.",
+            "The mood is ___ and the overall look is ___."
+          ],
+          "word_bank_label": "Frases-modelo da nota de inspiracao"
+        }
+      },
+      "teacher_instructions": "Review the chosen image key and each saved line separately. Use the checklist, common errors, and feedback prompts to return one specific line for revision if needed.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 12 reusable inspiration gallery image A to image D",
+        "Week 12 line-based writing card"
+      ],
+      "vocabulary_refs": [
+        "m01w12-v001",
+        "m01w12-v004",
+        "m01w12-v005",
+        "m01w12-v006",
+        "m01w12-v007",
+        "m01w12-v008",
+        "m01w12-v009",
+        "m01w12-v010",
+        "m01w12-v011",
+        "m01w12-v012",
+        "m01w12-v013",
+        "m01w12-v014",
+        "m01w12-v015",
+        "m01w12-v016",
+        "m01w12-v017",
+        "m01w12-v018",
+        "m01w12-v019",
+        "m01w12-v020",
+        "m01w12-v022"
+      ],
+      "asset_refs": [
+        "m01w12-img-004"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Choose one image from image A to image D and complete the required inspiration-note lines.",
+        "prompt_pt": "Escolha uma imagem de image A a image D e complete as linhas obrigatorias da nota de inspiracao.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Selected image key",
+            "label_pt": "Chave da imagem selecionada",
+            "asset_id": "m01w12-img-004",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 1: Name the inspiration source.",
+            "label_pt": "Linha 1: nomeie a fonte de inspiracao.",
+            "sentence_frame_en": "This design is inspired by ___.",
+            "sentence_frame_pt": "This design is inspired by ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 2: Name the theme or source direction.",
+            "label_pt": "Linha 2: nomeie o tema ou a direcao da fonte.",
+            "sentence_frame_en": "The theme is ___.",
+            "sentence_frame_pt": "The theme is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 3: Connect the colors to the source.",
+            "label_pt": "Linha 3: ligue as cores a fonte.",
+            "sentence_frame_en": "The colors come from ___.",
+            "sentence_frame_pt": "The colors come from ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 4: Explain one design choice.",
+            "label_pt": "Linha 4: explique uma escolha de design.",
+            "sentence_frame_en": "I chose ___ because ___.",
+            "sentence_frame_pt": "I chose ___ because ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 5: Explain one visual element.",
+            "label_pt": "Linha 5: explique um elemento visual.",
+            "sentence_frame_en": "I used ___ to show ___.",
+            "sentence_frame_pt": "I used ___ to show ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 6: Name the mood and the final impression.",
+            "label_pt": "Linha 6: nomeie o clima e a impressao final.",
+            "sentence_frame_en": "The mood is ___ and the overall look is ___.",
+            "sentence_frame_pt": "The mood is ___ and the overall look is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Optional challenge line",
+            "label_pt": "Linha opcional de desafio",
+            "sentence_frame_en": "This creates a ___ effect.",
+            "sentence_frame_pt": "This creates a ___ effect."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose one gallery image",
+          "student_action_en": "Look at image A to image D and choose one image key.",
+          "student_action_pt": "Observe image A a image D e escolha uma chave de imagem.",
+          "teacher_action": "Keep the gallery visible and stable.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the six required lines",
+          "student_action_en": "Write one short response in each required line.",
+          "student_action_pt": "Escreva uma resposta curta em cada linha obrigatoria.",
+          "teacher_action": "Coach students to move line by line instead of writing a paragraph.",
+          "estimated_minutes": 12,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge line if ready",
+          "student_action_en": "Add the optional challenge line after you finish all required lines.",
+          "student_action_pt": "Acrescente a linha opcional de desafio depois de terminar todas as linhas obrigatorias.",
+          "teacher_action": "Keep the optional line visible but not required for completion.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_inspiration_note_card",
+        "description_en": "One saved six-line inspiration-note card with one selected image key and one optional challenge line.",
+        "description_pt": "Um cartao salvo de nota de inspiracao com seis linhas, uma chave de imagem selecionada e uma linha opcional de desafio.",
+        "length_or_format": "1 selected image key, 6 required short lines, and 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student selects one gallery image key and stays with it.",
+          "The student completes all six required lines with short clear language.",
+          "The student keeps the output as structured lines, not a paragraph."
+        ],
+        "completion_criteria_pt": [
+          "O aluno seleciona uma chave de imagem da galeria e mantem essa escolha.",
+          "O aluno completa as seis linhas obrigatorias com linguagem curta e clara.",
+          "O aluno mantem a resposta como linhas estruturadas, e nao como paragrafo."
+        ],
+        "checklist_en": [
+          "The student chooses one image and keeps the same reference.",
+          "The student completes all six required lines.",
+          "The student names the source, one design choice, and one mood clearly.",
+          "The student uses understandable simple English.",
+          "The student does not turn the task into one paragraph."
+        ],
+        "checklist_pt": [
+          "O aluno escolhe uma imagem e mantem a mesma referencia.",
+          "O aluno completa as seis linhas obrigatorias.",
+          "O aluno nomeia com clareza a fonte, uma escolha de design e um clima.",
+          "O aluno usa ingles simples compreensivel.",
+          "O aluno nao transforma a tarefa em um unico paragrafo."
+        ],
+        "rubric": [],
+        "model_response_en": "image A. This design is inspired by nature and the ocean. The theme is soft movement. The colors come from water and sky. I chose a flowy fabric because it looks like water. I used curved lines to show movement. The mood is calm and the overall look is elegant. This creates a soft effect.",
+        "model_response_pt": "image A. This design is inspired by nature and the ocean. The theme is soft movement. The colors come from water and sky. I chose a flowy fabric because it looks like water. I used curved lines to show movement. The mood is calm and the overall look is elegant. This creates a soft effect.",
+        "common_errors": [
+          "Writing one paragraph instead of completing one line at a time.",
+          "Mixing details from two different images.",
+          "Using inspired in instead of inspired by.",
+          "Writing because without a full reason clause."
+        ],
+        "feedback_prompts_en": [
+          "Please finish the missing required line before you add extra ideas.",
+          "Please make the source or design-choice line clearer.",
+          "Please explain the reason with one short because phrase."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, complete a linha obrigatoria que falta antes de acrescentar ideias extras.",
+          "Por favor, deixe a linha da fonte ou da escolha de design mais clara.",
+          "Por favor, explique a razao com uma frase curta usando because."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students draft one or two words first, then expand them into the full frame."
+        ],
+        "challenge": [
+          "Ask stronger learners to use both because and creates across different lines."
+        ]
+      },
+      "extension_options": [
+        "Write one extra comparison sentence between your image and another gallery image."
+      ],
+      "notes_for_app_design": "Render the reusable gallery with stable image A to image D labels and require the student to choose one key before writing. Save the selected image key and each structured line separately. Show the selected image key and gallery image to the teacher during review. Include the checklist, common-error prompts, and return-for-revision support for one specific line or one missing required element. Do not use a paragraph box and do not use any word-count requirement."
+    },
+    {
+      "activity_id": "m01w12-a08",
+      "week_id": "m01w12",
+      "sequence_number": 8,
+      "title": "Review and Improve: Clear Design Reasons",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students correct two short incorrect design-rationale sentences with explicit accepted answers and narrow grammar targets.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Clear Design Reasons",
+          "summary": "Correct the short design-rationale sentences.",
+          "instructions": "Read each short sentence carefully. Correct the mistake and save the new sentence.",
+          "success_criteria": [
+            "I can notice a short design-rationale mistake.",
+            "I can correct one sentence clearly.",
+            "I can keep my correction short and specific."
+          ],
+          "sentence_frames": [
+            "This design is inspired by ___.",
+            "I chose ___ because ___.",
+            "The mood is ___."
+          ],
+          "word_bank_label": "Correction focus"
+        },
+        "pt": {
+          "title": "Revise e melhore: justificativas de design claras",
+          "summary": "Corrija as frases curtas de justificativa de design.",
+          "instructions": "Leia cada frase curta com atencao. Corrija o erro e salve a nova frase.",
+          "success_criteria": [
+            "Eu consigo perceber um erro curto em uma justificativa de design.",
+            "Eu consigo corrigir uma frase com clareza.",
+            "Eu consigo manter minha correcao curta e especifica."
+          ],
+          "sentence_frames": [
+            "This design is inspired by ___.",
+            "I chose ___ because ___.",
+            "The mood is ___."
+          ],
+          "word_bank_label": "Foco da correcao"
+        }
+      },
+      "teacher_instructions": "Keep the correction targets narrow and A2-appropriate. Accepted answers should be explicit and not too open-ended.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 12 correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w12-v005",
+        "m01w12-v010",
+        "m01w12-v018"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "sentence_correction_cards",
+        "prompt_en": "Correct the short design-rationale sentences.",
+        "prompt_pt": "Corrija as frases curtas de justificativa de design.",
+        "items": [
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct this sentence: This design is inspired in nature.",
+            "label_pt": "Corrija esta frase: This design is inspired in nature.",
+            "incorrect_text": "This design is inspired in nature.",
+            "accepted_answers": [
+              "This design is inspired by nature."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct this sentence: I chose blue because calm.",
+            "label_pt": "Corrija esta frase: I chose blue because calm.",
+            "incorrect_text": "I chose blue because calm.",
+            "accepted_answers": [
+              "I chose blue because it feels calm."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the sentence",
+          "student_action_en": "Read the incorrect sentence carefully.",
+          "student_action_pt": "Leia com atencao a frase incorreta.",
+          "teacher_action": "Encourage students to look for one specific error.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Correct and save",
+          "student_action_en": "Write the corrected sentence and save it.",
+          "student_action_pt": "Escreva a frase corrigida e salve-a.",
+          "teacher_action": "Keep the corrections short and controlled.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentences",
+        "description_en": "Two corrected design-rationale sentences checked by the app.",
+        "description_pt": "Duas frases corrigidas de justificativa de design verificadas pelo app.",
+        "length_or_format": "2 corrected sentences"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student corrects both sentences.",
+          "The student fixes the exact target error in each sentence.",
+          "The student keeps the corrected sentence short and clear."
+        ],
+        "completion_criteria_pt": [
+          "O aluno corrige as duas frases.",
+          "O aluno corrige o erro exato em cada frase.",
+          "O aluno mantem a frase corrigida curta e clara."
+        ],
+        "checklist_en": [
+          "I read the incorrect sentence first.",
+          "I corrected the target error.",
+          "I saved both corrected sentences."
+        ],
+        "checklist_pt": [
+          "Eu li primeiro a frase incorreta.",
+          "Eu corrigi o erro principal.",
+          "Eu salvei as duas frases corrigidas."
+        ],
+        "rubric": [],
+        "model_response_en": "This design is inspired by nature. I chose blue because it feels calm.",
+        "model_response_pt": "This design is inspired by nature. I chose blue because it feels calm.",
+        "common_errors": [
+          "Fixing only one word and leaving the phrase structure wrong.",
+          "Adding extra new ideas instead of correcting the original sentence."
+        ],
+        "feedback_prompts_en": [
+          "Check the fixed phrase or the reason clause again."
+        ],
+        "feedback_prompts_pt": [
+          "Confira novamente a expressao fixa ou a frase de motivo."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the corrected sentence aloud before saving it."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain which grammar point changed."
+        ]
+      },
+      "extension_options": [
+        "Write one more correct sentence with I chose ... because ... after the two correction cards."
+      ],
+      "notes_for_app_design": "Render one correction card at a time. Save two corrected sentences only. Use explicit accepted answers and keep the error focus narrow."
+    },
+    {
+      "activity_id": "m01w12-a09",
+      "week_id": "m01w12",
+      "sequence_number": 9,
+      "title": "Teacher Session: Explain Your Inspiration",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use their saved note card and the reusable gallery to give a short teacher-supported explanation of one inspiration source and one design choice.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Explain Your Inspiration",
+          "summary": "Use your note card and explain your design in a few short lines.",
+          "instructions": "Look at your saved note card and the gallery image you chose. Use the speaking frames to explain your inspiration source, one design choice, and one mood.",
+          "success_criteria": [
+            "I can say three to six short lines about my design.",
+            "I can use one source phrase and one because phrase.",
+            "I can speak with teacher support and no recording."
+          ],
+          "sentence_frames": [
+            "This design is inspired by ___.",
+            "I chose ___ because ___.",
+            "The mood is ___ and the overall look is ___."
+          ],
+          "word_bank_label": "Speaking frames"
+        },
+        "pt": {
+          "title": "Sessao com o professor: explique sua inspiracao",
+          "summary": "Use seu cartao e explique seu design em algumas linhas curtas.",
+          "instructions": "Observe seu cartao salvo e a imagem da galeria que voce escolheu. Use as frases-modelo de fala para explicar sua fonte de inspiracao, uma escolha de design e um clima.",
+          "success_criteria": [
+            "Eu consigo dizer de tres a seis linhas curtas sobre meu design.",
+            "Eu consigo usar uma frase de fonte e uma frase com because.",
+            "Eu consigo falar com apoio do professor e sem gravacao."
+          ],
+          "sentence_frames": [
+            "This design is inspired by ___.",
+            "I chose ___ because ___.",
+            "The mood is ___ and the overall look is ___."
+          ],
+          "word_bank_label": "Frases-modelo de fala"
+        }
+      },
+      "teacher_instructions": "Use the saved note card as speaking support. Record completion and brief feedback only; do not require any audio recording or upload.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 12 reusable inspiration gallery image A to image D",
+        "Week 12 saved inspiration note cards"
+      ],
+      "vocabulary_refs": [
+        "m01w12-v001",
+        "m01w12-v005",
+        "m01w12-v006",
+        "m01w12-v007",
+        "m01w12-v008",
+        "m01w12-v009",
+        "m01w12-v010",
+        "m01w12-v011",
+        "m01w12-v012",
+        "m01w12-v013",
+        "m01w12-v016",
+        "m01w12-v018",
+        "m01w12-v020"
+      ],
+      "asset_refs": [
+        "m01w12-img-004"
+      ],
+      "input": {
+        "input_type": "teacher_supported_speaking_frames",
+        "prompt_en": "Use the speaking frames to explain your chosen design.",
+        "prompt_pt": "Use as frases-modelo de fala para explicar o design que voce escolheu.",
+        "items": [
+          {
+            "response_type": "teacher_observed_speaking",
+            "label_en": "Speaking frame set",
+            "label_pt": "Conjunto de frases-modelo para fala",
+            "sentence_frame_en": "This design is inspired by ___. My theme is ___. I chose ___ because ___. The mood is ___ and the overall look is ___.",
+            "sentence_frame_pt": "This design is inspired by ___. My theme is ___. I chose ___ because ___. The mood is ___ and the overall look is ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the card",
+          "student_action_en": "Look at your saved note card and chosen image key.",
+          "student_action_pt": "Observe seu cartao salvo e a chave de imagem escolhida.",
+          "teacher_action": "Keep the selected image visible as support.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Practice the short explanation",
+          "student_action_en": "Practice the speaking frames before you present.",
+          "student_action_pt": "Pratique as frases-modelo de fala antes de apresentar.",
+          "teacher_action": "Give pronunciation help for inspiration, architecture, movement, palette, and elegant.",
+          "estimated_minutes": 15,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 3,
+          "title": "Explain your inspiration",
+          "student_action_en": "Say three to six short lines about your inspiration and design choices.",
+          "student_action_pt": "Diga de tres a seis linhas curtas sobre sua inspiracao e suas escolhas de design.",
+          "teacher_action": "Mark completion and give brief spoken feedback.",
+          "estimated_minutes": 25,
+          "mode": "teacher_led"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_spoken_response",
+        "description_en": "Three to six short spoken lines observed by the teacher with no recording or upload.",
+        "description_pt": "De tres a seis linhas curtas faladas observadas pelo professor, sem gravacao ou envio.",
+        "length_or_format": "3 to 6 short spoken lines"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names one inspiration source.",
+          "The student explains at least one design choice with because or a similar Week 12 frame.",
+          "The student says one mood or final impression clearly."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia uma fonte de inspiracao.",
+          "O aluno explica pelo menos uma escolha de design com because ou com uma frase da Semana 12.",
+          "O aluno diz com clareza um clima ou uma impressao final."
+        ],
+        "checklist_en": [
+          "The student uses the saved card as support.",
+          "The student says a source, a design choice, and a mood.",
+          "The student speaks in short understandable lines.",
+          "The task stays teacher-observed only with no recording."
+        ],
+        "checklist_pt": [
+          "O aluno usa o cartao salvo como apoio.",
+          "O aluno diz uma fonte, uma escolha de design e um clima.",
+          "O aluno fala em linhas curtas e compreensiveis.",
+          "A tarefa permanece apenas observada pelo professor, sem gravacao."
+        ],
+        "rubric": [],
+        "model_response_en": "This design is inspired by the ocean. My theme is soft movement. I chose a flowy fabric because it looks like water. The mood is calm and the overall look is elegant.",
+        "model_response_pt": "This design is inspired by the ocean. My theme is soft movement. I chose a flowy fabric because it looks like water. The mood is calm and the overall look is elegant.",
+        "common_errors": [
+          "Dropping because and giving only a noun phrase.",
+          "Mixing two different image references while speaking."
+        ],
+        "feedback_prompts_en": [
+          "Say the source first, then explain one choice with because.",
+          "Use one clear mood word at the end."
+        ],
+        "feedback_prompts_pt": [
+          "Diga a fonte primeiro e depois explique uma escolha com because.",
+          "Use uma palavra clara de clima no final."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students read directly from the saved lines before speaking more freely."
+        ],
+        "challenge": [
+          "Ask stronger learners to add one extra sentence with This creates ...."
+        ]
+      },
+      "extension_options": [
+        "Compare your design to one other gallery image in one extra sentence."
+      ],
+      "notes_for_app_design": "Render the saved note card and the selected gallery image as speaking support. Show a teacher checklist and a completion status only. Do not add recording, upload, or automated speech scoring."
+    }
+  ]
+}

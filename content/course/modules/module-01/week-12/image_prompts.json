@@ -1,0 +1,64 @@
+{
+  "week_id": "m01w12",
+  "image_prompts": [
+    {
+      "asset_id": "m01w12-img-001",
+      "purpose": "Week 12 opener board with one look and several possible inspiration-source thumbnails.",
+      "target_filename": "assets/images/module-01/week-12/m01w12-img-001.png",
+      "visual_description": "One adult-oriented fashion-design board with one main look or fashion sketch in the center and four to six smaller inspiration thumbnails around it. The main look should clearly suggest one likely source through visible color, line, or silhouette choices.",
+      "style_instructions": "Use a clean fashion-sketch or fashion-education illustration style with adult proportions, creativity-lab context, and clear visual contrast suitable for an ESP fashion-design course.",
+      "composition_notes": "Keep the main look larger than the inspiration thumbnails. The thumbnail options should remain visually distinct and easy to compare on a phone screen so the opener selections feel controlled, not subjective.",
+      "text_in_image": "Only minimal visible keys if needed for the opener prompts.",
+      "avoid": "Avoid brand logos, childish styling, tiny unreadable labels, cluttered moodboards, ambiguous thumbnails, or unrealistic design details.",
+      "used_by_activity_ids": [
+        "m01w12-a01"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w12-img-002",
+      "purpose": "Keyed inspiration-source vocabulary board A to H.",
+      "target_filename": "assets/images/module-01/week-12/m01w12-img-002.png",
+      "visual_description": "A board with eight clearly separated inspiration-source images labeled only A, B, C, D, E, F, G, and H. The panels show nature, city, street style, music, art, architecture, history, and memory. The history panel should read as a clear historical-fashion reference, such as a vintage dress form, archival fashion illustration, museum-style garment display, or unmistakably historical silhouette board. The memory panel should read as a personal memory source, such as a small family photo beside a fabric swatch, a keepsake textile, or a memory-box style inspiration object.",
+      "style_instructions": "Use a polished adult fashion-design reference style with clear source imagery and strong contrast.",
+      "composition_notes": "Keep all eight panels evenly spaced and visually distinct. The labels A to H must be large, simple, and stable because the matching task depends on them exactly. Make history and memory especially literal and readable, and keep them visibly different from art, architecture, music, city, nature, and street style.",
+      "text_in_image": "Only the visible keys A to H.",
+      "avoid": "Avoid extra instructional text, logos, duplicate-looking panels, bibliographic-style reference imagery, generic museum interiors that could look like art, or memory images that are too abstract to identify as personal keepsake inspiration.",
+      "used_by_activity_ids": [
+        "m01w12-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w12-img-003",
+      "purpose": "Keyed mood-and-effect board with clear visible look cues.",
+      "target_filename": "assets/images/module-01/week-12/m01w12-img-003.png",
+      "visual_description": "A four-panel board labeled only A, B, C, and D. Panel A shows a soft calm look with cool colors and a flowy silhouette. Panel B shows a bold modern look with strong contrast and structure. Panel C shows a playful energetic look with bright color and movement. Panel D shows an elegant strong look with clean structured lines.",
+      "style_instructions": "Use a clear fashion-study illustration style with adult garment context, realistic styling, and visible color or line cues that support objective mood matching.",
+      "composition_notes": "Keep the four panels evenly spaced and easy to compare. Each panel should have one dominant mood and one obvious visual effect so app checking stays unambiguous.",
+      "text_in_image": "Only the visible keys A to D.",
+      "avoid": "Avoid mixed moods, cluttered styling, tiny labels, logos, or boards where two panels could reasonably match the same mood phrase.",
+      "used_by_activity_ids": [
+        "m01w12-a03"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w12-img-004",
+      "purpose": "Reusable four-panel gallery labeled only image A to image D, each panel tied to a distinct inspiration and rationale model.",
+      "target_filename": "assets/images/module-01/week-12/m01w12-img-004.png",
+      "visual_description": "A reusable four-panel gallery labeled only image A, image B, image C, and image D. Image A shows a soft flowy dress inspired by nature or the ocean with blue, green, and white colors. Image B shows an urban structured jacket look inspired by the city with black, gray, and white colors. Image C shows a bright loose look inspired by music with wide sleeves or wide pants that show movement. Image D shows a neutral structured jacket look inspired by architecture with straight lines and strong shoulders.",
+      "style_instructions": "Use a consistent fashion-study illustration style with adult garment context, clear inspiration-board logic, realistic details, and strong readability.",
+      "composition_notes": "Keep the four panels evenly spaced and visually consistent. The exact mapping of image A to image D must remain stable because the reading, listening, writing, and speaking tasks all depend on it.",
+      "text_in_image": "Only the visible labels image A, image B, image C, and image D.",
+      "avoid": "Avoid extra decorative text, clutter, logos, contradictory details, tiny labels, or gallery panels that weaken the intended inspiration-source match.",
+      "used_by_activity_ids": [
+        "m01w12-a04",
+        "m01w12-a05",
+        "m01w12-a07",
+        "m01w12-a09"
+      ],
+      "status": "planned"
+    }
+  ]
+}

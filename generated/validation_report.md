@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-05-06T21:50:03.883866+00:00
+- Generated at (UTC): 2026-05-06T22:50:59.716524+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -96,6 +96,14 @@
 - `content/course/modules/module-01/week-11/teacher_notes.md`
 - `content/course/modules/module-01/week-11/vocabulary.json`
 - `content/course/modules/module-01/week-11/week_manifest.json`
+- `content/course/modules/module-01/week-12/activities.json`
+- `content/course/modules/module-01/week-12/asset_manifest.json`
+- `content/course/modules/module-01/week-12/audio_prompts.json`
+- `content/course/modules/module-01/week-12/image_prompts.json`
+- `content/course/modules/module-01/week-12/lesson_plan.md`
+- `content/course/modules/module-01/week-12/teacher_notes.md`
+- `content/course/modules/module-01/week-12/vocabulary.json`
+- `content/course/modules/module-01/week-12/week_manifest.json`
 - `docs/fashion-course-content-requirements.md`
 - `schemas/activities.schema.json`
 - `schemas/asset_manifest.schema.json`
@@ -114,7 +122,11 @@
 - None.
 
 ## Missing Assets
-- None.
+- m01w12-img-001 — A single adult-learning board that shows one fashion look or sketch plus several possible inspiration-source thumbnails so students can make quick controlled source selections. — assets/images/module-01/week-12/m01w12-img-001.png
+- m01w12-img-002 — A clear adult-learning board with eight inspiration-source images labeled A to H for explicit image-to-word matching. — assets/images/module-01/week-12/m01w12-img-002.png
+- m01w12-img-003 — A controlled four-panel board with stable visible keys and clear design cues for matching a look to one mood and one effect phrase. — assets/images/module-01/week-12/m01w12-img-003.png
+- m01w12-img-004 — A reusable four-panel gallery for reading, listening, writing, and speaking. Each panel should show one look tied to a distinct inspiration source and rationale model. — assets/images/module-01/week-12/m01w12-img-004.png
+- m01w12-aud-001 — One short A2 listening clip with numbered descriptions aligned exactly to the Week 12 reusable image A to image D gallery. — assets/audio/module-01/week-12/m01w12-aud-001.mp3
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.

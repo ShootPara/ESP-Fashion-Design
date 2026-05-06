@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w12",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w12-aud-001",
+      "purpose": "Listening model for Week 12 inspiration and design-choice identification using the reusable image A to image D gallery.",
+      "target_filename": "assets/audio/module-01/week-12/m01w12-aud-001.mp3",
+      "script": "Look at image A to image D. Number one: This design is inspired by nature and the ocean. The palette is blue, green, and white. I chose a flowy fabric because it looks like water. The mood is calm and soft. Number two: This look is inspired by the city. The palette is black, gray, and white. I chose a structured jacket because it looks modern and practical. The contrast makes the look bold. Number three: This look is inspired by music. The colors are bright, and the silhouette is loose. I used wide sleeves to show movement. The mood is playful and energetic. Number four: This design is inspired by architecture. The jacket has straight lines and structured shoulders. The palette is neutral. The overall look is elegant and strong.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and easy to follow, with short pauses after each number and slight emphasis on the inspiration source and key design words.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 55,
+      "used_by_activity_ids": [
+        "m01w12-a05"
+      ],
+      "status": "planned"
+    }
+  ]
+}
