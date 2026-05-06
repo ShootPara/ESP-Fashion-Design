@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w09",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w09-aud-001",
+      "purpose": "Listening model for Week 9 pattern-piece identification by image key, measurement, marking, and final label.",
+      "target_filename": "assets/audio/module-01/week-09/m01w09-aud-001.mp3",
+      "script": "Look at image A to image E. Today we are working with image D, the skirt front pattern piece. First, check the waist measurement. Then, trace the piece on pattern paper. Next, mark the grainline and the fold line. After that, add the seam allowance. Then, label the piece: skirt front, size medium. Finally, check the side seam and one notch.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and easy to follow, with a short pause after each sequence marker.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 38,
+      "used_by_activity_ids": [
+        "m01w09-a05"
+      ],
+      "status": "planned"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "week_id": "m01w09",
+  "module_id": "module-01",
+  "week_number": 9,
+  "title": "Introduction to Patternmaking English",
+  "summary": "Students learn beginner-friendly English for pattern pieces, measurements, markings, and simple patternmaking instructions, then produce a scaffolded pattern piece description card.",
+  "essential_question": "How can I identify and explain a simple pattern piece in English?",
+  "professional_context": "Week 9 connects English to introductory patternmaking and garment-construction preparation. Students move from Week 8 sewing actions into the language of measuring, tracing, marking, labeling, and checking a basic paper pattern piece for a garment.",
+  "language_focus": [
+    "patternmaking nouns such as pattern, pattern piece, block, and template",
+    "pattern-piece names such as front bodice, back bodice, sleeve, skirt front, and waistband",
+    "measurement words such as bust, waist, hip, shoulder, and sleeve length",
+    "pattern-marking words such as grainline, fold line, seam allowance, notch, and dart",
+    "process verbs such as measure, mark, trace, label, check, and adjust",
+    "purpose phrases such as This piece is for ...",
+    "location phrases such as on the fold, at the side seam, and at the center front",
+    "guided pattern-piece writing",
+    "teacher-supported pattern-piece explanation speaking"
+  ],
+  "skill_focus": [
+    "reading",
+    "listening",
+    "writing",
+    "vocabulary",
+    "speaking",
+    "professional_communication",
+    "visual_literacy",
+    "grammar"
+  ],
+  "target_vocabulary_groups": [
+    "m01w09-vg01",
+    "m01w09-vg02",
+    "m01w09-vg03",
+    "m01w09-vg04",
+    "m01w09-vg05"
+  ],
+  "grammar_focus": [
+    "This is a ___ pattern piece.",
+    "This piece is for a ___.",
+    "It has a ___ and a ___.",
+    "Measure the ___.",
+    "Mark the ___.",
+    "Trace the pattern piece.",
+    "Label the piece with the name and size.",
+    "Finally, check the measurement.",
+    "on the fold",
+    "at the center front",
+    "at the side seam"
+  ],
+  "pronunciation_focus": [
+    "pattern",
+    "pattern piece",
+    "grainline",
+    "fold line",
+    "seam allowance",
+    "notch",
+    "dart",
+    "waist",
+    "shoulder",
+    "armhole",
+    "trace"
+  ],
+  "cefr_access_level": "A2",
+  "cefr_target_level": "A2",
+  "estimated_total_minutes": 143,
+  "activity_ids": [
+    "m01w09-a01",
+    "m01w09-a02",
+    "m01w09-a03",
+    "m01w09-a04",
+    "m01w09-a05",
+    "m01w09-a06",
+    "m01w09-a07",
+    "m01w09-a08",
+    "m01w09-a09"
+  ],
+  "asset_ids": [
+    "m01w09-img-001",
+    "m01w09-img-002",
+    "m01w09-img-003",
+    "m01w09-img-004",
+    "m01w09-img-005",
+    "m01w09-aud-001"
+  ],
+  "teacher_preparation": [
+    "Preview the Week 9 opener board, the pattern-pieces-and-tools board, the measurements-and-marks board, the reading sequence board, and the reusable pattern-piece gallery before class.",
+    "Prepare visible sentence frames for This is a ___ pattern piece, This piece is for a ___, Mark the ___, Measure the ___, and This piece is on the fold.",
+    "Keep the main writing task line-based and scaffolded. Do not turn the Basic Pattern Piece Description Card into a paragraph or word-count assignment.",
+    "Review likely Week 9 correction targets such as missing articles, confusion between pattern and pattern piece, missing the in Mark the grainline, and fixed phrase errors such as on fold instead of on the fold.",
+    "Keep the Week 9 listening audio or teacher read-aloud fallback aligned exactly to the same image A to image E gallery used in listening, writing, and speaking.",
+    "Decide whether students will use projected pattern cards, printed diagrams, or simple paper pattern examples alongside the future app-style visuals in the teacher session."
+  ],
+  "student_deliverables": [
+    "Completion of the Week 9 opener selections.",
+    "Completion of the main pattern-pieces-and-tools matching set.",
+    "Completion of the main measurements-and-marks matching set.",
+    "Reading-comprehension responses about a simple patternmaking procedure.",
+    "Listening-comprehension responses about one short pattern-piece instruction sequence.",
+    "Completion of phrase-practice frames for measure, mark, trace, label, and check.",
+    "A scaffolded Basic Pattern Piece Description Card with 6 required sentence-frame lines and 1 optional challenge sentence.",
+    "Two corrected Week 9 patternmaking sentences saved after review.",
+    "A short teacher-observed oral explanation of one pattern piece."
+  ]
+}

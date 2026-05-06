@@ -1,0 +1,77 @@
+{
+  "week_id": "m01w09",
+  "image_prompts": [
+    {
+      "asset_id": "m01w09-img-001",
+      "purpose": "Week 9 opener board for bridging from Week 8 sewing actions into Week 9 patternmaking language.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-001.png",
+      "visual_description": "A compact adult-oriented patternmaking workspace board with clearly visible pattern paper, ruler, measuring tape, pencil, scissors, and one or two obvious paper pattern-piece clues on a clean studio table.",
+      "style_instructions": "Use a polished fashion-education illustration or realistic studio-reference style with strong visual clarity and adult proportions.",
+      "composition_notes": "Keep the objects separated and easy to scan on mobile. Emphasize the transition from sewing tools to paper pattern preparation rather than showing a full process sequence.",
+      "text_in_image": "Only short visible keys if needed for the opener questions.",
+      "avoid": "Avoid logos, dense clutter, childlike styling, tiny measurement markings, unsafe tool placement, and decorative backgrounds.",
+      "used_by_activity_ids": [
+        "m01w09-a01"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w09-img-002",
+      "purpose": "Pattern pieces and tools board for the main Week 9 patternmaking matching task.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-002.png",
+      "visual_description": "One clean educational board showing ten clearly different patternmaking examples. Visible key A is a generic pattern piece, B is pattern paper, C is front bodice, D is back bodice, E is sleeve, F is skirt front, G is waistband, H is pocket, I is ruler, and J is French curve.",
+      "style_instructions": "Use a clear educational board style with simple pattern diagrams and unmistakable tool examples that remain readable on a phone screen.",
+      "composition_notes": "Keep each key A to J large and easy to compare. Show the pattern pieces as clean paper shapes with high contrast and simple markings, and keep the tools visually distinct.",
+      "text_in_image": "Only the visible keys A to J.",
+      "avoid": "Avoid extra labels, decorative typography, duplicate-looking pattern shapes, and ambiguous tools that make the answer key uncertain.",
+      "used_by_activity_ids": [
+        "m01w09-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w09-img-003",
+      "purpose": "Measurements and pattern marks board for the main Week 9 visual-matching task.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-003.png",
+      "visual_description": "One clean board combining simple body-measurement references and a basic pattern-piece diagram with visible pattern marks. Visible key A is bust, B is waist, C is hip, D is shoulder, E is armhole, F is grainline, G is fold line, H is seam allowance, I is notch, and J is dart.",
+      "style_instructions": "Use a polished educational visual style with simple body references and one clear pattern-piece diagram that stays readable on mobile.",
+      "composition_notes": "Separate the measurement and marking sections clearly. Make the difference between grainline, fold line, seam allowance, notch, and dart very easy to see with strong contrast and uncluttered spacing.",
+      "text_in_image": "Only the visible keys A to J.",
+      "avoid": "Avoid crowded layouts, decorative text, tiny marks, ambiguous arrows, or multiple overlapping pattern pieces.",
+      "used_by_activity_ids": [
+        "m01w09-a03"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w09-img-004",
+      "purpose": "Reading sequence board for tracing and labeling a simple pattern piece.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-004.png",
+      "visual_description": "A sequence board with six clearly separated patternmaking-process images labeled only A, B, C, D, E, and F. A shows pattern paper on a table, B shows one pattern piece placed on the paper, C shows tracing the outside line, D shows marking the grainline and fold line, E shows adding seam allowance, and F shows labeling the piece and checking the measurement.",
+      "style_instructions": "Use a clean educational sequence-board style with one consistent workspace and one consistent paper pattern piece across all six images.",
+      "composition_notes": "Keep the six steps easy to compare and scan in order on mobile. The same piece and table should appear across the sequence so the process feels continuous and credible.",
+      "text_in_image": "Only the visible keys A to F.",
+      "avoid": "Avoid busy backgrounds, changing the pattern piece shape between steps, extra instruction text, or step scenes that do not clearly match the reading text.",
+      "used_by_activity_ids": [
+        "m01w09-a04"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w09-img-005",
+      "purpose": "Reusable pattern-piece gallery for listening, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-005.png",
+      "visual_description": "A gallery with five clearly separated pattern-piece images labeled only image A, image B, image C, image D, and image E. Image A shows a front bodice piece with center front and dart, image B shows a back bodice piece with center back, image C shows a sleeve piece with notches and grainline, image D shows a skirt front piece on the fold with waistline, and image E shows a waistband piece with a straight grainline.",
+      "style_instructions": "Use a polished fashion-studio instructional style with strong diagram clarity, adult learner context, and high-contrast pattern lines.",
+      "composition_notes": "Keep the five images visually distinct and evenly spaced. The gallery must support exact answer-key matching across listening, writing, and speaking, so the same markings and labels should remain consistent across all uses.",
+      "text_in_image": "Only the visible image keys A, B, C, D, and E.",
+      "avoid": "Avoid extra decorative text, cluttered backgrounds, childlike styling, or pattern markings that contradict the Week 9 listening and writing flow.",
+      "used_by_activity_ids": [
+        "m01w09-a05",
+        "m01w09-a07",
+        "m01w09-a09"
+      ],
+      "status": "planned"
+    }
+  ]
+}

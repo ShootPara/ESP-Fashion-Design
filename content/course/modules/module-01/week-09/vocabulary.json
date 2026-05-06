@@ -1,0 +1,860 @@
+{
+  "week_id": "m01w09",
+  "vocabulary_groups": [
+    {
+      "group_id": "m01w09-vg01",
+      "title": "Patternmaking basics and tools",
+      "description": "Core words for the basic objects and tools students need in introductory patternmaking.",
+      "items": [
+        {
+          "vocab_id": "m01w09-v001",
+          "term": "patternmaking",
+          "part_of_speech": "noun",
+          "definition_en": "The process of making a pattern for a garment.",
+          "learner_friendly_definition_en": "Making the paper plan for a garment.",
+          "learner_friendly_definition_pt": "Fazer o plano de papel para uma roupa.",
+          "example_sentence_en": "Patternmaking is part of fashion design.",
+          "example_sentence_pt": "Patternmaking faz parte do design de moda.",
+          "professional_context_en": "Patternmaking language helps students understand how garments are planned before sewing.",
+          "professional_context_pt": "A linguagem de patternmaking ajuda os alunos a entender como as roupas sao planejadas antes da costura.",
+          "translation_notes_pt": "Use como ponte para modelagem.",
+          "pronunciation_notes": "Stress PAT-ern-may-king.",
+          "related_terms": [
+            "pattern",
+            "pattern piece",
+            "measure"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v002",
+          "term": "pattern",
+          "part_of_speech": "noun",
+          "definition_en": "A paper guide used to make garment pieces.",
+          "learner_friendly_definition_en": "The paper guide for a garment part.",
+          "learner_friendly_definition_pt": "O guia de papel para uma parte da roupa.",
+          "example_sentence_en": "Put the pattern on the paper.",
+          "example_sentence_pt": "Coloque o pattern no papel.",
+          "professional_context_en": "Pattern is the basic high-frequency word for molde in beginner Fashion Design English.",
+          "professional_context_pt": "Pattern e a palavra basica e frequente para molde no ingles inicial de Design de Moda.",
+          "translation_notes_pt": "Distinguish pattern from pattern piece.",
+          "pronunciation_notes": "Say PAT-ern.",
+          "related_terms": [
+            "pattern piece",
+            "pattern paper",
+            "trace"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v003",
+          "term": "pattern piece",
+          "part_of_speech": "noun",
+          "definition_en": "One single part of a pattern, such as a sleeve or waistband.",
+          "learner_friendly_definition_en": "One part of the full pattern.",
+          "learner_friendly_definition_pt": "Uma parte do pattern completo.",
+          "example_sentence_en": "This is a sleeve pattern piece.",
+          "example_sentence_pt": "Esta e uma peca de pattern para manga.",
+          "professional_context_en": "Pattern piece is the main noun phrase students need for Week 9 writing and speaking.",
+          "professional_context_pt": "Pattern piece e a principal expressao nominal de que os alunos precisam para a escrita e fala da Semana 9.",
+          "translation_notes_pt": "Use como ponte para peca do molde.",
+          "pronunciation_notes": "Stress PIECE.",
+          "related_terms": [
+            "pattern",
+            "sleeve",
+            "label"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v004",
+          "term": "pattern paper",
+          "part_of_speech": "noun",
+          "definition_en": "Special paper used for drawing or tracing patterns.",
+          "learner_friendly_definition_en": "Paper used to make or copy a pattern.",
+          "learner_friendly_definition_pt": "Papel usado para fazer ou copiar um pattern.",
+          "example_sentence_en": "Trace the pattern on pattern paper.",
+          "example_sentence_pt": "Trace o pattern no pattern paper.",
+          "professional_context_en": "Pattern paper appears in simple demonstrations and process instructions.",
+          "professional_context_pt": "Pattern paper aparece em demonstracoes simples e instrucoes de processo.",
+          "translation_notes_pt": "Bridge to papel de modelagem.",
+          "pronunciation_notes": "Stress PAT-ern PA-per.",
+          "related_terms": [
+            "pattern",
+            "trace",
+            "paper"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v005",
+          "term": "block",
+          "part_of_speech": "noun",
+          "definition_en": "A basic pattern used as a starting point.",
+          "learner_friendly_definition_en": "The basic first pattern.",
+          "learner_friendly_definition_pt": "O primeiro pattern basico.",
+          "example_sentence_en": "A block helps start a new design.",
+          "example_sentence_pt": "Um block ajuda a comecar um novo design.",
+          "professional_context_en": "Block is useful as a light support term for later patternmaking work.",
+          "professional_context_pt": "Block e util como termo de apoio leve para trabalhos futuros de patternmaking.",
+          "translation_notes_pt": "Bridge to molde base.",
+          "pronunciation_notes": "Say BLOK.",
+          "related_terms": [
+            "pattern",
+            "template",
+            "basic"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w09-v006",
+          "term": "template",
+          "part_of_speech": "noun",
+          "definition_en": "A shape guide used to copy or repeat a form.",
+          "learner_friendly_definition_en": "A guide shape to copy.",
+          "learner_friendly_definition_pt": "Uma forma guia para copiar.",
+          "example_sentence_en": "Use the template to draw the curve.",
+          "example_sentence_pt": "Use o template para desenhar a curva.",
+          "professional_context_en": "Template supports basic tool and process language in introductory studio tasks.",
+          "professional_context_pt": "Template apoia a linguagem basica de ferramenta e processo em tarefas iniciais de estudio.",
+          "translation_notes_pt": "Bridge to gabarito.",
+          "pronunciation_notes": "Stress TEM-plate.",
+          "related_terms": [
+            "block",
+            "French curve",
+            "draw"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w09-v007",
+          "term": "French curve",
+          "part_of_speech": "noun",
+          "definition_en": "A curved ruler used for drawing smooth lines.",
+          "learner_friendly_definition_en": "A curved ruler for pattern lines.",
+          "learner_friendly_definition_pt": "Uma regua curva para linhas de pattern.",
+          "example_sentence_en": "Use a French curve for the armhole.",
+          "example_sentence_pt": "Use uma French curve para a armhole.",
+          "professional_context_en": "French curve is a common patternmaking tool students may see in studio demonstrations.",
+          "professional_context_pt": "French curve e uma ferramenta comum de patternmaking que os alunos podem ver em demonstracoes no estudio.",
+          "translation_notes_pt": "Bridge to curva francesa.",
+          "pronunciation_notes": "Stress CURVE.",
+          "related_terms": [
+            "ruler",
+            "armhole",
+            "draw"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v041",
+          "term": "ruler",
+          "part_of_speech": "noun",
+          "definition_en": "A straight tool used to measure or draw lines.",
+          "learner_friendly_definition_en": "A straight tool for measuring and drawing lines.",
+          "learner_friendly_definition_pt": "Uma ferramenta reta para medir e desenhar linhas.",
+          "example_sentence_en": "Use the ruler to draw a straight line.",
+          "example_sentence_pt": "Use a ruler para desenhar uma linha reta.",
+          "professional_context_en": "Ruler is a basic patternmaking tool students use for measuring, marking, and keeping lines straight on pattern paper.",
+          "professional_context_pt": "Ruler ? uma ferramenta b?sica de patternmaking usada para medir, marcar e manter linhas retas no pattern paper.",
+          "translation_notes_pt": "Bridge to r?gua.",
+          "pronunciation_notes": "Say ROO-ler.",
+          "related_terms": [
+            "French curve",
+            "measure",
+            "pattern paper"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w09-vg02",
+      "title": "Pattern pieces",
+      "description": "Common garment-related pattern pieces for beginner patternmaking tasks.",
+      "items": [
+        {
+          "vocab_id": "m01w09-v008",
+          "term": "front bodice",
+          "part_of_speech": "noun",
+          "definition_en": "The front upper body piece of a garment pattern.",
+          "learner_friendly_definition_en": "The front top body pattern piece.",
+          "learner_friendly_definition_pt": "A peca da frente da parte de cima do corpo.",
+          "example_sentence_en": "This is the front bodice pattern piece.",
+          "example_sentence_pt": "Esta e a peca front bodice.",
+          "professional_context_en": "Front bodice is useful for simple pattern-piece identification and later sketch discussion.",
+          "professional_context_pt": "Front bodice e util para identificacao simples de peca e para conversas futuras sobre croqui.",
+          "translation_notes_pt": "Bridge to frente do corpo.",
+          "pronunciation_notes": "Stress FRONT BOD-ice.",
+          "related_terms": [
+            "back bodice",
+            "armhole",
+            "center front"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v009",
+          "term": "back bodice",
+          "part_of_speech": "noun",
+          "definition_en": "The back upper body piece of a garment pattern.",
+          "learner_friendly_definition_en": "The back top body pattern piece.",
+          "learner_friendly_definition_pt": "A peca de tras da parte de cima do corpo.",
+          "example_sentence_en": "Mark the center back on the back bodice.",
+          "example_sentence_pt": "Marque o center back no back bodice.",
+          "professional_context_en": "Back bodice supports front and back contrast in pattern reading.",
+          "professional_context_pt": "Back bodice apoia o contraste entre frente e costas na leitura de patterns.",
+          "translation_notes_pt": "Bridge to costas do corpo.",
+          "pronunciation_notes": "Stress BACK BOD-ice.",
+          "related_terms": [
+            "front bodice",
+            "center back",
+            "grainline"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v010",
+          "term": "sleeve",
+          "part_of_speech": "noun",
+          "definition_en": "The part of a garment that covers the arm.",
+          "learner_friendly_definition_en": "The garment part for the arm.",
+          "learner_friendly_definition_pt": "A parte da roupa para o braco.",
+          "example_sentence_en": "This sleeve pattern piece has a grainline.",
+          "example_sentence_pt": "Esta peca de sleeve tem uma grainline.",
+          "professional_context_en": "Sleeve connects patternmaking language to familiar garment vocabulary from earlier weeks.",
+          "professional_context_pt": "Sleeve conecta a linguagem de patternmaking ao vocabulario de roupa ja conhecido de semanas anteriores.",
+          "translation_notes_pt": "Bridge to manga.",
+          "pronunciation_notes": "Say SLEEV.",
+          "related_terms": [
+            "armhole",
+            "sleeve length",
+            "notch"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v011",
+          "term": "skirt front",
+          "part_of_speech": "noun",
+          "definition_en": "The front piece of a skirt pattern.",
+          "learner_friendly_definition_en": "The front skirt pattern piece.",
+          "learner_friendly_definition_pt": "A peca da frente da saia.",
+          "example_sentence_en": "The skirt front piece is on the fold.",
+          "example_sentence_pt": "A peca skirt front esta on the fold.",
+          "professional_context_en": "Skirt front is a useful A2-friendly piece for gallery-based writing and listening.",
+          "professional_context_pt": "Skirt front e uma peca util e acessivel em A2 para escrita e escuta com galeria.",
+          "translation_notes_pt": "Bridge to frente da saia.",
+          "pronunciation_notes": "Stress SKIRT FRONT.",
+          "related_terms": [
+            "skirt back",
+            "waistband",
+            "fold line"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v012",
+          "term": "skirt back",
+          "part_of_speech": "noun",
+          "definition_en": "The back piece of a skirt pattern.",
+          "learner_friendly_definition_en": "The back skirt pattern piece.",
+          "learner_friendly_definition_pt": "A peca de tras da saia.",
+          "example_sentence_en": "Label the skirt back clearly.",
+          "example_sentence_pt": "Rotule a peca skirt back com clareza.",
+          "professional_context_en": "Skirt back helps students contrast front and back references on patterns.",
+          "professional_context_pt": "Skirt back ajuda os alunos a contrastar referencias de frente e costas nos patterns.",
+          "translation_notes_pt": "Bridge to costas da saia.",
+          "pronunciation_notes": "Stress SKIRT BACK.",
+          "related_terms": [
+            "skirt front",
+            "center back",
+            "grainline"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v013",
+          "term": "waistband",
+          "part_of_speech": "noun",
+          "definition_en": "The band that goes around the waist on a garment.",
+          "learner_friendly_definition_en": "The waist part of a skirt or pants.",
+          "learner_friendly_definition_pt": "A parte da cintura de saia ou calca.",
+          "example_sentence_en": "This waistband piece is narrow and long.",
+          "example_sentence_pt": "Esta peca de waistband e estreita e longa.",
+          "professional_context_en": "Waistband is a useful piece for simple functional description.",
+          "professional_context_pt": "Waistband e uma peca util para descricao funcional simples.",
+          "translation_notes_pt": "Bridge to cos.",
+          "pronunciation_notes": "Stress WAIST-band.",
+          "related_terms": [
+            "waist",
+            "skirt front",
+            "label"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v014",
+          "term": "collar",
+          "part_of_speech": "noun",
+          "definition_en": "The part of a garment that goes around the neck.",
+          "learner_friendly_definition_en": "The garment part around the neck.",
+          "learner_friendly_definition_pt": "A parte da roupa ao redor do pescoco.",
+          "example_sentence_en": "This collar piece is small and curved.",
+          "example_sentence_pt": "Esta peca de collar e pequena e curva.",
+          "professional_context_en": "Collar gives students one smaller detail piece to identify.",
+          "professional_context_pt": "Collar da aos alunos uma peca menor de detalhe para identificar.",
+          "translation_notes_pt": "Bridge to gola.",
+          "pronunciation_notes": "Say KOL-er.",
+          "related_terms": [
+            "pattern piece",
+            "curve",
+            "label"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v015",
+          "term": "pocket",
+          "part_of_speech": "noun",
+          "definition_en": "A small part of a garment used to hold things.",
+          "learner_friendly_definition_en": "The garment part for small objects.",
+          "learner_friendly_definition_pt": "A parte da roupa para pequenos objetos.",
+          "example_sentence_en": "This pocket piece is for the front of the skirt.",
+          "example_sentence_pt": "Esta peca de pocket e para a frente da saia.",
+          "professional_context_en": "Pocket is a familiar garment part that works well in A2 patternmaking tasks.",
+          "professional_context_pt": "Pocket e uma parte conhecida da roupa que funciona bem em tarefas de patternmaking em A2.",
+          "translation_notes_pt": "Bridge to bolso.",
+          "pronunciation_notes": "Say POK-it.",
+          "related_terms": [
+            "skirt front",
+            "label",
+            "piece"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w09-vg03",
+      "title": "Measurements",
+      "description": "Common body and garment measurement words for Week 9 visual and listening tasks.",
+      "items": [
+        {
+          "vocab_id": "m01w09-v016",
+          "term": "measurement",
+          "part_of_speech": "noun",
+          "definition_en": "The size or length of something.",
+          "learner_friendly_definition_en": "The checked size of a body part or garment part.",
+          "learner_friendly_definition_pt": "O tamanho verificado de uma parte do corpo ou da roupa.",
+          "example_sentence_en": "Check the measurement first.",
+          "example_sentence_pt": "Verifique a measurement primeiro.",
+          "professional_context_en": "Measurement supports accuracy language in patternmaking and garment preparation.",
+          "professional_context_pt": "Measurement apoia a linguagem de precisao em patternmaking e preparacao da roupa.",
+          "translation_notes_pt": "Bridge to medida.",
+          "pronunciation_notes": "Say MEZH-er-ment.",
+          "related_terms": [
+            "measure",
+            "waist",
+            "check"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v017",
+          "term": "bust",
+          "part_of_speech": "noun",
+          "definition_en": "The chest measurement area on the body.",
+          "learner_friendly_definition_en": "The chest area used for clothing measurement.",
+          "learner_friendly_definition_pt": "A area do busto usada para medir roupa.",
+          "example_sentence_en": "Measure the bust carefully.",
+          "example_sentence_pt": "Meaca o bust com cuidado.",
+          "professional_context_en": "Bust is a common body measurement in tops and dresses.",
+          "professional_context_pt": "Bust e uma medida corporal comum em blusas e vestidos.",
+          "translation_notes_pt": "Bridge to busto.",
+          "pronunciation_notes": "Say BUST.",
+          "related_terms": [
+            "waist",
+            "hip",
+            "measure"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v018",
+          "term": "waist",
+          "part_of_speech": "noun",
+          "definition_en": "The narrow middle part of the body.",
+          "learner_friendly_definition_en": "The middle body area for many clothing measurements.",
+          "learner_friendly_definition_pt": "A parte do meio do corpo para muitas medidas de roupa.",
+          "example_sentence_en": "Check the waist measurement.",
+          "example_sentence_pt": "Verifique a medida da waist.",
+          "professional_context_en": "Waist is central for skirt, dress, and waistband pattern work.",
+          "professional_context_pt": "Waist e central para trabalhos de pattern de saia, vestido e cos.",
+          "translation_notes_pt": "Bridge to cintura.",
+          "pronunciation_notes": "Say WAYST.",
+          "related_terms": [
+            "waistband",
+            "hip",
+            "measurement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v019",
+          "term": "hip",
+          "part_of_speech": "noun",
+          "definition_en": "The wide body area below the waist.",
+          "learner_friendly_definition_en": "The body area below the waist.",
+          "learner_friendly_definition_pt": "A area do corpo abaixo da waist.",
+          "example_sentence_en": "Measure the hip for the skirt.",
+          "example_sentence_pt": "Meaca o hip para a saia.",
+          "professional_context_en": "Hip is important in skirt and dress measurement language.",
+          "professional_context_pt": "Hip e importante na linguagem de medida para saia e vestido.",
+          "translation_notes_pt": "Bridge to quadril.",
+          "pronunciation_notes": "Say HIP.",
+          "related_terms": [
+            "waist",
+            "skirt front",
+            "measure"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v020",
+          "term": "shoulder",
+          "part_of_speech": "noun",
+          "definition_en": "The top part of the body where the arm joins.",
+          "learner_friendly_definition_en": "The top body area where the arm starts.",
+          "learner_friendly_definition_pt": "A area de cima do corpo onde o braco comeca.",
+          "example_sentence_en": "Measure the shoulder width.",
+          "example_sentence_pt": "Meaca a largura do shoulder.",
+          "professional_context_en": "Shoulder appears in bodice measurement and fit language.",
+          "professional_context_pt": "Shoulder aparece na linguagem de medida e caimento do corpo.",
+          "translation_notes_pt": "Bridge to ombro.",
+          "pronunciation_notes": "Say SHOHL-der.",
+          "related_terms": [
+            "armhole",
+            "width",
+            "measurement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v021",
+          "term": "armhole",
+          "part_of_speech": "noun",
+          "definition_en": "The curved opening for the arm in a garment or pattern.",
+          "learner_friendly_definition_en": "The curved place for the arm.",
+          "learner_friendly_definition_pt": "O lugar curvo para o braco.",
+          "example_sentence_en": "Use the French curve for the armhole.",
+          "example_sentence_pt": "Use a French curve para a armhole.",
+          "professional_context_en": "Armhole helps students connect body language to curved pattern shapes.",
+          "professional_context_pt": "Armhole ajuda os alunos a ligar a linguagem do corpo a formas curvas do pattern.",
+          "translation_notes_pt": "Bridge to cava.",
+          "pronunciation_notes": "Say ARM-hohl.",
+          "related_terms": [
+            "sleeve",
+            "curve",
+            "front bodice"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v022",
+          "term": "sleeve length",
+          "part_of_speech": "noun",
+          "definition_en": "The measurement from the shoulder to the end of the sleeve.",
+          "learner_friendly_definition_en": "How long the sleeve is.",
+          "learner_friendly_definition_pt": "Quanto a manga mede.",
+          "example_sentence_en": "Check the sleeve length at the end.",
+          "example_sentence_pt": "Verifique a sleeve length no final.",
+          "professional_context_en": "Sleeve length supports simple garment and pattern measurement work.",
+          "professional_context_pt": "Sleeve length apoia trabalhos simples de medida da roupa e do pattern.",
+          "translation_notes_pt": "Bridge to comprimento da manga.",
+          "pronunciation_notes": "Stress LENGTH.",
+          "related_terms": [
+            "sleeve",
+            "shoulder",
+            "measurement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v023",
+          "term": "garment length",
+          "part_of_speech": "noun",
+          "definition_en": "The measurement from the top of a garment to the bottom.",
+          "learner_friendly_definition_en": "How long the garment is.",
+          "learner_friendly_definition_pt": "Quanto a roupa mede.",
+          "example_sentence_en": "Check the garment length carefully.",
+          "example_sentence_pt": "Verifique a garment length com cuidado.",
+          "professional_context_en": "Garment length is useful as a support measurement term in beginner description tasks.",
+          "professional_context_pt": "Garment length e util como termo de apoio de medida em tarefas iniciais de descricao.",
+          "translation_notes_pt": "Bridge to comprimento da peca.",
+          "pronunciation_notes": "Stress GAR-ment LENGTH.",
+          "related_terms": [
+            "measurement",
+            "height",
+            "waist"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w09-vg04",
+      "title": "Pattern markings and locations",
+      "description": "Core pattern marks and location phrases students need to label and explain a simple pattern piece.",
+      "items": [
+        {
+          "vocab_id": "m01w09-v024",
+          "term": "grainline",
+          "part_of_speech": "noun",
+          "definition_en": "The line showing how the pattern should follow the fabric grain.",
+          "learner_friendly_definition_en": "The line that shows the fabric direction.",
+          "learner_friendly_definition_pt": "A linha que mostra a direcao do tecido.",
+          "example_sentence_en": "Mark the grainline clearly.",
+          "example_sentence_pt": "Marque a grainline com clareza.",
+          "professional_context_en": "Grainline is one of the most important Week 9 markings and must stay visually consistent across tasks.",
+          "professional_context_pt": "Grainline e uma das marcacoes mais importantes da Semana 9 e precisa ficar visualmente consistente nas tarefas.",
+          "translation_notes_pt": "Bridge to fio do tecido.",
+          "pronunciation_notes": "Stress GRAIN-line.",
+          "related_terms": [
+            "fold line",
+            "mark",
+            "pattern piece"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v025",
+          "term": "fold line",
+          "part_of_speech": "noun",
+          "definition_en": "The line showing that the pattern piece is placed on a fold.",
+          "learner_friendly_definition_en": "The line for the folded side.",
+          "learner_friendly_definition_pt": "A linha para o lado dobrado.",
+          "example_sentence_en": "This piece is on the fold line.",
+          "example_sentence_pt": "Esta peca esta na fold line.",
+          "professional_context_en": "Fold line supports the fixed phrase on the fold and simple piece placement talk.",
+          "professional_context_pt": "Fold line apoia a expressao fixa on the fold e a fala simples sobre posicao da peca.",
+          "translation_notes_pt": "Bridge to linha de dobra.",
+          "pronunciation_notes": "Stress FOLD line.",
+          "related_terms": [
+            "on the fold",
+            "grainline",
+            "skirt front"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v026",
+          "term": "seam allowance",
+          "part_of_speech": "noun",
+          "definition_en": "Extra space added outside the sewing line.",
+          "learner_friendly_definition_en": "The extra fabric space for sewing.",
+          "learner_friendly_definition_pt": "O espaco extra de tecido para costurar.",
+          "example_sentence_en": "Add the seam allowance after tracing.",
+          "example_sentence_pt": "Acrescente a seam allowance depois de tracing.",
+          "professional_context_en": "Seam allowance connects Week 8 sewing language directly to Week 9 pattern preparation.",
+          "professional_context_pt": "Seam allowance conecta diretamente a linguagem de costura da Semana 8 a preparacao do pattern da Semana 9.",
+          "translation_notes_pt": "Bridge to margem de costura.",
+          "pronunciation_notes": "Stress AL-low-ance.",
+          "related_terms": [
+            "mark",
+            "trace",
+            "line"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v027",
+          "term": "notch",
+          "part_of_speech": "noun",
+          "definition_en": "A small mark used to match pattern pieces.",
+          "learner_friendly_definition_en": "A small cut or mark to help pieces fit together.",
+          "learner_friendly_definition_pt": "Um pequeno corte ou marca para ajudar as pecas a combinar.",
+          "example_sentence_en": "Mark one notch on the side seam.",
+          "example_sentence_pt": "Marque um notch na side seam.",
+          "professional_context_en": "Notch is an important small marking for app-checkable visual tasks and simple explanations.",
+          "professional_context_pt": "Notch e uma marcacao pequena importante para tarefas visuais verificadas pelo app e explicacoes simples.",
+          "translation_notes_pt": "Bridge to pique.",
+          "pronunciation_notes": "Say NOCH.",
+          "related_terms": [
+            "side seam",
+            "mark",
+            "pattern piece"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v028",
+          "term": "dart",
+          "part_of_speech": "noun",
+          "definition_en": "A shaped fold sewn into a garment for fit.",
+          "learner_friendly_definition_en": "A fold used to shape the garment.",
+          "learner_friendly_definition_pt": "Uma dobra usada para dar forma a roupa.",
+          "example_sentence_en": "The front bodice has a dart.",
+          "example_sentence_pt": "O front bodice tem uma dart.",
+          "professional_context_en": "Dart recycles earlier garment-detail language and connects it to pattern reading.",
+          "professional_context_pt": "Dart retoma a linguagem de detalhe da roupa de semanas anteriores e a conecta a leitura do pattern.",
+          "translation_notes_pt": "Bridge to pence.",
+          "pronunciation_notes": "Say DART.",
+          "related_terms": [
+            "front bodice",
+            "mark",
+            "shape"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v029",
+          "term": "center front",
+          "part_of_speech": "noun",
+          "definition_en": "The middle front line of a garment or pattern.",
+          "learner_friendly_definition_en": "The center line on the front.",
+          "learner_friendly_definition_pt": "A linha do meio na frente.",
+          "example_sentence_en": "Label the center front first.",
+          "example_sentence_pt": "Rotule o center front primeiro.",
+          "professional_context_en": "Center front supports orientation and labeling on simple garment patterns.",
+          "professional_context_pt": "Center front apoia orientacao e rotulacao em patterns simples de roupa.",
+          "translation_notes_pt": "Bridge to centro frente.",
+          "pronunciation_notes": "Stress CEN-ter FRONT.",
+          "related_terms": [
+            "center back",
+            "front bodice",
+            "label"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v030",
+          "term": "center back",
+          "part_of_speech": "noun",
+          "definition_en": "The middle back line of a garment or pattern.",
+          "learner_friendly_definition_en": "The center line on the back.",
+          "learner_friendly_definition_pt": "A linha do meio nas costas.",
+          "example_sentence_en": "The center back is straight.",
+          "example_sentence_pt": "O center back e reto.",
+          "professional_context_en": "Center back supports front and back contrast in pattern orientation tasks.",
+          "professional_context_pt": "Center back apoia o contraste entre frente e costas em tarefas de orientacao do pattern.",
+          "translation_notes_pt": "Bridge to centro costas.",
+          "pronunciation_notes": "Stress CEN-ter BACK.",
+          "related_terms": [
+            "center front",
+            "back bodice",
+            "line"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v031",
+          "term": "side seam",
+          "part_of_speech": "noun",
+          "definition_en": "The seam at the side of a garment.",
+          "learner_friendly_definition_en": "The seam on the side.",
+          "learner_friendly_definition_pt": "A costura da lateral.",
+          "example_sentence_en": "Mark the notch at the side seam.",
+          "example_sentence_pt": "Marque o notch na side seam.",
+          "professional_context_en": "Side seam helps students use location language for garment and pattern details.",
+          "professional_context_pt": "Side seam ajuda os alunos a usar linguagem de localizacao para detalhes da roupa e do pattern.",
+          "translation_notes_pt": "Bridge to costura lateral.",
+          "pronunciation_notes": "Stress SIDE SEAM.",
+          "related_terms": [
+            "notch",
+            "seam allowance",
+            "skirt front"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w09-vg05",
+      "title": "Process verbs and support phrases",
+      "description": "Action words and support phrases students use to describe a simple patternmaking sequence.",
+      "items": [
+        {
+          "vocab_id": "m01w09-v032",
+          "term": "measure",
+          "part_of_speech": "verb",
+          "definition_en": "To find the size or length of something.",
+          "learner_friendly_definition_en": "To check how long or wide something is.",
+          "learner_friendly_definition_pt": "Verificar quanto algo mede.",
+          "example_sentence_en": "Measure the waist first.",
+          "example_sentence_pt": "Meaca a waist primeiro.",
+          "professional_context_en": "Measure remains central as Week 8 process language becomes Week 9 pattern language.",
+          "professional_context_pt": "Measure continua central enquanto a linguagem de processo da Semana 8 vira linguagem de pattern na Semana 9.",
+          "translation_notes_pt": "Bridge to medir.",
+          "pronunciation_notes": "Say MEZH-er.",
+          "related_terms": [
+            "measurement",
+            "waist",
+            "check"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v033",
+          "term": "mark",
+          "part_of_speech": "verb",
+          "definition_en": "To make a visible line or sign.",
+          "learner_friendly_definition_en": "To add a clear line or sign.",
+          "learner_friendly_definition_pt": "Acrescentar uma linha ou marca clara.",
+          "example_sentence_en": "Mark the grainline clearly.",
+          "example_sentence_pt": "Marque a grainline com clareza.",
+          "professional_context_en": "Mark is key for pattern instructions and visible board tasks.",
+          "professional_context_pt": "Mark e importante para instrucoes de pattern e tarefas com painel visivel.",
+          "translation_notes_pt": "Bridge to marcar.",
+          "pronunciation_notes": "Say MARK.",
+          "related_terms": [
+            "grainline",
+            "notch",
+            "seam allowance"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v034",
+          "term": "trace",
+          "part_of_speech": "verb",
+          "definition_en": "To copy a line or shape by following it.",
+          "learner_friendly_definition_en": "To copy the line by following it.",
+          "learner_friendly_definition_pt": "Copiar a linha seguindo-a.",
+          "example_sentence_en": "Trace the pattern piece on the paper.",
+          "example_sentence_pt": "Trace a peca de pattern no papel.",
+          "professional_context_en": "Trace is one of the main transition verbs from sewing preparation to patternmaking.",
+          "professional_context_pt": "Trace e um dos principais verbos de transicao entre preparacao de costura e patternmaking.",
+          "translation_notes_pt": "Bridge to tracar.",
+          "pronunciation_notes": "Say TRAYS.",
+          "related_terms": [
+            "pattern paper",
+            "line",
+            "mark"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v035",
+          "term": "label",
+          "part_of_speech": "verb",
+          "definition_en": "To write the name or information on something.",
+          "learner_friendly_definition_en": "To write the name clearly on it.",
+          "learner_friendly_definition_pt": "Escrever o nome com clareza na peca.",
+          "example_sentence_en": "Label the piece with the name and size.",
+          "example_sentence_pt": "Rotule a peca com o nome e o tamanho.",
+          "professional_context_en": "Label helps students move from visual recognition to clear documentation.",
+          "professional_context_pt": "Label ajuda os alunos a passar do reconhecimento visual para uma documentacao clara.",
+          "translation_notes_pt": "Bridge to rotular.",
+          "pronunciation_notes": "Say LAY-bul.",
+          "related_terms": [
+            "pattern piece",
+            "size",
+            "center front"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v036",
+          "term": "check",
+          "part_of_speech": "verb",
+          "definition_en": "To look carefully to confirm something is correct.",
+          "learner_friendly_definition_en": "To look carefully and make sure it is right.",
+          "learner_friendly_definition_pt": "Olhar com cuidado e ter certeza de que esta certo.",
+          "example_sentence_en": "Check the measurement at the end.",
+          "example_sentence_pt": "Verifique a measurement no final.",
+          "professional_context_en": "Check supports quality control and final review language in pattern preparation.",
+          "professional_context_pt": "Check apoia a linguagem de controle de qualidade e revisao final na preparacao do pattern.",
+          "translation_notes_pt": "Bridge to verificar ou conferir.",
+          "pronunciation_notes": "Say CHEK.",
+          "related_terms": [
+            "measurement",
+            "label",
+            "correct"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v037",
+          "term": "adjust",
+          "part_of_speech": "verb",
+          "definition_en": "To change something a little to improve it.",
+          "learner_friendly_definition_en": "To change it a little so it works better.",
+          "learner_friendly_definition_pt": "Mudar um pouco para funcionar melhor.",
+          "example_sentence_en": "Adjust the line if needed.",
+          "example_sentence_pt": "Adjust a linha se necessario.",
+          "professional_context_en": "Adjust is a useful support verb for beginner revision and checking language.",
+          "professional_context_pt": "Adjust e um verbo de apoio util para a linguagem inicial de revisao e verificacao.",
+          "translation_notes_pt": "Bridge to ajustar.",
+          "pronunciation_notes": "Say uh-JUST.",
+          "related_terms": [
+            "check",
+            "line",
+            "correct"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w09-v038",
+          "term": "on the fold",
+          "part_of_speech": "phrase",
+          "definition_en": "Placed on the folded edge of the fabric.",
+          "learner_friendly_definition_en": "Placed on the folded side.",
+          "learner_friendly_definition_pt": "Colocado no lado dobrado.",
+          "example_sentence_en": "This piece is on the fold.",
+          "example_sentence_pt": "Esta peca esta on the fold.",
+          "professional_context_en": "On the fold is a fixed phrase that should be taught and checked as a whole unit.",
+          "professional_context_pt": "On the fold e uma expressao fixa que deve ser ensinada e verificada como uma unidade completa.",
+          "translation_notes_pt": "Bridge to na dobra.",
+          "pronunciation_notes": "Stress FOLD.",
+          "related_terms": [
+            "fold line",
+            "skirt front",
+            "placement"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v039",
+          "term": "along the line",
+          "part_of_speech": "phrase",
+          "definition_en": "Following the direction of the line.",
+          "learner_friendly_definition_en": "Following the line.",
+          "learner_friendly_definition_pt": "Seguindo a linha.",
+          "example_sentence_en": "Cut along the line.",
+          "example_sentence_pt": "Corte along the line.",
+          "professional_context_en": "Along the line recycles Week 8 process language in a patternmaking context.",
+          "professional_context_pt": "Along the line retoma a linguagem de processo da Semana 8 em um contexto de patternmaking.",
+          "translation_notes_pt": "Bridge to ao longo da linha.",
+          "pronunciation_notes": "Stress LINE.",
+          "related_terms": [
+            "trace",
+            "cut",
+            "mark"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w09-v040",
+          "term": "size",
+          "part_of_speech": "noun",
+          "definition_en": "The standard measurement label for a garment or pattern.",
+          "learner_friendly_definition_en": "The label that shows how big it is.",
+          "learner_friendly_definition_pt": "A etiqueta que mostra o tamanho.",
+          "example_sentence_en": "Label the piece with the size.",
+          "example_sentence_pt": "Rotule a peca com o size.",
+          "professional_context_en": "Size is a simple documentation word for labeling and checking a pattern piece.",
+          "professional_context_pt": "Size e uma palavra simples de documentacao para rotular e verificar uma peca de pattern.",
+          "translation_notes_pt": "Bridge to tamanho.",
+          "pronunciation_notes": "Say SYZ.",
+          "related_terms": [
+            "label",
+            "measurement",
+            "pattern piece"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    }
+  ]
+}

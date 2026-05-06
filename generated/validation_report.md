@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-05-05T23:27:05.236991+00:00
+- Generated at (UTC): 2026-05-06T14:51:29.969483+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -72,6 +72,14 @@
 - `content/course/modules/module-01/week-08/teacher_notes.md`
 - `content/course/modules/module-01/week-08/vocabulary.json`
 - `content/course/modules/module-01/week-08/week_manifest.json`
+- `content/course/modules/module-01/week-09/activities.json`
+- `content/course/modules/module-01/week-09/asset_manifest.json`
+- `content/course/modules/module-01/week-09/audio_prompts.json`
+- `content/course/modules/module-01/week-09/image_prompts.json`
+- `content/course/modules/module-01/week-09/lesson_plan.md`
+- `content/course/modules/module-01/week-09/teacher_notes.md`
+- `content/course/modules/module-01/week-09/vocabulary.json`
+- `content/course/modules/module-01/week-09/week_manifest.json`
 - `docs/fashion-course-content-requirements.md`
 - `schemas/activities.schema.json`
 - `schemas/asset_manifest.schema.json`
@@ -90,7 +98,12 @@
 - None.
 
 ## Missing Assets
-- None.
+- m01w09-img-001 — A compact opener board with familiar tools such as ruler, measuring tape, pencil, scissors, and one or two visible pattern-piece clues so students can bridge from sewing actions into patternmaking language. — assets/images/module-01/week-09/m01w09-img-001.png
+- m01w09-img-002 — One combined board showing clear keyed examples of common pattern pieces and patternmaking tools for the main Week 9 matching task. — assets/images/module-01/week-09/m01w09-img-002.png
+- m01w09-img-003 — A clear visual board showing common measurements and pattern markings with visible keys for the main Week 9 measurement-and-mark matching task. — assets/images/module-01/week-09/m01w09-img-003.png
+- m01w09-img-004 — A reading board with six clearly separated process images for the Week 9 trace-a-pattern-piece reading task. — assets/images/module-01/week-09/m01w09-img-004.png
+- m01w09-img-005 — A reusable gallery with five clearly separated pattern-piece images for listening, writing, and speaking. — assets/images/module-01/week-09/m01w09-img-005.png
+- m01w09-aud-001 — A short Week 9 listening clip describing one simple pattern-piece preparation sequence with clear measurement, marking, and final-label details. — assets/audio/module-01/week-09/m01w09-aud-001.mp3
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.

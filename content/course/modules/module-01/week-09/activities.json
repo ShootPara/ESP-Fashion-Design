@@ -1,0 +1,2152 @@
+{
+  "week_id": "m01w09",
+  "activities": [
+    {
+      "activity_id": "m01w09-a01",
+      "week_id": "m01w09",
+      "sequence_number": 1,
+      "title": "Welcome Back: From Sewing to Patternmaking",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students bridge from Week 8 sewing language into Week 9 patternmaking language through a short review opener.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: From Sewing to Patternmaking",
+          "summary": "Look at the workspace and choose the best answer.",
+          "instructions": "Look at the patternmaking workspace board. Choose the correct answer for each short question.",
+          "success_criteria": [
+            "I can identify one tool.",
+            "I can identify one paper item.",
+            "I can notice one new patternmaking word."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "Use ___ to ___.",
+            "This is a ___ pattern piece."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: da costura para o patternmaking",
+          "summary": "Observe o espaco de patternmaking e escolha a melhor resposta.",
+          "instructions": "Observe o painel do espaco de patternmaking. Escolha a resposta correta para cada pergunta curta.",
+          "success_criteria": [
+            "Eu consigo identificar uma ferramenta.",
+            "Eu consigo identificar um item de papel.",
+            "Eu consigo perceber uma nova palavra de patternmaking."
+          ],
+          "sentence_frames": [
+            "This is ___.",
+            "Use ___ to ___.",
+            "This is a ___ pattern piece."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the opener short and supportive.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "patternmaking workspace bridge board"
+      ],
+      "vocabulary_refs": [
+        "m01w09-v004",
+        "m01w09-v007",
+        "m01w09-v034"
+      ],
+      "asset_refs": [
+        "m01w09-img-001"
+      ],
+      "input": {
+        "input_type": "patternmaking_workspace_preview_quiz",
+        "prompt_en": "Choose the best review and preview answer.",
+        "prompt_pt": "Escolha a melhor resposta de revisao e apresentacao.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which object is used to measure?",
+            "label_pt": "Qual objeto e usado para medir?",
+            "asset_id": "m01w09-img-001",
+            "options_en": [
+              "measuring tape",
+              "seam allowance",
+              "dart"
+            ],
+            "options_pt": [
+              "measuring tape",
+              "seam allowance",
+              "dart"
+            ],
+            "correct_answer": "measuring tape"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What paper do you see?",
+            "label_pt": "Que papel voce ve?",
+            "asset_id": "m01w09-img-001",
+            "options_en": [
+              "pattern paper",
+              "denim",
+              "lace"
+            ],
+            "options_pt": [
+              "pattern paper",
+              "denim",
+              "lace"
+            ],
+            "correct_answer": "pattern paper"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which tool draws a curve?",
+            "label_pt": "Qual ferramenta desenha uma curva?",
+            "asset_id": "m01w09-img-001",
+            "options_en": [
+              "French curve",
+              "pins",
+              "thread"
+            ],
+            "options_pt": [
+              "French curve",
+              "pins",
+              "thread"
+            ],
+            "correct_answer": "French curve"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which preview word means copiar a linha seguindo-a?",
+            "label_pt": "Qual palavra significa copiar a linha seguindo-a?",
+            "options_en": [
+              "trace",
+              "press",
+              "opaque"
+            ],
+            "options_pt": [
+              "trace",
+              "press",
+              "opaque"
+            ],
+            "correct_answer": "trace"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look first",
+          "student_action_en": "Look at the board before you answer.",
+          "student_action_pt": "Observe o painel antes de responder.",
+          "teacher_action": "Bridge from Week 8 sewing to Week 9 patternmaking.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose answers",
+          "student_action_en": "Choose the correct answers.",
+          "student_action_pt": "Escolha as respostas corretas.",
+          "teacher_action": "Keep the pace quick.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Four quick selections.",
+        "description_pt": "Quatro selecoes rapidas.",
+        "length_or_format": "4 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student answers all four items.",
+          "The student identifies the tool and paper items.",
+          "The student notices one preview word."
+        ],
+        "completion_criteria_pt": [
+          "O aluno responde os quatro itens.",
+          "O aluno identifica os itens de ferramenta e papel.",
+          "O aluno percebe uma palavra de apresentacao."
+        ],
+        "checklist_en": [
+          "I looked at the board.",
+          "I answered all four items.",
+          "I checked the preview word."
+        ],
+        "checklist_pt": [
+          "Eu observei o painel.",
+          "Eu respondi os quatro itens.",
+          "Eu conferi a palavra de apresentacao."
+        ],
+        "rubric": [],
+        "model_response_en": "measuring tape, pattern paper, French curve, trace",
+        "model_response_pt": "measuring tape, pattern paper, French curve, trace",
+        "common_errors": [
+          "Choosing a marking instead of a tool.",
+          "Treating the preview word like the main task."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which answer matches the visible object?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual resposta combina com o objeto visivel?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the Portuguese support word quietly first."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence."
+        ]
+      },
+      "extension_options": [
+        "Say one more patternmaking word after the opener."
+      ],
+      "notes_for_app_design": "Render as one compact opener board with four single-choice items. Save selections only."
+    },
+    {
+      "activity_id": "m01w09-a02",
+      "week_id": "m01w09",
+      "sequence_number": 2,
+      "title": "Patternmaking Vocabulary: Pieces and Tools",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students complete one main keyed matching set for pattern pieces and tools, then one short support item.",
+      "student_facing": {
+        "en": {
+          "title": "Patternmaking Vocabulary: Pieces and Tools",
+          "summary": "Match the pattern pieces and tools.",
+          "instructions": "Match each visible key on the board to the correct English word. Then do the short support items.",
+          "success_criteria": [
+            "I can match common pattern pieces.",
+            "I can match simple patternmaking tools.",
+            "I can use one short support item."
+          ],
+          "sentence_frames": [
+            "This is a pattern piece.",
+            "This is the skirt front.",
+            "Use the ruler."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Vocabulario de patternmaking: pecas e ferramentas",
+          "summary": "Relacione as pecas e ferramentas de patternmaking.",
+          "instructions": "Relacione cada chave visivel do painel a palavra correta em ingles. Depois faca os itens curtos de apoio.",
+          "success_criteria": [
+            "Eu consigo relacionar pecas comuns de patternmaking.",
+            "Eu consigo relacionar ferramentas simples de patternmaking.",
+            "Eu consigo usar um item curto de apoio."
+          ],
+          "sentence_frames": [
+            "This is a pattern piece.",
+            "This is the skirt front.",
+            "Use the ruler."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on the matching set.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "pattern pieces and tools board"
+      ],
+      "vocabulary_refs": [
+        "m01w09-v003",
+        "m01w09-v004",
+        "m01w09-v007",
+        "m01w09-v008",
+        "m01w09-v009",
+        "m01w09-v010",
+        "m01w09-v011",
+        "m01w09-v013",
+        "m01w09-v015",
+        "m01w09-v041"
+      ],
+      "asset_refs": [
+        "m01w09-img-002"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the board keys to the correct English patternmaking words.",
+        "prompt_pt": "Relacione as chaves do painel as palavras corretas de patternmaking em ingles.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match keys A to J to the correct words.",
+            "label_pt": "Relacione as chaves A a J as palavras corretas.",
+            "asset_id": "m01w09-img-002",
+            "match_terms_en": [
+              "pattern piece",
+              "pattern paper",
+              "front bodice",
+              "back bodice",
+              "sleeve",
+              "skirt front",
+              "waistband",
+              "pocket",
+              "ruler",
+              "French curve"
+            ],
+            "match_terms_pt": [
+              "peca do pattern",
+              "papel de pattern",
+              "frente do corpo",
+              "costas do corpo",
+              "manga",
+              "frente da saia",
+              "cos",
+              "bolso",
+              "regua",
+              "curva francesa"
+            ],
+            "matches": [
+              {
+                "image_key": "A",
+                "answer_en": "pattern piece",
+                "answer_pt": "peca do pattern"
+              },
+              {
+                "image_key": "B",
+                "answer_en": "pattern paper",
+                "answer_pt": "papel de pattern"
+              },
+              {
+                "image_key": "C",
+                "answer_en": "front bodice",
+                "answer_pt": "frente do corpo"
+              },
+              {
+                "image_key": "D",
+                "answer_en": "back bodice",
+                "answer_pt": "costas do corpo"
+              },
+              {
+                "image_key": "E",
+                "answer_en": "sleeve",
+                "answer_pt": "manga"
+              },
+              {
+                "image_key": "F",
+                "answer_en": "skirt front",
+                "answer_pt": "frente da saia"
+              },
+              {
+                "image_key": "G",
+                "answer_en": "waistband",
+                "answer_pt": "cos"
+              },
+              {
+                "image_key": "H",
+                "answer_en": "pocket",
+                "answer_pt": "bolso"
+              },
+              {
+                "image_key": "I",
+                "answer_en": "ruler",
+                "answer_pt": "regua"
+              },
+              {
+                "image_key": "J",
+                "answer_en": "French curve",
+                "answer_pt": "curva francesa"
+              }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support.",
+            "label_pt": "Relacione o apoio em portugues.",
+            "pairs": [
+              {
+                "pt": "manga",
+                "en": "sleeve"
+              },
+              {
+                "pt": "frente da saia",
+                "en": "skirt front"
+              },
+              {
+                "pt": "regua",
+                "en": "ruler"
+              },
+              {
+                "pt": "curva francesa",
+                "en": "French curve"
+              }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "This is a ___ pattern piece.",
+            "sentence_frame_pt": "This is a ___ pattern piece.",
+            "word_bank": [
+              "sleeve",
+              "opaque",
+              "stitch"
+            ],
+            "accepted_answers": [
+              "sleeve"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the board",
+          "student_action_en": "Look at the visible keys before you match.",
+          "student_action_pt": "Observe as chaves visiveis antes de relacionar.",
+          "teacher_action": "Explain that the main task is the keyed matching set.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the words",
+          "student_action_en": "Match the keys to the correct English words.",
+          "student_action_pt": "Relacione as chaves as palavras corretas em ingles.",
+          "teacher_action": "Monitor pattern versus pattern piece.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use support items",
+          "student_action_en": "Complete the short support items.",
+          "student_action_pt": "Complete os itens curtos de apoio.",
+          "teacher_action": "Keep the support items secondary.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "One saved matching set plus short support practice.",
+        "description_pt": "Um conjunto salvo de relacao mais pratica curta de apoio.",
+        "length_or_format": "1 scored image-match set plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main matching set.",
+          "The student connects the images to the English words.",
+          "The student uses one short support item."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relacao.",
+          "O aluno relaciona as imagens as palavras em ingles.",
+          "O aluno usa um item curto de apoio."
+        ],
+        "checklist_en": [
+          "I matched the main images.",
+          "I checked the English words.",
+          "I used the support item."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as imagens principais.",
+          "Eu conferi as palavras em ingles.",
+          "Eu usei o item de apoio."
+        ],
+        "rubric": [],
+        "model_response_en": "A pattern piece, B pattern paper, C front bodice, D back bodice, E sleeve, F skirt front, G waistband, H pocket, I ruler, J French curve",
+        "model_response_pt": "A pattern piece, B pattern paper, C front bodice, D back bodice, E sleeve, F skirt front, G waistband, H pocket, I ruler, J French curve",
+        "common_errors": [
+          "Choosing pattern when the answer should be pattern piece.",
+          "Confusing a garment part with a tool."
+        ],
+        "feedback_prompts_en": [
+          "Which image shows a pattern piece, and which image shows a tool?"
+        ],
+        "feedback_prompts_pt": [
+          "Qual imagem mostra uma peca de pattern e qual imagem mostra uma ferramenta?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the Portuguese support word before matching."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence."
+        ]
+      },
+      "extension_options": [
+        "Say one more piece plus purpose phrase after the matching set."
+      ],
+      "notes_for_app_design": "Render as one main keyed image-matching task with the board visible. Save the matching set as the primary output."
+    },
+    {
+      "activity_id": "m01w09-a03",
+      "week_id": "m01w09",
+      "sequence_number": 3,
+      "title": "Measurements and Pattern Marks",
+      "activity_type": "visual_analysis",
+      "activity_type_custom": "",
+      "summary": "Students complete one main keyed matching set for measurements and pattern marks, then one short support item.",
+      "student_facing": {
+        "en": {
+          "title": "Measurements and Pattern Marks",
+          "summary": "Match the measurements and pattern marks.",
+          "instructions": "Match each visible key on the board to the correct English word. Then do the short support sentence.",
+          "success_criteria": [
+            "I can match body measurements.",
+            "I can match common pattern marks.",
+            "I can use one short support sentence."
+          ],
+          "sentence_frames": [
+            "Measure the waist.",
+            "Mark the grainline.",
+            "This is the side seam."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Medidas e marcacoes do pattern",
+          "summary": "Relacione as medidas e marcacoes do pattern.",
+          "instructions": "Relacione cada chave visivel do painel a palavra correta em ingles. Depois faca a frase curta de apoio.",
+          "success_criteria": [
+            "Eu consigo relacionar medidas do corpo.",
+            "Eu consigo relacionar marcacoes comuns do pattern.",
+            "Eu consigo usar uma frase curta de apoio."
+          ],
+          "sentence_frames": [
+            "Measure the waist.",
+            "Mark the grainline.",
+            "This is the side seam."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on the keyed matching set.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "measurements and pattern marks board"
+      ],
+      "vocabulary_refs": [
+        "m01w09-v018",
+        "m01w09-v019",
+        "m01w09-v024",
+        "m01w09-v025",
+        "m01w09-v026",
+        "m01w09-v027",
+        "m01w09-v028"
+      ],
+      "asset_refs": [
+        "m01w09-img-003"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the board keys to the correct English measurement and pattern-mark words.",
+        "prompt_pt": "Relacione as chaves do painel as palavras corretas de medida e marcacao do pattern em ingles.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match keys A to J to the correct words.",
+            "label_pt": "Relacione as chaves A a J as palavras corretas.",
+            "asset_id": "m01w09-img-003",
+            "match_terms_en": [
+              "bust",
+              "waist",
+              "hip",
+              "shoulder",
+              "armhole",
+              "grainline",
+              "fold line",
+              "seam allowance",
+              "notch",
+              "dart"
+            ],
+            "match_terms_pt": [
+              "busto",
+              "cintura",
+              "quadril",
+              "ombro",
+              "cava",
+              "fio do tecido",
+              "linha de dobra",
+              "margem de costura",
+              "pique",
+              "pence"
+            ],
+            "matches": [
+              {
+                "image_key": "A",
+                "answer_en": "bust",
+                "answer_pt": "busto"
+              },
+              {
+                "image_key": "B",
+                "answer_en": "waist",
+                "answer_pt": "cintura"
+              },
+              {
+                "image_key": "C",
+                "answer_en": "hip",
+                "answer_pt": "quadril"
+              },
+              {
+                "image_key": "D",
+                "answer_en": "shoulder",
+                "answer_pt": "ombro"
+              },
+              {
+                "image_key": "E",
+                "answer_en": "armhole",
+                "answer_pt": "cava"
+              },
+              {
+                "image_key": "F",
+                "answer_en": "grainline",
+                "answer_pt": "fio do tecido"
+              },
+              {
+                "image_key": "G",
+                "answer_en": "fold line",
+                "answer_pt": "linha de dobra"
+              },
+              {
+                "image_key": "H",
+                "answer_en": "seam allowance",
+                "answer_pt": "margem de costura"
+              },
+              {
+                "image_key": "I",
+                "answer_en": "notch",
+                "answer_pt": "pique"
+              },
+              {
+                "image_key": "J",
+                "answer_en": "dart",
+                "answer_pt": "pence"
+              }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "Mark the ___.",
+            "sentence_frame_pt": "Mark the ___.",
+            "word_bank": [
+              "grainline",
+              "leather",
+              "press"
+            ],
+            "accepted_answers": [
+              "grainline"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the board",
+          "student_action_en": "Look at the board before you match.",
+          "student_action_pt": "Observe o painel antes de relacionar.",
+          "teacher_action": "Tell students that some keys show body areas and some show paper marks.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the words",
+          "student_action_en": "Match the visible keys to the correct English words.",
+          "student_action_pt": "Relacione as chaves visiveis as palavras corretas em ingles.",
+          "teacher_action": "Monitor fold line versus grainline and waist versus hip.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use support sentence",
+          "student_action_en": "Complete the short support sentence.",
+          "student_action_pt": "Complete a frase curta de apoio.",
+          "teacher_action": "Keep the support item secondary.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "One saved matching set plus short support practice.",
+        "description_pt": "Um conjunto salvo de relacao mais pratica curta de apoio.",
+        "length_or_format": "1 scored image-match set plus follow-up support practice"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main matching set.",
+          "The student distinguishes body measurements from pattern marks.",
+          "The student uses the support item."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relacao.",
+          "O aluno distingue medidas do corpo de marcacoes do pattern.",
+          "O aluno usa o item de apoio."
+        ],
+        "checklist_en": [
+          "I matched the main visual keys.",
+          "I checked the difference between body areas and paper marks.",
+          "I used the support item."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as principais chaves visuais.",
+          "Eu conferi a diferenca entre areas do corpo e marcas no papel.",
+          "Eu usei o item de apoio."
+        ],
+        "rubric": [],
+        "model_response_en": "A bust, B waist, C hip, D shoulder, E armhole, F grainline, G fold line, H seam allowance, I notch, J dart",
+        "model_response_pt": "A bust, B waist, C hip, D shoulder, E armhole, F grainline, G fold line, H seam allowance, I notch, J dart",
+        "common_errors": [
+          "Choosing grainline when the key shows the fold edge.",
+          "Confusing a body measurement with a paper mark."
+        ],
+        "feedback_prompts_en": [
+          "Is this key a body area or a paper mark?"
+        ],
+        "feedback_prompts_pt": [
+          "Esta chave mostra uma area do corpo ou uma marca no papel?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students match one section at a time."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence after matching."
+        ]
+      },
+      "extension_options": [
+        "Point to one key and say the English word aloud."
+      ],
+      "notes_for_app_design": "Render as one main keyed image-matching task with the board visible. Save the matching set as the primary output."
+    },
+    {
+      "activity_id": "m01w09-a04",
+      "week_id": "m01w09",
+      "sequence_number": 4,
+      "title": "Read: Trace a Simple Pattern Piece",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read one short patternmaking procedure and answer clear app-checked questions about order and detail.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Trace a Simple Pattern Piece",
+          "summary": "Read the short text and choose the correct answer.",
+          "instructions": "Look at the sequence board first. Then read the short text and choose the correct answer for each question.",
+          "success_criteria": [
+            "I can follow a short patternmaking process.",
+            "I can connect the text to the visible keys.",
+            "I can find one detail about marking or checking."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Finally, check ___."
+          ],
+          "word_bank_label": "Helpful words"
+        },
+        "pt": {
+          "title": "Leia: trace uma peca simples de pattern",
+          "summary": "Leia o texto curto e escolha a resposta correta.",
+          "instructions": "Observe primeiro o painel de sequencia. Depois leia o texto curto e escolha a resposta correta para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo seguir um processo curto de patternmaking.",
+            "Eu consigo ligar o texto as chaves visiveis.",
+            "Eu consigo encontrar um detalhe sobre marcacao ou verificacao."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Finally, check ___."
+          ],
+          "word_bank_label": "Palavras de apoio"
+        }
+      },
+      "teacher_instructions": "Keep the reading short and concrete. Use app-checked questions only.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "simple patternmaking reading sequence board"
+      ],
+      "vocabulary_refs": [
+        "m01w09-v024",
+        "m01w09-v025",
+        "m01w09-v026",
+        "m01w09-v034",
+        "m01w09-v036"
+      ],
+      "asset_refs": [
+        "m01w09-img-004"
+      ],
+      "input": {
+        "input_type": "reading_with_keyed_sequence",
+        "prompt_en": "Read the short patternmaking text and choose the correct answers.",
+        "prompt_pt": "Leia o texto curto de patternmaking e escolha as respostas corretas.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which key shows the first step?",
+            "label_pt": "Qual chave mostra a primeira etapa?",
+            "asset_id": "m01w09-img-004",
+            "options_en": [
+              "A",
+              "C",
+              "F"
+            ],
+            "options_pt": [
+              "A",
+              "C",
+              "F"
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What do you mark after tracing the outside line?",
+            "label_pt": "O que voce marca depois de tracar a linha de fora?",
+            "asset_id": "m01w09-img-004",
+            "options_en": [
+              "the grainline and the fold line",
+              "the denim and the lace",
+              "the pocket and the zipper"
+            ],
+            "options_pt": [
+              "the grainline and the fold line",
+              "the denim and the lace",
+              "the pocket and the zipper"
+            ],
+            "correct_answer": "the grainline and the fold line"
+          },
+          {
+            "response_type": "true_false",
+            "label_en": "True or false: The text says to add seam allowance before tracing.",
+            "label_pt": "Verdadeiro ou falso: o texto diz para acrescentar seam allowance antes de tracar.",
+            "options_en": [
+              "true",
+              "false"
+            ],
+            "options_pt": [
+              "verdadeiro",
+              "falso"
+            ],
+            "correct_answer": "false"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which word means copiar a linha seguindo-a?",
+            "label_pt": "Qual palavra significa copiar a linha seguindo-a?",
+            "options_en": [
+              "trace",
+              "press",
+              "opaque"
+            ],
+            "options_pt": [
+              "trace",
+              "press",
+              "opaque"
+            ],
+            "correct_answer": "trace"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What do you check at the end?",
+            "label_pt": "O que voce verifica no final?",
+            "options_en": [
+              "the measurement",
+              "the palette",
+              "the mannequin"
+            ],
+            "options_pt": [
+              "the measurement",
+              "the palette",
+              "the mannequin"
+            ],
+            "correct_answer": "the measurement"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the sequence board",
+          "student_action_en": "Look at the keys before you read.",
+          "student_action_pt": "Observe as chaves antes de ler.",
+          "teacher_action": "Tell students the board will help them follow the text.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Read and answer",
+          "student_action_en": "Read the short text and choose the correct answers.",
+          "student_action_pt": "Leia o texto curto e escolha as respostas corretas.",
+          "teacher_action": "Encourage students to look back at the text for exact details.",
+          "estimated_minutes": 7,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the final detail",
+          "student_action_en": "Use the last question to confirm the final check.",
+          "student_action_pt": "Use a ultima pergunta para confirmar a verificacao final.",
+          "teacher_action": "Keep the focus on visible evidence.",
+          "estimated_minutes": 2,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_selections",
+        "description_en": "Five app-checked reading selections.",
+        "description_pt": "Cinco selecoes de leitura verificadas pelo app.",
+        "length_or_format": "5 app-checked answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student identifies the first step.",
+          "The student finds the main marking detail.",
+          "The student identifies the final check."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica a primeira etapa.",
+          "O aluno encontra o principal detalhe de marcacao.",
+          "O aluno identifica a verificacao final."
+        ],
+        "checklist_en": [
+          "I looked at the sequence board first.",
+          "I used the text to answer the order questions.",
+          "I checked the final detail."
+        ],
+        "checklist_pt": [
+          "Eu observei primeiro o painel de sequencia.",
+          "Eu usei o texto para responder as perguntas de ordem.",
+          "Eu conferi o detalhe final."
+        ],
+        "rubric": [],
+        "model_response_en": "A, the grainline and the fold line, false, trace, the measurement",
+        "model_response_pt": "A, the grainline and the fold line, false, trace, the measurement",
+        "common_errors": [
+          "Answering from memory instead of the text.",
+          "Choosing seam allowance as the first marked detail."
+        ],
+        "feedback_prompts_en": [
+          "Which word tells you what happens first, next, and finally?"
+        ],
+        "feedback_prompts_pt": [
+          "Qual palavra mostra o que acontece primeiro, depois e finalmente?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the board key while they reread."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra process sentence aloud."
+        ]
+      },
+      "extension_options": [
+        "Choose one key and say the matching process step aloud."
+      ],
+      "notes_for_app_design": "Render as a short text plus a six-key sequence board. Save selection answers only."
+    },
+    {
+      "activity_id": "m01w09-a05",
+      "week_id": "m01w09",
+      "sequence_number": 5,
+      "title": "Listen: Pattern Piece Instructions",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to one short pattern-piece instruction sequence and answer clear questions tied to the shared image gallery.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Pattern Piece Instructions",
+          "summary": "Listen to the short instructions and choose the correct answer.",
+          "instructions": "Look at image A to image E first. Then listen to the audio and choose the correct answer for each question. You can replay the audio.",
+          "success_criteria": [
+            "I can follow a short patternmaking instruction sequence.",
+            "I can connect each question to the correct image key or detail.",
+            "I can hear the main measurement, marking, and final label."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Finally, check ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Escute: instrucoes para a peca de pattern",
+          "summary": "Escute as instrucoes curtas e escolha a resposta correta.",
+          "instructions": "Observe primeiro as imagens image A a image E. Depois escute o audio e escolha a resposta correta para cada pergunta. Voce pode repetir o audio.",
+          "success_criteria": [
+            "Eu consigo seguir uma sequencia curta de instrucoes de patternmaking.",
+            "Eu consigo ligar cada pergunta a chave correta da imagem ou a um detalhe.",
+            "Eu consigo ouvir a measurement principal, a marcacao e o rotulo final."
+          ],
+          "sentence_frames": [
+            "First, ___.",
+            "Then, ___.",
+            "Finally, check ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the audio script, gallery keys, questions, options, and correct answers fully aligned.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "reusable pattern-piece gallery",
+        "Week 9 listening audio"
+      ],
+      "vocabulary_refs": [
+        "m01w09-v011",
+        "m01w09-v018",
+        "m01w09-v024",
+        "m01w09-v025",
+        "m01w09-v027",
+        "m01w09-v031",
+        "m01w09-v040"
+      ],
+      "asset_refs": [
+        "m01w09-img-005",
+        "m01w09-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_with_keyed_gallery",
+        "prompt_en": "Listen to the patternmaking instructions and choose the correct image key or detail answer.",
+        "prompt_pt": "Escute as instrucoes de patternmaking e escolha a chave da imagem ou o detalhe correto.",
+        "items": [
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image is the pattern piece in the audio?",
+            "label_pt": "Qual imagem mostra a peca de pattern do audio?",
+            "asset_id": "m01w09-aud-001",
+            "image_asset_id": "m01w09-img-005",
+            "options_en": [
+              "image B",
+              "image D",
+              "image E"
+            ],
+            "options_pt": [
+              "image B",
+              "image D",
+              "image E"
+            ],
+            "correct_answer": "image D"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What measurement does the teacher check first?",
+            "label_pt": "Que measurement o professor verifica primeiro?",
+            "asset_id": "m01w09-aud-001",
+            "image_asset_id": "m01w09-img-005",
+            "options_en": [
+              "the waist measurement",
+              "the shoulder measurement",
+              "the sleeve length"
+            ],
+            "options_pt": [
+              "the waist measurement",
+              "the shoulder measurement",
+              "the sleeve length"
+            ],
+            "correct_answer": "the waist measurement"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which two marks are named together?",
+            "label_pt": "Quais duas marcacoes aparecem juntas?",
+            "asset_id": "m01w09-aud-001",
+            "image_asset_id": "m01w09-img-005",
+            "options_en": [
+              "the grainline and the fold line",
+              "the bust and the hip",
+              "the lace and the pocket"
+            ],
+            "options_pt": [
+              "the grainline and the fold line",
+              "the bust and the hip",
+              "the lace and the pocket"
+            ],
+            "correct_answer": "the grainline and the fold line"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What is the final label?",
+            "label_pt": "Qual e o rotulo final?",
+            "asset_id": "m01w09-aud-001",
+            "image_asset_id": "m01w09-img-005",
+            "options_en": [
+              "skirt front, size medium",
+              "front bodice, size small",
+              "sleeve, size large"
+            ],
+            "options_pt": [
+              "skirt front, size medium",
+              "front bodice, size small",
+              "sleeve, size large"
+            ],
+            "correct_answer": "skirt front, size medium"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What does the teacher check finally?",
+            "label_pt": "O que o professor verifica finalmente?",
+            "asset_id": "m01w09-aud-001",
+            "image_asset_id": "m01w09-img-005",
+            "options_en": [
+              "the side seam and one notch",
+              "the palette and the line color",
+              "the denim and the press line"
+            ],
+            "options_pt": [
+              "the side seam and one notch",
+              "the palette and the line color",
+              "the denim and the press line"
+            ],
+            "correct_answer": "the side seam and one notch"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery first",
+          "student_action_en": "Look at image A to image E before you play the audio.",
+          "student_action_pt": "Observe as imagens image A a image E antes de tocar o audio.",
+          "teacher_action": "Tell students to notice the visible pattern-piece options before listening.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen and choose",
+          "student_action_en": "Listen to the short instructions and choose the correct answer.",
+          "student_action_pt": "Escute as instrucoes curtas e escolha a resposta correta.",
+          "teacher_action": "Allow replay and remind students to connect the spoken details to the visible gallery.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the details",
+          "student_action_en": "Answer the marking, label, and final-check questions.",
+          "student_action_pt": "Responda as perguntas sobre marcacao, rotulo e verificacao final.",
+          "teacher_action": "Keep the focus on exact audio details.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Five app-checked listening selections.",
+        "description_pt": "Cinco selecoes de escuta verificadas pelo app.",
+        "length_or_format": "5 app-checked answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student identifies the correct image.",
+          "The student answers the measurement, marking, and label questions.",
+          "The student identifies the final check."
+        ],
+        "completion_criteria_pt": [
+          "O aluno identifica a imagem correta.",
+          "O aluno responde as perguntas de measurement, marcacao e rotulo.",
+          "O aluno identifica a verificacao final."
+        ],
+        "checklist_en": [
+          "I looked at the gallery before listening.",
+          "I used the image keys while listening.",
+          "I listened again to check the details."
+        ],
+        "checklist_pt": [
+          "Eu observei a galeria antes de escutar.",
+          "Eu usei as chaves das imagens enquanto escutava.",
+          "Eu escutei novamente para conferir os detalhes."
+        ],
+        "rubric": [],
+        "model_response_en": "image D; the waist measurement; the grainline and the fold line; skirt front, size medium; the side seam and one notch",
+        "model_response_pt": "image D; the waist measurement; the grainline and the fold line; skirt front, size medium; the side seam and one notch",
+        "common_errors": [
+          "Choosing the wrong image because it looks more familiar.",
+          "Answering from the picture only instead of the audio."
+        ],
+        "feedback_prompts_en": [
+          "Which words tell you the image key, the first measurement, and the final check?"
+        ],
+        "feedback_prompts_pt": [
+          "Quais palavras mostram a chave da imagem, a primeira measurement e a verificacao final?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the image key while listening the second time."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence after listening."
+        ]
+      },
+      "extension_options": [
+        "Choose one image key and say one matching detail aloud."
+      ],
+      "notes_for_app_design": "Render as an audio player plus a keyed gallery with image A to image E visible at all times. Allow replay. Reveal the script or transcript only after the first attempt, and keep that script stored only in audio_prompts.json. Save the 5 selection answers as the only scored output and check them against the explicit correct answers already in this activity. Do not create a separate transcript asset."
+    },
+    {
+      "activity_id": "m01w09-a06",
+      "week_id": "m01w09",
+      "sequence_number": 6,
+      "title": "Phrase Practice: Measure, Mark, Trace, Label, Check",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students complete a controlled fill-blank phrase set with explicit word-bank support.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: Measure, Mark, Trace, Label, Check",
+          "summary": "Use the word bank and complete the patternmaking phrases.",
+          "instructions": "Read each short patternmaking frame and complete it with the best word or phrase from the visible word bank.",
+          "success_criteria": [
+            "I can use common patternmaking verbs.",
+            "I can complete one purpose phrase.",
+            "I can keep my answers short and accurate."
+          ],
+          "sentence_frames": [
+            "Measure the ___.",
+            "Mark the ___.",
+            "This piece is for a ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Pratica de frases: measure, mark, trace, label, check",
+          "summary": "Use o banco de palavras e complete as frases de patternmaking.",
+          "instructions": "Leia cada estrutura curta de patternmaking e complete-a com a melhor palavra ou expressao do banco de palavras visivel.",
+          "success_criteria": [
+            "Eu consigo usar verbos comuns de patternmaking.",
+            "Eu consigo completar uma frase de finalidade.",
+            "Eu consigo manter as respostas curtas e corretas."
+          ],
+          "sentence_frames": [
+            "Measure the ___.",
+            "Mark the ___.",
+            "This piece is for a ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output focused on fill-blank phrase completion only.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "vocabulary",
+        "writing"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "visible phrase frames"
+      ],
+      "vocabulary_refs": [
+        "m01w09-v018",
+        "m01w09-v024",
+        "m01w09-v032",
+        "m01w09-v033",
+        "m01w09-v034",
+        "m01w09-v035",
+        "m01w09-v036",
+        "m01w09-v040"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "word_bank_fill_blank_set",
+        "prompt_en": "Complete each short patternmaking phrase with the correct answer from the word bank.",
+        "prompt_pt": "Complete cada frase curta de patternmaking com a resposta correta do banco de palavras.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Phrase 1",
+            "label_pt": "Frase 1",
+            "sentence_frame_en": "Measure the ___.",
+            "sentence_frame_pt": "Measure the ___.",
+            "word_bank": [
+              "waist",
+              "palette",
+              "lace"
+            ],
+            "accepted_answers": [
+              "waist"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Phrase 2",
+            "label_pt": "Frase 2",
+            "sentence_frame_en": "Mark the ___.",
+            "sentence_frame_pt": "Mark the ___.",
+            "word_bank": [
+              "grainline",
+              "denim",
+              "button"
+            ],
+            "accepted_answers": [
+              "grainline"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Phrase 3",
+            "label_pt": "Frase 3",
+            "sentence_frame_en": "Trace the pattern piece on the ___.",
+            "sentence_frame_pt": "Trace the pattern piece on the ___.",
+            "word_bank": [
+              "pattern paper",
+              "mannequin",
+              "silhouette"
+            ],
+            "accepted_answers": [
+              "pattern paper"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Phrase 4",
+            "label_pt": "Frase 4",
+            "sentence_frame_en": "Label the piece with the name and ___.",
+            "sentence_frame_pt": "Label the piece with the name and ___.",
+            "word_bank": [
+              "size",
+              "texture",
+              "music"
+            ],
+            "accepted_answers": [
+              "size"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Phrase 5",
+            "label_pt": "Frase 5",
+            "sentence_frame_en": "Finally, check the ___.",
+            "sentence_frame_pt": "Finally, check the ___.",
+            "word_bank": [
+              "measurement",
+              "palette",
+              "stitch board"
+            ],
+            "accepted_answers": [
+              "measurement"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Phrase 6",
+            "label_pt": "Frase 6",
+            "sentence_frame_en": "This piece is for a ___.",
+            "sentence_frame_pt": "This piece is for a ___.",
+            "word_bank": [
+              "skirt",
+              "wall",
+              "needle"
+            ],
+            "accepted_answers": [
+              "skirt"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the phrase frames",
+          "student_action_en": "Read the short phrase frames before you choose any answers.",
+          "student_action_pt": "Leia as estruturas curtas das frases antes de escolher respostas.",
+          "teacher_action": "Remind students that each answer comes from the visible word bank.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the phrases",
+          "student_action_en": "Choose the correct word or phrase for each frame.",
+          "student_action_pt": "Escolha a palavra ou expressao correta para cada estrutura.",
+          "teacher_action": "Monitor pattern paper versus pattern piece and measurement versus marking.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check the final phrase",
+          "student_action_en": "Read all six completed phrases again before you submit.",
+          "student_action_pt": "Leia novamente as seis frases completas antes de enviar.",
+          "teacher_action": "Encourage students to check if each answer fits the frame.",
+          "estimated_minutes": 2,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "fill_blank_phrases",
+        "description_en": "Six app-checked patternmaking phrase completions.",
+        "description_pt": "Seis conclusoes de frases de patternmaking verificadas pelo app.",
+        "length_or_format": "6 fill-blank answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes all six phrase frames.",
+          "The student uses the visible word bank accurately.",
+          "The student keeps the answers controlled."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as seis estruturas de frase.",
+          "O aluno usa o banco de palavras visivel com precisao.",
+          "O aluno mantem as respostas controladas."
+        ],
+        "checklist_en": [
+          "I completed all six phrase frames.",
+          "I used the word bank carefully.",
+          "I checked if each answer fits the frame."
+        ],
+        "checklist_pt": [
+          "Eu completei as seis estruturas de frase.",
+          "Eu usei o banco de palavras com atencao.",
+          "Eu conferi se cada resposta combina com a estrutura."
+        ],
+        "rubric": [],
+        "model_response_en": "waist, grainline, pattern paper, size, measurement, skirt",
+        "model_response_pt": "waist, grainline, pattern paper, size, measurement, skirt",
+        "common_errors": [
+          "Choosing a familiar fashion word that does not fit the frame.",
+          "Mixing up measurement words and paper words."
+        ],
+        "feedback_prompts_en": [
+          "Which word makes sense in this frame?"
+        ],
+        "feedback_prompts_pt": [
+          "Qual palavra faz sentido nessa estrutura?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students cover the extra distractor words after each choice."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one completed phrase aloud."
+        ]
+      },
+      "extension_options": [
+        "Choose one completed phrase and turn it into a full sentence."
+      ],
+      "notes_for_app_design": "Render as a fill-blank phrase set with a visible word bank per item. Save fill-blank answers as the primary output."
+    },
+    {
+      "activity_id": "m01w09-a07",
+      "week_id": "m01w09",
+      "sequence_number": 7,
+      "title": "Basic Pattern Piece Description Card",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students produce the main Week 9 artifact by completing a short structured description card with 6 required lines and 1 optional challenge line.",
+      "student_facing": {
+        "en": {
+          "title": "Basic Pattern Piece Description Card",
+          "summary": "Use the shared pattern-piece gallery and complete a short description card.",
+          "instructions": "Use the shared pattern-piece gallery from image A to image E as your visual reference. Choose one pattern piece. Complete the 6 required sentence-frame lines. Add the challenge line only if you want extra practice.",
+          "success_criteria": [
+            "I can complete the required description lines.",
+            "I can use pattern-piece words and process verbs in short English sentences.",
+            "I can revise one line after teacher feedback."
+          ],
+          "sentence_frames": [
+            "Line 1: This is a ___ pattern piece.",
+            "Line 2: This piece is for a ___.",
+            "Line 3: It has a ___ and a ___.",
+            "Line 4: First, ___.",
+            "Line 5: Then, ___.",
+            "Line 6: Finally, check ___.",
+            "Optional challenge: This piece is on the fold because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Cartao basico de descricao da peca de pattern",
+          "summary": "Use a galeria compartilhada de pattern piece e complete um cartao curto de descricao.",
+          "instructions": "Use a galeria compartilhada com as imagens image A a image E como referencia visual. Escolha uma peca de pattern. Complete as 6 linhas obrigatorias de frases-modelo. Acrescente a linha de desafio apenas se voce quiser pratica extra.",
+          "success_criteria": [
+            "Eu consigo completar as linhas obrigatorias da descricao.",
+            "Eu consigo usar palavras de pattern piece e verbos de processo em frases curtas em ingles.",
+            "Eu consigo revisar uma linha depois do feedback do professor."
+          ],
+          "sentence_frames": [
+            "Linha 1: This is a ___ pattern piece.",
+            "Linha 2: This piece is for a ___.",
+            "Linha 3: It has a ___ and a ___.",
+            "Linha 4: First, ___.",
+            "Linha 5: Then, ___.",
+            "Linha 6: Finally, check ___.",
+            "Desafio opcional: This piece is on the fold because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the task structured and line-based. Do not turn it into a paragraph or word-count task.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "vocabulary",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "reusable pattern-piece gallery",
+        "description card sentence frames"
+      ],
+      "vocabulary_refs": [
+        "m01w09-v003",
+        "m01w09-v011",
+        "m01w09-v024",
+        "m01w09-v025",
+        "m01w09-v032",
+        "m01w09-v033",
+        "m01w09-v034",
+        "m01w09-v036",
+        "m01w09-v038",
+        "m01w09-v040"
+      ],
+      "asset_refs": [
+        "m01w09-img-005"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Use the shared pattern-piece gallery and complete the required description-card lines.",
+        "prompt_pt": "Use a galeria compartilhada de pattern piece e complete as linhas obrigatorias do cartao de descricao.",
+        "items": [
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 1: Name the pattern piece.",
+            "label_pt": "Linha 1: nomeie a peca de pattern.",
+            "sentence_frame_en": "This is a ___ pattern piece.",
+            "sentence_frame_pt": "This is a ___ pattern piece."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 2: Say what garment it is for.",
+            "label_pt": "Linha 2: diga para que roupa ela serve.",
+            "sentence_frame_en": "This piece is for a ___.",
+            "sentence_frame_pt": "This piece is for a ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 3: Name two markings or locations.",
+            "label_pt": "Linha 3: nomeie duas marcacoes ou localizacoes.",
+            "sentence_frame_en": "It has a ___ and a ___.",
+            "sentence_frame_pt": "It has a ___ and a ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 4: Write the first action.",
+            "label_pt": "Linha 4: escreva a primeira acao.",
+            "sentence_frame_en": "First, ___.",
+            "sentence_frame_pt": "First, ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 5: Write the next action.",
+            "label_pt": "Linha 5: escreva a proxima acao.",
+            "sentence_frame_en": "Then, ___.",
+            "sentence_frame_pt": "Then, ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 6: Add the final check.",
+            "label_pt": "Linha 6: acrescente a verificacao final.",
+            "sentence_frame_en": "Finally, check ___.",
+            "sentence_frame_pt": "Finally, check ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Optional challenge line",
+            "label_pt": "Linha de desafio opcional",
+            "sentence_frame_en": "This piece is on the fold because ___.",
+            "sentence_frame_pt": "This piece is on the fold because ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the shared gallery",
+          "student_action_en": "Look at the shared pattern-piece gallery before you start writing.",
+          "student_action_pt": "Observe a galeria compartilhada de pattern piece antes de comecar a escrever.",
+          "teacher_action": "Keep the shared gallery visible.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the required lines",
+          "student_action_en": "Choose one piece and complete the 6 required lines.",
+          "student_action_pt": "Escolha uma peca e complete as 6 linhas obrigatorias.",
+          "teacher_action": "Encourage students to finish one line at a time.",
+          "estimated_minutes": 11,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge only if ready",
+          "student_action_en": "Add the challenge line only if you want extra practice.",
+          "student_action_pt": "Acrescente a linha de desafio apenas se voce quiser pratica extra.",
+          "teacher_action": "Make it clear that the challenge line is optional.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 4,
+          "title": "Check and submit",
+          "student_action_en": "Read your lines again and submit the card for teacher review.",
+          "student_action_pt": "Leia suas linhas novamente e envie o cartao para revisao do professor.",
+          "teacher_action": "Prompt students to check piece names, markings, and final-check wording.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_pattern_piece_card",
+        "description_en": "A saved Basic Pattern Piece Description Card with 6 required lines and 1 optional challenge line.",
+        "description_pt": "Um Cartao Basico de Descricao da Peca de Pattern com 6 linhas obrigatorias e 1 linha opcional.",
+        "length_or_format": "6 required lines plus 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student completes the 6 required lines.",
+          "The student uses one accurate piece name and at least one accurate marking or location.",
+          "The optional challenge line may be added, but it is not required."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as 6 linhas obrigatorias.",
+          "O aluno usa um nome de peca correto e pelo menos uma marcacao ou localizacao correta.",
+          "A linha de desafio opcional pode ser acrescentada, mas nao e obrigatoria."
+        ],
+        "checklist_en": [
+          "The card includes the 6 required lines.",
+          "The card names one clear pattern piece.",
+          "The card explains what garment the piece is for.",
+          "The card includes at least one accurate marking or location phrase.",
+          "The card includes two simple process actions.",
+          "The card includes a final check line.",
+          "The writing stays line-based, not paragraph-based.",
+          "The challenge line is optional only."
+        ],
+        "checklist_pt": [
+          "O cartao inclui as 6 linhas obrigatorias.",
+          "O cartao nomeia uma peca de pattern com clareza.",
+          "O cartao explica para que roupa a peca serve.",
+          "O cartao inclui pelo menos uma marcacao ou frase de localizacao correta.",
+          "O cartao inclui duas acoes simples de processo.",
+          "O cartao inclui uma linha de verificacao final.",
+          "A escrita continua em linhas, e nao em paragrafo.",
+          "A linha de desafio e apenas opcional."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a skirt front pattern piece. This piece is for a skirt. It has a grainline and a fold line. First, trace the pattern piece. Then, mark the grainline. Finally, check the waist measurement. Optional challenge: This piece is on the fold because the front should stay one full piece.",
+        "model_response_pt": "This is a skirt front pattern piece. This piece is for a skirt. It has a grainline and a fold line. First, trace the pattern piece. Then, mark the grainline. Finally, check the waist measurement. Desafio opcional: This piece is on the fold because the front should stay one full piece.",
+        "common_errors": [
+          "Writing a list of words instead of complete lines.",
+          "Confusing pattern with pattern piece in line 1.",
+          "Leaving out the article in phrases such as a skirt or a grainline.",
+          "Treating the optional challenge line like a required line.",
+          "Turning the task into a paragraph instead of separate line fields."
+        ],
+        "feedback_prompts_en": [
+          "Please complete one line as a full sentence.",
+          "Please name the pattern piece more clearly.",
+          "Please add one accurate marking or location phrase.",
+          "Please revise one line and submit again."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, complete uma linha como frase inteira.",
+          "Por favor, nomeie a peca de pattern com mais clareza.",
+          "Por favor, acrescente uma marcacao ou frase de localizacao correta.",
+          "Por favor, revise uma linha e envie novamente."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete exactly six core lines with a visible word bank and one model line on screen."
+        ],
+        "challenge": [
+          "Invite stronger learners to add the optional challenge line with a clear reason linked to fold placement or function."
+        ]
+      },
+      "extension_options": [
+        "Turn one line from the card into a speaking note for the teacher session."
+      ],
+      "notes_for_app_design": "Render as a teacher-reviewed structured writing card with the shared gallery visible as a reference and with separate saved line fields for the 6 required sentence-frame lines. Handle the challenge sentence as one separate optional field only. Show the teacher the required-elements checklist, common-error shortcuts, feedback prompts, and a return-for-revision flow for revising one line at a time. Do not use a paragraph text box and do not add any word-count requirement."
+    },
+    {
+      "activity_id": "m01w09-a08",
+      "week_id": "m01w09",
+      "sequence_number": 8,
+      "title": "Review and Improve: Patternmaking Sentences",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students improve short patternmaking sentences by correcting one clear error at a time.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Patternmaking Sentences",
+          "summary": "Read each short sentence, find the mistake, and write the corrected sentence.",
+          "instructions": "Look at one correction card at a time. Read the short patternmaking sentence, find the mistake, and rewrite it correctly. Write two corrected sentences.",
+          "success_criteria": [
+            "I can notice one mistake in a short patternmaking sentence.",
+            "I can rewrite the sentence clearly in English.",
+            "I can keep my correction short and accurate."
+          ],
+          "sentence_frames": [
+            "This is a ___ pattern piece.",
+            "Mark the ___.",
+            "This piece is on the fold."
+          ],
+          "word_bank_label": "Helpful words"
+        },
+        "pt": {
+          "title": "Reveja e melhore: frases de patternmaking",
+          "summary": "Leia cada frase curta, encontre o erro e escreva a frase corrigida.",
+          "instructions": "Observe um cartao de correcao por vez. Leia a frase curta de patternmaking, encontre o erro e reescreva a frase corretamente. Escreva duas frases corrigidas.",
+          "success_criteria": [
+            "Eu consigo perceber um erro em uma frase curta de patternmaking.",
+            "Eu consigo reescrever a frase com clareza em ingles.",
+            "Eu consigo manter minha correcao curta e correta."
+          ],
+          "sentence_frames": [
+            "This is a ___ pattern piece.",
+            "Mark the ___.",
+            "This piece is on the fold."
+          ],
+          "word_bank_label": "Palavras de apoio"
+        }
+      },
+      "teacher_instructions": "Keep the task focused on visible sentence correction only.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "short correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w09-v003",
+        "m01w09-v011",
+        "m01w09-v038"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "sentence_correction",
+        "prompt_en": "Correct the short patternmaking sentences.",
+        "prompt_pt": "Corrija as frases curtas de patternmaking.",
+        "items": [
+          {
+            "response_type": "corrected_sentence",
+            "label_en": "Correction card 1",
+            "label_pt": "Cartao de correcao 1",
+            "source_text_en": "This is pattern piece for skirt.",
+            "source_text_pt": "This is pattern piece for skirt.",
+            "student_prompt_en": "Rewrite the sentence with the correct article use.",
+            "student_prompt_pt": "Reescreva a frase com o uso correto de artigo.",
+            "accepted_answers": [
+              "This is a pattern piece for a skirt.",
+              "This is a skirt pattern piece."
+            ]
+          },
+          {
+            "response_type": "corrected_sentence",
+            "label_en": "Correction card 2",
+            "label_pt": "Cartao de correcao 2",
+            "source_text_en": "This piece is on fold.",
+            "source_text_pt": "This piece is on fold.",
+            "student_prompt_en": "Rewrite the sentence with the correct fixed phrase.",
+            "student_prompt_pt": "Reescreva a frase com a expressao fixa correta.",
+            "accepted_answers": [
+              "This piece is on the fold."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the first correction card",
+          "student_action_en": "Read the first short sentence and notice the missing articles.",
+          "student_action_pt": "Leia a primeira frase curta e perceba os artigos que faltam.",
+          "teacher_action": "Remind students to compare the sentence with the visible frame.",
+          "estimated_minutes": 2,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Rewrite the corrected sentences",
+          "student_action_en": "Write the corrected sentence for the first card, then repeat for the second card.",
+          "student_action_pt": "Escreva a frase corrigida do primeiro cartao e depois repita no segundo cartao.",
+          "teacher_action": "Encourage short accurate rewrites.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Check and submit",
+          "student_action_en": "Read both corrected sentences again and submit them.",
+          "student_action_pt": "Leia novamente as duas frases corrigidas e envie as respostas.",
+          "teacher_action": "Point out that the task checks exact sentence correction.",
+          "estimated_minutes": 1,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentences",
+        "description_en": "Two corrected patternmaking sentences checked by the app.",
+        "description_pt": "Duas frases corrigidas de patternmaking verificadas pelo app.",
+        "length_or_format": "2 corrected sentences"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student rewrites both sentences correctly.",
+          "The student uses the visible frame or fixed phrase correctly.",
+          "The student keeps each correction short and complete."
+        ],
+        "completion_criteria_pt": [
+          "O aluno reescreve as duas frases corretamente.",
+          "O aluno usa corretamente a estrutura visivel ou a expressao fixa.",
+          "O aluno mantem cada correcao curta e completa."
+        ],
+        "checklist_en": [
+          "I fixed the article problem in sentence 1.",
+          "I used on the fold correctly in sentence 2.",
+          "I submitted two complete corrected sentences."
+        ],
+        "checklist_pt": [
+          "Eu corrigi o problema de artigo na frase 1.",
+          "Eu usei on the fold corretamente na frase 2.",
+          "Eu enviei duas frases corrigidas completas."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a pattern piece for a skirt. This piece is on the fold.",
+        "model_response_pt": "This is a pattern piece for a skirt. This piece is on the fold.",
+        "common_errors": [
+          "Leaving out one article in the first correction.",
+          "Writing on fold again instead of the full fixed phrase.",
+          "Adding extra ideas that are not needed."
+        ],
+        "feedback_prompts_en": [
+          "Which article is missing in this sentence?",
+          "Does your sentence include the full phrase on the fold?"
+        ],
+        "feedback_prompts_pt": [
+          "Qual artigo esta faltando nessa frase?",
+          "Sua frase inclui a expressao completa on the fold?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students reread the visible sentence frame before they type the correction."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain orally why each corrected sentence is better."
+        ]
+      },
+      "extension_options": [
+        "Turn one corrected sentence into a model line for speaking."
+      ],
+      "notes_for_app_design": "Render one correction card at a time. Save two corrected sentences as the main output and check them against explicit accepted answers only."
+    },
+    {
+      "activity_id": "m01w09-a09",
+      "week_id": "m01w09",
+      "sequence_number": 9,
+      "title": "Teacher Session: Explain a Pattern Piece",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use the shared gallery and their writing card to explain one simple pattern piece aloud in a teacher-observed speaking routine.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Explain a Pattern Piece",
+          "summary": "Look at the pattern-piece gallery and explain one piece aloud in short English sentences.",
+          "instructions": "Use the shared pattern-piece gallery and your description card. Say 5 to 6 short sentences aloud. Name the piece, say what garment it is for, name one marking, and say one or two simple actions.",
+          "success_criteria": [
+            "I can say the piece name clearly.",
+            "I can use short clear patternmaking words in English.",
+            "I can include one marking and one action."
+          ],
+          "sentence_frames": [
+            "This is a ___ pattern piece.",
+            "This piece is for a ___.",
+            "It has a ___.",
+            "First, ___.",
+            "Finally, check ___."
+          ],
+          "word_bank_label": "Speaking help"
+        },
+        "pt": {
+          "title": "Sessao com o professor: explique uma peca de pattern",
+          "summary": "Observe a galeria de pattern piece e explique uma peca em voz alta com frases curtas em ingles.",
+          "instructions": "Use a galeria compartilhada de pattern piece e o seu cartao de descricao. Diga 5 a 6 frases curtas em voz alta. Nomeie a peca, diga para que roupa ela serve, nomeie uma marcacao e diga uma ou duas acoes simples.",
+          "success_criteria": [
+            "Eu consigo dizer com clareza o nome da peca.",
+            "Eu consigo usar palavras curtas e claras de patternmaking em ingles.",
+            "Eu consigo incluir uma marcacao e uma acao."
+          ],
+          "sentence_frames": [
+            "This is a ___ pattern piece.",
+            "This piece is for a ___.",
+            "It has a ___.",
+            "First, ___.",
+            "Finally, check ___."
+          ],
+          "word_bank_label": "Ajuda para falar"
+        }
+      },
+      "teacher_instructions": "This is a teacher-observed speaking task only. Do not require recording, upload, or automated scoring.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "reusable pattern-piece gallery",
+        "student description card",
+        "teacher observation checklist"
+      ],
+      "vocabulary_refs": [
+        "m01w09-v003",
+        "m01w09-v011",
+        "m01w09-v024",
+        "m01w09-v025",
+        "m01w09-v032",
+        "m01w09-v034",
+        "m01w09-v036"
+      ],
+      "asset_refs": [
+        "m01w09-img-005"
+      ],
+      "input": {
+        "input_type": "teacher_observed_speaking",
+        "prompt_en": "Use the gallery and your description card to explain one simple pattern piece aloud.",
+        "prompt_pt": "Use a galeria e o seu cartao de descricao para explicar em voz alta uma peca simples de pattern.",
+        "items": [
+          {
+            "response_type": "speaking_prompt",
+            "label_en": "Speaking task",
+            "label_pt": "Tarefa de fala",
+            "asset_id": "m01w09-img-005",
+            "prompt_en": "Explain one pattern piece from image A to image E in 5 to 6 short sentences.",
+            "prompt_pt": "Explique uma peca de pattern da sequencia image A a image E em 5 a 6 frases curtas."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the gallery and card",
+          "student_action_en": "Look at the gallery and your card before you speak.",
+          "student_action_pt": "Observe a galeria e o seu cartao antes de falar.",
+          "teacher_action": "Give students a short preparation moment with the visible speaking frames.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Explain the pattern piece aloud",
+          "student_action_en": "Say 5 to 6 short sentences aloud about one pattern piece.",
+          "student_action_pt": "Diga em voz alta 5 a 6 frases curtas sobre uma peca de pattern.",
+          "teacher_action": "Observe for clarity, piece naming, marking language, action language, and key pronunciation.",
+          "estimated_minutes": 30,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Close with brief feedback",
+          "student_action_en": "Listen to one short teacher comment about your speaking.",
+          "student_action_pt": "Escute um comentario curto do professor sobre a sua fala.",
+          "teacher_action": "Give one strength and one next-step note.",
+          "estimated_minutes": 10,
+          "mode": "whole_class"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_spoken_pattern_piece",
+        "description_en": "One teacher-observed spoken explanation of a simple pattern piece with 5 to 6 short sentences.",
+        "description_pt": "Uma explicacao oral observada pelo professor sobre uma peca simples de pattern com 5 a 6 frases curtas.",
+        "length_or_format": "5 to 6 short spoken sentences"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student names one pattern piece clearly.",
+          "The student uses one marking and one simple action.",
+          "The student completes a short spoken explanation without recording or upload."
+        ],
+        "completion_criteria_pt": [
+          "O aluno nomeia com clareza uma peca de pattern.",
+          "O aluno usa uma marcacao e uma acao simples.",
+          "O aluno completa uma explicacao oral curta sem gravacao nem envio."
+        ],
+        "checklist_en": [
+          "The student says 5 to 6 short sentences.",
+          "The student names one clear pattern piece.",
+          "The student uses at least one marking word.",
+          "The student uses at least one action word.",
+          "The student uses understandable pronunciation for key patternmaking words."
+        ],
+        "checklist_pt": [
+          "O aluno diz 5 a 6 frases curtas.",
+          "O aluno nomeia com clareza uma peca de pattern.",
+          "O aluno usa pelo menos uma palavra de marcacao.",
+          "O aluno usa pelo menos uma palavra de acao.",
+          "O aluno usa pronuncia compreensivel para palavras-chave de patternmaking."
+        ],
+        "rubric": [],
+        "model_response_en": "This is a skirt front pattern piece. This piece is for a skirt. It has a grainline and a fold line. First, trace the pattern piece. Then, mark the grainline. Finally, check the waist measurement.",
+        "model_response_pt": "This is a skirt front pattern piece. This piece is for a skirt. It has a grainline and a fold line. First, trace the pattern piece. Then, mark the grainline. Finally, check the waist measurement.",
+        "common_errors": [
+          "Speaking in single words instead of short sentences.",
+          "Naming a garment but not the pattern piece.",
+          "Trying to record instead of speaking live to the teacher."
+        ],
+        "feedback_prompts_en": [
+          "Please say the piece name again in a full sentence.",
+          "Please add one marking word to your explanation.",
+          "Please keep your sentences short and clear."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, diga novamente o nome da peca em uma frase completa.",
+          "Por favor, acrescente uma palavra de marcacao a sua explicacao.",
+          "Por favor, mantenha suas frases curtas e claras."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students keep the description card visible while they speak."
+        ],
+        "challenge": [
+          "Invite stronger learners to add one reason sentence after the final check."
+        ]
+      },
+      "extension_options": [
+        "Pair students for one extra rehearsal before the next live explanation."
+      ],
+      "notes_for_app_design": "Show the speaking frame and image gallery as supports, but store only teacher observation or completion data. Do not add recording, upload, or automated speech scoring."
+    }
+  ]
+}

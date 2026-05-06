@@ -1,0 +1,91 @@
+{
+  "week_id": "m01w09",
+  "assets": [
+    {
+      "asset_id": "m01w09-img-001",
+      "week_id": "m01w09",
+      "asset_type": "image",
+      "title": "Week 9 patternmaking workspace bridge board",
+      "description": "A compact opener board with familiar tools such as ruler, measuring tape, pencil, scissors, and one or two visible pattern-piece clues so students can bridge from sewing actions into patternmaking language.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-001.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w09-a01"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Use as a fast review-preview board. Include a clean workspace with pattern paper, ruler, measuring tape, pencil, scissors, and one clear paper pattern piece. Keep visible keys aligned to the opener questions and avoid clutter."
+    },
+    {
+      "asset_id": "m01w09-img-002",
+      "week_id": "m01w09",
+      "asset_type": "image",
+      "title": "Pattern pieces and tools vocabulary board",
+      "description": "One combined board showing clear keyed examples of common pattern pieces and patternmaking tools for the main Week 9 matching task.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-002.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w09-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required visible-key strategy: A pattern piece, B pattern paper, C front bodice, D back bodice, E sleeve, F skirt front, G waistband, H pocket, I ruler, J French curve. The image, activity answers, and prompt notes must all use the same A-J labels."
+    },
+    {
+      "asset_id": "m01w09-img-003",
+      "week_id": "m01w09",
+      "asset_type": "image",
+      "title": "Measurements and pattern marks board",
+      "description": "A clear visual board showing common measurements and pattern markings with visible keys for the main Week 9 measurement-and-mark matching task.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-003.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w09-a03"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required visible-key strategy: A bust, B waist, C hip, D shoulder, E armhole, F grainline, G fold line, H seam allowance, I notch, J dart. The activity answers, image prompt, and teacher notes must all use the same A-J mapping."
+    },
+    {
+      "asset_id": "m01w09-img-004",
+      "week_id": "m01w09",
+      "asset_type": "image",
+      "title": "Simple patternmaking reading sequence board",
+      "description": "A reading board with six clearly separated process images for the Week 9 trace-a-pattern-piece reading task.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-004.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w09-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required visible-key strategy: A place the pattern paper on the table, B put the pattern piece on the paper, C trace the outside line, D mark the grainline and fold line, E add seam allowance, F label the piece and check the measurement. The reading text, activity answers, and prompt notes must all use the same A-F mapping."
+    },
+    {
+      "asset_id": "m01w09-img-005",
+      "week_id": "m01w09",
+      "asset_type": "image",
+      "title": "Reusable pattern-piece gallery",
+      "description": "A reusable gallery with five clearly separated pattern-piece images for listening, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-09/m01w09-img-005.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w09-a05",
+        "m01w09-a07",
+        "m01w09-a09"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Required image-key strategy: image A front bodice with center front and dart, image B back bodice with center back, image C sleeve with notches and grainline, image D skirt front on the fold with waistline, image E waistband with straight grainline. The listening script, writing-card prompts, speaking prompts, and prompt notes must all use the same A-E mapping."
+    },
+    {
+      "asset_id": "m01w09-aud-001",
+      "week_id": "m01w09",
+      "asset_type": "audio",
+      "title": "Pattern piece instructions listening audio",
+      "description": "A short Week 9 listening clip describing one simple pattern-piece preparation sequence with clear measurement, marking, and final-label details.",
+      "target_filename": "assets/audio/module-01/week-09/m01w09-aud-001.mp3",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w09-a05"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Transcript remains inside audio_prompts.json only. Do not create a separate transcript asset in the current phase."
+    }
+  ]
+}
