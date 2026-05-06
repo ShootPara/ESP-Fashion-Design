@@ -1,0 +1,64 @@
+{
+  "week_id": "m01w11",
+  "image_prompts": [
+    {
+      "asset_id": "m01w11-img-001",
+      "purpose": "Week 11 opener board for moving from one full garment view to close observation of design details.",
+      "target_filename": "assets/images/module-01/week-11/m01w11-img-001.png",
+      "visual_description": "One adult-oriented fashion-design board with one full garment or fashion sketch in the main panel plus three close-up detail crops that clearly show a front zipper, a patch pocket, and a soft ruffle hem.",
+      "style_instructions": "Use a clean fashion-sketch or fashion-education illustration style with adult proportions, strong contrast, and clear garment details suitable for an ESP fashion-design course.",
+      "composition_notes": "Keep the full look and the three close-up crops visible together on one simple board. The image must be easy to scan on a phone screen and should support the opener questions without extra clutter.",
+      "text_in_image": "Only minimal visible keys if needed for the opener questions.",
+      "avoid": "Avoid brand logos, childlike styling, tiny unreadable labels, busy backgrounds, unrealistic construction details, and unrelated classroom objects.",
+      "used_by_activity_ids": [
+        "m01w11-a01"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w11-img-002",
+      "purpose": "Keyed close-up vocabulary board A to J for explicit design-detail matching.",
+      "target_filename": "assets/images/module-01/week-11/m01w11-img-002.png",
+      "visual_description": "A board with ten clearly separated close-up garment details labeled only A, B, C, D, E, F, G, H, I, and J. The panels show zipper, button, drawstring, buckle, patch pocket, hidden pocket, pleat, embroidery, topstitching, and panel.",
+      "style_instructions": "Use a polished adult fashion-design reference style with clear close-up contrast and realistic materials.",
+      "composition_notes": "Keep all ten panels evenly spaced and visually distinct. The labels A to J must be large, simple, and stable because the matching task depends on them exactly.",
+      "text_in_image": "Only the visible keys A to J.",
+      "avoid": "Avoid extra instructional text, cluttered backgrounds, logos, duplicate-looking panels, or tiny labels that are hard to read on mobile.",
+      "used_by_activity_ids": [
+        "m01w11-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w11-img-003",
+      "purpose": "Single scavenger garment with point labels A to H for close visual reading and role analysis.",
+      "target_filename": "assets/images/module-01/week-11/m01w11-img-003.png",
+      "visual_description": "One adult garment or fashion sketch with eight visible design details marked with point labels A, B, C, D, E, F, G, and H. The visible details are zipper, buttons, one clearly visible contrast topstitched patch pocket that looks both practical and decorative, drawstring, embroidery, pleat, topstitching, and slit.",
+      "style_instructions": "Use a clear fashion-study illustration style with realistic garment construction and strong visual contrast between the point labels and the garment.",
+      "composition_notes": "Keep one single garment or sketch centered and uncluttered. Point labels A to H must sit directly on the intended details and remain easy to distinguish from one another. Point C must mark the patch pocket, and that pocket should be visually prominent with contrast topstitching or contrast trim so it clearly reads as both functional and decorative in the later role-check task.",
+      "text_in_image": "Only the visible point labels A to H.",
+      "avoid": "Avoid overlapping labels, tiny point markers, extra text, busy styling, logos, or details that do not match the Week 11 answer set. Do not make the point C patch pocket plain or visually neutral in a way that would make the both answer ambiguous.",
+      "used_by_activity_ids": [
+        "m01w11-a03"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w11-img-004",
+      "purpose": "Reusable detail gallery image A to image D for reading, listening, writing, and speaking.",
+      "target_filename": "assets/images/module-01/week-11/m01w11-img-004.png",
+      "visual_description": "A reusable four-panel detail gallery labeled only image A, image B, image C, and image D. Image A shows a front zipper on a jacket. Image B shows floral embroidery near a neckline. Image C shows two patch pockets on the front of a skirt. Image D shows a soft ruffle at a hem.",
+      "style_instructions": "Use a consistent fashion-study illustration style with adult garment context, realistic details, and strong close-up readability.",
+      "composition_notes": "Keep the four panels evenly spaced and visually consistent. The exact mapping of the details to image A to image D must remain stable because the reading, listening, writing, and speaking tasks all depend on it.",
+      "text_in_image": "Only the visible labels image A, image B, image C, and image D.",
+      "avoid": "Avoid extra decorative text, clutter, brand logos, contradictory details, or tiny labels that make the gallery hard to use for exact answer checking.",
+      "used_by_activity_ids": [
+        "m01w11-a04",
+        "m01w11-a05",
+        "m01w11-a07",
+        "m01w11-a09"
+      ],
+      "status": "planned"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-05-06T19:53:24.343059+00:00
+- Generated at (UTC): 2026-05-06T21:34:26.525679+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -88,6 +88,14 @@
 - `content/course/modules/module-01/week-10/teacher_notes.md`
 - `content/course/modules/module-01/week-10/vocabulary.json`
 - `content/course/modules/module-01/week-10/week_manifest.json`
+- `content/course/modules/module-01/week-11/activities.json`
+- `content/course/modules/module-01/week-11/asset_manifest.json`
+- `content/course/modules/module-01/week-11/audio_prompts.json`
+- `content/course/modules/module-01/week-11/image_prompts.json`
+- `content/course/modules/module-01/week-11/lesson_plan.md`
+- `content/course/modules/module-01/week-11/teacher_notes.md`
+- `content/course/modules/module-01/week-11/vocabulary.json`
+- `content/course/modules/module-01/week-11/week_manifest.json`
 - `docs/fashion-course-content-requirements.md`
 - `schemas/activities.schema.json`
 - `schemas/asset_manifest.schema.json`
@@ -106,7 +114,11 @@
 - None.
 
 ## Missing Assets
-- None.
+- m01w11-img-001 — A single board that shows one adult fashion garment or sketch in full view plus three close-up crops so students can move from overall observation to design-detail noticing. — assets/images/module-01/week-11/m01w11-img-001.png
+- m01w11-img-002 — A clear adult-learning board with ten close-up garment details labeled A to J for explicit image-to-word matching. — assets/images/module-01/week-11/m01w11-img-002.png
+- m01w11-img-003 — One garment or sketch with eight unambiguous point labels so students can identify visible details and then classify some of them as functional, decorative, or both. — assets/images/module-01/week-11/m01w11-img-003.png
+- m01w11-img-004 — A reusable four-image detail gallery for reading, listening, writing, and speaking. Each gallery image should show one clearly identifiable garment detail with a stable visible key. — assets/images/module-01/week-11/m01w11-img-004.png
+- m01w11-aud-001 — One short A2 listening clip with numbered descriptions aligned exactly to the Week 11 reusable detail gallery. — assets/audio/module-01/week-11/m01w11-aud-001.mp3
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.

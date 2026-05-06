@@ -1,0 +1,93 @@
+{
+  "week_id": "m01w11",
+  "module_id": "module-01",
+  "week_number": 11,
+  "title": "Design Details",
+  "summary": "Students identify visible garment details, connect them to function and visual effect, read and listen to short detail captions, and produce one scaffolded detail-caption card.",
+  "essential_question": "How can I describe garment design details clearly in simple English?",
+  "professional_context": "Week 11 connects English to early critique, sketch annotation, sewing and patternmaking observation, and short portfolio-caption language. Students move from describing a full sketch to naming and explaining specific design details such as closures, pockets, trims, and decorative finishes.",
+  "language_focus": [
+    "detail naming for closures, pockets, decorative features, and construction details",
+    "location phrases such as on the front, near the neckline, and at the side",
+    "There is and There are for visible design details",
+    "frames such as It is placed ..., It is functional because ..., It is decorative because ..., It adds ..., and It makes ..."
+  ],
+  "skill_focus": [
+    "reading",
+    "listening",
+    "writing",
+    "vocabulary",
+    "speaking",
+    "professional_communication",
+    "visual_literacy",
+    "grammar"
+  ],
+  "target_vocabulary_groups": [
+    "m01w11-vg01",
+    "m01w11-vg02",
+    "m01w11-vg03",
+    "m01w11-vg04",
+    "m01w11-vg05"
+  ],
+  "grammar_focus": [
+    "singular and plural nouns",
+    "articles",
+    "There is / There are",
+    "on the front / near the neckline / at the side",
+    "because",
+    "adds",
+    "makes"
+  ],
+  "pronunciation_focus": [
+    "detail",
+    "closure",
+    "zipper",
+    "button",
+    "drawstring",
+    "pocket",
+    "ruffle",
+    "pleat",
+    "embroidery",
+    "topstitching"
+  ],
+  "cefr_access_level": "A2",
+  "cefr_target_level": "A2",
+  "estimated_total_minutes": 141,
+  "activity_ids": [
+    "m01w11-a01",
+    "m01w11-a02",
+    "m01w11-a03",
+    "m01w11-a04",
+    "m01w11-a05",
+    "m01w11-a06",
+    "m01w11-a07",
+    "m01w11-a08",
+    "m01w11-a09"
+  ],
+  "asset_ids": [
+    "m01w11-img-001",
+    "m01w11-img-002",
+    "m01w11-img-003",
+    "m01w11-img-004",
+    "m01w11-aud-001"
+  ],
+  "teacher_preparation": [
+    "Preview the opener board, the vocabulary board, the scavenger garment, and the reusable detail gallery before class.",
+    "Keep the key labels exactly stable as image A to image D and point A to point H where the activities depend on those labels.",
+    "Keep the main writing task as six required short lines plus one optional challenge line. Do not convert it into a paragraph or add a word-count target.",
+    "Check that the Week 11 listening gallery, the audio script, the question labels, and the correct answers all match exactly before using the listening task.",
+    "Prepare quick correction support for There is / There are, article use, functional versus decorative, and short location phrases.",
+    "Decide whether students will use projected garment-detail images, printed cards, or teacher-provided references during the speaking session."
+  ],
+  "student_deliverables": [
+    "Completion of the Week 11 opener selections.",
+    "Completion of the main design-detail vocabulary matching set.",
+    "Completion of one visual scavenger matching task plus short role checks for functional, decorative, or both.",
+    "Reading-comprehension responses matching short detail captions to image A, image B, image C, or image D and answering detail-meaning questions.",
+    "Listening-comprehension responses identifying details from one short numbered listening clip.",
+    "Completion of five phrase-practice fill blanks for location, effect, and function language.",
+    "A scaffolded Design Detail Caption Set card with 6 required sentence-frame lines and 1 optional challenge line.",
+    "Two corrected Week 11 detail-caption sentences saved after review.",
+    "A short teacher-observed oral explanation of one design detail."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w11",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w11-aud-001",
+      "purpose": "Listening model for Week 11 design-detail identification using the reusable image A to image D gallery.",
+      "target_filename": "assets/audio/module-01/week-11/m01w11-aud-001.mp3",
+      "script": "Look at image A to image D. Number one: This detail is a zipper. It is on the front of the jacket. It is functional because it opens and closes the garment. Number two: This detail is floral embroidery. It is near the neckline. It is decorative because it adds color and texture. Number three: These details are two patch pockets. They are on the front of the skirt. They are functional because they can hold small objects. Number four: This detail is a soft ruffle. It is at the hem. It is decorative because it makes the garment look playful.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and easy to follow, with short pauses after each number and slight emphasis on the detail words and image keys.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 45,
+      "used_by_activity_ids": [
+        "m01w11-a05"
+      ],
+      "status": "planned"
+    }
+  ]
+}

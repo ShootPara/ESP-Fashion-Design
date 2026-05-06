@@ -1,0 +1,1932 @@
+{
+  "week_id": "m01w11",
+  "activities": [
+    {
+      "activity_id": "m01w11-a01",
+      "week_id": "m01w11",
+      "sequence_number": 1,
+      "title": "Welcome Back: Look Closer",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students move from one full garment view to close-up detail noticing by answering four quick recognition questions about visible design details.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: Look Closer",
+          "summary": "Look at the full look and the close-up crops. Choose the best answer for each quick question.",
+          "instructions": "Look at the full garment or sketch and the three close-up crops together. Use the visible clues to answer four short questions about the detail names and locations.",
+          "success_criteria": [
+            "I can notice visible design details.",
+            "I can connect one close-up crop to the full look.",
+            "I can answer using visible clues only."
+          ],
+          "sentence_frames": [
+            "The detail is ___.",
+            "It is on the ___.",
+            "I can see ___ in the close-up."
+          ],
+          "word_bank_label": "Quick detail words"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: observe mais de perto",
+          "summary": "Observe o look completo e os close-ups. Escolha a melhor resposta para cada pergunta rapida.",
+          "instructions": "Observe juntos a roupa ou o sketch completo e os tres close-ups. Use apenas as pistas visiveis para responder a quatro perguntas curtas sobre nomes e localizacao de detalhes.",
+          "success_criteria": [
+            "Eu consigo perceber detalhes de design visiveis.",
+            "Eu consigo ligar um close-up ao look completo.",
+            "Eu consigo responder usando apenas pistas visiveis."
+          ],
+          "sentence_frames": [
+            "The detail is ___.",
+            "It is on the ___.",
+            "I can see ___ in the close-up."
+          ],
+          "word_bank_label": "Palavras rapidas de detalhe"
+        }
+      },
+      "teacher_instructions": "Keep the opener visual and fast. Every answer should come from the full look or one visible crop on the same board.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 11 opener board with one full look and three close-up crops"
+      ],
+      "vocabulary_refs": [
+        "m01w11-v001",
+        "m01w11-v005",
+        "m01w11-v009",
+        "m01w11-v013"
+      ],
+      "asset_refs": [
+        "m01w11-img-001"
+      ],
+      "input": {
+        "input_type": "keyed_full_look_and_crop_quiz",
+        "prompt_en": "Choose the best answer for each quick detail question.",
+        "prompt_pt": "Escolha a melhor resposta para cada pergunta rapida sobre detalhes.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which detail is easy to see in one close-up crop?",
+            "label_pt": "Qual detalhe e facil de ver em um dos close-ups?",
+            "asset_id": "m01w11-img-001",
+            "options_en": [
+              "a zipper",
+              "a hood",
+              "a sneaker"
+            ],
+            "options_pt": [
+              "um zipper",
+              "um capuz",
+              "um tenis"
+            ],
+            "correct_answer": "a zipper"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Where is the zipper placed?",
+            "label_pt": "Onde o zipper esta colocado?",
+            "asset_id": "m01w11-img-001",
+            "options_en": [
+              "on the front",
+              "at the hem",
+              "inside the sleeve"
+            ],
+            "options_pt": [
+              "na frente",
+              "na barra",
+              "dentro da manga"
+            ],
+            "correct_answer": "on the front"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which close-up detail is decorative?",
+            "label_pt": "Qual detalhe do close-up e decorativo?",
+            "asset_id": "m01w11-img-001",
+            "options_en": [
+              "a ruffle",
+              "a notebook",
+              "a hanger"
+            ],
+            "options_pt": [
+              "um babado",
+              "um caderno",
+              "um cabide"
+            ],
+            "correct_answer": "a ruffle"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which phrase best matches the board?",
+            "label_pt": "Qual expressao combina melhor com o painel?",
+            "asset_id": "m01w11-img-001",
+            "options_en": [
+              "Look at the full garment and the details.",
+              "Look at the shoes on the floor.",
+              "Look at the classroom wall."
+            ],
+            "options_pt": [
+              "Observe a roupa completa e os detalhes.",
+              "Observe os sapatos no chao.",
+              "Observe a parede da sala."
+            ],
+            "correct_answer": "Look at the full garment and the details."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the full look first",
+          "student_action_en": "Look at the full garment or sketch before you answer.",
+          "student_action_pt": "Observe a roupa ou o sketch completo antes de responder.",
+          "teacher_action": "Keep the full look and the crops visible together.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Answer the quick questions",
+          "student_action_en": "Choose the best answer for each question.",
+          "student_action_pt": "Escolha a melhor resposta para cada pergunta.",
+          "teacher_action": "Remind students to use visible clues only.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Four app-checked selections about one full look and three close-up detail crops.",
+        "description_pt": "Quatro selecoes verificadas pelo app sobre um look completo e tres close-ups de detalhes.",
+        "length_or_format": "4 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student answers all four opener items.",
+          "The student uses only visible clues from the board.",
+          "The student connects one detail to one location clearly."
+        ],
+        "completion_criteria_pt": [
+          "O aluno responde aos quatro itens iniciais.",
+          "O aluno usa apenas pistas visiveis do painel.",
+          "O aluno liga um detalhe a uma localizacao de forma clara."
+        ],
+        "checklist_en": [
+          "I looked at the full look first.",
+          "I used the close-up crops to help me.",
+          "I answered all four questions."
+        ],
+        "checklist_pt": [
+          "Eu observei primeiro o look completo.",
+          "Eu usei os close-ups para me ajudar.",
+          "Eu respondi as quatro perguntas."
+        ],
+        "rubric": [],
+        "model_response_en": "a zipper, on the front, a ruffle, Look at the full garment and the details.",
+        "model_response_pt": "a zipper, on the front, a ruffle, Look at the full garment and the details.",
+        "common_errors": [
+          "Choosing an option that is not visible anywhere on the board.",
+          "Confusing the full look with one close-up crop."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which answer is directly supported by the visible image?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual resposta e apoiada diretamente pela imagem visivel?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the crop before they choose the answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence after each answer."
+        ]
+      },
+      "extension_options": [
+        "Name one more visible detail from the board."
+      ],
+      "notes_for_app_design": "Render the full look and all three crops on one stable board. Save four selections only. Keep the keys literal and visible if the final media uses keys."
+    },
+    {
+      "activity_id": "m01w11-a02",
+      "week_id": "m01w11",
+      "sequence_number": 2,
+      "title": "Design Detail Vocabulary",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students match a keyed close-up board to core English design-detail words, then use two short Portuguese support checks without changing the main matching output.",
+      "student_facing": {
+        "en": {
+          "title": "Design Detail Vocabulary",
+          "summary": "Match the board keys to the correct English detail words.",
+          "instructions": "Look at the close-up board labeled A to J. Match each key to the correct English design-detail word. Then complete the short support items.",
+          "success_criteria": [
+            "I can match visible detail images to English words.",
+            "I can use Portuguese support without changing my main English answer.",
+            "I can prepare for reading, listening, and writing this week."
+          ],
+          "sentence_frames": [
+            "The detail is ___.",
+            "Key ___ shows ___.",
+            "In Portuguese support, it is ___."
+          ],
+          "word_bank_label": "Detail words"
+        },
+        "pt": {
+          "title": "Vocabulario de detalhes de design",
+          "summary": "Relacione as chaves do painel com as palavras corretas de detalhes em ingles.",
+          "instructions": "Observe o painel de close-ups rotulado de A a J. Relacione cada chave com a palavra correta em ingles para o detalhe de design. Depois complete os itens curtos de apoio.",
+          "success_criteria": [
+            "Eu consigo relacionar imagens de detalhes visiveis a palavras em ingles.",
+            "Eu consigo usar apoio em portugues sem mudar minha resposta principal em ingles.",
+            "Eu consigo me preparar para leitura, escuta e escrita nesta semana."
+          ],
+          "sentence_frames": [
+            "The detail is ___.",
+            "Key ___ shows ___.",
+            "In Portuguese support, it is ___."
+          ],
+          "word_bank_label": "Palavras de detalhe"
+        }
+      },
+      "teacher_instructions": "Keep the main saved output as the matching set. The Portuguese support items are secondary and should stay short.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 11 keyed close-up vocabulary board A to J"
+      ],
+      "vocabulary_refs": [
+        "m01w11-v001",
+        "m01w11-v003",
+        "m01w11-v004",
+        "m01w11-v009",
+        "m01w11-v010",
+        "m01w11-v011",
+        "m01w11-v012",
+        "m01w11-v014",
+        "m01w11-v015",
+        "m01w11-v016"
+      ],
+      "asset_refs": [
+        "m01w11-img-002"
+      ],
+      "input": {
+        "input_type": "image_word_matching",
+        "prompt_en": "Match the board keys to the correct English detail words.",
+        "prompt_pt": "Relacione as chaves do painel com as palavras corretas de detalhes em ingles.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match keys A to J to the correct words.",
+            "label_pt": "Relacione as chaves A a J com as palavras corretas.",
+            "asset_id": "m01w11-img-002",
+            "match_terms_en": [
+              "zipper",
+              "button",
+              "drawstring",
+              "buckle",
+              "patch pocket",
+              "hidden pocket",
+              "pleat",
+              "embroidery",
+              "topstitching",
+              "panel"
+            ],
+            "match_terms_pt": [
+              "zipper",
+              "botao",
+              "cordao ajustavel",
+              "fivela",
+              "bolso chapado",
+              "bolso escondido",
+              "prega",
+              "bordado",
+              "pesponto",
+              "recorte ou painel"
+            ],
+            "matches": [
+              { "image_key": "A", "answer_en": "zipper", "answer_pt": "zipper" },
+              { "image_key": "B", "answer_en": "button", "answer_pt": "botao" },
+              { "image_key": "C", "answer_en": "drawstring", "answer_pt": "cordao ajustavel" },
+              { "image_key": "D", "answer_en": "buckle", "answer_pt": "fivela" },
+              { "image_key": "E", "answer_en": "patch pocket", "answer_pt": "bolso chapado" },
+              { "image_key": "F", "answer_en": "hidden pocket", "answer_pt": "bolso escondido" },
+              { "image_key": "G", "answer_en": "pleat", "answer_pt": "prega" },
+              { "image_key": "H", "answer_en": "embroidery", "answer_pt": "bordado" },
+              { "image_key": "I", "answer_en": "topstitching", "answer_pt": "pesponto" },
+              { "image_key": "J", "answer_en": "panel", "answer_pt": "recorte ou painel" }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the Portuguese support words.",
+            "label_pt": "Relacione as palavras de apoio em portugues.",
+            "pairs": [
+              { "term_en": "drawstring", "term_pt": "cordao ajustavel" },
+              { "term_en": "patch pocket", "term_pt": "bolso chapado" },
+              { "term_en": "topstitching", "term_pt": "pesponto" },
+              { "term_en": "panel", "term_pt": "recorte ou painel" }
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence for Key H.",
+            "label_pt": "Complete a frase para a chave H.",
+            "sentence_frame_en": "Key H shows ___.",
+            "sentence_frame_pt": "Key H shows ___.",
+            "word_bank": [
+              "embroidery",
+              "sketchbook",
+              "shoe"
+            ],
+            "accepted_answers": [
+              "embroidery"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Study the board",
+          "student_action_en": "Look at keys A to J before you match.",
+          "student_action_pt": "Observe as chaves A a J antes de relacionar.",
+          "teacher_action": "Point to one or two details without giving the full answer set.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the main detail words",
+          "student_action_en": "Match each key to the correct English word.",
+          "student_action_pt": "Relacione cada chave com a palavra correta em ingles.",
+          "teacher_action": "Keep the main output focused on matching.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Use the short support items",
+          "student_action_en": "Complete the Portuguese support and one short sentence.",
+          "student_action_pt": "Complete o apoio em portugues e uma frase curta.",
+          "teacher_action": "Keep the support items secondary and brief.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set_with_support_checks",
+        "description_en": "One saved image-matching set with explicit answer pairs and two short secondary support checks.",
+        "description_pt": "Um conjunto salvo de relacao imagem-palavra com pares de resposta explicitos e dois itens curtos secundarios de apoio.",
+        "length_or_format": "1 main matching set plus 2 short support items"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the main keyed matching set.",
+          "The student links the images to the English detail words clearly.",
+          "The student uses the short support items without changing the main matching task."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relacao com chaves.",
+          "O aluno liga as imagens com clareza as palavras de detalhes em ingles.",
+          "O aluno usa os itens curtos de apoio sem mudar a tarefa principal de relacao."
+        ],
+        "checklist_en": [
+          "I matched the main board keys.",
+          "I checked the English detail words carefully.",
+          "I completed the short support items."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as chaves principais do painel.",
+          "Eu conferi com cuidado as palavras de detalhes em ingles.",
+          "Eu completei os itens curtos de apoio."
+        ],
+        "rubric": [],
+        "model_response_en": "A zipper, B button, C drawstring, D buckle, E patch pocket, F hidden pocket, G pleat, H embroidery, I topstitching, J panel; drawstring-cordao ajustavel, patch pocket-bolso chapado, topstitching-pesponto, panel-recorte ou painel; embroidery",
+        "model_response_pt": "A zipper, B button, C drawstring, D buckle, E patch pocket, F hidden pocket, G pleat, H embroidery, I topstitching, J panel; drawstring-cordao ajustavel, patch pocket-bolso chapado, topstitching-pesponto, panel-recorte ou painel; embroidery",
+        "common_errors": [
+          "Confusing patch pocket with hidden pocket.",
+          "Treating panel as a decoration instead of a garment section."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which key shows the detail clearly on the board?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual chave mostra o detalhe com clareza no painel?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete the main image match before the Portuguese support items."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence with Key ___ shows ___."
+        ]
+      },
+      "extension_options": [
+        "Name one more detail from the board and say whether it looks practical or decorative."
+      ],
+      "notes_for_app_design": "Render the A to J board as one keyed image-matching task and save that matching set as the primary output. Keep the Portuguese support pairings and the final fill blank as secondary checks."
+    },
+    {
+      "activity_id": "m01w11-a03",
+      "week_id": "m01w11",
+      "sequence_number": 3,
+      "title": "Find the Details: Functional or Decorative?",
+      "activity_type": "visual_analysis",
+      "activity_type_custom": "",
+      "summary": "Students identify visible point-labeled details on one garment and then complete short secondary checks about whether selected details are functional, decorative, or both.",
+      "student_facing": {
+        "en": {
+          "title": "Find the Details: Functional or Decorative?",
+          "summary": "Match the point labels to the correct details. Then choose the role for three details.",
+          "instructions": "Look at the garment with point labels A to H. Match each point to the correct detail. After that, answer the short role questions: functional, decorative, or both.",
+          "success_criteria": [
+            "I can identify visible details from point labels.",
+            "I can connect a detail to its role.",
+            "I can keep matching as my main task."
+          ],
+          "sentence_frames": [
+            "Point ___ is ___.",
+            "It is functional.",
+            "It is decorative."
+          ],
+          "word_bank_label": "Detail and role words"
+        },
+        "pt": {
+          "title": "Encontre os detalhes: funcional ou decorativo?",
+          "summary": "Relacione os pontos com os detalhes corretos. Depois escolha a funcao de tres detalhes.",
+          "instructions": "Observe a roupa com os pontos A a H. Relacione cada ponto com o detalhe correto. Depois responda as perguntas curtas sobre funcao: funcional, decorativo ou ambos.",
+          "success_criteria": [
+            "Eu consigo identificar detalhes visiveis a partir de pontos marcados.",
+            "Eu consigo ligar um detalhe a sua funcao.",
+            "Eu consigo manter a relacao como minha tarefa principal."
+          ],
+          "sentence_frames": [
+            "Point ___ is ___.",
+            "It is functional.",
+            "It is decorative."
+          ],
+          "word_bank_label": "Palavras de detalhe e funcao"
+        }
+      },
+      "teacher_instructions": "Keep the point labels A to H visible and stable. Matching is the main saved output; the role questions are short secondary checks only.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "visual_literacy",
+        "grammar",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 11 scavenger garment with point labels A to H"
+      ],
+      "vocabulary_refs": [
+        "m01w11-v001",
+        "m01w11-v003",
+        "m01w11-v009",
+        "m01w11-v011",
+        "m01w11-v013",
+        "m01w11-v014",
+        "m01w11-v015",
+        "m01w11-v017",
+        "m01w11-v018"
+      ],
+      "asset_refs": [
+        "m01w11-img-003"
+      ],
+      "input": {
+        "input_type": "point_label_matching_with_role_checks",
+        "prompt_en": "Match points A to H to the correct detail words, then answer the short role questions.",
+        "prompt_pt": "Relacione os pontos A a H com as palavras corretas de detalhe e depois responda as perguntas curtas sobre funcao.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match point A to point H to the correct detail words.",
+            "label_pt": "Relacione os pontos A a H com as palavras corretas de detalhe.",
+            "asset_id": "m01w11-img-003",
+            "match_terms_en": [
+              "zipper",
+              "buttons",
+              "patch pocket",
+              "drawstring",
+              "embroidery",
+              "pleat",
+              "topstitching",
+              "slit"
+            ],
+            "match_terms_pt": [
+              "zipper",
+              "botoes",
+              "bolso chapado",
+              "cordao ajustavel",
+              "bordado",
+              "prega",
+              "pesponto",
+              "fenda"
+            ],
+            "matches": [
+              { "image_key": "A", "answer_en": "zipper", "answer_pt": "zipper" },
+              { "image_key": "B", "answer_en": "buttons", "answer_pt": "botoes" },
+              { "image_key": "C", "answer_en": "patch pocket", "answer_pt": "bolso chapado" },
+              { "image_key": "D", "answer_en": "drawstring", "answer_pt": "cordao ajustavel" },
+              { "image_key": "E", "answer_en": "embroidery", "answer_pt": "bordado" },
+              { "image_key": "F", "answer_en": "pleat", "answer_pt": "prega" },
+              { "image_key": "G", "answer_en": "topstitching", "answer_pt": "pesponto" },
+              { "image_key": "H", "answer_en": "slit", "answer_pt": "fenda" }
+            ]
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Point A is a zipper. Is it functional, decorative, or both?",
+            "label_pt": "O ponto A e um zipper. Ele e funcional, decorativo ou ambos?",
+            "asset_id": "m01w11-img-003",
+            "options_en": ["functional", "decorative", "both"],
+            "options_pt": ["funcional", "decorativo", "ambos"],
+            "correct_answer": "functional"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Point E is embroidery. Is it functional, decorative, or both?",
+            "label_pt": "O ponto E e bordado. Ele e funcional, decorativo ou ambos?",
+            "asset_id": "m01w11-img-003",
+            "options_en": ["functional", "decorative", "both"],
+            "options_pt": ["funcional", "decorativo", "ambos"],
+            "correct_answer": "decorative"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Point C is a contrast topstitched patch pocket. Is it functional, decorative, or both?",
+            "label_pt": "O ponto C e um bolso chapado com pesponto contrastante. Ele e funcional, decorativo ou ambos?",
+            "asset_id": "m01w11-img-003",
+            "options_en": ["functional", "decorative", "both"],
+            "options_pt": ["funcional", "decorativo", "ambos"],
+            "correct_answer": "both"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Scan the point labels",
+          "student_action_en": "Look at point A to point H before you match.",
+          "student_action_pt": "Observe os pontos A a H antes de relacionar.",
+          "teacher_action": "Make sure all point labels are easy to read.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the points to the details",
+          "student_action_en": "Match each point to the correct detail word.",
+          "student_action_pt": "Relacione cada ponto com a palavra correta de detalhe.",
+          "teacher_action": "Keep matching as the primary task.",
+          "estimated_minutes": 7,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Choose the role",
+          "student_action_en": "Answer the short role questions.",
+          "student_action_pt": "Responda as perguntas curtas sobre funcao.",
+          "teacher_action": "Remind students that some details can be both.",
+          "estimated_minutes": 3,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "point_matching_with_secondary_role_checks",
+        "description_en": "One saved point-to-detail matching set plus three secondary role selections.",
+        "description_pt": "Um conjunto salvo de relacao entre pontos e detalhes mais tres selecoes secundarias de funcao.",
+        "length_or_format": "1 main matching set and 3 single-choice role answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes the main point-matching set.",
+          "The student uses the visible point labels and detail words together.",
+          "The student answers the role questions without hidden teacher judgment."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o conjunto principal de relacao entre pontos.",
+          "O aluno usa juntos os pontos visiveis e as palavras de detalhe.",
+          "O aluno responde as perguntas sobre funcao sem julgamento oculto do professor."
+        ],
+        "checklist_en": [
+          "I looked at point A to point H first.",
+          "I finished the main matching task.",
+          "I answered the role questions."
+        ],
+        "checklist_pt": [
+          "Eu observei primeiro os pontos A a H.",
+          "Eu terminei a tarefa principal de relacao.",
+          "Eu respondi as perguntas sobre funcao."
+        ],
+        "rubric": [],
+        "model_response_en": "A zipper, B buttons, C patch pocket, D drawstring, E embroidery, F pleat, G topstitching, H slit; functional, decorative, both",
+        "model_response_pt": "A zipper, B buttons, C patch pocket, D drawstring, E embroidery, F pleat, G topstitching, H slit; functional, decorative, both",
+        "common_errors": [
+          "Choosing decorative for the zipper because it is visible.",
+          "Forgetting that a patch pocket can be both useful and visible."
+        ],
+        "feedback_prompts_en": [
+          "Check the point label again. What detail is directly shown there?"
+        ],
+        "feedback_prompts_pt": [
+          "Confira novamente o ponto. Qual detalhe aparece diretamente ali?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the detail word aloud before they match it."
+        ],
+        "challenge": [
+          "Ask stronger learners to add one because sentence after a role answer."
+        ]
+      },
+      "extension_options": [
+        "Choose one more point and explain if it looks practical, decorative, or both."
+      ],
+      "notes_for_app_design": "Render the scavenger garment with visible point A to point H labels. Save the point-to-detail matching set as the main output. Keep the three role questions as secondary support checks on a follow-up screen."
+    },
+    {
+      "activity_id": "m01w11-a04",
+      "week_id": "m01w11",
+      "sequence_number": 4,
+      "title": "Read: Detail Captions",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read three short design-detail captions, match them to a reusable keyed gallery, and answer short detail-meaning questions.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Detail Captions",
+          "summary": "Read the short captions and choose the correct image key or detail answer.",
+          "instructions": "Look at image A to image D. Read the three short captions. Then choose the correct image key or the correct detail meaning for each question.",
+          "success_criteria": [
+            "I can read short detail captions.",
+            "I can match a caption to image A, B, C, or D.",
+            "I can find the answer in the visible text and image."
+          ],
+          "sentence_frames": [
+            "The main detail is ___.",
+            "It is near the ___.",
+            "It is decorative because ___."
+          ],
+          "word_bank_label": "Caption words"
+        },
+        "pt": {
+          "title": "Leitura: captions de detalhes",
+          "summary": "Leia os captions curtos e escolha a chave de imagem ou a resposta correta.",
+          "instructions": "Observe image A a image D. Leia os tres captions curtos. Depois escolha a chave correta da imagem ou o significado correto do detalhe para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo ler captions curtos de detalhes.",
+            "Eu consigo relacionar um caption a image A, B, C ou D.",
+            "Eu consigo encontrar a resposta no texto e na imagem visiveis."
+          ],
+          "sentence_frames": [
+            "The main detail is ___.",
+            "It is near the ___.",
+            "It is decorative because ___."
+          ],
+          "word_bank_label": "Palavras dos captions"
+        }
+      },
+      "teacher_instructions": "Keep the same gallery visible for later reuse. Every question should be answerable from the short captions and the visible image keys only.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 11 reusable detail gallery image A to image D"
+      ],
+      "vocabulary_refs": [
+        "m01w11-v001",
+        "m01w11-v005",
+        "m01w11-v006",
+        "m01w11-v009",
+        "m01w11-v013",
+        "m01w11-v015",
+        "m01w11-v017",
+        "m01w11-v018",
+        "m01w11-v019",
+        "m01w11-v020"
+      ],
+      "asset_refs": [
+        "m01w11-img-004"
+      ],
+      "input": {
+        "input_type": "caption_reading_with_keyed_gallery",
+        "prompt_en": "Read the captions and choose the correct image key or detail answer.",
+        "prompt_pt": "Leia os captions e escolha a chave correta da imagem ou a resposta correta sobre o detalhe.",
+        "items": [
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Caption A: The main detail is a zipper on the front of the jacket. It is functional because it opens and closes the garment. Which image matches this caption?",
+            "label_pt": "Caption A: The main detail is a zipper on the front of the jacket. It is functional because it opens and closes the garment. Qual imagem combina com este caption?",
+            "asset_id": "m01w11-img-004",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Caption B: This detail is floral embroidery near the neckline. It is decorative because it adds color and texture. Which image matches this caption?",
+            "label_pt": "Caption B: This detail is floral embroidery near the neckline. It is decorative because it adds color and texture. Qual imagem combina com este caption?",
+            "asset_id": "m01w11-img-004",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Caption C: There are two patch pockets on the front of the skirt. They are practical and decorative. Which image matches this caption?",
+            "label_pt": "Caption C: There are two patch pockets on the front of the skirt. They are practical and decorative. Qual imagem combina com este caption?",
+            "asset_id": "m01w11-img-004",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "In Caption B, why is the embroidery decorative?",
+            "label_pt": "No Caption B, por que o bordado e decorativo?",
+            "asset_id": "m01w11-img-004",
+            "options_en": [
+              "It adds color and texture.",
+              "It opens and closes the garment.",
+              "It holds small objects."
+            ],
+            "options_pt": [
+              "Acrescenta cor e textura.",
+              "Abre e fecha a roupa.",
+              "Guarda objetos pequenos."
+            ],
+            "correct_answer": "It adds color and texture."
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which detail is on the front of the skirt?",
+            "label_pt": "Qual detalhe esta na frente da saia?",
+            "asset_id": "m01w11-img-004",
+            "options_en": [
+              "two patch pockets",
+              "a front zipper",
+              "a soft ruffle"
+            ],
+            "options_pt": [
+              "dois bolsos chapados",
+              "um zipper frontal",
+              "um babado macio"
+            ],
+            "correct_answer": "two patch pockets"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery",
+          "student_action_en": "Look at image A to image D before you read.",
+          "student_action_pt": "Observe image A a image D antes de ler.",
+          "teacher_action": "Keep the stable gallery visible.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Read the three captions",
+          "student_action_en": "Read the three short captions carefully.",
+          "student_action_pt": "Leia com atencao os tres captions curtos.",
+          "teacher_action": "Encourage students to look for detail, place, and role words.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Choose the answers",
+          "student_action_en": "Choose the correct image key or detail answer.",
+          "student_action_pt": "Escolha a chave correta da imagem ou a resposta correta sobre o detalhe.",
+          "teacher_action": "Keep the questions tightly tied to the captions.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_selections",
+        "description_en": "Five app-checked reading selections tied to three short captions and image A to image D.",
+        "description_pt": "Cinco selecoes de leitura verificadas pelo app ligadas a tres captions curtos e a image A a image D.",
+        "length_or_format": "5 selected answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student uses the short captions and stable image keys together.",
+          "The student matches the captions to the correct gallery images.",
+          "The student answers the detail-meaning questions using only visible text and image information."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa juntos os captions curtos e as chaves estaveis das imagens.",
+          "O aluno relaciona os captions as imagens corretas da galeria.",
+          "O aluno responde as perguntas sobre significado usando apenas informacoes visiveis do texto e da imagem."
+        ],
+        "checklist_en": [
+          "I looked at image A to image D first.",
+          "I read all three captions.",
+          "I used the caption words to answer the questions."
+        ],
+        "checklist_pt": [
+          "Eu observei primeiro image A a image D.",
+          "Eu li os tres captions.",
+          "Eu usei as palavras dos captions para responder as perguntas."
+        ],
+        "rubric": [],
+        "model_response_en": "image A, image B, image C, It adds color and texture., two patch pockets",
+        "model_response_pt": "image A, image B, image C, It adds color and texture., two patch pockets",
+        "common_errors": [
+          "Choosing image D for Caption C because both image C and image D are decorative.",
+          "Forgetting that Caption B says near the neckline."
+        ],
+        "feedback_prompts_en": [
+          "Read the caption again. Which detail word and location phrase match the image key?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia o caption novamente. Qual palavra de detalhe e qual frase de localizacao combinam com a chave da imagem?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students underline detail words and location phrases before they answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one more sentence after choosing the image key."
+        ]
+      },
+      "extension_options": [
+        "Write one extra short caption for image D using the same pattern."
+      ],
+      "notes_for_app_design": "Render the reusable gallery with stable literal labels image A to image D. Keep the captions short on screen and save five selections only. Reuse the same gallery later in listening, writing, and speaking."
+    },
+    {
+      "activity_id": "m01w11-a05",
+      "week_id": "m01w11",
+      "sequence_number": 5,
+      "title": "Listen: Which Detail Is It?",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students use one numbered listening clip and the same reusable detail gallery to identify image keys and one named detail answer.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Which Detail Is It?",
+          "summary": "Listen to the numbered descriptions and choose the correct image key or detail answer.",
+          "instructions": "Look at image A to image D before you press play. Listen to the four numbered descriptions. Choose the correct image key or detail answer for each question.",
+          "success_criteria": [
+            "I can listen for one detail and one location.",
+            "I can match the audio to image A, B, C, or D.",
+            "I can answer using the exact information from the script."
+          ],
+          "sentence_frames": [
+            "This detail is ___.",
+            "It is on the ___.",
+            "It is decorative because ___."
+          ],
+          "word_bank_label": "Listening detail words"
+        },
+        "pt": {
+          "title": "Escuta: qual detalhe e esse?",
+          "summary": "Escute as descricoes numeradas e escolha a chave correta da imagem ou a resposta correta sobre o detalhe.",
+          "instructions": "Observe image A a image D antes de iniciar o audio. Escute as quatro descricoes numeradas. Escolha a chave correta da imagem ou a resposta correta sobre o detalhe em cada pergunta.",
+          "success_criteria": [
+            "Eu consigo escutar um detalhe e uma localizacao.",
+            "Eu consigo relacionar o audio a image A, B, C ou D.",
+            "Eu consigo responder usando a informacao exata do roteiro."
+          ],
+          "sentence_frames": [
+            "This detail is ___.",
+            "It is on the ___.",
+            "It is decorative because ___."
+          ],
+          "word_bank_label": "Palavras de detalhe para escuta"
+        }
+      },
+      "teacher_instructions": "This task has the highest alignment risk. Keep the gallery labels, the numbered script, the questions, the options, and the correct answers exactly aligned.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 11 reusable detail gallery image A to image D",
+        "Week 11 numbered listening clip"
+      ],
+      "vocabulary_refs": [
+        "m01w11-v001",
+        "m01w11-v005",
+        "m01w11-v006",
+        "m01w11-v009",
+        "m01w11-v013",
+        "m01w11-v015",
+        "m01w11-v017",
+        "m01w11-v018"
+      ],
+      "asset_refs": [
+        "m01w11-img-004",
+        "m01w11-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_with_keyed_gallery",
+        "prompt_en": "Listen to the numbered descriptions and choose the correct image key or detail answer.",
+        "prompt_pt": "Escute as descricoes numeradas e escolha a chave correta da imagem ou a resposta correta sobre o detalhe.",
+        "items": [
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image matches number one?",
+            "label_pt": "Qual imagem combina com o numero um?",
+            "asset_id": "m01w11-aud-001",
+            "image_asset_id": "m01w11-img-004",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image shows floral embroidery near the neckline from number two?",
+            "label_pt": "Qual imagem mostra o bordado floral perto do decote no numero dois?",
+            "asset_id": "m01w11-aud-001",
+            "image_asset_id": "m01w11-img-004",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What detail is named in number three?",
+            "label_pt": "Qual detalhe e citado no numero tres?",
+            "asset_id": "m01w11-aud-001",
+            "image_asset_id": "m01w11-img-004",
+            "options_en": [
+              "two patch pockets",
+              "a soft ruffle",
+              "a buckle"
+            ],
+            "options_pt": [
+              "dois bolsos chapados",
+              "um babado macio",
+              "uma fivela"
+            ],
+            "correct_answer": "two patch pockets"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image is described as decorative because it adds color and texture?",
+            "label_pt": "Qual imagem e descrita como decorativa porque acrescenta cor e textura?",
+            "asset_id": "m01w11-aud-001",
+            "image_asset_id": "m01w11-img-004",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which image has the detail at the hem in number four?",
+            "label_pt": "Qual imagem tem o detalhe na barra no numero quatro?",
+            "asset_id": "m01w11-aud-001",
+            "image_asset_id": "m01w11-img-004",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"],
+            "correct_answer": "image D"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery before the audio",
+          "student_action_en": "Look at image A to image D before you press play.",
+          "student_action_pt": "Observe image A a image D antes de iniciar o audio.",
+          "teacher_action": "Keep the visible image keys on screen.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen to the four numbered descriptions",
+          "student_action_en": "Listen once for the four descriptions, then replay if needed.",
+          "student_action_pt": "Escute uma vez as quatro descricoes e depois ouca novamente se precisar.",
+          "teacher_action": "Set a clear listening purpose before the first play.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Choose the answers",
+          "student_action_en": "Choose the image key or detail answer for each question.",
+          "student_action_pt": "Escolha a chave da imagem ou a resposta sobre o detalhe para cada pergunta.",
+          "teacher_action": "Remind students to listen for exact detail words and locations.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Five app-checked listening selections aligned to one numbered audio clip and image A to image D.",
+        "description_pt": "Cinco selecoes de escuta verificadas pelo app alinhadas a um audio numerado e a image A a image D.",
+        "length_or_format": "5 selected answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student uses the audio and the visible image keys together.",
+          "The student answers the image and detail questions with exact information from the script.",
+          "The student completes the task without hidden teacher judgment."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa juntos o audio e as chaves visiveis das imagens.",
+          "O aluno responde as perguntas de imagem e detalhe com informacao exata do roteiro.",
+          "O aluno completa a tarefa sem julgamento oculto do professor."
+        ],
+        "checklist_en": [
+          "I looked at image A to image D before listening.",
+          "I listened for the exact detail words.",
+          "I replayed the audio only if I needed more detail."
+        ],
+        "checklist_pt": [
+          "Eu observei image A a image D antes de escutar.",
+          "Eu escutei as palavras exatas dos detalhes.",
+          "Eu ouvi novamente apenas se precisei de mais detalhes."
+        ],
+        "rubric": [],
+        "model_response_en": "image A, image B, two patch pockets, image B, image D",
+        "model_response_pt": "image A, image B, two patch pockets, image B, image D",
+        "common_errors": [
+          "Choosing image C for number two because both image B and image C include decoration.",
+          "Forgetting that number four says at the hem."
+        ],
+        "feedback_prompts_en": [
+          "Listen again for the exact detail word and place phrase. Which image key matches them?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente a palavra exata do detalhe e a frase de lugar. Qual chave de imagem combina com elas?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the image key before they choose it."
+        ],
+        "challenge": [
+          "Ask stronger learners to repeat one numbered description after the task."
+        ]
+      },
+      "extension_options": [
+        "Say one more short sentence about one image after you finish listening."
+      ],
+      "notes_for_app_design": "Render the same reusable gallery from the reading task with stable literal labels image A to image D and one audio player. Allow replay. Save five selections only. Reveal the listening script only after the first completed attempt."
+    },
+    {
+      "activity_id": "m01w11-a06",
+      "week_id": "m01w11",
+      "sequence_number": 6,
+      "title": "Phrase Practice: It Adds / It Is Placed / It Is Functional",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students complete five short sentence frames with explicit word-bank answers to practice location, effect, and function language for design details.",
+      "student_facing": {
+        "en": {
+          "title": "Phrase Practice: It Adds / It Is Placed / It Is Functional",
+          "summary": "Use the word bank to complete the short detail sentences.",
+          "instructions": "Read each sentence frame carefully. Use the visible word bank to complete each blank with the correct word or phrase.",
+          "success_criteria": [
+            "I can complete short detail sentences.",
+            "I can use location, effect, and function words.",
+            "I can choose answers from a visible word bank."
+          ],
+          "sentence_frames": [
+            "It is placed ___.",
+            "It adds ___.",
+            "It is functional because ___."
+          ],
+          "word_bank_label": "Word bank"
+        },
+        "pt": {
+          "title": "Pratica de frases: it adds / it is placed / it is functional",
+          "summary": "Use o banco de palavras para completar as frases curtas de detalhes.",
+          "instructions": "Leia cada frase-modelo com atencao. Use o banco de palavras visivel para completar cada lacuna com a palavra ou expressao correta.",
+          "success_criteria": [
+            "Eu consigo completar frases curtas sobre detalhes.",
+            "Eu consigo usar palavras de localizacao, efeito e funcao.",
+            "Eu consigo escolher respostas em um banco de palavras visivel."
+          ],
+          "sentence_frames": [
+            "It is placed ___.",
+            "It adds ___.",
+            "It is functional because ___."
+          ],
+          "word_bank_label": "Banco de palavras"
+        }
+      },
+      "teacher_instructions": "Keep the task fully app-checkable with explicit accepted answers. Do not hide variants that should count as correct.",
+      "estimated_minutes": 10,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 11 phrase frames"
+      ],
+      "vocabulary_refs": [
+        "m01w11-v005",
+        "m01w11-v006",
+        "m01w11-v017",
+        "m01w11-v018",
+        "m01w11-v019",
+        "m01w11-v020"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "word_bank_sentence_frames",
+        "prompt_en": "Complete the sentence frames with the correct words or phrases.",
+        "prompt_pt": "Complete as frases-modelo com as palavras ou expressoes corretas.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete: The zipper is placed ___.",
+            "label_pt": "Complete: The zipper is placed ___.",
+            "sentence_frame_en": "The zipper is placed ___.",
+            "sentence_frame_pt": "The zipper is placed ___.",
+            "word_bank": ["on the front", "near the neckline", "inside the bag"],
+            "accepted_answers": ["on the front"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete: The embroidery adds ___.",
+            "label_pt": "Complete: The embroidery adds ___.",
+            "sentence_frame_en": "The embroidery adds ___.",
+            "sentence_frame_pt": "The embroidery adds ___.",
+            "word_bank": ["color and texture", "heavy metal", "new shoes"],
+            "accepted_answers": ["color and texture"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete: The zipper is functional because it ___.",
+            "label_pt": "Complete: The zipper is functional because it ___.",
+            "sentence_frame_en": "The zipper is functional because it ___.",
+            "sentence_frame_pt": "The zipper is functional because it ___.",
+            "word_bank": [
+              "opens and closes the garment",
+              "changes the weather",
+              "draws the figure"
+            ],
+            "accepted_answers": ["opens and closes the garment"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete: The ruffle makes it ___.",
+            "label_pt": "Complete: The ruffle makes it ___.",
+            "sentence_frame_en": "The ruffle makes it ___.",
+            "sentence_frame_pt": "The ruffle makes it ___.",
+            "word_bank": ["playful", "hidden", "metal"],
+            "accepted_answers": ["playful"]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete: There are patch pockets ___.",
+            "label_pt": "Complete: There are patch pockets ___.",
+            "sentence_frame_en": "There are patch pockets ___.",
+            "sentence_frame_pt": "There are patch pockets ___.",
+            "word_bank": [
+              "on the front of the skirt",
+              "under the shoes",
+              "inside the notebook"
+            ],
+            "accepted_answers": ["on the front of the skirt"]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the frame",
+          "student_action_en": "Read each sentence frame before you choose an answer.",
+          "student_action_pt": "Leia cada frase-modelo antes de escolher a resposta.",
+          "teacher_action": "Remind students to use the whole sentence for context.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose from the word bank",
+          "student_action_en": "Use the visible word bank to complete the five blanks.",
+          "student_action_pt": "Use o banco de palavras visivel para completar as cinco lacunas.",
+          "teacher_action": "Keep the focus on explicit choices, not free typing.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "fill_blank_answers",
+        "description_en": "Five app-checked fill-blank answers using visible word-bank options.",
+        "description_pt": "Cinco respostas de lacuna verificadas pelo app usando opcoes visiveis de banco de palavras.",
+        "length_or_format": "5 fill-blank answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes all five blanks.",
+          "The student uses visible word-bank choices only.",
+          "The student selects explicit answers for location, effect, and function."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as cinco lacunas.",
+          "O aluno usa apenas escolhas visiveis do banco de palavras.",
+          "O aluno seleciona respostas explicitas para localizacao, efeito e funcao."
+        ],
+        "checklist_en": [
+          "I read the whole sentence frame.",
+          "I used the visible word bank.",
+          "I completed all five blanks."
+        ],
+        "checklist_pt": [
+          "Eu li a frase-modelo inteira.",
+          "Eu usei o banco de palavras visivel.",
+          "Eu completei as cinco lacunas."
+        ],
+        "rubric": [],
+        "model_response_en": "on the front, color and texture, opens and closes the garment, playful, on the front of the skirt",
+        "model_response_pt": "on the front, color and texture, opens and closes the garment, playful, on the front of the skirt",
+        "common_errors": [
+          "Choosing an option that fits the grammar but not the detail meaning.",
+          "Ignoring the plural clue in There are patch pockets."
+        ],
+        "feedback_prompts_en": [
+          "Read the full sentence again. Which word-bank option makes sense with the detail?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia a frase completa novamente. Qual opcao do banco de palavras faz sentido com o detalhe?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the answer aloud before they select it."
+        ],
+        "challenge": [
+          "Ask stronger learners to make one new short sentence with the same phrase."
+        ]
+      },
+      "extension_options": [
+        "Write one more sentence with adds or makes after you finish the five blanks."
+      ],
+      "notes_for_app_design": "Keep the main saved output as fill_blank answers only. Show the full sentence frame and the visible word bank on the same screen. Save exact accepted answers and do not rely on hidden interpretation."
+    },
+    {
+      "activity_id": "m01w11-a07",
+      "week_id": "m01w11",
+      "sequence_number": 7,
+      "title": "Design Detail Caption Set",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students choose one gallery image and complete a scaffolded six-line detail-caption card with one optional challenge line for teacher review.",
+      "student_facing": {
+        "en": {
+          "title": "Design Detail Caption Set",
+          "summary": "Choose one gallery image and complete the six required lines.",
+          "instructions": "Choose one image key from image A to image D. Then complete the six required short lines about that detail. You can add the optional challenge line after you finish the required lines.",
+          "success_criteria": [
+            "I can choose one image and stay with it.",
+            "I can complete six short lines, not one paragraph.",
+            "I can name the detail, place, role, and effect clearly."
+          ],
+          "sentence_frames": [
+            "The main detail is ___.",
+            "It is on the ___ / near the ___.",
+            "It is functional / decorative / both because ___."
+          ],
+          "word_bank_label": "Detail caption frames"
+        },
+        "pt": {
+          "title": "Conjunto de captions de detalhes de design",
+          "summary": "Escolha uma imagem da galeria e complete as seis linhas obrigatorias.",
+          "instructions": "Escolha uma chave de imagem entre image A e image D. Depois complete as seis linhas curtas obrigatorias sobre esse detalhe. Voce pode acrescentar a linha opcional de desafio depois de terminar as linhas obrigatorias.",
+          "success_criteria": [
+            "Eu consigo escolher uma imagem e manter essa escolha.",
+            "Eu consigo completar seis linhas curtas, e nao um paragrafo.",
+            "Eu consigo nomear com clareza o detalhe, o lugar, a funcao e o efeito."
+          ],
+          "sentence_frames": [
+            "The main detail is ___.",
+            "It is on the ___ / near the ___.",
+            "It is functional / decorative / both because ___."
+          ],
+          "word_bank_label": "Frases-modelo para captions de detalhe"
+        }
+      },
+      "teacher_instructions": "Review the chosen image key and each saved line separately. Use the checklist, common errors, and feedback prompts to return one specific line for revision if needed.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 11 reusable detail gallery image A to image D",
+        "Week 11 line-based writing card"
+      ],
+      "vocabulary_refs": [
+        "m01w11-v001",
+        "m01w11-v005",
+        "m01w11-v006",
+        "m01w11-v009",
+        "m01w11-v013",
+        "m01w11-v015",
+        "m01w11-v017",
+        "m01w11-v018",
+        "m01w11-v019",
+        "m01w11-v020"
+      ],
+      "asset_refs": [
+        "m01w11-img-004"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Choose one image from image A to image D and complete the required detail-caption lines.",
+        "prompt_pt": "Escolha uma imagem de image A a image D e complete as linhas obrigatorias do caption de detalhe.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Selected image key",
+            "label_pt": "Chave da imagem selecionada",
+            "asset_id": "m01w11-img-004",
+            "options_en": ["image A", "image B", "image C", "image D"],
+            "options_pt": ["image A", "image B", "image C", "image D"]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 1: Name the main detail.",
+            "label_pt": "Linha 1: nomeie o detalhe principal.",
+            "sentence_frame_en": "The main detail is ___.",
+            "sentence_frame_pt": "The main detail is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 2: Say where it is.",
+            "label_pt": "Linha 2: diga onde ele esta.",
+            "sentence_frame_en": "It is on the ___ / near the ___.",
+            "sentence_frame_pt": "It is on the ___ / near the ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 3: Say if it is functional, decorative, or both.",
+            "label_pt": "Linha 3: diga se ele e funcional, decorativo ou ambos.",
+            "sentence_frame_en": "It is ___ because ___.",
+            "sentence_frame_pt": "It is ___ because ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 4: Add one clear effect.",
+            "label_pt": "Linha 4: acrescente um efeito claro.",
+            "sentence_frame_en": "It adds ___ / It makes the garment look ___.",
+            "sentence_frame_pt": "It adds ___ / It makes the garment look ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 5: Add one second visible clue.",
+            "label_pt": "Linha 5: acrescente uma segunda pista visivel.",
+            "sentence_frame_en": "A second visible detail is ___.",
+            "sentence_frame_pt": "A second visible detail is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 6: Add one simple opinion.",
+            "label_pt": "Linha 6: acrescente uma opiniao simples.",
+            "sentence_frame_en": "I like this detail because ___.",
+            "sentence_frame_pt": "I like this detail because ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Optional challenge line",
+            "label_pt": "Linha opcional de desafio",
+            "sentence_frame_en": "This detail is useful for ___ / This detail makes the look more ___.",
+            "sentence_frame_pt": "This detail is useful for ___ / This detail makes the look more ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose one gallery image",
+          "student_action_en": "Look at image A to image D and choose one image key.",
+          "student_action_pt": "Observe image A a image D e escolha uma chave de imagem.",
+          "teacher_action": "Keep the gallery visible and stable.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the six required lines",
+          "student_action_en": "Write one short response in each required line.",
+          "student_action_pt": "Escreva uma resposta curta em cada linha obrigatoria.",
+          "teacher_action": "Coach students to move line by line instead of writing a paragraph.",
+          "estimated_minutes": 12,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge line if ready",
+          "student_action_en": "Add the optional challenge line after you finish all required lines.",
+          "student_action_pt": "Acrescente a linha opcional de desafio depois de terminar todas as linhas obrigatorias.",
+          "teacher_action": "Keep the optional line visible but not required for completion.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_detail_caption_card",
+        "description_en": "One saved six-line detail-caption card with one selected image key and one optional challenge line.",
+        "description_pt": "Um cartao salvo de caption de detalhe com seis linhas, uma chave de imagem selecionada e uma linha opcional de desafio.",
+        "length_or_format": "6 required short lines plus 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student selects one gallery image key and stays with it.",
+          "The student completes all six required lines with short clear language.",
+          "The student keeps the output as structured lines, not a paragraph."
+        ],
+        "completion_criteria_pt": [
+          "O aluno seleciona uma chave de imagem da galeria e mantem essa escolha.",
+          "O aluno completa as seis linhas obrigatorias com linguagem curta e clara.",
+          "O aluno mantem a resposta como linhas estruturadas, e nao como paragrafo."
+        ],
+        "checklist_en": [
+          "The student chooses one image and keeps the same detail set.",
+          "The student completes all six required lines.",
+          "The student names the detail, place, role, and one effect clearly.",
+          "The student uses understandable simple English.",
+          "The student does not turn the task into one paragraph."
+        ],
+        "checklist_pt": [
+          "O aluno escolhe uma imagem e mantem o mesmo conjunto de detalhes.",
+          "O aluno completa as seis linhas obrigatorias.",
+          "O aluno nomeia com clareza o detalhe, o lugar, a funcao e um efeito.",
+          "O aluno usa ingles simples compreensivel.",
+          "O aluno nao transforma a tarefa em um unico paragrafo."
+        ],
+        "rubric": [],
+        "model_response_en": "image B. The main detail is floral embroidery. It is near the neckline. It is decorative because it adds color and texture. It makes the garment look more delicate. A second visible detail is bright thread around the flowers. I like this detail because it looks elegant. This detail makes the look more expressive.",
+        "model_response_pt": "image B. The main detail is floral embroidery. It is near the neckline. It is decorative because it adds color and texture. It makes the garment look more delicate. A second visible detail is bright thread around the flowers. I like this detail because it looks elegant. This detail makes the look more expressive.",
+        "common_errors": [
+          "Writing one paragraph instead of completing one line at a time.",
+          "Mixing details from two different images.",
+          "Forgetting the article in a zipper or the plural in there are patch pockets.",
+          "Using decorative when the reason is practical use."
+        ],
+        "feedback_prompts_en": [
+          "Please finish the missing required line before you add extra ideas.",
+          "Please make the location phrase clearer.",
+          "Please explain why the detail is functional, decorative, or both with one short because phrase."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, complete a linha obrigatoria que falta antes de acrescentar ideias extras.",
+          "Por favor, deixe a frase de localizacao mais clara.",
+          "Por favor, explique por que o detalhe e funcional, decorativo ou ambos com uma frase curta com because."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students draft one or two words first, then expand them into the full frame."
+        ],
+        "challenge": [
+          "Ask stronger learners to use both adds and makes across different lines."
+        ]
+      },
+      "extension_options": [
+        "Write one extra comparison sentence between your image and another gallery image."
+      ],
+      "notes_for_app_design": "Render the reusable gallery with stable image A to image D labels and require the student to choose one key before writing. Save the selected image key and each structured line separately. Show the selected image key and gallery image to the teacher during review. Include the checklist, common-error prompts, and return-for-revision support for one specific line or one missing required element. Do not use a paragraph box and do not use any word-count requirement."
+    },
+    {
+      "activity_id": "m01w11-a08",
+      "week_id": "m01w11",
+      "sequence_number": 8,
+      "title": "Review and Improve: Clear Detail Captions",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students correct two short incorrect detail-caption sentences with explicit accepted answers and narrow grammar targets.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Clear Detail Captions",
+          "summary": "Correct the short detail-caption sentences.",
+          "instructions": "Read each short sentence carefully. Correct the mistake and save the new sentence.",
+          "success_criteria": [
+            "I can notice a short detail-caption mistake.",
+            "I can correct one sentence clearly.",
+            "I can keep my correction short and specific."
+          ],
+          "sentence_frames": [
+            "The main detail is ___.",
+            "The zipper is on the ___.",
+            "There are ___."
+          ],
+          "word_bank_label": "Correction focus"
+        },
+        "pt": {
+          "title": "Revise e melhore: captions claros de detalhes",
+          "summary": "Corrija as frases curtas de caption de detalhe.",
+          "instructions": "Leia cada frase curta com atencao. Corrija o erro e salve a nova frase.",
+          "success_criteria": [
+            "Eu consigo perceber um erro curto em um caption de detalhe.",
+            "Eu consigo corrigir uma frase com clareza.",
+            "Eu consigo manter minha correcao curta e especifica."
+          ],
+          "sentence_frames": [
+            "The main detail is ___.",
+            "The zipper is on the ___.",
+            "There are ___."
+          ],
+          "word_bank_label": "Foco da correcao"
+        }
+      },
+      "teacher_instructions": "Keep the correction targets narrow and A2-appropriate. Accepted answers should be explicit and not too open-ended.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 11 correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w11-v001",
+        "m01w11-v009",
+        "m01w11-v017"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "sentence_correction_cards",
+        "prompt_en": "Correct the short detail-caption sentences.",
+        "prompt_pt": "Corrija as frases curtas de caption de detalhe.",
+        "items": [
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct this sentence: The detail main is zipper.",
+            "label_pt": "Corrija esta frase: The detail main is zipper.",
+            "incorrect_text": "The detail main is zipper.",
+            "accepted_answers": [
+              "The main detail is a zipper."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct this sentence: There is patch pockets on the front.",
+            "label_pt": "Corrija esta frase: There is patch pockets on the front.",
+            "incorrect_text": "There is patch pockets on the front.",
+            "accepted_answers": [
+              "There are patch pockets on the front."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the sentence",
+          "student_action_en": "Read the incorrect sentence carefully.",
+          "student_action_pt": "Leia com atencao a frase incorreta.",
+          "teacher_action": "Encourage students to look for one specific error.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Correct and save",
+          "student_action_en": "Write the corrected sentence and save it.",
+          "student_action_pt": "Escreva a frase corrigida e salve-a.",
+          "teacher_action": "Keep the corrections short and controlled.",
+          "estimated_minutes": 5,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentences",
+        "description_en": "Two corrected detail-caption sentences checked by the app.",
+        "description_pt": "Duas frases corrigidas de caption de detalhe verificadas pelo app.",
+        "length_or_format": "2 corrected sentences"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student corrects both sentences.",
+          "The student fixes the exact target error in each sentence.",
+          "The student keeps the corrected sentence short and clear."
+        ],
+        "completion_criteria_pt": [
+          "O aluno corrige as duas frases.",
+          "O aluno corrige o erro exato em cada frase.",
+          "O aluno mantem a frase corrigida curta e clara."
+        ],
+        "checklist_en": [
+          "I read the incorrect sentence first.",
+          "I corrected the target error.",
+          "I saved both corrected sentences."
+        ],
+        "checklist_pt": [
+          "Eu li primeiro a frase incorreta.",
+          "Eu corrigi o erro principal.",
+          "Eu salvei as duas frases corrigidas."
+        ],
+        "rubric": [],
+        "model_response_en": "The main detail is a zipper. There are patch pockets on the front.",
+        "model_response_pt": "The main detail is a zipper. There are patch pockets on the front.",
+        "common_errors": [
+          "Fixing only one word and leaving the article or plural error unchanged.",
+          "Adding extra new ideas instead of correcting the original sentence."
+        ],
+        "feedback_prompts_en": [
+          "Check the word order, article, or singular-plural form again."
+        ],
+        "feedback_prompts_pt": [
+          "Confira novamente a ordem das palavras, o artigo ou a forma de singular e plural."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the corrected sentence aloud before saving it."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain which grammar point changed."
+        ]
+      },
+      "extension_options": [
+        "Write one more correct sentence with The main detail is ... after the two correction cards."
+      ],
+      "notes_for_app_design": "Render one correction card at a time. Save two corrected sentences only. Use explicit accepted answers and keep the error focus narrow."
+    },
+    {
+      "activity_id": "m01w11-a09",
+      "week_id": "m01w11",
+      "sequence_number": 9,
+      "title": "Teacher Session: Explain a Detail",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use the same gallery and their saved writing card to explain one design detail in four to five short spoken sentences during a teacher-observed session.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Explain a Detail",
+          "summary": "Use your chosen image and your card to explain one detail in short sentences.",
+          "instructions": "Look at your chosen image and your saved writing card. Explain one design detail in four or five short sentences.",
+          "success_criteria": [
+            "I can speak about one image I already know.",
+            "I can use short prepared sentences.",
+            "I can explain the detail, place, and role clearly."
+          ],
+          "sentence_frames": [
+            "The main detail is ___.",
+            "It is on the ___ / near the ___.",
+            "It is functional / decorative because ___."
+          ],
+          "word_bank_label": "Speaking frame"
+        },
+        "pt": {
+          "title": "Sessao com o professor: explique um detalhe",
+          "summary": "Use sua imagem escolhida e seu cartao para explicar um detalhe em frases curtas.",
+          "instructions": "Observe sua imagem escolhida e seu cartao salvo de escrita. Explique um detalhe de design em quatro ou cinco frases curtas.",
+          "success_criteria": [
+            "Eu consigo falar sobre uma imagem que ja conheco.",
+            "Eu consigo usar frases curtas preparadas.",
+            "Eu consigo explicar com clareza o detalhe, o lugar e a funcao."
+          ],
+          "sentence_frames": [
+            "The main detail is ___.",
+            "It is on the ___ / near the ___.",
+            "It is functional / decorative because ___."
+          ],
+          "word_bank_label": "Frase-modelo para fala"
+        }
+      },
+      "teacher_instructions": "Use the chosen image and the saved caption card as speaking support. Record teacher observation and completion only. Do not ask for recording or upload.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 11 reusable detail gallery image A to image D",
+        "Student saved detail-caption card",
+        "Pronunciation support list for detail words"
+      ],
+      "vocabulary_refs": [
+        "m01w11-v001",
+        "m01w11-v005",
+        "m01w11-v009",
+        "m01w11-v013",
+        "m01w11-v015",
+        "m01w11-v017",
+        "m01w11-v018"
+      ],
+      "asset_refs": [
+        "m01w11-img-004"
+      ],
+      "input": {
+        "input_type": "teacher_observed_speaking_prompt",
+        "prompt_en": "Use your chosen image and your saved card to explain one design detail in four or five short spoken sentences.",
+        "prompt_pt": "Use sua imagem escolhida e seu cartao salvo para explicar um detalhe de design em quatro ou cinco frases curtas faladas.",
+        "items": [
+          {
+            "response_type": "teacher_observed_speaking",
+            "label_en": "Short spoken explanation",
+            "label_pt": "Explicacao oral curta",
+            "sentence_frame_en": "The main detail is ___. It is on the ___. It is functional / decorative because ___. It adds ___ / It makes the garment look ___.",
+            "sentence_frame_pt": "The main detail is ___. It is on the ___. It is functional / decorative because ___. It adds ___ / It makes the garment look ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the image and card",
+          "student_action_en": "Look at your chosen image and your saved writing card.",
+          "student_action_pt": "Observe sua imagem escolhida e seu cartao salvo de escrita.",
+          "teacher_action": "Give students a brief preparation minute with the gallery visible.",
+          "estimated_minutes": 8,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Say the short explanation",
+          "student_action_en": "Explain one detail in four or five short sentences.",
+          "student_action_pt": "Explique um detalhe em quatro ou cinco frases curtas.",
+          "teacher_action": "Monitor clarity, pronunciation, and use of the speaking frame.",
+          "estimated_minutes": 32,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 3,
+          "title": "Receive quick feedback",
+          "student_action_en": "Listen to one short teacher comment and repeat one key phrase if needed.",
+          "student_action_pt": "Escute um comentario curto do professor e repita uma frase importante se necessario.",
+          "teacher_action": "Give one specific next step, not a long correction list.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_spoken_detail_explanation",
+        "description_en": "One teacher-observed spoken explanation of a design detail using four to five short sentences.",
+        "description_pt": "Uma explicacao oral observada pelo professor sobre um detalhe de design usando quatro ou cinco frases curtas.",
+        "length_or_format": "4 to 5 short spoken sentences"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student explains one chosen detail only.",
+          "The student uses short scaffolded sentences.",
+          "The student completes the speaking task without recording or upload."
+        ],
+        "completion_criteria_pt": [
+          "O aluno explica apenas um detalhe escolhido.",
+          "O aluno usa frases curtas com apoio.",
+          "O aluno completa a tarefa de fala sem gravacao nem upload."
+        ],
+        "checklist_en": [
+          "The student names the detail.",
+          "The student says where it is.",
+          "The student explains if it is functional, decorative, or both.",
+          "The student adds one effect or opinion sentence."
+        ],
+        "checklist_pt": [
+          "O aluno nomeia o detalhe.",
+          "O aluno diz onde ele esta.",
+          "O aluno explica se ele e funcional, decorativo ou ambos.",
+          "O aluno acrescenta uma frase de efeito ou opiniao."
+        ],
+        "rubric": [],
+        "model_response_en": "The main detail is a zipper. It is on the front of the jacket. It is functional because it opens and closes the garment. It adds contrast. I like this detail because it looks modern.",
+        "model_response_pt": "The main detail is a zipper. It is on the front of the jacket. It is functional because it opens and closes the garment. It adds contrast. I like this detail because it looks modern.",
+        "common_errors": [
+          "Trying to describe the whole outfit instead of one detail.",
+          "Speaking too long without using the prepared frame.",
+          "Switching to recording-style behavior instead of teacher-observed speaking."
+        ],
+        "feedback_prompts_en": [
+          "Say the detail word again clearly.",
+          "Add one short place phrase.",
+          "Use because to explain the role."
+        ],
+        "feedback_prompts_pt": [
+          "Diga novamente a palavra do detalhe com clareza.",
+          "Acrescente uma frase curta de lugar.",
+          "Use because para explicar a funcao."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students read from the saved card during the first attempt."
+        ],
+        "challenge": [
+          "Ask stronger learners to add one comparison with another gallery image."
+        ]
+      },
+      "extension_options": [
+        "Repeat the explanation with one improved pronunciation target."
+      ],
+      "notes_for_app_design": "Render the chosen gallery image and the saved caption card together with a visible speaking frame. Store only teacher observation and completion data in future app flows. Do not create any recording, upload, or automated speech-scoring path."
+    }
+  ]
+}
