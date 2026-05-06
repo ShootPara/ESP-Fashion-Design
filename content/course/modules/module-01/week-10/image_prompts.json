@@ -13,7 +13,7 @@
       "used_by_activity_ids": [
         "m01w10-a01"
       ],
-      "status": "needed"
+      "status": "generated"
     },
     {
       "asset_id": "m01w10-img-002",
@@ -29,7 +29,7 @@
         "m01w10-a07",
         "m01w10-a09"
       ],
-      "status": "needed"
+      "status": "generated"
     },
     {
       "asset_id": "m01w10-img-003",
@@ -43,7 +43,7 @@
       "used_by_activity_ids": [
         "m01w10-a04"
       ],
-      "status": "needed"
+      "status": "generated"
     }
   ]
 }

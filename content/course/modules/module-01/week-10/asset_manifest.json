@@ -8,7 +8,7 @@
       "title": "Week 10 opener integrated sketch board",
       "description": "A compact opener board with one clear fashion sketch showing visible garment type, color palette, silhouette, and at least two details so students can review Week 10 sketch-description language.",
       "target_filename": "assets/images/module-01/week-10/m01w10-img-001.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w10-a01"
       ],
@@ -22,7 +22,7 @@
       "title": "Reusable sketch gallery for reading, writing, and speaking",
       "description": "A reusable gallery with three clearly separated fashion sketches for the Week 10 reading task and for the shared writing and speaking reference.",
       "target_filename": "assets/images/module-01/week-10/m01w10-img-002.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w10-a03",
         "m01w10-a07",
@@ -38,7 +38,7 @@
       "title": "Listening sketch gallery",
       "description": "A listening gallery with four clearly separated fashion sketches for the Week 10 numbered listening task.",
       "target_filename": "assets/images/module-01/week-10/m01w10-img-003.png",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w10-a04"
       ],
@@ -52,7 +52,7 @@
       "title": "Week 10 numbered sketch-description listening audio",
       "description": "A short Week 10 listening clip with four numbered sketch descriptions aligned exactly to the Week 10 listening gallery.",
       "target_filename": "assets/audio/module-01/week-10/m01w10-aud-001.mp3",
-      "status": "needed",
+      "status": "generated",
       "used_by_activity_ids": [
         "m01w10-a04"
       ],
