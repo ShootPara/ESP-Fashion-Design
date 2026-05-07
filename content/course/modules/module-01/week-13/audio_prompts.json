@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w13",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w13-aud-001",
+      "purpose": "Listening model for Week 13 design-feedback identification using the reusable image A to image D gallery.",
+      "target_filename": "assets/audio/module-01/week-13/m01w13-aud-001.mp3",
+      "script": "Look at image A to image D. Number one: I like the dress because the color palette is soft and calm. The flowy fabric works well. You could add a small detail near the neckline. Number two: I like the jacket because it is modern and practical. The zipper and pockets work well. Maybe you could add more contrast to the color palette. Number three: The strongest part is the bright silhouette. The wide pants create an energetic mood. You could clarify the caption and make the main idea clearer. Number four: I like the textured detail because it looks balanced and elegant. The overall look is clear. Maybe you could simplify one extra decoration.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom instructor speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and easy to follow, with short pauses after each number and slight emphasis on the main strength and suggestion in each comment.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher.",
+      "duration_estimate_seconds": 55,
+      "used_by_activity_ids": [
+        "m01w13-a05"
+      ],
+      "status": "planned"
+    }
+  ]
+}

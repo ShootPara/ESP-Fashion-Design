@@ -1,0 +1,50 @@
+{
+  "week_id": "m01w13",
+  "assets": [
+    {
+      "asset_id": "m01w13-img-001",
+      "week_id": "m01w13",
+      "asset_type": "image",
+      "title": "Week 13 opener board with one feedback-ready design",
+      "description": "A single adult-learning fashion look, sketch, or mini board with a strong visible color palette, a clear silhouette, a visible neckline detail, a balanced overall look, and one plausible contrast-detail improvement point for a fast opener review.",
+      "target_filename": "assets/images/module-01/week-13/m01w13-img-001.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w13-a01"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Keep the image visually clear on a phone screen. The design must support objective visible-clue answers about the color palette, silhouette, visible neckline detail, and balanced overall look. Include one small area where adding a contrast detail is a clear and plausible suggestion so the app-checked opener answers stay defensible."
+    },
+    {
+      "asset_id": "m01w13-img-002",
+      "week_id": "m01w13",
+      "asset_type": "image",
+      "title": "Week 13 reusable four-panel feedback gallery image A to image D",
+      "description": "A reusable four-panel gallery labeled only image A, image B, image C, and image D. Each panel should show one distinct design with clear strengths and one reasonable improvement point so feedback answers stay defensible.",
+      "target_filename": "assets/images/module-01/week-13/m01w13-img-002.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w13-a04",
+        "m01w13-a05",
+        "m01w13-a07",
+        "m01w13-a09"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Keep the literal image A to image D labels visible and stable. Make each panel distinct enough that reading and listening answers stay objective. Include adult-oriented fashion sketch, caption, or critique context without clutter."
+    },
+    {
+      "asset_id": "m01w13-aud-001",
+      "week_id": "m01w13",
+      "asset_type": "audio",
+      "title": "Week 13 numbered spoken feedback clip",
+      "description": "One short A2 listening clip with four numbered spoken feedback comments aligned exactly to the reusable image A to image D gallery.",
+      "target_filename": "assets/audio/module-01/week-13/m01w13-aud-001.mp3",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w13-a05"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Keep the full script only in audio_prompts.json. Do not create a separate transcript asset. The numbered script, question labels, options, and correct answers must match exactly."
+    }
+  ]
+}

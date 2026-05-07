@@ -1,0 +1,36 @@
+{
+  "week_id": "m01w13",
+  "image_prompts": [
+    {
+      "asset_id": "m01w13-img-001",
+      "purpose": "Week 13 opener board with one feedback-ready design for visible-clue critique review.",
+      "target_filename": "assets/images/module-01/week-13/m01w13-img-001.png",
+      "visual_description": "One adult-oriented fashion sketch, look, or mini critique board showing a single design with a strong visible color palette, a clear silhouette, a visible neckline detail, and an overall balanced look. The design should also include one small area where adding a contrast detail would be a plausible and objective critique suggestion in a beginner studio review.",
+      "style_instructions": "Use a clear fashion-education illustration or polished fashion-sketch style with adult proportions, studio-review context, and strong readability.",
+      "composition_notes": "Keep one main design centered and large enough for quick review on a phone screen. Make the color palette, silhouette, and neckline detail immediately visible without zooming. Show the look as balanced overall, while leaving one small area where a contrast accent or contrast detail could reasonably improve the design.",
+      "text_in_image": "No instructional text. Only minimal visible labels if needed for a clean board layout.",
+      "avoid": "Avoid brand logos, childish styling, unsafe design details, cluttered boards, tiny unreadable notes, or subjective visual cues that make the correct answer ambiguous. Avoid hiding the neckline, weakening the silhouette, or using such a flat palette that the strong color-palette clue and the contrast-detail suggestion stop being defensible.",
+      "used_by_activity_ids": [
+        "m01w13-a01"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w13-img-002",
+      "purpose": "Reusable four-panel feedback gallery labeled only image A to image D.",
+      "target_filename": "assets/images/module-01/week-13/m01w13-img-002.png",
+      "visual_description": "A reusable four-panel gallery labeled only image A, image B, image C, and image D. Image A shows a soft dress look with a calm palette and flowy fabric, with room for one small decorative suggestion. Image B shows an urban jacket look with visible zipper and pockets, a neutral palette, and a clear chance to suggest more contrast. Image C shows a bright playful look with wide pants or sleeves, visible movement, and a caption area that could be clarified. Image D shows a balanced look with strong detail or texture, but one area that could be simplified for a clearer overall result.",
+      "style_instructions": "Use a consistent adult fashion-study illustration style with sketch, caption, or mini-board context suitable for critique and revision language work.",
+      "composition_notes": "Keep the four panels evenly spaced and visually consistent. The image A to image D labels must be large, simple, and stable because reading, listening, writing, and speaking all depend on them exactly.",
+      "text_in_image": "Only the visible labels image A, image B, image C, and image D, plus any minimal built-in caption cue needed for critique context.",
+      "avoid": "Avoid extra decorative text, brand logos, tiny labels, childish styling, cluttered moodboards, or panels that feel too similar to support objective app-checked answers.",
+      "used_by_activity_ids": [
+        "m01w13-a04",
+        "m01w13-a05",
+        "m01w13-a07",
+        "m01w13-a09"
+      ],
+      "status": "planned"
+    }
+  ]
+}

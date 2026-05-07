@@ -1,0 +1,433 @@
+{
+  "week_id": "m01w13",
+  "vocabulary_groups": [
+    {
+      "group_id": "m01w13-vg01",
+      "title": "Feedback core nouns and verbs",
+      "description": "Core words for talking about comments, revision, and improvement in a design class.",
+      "items": [
+        {
+          "vocab_id": "m01w13-v001",
+          "term": "feedback",
+          "part_of_speech": "noun",
+          "definition_en": "Comments that help improve work.",
+          "learner_friendly_definition_en": "Comments that help make the design better.",
+          "learner_friendly_definition_pt": "Comentarios que ajudam a melhorar o design.",
+          "example_sentence_en": "The student gives simple feedback on the sketch.",
+          "example_sentence_pt": "The student gives simple feedback on the sketch.",
+          "professional_context_en": "Feedback is the main Week 13 concept for studio critique and revision.",
+          "professional_context_pt": "Feedback e o conceito principal da Semana 13 para critica de estudio e revisao.",
+          "translation_notes_pt": "The borrowed word feedback is common, but students still need the full English classroom use.",
+          "pronunciation_notes": "Say FEED-back.",
+          "related_terms": [
+            "comment",
+            "suggestion",
+            "revision"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v002",
+          "term": "comment",
+          "part_of_speech": "noun",
+          "definition_en": "A short opinion or response about the work.",
+          "learner_friendly_definition_en": "A short thing you say about the design.",
+          "learner_friendly_definition_pt": "Uma coisa curta que voce diz sobre o design.",
+          "example_sentence_en": "My first comment is positive.",
+          "example_sentence_pt": "My first comment is positive.",
+          "professional_context_en": "Comment supports simple critique and response language.",
+          "professional_context_pt": "Comment apoia a linguagem simples de critica e resposta.",
+          "translation_notes_pt": "Bridge to comentario.",
+          "pronunciation_notes": "Say COM-ent.",
+          "related_terms": [
+            "feedback",
+            "positive",
+            "suggestion"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v003",
+          "term": "suggestion",
+          "part_of_speech": "noun",
+          "definition_en": "An idea for making the work better.",
+          "learner_friendly_definition_en": "A polite idea for change.",
+          "learner_friendly_definition_pt": "Uma ideia educada para mudar algo.",
+          "example_sentence_en": "My suggestion is to add more contrast.",
+          "example_sentence_pt": "My suggestion is to add more contrast.",
+          "professional_context_en": "Suggestion is key for polite critique before revision.",
+          "professional_context_pt": "Suggestion e importante para a critica educada antes da revisao.",
+          "translation_notes_pt": "Teach as polite advice, not as an order.",
+          "pronunciation_notes": "Say sug-JES-chuhn.",
+          "related_terms": [
+            "could",
+            "improvement",
+            "revision"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v004",
+          "term": "revision",
+          "part_of_speech": "noun",
+          "definition_en": "A change made after feedback.",
+          "learner_friendly_definition_en": "A change you make after comments.",
+          "learner_friendly_definition_pt": "Uma mudanca que voce faz depois dos comentarios.",
+          "example_sentence_en": "The revision makes the caption clearer.",
+          "example_sentence_pt": "The revision makes the caption clearer.",
+          "professional_context_en": "Revision connects critique language to the next design step.",
+          "professional_context_pt": "Revision conecta a linguagem de critica ao proximo passo do design.",
+          "translation_notes_pt": "Revision here means change after feedback, not only checking again.",
+          "pronunciation_notes": "Say re-VIZH-uhn.",
+          "related_terms": [
+            "revise",
+            "improvement",
+            "clarify"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v005",
+          "term": "strength",
+          "part_of_speech": "noun",
+          "definition_en": "A strong positive feature of the work.",
+          "learner_friendly_definition_en": "The best good part of the design.",
+          "learner_friendly_definition_pt": "A melhor parte positiva do design.",
+          "example_sentence_en": "The main strength is the silhouette.",
+          "example_sentence_pt": "The main strength is the silhouette.",
+          "professional_context_en": "Strength helps students move beyond very general praise.",
+          "professional_context_pt": "Strength ajuda os alunos a irem alem de elogios muito gerais.",
+          "translation_notes_pt": "Bridge to ponto forte.",
+          "pronunciation_notes": "Say STRENGTH.",
+          "related_terms": [
+            "strongest part",
+            "balanced",
+            "clear"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w13-vg02",
+      "title": "Positive comment and reason frames",
+      "description": "High-frequency feedback phrases for saying what works and why.",
+      "items": [
+        {
+          "vocab_id": "m01w13-v006",
+          "term": "I like ...",
+          "part_of_speech": "phrase",
+          "definition_en": "A simple way to start a positive comment.",
+          "learner_friendly_definition_en": "A simple beginning for saying something good.",
+          "learner_friendly_definition_pt": "Um comeco simples para dizer algo bom.",
+          "example_sentence_en": "I like the color palette.",
+          "example_sentence_pt": "I like the color palette.",
+          "professional_context_en": "I like ... is a safe A2 frame for beginner critique.",
+          "professional_context_pt": "I like ... e uma estrutura segura de nivel A2 para critica inicial.",
+          "translation_notes_pt": "Bridge to eu gosto de.",
+          "pronunciation_notes": "Stress LIKE.",
+          "related_terms": [
+            "because",
+            "works well",
+            "strongest part"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v007",
+          "term": "works well",
+          "part_of_speech": "phrase",
+          "definition_en": "Is successful or looks effective.",
+          "learner_friendly_definition_en": "Looks good and makes sense in the design.",
+          "learner_friendly_definition_pt": "Fica bom e faz sentido no design.",
+          "example_sentence_en": "The fabric works well with the long dress.",
+          "example_sentence_pt": "The fabric works well with the long dress.",
+          "professional_context_en": "Works well is useful for palette, silhouette, fabric, and detail comments.",
+          "professional_context_pt": "Works well e util para comentarios sobre paleta, silhueta, tecido e detalhe.",
+          "translation_notes_pt": "Bridge to funciona bem.",
+          "pronunciation_notes": "Stress WORKS WELL.",
+          "related_terms": [
+            "clear",
+            "balanced",
+            "because"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v008",
+          "term": "the strongest part",
+          "part_of_speech": "phrase",
+          "definition_en": "The best or most successful part of the design.",
+          "learner_friendly_definition_en": "The part that works best.",
+          "learner_friendly_definition_pt": "A parte que funciona melhor.",
+          "example_sentence_en": "The strongest part is the jacket shape.",
+          "example_sentence_pt": "The strongest part is the jacket shape.",
+          "professional_context_en": "This frame helps students name one specific strength in critique.",
+          "professional_context_pt": "Essa estrutura ajuda os alunos a nomear um ponto forte especifico na critica.",
+          "translation_notes_pt": "Bridge to a parte mais forte.",
+          "pronunciation_notes": "Stress STRONG-est PART.",
+          "related_terms": [
+            "strength",
+            "silhouette",
+            "detail"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v009",
+          "term": "because",
+          "part_of_speech": "conjunction",
+          "definition_en": "A word used to give a reason.",
+          "learner_friendly_definition_en": "A word for saying why.",
+          "learner_friendly_definition_pt": "Uma palavra para dizer por que.",
+          "example_sentence_en": "I like the look because it is balanced.",
+          "example_sentence_pt": "I like the look because it is balanced.",
+          "professional_context_en": "Because is the key Week 13 connector for useful feedback.",
+          "professional_context_pt": "Because e o principal conector da Semana 13 para um feedback util.",
+          "translation_notes_pt": "Bridge to porque.",
+          "pronunciation_notes": "Say bi-KAWZ.",
+          "related_terms": [
+            "I like ...",
+            "works well",
+            "clear"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v010",
+          "term": "this creates",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase used to explain a design effect.",
+          "learner_friendly_definition_en": "A way to say what effect the design makes.",
+          "learner_friendly_definition_pt": "Uma forma de dizer qual efeito o design cria.",
+          "example_sentence_en": "This creates a calm mood.",
+          "example_sentence_pt": "This creates a calm mood.",
+          "professional_context_en": "This creates helps students explain visual effect without long writing.",
+          "professional_context_pt": "This creates ajuda os alunos a explicar efeito visual sem escrita longa.",
+          "translation_notes_pt": "Bridge to isso cria.",
+          "pronunciation_notes": "Stress CRE-ates.",
+          "related_terms": [
+            "this makes",
+            "mood",
+            "playful"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w13-vg03",
+      "title": "Suggestion and polite critique",
+      "description": "Frames and verbs for making one respectful improvement idea.",
+      "items": [
+        {
+          "vocab_id": "m01w13-v011",
+          "term": "you could",
+          "part_of_speech": "phrase",
+          "definition_en": "A polite way to give a suggestion.",
+          "learner_friendly_definition_en": "A polite way to say one idea for change.",
+          "learner_friendly_definition_pt": "Uma forma educada de dizer uma ideia de mudanca.",
+          "example_sentence_en": "You could add more contrast.",
+          "example_sentence_pt": "You could add more contrast.",
+          "professional_context_en": "You could is the main suggestion frame for Week 13.",
+          "professional_context_pt": "You could e a principal estrutura de sugestao da Semana 13.",
+          "translation_notes_pt": "Bridge to voce poderia.",
+          "pronunciation_notes": "Stress COULD in short polite speech.",
+          "related_terms": [
+            "maybe you could",
+            "add",
+            "change"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v012",
+          "term": "maybe you could",
+          "part_of_speech": "phrase",
+          "definition_en": "A softer and more careful suggestion frame.",
+          "learner_friendly_definition_en": "A softer way to give advice.",
+          "learner_friendly_definition_pt": "Uma forma mais suave de dar um conselho.",
+          "example_sentence_en": "Maybe you could simplify the caption.",
+          "example_sentence_pt": "Maybe you could simplify the caption.",
+          "professional_context_en": "Maybe you could helps students sound respectful in critique.",
+          "professional_context_pt": "Maybe you could ajuda os alunos a soar respeitosos na critica.",
+          "translation_notes_pt": "Bridge to talvez voce pudesse or talvez voce poderia.",
+          "pronunciation_notes": "Link MAY-bee you could smoothly.",
+          "related_terms": [
+            "you could",
+            "suggestion",
+            "clarify"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v013",
+          "term": "add",
+          "part_of_speech": "verb",
+          "definition_en": "To put something new into the design or text.",
+          "learner_friendly_definition_en": "To put one more thing in.",
+          "learner_friendly_definition_pt": "Colocar mais uma coisa.",
+          "example_sentence_en": "Add one small detail near the neckline.",
+          "example_sentence_pt": "Add one small detail near the neckline.",
+          "professional_context_en": "Add supports practical critique of detail, contrast, and information.",
+          "professional_context_pt": "Add apoia a critica pratica de detalhe, contraste e informacao.",
+          "translation_notes_pt": "Bridge to acrescentar or adicionar.",
+          "pronunciation_notes": "Say ADD.",
+          "related_terms": [
+            "change",
+            "use",
+            "detail"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v014",
+          "term": "change",
+          "part_of_speech": "verb",
+          "definition_en": "To make something different.",
+          "learner_friendly_definition_en": "To make it different from now.",
+          "learner_friendly_definition_pt": "Fazer algo ficar diferente do que esta agora.",
+          "example_sentence_en": "Change the color balance a little.",
+          "example_sentence_pt": "Change the color balance a little.",
+          "professional_context_en": "Change helps students suggest revision without sounding too complex.",
+          "professional_context_pt": "Change ajuda os alunos a sugerir revisao sem soar complexo demais.",
+          "translation_notes_pt": "Bridge to mudar or alterar.",
+          "pronunciation_notes": "Say CHAYNJ.",
+          "related_terms": [
+            "add",
+            "use",
+            "revision"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v015",
+          "term": "clarify",
+          "part_of_speech": "verb",
+          "definition_en": "To make an idea easier to understand.",
+          "learner_friendly_definition_en": "To make the idea more clear.",
+          "learner_friendly_definition_pt": "Deixar a ideia mais clara.",
+          "example_sentence_en": "Clarify the caption with one more sentence.",
+          "example_sentence_pt": "Clarify the caption with one more sentence.",
+          "professional_context_en": "Clarify is useful for caption and mini board revision before Week 14.",
+          "professional_context_pt": "Clarify e util para revisar caption e mini board antes da Semana 14.",
+          "translation_notes_pt": "Bridge to esclarecer or deixar mais claro.",
+          "pronunciation_notes": "Say CLAR-uh-fy.",
+          "related_terms": [
+            "clear",
+            "simplify",
+            "revision"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w13-vg04",
+      "title": "Design focus and evaluation words",
+      "description": "Words for naming the critique focus and the overall design effect.",
+      "items": [
+        {
+          "vocab_id": "m01w13-v016",
+          "term": "color palette",
+          "part_of_speech": "phrase",
+          "definition_en": "The set of colors used in the design.",
+          "learner_friendly_definition_en": "The colors in the look.",
+          "learner_friendly_definition_pt": "As cores do look.",
+          "example_sentence_en": "The color palette is soft and calm.",
+          "example_sentence_pt": "The color palette is soft and calm.",
+          "professional_context_en": "Color palette is a common focus area for beginner design critique.",
+          "professional_context_pt": "Color palette e uma area de foco comum para a critica inicial de design.",
+          "translation_notes_pt": "Bridge to paleta de cores.",
+          "pronunciation_notes": "Say PAL-it for palette.",
+          "related_terms": [
+            "contrast",
+            "balanced",
+            "clear"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v017",
+          "term": "silhouette",
+          "part_of_speech": "noun",
+          "definition_en": "The outer shape or outline of the garment.",
+          "learner_friendly_definition_en": "The main outside shape of the look.",
+          "learner_friendly_definition_pt": "A forma principal externa do look.",
+          "example_sentence_en": "The silhouette looks strong and modern.",
+          "example_sentence_pt": "The silhouette looks strong and modern.",
+          "professional_context_en": "Silhouette helps students critique shape in a fashion-specific way.",
+          "professional_context_pt": "Silhouette ajuda os alunos a criticar a forma de um jeito especifico de moda.",
+          "translation_notes_pt": "Keep pronunciation support visible because the spelling is not transparent.",
+          "pronunciation_notes": "Say sil-oo-ET.",
+          "related_terms": [
+            "shape",
+            "balanced",
+            "modern"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v018",
+          "term": "contrast",
+          "part_of_speech": "noun",
+          "definition_en": "A strong visible difference between colors, shapes, or details.",
+          "learner_friendly_definition_en": "A clear difference you can see.",
+          "learner_friendly_definition_pt": "Uma diferenca clara que voce consegue ver.",
+          "example_sentence_en": "The jacket needs more contrast.",
+          "example_sentence_pt": "The jacket needs more contrast.",
+          "professional_context_en": "Contrast gives students a useful critique word for color and structure.",
+          "professional_context_pt": "Contrast oferece aos alunos uma palavra de critica util para cor e estrutura.",
+          "translation_notes_pt": "Keep pronunciation support visible because the spelling is not transparent.",
+          "pronunciation_notes": "Say CON-trast.",
+          "related_terms": [
+            "color palette",
+            "balanced",
+            "detail"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v019",
+          "term": "balanced",
+          "part_of_speech": "adjective",
+          "definition_en": "Well organized and not too heavy in one area.",
+          "learner_friendly_definition_en": "Looking even and well organized.",
+          "learner_friendly_definition_pt": "Com aparencia equilibrada e bem organizada.",
+          "example_sentence_en": "The overall look feels balanced.",
+          "example_sentence_pt": "The overall look feels balanced.",
+          "professional_context_en": "Balanced helps students give more useful feedback than only nice or good.",
+          "professional_context_pt": "Balanced ajuda os alunos a dar um feedback mais util do que apenas nice ou good.",
+          "translation_notes_pt": "Bridge to equilibrado.",
+          "pronunciation_notes": "Say BAL-uhnst.",
+          "related_terms": [
+            "clear",
+            "contrast",
+            "elegant"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w13-v020",
+          "term": "clear",
+          "part_of_speech": "adjective",
+          "definition_en": "Easy to understand or easy to see.",
+          "learner_friendly_definition_en": "Not confusing.",
+          "learner_friendly_definition_pt": "Nao confuso.",
+          "example_sentence_en": "The main idea is clear.",
+          "example_sentence_pt": "The main idea is clear.",
+          "professional_context_en": "Clear supports feedback on both design images and short captions.",
+          "professional_context_pt": "Clear apoia o feedback tanto sobre imagens de design quanto sobre captions curtos.",
+          "translation_notes_pt": "Bridge to claro, but keep the English output in activities.",
+          "pronunciation_notes": "Say KLEER.",
+          "related_terms": [
+            "clarify",
+            "balanced",
+            "caption"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    }
+  ]
+}

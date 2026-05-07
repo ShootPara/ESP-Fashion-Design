@@ -1,0 +1,2276 @@
+{
+  "week_id": "m01w13",
+  "activities": [
+    {
+      "activity_id": "m01w13-a01",
+      "week_id": "m01w13",
+      "sequence_number": 1,
+      "title": "Welcome Back: What Works Well?",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students review one feedback-ready design image and answer five visible-clue questions about what works well before the week moves into critique language.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: What Works Well?",
+          "summary": "Look at one design image and choose the best answer for each quick question.",
+          "instructions": "Look at the design image first. Choose the best answer for each short question about what works well in the look.",
+          "success_criteria": [
+            "I can notice one clear strength in the design.",
+            "I can use visible clues to choose my answer.",
+            "I can prepare for simple feedback this week."
+          ],
+          "sentence_frames": [
+            "I like the ___.",
+            "The strongest part is ___.",
+            "You could add ___."
+          ],
+          "word_bank_label": "Feedback clues"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: o que funciona bem?",
+          "summary": "Observe uma imagem de design e escolha a melhor resposta para cada pergunta rapida.",
+          "instructions": "Observe primeiro a imagem do design. Escolha a melhor resposta para cada pergunta curta sobre o que funciona bem no look.",
+          "success_criteria": [
+            "Eu consigo perceber um ponto forte claro no design.",
+            "Eu consigo usar pistas visiveis para escolher minha resposta.",
+            "Eu consigo me preparar para um feedback simples nesta semana."
+          ],
+          "sentence_frames": [
+            "I like the ___.",
+            "The strongest part is ___.",
+            "You could add ___."
+          ],
+          "word_bank_label": "Pistas de feedback"
+        }
+      },
+      "teacher_instructions": "Keep every answer tied to visible clues on the opener image. Do not ask students for open opinion here.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 13 opener design board"
+      ],
+      "vocabulary_refs": [
+        "m01w13-v005",
+        "m01w13-v007",
+        "m01w13-v016",
+        "m01w13-v017",
+        "m01w13-v018",
+        "m01w13-v019",
+        "m01w13-v020"
+      ],
+      "asset_refs": [
+        "m01w13-img-001"
+      ],
+      "input": {
+        "input_type": "feedback_ready_image_quiz",
+        "prompt_en": "Choose the best review answer for each question about the design.",
+        "prompt_pt": "Escolha a melhor resposta de revisao para cada pergunta sobre o design.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "What works well first in this design?",
+            "label_pt": "O que funciona bem primeiro neste design?",
+            "asset_id": "m01w13-img-001",
+            "options_en": [
+              "the color palette",
+              "the login page",
+              "the ruler"
+            ],
+            "options_pt": [
+              "a paleta de cores",
+              "a pagina de login",
+              "a regua"
+            ],
+            "correct_answer": "the color palette"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which focus area is strongest?",
+            "label_pt": "Qual area de foco e a mais forte?",
+            "asset_id": "m01w13-img-001",
+            "options_en": [
+              "the silhouette",
+              "the keyboard",
+              "the classroom wall"
+            ],
+            "options_pt": [
+              "a silhueta",
+              "o teclado",
+              "a parede da sala"
+            ],
+            "correct_answer": "the silhouette"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which detail is easy to notice?",
+            "label_pt": "Qual detalhe e facil de perceber?",
+            "asset_id": "m01w13-img-001",
+            "options_en": [
+              "a visible neckline detail",
+              "a hidden shoe box",
+              "a notebook page number"
+            ],
+            "options_pt": [
+              "um detalhe visivel no decote",
+              "uma caixa de sapato escondida",
+              "o numero de uma pagina de caderno"
+            ],
+            "correct_answer": "a visible neckline detail"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which short comment fits the image best?",
+            "label_pt": "Qual comentario curto combina melhor com a imagem?",
+            "asset_id": "m01w13-img-001",
+            "options_en": [
+              "The look feels balanced.",
+              "The password is strong.",
+              "The scissors are heavy."
+            ],
+            "options_pt": [
+              "O look parece equilibrado.",
+              "A senha e forte.",
+              "A tesoura e pesada."
+            ],
+            "correct_answer": "The look feels balanced."
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which suggestion focus makes sense from the image?",
+            "label_pt": "Qual foco de sugestao faz sentido a partir da imagem?",
+            "asset_id": "m01w13-img-001",
+            "options_en": [
+              "add one small contrast detail",
+              "change the Wi-Fi signal",
+              "close the browser tab"
+            ],
+            "options_pt": [
+              "acrescentar um pequeno detalhe de contraste",
+              "mudar o sinal do Wi-Fi",
+              "fechar a aba do navegador"
+            ],
+            "correct_answer": "add one small contrast detail"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Study the opener image",
+          "student_action_en": "Look at the design image before you answer.",
+          "student_action_pt": "Observe a imagem do design antes de responder.",
+          "teacher_action": "Remind students to use only visible clues.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the review answers",
+          "student_action_en": "Choose the best answer for each quick question.",
+          "student_action_pt": "Escolha a melhor resposta para cada pergunta rapida.",
+          "teacher_action": "Keep the pace quick and objective.",
+          "estimated_minutes": 5,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Five app-checked selections about one feedback-ready design image.",
+        "description_pt": "Cinco selecoes verificadas pelo app sobre uma imagem de design pronta para feedback.",
+        "length_or_format": "5 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student answers all five opener items.",
+          "The student chooses answers from visible design clues only.",
+          "The student notices a strength, a detail, and one likely suggestion focus."
+        ],
+        "completion_criteria_pt": [
+          "O aluno responde os cinco itens iniciais.",
+          "O aluno escolhe respostas apenas com base em pistas visiveis do design.",
+          "O aluno percebe um ponto forte, um detalhe e um foco provavel de sugestao."
+        ],
+        "checklist_en": [
+          "I looked at the image first.",
+          "I answered all five items.",
+          "I used visible clues for every answer."
+        ],
+        "checklist_pt": [
+          "Eu observei a imagem primeiro.",
+          "Eu respondi os cinco itens.",
+          "Eu usei pistas visiveis em cada resposta."
+        ],
+        "rubric": [],
+        "model_response_en": "the color palette, the silhouette, a visible neckline detail, The look feels balanced., add one small contrast detail",
+        "model_response_pt": "the color palette, the silhouette, a visible neckline detail, The look feels balanced., add one small contrast detail",
+        "common_errors": [
+          "Choosing a non-design object instead of a visible design clue.",
+          "Picking a suggestion that does not connect to anything visible in the image."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which answer matches a real visible clue in the design?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual resposta combina com uma pista visivel real no design?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the visible clue before choosing the English answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full feedback sentence after the quiz."
+        ]
+      },
+      "extension_options": [
+        "Say one extra sentence with I like the ... because ...."
+      ],
+      "notes_for_app_design": "Render one static opener image and five single-choice questions. Save the selections only. Keep all answers tied to visible design clues and avoid subjective open-response behavior."
+    },
+    {
+      "activity_id": "m01w13-a02",
+      "week_id": "m01w13",
+      "sequence_number": 2,
+      "title": "Feedback Phrase Bank",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students complete a main English-to-Portuguese phrase match and a second phrase-to-function match so they can recognize positive comments, reasons, suggestions, and revision-plan language.",
+      "student_facing": {
+        "en": {
+          "title": "Feedback Phrase Bank",
+          "summary": "Match the feedback phrases to the correct support and function.",
+          "instructions": "Match the English feedback phrases to the Portuguese support phrases. Then match short English phrases to the correct feedback function.",
+          "success_criteria": [
+            "I can connect English feedback phrases to Portuguese support.",
+            "I can recognize positive comment, reason, suggestion, and revision plan language.",
+            "I can prepare for reading, listening, and writing this week."
+          ],
+          "sentence_frames": [
+            "I like the ___.",
+            "You could ___.",
+            "I will revise ___."
+          ],
+          "word_bank_label": "Feedback phrases"
+        },
+        "pt": {
+          "title": "Banco de frases de feedback",
+          "summary": "Relacione as frases de feedback ao apoio e a funcao corretos.",
+          "instructions": "Relacione as frases de feedback em ingles as frases de apoio em portugues. Depois relacione frases curtas em ingles a funcao correta de feedback.",
+          "success_criteria": [
+            "Eu consigo ligar frases de feedback em ingles ao apoio em portugues.",
+            "Eu consigo reconhecer linguagem de comentario positivo, motivo, sugestao e plano de revisao.",
+            "Eu consigo me preparar para leitura, escuta e escrita nesta semana."
+          ],
+          "sentence_frames": [
+            "I like the ___.",
+            "You could ___.",
+            "I will revise ___."
+          ],
+          "word_bank_label": "Frases de feedback"
+        }
+      },
+      "teacher_instructions": "Keep matching as the main saved output. The function labels shown to students should stay natural and bilingual.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "translation_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 13 phrase bank"
+      ],
+      "vocabulary_refs": [
+        "m01w13-v001",
+        "m01w13-v002",
+        "m01w13-v003",
+        "m01w13-v004",
+        "m01w13-v006",
+        "m01w13-v007",
+        "m01w13-v008",
+        "m01w13-v009",
+        "m01w13-v011",
+        "m01w13-v012"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "phrase_matching",
+        "prompt_en": "Match the feedback phrases to the correct support and function.",
+        "prompt_pt": "Relacione as frases de feedback ao apoio e a funcao corretos.",
+        "items": [
+          {
+            "response_type": "translation_match",
+            "label_en": "Match the English feedback phrases to Portuguese support.",
+            "label_pt": "Relacione as frases de feedback em ingles ao apoio em portugues.",
+            "match_terms_en": [
+              "I like the ...",
+              "It works well because ...",
+              "The strongest part is ...",
+              "You could ...",
+              "Maybe you could ...",
+              "I will revise ..."
+            ],
+            "match_terms_pt": [
+              "Eu gosto de ...",
+              "Funciona bem porque ...",
+              "A parte mais forte e ...",
+              "Voce poderia ...",
+              "Talvez voce pudesse ...",
+              "Eu vou revisar ..."
+            ],
+            "pairs": [
+              {
+                "term_en": "I like the ...",
+                "term_pt": "Eu gosto de ..."
+              },
+              {
+                "term_en": "It works well because ...",
+                "term_pt": "Funciona bem porque ..."
+              },
+              {
+                "term_en": "The strongest part is ...",
+                "term_pt": "A parte mais forte e ..."
+              },
+              {
+                "term_en": "You could ...",
+                "term_pt": "Voce poderia ..."
+              },
+              {
+                "term_en": "Maybe you could ...",
+                "term_pt": "Talvez voce pudesse ..."
+              },
+              {
+                "term_en": "I will revise ...",
+                "term_pt": "Eu vou revisar ..."
+              }
+            ]
+          },
+          {
+            "response_type": "translation_match",
+            "label_en": "Match each phrase to the correct feedback function.",
+            "label_pt": "Relacione cada frase a funcao correta de feedback.",
+            "match_terms_en": [
+              "I like the silhouette.",
+              "because it looks balanced.",
+              "You could add more contrast.",
+              "I will revise the caption."
+            ],
+            "match_terms_pt": [
+              "comentario positivo",
+              "motivo",
+              "sugestao",
+              "plano de revisao"
+            ],
+            "pairs": [
+              {
+                "term_en": "I like the silhouette.",
+                "term_pt": "comentario positivo"
+              },
+              {
+                "term_en": "because it looks balanced.",
+                "term_pt": "motivo"
+              },
+              {
+                "term_en": "You could add more contrast.",
+                "term_pt": "sugestao"
+              },
+              {
+                "term_en": "I will revise the caption.",
+                "term_pt": "plano de revisao"
+              }
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the phrase bank",
+          "student_action_en": "Read the English phrases before you match.",
+          "student_action_pt": "Leia as frases em ingles antes de relacionar.",
+          "teacher_action": "Point out that the same phrases will appear later in reading and writing.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the support phrases",
+          "student_action_en": "Match each English phrase to the Portuguese support phrase.",
+          "student_action_pt": "Relacione cada frase em ingles a frase de apoio em portugues.",
+          "teacher_action": "Keep the task recognition-based and controlled.",
+          "estimated_minutes": 7,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Match the feedback function",
+          "student_action_en": "Match each short phrase to the correct feedback function.",
+          "student_action_pt": "Relacione cada frase curta a funcao correta de feedback.",
+          "teacher_action": "Keep the student-facing function names natural and simple.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_sets",
+        "description_en": "Two saved matching sets for feedback phrases and phrase functions.",
+        "description_pt": "Dois conjuntos salvos de relacao para frases de feedback e funcoes das frases.",
+        "length_or_format": "6 translation matches plus 4 function matches"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes both matching sets.",
+          "The student connects English phrases to the correct Portuguese support.",
+          "The student recognizes the four main feedback functions."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa os dois conjuntos de relacao.",
+          "O aluno liga as frases em ingles ao apoio correto em portugues.",
+          "O aluno reconhece as quatro principais funcoes de feedback."
+        ],
+        "checklist_en": [
+          "I matched the English and Portuguese support phrases.",
+          "I matched the short phrases to the correct function.",
+          "I checked all answers before saving."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as frases em ingles e em portugues.",
+          "Eu relacionei as frases curtas a funcao correta.",
+          "Eu conferi todas as respostas antes de salvar."
+        ],
+        "rubric": [],
+        "model_response_en": "I like the ...-Eu gosto de ...; It works well because ...-Funciona bem porque ...; The strongest part is ...-A parte mais forte e ...; You could ...-Voce poderia ...; Maybe you could ...-Talvez voce pudesse ...; I will revise ...-Eu vou revisar ...; I like the silhouette.-comentario positivo; because it looks balanced.-motivo; You could add more contrast.-sugestao; I will revise the caption.-plano de revisao",
+        "model_response_pt": "I like the ...-Eu gosto de ...; It works well because ...-Funciona bem porque ...; The strongest part is ...-A parte mais forte e ...; You could ...-Voce poderia ...; Maybe you could ...-Talvez voce pudesse ...; I will revise ...-Eu vou revisar ...; I like the silhouette.-comentario positivo; because it looks balanced.-motivo; You could add more contrast.-sugestao; I will revise the caption.-plano de revisao",
+        "common_errors": [
+          "Confusing a suggestion with a revision plan.",
+          "Matching a positive comment to the reason label because both sound positive."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Does the phrase say something good, explain why, suggest a change, or name a revision step?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. A frase diz algo positivo, explica por que, sugere uma mudanca ou nomeia um passo de revisao?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete the English-Portuguese matching before the function-matching set."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence using one matched phrase."
+        ]
+      },
+      "extension_options": [
+        "Choose one phrase and say when you could use it in class."
+      ],
+      "notes_for_app_design": "Render two short matching sets. Keep matching as the primary saved output and show student-facing function labels only, not internal raw category names."
+    },
+    {
+      "activity_id": "m01w13-a03",
+      "week_id": "m01w13",
+      "sequence_number": 3,
+      "title": "Positive, Reason, Suggestion, or Revision Plan?",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students classify eight short feedback sentence cards using natural student-facing category labels so they can understand the structure of a simple critique.",
+      "student_facing": {
+        "en": {
+          "title": "Positive, Reason, Suggestion, or Revision Plan?",
+          "summary": "Read each short card and choose its function.",
+          "instructions": "Read each short feedback card carefully. Choose the correct function: Positive comment, Reason, Suggestion, or Revision plan.",
+          "success_criteria": [
+            "I can notice what the sentence does.",
+            "I can separate praise, reason, suggestion, and revision language.",
+            "I can prepare for my own feedback card."
+          ],
+          "sentence_frames": [
+            "Positive comment",
+            "Reason",
+            "Suggestion",
+            "Revision plan"
+          ],
+          "word_bank_label": "Feedback functions"
+        },
+        "pt": {
+          "title": "Comentario positivo, motivo, sugestao ou plano de revisao?",
+          "summary": "Leia cada cartao curto e escolha sua funcao.",
+          "instructions": "Leia cada cartao curto de feedback com atencao. Escolha a funcao correta: Comentario positivo, Motivo, Sugestao ou Plano de revisao.",
+          "success_criteria": [
+            "Eu consigo perceber o que a frase faz.",
+            "Eu consigo separar elogio, motivo, sugestao e linguagem de revisao.",
+            "Eu consigo me preparar para meu proprio cartao de feedback."
+          ],
+          "sentence_frames": [
+            "Comentario positivo",
+            "Motivo",
+            "Sugestao",
+            "Plano de revisao"
+          ],
+          "word_bank_label": "Funcoes do feedback"
+        }
+      },
+      "teacher_instructions": "Keep the labels natural and visible for every item. This is a classification task, not an open explanation task.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "grammar",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 13 short feedback cards"
+      ],
+      "vocabulary_refs": [
+        "m01w13-v002",
+        "m01w13-v003",
+        "m01w13-v004",
+        "m01w13-v006",
+        "m01w13-v008",
+        "m01w13-v009",
+        "m01w13-v011"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "feedback_function_classification",
+        "prompt_en": "Choose the correct function for each short sentence.",
+        "prompt_pt": "Escolha a funcao correta para cada frase curta.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "I like the color palette.",
+            "label_pt": "I like the color palette.",
+            "options_en": [
+              "Positive comment",
+              "Reason",
+              "Suggestion",
+              "Revision plan"
+            ],
+            "options_pt": [
+              "Comentario positivo",
+              "Motivo",
+              "Sugestao",
+              "Plano de revisao"
+            ],
+            "correct_answer": "Positive comment"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "because it feels balanced.",
+            "label_pt": "because it feels balanced.",
+            "options_en": [
+              "Positive comment",
+              "Reason",
+              "Suggestion",
+              "Revision plan"
+            ],
+            "options_pt": [
+              "Comentario positivo",
+              "Motivo",
+              "Sugestao",
+              "Plano de revisao"
+            ],
+            "correct_answer": "Reason"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "You could add more contrast.",
+            "label_pt": "You could add more contrast.",
+            "options_en": [
+              "Positive comment",
+              "Reason",
+              "Suggestion",
+              "Revision plan"
+            ],
+            "options_pt": [
+              "Comentario positivo",
+              "Motivo",
+              "Sugestao",
+              "Plano de revisao"
+            ],
+            "correct_answer": "Suggestion"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "I will revise the caption.",
+            "label_pt": "I will revise the caption.",
+            "options_en": [
+              "Positive comment",
+              "Reason",
+              "Suggestion",
+              "Revision plan"
+            ],
+            "options_pt": [
+              "Comentario positivo",
+              "Motivo",
+              "Sugestao",
+              "Plano de revisao"
+            ],
+            "correct_answer": "Revision plan"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "The strongest part is the silhouette.",
+            "label_pt": "The strongest part is the silhouette.",
+            "options_en": [
+              "Positive comment",
+              "Reason",
+              "Suggestion",
+              "Revision plan"
+            ],
+            "options_pt": [
+              "Comentario positivo",
+              "Motivo",
+              "Sugestao",
+              "Plano de revisao"
+            ],
+            "correct_answer": "Positive comment"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "because the fabric looks soft.",
+            "label_pt": "because the fabric looks soft.",
+            "options_en": [
+              "Positive comment",
+              "Reason",
+              "Suggestion",
+              "Revision plan"
+            ],
+            "options_pt": [
+              "Comentario positivo",
+              "Motivo",
+              "Sugestao",
+              "Plano de revisao"
+            ],
+            "correct_answer": "Reason"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Maybe you could simplify the extra decoration.",
+            "label_pt": "Maybe you could simplify the extra decoration.",
+            "options_en": [
+              "Positive comment",
+              "Reason",
+              "Suggestion",
+              "Revision plan"
+            ],
+            "options_pt": [
+              "Comentario positivo",
+              "Motivo",
+              "Sugestao",
+              "Plano de revisao"
+            ],
+            "correct_answer": "Suggestion"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "I will change one line to make it clearer.",
+            "label_pt": "I will change one line to make it clearer.",
+            "options_en": [
+              "Positive comment",
+              "Reason",
+              "Suggestion",
+              "Revision plan"
+            ],
+            "options_pt": [
+              "Comentario positivo",
+              "Motivo",
+              "Sugestao",
+              "Plano de revisao"
+            ],
+            "correct_answer": "Revision plan"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the sentence card",
+          "student_action_en": "Read one short feedback sentence at a time.",
+          "student_action_pt": "Leia uma frase curta de feedback por vez.",
+          "teacher_action": "Remind students to focus on the job of the sentence.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the function",
+          "student_action_en": "Choose the correct function for each card.",
+          "student_action_pt": "Escolha a funcao correta para cada cartao.",
+          "teacher_action": "Keep all four choices visible and consistent.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "classification_selections",
+        "description_en": "Eight app-checked sentence classifications using four visible feedback-function choices.",
+        "description_pt": "Oito classificacoes de frases verificadas pelo app usando quatro escolhas visiveis de funcao de feedback.",
+        "length_or_format": "8 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student classifies all eight cards.",
+          "The student uses the visible category choices only.",
+          "The student distinguishes comment, reason, suggestion, and revision language."
+        ],
+        "completion_criteria_pt": [
+          "O aluno classifica os oito cartoes.",
+          "O aluno usa apenas as escolhas visiveis de categoria.",
+          "O aluno distingue linguagem de comentario, motivo, sugestao e revisao."
+        ],
+        "checklist_en": [
+          "I read each sentence carefully.",
+          "I used the four visible function choices.",
+          "I answered all eight cards."
+        ],
+        "checklist_pt": [
+          "Eu li cada frase com atencao.",
+          "Eu usei as quatro escolhas visiveis de funcao.",
+          "Eu respondi os oito cartoes."
+        ],
+        "rubric": [],
+        "model_response_en": "Positive comment, Reason, Suggestion, Revision plan, Positive comment, Reason, Suggestion, Revision plan",
+        "model_response_pt": "Comentario positivo, Motivo, Sugestao, Plano de revisao, Comentario positivo, Motivo, Sugestao, Plano de revisao",
+        "common_errors": [
+          "Choosing Positive comment for a reason because both sound positive.",
+          "Confusing a suggestion with a revision plan."
+        ],
+        "feedback_prompts_en": [
+          "Read the sentence again. Is it praise, a reason, advice, or a next revision step?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia a frase novamente. Ela e elogio, motivo, conselho ou um proximo passo de revisao?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students complete the first two cards together before finishing the rest alone."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain why one card is a suggestion and not a revision plan."
+        ]
+      },
+      "extension_options": [
+        "Write one more sentence for one category after the classification task."
+      ],
+      "notes_for_app_design": "Render one short sentence card at a time with four visible student-facing choices. Save eight single-choice classifications only."
+    },
+    {
+      "activity_id": "m01w13-a04",
+      "week_id": "m01w13",
+      "sequence_number": 4,
+      "title": "Read: Peer Feedback Comments",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read four short peer-feedback comments tied to the reusable image A to image D gallery and answer image-match and detail questions that stay aligned to the same gallery used later in the week.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Peer Feedback Comments",
+          "summary": "Read the short feedback comments and choose the correct image or detail answer.",
+          "instructions": "Look at image A to image D. Read the four short feedback comments carefully. Choose the correct image key or detail answer for each question.",
+          "success_criteria": [
+            "I can connect a short comment to a visible image key.",
+            "I can read for one strength and one suggestion.",
+            "I can answer using exact clues from the text."
+          ],
+          "sentence_frames": [
+            "Comment ___ matches image ___.",
+            "The strongest part is ___.",
+            "The suggestion is ___."
+          ],
+          "word_bank_label": "Reading clues"
+        },
+        "pt": {
+          "title": "Leitura: comentarios de feedback entre colegas",
+          "summary": "Leia os comentarios curtos de feedback e escolha a imagem ou o detalhe corretos.",
+          "instructions": "Observe image A a image D. Leia com atencao os quatro comentarios curtos de feedback. Escolha a chave correta da imagem ou a resposta correta de detalhe para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo ligar um comentario curto a uma chave visivel de imagem.",
+            "Eu consigo ler um ponto forte e uma sugestao.",
+            "Eu consigo responder usando pistas exatas do texto."
+          ],
+          "sentence_frames": [
+            "Comment ___ matches image ___.",
+            "The strongest part is ___.",
+            "The suggestion is ___."
+          ],
+          "word_bank_label": "Pistas de leitura"
+        }
+      },
+      "teacher_instructions": "Keep the comments short, distinct, and aligned to the image A to image D gallery. Each comment should have one defensible image match.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "visual_literacy",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 13 reusable feedback gallery image A to image D",
+        "Four short peer-feedback comments"
+      ],
+      "vocabulary_refs": [
+        "m01w13-v005",
+        "m01w13-v007",
+        "m01w13-v008",
+        "m01w13-v009",
+        "m01w13-v011",
+        "m01w13-v012",
+        "m01w13-v015",
+        "m01w13-v016",
+        "m01w13-v017",
+        "m01w13-v018",
+        "m01w13-v019",
+        "m01w13-v020"
+      ],
+      "asset_refs": [
+        "m01w13-img-002"
+      ],
+      "input": {
+        "input_type": "reading_with_keyed_gallery",
+        "prompt_en": "Read the four short feedback comments below, then choose the correct image key or detail answer.",
+        "prompt_pt": "Leia abaixo os quatro comentarios curtos de feedback e depois escolha a chave correta da imagem ou a resposta correta de detalhe.",
+        "reference_text_en": "Comment 1: I like the soft color palette because it feels calm. The flowy fabric works well with the dress. You could add one small detail near the neckline.\n\nComment 2: I like the jacket because it is modern and practical. The zipper and pockets work well. Maybe you could add more contrast to the color palette.\n\nComment 3: The strongest part is the bright silhouette. The wide pants create an energetic mood. You could clarify the caption and make the main idea clearer.\n\nComment 4: I like the textured detail because it looks balanced and elegant. The overall look is clear. Maybe you could simplify one extra decoration.",
+        "reference_text_pt": "Comentario 1: I like the soft color palette because it feels calm. The flowy fabric works well with the dress. You could add one small detail near the neckline.\n\nComentario 2: I like the jacket because it is modern and practical. The zipper and pockets work well. Maybe you could add more contrast to the color palette.\n\nComentario 3: The strongest part is the bright silhouette. The wide pants create an energetic mood. You could clarify the caption and make the main idea clearer.\n\nComentario 4: I like the textured detail because it looks balanced and elegant. The overall look is clear. Maybe you could simplify one extra decoration.",
+        "items": [
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Which image matches Comment 1?",
+            "label_pt": "Qual imagem combina com o Comentario 1?",
+            "asset_id": "m01w13-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Which image matches Comment 2?",
+            "label_pt": "Qual imagem combina com o Comentario 2?",
+            "asset_id": "m01w13-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Which image matches Comment 3?",
+            "label_pt": "Qual imagem combina com o Comentario 3?",
+            "asset_id": "m01w13-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "read_and_choose",
+            "label_en": "Which image matches Comment 4?",
+            "label_pt": "Qual imagem combina com o Comentario 4?",
+            "asset_id": "m01w13-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image D"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What does Comment 1 suggest?",
+            "label_pt": "O que o Comentario 1 sugere?",
+            "asset_id": "m01w13-img-002",
+            "options_en": [
+              "add one small detail near the neckline",
+              "remove all color",
+              "change the pants to shorts"
+            ],
+            "options_pt": [
+              "acrescentar um pequeno detalhe perto do decote",
+              "remover toda a cor",
+              "mudar a calca para shorts"
+            ],
+            "correct_answer": "add one small detail near the neckline"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What works well in Comment 2?",
+            "label_pt": "O que funciona bem no Comentario 2?",
+            "asset_id": "m01w13-img-002",
+            "options_en": [
+              "the zipper and pockets",
+              "the login and password",
+              "the socks and shoes"
+            ],
+            "options_pt": [
+              "o ziper e os bolsos",
+              "o login e a senha",
+              "as meias e os sapatos"
+            ],
+            "correct_answer": "the zipper and pockets"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Why does Comment 3 like the look?",
+            "label_pt": "Por que o Comentario 3 gosta do look?",
+            "asset_id": "m01w13-img-002",
+            "options_en": [
+              "because the wide pants create an energetic mood",
+              "because the fabric is invisible",
+              "because the classroom is quiet"
+            ],
+            "options_pt": [
+              "porque as calcas largas criam um clima energetico",
+              "porque o tecido e invisivel",
+              "porque a sala esta silenciosa"
+            ],
+            "correct_answer": "because the wide pants create an energetic mood"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What is the suggestion in Comment 4?",
+            "label_pt": "Qual e a sugestao no Comentario 4?",
+            "asset_id": "m01w13-img-002",
+            "options_en": [
+              "simplify one extra decoration",
+              "add ten new details",
+              "close the gallery"
+            ],
+            "options_pt": [
+              "simplificar uma decoracao extra",
+              "acrescentar dez novos detalhes",
+              "fechar a galeria"
+            ],
+            "correct_answer": "simplify one extra decoration"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery",
+          "student_action_en": "Study image A to image D before you read.",
+          "student_action_pt": "Observe image A a image D antes de ler.",
+          "teacher_action": "Keep the visible image keys on screen.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Read the feedback comments",
+          "student_action_en": "Read each short comment for one strength and one suggestion.",
+          "student_action_pt": "Leia cada comentario curto procurando um ponto forte e uma sugestao.",
+          "teacher_action": "Remind students to read for exact clues, not only general feeling.",
+          "estimated_minutes": 5,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Choose the image and detail answers",
+          "student_action_en": "Choose the correct image key or detail answer for each item.",
+          "student_action_pt": "Escolha a chave correta da imagem ou a resposta correta de detalhe para cada item.",
+          "teacher_action": "Keep the A to D mapping stable all week.",
+          "estimated_minutes": 7,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_selections",
+        "description_en": "Eight app-checked reading selections aligned to the reusable image A to image D feedback gallery.",
+        "description_pt": "Oito selecoes de leitura verificadas pelo app alinhadas a galeria reutilizavel de feedback image A a image D.",
+        "length_or_format": "4 image matches plus 4 detail selections"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student uses the reading text and the visible image keys together.",
+          "The student answers the image and detail questions with exact information from the comments.",
+          "The student completes the task without hidden teacher judgment."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa juntos o texto de leitura e as chaves visiveis das imagens.",
+          "O aluno responde as perguntas de imagem e detalhe com a informacao exata dos comentarios.",
+          "O aluno completa a tarefa sem julgamento oculto do professor."
+        ],
+        "checklist_en": [
+          "I looked at image A to image D first.",
+          "I used exact clues from the comments.",
+          "I answered all eight questions."
+        ],
+        "checklist_pt": [
+          "Eu observei image A a image D primeiro.",
+          "Eu usei pistas exatas dos comentarios.",
+          "Eu respondi as oito perguntas."
+        ],
+        "rubric": [],
+        "model_response_en": "image A, image B, image C, image D, add one small detail near the neckline, the zipper and pockets, because the wide pants create an energetic mood, simplify one extra decoration",
+        "model_response_pt": "image A, image B, image C, image D, add one small detail near the neckline, the zipper and pockets, because the wide pants create an energetic mood, simplify one extra decoration",
+        "common_errors": [
+          "Choosing image B or image D for the wrong structured look because the details are not read carefully.",
+          "Choosing an answer that sounds possible but is not written in the comment."
+        ],
+        "feedback_prompts_en": [
+          "Read the comment again. Which exact design clue or suggestion is written there?"
+        ],
+        "feedback_prompts_pt": [
+          "Leia o comentario novamente. Qual pista ou sugestao exata de design esta escrita ali?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students match the four images first before answering the detail items."
+        ],
+        "challenge": [
+          "Ask stronger learners to say which comment is the most useful and why."
+        ]
+      },
+      "extension_options": [
+        "Write one more short suggestion for one image after the reading task."
+      ],
+      "notes_for_app_design": "Render the reusable image A to image D gallery and the four short comments together. Save image matches and detail selections only. Keep the image keys literal and stable."
+    },
+    {
+      "activity_id": "m01w13-a05",
+      "week_id": "m01w13",
+      "sequence_number": 5,
+      "title": "Listen: Feedback on a Sketch",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to one numbered feedback clip tied exactly to the reusable image A to image D gallery and answer image, strength, and suggestion questions that align to the script.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Feedback on a Sketch",
+          "summary": "Listen to the numbered comments and choose the correct image or detail answer.",
+          "instructions": "Look at image A to image D before you press play. Listen to the four numbered feedback comments. Choose the correct image or detail answer for each question.",
+          "success_criteria": [
+            "I can connect the audio to the visible image keys.",
+            "I can hear one strength and one suggestion.",
+            "I can answer using exact information from the listening script."
+          ],
+          "sentence_frames": [
+            "Number ___ matches image ___.",
+            "The strongest part is ___.",
+            "The suggestion is ___."
+          ],
+          "word_bank_label": "Listening clues"
+        },
+        "pt": {
+          "title": "Escuta: feedback sobre um croqui",
+          "summary": "Escute os comentarios numerados e escolha a imagem ou o detalhe corretos.",
+          "instructions": "Observe image A a image D antes de iniciar o audio. Escute os quatro comentarios numerados de feedback. Escolha a imagem correta ou a resposta correta de detalhe para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo ligar o audio as chaves visiveis das imagens.",
+            "Eu consigo ouvir um ponto forte e uma sugestao.",
+            "Eu consigo responder usando informacoes exatas do roteiro de escuta."
+          ],
+          "sentence_frames": [
+            "Number ___ matches image ___.",
+            "The strongest part is ___.",
+            "The suggestion is ___."
+          ],
+          "word_bank_label": "Pistas de escuta"
+        }
+      },
+      "teacher_instructions": "This activity must stay tightly aligned to the Week 13 listening script in audio_prompts.json. Allow replay and reveal the script only after the first completed attempt.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "visual_literacy",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 13 reusable feedback gallery image A to image D",
+        "Week 13 numbered listening audio"
+      ],
+      "vocabulary_refs": [
+        "m01w13-v005",
+        "m01w13-v007",
+        "m01w13-v008",
+        "m01w13-v011",
+        "m01w13-v012",
+        "m01w13-v015",
+        "m01w13-v016",
+        "m01w13-v017",
+        "m01w13-v018",
+        "m01w13-v019",
+        "m01w13-v020"
+      ],
+      "asset_refs": [
+        "m01w13-img-002",
+        "m01w13-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_with_keyed_gallery",
+        "prompt_en": "Listen to the numbered feedback comments and choose the correct image key or detail answer.",
+        "prompt_pt": "Escute os comentarios numerados de feedback e escolha a chave correta da imagem ou a resposta correta de detalhe.",
+        "items": [
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image matches number one?",
+            "label_pt": "Qual imagem combina com o numero um?",
+            "asset_id": "m01w13-aud-001",
+            "image_asset_id": "m01w13-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image A"
+          },
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image matches number two?",
+            "label_pt": "Qual imagem combina com o numero dois?",
+            "asset_id": "m01w13-aud-001",
+            "image_asset_id": "m01w13-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image B"
+          },
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image matches number three?",
+            "label_pt": "Qual imagem combina com o numero tres?",
+            "asset_id": "m01w13-aud-001",
+            "image_asset_id": "m01w13-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image C"
+          },
+          {
+            "response_type": "listen_and_choose",
+            "label_en": "Which image matches number four?",
+            "label_pt": "Qual imagem combina com o numero quatro?",
+            "asset_id": "m01w13-aud-001",
+            "image_asset_id": "m01w13-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "correct_answer": "image D"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What does number two suggest?",
+            "label_pt": "O que o numero dois sugere?",
+            "asset_id": "m01w13-aud-001",
+            "image_asset_id": "m01w13-img-002",
+            "options_en": [
+              "add more contrast to the color palette",
+              "remove the zipper and pockets",
+              "change the dress to denim"
+            ],
+            "options_pt": [
+              "acrescentar mais contraste a paleta de cores",
+              "remover o ziper e os bolsos",
+              "mudar o vestido para denim"
+            ],
+            "correct_answer": "add more contrast to the color palette"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What is strongest in number three?",
+            "label_pt": "O que e mais forte no numero tres?",
+            "asset_id": "m01w13-aud-001",
+            "image_asset_id": "m01w13-img-002",
+            "options_en": [
+              "the bright silhouette",
+              "the hidden buttons",
+              "the pattern paper"
+            ],
+            "options_pt": [
+              "a silhueta vibrante",
+              "os botoes escondidos",
+              "o papel de modelagem"
+            ],
+            "correct_answer": "the bright silhouette"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which suggestion matches number four?",
+            "label_pt": "Qual sugestao combina com o numero quatro?",
+            "asset_id": "m01w13-aud-001",
+            "image_asset_id": "m01w13-img-002",
+            "options_en": [
+              "simplify one extra decoration",
+              "add wide pants",
+              "close the gallery"
+            ],
+            "options_pt": [
+              "simplificar uma decoracao extra",
+              "acrescentar calcas largas",
+              "fechar a galeria"
+            ],
+            "correct_answer": "simplify one extra decoration"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the gallery before the audio",
+          "student_action_en": "Look at image A to image D before you press play.",
+          "student_action_pt": "Observe image A a image D antes de iniciar o audio.",
+          "teacher_action": "Make sure the visible image keys stay on screen.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen for the four comments",
+          "student_action_en": "Listen once for the four numbered feedback comments.",
+          "student_action_pt": "Escute uma vez os quatro comentarios numerados de feedback.",
+          "teacher_action": "Set a clear purpose before the first play.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Replay and choose answers",
+          "student_action_en": "Replay the audio if needed and choose the image and detail answers.",
+          "student_action_pt": "Ouca novamente se necessario e escolha as respostas de imagem e detalhe.",
+          "teacher_action": "Allow replay, but keep the first attempt before any script reveal.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Seven app-checked listening selections aligned to one numbered feedback audio and image A to image D.",
+        "description_pt": "Sete selecoes de escuta verificadas pelo app alinhadas a um audio numerado de feedback e a image A a image D.",
+        "length_or_format": "4 image matches plus 3 detail selections"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student uses the audio and visible image keys together.",
+          "The student answers the image and detail questions with exact information from the script.",
+          "The student completes the task without hidden teacher judgment."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa juntos o audio e as chaves visiveis das imagens.",
+          "O aluno responde as perguntas de imagem e detalhe com a informacao exata do roteiro.",
+          "O aluno completa a tarefa sem julgamento oculto do professor."
+        ],
+        "checklist_en": [
+          "I looked at image A to image D before listening.",
+          "I used the numbered comments to choose the answers.",
+          "I replayed the audio only if I needed more detail."
+        ],
+        "checklist_pt": [
+          "Eu observei image A a image D antes de escutar.",
+          "Eu usei os comentarios numerados para escolher as respostas.",
+          "Eu ouvi novamente apenas se precisei de mais detalhe."
+        ],
+        "rubric": [],
+        "model_response_en": "image A, image B, image C, image D, add more contrast to the color palette, the bright silhouette, simplify one extra decoration",
+        "model_response_pt": "image A, image B, image C, image D, add more contrast to the color palette, the bright silhouette, simplify one extra decoration",
+        "common_errors": [
+          "Choosing image B or image D too quickly without hearing the detail clue.",
+          "Mixing the suggestion from number two with the suggestion from number four."
+        ],
+        "feedback_prompts_en": [
+          "Listen again for the exact strength or suggestion. Which image key matches it?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente o ponto forte ou a sugestao exata. Qual chave de imagem combina com isso?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Pause briefly between numbers if students need processing time."
+        ],
+        "challenge": [
+          "Ask stronger learners to say which suggestion sounds the most useful and why."
+        ]
+      },
+      "extension_options": [
+        "Choose one numbered comment and repeat the main idea aloud after listening."
+      ],
+      "notes_for_app_design": "Render the reusable gallery and one audio player together. Save seven selections only. Allow replay and reveal the script only after the first completed attempt. Keep the question labels, options, correct answers, and audio_prompts.json script exactly aligned."
+    },
+    {
+      "activity_id": "m01w13-a06",
+      "week_id": "m01w13",
+      "sequence_number": 6,
+      "title": "Build Better Feedback: I Like / Because / You Could",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students complete six short feedback frames with explicit accepted answers so the main saved output stays controlled fill blanks.",
+      "student_facing": {
+        "en": {
+          "title": "Build Better Feedback: I Like / Because / You Could",
+          "summary": "Complete the short feedback frames with the correct words.",
+          "instructions": "Read each short frame carefully. Use the word bank or the sentence clue to complete the missing word or phrase.",
+          "success_criteria": [
+            "I can complete a short feedback frame.",
+            "I can use because and could correctly.",
+            "I can build a clear suggestion or revision sentence."
+          ],
+          "sentence_frames": [
+            "I like the ___ because ___.",
+            "You could ___.",
+            "I will revise ___."
+          ],
+          "word_bank_label": "Feedback word bank"
+        },
+        "pt": {
+          "title": "Construa um feedback melhor: I Like / Because / You Could",
+          "summary": "Complete as frases curtas de feedback com as palavras corretas.",
+          "instructions": "Leia cada frase curta com atencao. Use o banco de palavras ou a pista da frase para completar a palavra ou expressao que falta.",
+          "success_criteria": [
+            "Eu consigo completar uma frase curta de feedback.",
+            "Eu consigo usar because e could corretamente.",
+            "Eu consigo construir uma frase clara de sugestao ou revisao."
+          ],
+          "sentence_frames": [
+            "I like the ___ because ___.",
+            "You could ___.",
+            "I will revise ___."
+          ],
+          "word_bank_label": "Banco de palavras para feedback"
+        }
+      },
+      "teacher_instructions": "Keep fill blanks as the main output and keep accepted answers explicit and narrow.",
+      "estimated_minutes": 9,
+      "primary_interaction_type": "word_bank_fill_blank",
+      "primary_interaction_type_custom": "",
+      "submission_type": "fill_blank",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "grammar",
+        "writing",
+        "vocabulary"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 13 feedback frames"
+      ],
+      "vocabulary_refs": [
+        "m01w13-v006",
+        "m01w13-v007",
+        "m01w13-v009",
+        "m01w13-v011",
+        "m01w13-v015",
+        "m01w13-v016",
+        "m01w13-v017",
+        "m01w13-v018",
+        "m01w13-v020"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "feedback_fill_blanks",
+        "prompt_en": "Complete the short feedback frames.",
+        "prompt_pt": "Complete as frases curtas de feedback.",
+        "items": [
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "I like the color palette ___ it feels calm.",
+            "sentence_frame_pt": "I like the color palette ___ it feels calm.",
+            "word_bank": [
+              "because",
+              "could",
+              "revision"
+            ],
+            "accepted_answers": [
+              "because"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the sentence.",
+            "label_pt": "Complete a frase.",
+            "sentence_frame_en": "The strongest part is the ___.",
+            "sentence_frame_pt": "The strongest part is the ___.",
+            "word_bank": [
+              "silhouette",
+              "browser",
+              "password"
+            ],
+            "accepted_answers": [
+              "silhouette"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the suggestion.",
+            "label_pt": "Complete a sugestao.",
+            "sentence_frame_en": "You could add more ___.",
+            "sentence_frame_pt": "You could add more ___.",
+            "word_bank": [
+              "contrast",
+              "chairs",
+              "homework"
+            ],
+            "accepted_answers": [
+              "contrast"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the softer suggestion.",
+            "label_pt": "Complete a sugestao mais suave.",
+            "sentence_frame_en": "Maybe you ___ simplify the extra decoration.",
+            "sentence_frame_pt": "Maybe you ___ simplify the extra decoration.",
+            "word_bank": [
+              "could",
+              "because",
+              "color"
+            ],
+            "accepted_answers": [
+              "could"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the revision sentence.",
+            "label_pt": "Complete a frase de revisao.",
+            "sentence_frame_en": "I will ___ the caption.",
+            "sentence_frame_pt": "I will ___ the caption.",
+            "word_bank": [
+              "clarify",
+              "window",
+              "jacket"
+            ],
+            "accepted_answers": [
+              "clarify"
+            ]
+          },
+          {
+            "response_type": "word_bank_fill_blank",
+            "label_en": "Complete the result sentence.",
+            "label_pt": "Complete a frase de resultado.",
+            "sentence_frame_en": "This will make the idea more ___.",
+            "sentence_frame_pt": "This will make the idea more ___.",
+            "word_bank": [
+              "clear",
+              "keyboard",
+              "pocket"
+            ],
+            "accepted_answers": [
+              "clear"
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the frame",
+          "student_action_en": "Read one short frame before you choose the missing word.",
+          "student_action_pt": "Leia uma frase curta antes de escolher a palavra que falta.",
+          "teacher_action": "Encourage students to notice the grammar clue in the frame.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the word bank items",
+          "student_action_en": "Choose the missing word or phrase and save the answer.",
+          "student_action_pt": "Escolha a palavra ou expressao que falta e salve a resposta.",
+          "teacher_action": "Keep the task controlled and brief.",
+          "estimated_minutes": 6,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "fill_blank_answers",
+        "description_en": "Six app-checked fill-blank answers for beginner feedback language.",
+        "description_pt": "Seis respostas de completar lacunas verificadas pelo app para linguagem inicial de feedback.",
+        "length_or_format": "6 fill-blank answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student completes all six feedback frames.",
+          "The student uses because, could, and revision language in the correct place.",
+          "The main output stays controlled fill blanks."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa as seis frases de feedback.",
+          "O aluno usa because, could e linguagem de revisao no lugar correto.",
+          "A principal resposta salva continua sendo completar lacunas."
+        ],
+        "checklist_en": [
+          "I completed all six frames.",
+          "I checked the grammar clue in each sentence.",
+          "I saved the correct word-bank answer."
+        ],
+        "checklist_pt": [
+          "Eu completei as seis frases.",
+          "Eu conferi a pista gramatical em cada frase.",
+          "Eu salvei a resposta correta do banco de palavras."
+        ],
+        "rubric": [],
+        "model_response_en": "because, silhouette, contrast, could, clarify, clear",
+        "model_response_pt": "because, silhouette, contrast, could, clarify, clear",
+        "common_errors": [
+          "Using because where could is needed in a suggestion.",
+          "Choosing a visible object word instead of the design-language answer."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Does the sentence need a reason word, a suggestion word, or a design word?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. A frase precisa de uma palavra de motivo, de sugestao ou de design?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the full sentence aloud after each answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to write one extra full sentence with the answer they chose."
+        ]
+      },
+      "extension_options": [
+        "Choose one completed frame and turn it into a full feedback sentence."
+      ],
+      "notes_for_app_design": "Render six fill-blank items only and save those answers as the primary output. Keep accepted answers explicit and avoid extra multiple-choice screens that would blur the fill_blank submission type."
+    },
+    {
+      "activity_id": "m01w13-a07",
+      "week_id": "m01w13",
+      "sequence_number": 7,
+      "title": "Design Feedback Note + Revision Plan Card",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students choose one gallery image and complete a scaffolded six-line feedback and revision card with one optional challenge line saved separately for teacher review.",
+      "student_facing": {
+        "en": {
+          "title": "Design Feedback Note + Revision Plan Card",
+          "summary": "Choose one gallery image and complete the six required lines.",
+          "instructions": "Choose one image key from image A to image D. Then complete the six required short lines about that design. You can add the optional challenge line after you finish the required lines, but it is not required.",
+          "success_criteria": [
+            "I can choose one image and stay with it.",
+            "I can complete six short lines, not one paragraph.",
+            "I can write one positive comment, one reason, one suggestion, and one revision step clearly."
+          ],
+          "sentence_frames": [
+            "I like the ___.",
+            "It works well because ___.",
+            "You could ___."
+          ],
+          "word_bank_label": "Feedback card frames"
+        },
+        "pt": {
+          "title": "Cartao de nota de feedback e plano de revisao",
+          "summary": "Escolha uma imagem da galeria e complete as seis linhas obrigatorias.",
+          "instructions": "Escolha uma chave de imagem entre image A e image D. Depois complete as seis linhas curtas obrigatorias sobre esse design. Voce pode acrescentar a linha opcional de desafio depois de terminar as linhas obrigatorias, mas ela nao e obrigatoria.",
+          "success_criteria": [
+            "Eu consigo escolher uma imagem e manter essa escolha.",
+            "Eu consigo completar seis linhas curtas, e nao um paragrafo.",
+            "Eu consigo escrever com clareza um comentario positivo, um motivo, uma sugestao e um passo de revisao."
+          ],
+          "sentence_frames": [
+            "I like the ___.",
+            "It works well because ___.",
+            "You could ___."
+          ],
+          "word_bank_label": "Frases-modelo do cartao de feedback"
+        }
+      },
+      "teacher_instructions": "Review the selected image key and each saved required line separately. Show the optional challenge line separately only if the student completed it. Do not mark the task incomplete when the optional line is blank. Use the checklist, common errors, and feedback prompts to request one specific revision if needed. Do not turn this into a paragraph or word-count task.",
+      "estimated_minutes": 18,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 13 reusable feedback gallery image A to image D",
+        "Week 13 line-based feedback card"
+      ],
+      "vocabulary_refs": [
+        "m01w13-v003",
+        "m01w13-v004",
+        "m01w13-v005",
+        "m01w13-v006",
+        "m01w13-v007",
+        "m01w13-v008",
+        "m01w13-v009",
+        "m01w13-v011",
+        "m01w13-v012",
+        "m01w13-v013",
+        "m01w13-v014",
+        "m01w13-v015",
+        "m01w13-v016",
+        "m01w13-v017",
+        "m01w13-v018",
+        "m01w13-v019",
+        "m01w13-v020"
+      ],
+      "asset_refs": [
+        "m01w13-img-002"
+      ],
+      "input": {
+        "input_type": "structured_writing_card",
+        "prompt_en": "Choose one image from image A to image D and complete the required feedback-card lines.",
+        "prompt_pt": "Escolha uma imagem de image A a image D e complete as linhas obrigatorias do cartao de feedback.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Selected image key",
+            "label_pt": "Chave da imagem selecionada",
+            "asset_id": "m01w13-img-002",
+            "options_en": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ],
+            "options_pt": [
+              "image A",
+              "image B",
+              "image C",
+              "image D"
+            ]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 1: Write one positive comment.",
+            "label_pt": "Linha 1: escreva um comentario positivo.",
+            "sentence_frame_en": "I like the ___.",
+            "sentence_frame_pt": "I like the ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 2: Explain why it works.",
+            "label_pt": "Linha 2: explique por que funciona.",
+            "sentence_frame_en": "It works well because ___.",
+            "sentence_frame_pt": "It works well because ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 3: Name the strongest part.",
+            "label_pt": "Linha 3: nomeie a parte mais forte.",
+            "sentence_frame_en": "The strongest part is ___.",
+            "sentence_frame_pt": "The strongest part is ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 4: Give one suggestion.",
+            "label_pt": "Linha 4: de uma sugestao.",
+            "sentence_frame_en": "You could ___.",
+            "sentence_frame_pt": "You could ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 5: Say one revision step.",
+            "label_pt": "Linha 5: diga um passo de revisao.",
+            "sentence_frame_en": "I will revise ___.",
+            "sentence_frame_pt": "I will revise ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Line 6: Explain the result.",
+            "label_pt": "Linha 6: explique o resultado.",
+            "sentence_frame_en": "This will make the design more ___.",
+            "sentence_frame_pt": "This will make the design more ___."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Optional challenge line",
+            "label_pt": "Linha opcional de desafio",
+            "sentence_frame_en": "Maybe you could ___ because ___.",
+            "sentence_frame_pt": "Maybe you could ___ because ___."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Choose one gallery image",
+          "student_action_en": "Look at image A to image D and choose one image key.",
+          "student_action_pt": "Observe image A a image D e escolha uma chave de imagem.",
+          "teacher_action": "Keep the gallery visible and stable.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the six required lines",
+          "student_action_en": "Write one short response in each required line.",
+          "student_action_pt": "Escreva uma resposta curta em cada linha obrigatoria.",
+          "teacher_action": "Coach students to move line by line instead of writing a paragraph.",
+          "estimated_minutes": 12,
+          "mode": "individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge line if ready",
+          "student_action_en": "Add the optional challenge line after you finish the required lines if you are ready.",
+          "student_action_pt": "Acrescente a linha opcional de desafio depois de terminar as linhas obrigatorias, se voce estiver pronto.",
+          "teacher_action": "Keep the optional line visible, saved separately only if completed, and not required for completion.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_feedback_note_card",
+        "description_en": "One saved six-line feedback and revision card with one selected image key and one optional challenge line saved separately only if completed.",
+        "description_pt": "Um cartao salvo de feedback e revisao com seis linhas, uma chave de imagem selecionada e uma linha opcional de desafio salva separadamente apenas se for completada.",
+        "length_or_format": "1 selected image key, 6 required short lines, and 1 optional challenge line"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student selects one gallery image key and stays with it.",
+          "The student completes all six required lines with short clear language.",
+          "The student keeps the output as structured lines, not a paragraph."
+        ],
+        "completion_criteria_pt": [
+          "O aluno seleciona uma chave de imagem da galeria e mantem essa escolha.",
+          "O aluno completa as seis linhas obrigatorias com linguagem curta e clara.",
+          "O aluno mantem a resposta como linhas estruturadas, e nao como paragrafo."
+        ],
+        "checklist_en": [
+          "The student chooses one image and keeps the same reference.",
+          "The student completes all six required lines.",
+          "The student includes one positive comment, one reason, one suggestion, and one revision step.",
+          "The student uses understandable simple English.",
+          "The student does not turn the task into a paragraph."
+        ],
+        "checklist_pt": [
+          "O aluno escolhe uma imagem e mantem a mesma referencia.",
+          "O aluno completa as seis linhas obrigatorias.",
+          "O aluno inclui um comentario positivo, um motivo, uma sugestao e um passo de revisao.",
+          "O aluno usa ingles simples compreensivel.",
+          "O aluno nao transforma a tarefa em um paragrafo."
+        ],
+        "rubric": [],
+        "model_response_en": "image B. I like the jacket. It works well because it looks modern and practical. The strongest part is the zipper and pockets. You could add more contrast. I will revise the caption. This will make the design more clear. Maybe you could add one bright color because the palette is very neutral.",
+        "model_response_pt": "image B. I like the jacket. It works well because it looks modern and practical. The strongest part is the zipper and pockets. You could add more contrast. I will revise the caption. This will make the design more clear. Maybe you could add one bright color because the palette is very neutral.",
+        "common_errors": [
+          "Writing one paragraph instead of completing one line at a time.",
+          "Mixing details from two different images.",
+          "Using because without a full reason idea.",
+          "Using can instead of could for the suggestion line.",
+          "Adding extra words that do not fit the simple line 6 pattern."
+        ],
+        "feedback_prompts_en": [
+          "Please finish the missing required line before you add extra ideas.",
+          "Please make the suggestion line more specific.",
+          "Please check the because line so the reason is complete.",
+          "Please keep line 6 in the simple pattern This will make the design more ___."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, complete a linha obrigatoria que falta antes de acrescentar ideias extras.",
+          "Por favor, deixe a linha de sugestao mais especifica.",
+          "Por favor, confira a linha com because para que o motivo fique completo.",
+          "Por favor, mantenha a linha 6 no padrao simples This will make the design more ___."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students draft one or two key words first, then complete the full frame."
+        ],
+        "challenge": [
+          "Ask stronger learners to use both because and maybe you could across different lines."
+        ]
+      },
+      "extension_options": [
+        "Turn two of your written lines into a short spoken mini critique after the card is complete."
+      ],
+      "notes_for_app_design": "Render the reusable gallery with stable image A to image D labels and require the student to choose one key before writing. Save the selected image key and each required structured line separately. Save the optional challenge line separately only if the student completes it. Show the selected image key, gallery image, and the optional line as separate fields during teacher review. Do not mark the required task incomplete when the optional line is blank. Include the checklist, common-error prompts, and return-for-revision support for one specific required line or one missing required element. Do not use a paragraph box and do not use any word-count requirement."
+    },
+    {
+      "activity_id": "m01w13-a08",
+      "week_id": "m01w13",
+      "sequence_number": 8,
+      "title": "Review and Improve: Clear Feedback Sentences",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students correct two short incorrect feedback sentences with explicit accepted answers and narrow grammar targets.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Clear Feedback Sentences",
+          "summary": "Correct the short feedback sentences.",
+          "instructions": "Read each short sentence carefully. Correct the mistake and save the new sentence.",
+          "success_criteria": [
+            "I can notice a short feedback mistake.",
+            "I can correct one sentence clearly.",
+            "I can keep my correction short and specific."
+          ],
+          "sentence_frames": [
+            "I like the ___.",
+            "You could ___.",
+            "I will revise ___."
+          ],
+          "word_bank_label": "Correction focus"
+        },
+        "pt": {
+          "title": "Revise e melhore: frases claras de feedback",
+          "summary": "Corrija as frases curtas de feedback.",
+          "instructions": "Leia cada frase curta com atencao. Corrija o erro e salve a nova frase.",
+          "success_criteria": [
+            "Eu consigo perceber um erro curto em uma frase de feedback.",
+            "Eu consigo corrigir uma frase com clareza.",
+            "Eu consigo manter minha correcao curta e especifica."
+          ],
+          "sentence_frames": [
+            "I like the ___.",
+            "You could ___.",
+            "I will revise ___."
+          ],
+          "word_bank_label": "Foco da correcao"
+        }
+      },
+      "teacher_instructions": "Keep the correction targets narrow and A2-appropriate. Accepted answers should be explicit and not too open-ended.",
+      "estimated_minutes": 7,
+      "primary_interaction_type": "correction_task",
+      "primary_interaction_type_custom": "",
+      "submission_type": "corrected_sentence",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 13 correction cards"
+      ],
+      "vocabulary_refs": [
+        "m01w13-v009",
+        "m01w13-v011",
+        "m01w13-v015",
+        "m01w13-v020"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "sentence_correction_cards",
+        "prompt_en": "Correct the short feedback sentences.",
+        "prompt_pt": "Corrija as frases curtas de feedback.",
+        "items": [
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct this sentence: I like the palette because calm.",
+            "label_pt": "Corrija esta frase: I like the palette because calm.",
+            "incorrect_text": "I like the palette because calm.",
+            "accepted_answers": [
+              "I like the palette because it feels calm."
+            ]
+          },
+          {
+            "response_type": "correction_task",
+            "label_en": "Correct this sentence: You can add more contrast.",
+            "label_pt": "Corrija esta frase: You can add more contrast.",
+            "incorrect_text": "You can add more contrast.",
+            "accepted_answers": [
+              "You could add more contrast."
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the sentence",
+          "student_action_en": "Read the incorrect sentence carefully.",
+          "student_action_pt": "Leia com atencao a frase incorreta.",
+          "teacher_action": "Encourage students to look for one specific error.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Correct and save",
+          "student_action_en": "Write the corrected sentence and save it.",
+          "student_action_pt": "Escreva a frase corrigida e salve-a.",
+          "teacher_action": "Keep the corrections short and controlled.",
+          "estimated_minutes": 5,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "corrected_sentences",
+        "description_en": "Two corrected feedback sentences checked by the app.",
+        "description_pt": "Duas frases corrigidas de feedback verificadas pelo app.",
+        "length_or_format": "2 corrected sentences"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student corrects both sentences.",
+          "The student fixes the exact target error in each sentence.",
+          "The student keeps the corrected sentence short and clear."
+        ],
+        "completion_criteria_pt": [
+          "O aluno corrige as duas frases.",
+          "O aluno corrige o erro exato em cada frase.",
+          "O aluno mantem a frase corrigida curta e clara."
+        ],
+        "checklist_en": [
+          "I read the incorrect sentence first.",
+          "I corrected the target error.",
+          "I saved both corrected sentences."
+        ],
+        "checklist_pt": [
+          "Eu li primeiro a frase incorreta.",
+          "Eu corrigi o erro principal.",
+          "Eu salvei as duas frases corrigidas."
+        ],
+        "rubric": [],
+        "model_response_en": "I like the palette because it feels calm. You could add more contrast.",
+        "model_response_pt": "I like the palette because it feels calm. You could add more contrast.",
+        "common_errors": [
+          "Fixing only one word and leaving the phrase structure incomplete.",
+          "Adding extra new ideas instead of correcting the original sentence."
+        ],
+        "feedback_prompts_en": [
+          "Check the reason clause or the polite suggestion phrase again."
+        ],
+        "feedback_prompts_pt": [
+          "Confira novamente a frase de motivo ou a expressao de sugestao educada."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the corrected sentence aloud before saving it."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain which grammar point changed in each sentence."
+        ]
+      },
+      "extension_options": [
+        "Write one more correct sentence with because or could after the two correction cards."
+      ],
+      "notes_for_app_design": "Render one correction card at a time. Save two corrected sentences only. Use explicit accepted answers and keep the error focus narrow."
+    },
+    {
+      "activity_id": "m01w13-a09",
+      "week_id": "m01w13",
+      "sequence_number": 9,
+      "title": "Teacher Session: Mini Critique Circle",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use their chosen gallery image and saved feedback card to give one short spoken mini critique with teacher support and no recording.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Mini Critique Circle",
+          "summary": "Use your card and give one short spoken feedback response.",
+          "instructions": "Look at your chosen image and your saved feedback card. Say one positive comment, one reason, one suggestion, and one revision step with the teacher.",
+          "success_criteria": [
+            "I can give one short spoken positive comment.",
+            "I can say one reason and one suggestion.",
+            "I can use my feedback card as support."
+          ],
+          "sentence_frames": [
+            "I like the ___ because ___.",
+            "The strongest part is ___.",
+            "You could ___."
+          ],
+          "word_bank_label": "Speaking frames"
+        },
+        "pt": {
+          "title": "Sessao com o professor: mini circulo de critica",
+          "summary": "Use seu cartao e faca uma resposta curta de feedback oral.",
+          "instructions": "Observe sua imagem escolhida e seu cartao de feedback salvo. Diga um comentario positivo, um motivo, uma sugestao e um passo de revisao com o professor.",
+          "success_criteria": [
+            "Eu consigo fazer um comentario positivo curto oralmente.",
+            "Eu consigo dizer um motivo e uma sugestao.",
+            "Eu consigo usar meu cartao de feedback como apoio."
+          ],
+          "sentence_frames": [
+            "I like the ___ because ___.",
+            "The strongest part is ___.",
+            "You could ___."
+          ],
+          "word_bank_label": "Frases-modelo para fala"
+        }
+      },
+      "teacher_instructions": "Use the selected image key inherited from m01w13-a07 and the saved writing card as speaking support. Observe completion, clarity, because, could, and design specificity. Do not record or upload audio.",
+      "estimated_minutes": 50,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 13 reusable feedback gallery image A to image D",
+        "Student's saved Week 13 feedback card",
+        "Week 13 speaking frames"
+      ],
+      "vocabulary_refs": [
+        "m01w13-v001",
+        "m01w13-v003",
+        "m01w13-v004",
+        "m01w13-v006",
+        "m01w13-v009",
+        "m01w13-v011",
+        "m01w13-v016",
+        "m01w13-v017",
+        "m01w13-v018",
+        "m01w13-v019",
+        "m01w13-v020"
+      ],
+      "asset_refs": [
+        "m01w13-img-002"
+      ],
+      "input": {
+        "input_type": "teacher_supported_speaking_prompt",
+        "prompt_en": "Use your selected image and saved card from Activity 7 to give one short mini critique.",
+        "prompt_pt": "Use sua imagem selecionada e seu cartao salvo da Atividade 7 para fazer uma mini critica curta.",
+        "items": [
+          {
+            "response_type": "context_display",
+            "label_en": "Selected gallery image key from Activity 7",
+            "label_pt": "Chave da imagem da galeria selecionada da Atividade 7",
+            "asset_id": "m01w13-img-002",
+            "prompt_en": "Show the previously selected image key and gallery image as read-only speaking support.",
+            "prompt_pt": "Mostre a chave da imagem escolhida anteriormente e a imagem da galeria como apoio somente para leitura."
+          },
+          {
+            "response_type": "context_display",
+            "label_en": "Saved feedback card from Activity 7",
+            "label_pt": "Cartao de feedback salvo da Atividade 7",
+            "prompt_en": "Show the student's saved required lines and optional line if it exists as read-only speaking support.",
+            "prompt_pt": "Mostre as linhas obrigatorias salvas do aluno e a linha opcional, se existir, como apoio somente para leitura."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the image and the card",
+          "student_action_en": "Look at your selected image and read your saved lines again.",
+          "student_action_pt": "Observe sua imagem selecionada e leia novamente suas linhas salvas.",
+          "teacher_action": "Give pronunciation support before students speak.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Give the mini critique",
+          "student_action_en": "Say one positive comment, one reason, one suggestion, and one revision step.",
+          "student_action_pt": "Diga um comentario positivo, um motivo, uma sugestao e um passo de revisao.",
+          "teacher_action": "Prompt students with the speaking frames when needed.",
+          "estimated_minutes": 30,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 3,
+          "title": "Close with a short improvement idea",
+          "student_action_en": "Say one final sentence with the frame This will make the design more ___.",
+          "student_action_pt": "Diga uma frase final com a estrutura This will make the design more ___.",
+          "teacher_action": "Record completion and brief teacher notes only.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_spoken_feedback_response",
+        "description_en": "One teacher-observed spoken mini critique with 4 to 6 short lines and no recording.",
+        "description_pt": "Uma mini critica oral observada pelo professor com 4 a 6 linhas curtas e sem gravacao.",
+        "length_or_format": "4 to 6 short spoken lines"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student uses one selected image and stays with the same reference.",
+          "The student gives one positive comment, one reason, and one suggestion aloud.",
+          "The student completes the speaking task with teacher support only and no recording."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa uma imagem selecionada e mantem a mesma referencia.",
+          "O aluno faz oralmente um comentario positivo, um motivo e uma sugestao.",
+          "O aluno completa a tarefa oral apenas com apoio do professor e sem gravacao."
+        ],
+        "checklist_en": [
+          "The student names one clear strength.",
+          "The student uses because for one reason.",
+          "The student uses could for one suggestion.",
+          "The student uses design-specific vocabulary.",
+          "The student stays on one chosen image."
+        ],
+        "checklist_pt": [
+          "O aluno nomeia um ponto forte claro.",
+          "O aluno usa because para um motivo.",
+          "O aluno usa could para uma sugestao.",
+          "O aluno usa vocabulario especifico de design.",
+          "O aluno permanece em uma imagem escolhida."
+        ],
+        "rubric": [],
+        "model_response_en": "I like the jacket because it looks modern. The strongest part is the zipper and pockets. You could add more contrast. I will revise the caption. This will make the design more clear.",
+        "model_response_pt": "I like the jacket because it looks modern. The strongest part is the zipper and pockets. You could add more contrast. I will revise the caption. This will make the design more clear.",
+        "common_errors": [
+          "Stopping after one positive comment without adding a reason or suggestion.",
+          "Using very general words like nice or good without a design focus word."
+        ],
+        "feedback_prompts_en": [
+          "Try one more short sentence with because.",
+          "Can you give one suggestion with could?"
+        ],
+        "feedback_prompts_pt": [
+          "Tente mais uma frase curta com because.",
+          "Voce consegue dar uma sugestao com could?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students read directly from the saved card before speaking more freely."
+        ],
+        "challenge": [
+          "Ask stronger learners to add the optional challenge idea from their card."
+        ]
+      },
+      "extension_options": [
+        "Compare your feedback with a partner and choose the most useful suggestion."
+      ],
+      "notes_for_app_design": "Render the selected image key inherited from m01w13-a07, the matching gallery image, and the student's saved feedback card from m01w13-a07 as read-only speaking support. Do not ask for a new image choice and do not save a new image selection in this activity. Store teacher observation and completion data only. Do not create any recording, upload, or automated speech-scoring path."
+    }
+  ]
+}
