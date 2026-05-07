@@ -83,13 +83,13 @@
             "asset_id": "m01w14-img-001",
             "options_en": [
               "the inspiration section",
-              "the login section",
-              "the grade section"
+              "the fabric section",
+              "the sewing tools section"
             ],
             "options_pt": [
               "a secao de inspiracao",
-              "a secao de login",
-              "a secao de nota"
+              "a secao de tecido",
+              "a secao de ferramentas de costura"
             ],
             "correct_answer": "the inspiration section"
           },

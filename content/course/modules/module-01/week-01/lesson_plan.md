@@ -54,7 +54,7 @@ The asynchronous/app-style portion is 77 minutes. The teacher-led speaking sessi
 
 ## Differentiation Options
 - Let learners who need more support keep the English sentence frames visible during reading, listening, writing, and speaking.
-- Provide a reduced writing path with four required sentences before inviting expansion to 50-80 words.
+- Provide a reduced writing path with four required sentences before inviting one optional challenge sentence.
 - Offer a visible word bank during listening for students who need extra comprehension support.
 - Allow oral rehearsal in pairs before students write or speak in the teacher-led session.
 - Challenge stronger learners to add one sentence about a specific design area such as sustainability, accessories, styling, or portfolio goals.

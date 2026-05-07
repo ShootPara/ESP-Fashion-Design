@@ -86,12 +86,12 @@
             "asset_id": "m01w13-img-001",
             "options_en": [
               "the color palette",
-              "the login page",
+              "the fabric swatch",
               "the ruler"
             ],
             "options_pt": [
               "a paleta de cores",
-              "a pagina de login",
+              "a amostra de tecido",
               "a regua"
             ],
             "correct_answer": "the color palette"
@@ -975,12 +975,12 @@
             "asset_id": "m01w13-img-002",
             "options_en": [
               "the zipper and pockets",
-              "the login and password",
+              "the pattern piece",
               "the socks and shoes"
             ],
             "options_pt": [
               "o ziper e os bolsos",
-              "o login e a senha",
+              "a peca de modelagem",
               "as meias e os sapatos"
             ],
             "correct_answer": "the zipper and pockets"
