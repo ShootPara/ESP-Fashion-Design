@@ -15,7 +15,7 @@
         "m01w14-a03",
         "m01w14-a04"
       ],
-      "status": "planned"
+      "status": "generated"
     },
     {
       "asset_id": "m01w14-img-002",
@@ -29,7 +29,7 @@
       "used_by_activity_ids": [
         "m01w14-a02"
       ],
-      "status": "planned"
+      "status": "generated"
     },
     {
       "asset_id": "m01w14-img-003",
@@ -46,7 +46,7 @@
         "m01w14-a08",
         "m01w14-a09"
       ],
-      "status": "planned"
+      "status": "generated"
     }
   ]
 }
