@@ -1,0 +1,2137 @@
+{
+  "week_id": "m01w14",
+  "activities": [
+    {
+      "activity_id": "m01w14-a01",
+      "week_id": "m01w14",
+      "sequence_number": 1,
+      "title": "Welcome Back: Build Your Final Board",
+      "activity_type": "warmup",
+      "activity_type_custom": "",
+      "summary": "Students study one finished model board and answer short visible-clue questions about the required sections and their purpose.",
+      "student_facing": {
+        "en": {
+          "title": "Welcome Back: Build Your Final Board",
+          "summary": "Look at the model board and choose the best answer for each quick question.",
+          "instructions": "Look at the model mini design board first. Choose the best answer for each short question about the board sections.",
+          "success_criteria": [
+            "I can identify the main sections of the mini design board.",
+            "I can use visible clues from the board to answer each question.",
+            "I can get ready to build my own final board."
+          ],
+          "sentence_frames": [
+            "This board shows ___.",
+            "The fabric note explains ___.",
+            "The inspiration note tells ___."
+          ],
+          "word_bank_label": "Board sections"
+        },
+        "pt": {
+          "title": "Bem-vindo de volta: monte sua prancha final",
+          "summary": "Observe a prancha-modelo e escolha a melhor resposta para cada pergunta rapida.",
+          "instructions": "Observe primeiro a mini prancha de design modelo. Escolha a melhor resposta para cada pergunta curta sobre as secoes da prancha.",
+          "success_criteria": [
+            "Eu consigo identificar as principais secoes da mini prancha de design.",
+            "Eu consigo usar pistas visiveis da prancha para responder a cada pergunta.",
+            "Eu consigo me preparar para montar minha propria prancha final."
+          ],
+          "sentence_frames": [
+            "This board shows ___.",
+            "The fabric note explains ___.",
+            "The inspiration note tells ___."
+          ],
+          "word_bank_label": "Secoes da prancha"
+        }
+      },
+      "teacher_instructions": "Keep the task recognition-based and one-screen. Every correct answer must be visible on the model board or in the short options.",
+      "estimated_minutes": 6,
+      "primary_interaction_type": "single_choice",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 14 model mini design board"
+      ],
+      "vocabulary_refs": [
+        "m01w14-v001",
+        "m01w14-v002",
+        "m01w14-v003",
+        "m01w14-v004"
+      ],
+      "asset_refs": [
+        "m01w14-img-001"
+      ],
+      "input": {
+        "input_type": "board_section_quiz",
+        "prompt_en": "Choose the best answer for each question about the mini design board.",
+        "prompt_pt": "Escolha a melhor resposta para cada pergunta sobre a mini prancha de design.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "Which section tells the main idea of the design source?",
+            "label_pt": "Qual secao diz a ideia principal da fonte de inspiracao do design?",
+            "asset_id": "m01w14-img-001",
+            "options_en": [
+              "the inspiration section",
+              "the login section",
+              "the grade section"
+            ],
+            "options_pt": [
+              "a secao de inspiracao",
+              "a secao de login",
+              "a secao de nota"
+            ],
+            "correct_answer": "the inspiration section"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which section names short words like blue dress and round neckline?",
+            "label_pt": "Qual secao nomeia palavras curtas como blue dress e round neckline?",
+            "asset_id": "m01w14-img-001",
+            "options_en": [
+              "the labels section",
+              "the password section",
+              "the attendance section"
+            ],
+            "options_pt": [
+              "a secao de labels",
+              "a secao de senha",
+              "a secao de presenca"
+            ],
+            "correct_answer": "the labels section"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What does the fabric and detail section explain?",
+            "label_pt": "O que a secao de tecido e detalhe explica?",
+            "asset_id": "m01w14-img-001",
+            "options_en": [
+              "the material idea and one visible feature",
+              "the student number",
+              "the classroom address"
+            ],
+            "options_pt": [
+              "a ideia de material e uma caracteristica visivel",
+              "o numero do aluno",
+              "o endereco da sala"
+            ],
+            "correct_answer": "the material idea and one visible feature"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which section helps close the board with one short final idea?",
+            "label_pt": "Qual secao ajuda a fechar a prancha com uma ideia final curta?",
+            "asset_id": "m01w14-img-001",
+            "options_en": [
+              "the final comment section",
+              "the browser tab",
+              "the file menu"
+            ],
+            "options_pt": [
+              "a secao de comentario final",
+              "a aba do navegador",
+              "o menu do arquivo"
+            ],
+            "correct_answer": "the final comment section"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which section shows the picture or sketch of the look?",
+            "label_pt": "Qual secao mostra a imagem ou o croqui do look?",
+            "asset_id": "m01w14-img-001",
+            "options_en": [
+              "the sketch image area",
+              "the Wi-Fi icon",
+              "the teacher notes area"
+            ],
+            "options_pt": [
+              "a area da imagem do croqui",
+              "o icone de Wi-Fi",
+              "a area de observacoes do professor"
+            ],
+            "correct_answer": "the sketch image area"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Study the model board",
+          "student_action_en": "Look at the model board before you answer.",
+          "student_action_pt": "Observe a prancha-modelo antes de responder.",
+          "teacher_action": "Point to the visible board sections if needed.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose the board-section answers",
+          "student_action_en": "Choose the best answer for each quick question.",
+          "student_action_pt": "Escolha a melhor resposta para cada pergunta rapida.",
+          "teacher_action": "Keep the pace quick and objective.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "recognition_selections",
+        "description_en": "Five app-checked selections about the sections and purpose of the model mini design board.",
+        "description_pt": "Cinco selecoes verificadas pelo app sobre as secoes e a funcao da mini prancha de design modelo.",
+        "length_or_format": "5 single-choice answers"
+      },
+      "assessment": {
+        "mode": "completion",
+        "completion_criteria_en": [
+          "The student answers all five questions.",
+          "The student uses visible clues from the model board.",
+          "The student recognizes the main board sections."
+        ],
+        "completion_criteria_pt": [
+          "O aluno responde as cinco perguntas.",
+          "O aluno usa pistas visiveis da prancha-modelo.",
+          "O aluno reconhece as principais secoes da prancha."
+        ],
+        "checklist_en": [
+          "I looked at the board first.",
+          "I answered all five questions.",
+          "I used visible clues for each answer."
+        ],
+        "checklist_pt": [
+          "Eu observei a prancha primeiro.",
+          "Eu respondi as cinco perguntas.",
+          "Eu usei pistas visiveis para cada resposta."
+        ],
+        "rubric": [],
+        "model_response_en": "the inspiration section; the labels section; the material idea and one visible feature; the final comment section; the sketch image area",
+        "model_response_pt": "the inspiration section; the labels section; the material idea and one visible feature; the final comment section; the sketch image area",
+        "common_errors": [
+          "Choosing a non-board option instead of a visible section.",
+          "Confusing labels with the inspiration section."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which answer matches a visible section on the board?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual resposta combina com uma secao visivel da prancha?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students point to the board section before choosing the answer."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one full sentence about one section after the quiz."
+        ]
+      },
+      "extension_options": [
+        "Say one extra sentence about the section you think is most important."
+      ],
+      "notes_for_app_design": "Render one model board and five single-choice questions on one short screen flow. Save the selections only. Keep the section names student-friendly and tie every correct answer to visible board sections or short visible options."
+    },
+    {
+      "activity_id": "m01w14-a02",
+      "week_id": "m01w14",
+      "sequence_number": 2,
+      "title": "Mini Design Board Vocabulary Review",
+      "activity_type": "vocabulary_matching",
+      "activity_type_custom": "",
+      "summary": "Students complete one cumulative matching task using a visible keyed review board and student-friendly bilingual category labels.",
+      "student_facing": {
+        "en": {
+          "title": "Mini Design Board Vocabulary Review",
+          "summary": "Match the words to the correct key or category.",
+          "instructions": "Look at the review board. Match each English word to the correct visible key or category.",
+          "success_criteria": [
+            "I can review words from many earlier weeks.",
+            "I can match each word using visible clues.",
+            "I can get ready for the final board."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "The main detail is ___.",
+            "This design is inspired by ___."
+          ],
+          "word_bank_label": "Review words"
+        },
+        "pt": {
+          "title": "Revisao de vocabulario da mini prancha de design",
+          "summary": "Relacione as palavras a chave ou categoria corretas.",
+          "instructions": "Observe a prancha de revisao. Relacione cada palavra em ingles a chave visivel ou categoria correta.",
+          "success_criteria": [
+            "Eu consigo revisar palavras de varias semanas anteriores.",
+            "Eu consigo relacionar cada palavra usando pistas visiveis.",
+            "Eu consigo me preparar para a prancha final."
+          ],
+          "sentence_frames": [
+            "This is a ___.",
+            "The main detail is ___.",
+            "This design is inspired by ___."
+          ],
+          "word_bank_label": "Palavras de revisao"
+        }
+      },
+      "teacher_instructions": "Keep matching as the main saved output. Show only student-friendly category labels and keep all clues visible.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "vocabulary",
+        "visual_literacy",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 14 cumulative review board"
+      ],
+      "vocabulary_refs": [
+        "m01w14-v005",
+        "m01w14-v006",
+        "m01w14-v009",
+        "m01w14-v013",
+        "m01w14-v017",
+        "m01w14-v018",
+        "m01w14-v020"
+      ],
+      "asset_refs": [
+        "m01w14-img-002"
+      ],
+      "input": {
+        "input_type": "cumulative_matching_board",
+        "prompt_en": "Match each word to the correct visible key or category on the review board.",
+        "prompt_pt": "Relacione cada palavra a chave visivel ou categoria correta na prancha de revisao.",
+        "items": [
+          {
+            "response_type": "image_match",
+            "label_en": "Match the review words.",
+            "label_pt": "Relacione as palavras de revisao.",
+            "asset_id": "m01w14-img-002",
+            "match_terms_en": [
+              "garment",
+              "neckline",
+              "fabric",
+              "detail",
+              "inspired by",
+              "because",
+              "revise",
+              "embroidery"
+            ],
+            "match_terms_pt": [
+              "peca de roupa",
+              "decote",
+              "tecido",
+              "detalhe",
+              "inspirado em",
+              "porque",
+              "revisar",
+              "bordado"
+            ],
+            "category_targets_en": [
+              "garment",
+              "part",
+              "fabric",
+              "detail",
+              "inspiration",
+              "reason",
+              "revision",
+              "detail"
+            ],
+            "category_targets_pt": [
+              "peca",
+              "parte",
+              "tecido",
+              "detalhe",
+              "inspiracao",
+              "motivo",
+              "revisao",
+              "detalhe"
+            ],
+            "matches": [
+              {
+                "term_en": "garment",
+                "term_pt": "peca de roupa",
+                "target_key": "A",
+                "target_label_en": "garment",
+                "target_label_pt": "peca"
+              },
+              {
+                "term_en": "neckline",
+                "term_pt": "decote",
+                "target_key": "B",
+                "target_label_en": "part",
+                "target_label_pt": "parte"
+              },
+              {
+                "term_en": "fabric",
+                "term_pt": "tecido",
+                "target_key": "C",
+                "target_label_en": "fabric",
+                "target_label_pt": "tecido"
+              },
+              {
+                "term_en": "detail",
+                "term_pt": "detalhe",
+                "target_key": "D",
+                "target_label_en": "detail",
+                "target_label_pt": "detalhe"
+              },
+              {
+                "term_en": "inspired by",
+                "term_pt": "inspirado em",
+                "target_key": "E",
+                "target_label_en": "inspiration",
+                "target_label_pt": "inspiracao"
+              },
+              {
+                "term_en": "because",
+                "term_pt": "porque",
+                "target_key": "F",
+                "target_label_en": "reason",
+                "target_label_pt": "motivo"
+              },
+              {
+                "term_en": "revise",
+                "term_pt": "revisar",
+                "target_key": "G",
+                "target_label_en": "revision",
+                "target_label_pt": "revisao"
+              },
+              {
+                "term_en": "embroidery",
+                "term_pt": "bordado",
+                "target_key": "H",
+                "target_label_en": "detail",
+                "target_label_pt": "detalhe"
+              }
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the review words",
+          "student_action_en": "Look at the board and read the English words first.",
+          "student_action_pt": "Observe a prancha e leia primeiro as palavras em ingles.",
+          "teacher_action": "Remind students that all clues are visible on the board.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the words",
+          "student_action_en": "Match each word to the correct key or category.",
+          "student_action_pt": "Relacione cada palavra a chave ou categoria correta.",
+          "teacher_action": "Keep the main saved output as matching.",
+          "estimated_minutes": 11,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "matching_set",
+        "description_en": "One saved cumulative matching set using visible keys and student-friendly categories.",
+        "description_pt": "Um conjunto salvo de correspondencia cumulativa usando chaves visiveis e categorias amigaveis para o aluno.",
+        "length_or_format": "8 matches"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student completes the full matching set.",
+          "The student uses visible keys and categories only.",
+          "The student reviews vocabulary from earlier Module 1 weeks."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa todo o conjunto de correspondencia.",
+          "O aluno usa apenas chaves e categorias visiveis.",
+          "O aluno revisa vocabulario de semanas anteriores do Modulo 1."
+        ],
+        "checklist_en": [
+          "I matched all eight words.",
+          "I used the visible key or category for each answer.",
+          "I checked my answers before saving."
+        ],
+        "checklist_pt": [
+          "Eu relacionei as oito palavras.",
+          "Eu usei a chave ou categoria visivel em cada resposta.",
+          "Eu conferi minhas respostas antes de salvar."
+        ],
+        "rubric": [],
+        "model_response_en": "garment-A; neckline-B; fabric-C; detail-D; inspired by-E; because-F; revise-G; embroidery-H",
+        "model_response_pt": "garment-A; neckline-B; fabric-C; detail-D; inspired by-E; because-F; revise-G; embroidery-H",
+        "common_errors": [
+          "Matching a word to a hidden idea instead of a visible key.",
+          "Confusing detail and part."
+        ],
+        "feedback_prompts_en": [
+          "Look again. Which visible key or category matches this word?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente. Qual chave ou categoria visivel combina com esta palavra?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say the Portuguese support word before matching the English term."
+        ],
+        "challenge": [
+          "Ask stronger learners to use three matched words in short spoken sentences."
+        ]
+      },
+      "extension_options": [
+        "Choose two matched words and say one sentence about your future board."
+      ],
+      "notes_for_app_design": "Render one visible review board and one main matching task. Keep matching as the primary saved output. Include explicit match_terms_en, match_terms_pt, category targets, and exact matches so there is no hidden category logic."
+    },
+    {
+      "activity_id": "m01w14-a03",
+      "week_id": "m01w14",
+      "sequence_number": 3,
+      "title": "Read: Model Mini Design Board",
+      "activity_type": "reading_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students read one short model mini design board and answer section-based main idea and detail questions.",
+      "student_facing": {
+        "en": {
+          "title": "Read: Model Mini Design Board",
+          "summary": "Read the model board and choose the best answer for each question.",
+          "instructions": "Read the model mini design board. Then answer the short questions about the garment, detail, fabric, and inspiration.",
+          "success_criteria": [
+            "I can read a short model design board.",
+            "I can find the answer in the text or labels.",
+            "I can prepare to build my own board."
+          ],
+          "sentence_frames": [
+            "This board shows ___.",
+            "The main detail is ___.",
+            "This design is inspired by ___."
+          ],
+          "word_bank_label": "Model board words"
+        },
+        "pt": {
+          "title": "Leitura: mini prancha de design modelo",
+          "summary": "Leia a prancha-modelo e escolha a melhor resposta para cada pergunta.",
+          "instructions": "Leia a mini prancha de design modelo. Depois responda as perguntas curtas sobre a peca, o detalhe, o tecido e a inspiracao.",
+          "success_criteria": [
+            "Eu consigo ler uma prancha de design curta modelo.",
+            "Eu consigo encontrar a resposta no texto ou nos labels.",
+            "Eu consigo me preparar para montar minha propria prancha."
+          ],
+          "sentence_frames": [
+            "This board shows ___.",
+            "The main detail is ___.",
+            "This design is inspired by ___."
+          ],
+          "word_bank_label": "Palavras da prancha-modelo"
+        }
+      },
+      "teacher_instructions": "Keep the text section-based and short. All questions must point only to shown text or visible labels.",
+      "estimated_minutes": 14,
+      "primary_interaction_type": "read_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "reading",
+        "vocabulary",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 14 model mini design board"
+      ],
+      "vocabulary_refs": [
+        "m01w14-v002",
+        "m01w14-v006",
+        "m01w14-v009",
+        "m01w14-v014",
+        "m01w14-v017"
+      ],
+      "asset_refs": [
+        "m01w14-img-001"
+      ],
+      "input": {
+        "input_type": "model_board_reading_quiz",
+        "prompt_en": "Read the model board and choose the best answer for each question.",
+        "prompt_pt": "Leia a prancha-modelo e escolha a melhor resposta para cada pergunta.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "What is the main garment on the board?",
+            "label_pt": "Qual e a principal peca de roupa na prancha?",
+            "options_en": [
+              "a soft blue dress",
+              "a black jacket",
+              "a pair of shorts"
+            ],
+            "options_pt": [
+              "um vestido azul suave",
+              "uma jaqueta preta",
+              "um short"
+            ],
+            "correct_answer": "a soft blue dress"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which words describe the sleeves?",
+            "label_pt": "Quais palavras descrevem as mangas?",
+            "options_en": [
+              "short sleeves",
+              "wide sleeves",
+              "no sleeves"
+            ],
+            "options_pt": [
+              "mangas curtas",
+              "mangas largas",
+              "sem mangas"
+            ],
+            "correct_answer": "short sleeves"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Where is the embroidery?",
+            "label_pt": "Onde esta o bordado?",
+            "options_en": [
+              "near the neckline",
+              "near the hem",
+              "inside the pocket"
+            ],
+            "options_pt": [
+              "perto do decote",
+              "perto da barra",
+              "dentro do bolso"
+            ],
+            "correct_answer": "near the neckline"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What fabric idea does the board use?",
+            "label_pt": "Que ideia de tecido a prancha usa?",
+            "options_en": [
+              "lightweight, flowy fabric",
+              "heavy wool fabric",
+              "thick leather fabric"
+            ],
+            "options_pt": [
+              "tecido leve e fluido",
+              "tecido de la pesado",
+              "tecido grosso de couro"
+            ],
+            "correct_answer": "lightweight, flowy fabric"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What inspires the design?",
+            "label_pt": "O que inspira o design?",
+            "options_en": [
+              "the ocean",
+              "the city",
+              "the classroom"
+            ],
+            "options_pt": [
+              "o oceano",
+              "a cidade",
+              "a sala de aula"
+            ],
+            "correct_answer": "the ocean"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Why did the student choose blue and white?",
+            "label_pt": "Por que o aluno escolheu azul e branco?",
+            "options_en": [
+              "because they create a calm mood",
+              "because they hide the zipper",
+              "because they cost less"
+            ],
+            "options_pt": [
+              "porque criam um clima calmo",
+              "porque escondem o ziper",
+              "porque custam menos"
+            ],
+            "correct_answer": "because they create a calm mood"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Read the board sections",
+          "student_action_en": "Read the title, labels, and short text sections.",
+          "student_action_pt": "Leia o titulo, os labels e as secoes curtas de texto.",
+          "teacher_action": "Encourage students to use both labels and short paragraphs.",
+          "estimated_minutes": 5,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Answer the reading questions",
+          "student_action_en": "Choose the best answer for each reading question.",
+          "student_action_pt": "Escolha a melhor resposta para cada pergunta de leitura.",
+          "teacher_action": "Keep all answer evidence on the board itself.",
+          "estimated_minutes": 9,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "reading_selections",
+        "description_en": "Six app-checked reading answers based only on the model mini design board text and labels.",
+        "description_pt": "Seis respostas de leitura verificadas pelo app com base apenas no texto e nos labels da mini prancha de design modelo.",
+        "length_or_format": "6 single-choice answers"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student answers all six reading questions.",
+          "The student finds answers in the shown text or labels.",
+          "The student understands the main garment, detail, fabric, and inspiration information."
+        ],
+        "completion_criteria_pt": [
+          "O aluno responde as seis perguntas de leitura.",
+          "O aluno encontra as respostas no texto ou nos labels mostrados.",
+          "O aluno entende as informacoes principais de peca, detalhe, tecido e inspiracao."
+        ],
+        "checklist_en": [
+          "I read the model board before answering.",
+          "I used the labels and short texts.",
+          "I answered all six questions."
+        ],
+        "checklist_pt": [
+          "Eu li a prancha-modelo antes de responder.",
+          "Eu usei os labels e os textos curtos.",
+          "Eu respondi as seis perguntas."
+        ],
+        "rubric": [],
+        "model_response_en": "a soft blue dress; short sleeves; near the neckline; lightweight, flowy fabric; the ocean; because they create a calm mood",
+        "model_response_pt": "a soft blue dress; short sleeves; near the neckline; lightweight, flowy fabric; the ocean; because they create a calm mood",
+        "common_errors": [
+          "Choosing an option that is not shown on the board.",
+          "Confusing the fabric idea with the inspiration idea."
+        ],
+        "feedback_prompts_en": [
+          "Look again at the labels or short text. Which answer is really shown?"
+        ],
+        "feedback_prompts_pt": [
+          "Observe novamente os labels ou o texto curto. Qual resposta realmente aparece?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students underline the answer clue in the text before choosing."
+        ],
+        "challenge": [
+          "Ask stronger learners to say one extra sentence about the overall look."
+        ]
+      },
+      "extension_options": [
+        "Say one more sentence about the board after the reading task."
+      ],
+      "notes_for_app_design": "Render the model board with short readable text and six single-choice questions. Keep all answer evidence on the shown board. Do not require open written reading responses."
+    },
+    {
+      "activity_id": "m01w14-a04",
+      "week_id": "m01w14",
+      "sequence_number": 4,
+      "title": "Listen: Mini Board Presentation",
+      "activity_type": "listening_comprehension",
+      "activity_type_custom": "",
+      "summary": "Students listen to one short model mini-board presentation aligned exactly to the model board and answer title, detail, fabric, inspiration, and sequence questions.",
+      "student_facing": {
+        "en": {
+          "title": "Listen: Mini Board Presentation",
+          "summary": "Listen to the short presentation and choose the best answer.",
+          "instructions": "Look at the model board, listen to the short presentation, and choose the best answer for each question.",
+          "success_criteria": [
+            "I can understand the main information in the short presentation.",
+            "I can connect the audio to the model board.",
+            "I can prepare for my own final presentation."
+          ],
+          "sentence_frames": [
+            "The title is ___.",
+            "The main detail is ___.",
+            "This design is inspired by ___."
+          ],
+          "word_bank_label": "Listening clues"
+        },
+        "pt": {
+          "title": "Escuta: apresentacao da mini prancha",
+          "summary": "Escute a apresentacao curta e escolha a melhor resposta.",
+          "instructions": "Observe a prancha-modelo, escute a apresentacao curta e escolha a melhor resposta para cada pergunta.",
+          "success_criteria": [
+            "Eu consigo entender as informacoes principais da apresentacao curta.",
+            "Eu consigo ligar o audio a prancha-modelo.",
+            "Eu consigo me preparar para minha propria apresentacao final."
+          ],
+          "sentence_frames": [
+            "The title is ___.",
+            "The main detail is ___.",
+            "This design is inspired by ___."
+          ],
+          "word_bank_label": "Pistas de escuta"
+        }
+      },
+      "teacher_instructions": "Keep the listening script, model board, questions, options, and correct answers aligned exactly. Reveal the script only after the first attempt in a future app flow.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "listen_and_choose",
+      "primary_interaction_type_custom": "",
+      "submission_type": "selection",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "listening",
+        "vocabulary",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 14 model mini design board",
+        "Week 14 listening clip"
+      ],
+      "vocabulary_refs": [
+        "m01w14-v001",
+        "m01w14-v006",
+        "m01w14-v009",
+        "m01w14-v014",
+        "m01w14-v017",
+        "m01w14-v018"
+      ],
+      "asset_refs": [
+        "m01w14-img-001",
+        "m01w14-aud-001"
+      ],
+      "input": {
+        "input_type": "listening_quiz_with_board",
+        "prompt_en": "Listen to the model presentation and choose the best answer for each question.",
+        "prompt_pt": "Escute a apresentacao-modelo e escolha a melhor resposta para cada pergunta.",
+        "items": [
+          {
+            "response_type": "single_choice",
+            "label_en": "What is the title of the board?",
+            "label_pt": "Qual e o titulo da prancha?",
+            "options_en": [
+              "Soft Ocean Dress",
+              "Urban Denim Jacket",
+              "Bright City Top"
+            ],
+            "options_pt": [
+              "Soft Ocean Dress",
+              "Urban Denim Jacket",
+              "Bright City Top"
+            ],
+            "correct_answer": "Soft Ocean Dress"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What is the main detail?",
+            "label_pt": "Qual e o detalhe principal?",
+            "options_en": [
+              "floral embroidery near the neckline",
+              "a zipper near the pocket",
+              "a belt at the waist"
+            ],
+            "options_pt": [
+              "bordado floral perto do decote",
+              "um ziper perto do bolso",
+              "um cinto na cintura"
+            ],
+            "correct_answer": "floral embroidery near the neckline"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What fabric does the speaker imagine?",
+            "label_pt": "Que tecido o falante imagina?",
+            "options_en": [
+              "a lightweight, flowy fabric",
+              "a heavy wool fabric",
+              "a stiff leather fabric"
+            ],
+            "options_pt": [
+              "um tecido leve e fluido",
+              "um tecido pesado de la",
+              "um tecido rigido de couro"
+            ],
+            "correct_answer": "a lightweight, flowy fabric"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "What inspires the design?",
+            "label_pt": "O que inspira o design?",
+            "options_en": [
+              "the ocean",
+              "the city",
+              "the classroom"
+            ],
+            "options_pt": [
+              "o oceano",
+              "a cidade",
+              "a sala de aula"
+            ],
+            "correct_answer": "the ocean"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Why does the speaker choose blue and white?",
+            "label_pt": "Por que o falante escolhe azul e branco?",
+            "options_en": [
+              "because they create a calm mood",
+              "because they hide the embroidery",
+              "because they make the fabric heavier"
+            ],
+            "options_pt": [
+              "porque criam um clima calmo",
+              "porque escondem o bordado",
+              "porque deixam o tecido mais pesado"
+            ],
+            "correct_answer": "because they create a calm mood"
+          },
+          {
+            "response_type": "single_choice",
+            "label_en": "Which section comes after the fabric line in the presentation?",
+            "label_pt": "Qual secao vem depois da linha sobre o tecido na apresentacao?",
+            "options_en": [
+              "the main detail",
+              "the title",
+              "the final score"
+            ],
+            "options_pt": [
+              "o detalhe principal",
+              "o titulo",
+              "a nota final"
+            ],
+            "correct_answer": "the main detail"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Look at the model board",
+          "student_action_en": "Look at the board before you listen.",
+          "student_action_pt": "Observe a prancha antes de escutar.",
+          "teacher_action": "Remind students that the board and the audio match exactly.",
+          "estimated_minutes": 2,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Listen and choose",
+          "student_action_en": "Listen to the short presentation and choose the best answer for each question.",
+          "student_action_pt": "Escute a apresentacao curta e escolha a melhor resposta para cada pergunta.",
+          "teacher_action": "Allow replay support and keep the task tightly aligned to the script.",
+          "estimated_minutes": 10,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "listening_selections",
+        "description_en": "Six app-checked listening answers aligned exactly to the model mini-board presentation.",
+        "description_pt": "Seis respostas de escuta verificadas pelo app alinhadas exatamente a apresentacao modelo da mini prancha.",
+        "length_or_format": "6 single-choice answers"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student answers all six listening questions.",
+          "The student uses information that appears in the script and model board exactly.",
+          "The student identifies the title, main detail, fabric, inspiration, reason, and sequence point."
+        ],
+        "completion_criteria_pt": [
+          "O aluno responde as seis perguntas de escuta.",
+          "O aluno usa informacoes que aparecem exatamente no script e na prancha-modelo.",
+          "O aluno identifica o titulo, o detalhe principal, o tecido, a inspiracao, o motivo e um ponto de sequencia."
+        ],
+        "checklist_en": [
+          "I looked at the model board.",
+          "I listened carefully to the short presentation.",
+          "I answered all six questions."
+        ],
+        "checklist_pt": [
+          "Eu observei a prancha-modelo.",
+          "Eu escutei com atencao a apresentacao curta.",
+          "Eu respondi as seis perguntas."
+        ],
+        "rubric": [],
+        "model_response_en": "Soft Ocean Dress; floral embroidery near the neckline; a lightweight, flowy fabric; the ocean; because they create a calm mood; the main detail",
+        "model_response_pt": "Soft Ocean Dress; floral embroidery near the neckline; a lightweight, flowy fabric; the ocean; because they create a calm mood; the main detail",
+        "common_errors": [
+          "Choosing an answer that appears in another week but not in this script.",
+          "Confusing the inspiration reason with the fabric line."
+        ],
+        "feedback_prompts_en": [
+          "Listen again. Which exact words does the speaker use?"
+        ],
+        "feedback_prompts_pt": [
+          "Escute novamente. Quais palavras exatas o falante usa?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Allow students to point to the matching section on the model board while listening."
+        ],
+        "challenge": [
+          "Ask stronger learners to repeat one short sentence from the presentation after the quiz."
+        ]
+      },
+      "extension_options": [
+        "Practice saying the title and one detail line after listening."
+      ],
+      "notes_for_app_design": "Render the same model board used in Activities 1 and 3 plus one audio player and six single-choice questions. Keep the full script only in audio_prompts.json, reveal it only after the first attempt in future app flows, and maintain exact alignment across script, options, correct answers, and model response."
+    },
+    {
+      "activity_id": "m01w14-a05",
+      "week_id": "m01w14",
+      "sequence_number": 5,
+      "title": "Board Builder: Choose Labels for Your Design",
+      "activity_type": "visual_analysis",
+      "activity_type_custom": "",
+      "summary": "Students use the Week 14 gallery as visual support, keep the fixed sample panel image B, and complete eight app-checked label matches for the sample mini design board.",
+      "student_facing": {
+        "en": {
+          "title": "Board Builder: Choose Labels for Your Design",
+          "summary": "Use image B and match the best labels.",
+          "instructions": "Look at image A to image D for reference. Then build the sample board for image B and match eight labels to the correct board slots.",
+          "success_criteria": [
+            "I can stay with the fixed sample image B.",
+            "I can match eight labels with visible clues.",
+            "I can keep the saved image key image B for later tasks."
+          ],
+          "sentence_frames": [
+            "This sample board uses image B.",
+            "The figure is wearing ___.",
+            "The main detail is ___."
+          ],
+          "word_bank_label": "Board labels"
+        },
+        "pt": {
+          "title": "Construtor da prancha: escolha labels para seu design",
+          "summary": "Use image B e relacione os melhores labels.",
+          "instructions": "Observe image A a image D como referencia. Depois monte a prancha-modelo de image B e relacione oito labels aos slots corretos.",
+          "success_criteria": [
+            "Eu consigo manter a imagem-modelo fixa image B.",
+            "Eu consigo relacionar oito labels usando pistas visiveis.",
+            "Eu consigo manter a chave de imagem salva image B para as tarefas seguintes."
+          ],
+          "sentence_frames": [
+            "This sample board uses image B.",
+            "The figure is wearing ___.",
+            "The main detail is ___."
+          ],
+          "word_bank_label": "Labels da prancha"
+        }
+      },
+      "teacher_instructions": "Preserve the literal image A to image D keys in English and Portuguese support, but keep image B as the only active sample panel in this activity. Matching remains the primary saved and scored output.",
+      "estimated_minutes": 16,
+      "primary_interaction_type": "image_match",
+      "primary_interaction_type_custom": "",
+      "submission_type": "matching",
+      "checked_by": "app",
+      "teacher_review_required": false,
+      "revision_supported": false,
+      "skill_focus": [
+        "visual_literacy",
+        "vocabulary",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 14 reusable image A to image D gallery"
+      ],
+      "vocabulary_refs": [
+        "m01w14-v002",
+        "m01w14-v005",
+        "m01w14-v006",
+        "m01w14-v009",
+        "m01w14-v010",
+        "m01w14-v013",
+        "m01w14-v017",
+        "m01w14-v019"
+      ],
+      "asset_refs": [
+        "m01w14-img-003"
+      ],
+      "input": {
+        "input_type": "fixed_gallery_panel_label_matching",
+        "prompt_en": "Use the fixed sample panel image B and match eight labels to the correct board slots.",
+        "prompt_pt": "Use o painel-modelo fixo image B e relacione oito labels aos slots corretos da prancha.",
+        "items": [
+          {
+            "response_type": "context_display",
+            "label_en": "Fixed sample image key",
+            "label_pt": "Chave fixa da imagem-modelo",
+            "asset_id": "m01w14-img-003",
+            "prompt_en": "Show the four-panel gallery as reference, but highlight image B as the fixed sample panel for this matching task. Save image B as read-only inherited context for Activities 6, 8, and 9.",
+            "prompt_pt": "Mostre a galeria com quatro paineis como referencia, mas destaque image B como o painel-modelo fixo desta tarefa de correspondencia. Salve image B como contexto herdado somente para leitura para as Atividades 6, 8 e 9."
+          },
+          {
+            "response_type": "image_match",
+            "label_en": "Match the labels for image B.",
+            "label_pt": "Relacione os labels para image B.",
+            "asset_id": "m01w14-img-003",
+            "match_terms_en": [
+              "denim jacket",
+              "white top",
+              "black pants",
+              "zipper",
+              "patch pockets",
+              "structured fabric",
+              "neutral palette",
+              "city inspiration"
+            ],
+            "match_terms_pt": [
+              "jaqueta jeans",
+              "top branco",
+              "calca preta",
+              "ziper",
+              "bolsos chapados",
+              "tecido estruturado",
+              "paleta neutra",
+              "inspiracao urbana"
+            ],
+            "matches": [
+              {
+                "term_en": "denim jacket",
+                "term_pt": "jaqueta jeans",
+                "target_key": "garment",
+                "target_label_en": "garment",
+                "target_label_pt": "peca"
+              },
+              {
+                "term_en": "white top",
+                "term_pt": "top branco",
+                "target_key": "look item 2",
+                "target_label_en": "second garment piece",
+                "target_label_pt": "segunda peca"
+              },
+              {
+                "term_en": "black pants",
+                "term_pt": "calca preta",
+                "target_key": "look item 3",
+                "target_label_en": "third garment piece",
+                "target_label_pt": "terceira peca"
+              },
+              {
+                "term_en": "zipper",
+                "term_pt": "ziper",
+                "target_key": "detail 1",
+                "target_label_en": "detail",
+                "target_label_pt": "detalhe"
+              },
+              {
+                "term_en": "patch pockets",
+                "term_pt": "bolsos chapados",
+                "target_key": "detail 2",
+                "target_label_en": "detail",
+                "target_label_pt": "detalhe"
+              },
+              {
+                "term_en": "structured fabric",
+                "term_pt": "tecido estruturado",
+                "target_key": "fabric",
+                "target_label_en": "fabric",
+                "target_label_pt": "tecido"
+              },
+              {
+                "term_en": "neutral palette",
+                "term_pt": "paleta neutra",
+                "target_key": "palette",
+                "target_label_en": "palette",
+                "target_label_pt": "paleta"
+              },
+              {
+                "term_en": "city inspiration",
+                "term_pt": "inspiracao urbana",
+                "target_key": "inspiration",
+                "target_label_en": "inspiration",
+                "target_label_pt": "inspiracao"
+              }
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the fixed sample panel",
+          "student_action_en": "Look at image A to image D for reference and focus on image B as the fixed sample panel.",
+          "student_action_pt": "Observe image A a image D como referencia e concentre-se em image B como painel-modelo fixo.",
+          "teacher_action": "Keep image B as the only active panel and remind students that the other gallery images are reference only.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Match the eight labels",
+          "student_action_en": "Match the labels to the correct board slots for image B.",
+          "student_action_pt": "Relacione os labels aos slots corretos da prancha para image B.",
+          "teacher_action": "Keep matching as the main saved output and remind students to use visible clues.",
+          "estimated_minutes": 12,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "fixed_image_key_plus_matching_set",
+        "description_en": "The fixed saved image key image B plus eight saved label matches for the sample gallery panel.",
+        "description_pt": "A chave de imagem fixa salva image B mais oito correspondencias de labels salvas para o painel-modelo da galeria.",
+        "length_or_format": "fixed image key image B plus 8 matches"
+      },
+      "assessment": {
+        "mode": "model_response",
+        "completion_criteria_en": [
+          "The student keeps the fixed gallery image key image B.",
+          "The student completes all eight label matches.",
+          "The student uses the same saved image key image B for later tasks."
+        ],
+        "completion_criteria_pt": [
+          "O aluno mantem a chave fixa de imagem da galeria image B.",
+          "O aluno completa as oito correspondencias de labels.",
+          "O aluno usa a mesma chave de imagem salva image B nas tarefas seguintes."
+        ],
+        "checklist_en": [
+          "I stayed with the fixed image key image B.",
+          "I matched all eight labels.",
+          "I used visible clues from image B."
+        ],
+        "checklist_pt": [
+          "Eu mantive a chave fixa image B.",
+          "Eu relacionei os oito labels.",
+          "Eu usei pistas visiveis de image B."
+        ],
+        "rubric": [],
+        "model_response_en": "Saved path: image B; denim jacket-garment; white top-look item 2; black pants-look item 3; zipper-detail 1; patch pockets-detail 2; structured fabric-fabric; neutral palette-palette; city inspiration-inspiration",
+        "model_response_pt": "Salvamento: image B; denim jacket-garment; white top-look item 2; black pants-look item 3; zipper-detail 1; patch pockets-detail 2; structured fabric-fabric; neutral palette-palette; city inspiration-inspiration",
+        "common_errors": [
+          "Looking at image A, image C, or image D and then matching labels that do not belong to image B.",
+          "Mixing labels from two different gallery panels."
+        ],
+        "feedback_prompts_en": [
+          "Stay with image B. Which label really matches the visible sample panel?"
+        ],
+        "feedback_prompts_pt": [
+          "Mantenha image B. Qual label realmente combina com o painel-modelo visivel?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students say image B aloud before they start matching."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain one of the label choices in a short sentence."
+        ]
+      },
+      "extension_options": [
+        "Use two of your matched labels in one spoken sentence after the activity."
+      ],
+      "notes_for_app_design": "Render the reusable gallery labeled image A to image D as read-only reference, but activate only image B for this task. Save the fixed image key image B automatically as inherited context, then save the eight explicit label matches for image B as the primary checked output. Preserve the literal image keys in student-facing English and Portuguese support, and do not present a fake free-choice path unless every panel has its own full answer inventory."
+    },
+    {
+      "activity_id": "m01w14-a06",
+      "week_id": "m01w14",
+      "sequence_number": 6,
+      "title": "Build the Text Sections",
+      "activity_type": "writing_short_response",
+      "activity_type_custom": "",
+      "summary": "Students use the fixed saved image key and inherited labels from Activity 5 to complete one title plus five required short lines and one optional challenge line in separate fields.",
+      "student_facing": {
+        "en": {
+          "title": "Build the Text Sections",
+          "summary": "Complete the short board lines for the saved sample design.",
+          "instructions": "Use the fixed saved image key image B and your saved labels from Activity 5. Write one title and five short required lines in separate fields. Then add the optional challenge line if you are ready.",
+          "success_criteria": [
+            "I can complete the title and five required lines.",
+            "I can use the fixed image key image B and the saved labels as support.",
+            "I can keep the board text short and clear."
+          ],
+          "sentence_frames": [
+            "Title: ___",
+            "This board shows ___.",
+            "The figure is wearing ___.",
+            "I imagine this garment in ___.",
+            "This design is inspired by ___ because ___.",
+            "The overall look is ___.",
+            "Optional: The main detail is ___ because ___."
+          ],
+          "word_bank_label": "Board writing support"
+        },
+        "pt": {
+          "title": "Construa as secoes de texto",
+          "summary": "Complete as linhas curtas da prancha para o design-modelo salvo.",
+          "instructions": "Use a chave de imagem fixa salva image B e seus labels salvos da Atividade 5. Escreva um titulo e cinco linhas curtas obrigatorias em campos separados. Depois acrescente a linha opcional de desafio se voce estiver pronto.",
+          "success_criteria": [
+            "Eu consigo completar o titulo e as cinco linhas obrigatorias.",
+            "Eu consigo usar a chave fixa image B e os labels salvos como apoio.",
+            "Eu consigo manter o texto da prancha curto e claro."
+          ],
+          "sentence_frames": [
+            "Title: ___",
+            "This board shows ___.",
+            "The figure is wearing ___.",
+            "I imagine this garment in ___.",
+            "This design is inspired by ___ because ___.",
+            "The overall look is ___.",
+            "Optional: The main detail is ___ because ___."
+          ],
+          "word_bank_label": "Apoio para escrita da prancha"
+        }
+      },
+      "teacher_instructions": "This is a self-checked draft only. Keep the fixed saved image key image B and the eight saved labels visible as read-only support. The six required saved fields are the title plus the five required sentence lines.",
+      "estimated_minutes": 22,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "student",
+      "teacher_review_required": false,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "grammar",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Week 14 reusable gallery",
+        "Student's saved image key and labels from Activity 5"
+      ],
+      "vocabulary_refs": [
+        "m01w14-v001",
+        "m01w14-v002",
+        "m01w14-v009",
+        "m01w14-v010",
+        "m01w14-v013",
+        "m01w14-v017",
+        "m01w14-v018",
+        "m01w14-v019",
+        "m01w14-v020"
+      ],
+      "asset_refs": [
+        "m01w14-img-003"
+      ],
+      "input": {
+        "input_type": "structured_board_draft",
+        "prompt_en": "Review the fixed image key and saved labels from Activity 5. Complete the title and the five required board lines. Add the optional challenge line only if you are ready.",
+        "prompt_pt": "Revise a chave fixa da imagem e os labels salvos da Atividade 5. Complete o titulo e as cinco linhas obrigatorias da prancha. Acrescente a linha opcional de desafio apenas se voce estiver pronto.",
+        "items": [
+          {
+            "response_type": "context_display",
+            "label_en": "Saved image key from Activity 5",
+            "label_pt": "Chave de imagem salva da Atividade 5",
+            "asset_id": "m01w14-img-003",
+            "prompt_en": "Show the fixed saved image key image B and the matching gallery panel as read-only context.",
+            "prompt_pt": "Mostre a chave fixa de imagem salva image B e o painel correspondente da galeria como contexto somente para leitura."
+          },
+          {
+            "response_type": "context_display",
+            "label_en": "Saved labels from Activity 5",
+            "label_pt": "Labels salvos da Atividade 5",
+            "prompt_en": "Show the eight saved labels from Activity 5 as read-only writing support.",
+            "prompt_pt": "Mostre os oito labels salvos da Atividade 5 como apoio de escrita somente para leitura."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Complete the six required saved fields and one optional challenge field.",
+            "label_pt": "Complete os seis campos salvos obrigatorios e um campo opcional de desafio.",
+            "fields": [
+              {
+                "field_id": "board_title",
+                "prompt_en": "Title",
+                "prompt_pt": "Titulo"
+              },
+              {
+                "field_id": "line_1_board_shows",
+                "prompt_en": "This board shows ...",
+                "prompt_pt": "This board shows ..."
+              },
+              {
+                "field_id": "line_2_figure_wearing",
+                "prompt_en": "The figure is wearing ...",
+                "prompt_pt": "The figure is wearing ..."
+              },
+              {
+                "field_id": "line_3_fabric",
+                "prompt_en": "I imagine this garment in ...",
+                "prompt_pt": "I imagine this garment in ..."
+              },
+              {
+                "field_id": "line_4_inspiration_reason",
+                "prompt_en": "This design is inspired by ... because ...",
+                "prompt_pt": "This design is inspired by ... because ..."
+              },
+              {
+                "field_id": "line_5_overall_look",
+                "prompt_en": "The overall look is ...",
+                "prompt_pt": "The overall look is ..."
+              },
+              {
+                "field_id": "optional_line_6_detail_reason",
+                "prompt_en": "Optional: The main detail is ... because ...",
+                "prompt_pt": "Opcional: The main detail is ... because ..."
+              }
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review your image and labels",
+          "student_action_en": "Look at the fixed saved image key image B and the saved labels before you write.",
+          "student_action_pt": "Observe a chave fixa de imagem salva image B e os labels salvos antes de escrever.",
+          "teacher_action": "Remind students to keep the same fixed image key and label set from Activity 5.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Complete the required lines",
+          "student_action_en": "Write the title and the five required lines in separate fields.",
+          "student_action_pt": "Escreva o titulo e as cinco linhas obrigatorias em campos separados.",
+          "teacher_action": "Keep the draft in short sentence frames, not paragraph writing.",
+          "estimated_minutes": 14,
+          "mode": "app_individual"
+        },
+        {
+          "step_number": 3,
+          "title": "Add the optional challenge line if ready",
+          "student_action_en": "Write the optional detail line only if you are ready.",
+          "student_action_pt": "Escreva a linha opcional de detalhe somente se voce estiver pronto.",
+          "teacher_action": "Do not treat the optional line as required for completion.",
+          "estimated_minutes": 4,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "structured_board_draft",
+        "description_en": "One saved draft with six required fields: one title plus five required lines, with one optional challenge line saved separately only if completed.",
+        "description_pt": "Um rascunho salvo com seis campos obrigatorios: um titulo mais cinco linhas obrigatorias, com uma linha opcional de desafio salva separadamente apenas se for completada.",
+        "length_or_format": "title plus 5 required lines plus 1 optional line"
+      },
+      "assessment": {
+        "mode": "self_check",
+        "completion_criteria_en": [
+          "The student completes the title and all five required lines.",
+          "The student keeps each line short and framed.",
+          "The student uses the fixed saved image key image B and the saved labels as support."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa o titulo e todas as cinco linhas obrigatorias.",
+          "O aluno mantem cada linha curta e estruturada.",
+          "O aluno usa a chave fixa de imagem salva image B e os labels salvos como apoio."
+        ],
+        "checklist_en": [
+          "I completed the title and five required lines.",
+          "I kept each answer short and clear.",
+          "I used the fixed saved image key image B and the saved labels."
+        ],
+        "checklist_pt": [
+          "Eu completei o titulo e as cinco linhas obrigatorias.",
+          "Eu mantive cada resposta curta e clara.",
+          "Eu usei a chave fixa image B e meus labels salvos."
+        ],
+        "rubric": [],
+        "model_response_en": "Urban Denim Jacket. This board shows an urban jacket look. The figure is wearing a denim jacket, a white top, and black pants. I imagine this garment in structured denim. This design is inspired by the city because it looks practical and modern. The overall look is strong and casual. Optional: The main detail is the zipper because it is functional.",
+        "model_response_pt": "Urban Denim Jacket. This board shows an urban jacket look. The figure is wearing a denim jacket, a white top, and black pants. I imagine this garment in structured denim. This design is inspired by the city because it looks practical and modern. The overall look is strong and casual. Optional: The main detail is the zipper because it is functional.",
+        "common_errors": [
+          "Writing a paragraph instead of separate fields.",
+          "Forgetting that the title counts as one required saved field.",
+          "Using a different image idea from the saved gallery choice."
+        ],
+        "feedback_prompts_en": [
+          "Check the missing required field before you add extra ideas.",
+          "Keep each line short and use the sentence frame."
+        ],
+        "feedback_prompts_pt": [
+          "Confira o campo obrigatorio que falta antes de acrescentar ideias extras.",
+          "Mantenha cada linha curta e use a frase-modelo."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students draft one or two key words before they complete the full sentence frame."
+        ],
+        "challenge": [
+          "Ask stronger learners to complete the optional challenge line with functional or decorative language."
+        ]
+      },
+      "extension_options": [
+        "Read two of your lines aloud before the final submission task."
+      ],
+      "notes_for_app_design": "Render the fixed saved image key image B and the eight saved labels from Activity 5 as read-only context above the writing fields. Save each required field separately, keep the title explicit as one of the six required saved fields, and carry those six draft fields forward into Activity 8. Do not use a paragraph box, do not use a word-count target, and keep checking at the self-check level only."
+    },
+    {
+      "activity_id": "m01w14-a07",
+      "week_id": "m01w14",
+      "sequence_number": 7,
+      "title": "Review and Improve: Final Board Checklist",
+      "activity_type": "assessment_task",
+      "activity_type_custom": "",
+      "summary": "Students use a final checklist, choose one revision target, and rewrite one line to improve clarity before the final submission.",
+      "student_facing": {
+        "en": {
+          "title": "Review and Improve: Final Board Checklist",
+          "summary": "Check your board and rewrite one line.",
+          "instructions": "Read the checklist, choose one revision target, and rewrite one line to make your board clearer.",
+          "success_criteria": [
+            "I can check the important parts of my board.",
+            "I can choose one clear revision target.",
+            "I can rewrite one line to improve my final version."
+          ],
+          "sentence_frames": [
+            "I will revise ___.",
+            "This line is clearer because ___."
+          ],
+          "word_bank_label": "Revision support"
+        },
+        "pt": {
+          "title": "Revise e melhore: checklist final da prancha",
+          "summary": "Confira sua prancha e reescreva uma linha.",
+          "instructions": "Leia o checklist, escolha um alvo de revisao e reescreva uma linha para deixar sua prancha mais clara.",
+          "success_criteria": [
+            "Eu consigo conferir as partes importantes da minha prancha.",
+            "Eu consigo escolher um alvo claro de revisao.",
+            "Eu consigo reescrever uma linha para melhorar minha versao final."
+          ],
+          "sentence_frames": [
+            "I will revise ___.",
+            "This line is clearer because ___."
+          ],
+          "word_bank_label": "Apoio para revisao"
+        }
+      },
+      "teacher_instructions": "Keep this step student-managed. The checklist is support, and the main saved output is one selected revision target plus one revised line.",
+      "estimated_minutes": 8,
+      "primary_interaction_type": "sentence_frame_completion",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "student",
+      "teacher_review_required": false,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "grammar",
+        "reading"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Student's saved Week 14 draft from Activity 6"
+      ],
+      "vocabulary_refs": [
+        "m01w14-v003",
+        "m01w14-v004",
+        "m01w14-v018",
+        "m01w14-v020",
+        "m01w14-v021",
+        "m01w14-v022"
+      ],
+      "asset_refs": [],
+      "input": {
+        "input_type": "checklist_plus_revision_line",
+        "prompt_en": "Use the checklist, choose one target, and rewrite one line.",
+        "prompt_pt": "Use o checklist, escolha um alvo e reescreva uma linha.",
+        "items": [
+          {
+            "response_type": "self_check",
+            "label_en": "Final board checklist",
+            "label_pt": "Checklist final da prancha",
+            "checklist_items_en": [
+              "My board has a title.",
+              "My board has labels that match my image.",
+              "I named the garment or look.",
+              "I included a fabric idea.",
+              "I included an inspiration reason with because.",
+              "I wrote a final comment."
+            ],
+            "checklist_items_pt": [
+              "Minha prancha tem um titulo.",
+              "Minha prancha tem labels que combinam com minha imagem.",
+              "Eu nomeei a peca ou o look.",
+              "Eu inclui uma ideia de tecido.",
+              "Eu inclui um motivo de inspiracao com because.",
+              "Eu escrevi um comentario final."
+            ]
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Choose one revision target and rewrite one line.",
+            "label_pt": "Escolha um alvo de revisao e reescreva uma linha.",
+            "fields": [
+              {
+                "field_id": "revision_target",
+                "prompt_en": "Choose one target: title, board shows line, figure line, fabric line, inspiration line, final comment",
+                "prompt_pt": "Escolha um alvo: titulo, linha board shows, linha figure, linha fabric, linha inspiration, comentario final"
+              },
+              {
+                "field_id": "revised_line",
+                "prompt_en": "Rewrite one clearer line",
+                "prompt_pt": "Reescreva uma linha mais clara"
+              }
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Check the board sections",
+          "student_action_en": "Read the checklist and mark what your draft already includes.",
+          "student_action_pt": "Leia o checklist e marque o que seu rascunho ja inclui.",
+          "teacher_action": "Keep the checklist student-facing and simple.",
+          "estimated_minutes": 3,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Choose one target and rewrite one line",
+          "student_action_en": "Choose one revision target and rewrite one line more clearly.",
+          "student_action_pt": "Escolha um alvo de revisao e reescreva uma linha com mais clareza.",
+          "teacher_action": "Keep the revision narrow and specific.",
+          "estimated_minutes": 5,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "selected_revision_target_plus_revised_line",
+        "description_en": "One selected revision target plus one revised saved line.",
+        "description_pt": "Um alvo de revisao selecionado mais uma linha revisada salva.",
+        "length_or_format": "1 revision target plus 1 revised line"
+      },
+      "assessment": {
+        "mode": "self_check",
+        "completion_criteria_en": [
+          "The student completes the checklist review.",
+          "The student chooses one specific revision target.",
+          "The student rewrites one line more clearly."
+        ],
+        "completion_criteria_pt": [
+          "O aluno completa a revisao com checklist.",
+          "O aluno escolhe um alvo de revisao especifico.",
+          "O aluno reescreve uma linha com mais clareza."
+        ],
+        "checklist_en": [
+          "I checked the important parts of my board.",
+          "I chose one revision target.",
+          "I rewrote one line."
+        ],
+        "checklist_pt": [
+          "Eu conferi as partes importantes da minha prancha.",
+          "Eu escolhi um alvo de revisao.",
+          "Eu reescrevi uma linha."
+        ],
+        "rubric": [],
+        "model_response_en": "inspiration line; This design is inspired by the city because it looks practical and modern.",
+        "model_response_pt": "inspiration line; This design is inspired by the city because it looks practical and modern.",
+        "common_errors": [
+          "Choosing a revision target but not rewriting the line.",
+          "Making the revision too broad instead of changing one specific line."
+        ],
+        "feedback_prompts_en": [
+          "Choose one exact line and rewrite only that line more clearly."
+        ],
+        "feedback_prompts_pt": [
+          "Escolha uma linha exata e reescreva apenas essa linha com mais clareza."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Offer two example revision targets before students choose their own."
+        ],
+        "challenge": [
+          "Ask stronger learners to explain why the new line is clearer."
+        ]
+      },
+      "extension_options": [
+        "Say your revised line aloud before the final submission."
+      ],
+      "notes_for_app_design": "Render the checklist as support only. The main saved output is the selected revision target and the rewritten line. Do not add teacher review, recording, upload, or AI feedback here."
+    },
+    {
+      "activity_id": "m01w14-a08",
+      "week_id": "m01w14",
+      "sequence_number": 8,
+      "title": "Mini Design Board Submission",
+      "activity_type": "writing_professional_text",
+      "activity_type_custom": "",
+      "summary": "Students review inherited board parts from Activities 5 to 7 and submit one final structured mini design board for teacher review using separate visible fields rather than a paragraph box.",
+      "student_facing": {
+        "en": {
+          "title": "Mini Design Board Submission",
+          "summary": "Review your board and submit the final version.",
+          "instructions": "Review the fixed saved image key image B, the saved labels from Activity 5, the draft title and five lines from Activity 6, and the revised line from Activity 7. Then submit your final mini design board with the title, labels, five required lines, and one revision comment line.",
+          "success_criteria": [
+            "I can submit one complete final board.",
+            "I can keep each part clear and organized.",
+            "I can show one small revision or improvement."
+          ],
+          "sentence_frames": [
+            "This board shows ___.",
+            "I imagine this garment in ___.",
+            "This design is inspired by ___ because ___.",
+            "The overall look is ___.",
+            "I revised ___ to make it clearer."
+          ],
+          "word_bank_label": "Final board support"
+        },
+        "pt": {
+          "title": "Envio da mini prancha de design",
+          "summary": "Revise sua prancha e envie a versao final.",
+          "instructions": "Revise a chave fixa de imagem salva image B, os labels salvos da Atividade 5, o titulo e as cinco linhas do rascunho da Atividade 6 e a linha revisada da Atividade 7. Depois envie sua mini prancha de design final com o titulo, os labels, as cinco linhas obrigatorias e uma linha de comentario de revisao.",
+          "success_criteria": [
+            "Eu consigo enviar uma prancha final completa.",
+            "Eu consigo manter cada parte clara e organizada.",
+            "Eu consigo mostrar uma pequena revisao ou melhoria."
+          ],
+          "sentence_frames": [
+            "This board shows ___.",
+            "I imagine this garment in ___.",
+            "This design is inspired by ___ because ___.",
+            "The overall look is ___.",
+            "I revised ___ to make it clearer."
+          ],
+          "word_bank_label": "Apoio para a prancha final"
+        }
+      },
+      "teacher_instructions": "This is the only meaningful teacher-reviewed writing artifact this week. Show the fixed saved image key image B, the saved label set, the Activity 6 draft fields, and the Activity 7 revised line before submission. Review each final field separately with a checklist, common errors, feedback prompts, and one return-for-revision path.",
+      "estimated_minutes": 12,
+      "primary_interaction_type": "structured_text",
+      "primary_interaction_type_custom": "",
+      "submission_type": "structured_text",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": true,
+      "skill_focus": [
+        "writing",
+        "professional_communication",
+        "grammar"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Student's saved image key and labels from Activity 5",
+        "Student's saved draft and revision from Activities 6 and 7"
+      ],
+      "vocabulary_refs": [
+        "m01w14-v001",
+        "m01w14-v002",
+        "m01w14-v004",
+        "m01w14-v009",
+        "m01w14-v010",
+        "m01w14-v013",
+        "m01w14-v017",
+        "m01w14-v018",
+        "m01w14-v020",
+        "m01w14-v022"
+      ],
+      "asset_refs": [
+        "m01w14-img-003"
+      ],
+      "input": {
+        "input_type": "final_structured_board_submission",
+        "prompt_en": "Review the inherited board parts from Activities 5 to 7 and submit the final mini design board.",
+        "prompt_pt": "Revise as partes herdadas da prancha das Atividades 5 a 7 e envie a mini prancha de design final.",
+        "items": [
+          {
+            "response_type": "context_display",
+            "label_en": "Saved image key and gallery panel",
+            "label_pt": "Chave de imagem salva e painel da galeria",
+            "asset_id": "m01w14-img-003",
+            "prompt_en": "Show the fixed saved image key image B and the matching gallery panel as read-only support.",
+            "prompt_pt": "Mostre a chave fixa de imagem salva image B e o painel correspondente da galeria como apoio somente para leitura."
+          },
+          {
+            "response_type": "context_display",
+            "label_en": "Saved labels from Activity 5",
+            "label_pt": "Labels salvos da Atividade 5",
+            "prompt_en": "Show the eight saved labels from Activity 5 as read-only context before final submission.",
+            "prompt_pt": "Mostre os oito labels salvos da Atividade 5 como contexto somente para leitura antes do envio final."
+          },
+          {
+            "response_type": "context_display",
+            "label_en": "Draft fields from Activity 6 and revised line from Activity 7",
+            "label_pt": "Campos do rascunho da Atividade 6 e linha revisada da Atividade 7",
+            "prompt_en": "Show the saved title and five draft lines from Activity 6 together with the revised line from Activity 7, so the student can review what is inherited before submitting.",
+            "prompt_pt": "Mostre o titulo salvo e as cinco linhas do rascunho da Atividade 6 junto com a linha revisada da Atividade 7, para que o aluno possa revisar o que foi herdado antes de enviar."
+          },
+          {
+            "response_type": "structured_text",
+            "label_en": "Review the preloaded board fields and submit the final version.",
+            "label_pt": "Revise os campos pre-carregados da prancha e envie a versao final.",
+            "fields": [
+              {
+                "field_id": "board_title",
+                "prompt_en": "Board title (preloaded from Activity 6; review and submit)",
+                "prompt_pt": "Titulo da prancha (pre-carregado da Atividade 6; revise e envie)"
+              },
+              {
+                "field_id": "selected_labels",
+                "prompt_en": "Labels (preloaded from Activity 5; review and submit)",
+                "prompt_pt": "Labels (pre-carregados da Atividade 5; revise e envie)"
+              },
+              {
+                "field_id": "line_1_board_shows",
+                "prompt_en": "This board shows ... (preloaded from Activity 6)",
+                "prompt_pt": "This board shows ... (pre-carregado da Atividade 6)"
+              },
+              {
+                "field_id": "line_2_figure_wearing",
+                "prompt_en": "The figure is wearing ... (preloaded from Activity 6)",
+                "prompt_pt": "The figure is wearing ... (pre-carregado da Atividade 6)"
+              },
+              {
+                "field_id": "line_3_fabric",
+                "prompt_en": "I imagine this garment in ... (preloaded from Activity 6)",
+                "prompt_pt": "I imagine this garment in ... (pre-carregado da Atividade 6)"
+              },
+              {
+                "field_id": "line_4_inspiration_reason",
+                "prompt_en": "This design is inspired by ... because ... (preloaded from Activity 6; compare with Activity 7 if this was your revised target)",
+                "prompt_pt": "This design is inspired by ... because ... (pre-carregado da Atividade 6; compare com a Atividade 7 se este foi seu alvo de revisao)"
+              },
+              {
+                "field_id": "line_5_overall_look",
+                "prompt_en": "The overall look is ... (preloaded from Activity 6)",
+                "prompt_pt": "The overall look is ... (pre-carregado da Atividade 6)"
+              },
+              {
+                "field_id": "revision_comment",
+                "prompt_en": "Revision comment: I revised ... to make it clearer. (Use the revised line from Activity 7 as support.)",
+                "prompt_pt": "Comentario de revisao: I revised ... to make it clearer. (Use a linha revisada da Atividade 7 como apoio.)"
+              }
+            ]
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the saved board parts",
+          "student_action_en": "Review the fixed image key image B, the saved labels, the Activity 6 draft fields, and the Activity 7 revised line.",
+          "student_action_pt": "Revise a chave fixa image B, os labels salvos, os campos do rascunho da Atividade 6 e a linha revisada da Atividade 7.",
+          "teacher_action": "Keep the final review structured and field-by-field.",
+          "estimated_minutes": 4,
+          "mode": "individual"
+        },
+        {
+          "step_number": 2,
+          "title": "Submit the final board",
+          "student_action_en": "Review the preloaded fields, keep the same image key and label set, and submit the final title, labels, required lines, and revision comment.",
+          "student_action_pt": "Revise os campos pre-carregados, mantenha a mesma chave de imagem e o mesmo conjunto de labels e envie o titulo final, os labels, as linhas obrigatorias e o comentario de revisao.",
+          "teacher_action": "Remind students that the final board stays short and organized.",
+          "estimated_minutes": 8,
+          "mode": "app_individual"
+        }
+      ],
+      "expected_output": {
+        "mode": "final_structured_design_board",
+        "description_en": "One final structured mini design board artifact with separate saved fields for image key, labels, description lines, and revision comment.",
+        "description_pt": "Um artefato final estruturado de mini prancha de design com campos salvos separados para chave de imagem, labels, linhas de descricao e comentario de revisao.",
+        "length_or_format": "title, labels, 5 required lines, 1 revision comment"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student submits all required final board fields.",
+          "The student keeps the board connected to one saved image key.",
+          "The student includes one revision comment showing improvement."
+        ],
+        "completion_criteria_pt": [
+          "O aluno envia todos os campos obrigatorios da prancha final.",
+          "O aluno mantem a prancha ligada a uma unica chave de imagem salva.",
+          "O aluno inclui um comentario de revisao mostrando melhoria."
+        ],
+        "checklist_en": [
+          "The student keeps one selected image key.",
+          "The student includes the title, labels, and all five required lines.",
+          "The student uses simple understandable English.",
+          "The student includes one revision comment.",
+          "The student keeps the final board short and organized."
+        ],
+        "checklist_pt": [
+          "O aluno mantem uma chave de imagem selecionada.",
+          "O aluno inclui o titulo, os labels e todas as cinco linhas obrigatorias.",
+          "O aluno usa ingles simples e compreensivel.",
+          "O aluno inclui um comentario de revisao.",
+          "O aluno mantem a prancha final curta e organizada."
+        ],
+        "rubric": [
+          {
+            "criterion": "Completeness",
+            "excellent_en": "All required board fields are complete and accurate.",
+            "excellent_pt": "Todos os campos obrigatorios da prancha estao completos e corretos.",
+            "satisfactory_en": "Most required board fields are complete with only small gaps.",
+            "satisfactory_pt": "A maioria dos campos obrigatorios da prancha esta completa com apenas pequenas lacunas.",
+            "needs_work_en": "Important board fields are missing or unclear.",
+            "needs_work_pt": "Campos importantes da prancha estao faltando ou nao estao claros."
+          },
+          {
+            "criterion": "Clarity",
+            "excellent_en": "The English is clear, organized, and easy to follow.",
+            "excellent_pt": "O ingles esta claro, organizado e facil de acompanhar.",
+            "satisfactory_en": "The English is mostly clear with some small language problems.",
+            "satisfactory_pt": "O ingles esta em sua maior parte claro, com alguns pequenos problemas de linguagem.",
+            "needs_work_en": "The English is hard to follow or not well organized.",
+            "needs_work_pt": "O ingles esta dificil de acompanhar ou nao esta bem organizado."
+          },
+          {
+            "criterion": "Design explanation",
+            "excellent_en": "The board explains garment, fabric, inspiration, and overall look clearly.",
+            "excellent_pt": "A prancha explica claramente a peca, o tecido, a inspiracao e o visual geral.",
+            "satisfactory_en": "The board explains some key design ideas clearly.",
+            "satisfactory_pt": "A prancha explica com clareza algumas ideias principais de design.",
+            "needs_work_en": "The board needs clearer explanation of the design choices.",
+            "needs_work_pt": "A prancha precisa de uma explicacao mais clara das escolhas de design."
+          }
+        ],
+        "model_response_en": "Urban Denim Jacket; denim jacket, white top, black pants, zipper, patch pockets, structured fabric, neutral palette, city inspiration; This board shows an urban jacket look.; The figure is wearing a denim jacket, a white top, and black pants.; I imagine this garment in structured denim.; This design is inspired by the city because it looks practical and modern.; The overall look is strong and casual.; I revised my inspiration line to make it clearer.",
+        "model_response_pt": "Urban Denim Jacket; denim jacket, white top, black pants, zipper, patch pockets, structured fabric, neutral palette, city inspiration; This board shows an urban jacket look.; The figure is wearing a denim jacket, a white top, and black pants.; I imagine this garment in structured denim.; This design is inspired by the city because it looks practical and modern.; The overall look is strong and casual.; I revised my inspiration line to make it clearer.",
+        "common_errors": [
+          "Leaving out one required line in the final submission.",
+          "Changing the image idea or labels from the saved gallery choice.",
+          "Writing one long paragraph instead of separate structured fields."
+        ],
+        "feedback_prompts_en": [
+          "Please complete the missing required field.",
+          "Please keep the final board connected to your saved image and labels.",
+          "Please make one line clearer with simpler English."
+        ],
+        "feedback_prompts_pt": [
+          "Por favor, complete o campo obrigatorio que falta.",
+          "Por favor, mantenha a prancha final ligada a sua imagem e a seus labels salvos.",
+          "Por favor, deixe uma linha mais clara com ingles mais simples."
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students reuse one line from the draft without rewriting it if it is already clear."
+        ],
+        "challenge": [
+          "Ask stronger learners to make the revision comment more specific."
+        ]
+      },
+      "extension_options": [
+        "Use the final board as the speaking support card in the teacher session."
+      ],
+      "notes_for_app_design": "Render the fixed saved image key image B, the matching gallery panel, the eight saved labels from Activity 5, the six draft fields from Activity 6, and the revised line from Activity 7 before the final editable submission fields. Preload the inherited title and five required lines into separate fields, keep the label set visible field-by-field, and keep the revision comment separate from the five required lines. Teacher review should show the image key, the gallery image, each saved field separately, a concrete checklist, common errors, feedback prompts, and a return-for-revision path. Do not use a paragraph box or word-count target."
+    },
+    {
+      "activity_id": "m01w14-a09",
+      "week_id": "m01w14",
+      "sequence_number": 9,
+      "title": "Teacher Session: Final Mini Presentation",
+      "activity_type": "guided_speaking",
+      "activity_type_custom": "",
+      "summary": "Students use the submitted mini design board and speaking frames to give one short teacher-observed final presentation with no recording.",
+      "student_facing": {
+        "en": {
+          "title": "Teacher Session: Final Mini Presentation",
+          "summary": "Use your final board and give a short presentation.",
+          "instructions": "Look at your submitted mini design board. Use the speaking frames and give a short presentation to the teacher.",
+          "success_criteria": [
+            "I can present my final board in 5 to 6 short lines.",
+            "I can use my submitted board as support.",
+            "I can finish the module with a clear short presentation."
+          ],
+          "sentence_frames": [
+            "This is my mini design board.",
+            "The title is ___.",
+            "This board shows ___.",
+            "The figure is wearing ___.",
+            "This design is inspired by ___.",
+            "The overall look is ___."
+          ],
+          "word_bank_label": "Speaking frames"
+        },
+        "pt": {
+          "title": "Sessao com o professor: apresentacao final curta",
+          "summary": "Use sua prancha final e faca uma apresentacao curta.",
+          "instructions": "Observe sua mini prancha de design enviada. Use as frases-modelo e faca uma apresentacao curta para o professor.",
+          "success_criteria": [
+            "Eu consigo apresentar minha prancha final em 5 a 6 linhas curtas.",
+            "Eu consigo usar minha prancha enviada como apoio.",
+            "Eu consigo terminar o modulo com uma apresentacao curta e clara."
+          ],
+          "sentence_frames": [
+            "This is my mini design board.",
+            "The title is ___.",
+            "This board shows ___.",
+            "The figure is wearing ___.",
+            "This design is inspired by ___.",
+            "The overall look is ___."
+          ],
+          "word_bank_label": "Frases-modelo para fala"
+        }
+      },
+      "teacher_instructions": "Use the submitted board from Activity 8 as read-only speaking support. Observe completion, clarity, vocabulary range, and pronunciation. Do not record or upload audio.",
+      "estimated_minutes": 40,
+      "primary_interaction_type": "teacher_observed_speaking",
+      "primary_interaction_type_custom": "",
+      "submission_type": "teacher_observed_speaking",
+      "checked_by": "teacher",
+      "teacher_review_required": true,
+      "revision_supported": false,
+      "skill_focus": [
+        "speaking",
+        "pronunciation",
+        "professional_communication"
+      ],
+      "skill_focus_custom": "",
+      "cefr_access_level": "A2",
+      "cefr_target_level": "A2",
+      "cefr_level": "A2",
+      "materials": [
+        "Student's final Week 14 mini design board",
+        "Week 14 speaking frames"
+      ],
+      "vocabulary_refs": [
+        "m01w14-v001",
+        "m01w14-v004",
+        "m01w14-v006",
+        "m01w14-v009",
+        "m01w14-v010",
+        "m01w14-v014",
+        "m01w14-v017",
+        "m01w14-v019",
+        "m01w14-v020"
+      ],
+      "asset_refs": [
+        "m01w14-img-003"
+      ],
+      "input": {
+        "input_type": "teacher_supported_final_speaking",
+        "prompt_en": "Use your submitted board and give a short final mini presentation.",
+        "prompt_pt": "Use sua prancha enviada e faca uma apresentacao final curta.",
+        "items": [
+          {
+            "response_type": "context_display",
+            "label_en": "Submitted board from Activity 8",
+            "label_pt": "Prancha enviada da Atividade 8",
+            "asset_id": "m01w14-img-003",
+            "prompt_en": "Show the submitted board with the saved image key, labels, and text fields as read-only speaking support.",
+            "prompt_pt": "Mostre a prancha enviada com a chave de imagem salva, os labels e os campos de texto como apoio de fala somente para leitura."
+          }
+        ]
+      },
+      "steps": [
+        {
+          "step_number": 1,
+          "title": "Review the board and frames",
+          "student_action_en": "Look at your final board and read the speaking frames.",
+          "student_action_pt": "Observe sua prancha final e leia as frases-modelo.",
+          "teacher_action": "Give quick pronunciation support before presentations begin.",
+          "estimated_minutes": 10,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 2,
+          "title": "Give the mini presentation",
+          "student_action_en": "Present your board in 5 to 6 short lines.",
+          "student_action_pt": "Apresente sua prancha em 5 a 6 linhas curtas.",
+          "teacher_action": "Prompt students with the frames when needed and keep the task brief.",
+          "estimated_minutes": 24,
+          "mode": "teacher_led"
+        },
+        {
+          "step_number": 3,
+          "title": "Close the module",
+          "student_action_en": "Listen to one final teacher comment and finish the module presentation task.",
+          "student_action_pt": "Escute um comentario final do professor e conclua a tarefa de apresentacao do modulo.",
+          "teacher_action": "Record completion and brief notes only.",
+          "estimated_minutes": 6,
+          "mode": "teacher_led"
+        }
+      ],
+      "expected_output": {
+        "mode": "teacher_observed_final_board_presentation",
+        "description_en": "One teacher-observed spoken mini design board presentation with completion notes only and no recording.",
+        "description_pt": "Uma apresentacao oral da mini prancha de design observada pelo professor, apenas com notas de conclusao e sem gravacao.",
+        "length_or_format": "5 to 6 short spoken lines"
+      },
+      "assessment": {
+        "mode": "teacher_review",
+        "completion_criteria_en": [
+          "The student uses the submitted board as support.",
+          "The student presents in 5 to 6 short lines.",
+          "The student completes the speaking task with teacher support only and no recording."
+        ],
+        "completion_criteria_pt": [
+          "O aluno usa a prancha enviada como apoio.",
+          "O aluno apresenta em 5 a 6 linhas curtas.",
+          "O aluno completa a tarefa oral apenas com apoio do professor e sem gravacao."
+        ],
+        "checklist_en": [
+          "The student names the board title or main idea.",
+          "The student describes the garment or look.",
+          "The student mentions inspiration or reason language.",
+          "The student uses design vocabulary clearly.",
+          "The student completes the short presentation."
+        ],
+        "checklist_pt": [
+          "O aluno nomeia o titulo da prancha ou a ideia principal.",
+          "O aluno descreve a peca ou o look.",
+          "O aluno menciona inspiracao ou linguagem de motivo.",
+          "O aluno usa vocabulario de design com clareza.",
+          "O aluno conclui a apresentacao curta."
+        ],
+        "rubric": [],
+        "model_response_en": "This is my mini design board. The title is Urban Denim Jacket. This board shows an urban jacket look. The figure is wearing a denim jacket, a white top, and black pants. This design is inspired by the city because it looks practical and modern. The overall look is strong and casual.",
+        "model_response_pt": "This is my mini design board. The title is Urban Denim Jacket. This board shows an urban jacket look. The figure is wearing a denim jacket, a white top, and black pants. This design is inspired by the city because it looks practical and modern. The overall look is strong and casual.",
+        "common_errors": [
+          "Stopping after one or two lines instead of completing the short presentation.",
+          "Reading labels only without turning them into short spoken sentences."
+        ],
+        "feedback_prompts_en": [
+          "Try one more short sentence with the frame This board shows ...",
+          "Can you add one short inspiration sentence?"
+        ],
+        "feedback_prompts_pt": [
+          "Tente mais uma frase curta com a estrutura This board shows ...",
+          "Voce consegue acrescentar uma frase curta de inspiracao?"
+        ]
+      },
+      "adaptations": {
+        "support": [
+          "Let students read directly from the submitted board before speaking more freely."
+        ],
+        "challenge": [
+          "Ask stronger learners to add one short revision sentence at the end."
+        ]
+      },
+      "extension_options": [
+        "Compare two final boards in pairs after the teacher presentations."
+      ],
+      "notes_for_app_design": "Render the submitted board from Activity 8 as read-only speaking support with the saved image key, labels, and text fields visible. Store teacher observation and completion data only. Do not create recording, upload, or automated speech-scoring behavior."
+    }
+  ]
+}

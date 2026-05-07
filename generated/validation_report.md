@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-05-07T13:11:45.421728+00:00
+- Generated at (UTC): 2026-05-07T14:05:47.918137+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -112,6 +112,14 @@
 - `content/course/modules/module-01/week-13/teacher_notes.md`
 - `content/course/modules/module-01/week-13/vocabulary.json`
 - `content/course/modules/module-01/week-13/week_manifest.json`
+- `content/course/modules/module-01/week-14/activities.json`
+- `content/course/modules/module-01/week-14/asset_manifest.json`
+- `content/course/modules/module-01/week-14/audio_prompts.json`
+- `content/course/modules/module-01/week-14/image_prompts.json`
+- `content/course/modules/module-01/week-14/lesson_plan.md`
+- `content/course/modules/module-01/week-14/teacher_notes.md`
+- `content/course/modules/module-01/week-14/vocabulary.json`
+- `content/course/modules/module-01/week-14/week_manifest.json`
 - `docs/fashion-course-content-requirements.md`
 - `schemas/activities.schema.json`
 - `schemas/asset_manifest.schema.json`
@@ -130,7 +138,10 @@
 - None.
 
 ## Missing Assets
-- None.
+- m01w14-img-001 — A model mini design board with visible student-friendly section labels and short readable text aligned to the Week 14 reading and listening tasks. — assets/images/module-01/week-14/m01w14-img-001.png
+- m01w14-img-002 — A keyed cumulative review board for garment, part, fabric, detail, and inspiration review with visible clues that support app-checked matching. — assets/images/module-01/week-14/m01w14-img-002.png
+- m01w14-img-003 — A reusable four-panel gallery labeled only image A, image B, image C, and image D for label matching, structured drafting, final submission, and the teacher presentation session. — assets/images/module-01/week-14/m01w14-img-003.png
+- m01w14-aud-001 — One short slow clear model presentation aligned exactly to the Week 14 model mini design board. — assets/audio/module-01/week-14/m01w14-aud-001.mp3
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.

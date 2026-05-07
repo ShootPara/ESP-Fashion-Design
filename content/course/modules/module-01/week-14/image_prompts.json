@@ -1,0 +1,52 @@
+{
+  "week_id": "m01w14",
+  "image_prompts": [
+    {
+      "asset_id": "m01w14-img-001",
+      "purpose": "Week 14 model mini design board with visible sections and short readable text for opener, reading, and listening reuse.",
+      "target_filename": "assets/images/module-01/week-14/m01w14-img-001.png",
+      "visual_description": "One adult-oriented mini design board showing a soft blue dress design with a visible sketch, the title Soft Ocean Dress, a short label list, a garment description section, a fabric and detail section, an inspiration section, and a short final comment section. The board should clearly show a soft blue dress, round neckline, short sleeves, a loose silhouette, lightweight flowy fabric, floral embroidery near the neckline, and ocean inspiration.",
+      "style_instructions": "Use a polished fashion-sketch or fashion-education board style suitable for adult learners in a studio or portfolio-prep classroom context.",
+      "composition_notes": "Keep the board clean and phone-readable. Section labels should be visible and student-friendly: title, labels, garment description, fabric and detail, inspiration, and final comment. Use short readable lines, not tiny paragraphs. The visible text should align exactly with the Week 14 reading questions and the Week 14 listening script.",
+      "text_in_image": "Visible text is required and should stay minimal and exact: title Soft Ocean Dress; labels blue dress, round neckline, short sleeves, flowy fabric, hem below the knee, floral embroidery; garment description This board shows a fashion sketch of a soft blue dress. The figure is wearing a blue dress with short sleeves and a round neckline.; fabric and detail I imagine this garment in a lightweight, flowy fabric. The main detail is floral embroidery near the neckline.; inspiration This design is inspired by the ocean. I chose blue and white because they create a calm mood.; final comment The overall look is soft and elegant.",
+      "avoid": "Avoid brand logos, childish styling, crowded boards, tiny unreadable labels, extra decorative text, ambiguous visual cues, unsafe garments, or details that conflict with the reading and listening script.",
+      "used_by_activity_ids": [
+        "m01w14-a01",
+        "m01w14-a03",
+        "m01w14-a04"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w14-img-002",
+      "purpose": "Week 14 cumulative keyed review board for garment, part, fabric, detail, and inspiration review.",
+      "target_filename": "assets/images/module-01/week-14/m01w14-img-002.png",
+      "visual_description": "One cumulative review board with visible keys and short category clues. Include clearly separated areas for garment, part, fabric, detail, inspiration, reason, and revision examples, such as a jacket, a sleeve, denim, embroidery, ocean inspiration, because, and revise. Each area should be visibly distinct and easy to match to a short English label.",
+      "style_instructions": "Use a clean adult-learner fashion-education illustration or board style with simple structure and strong visual clarity.",
+      "composition_notes": "Keep all clues visible without hidden logic. Cap clutter, enlarge every key marker, and use sparse category zones with only one essential clue per zone so the activity remains readable on a phone-sized screen. Keep the board visually calm, avoid crowding the center, and make each key or zone easy to tap and distinguish.",
+      "text_in_image": "Only minimal visible category or key text needed for matching, such as garment, part, fabric, detail, inspiration, reason, revision, and large stable letter keys A to H.",
+      "avoid": "Avoid clutter, brand logos, tiny text, dense moodboard layouts, overlapping objects, childish icon styling, or visual ambiguity that would weaken app-checked matches.",
+      "used_by_activity_ids": [
+        "m01w14-a02"
+      ],
+      "status": "planned"
+    },
+    {
+      "asset_id": "m01w14-img-003",
+      "purpose": "Reusable four-panel gallery labeled only image A to image D for board building, drafting, submission, and speaking.",
+      "target_filename": "assets/images/module-01/week-14/m01w14-img-003.png",
+      "visual_description": "A reusable four-panel gallery labeled only image A, image B, image C, and image D. Image A shows a soft ocean-inspired dress with blue tones and embroidery. Image B shows an urban denim jacket look with zipper and patch pockets. Image C shows a bright movement look with a yellow top and wide pants. Image D shows a calm green skirt look with a soft silhouette and nature-inspired palette.",
+      "style_instructions": "Use a consistent adult fashion-study illustration style with sketch or mini board context and no childish treatment.",
+      "composition_notes": "Keep the four panels evenly spaced and clearly different from each other. The image A to image D labels must be large, stable, and easy to read because later activities depend on the exact literal keys.",
+      "text_in_image": "Only the visible labels image A, image B, image C, and image D.",
+      "avoid": "Avoid extra caption text, brand logos, cluttered backgrounds, tiny labels, unsafe details, or panels so similar that matching and image selection become ambiguous.",
+      "used_by_activity_ids": [
+        "m01w14-a05",
+        "m01w14-a06",
+        "m01w14-a08",
+        "m01w14-a09"
+      ],
+      "status": "planned"
+    }
+  ]
+}

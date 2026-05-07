@@ -1,0 +1,487 @@
+{
+  "week_id": "m01w14",
+  "vocabulary_groups": [
+    {
+      "group_id": "m01w14-vg01",
+      "title": "Final board sections",
+      "description": "Core words for naming the parts of the mini design board.",
+      "items": [
+        {
+          "vocab_id": "m01w14-v001",
+          "term": "design board",
+          "part_of_speech": "noun",
+          "definition_en": "A page or board that shows a design idea with image and text.",
+          "learner_friendly_definition_en": "A board that shows the fashion idea.",
+          "learner_friendly_definition_pt": "Uma prancha que mostra a ideia de moda.",
+          "example_sentence_en": "This design board shows one complete look.",
+          "example_sentence_pt": "This design board shows one complete look.",
+          "professional_context_en": "Design board is the final Week 14 artifact type.",
+          "professional_context_pt": "Design board e o tipo de artefato final da Semana 14.",
+          "translation_notes_pt": "Keep the English term visible and support with prancha de design.",
+          "pronunciation_notes": "Say di-ZINE bord.",
+          "related_terms": [
+            "label",
+            "caption",
+            "final version"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v002",
+          "term": "label",
+          "part_of_speech": "noun",
+          "definition_en": "A short word or phrase that names one part of the design.",
+          "learner_friendly_definition_en": "A short name on the board.",
+          "learner_friendly_definition_pt": "Um nome curto na prancha.",
+          "example_sentence_en": "Each label names one visible design feature.",
+          "example_sentence_pt": "Each label names one visible design feature.",
+          "professional_context_en": "Labels help organize garment, fabric, detail, and inspiration information.",
+          "professional_context_pt": "Labels ajudam a organizar informacoes de peca, tecido, detalhe e inspiracao.",
+          "translation_notes_pt": "Avoid over-translating; keep label as the main classroom term and bridge to rotulo only when needed.",
+          "pronunciation_notes": "Say LAY-buhl.",
+          "related_terms": [
+            "caption",
+            "detail",
+            "board"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v003",
+          "term": "caption",
+          "part_of_speech": "noun",
+          "definition_en": "A short text that explains one part of the board.",
+          "learner_friendly_definition_en": "A short sentence under or near the image.",
+          "learner_friendly_definition_pt": "Uma frase curta embaixo ou perto da imagem.",
+          "example_sentence_en": "The caption explains the main detail.",
+          "example_sentence_pt": "The caption explains the main detail.",
+          "professional_context_en": "Caption language prepares students for portfolio-style presentation.",
+          "professional_context_pt": "Caption prepara os alunos para uma apresentacao em estilo de portfolio.",
+          "translation_notes_pt": "Bridge to legenda curta when needed.",
+          "pronunciation_notes": "Say CAP-shuhn.",
+          "related_terms": [
+            "label",
+            "detail",
+            "final comment"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v004",
+          "term": "overall look",
+          "part_of_speech": "phrase",
+          "definition_en": "The complete visual effect of the design.",
+          "learner_friendly_definition_en": "The full final impression of the look.",
+          "learner_friendly_definition_pt": "A impressao final completa do look.",
+          "example_sentence_en": "The overall look is soft and elegant.",
+          "example_sentence_pt": "The overall look is soft and elegant.",
+          "professional_context_en": "Overall look gives students a simple way to close the board or presentation.",
+          "professional_context_pt": "Overall look oferece uma forma simples de fechar a prancha ou a apresentacao.",
+          "translation_notes_pt": "Bridge to visual geral or look geral, but keep the English phrase in output.",
+          "pronunciation_notes": "Stress o-ver-ALL LOOK.",
+          "related_terms": [
+            "palette",
+            "silhouette",
+            "mood"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w14-vg02",
+      "title": "Garments and parts review",
+      "description": "Recycled garment and part vocabulary needed for the final board.",
+      "items": [
+        {
+          "vocab_id": "m01w14-v005",
+          "term": "garment",
+          "part_of_speech": "noun",
+          "definition_en": "A piece of clothing.",
+          "learner_friendly_definition_en": "One clothing item.",
+          "learner_friendly_definition_pt": "Uma peca de roupa.",
+          "example_sentence_en": "The garment is a long dress.",
+          "example_sentence_pt": "The garment is a long dress.",
+          "professional_context_en": "Garment is useful when the board needs one general fashion word.",
+          "professional_context_pt": "Garment e util quando a prancha precisa de uma palavra geral de moda.",
+          "translation_notes_pt": "Bridge to peca de roupa.",
+          "pronunciation_notes": "Say GAR-muhnt.",
+          "related_terms": [
+            "dress",
+            "jacket",
+            "pants"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v006",
+          "term": "neckline",
+          "part_of_speech": "noun",
+          "definition_en": "The shape or edge around the neck area of a garment.",
+          "learner_friendly_definition_en": "The neck part of the clothing.",
+          "learner_friendly_definition_pt": "A parte do pescoco da roupa.",
+          "example_sentence_en": "The neckline is round and simple.",
+          "example_sentence_pt": "The neckline is round and simple.",
+          "professional_context_en": "Neckline is a common visible feature for board labels and detail notes.",
+          "professional_context_pt": "Neckline e uma caracteristica visivel comum para labels e notas de detalhe.",
+          "translation_notes_pt": "Bridge to decote, but keep the English term active.",
+          "pronunciation_notes": "Say NEK-line.",
+          "related_terms": [
+            "sleeve",
+            "hem",
+            "detail"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v007",
+          "term": "sleeve",
+          "part_of_speech": "noun",
+          "definition_en": "The part of a garment that covers the arm.",
+          "learner_friendly_definition_en": "The arm part of the clothing.",
+          "learner_friendly_definition_pt": "A parte do braco da roupa.",
+          "example_sentence_en": "The dress has short sleeves.",
+          "example_sentence_pt": "The dress has short sleeves.",
+          "professional_context_en": "Sleeve supports visible description and label matching.",
+          "professional_context_pt": "Sleeve apoia descricao visivel e correspondencia de labels.",
+          "translation_notes_pt": "Bridge to manga.",
+          "pronunciation_notes": "Say SLEEV.",
+          "related_terms": [
+            "neckline",
+            "hem",
+            "garment"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v008",
+          "term": "hem",
+          "part_of_speech": "noun",
+          "definition_en": "The lower edge of a garment.",
+          "learner_friendly_definition_en": "The bottom edge of the clothing.",
+          "learner_friendly_definition_pt": "A borda de baixo da roupa.",
+          "example_sentence_en": "The hem is below the knee.",
+          "example_sentence_pt": "The hem is below the knee.",
+          "professional_context_en": "Hem helps students label length and shape more precisely.",
+          "professional_context_pt": "Hem ajuda os alunos a marcar comprimento e forma com mais precisao.",
+          "translation_notes_pt": "Bridge to barra.",
+          "pronunciation_notes": "Say HEM.",
+          "related_terms": [
+            "sleeve",
+            "silhouette",
+            "garment"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w14-vg03",
+      "title": "Fabric and texture review",
+      "description": "Recycled terms for fabric choice and texture description.",
+      "items": [
+        {
+          "vocab_id": "m01w14-v009",
+          "term": "fabric",
+          "part_of_speech": "noun",
+          "definition_en": "The material used to make the garment.",
+          "learner_friendly_definition_en": "The material of the clothing.",
+          "learner_friendly_definition_pt": "O material da roupa.",
+          "example_sentence_en": "I imagine this garment in a soft fabric.",
+          "example_sentence_pt": "I imagine this garment in a soft fabric.",
+          "professional_context_en": "Fabric is one of the main explanation sections in the final board.",
+          "professional_context_pt": "Fabric e uma das principais secoes de explicacao na prancha final.",
+          "translation_notes_pt": "Bridge to tecido.",
+          "pronunciation_notes": "Say FAB-rik.",
+          "related_terms": [
+            "cotton",
+            "denim",
+            "lightweight"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v010",
+          "term": "silhouette",
+          "part_of_speech": "noun",
+          "definition_en": "The outside shape of the garment or look.",
+          "learner_friendly_definition_en": "The main outside shape.",
+          "learner_friendly_definition_pt": "A forma principal externa.",
+          "example_sentence_en": "The silhouette is loose and long.",
+          "example_sentence_pt": "The silhouette is loose and long.",
+          "professional_context_en": "Silhouette connects sketch description to the final integrated board.",
+          "professional_context_pt": "Silhouette conecta a descricao do croqui a prancha final integrada.",
+          "translation_notes_pt": "Do not replace with only a Portuguese word; keep pronunciation support visible.",
+          "pronunciation_notes": "Say sil-oo-ET.",
+          "related_terms": [
+            "palette",
+            "loose",
+            "fitted"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v011",
+          "term": "palette",
+          "part_of_speech": "noun",
+          "definition_en": "The set of colors used in the design.",
+          "learner_friendly_definition_en": "The colors in the look.",
+          "learner_friendly_definition_pt": "As cores do look.",
+          "example_sentence_en": "The palette is calm and soft.",
+          "example_sentence_pt": "The palette is calm and soft.",
+          "professional_context_en": "Palette is central for color explanation in the final board.",
+          "professional_context_pt": "Palette e central para a explicacao de cor na prancha final.",
+          "translation_notes_pt": "Avoid over-translating; keep the English fashion term active.",
+          "pronunciation_notes": "Say PAL-it.",
+          "related_terms": [
+            "contrast",
+            "color",
+            "overall look"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v012",
+          "term": "lightweight",
+          "part_of_speech": "adjective",
+          "definition_en": "Not heavy; light in feel.",
+          "learner_friendly_definition_en": "Light and not heavy.",
+          "learner_friendly_definition_pt": "Leve e nao pesado.",
+          "example_sentence_en": "The fabric looks lightweight and flowy.",
+          "example_sentence_pt": "The fabric looks lightweight and flowy.",
+          "professional_context_en": "Lightweight helps students describe fabric quality more precisely.",
+          "professional_context_pt": "Lightweight ajuda os alunos a descrever a qualidade do tecido com mais precisao.",
+          "translation_notes_pt": "Bridge to leve.",
+          "pronunciation_notes": "Stress LIGHT-weight.",
+          "related_terms": [
+            "fabric",
+            "flowy",
+            "soft"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w14-vg04",
+      "title": "Design details review",
+      "description": "Words for naming visible details and their function or effect.",
+      "items": [
+        {
+          "vocab_id": "m01w14-v013",
+          "term": "detail",
+          "part_of_speech": "noun",
+          "definition_en": "One small feature that is important in the design.",
+          "learner_friendly_definition_en": "One small important part.",
+          "learner_friendly_definition_pt": "Uma parte pequena e importante.",
+          "example_sentence_en": "The main detail is the embroidery.",
+          "example_sentence_pt": "The main detail is the embroidery.",
+          "professional_context_en": "Detail supports the final board line about visible design choices.",
+          "professional_context_pt": "Detail apoia a linha final da prancha sobre escolhas visiveis de design.",
+          "translation_notes_pt": "Keep the English term active and bridge to detalhe when needed.",
+          "pronunciation_notes": "Say DEE-tail or di-TAIL, but keep one classroom model.",
+          "related_terms": [
+            "embroidery",
+            "functional",
+            "decorative"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v014",
+          "term": "embroidery",
+          "part_of_speech": "noun",
+          "definition_en": "Decorative stitching on fabric.",
+          "learner_friendly_definition_en": "Decorative thread design on the fabric.",
+          "learner_friendly_definition_pt": "Desenho decorativo com linha no tecido.",
+          "example_sentence_en": "The embroidery adds texture and color.",
+          "example_sentence_pt": "The embroidery adds texture and color.",
+          "professional_context_en": "Embroidery is a useful visible detail for board labels and model text.",
+          "professional_context_pt": "Embroidery e um detalhe visivel util para labels e texto-modelo da prancha.",
+          "translation_notes_pt": "Bridge to bordado.",
+          "pronunciation_notes": "Say em-BROY-duh-ree.",
+          "related_terms": [
+            "detail",
+            "decorative",
+            "neckline"
+          ],
+          "difficulty": "challenge"
+        },
+        {
+          "vocab_id": "m01w14-v015",
+          "term": "functional",
+          "part_of_speech": "adjective",
+          "definition_en": "Useful for how the garment works.",
+          "learner_friendly_definition_en": "Helpful for use, not only for style.",
+          "learner_friendly_definition_pt": "Util para o uso, nao apenas para o estilo.",
+          "example_sentence_en": "The zipper is functional because it opens the jacket.",
+          "example_sentence_pt": "The zipper is functional because it opens the jacket.",
+          "professional_context_en": "Functional helps students explain why one detail matters.",
+          "professional_context_pt": "Functional ajuda os alunos a explicar por que um detalhe importa.",
+          "translation_notes_pt": "Bridge to funcional.",
+          "pronunciation_notes": "Say FUNK-shuh-nuhl.",
+          "related_terms": [
+            "detail",
+            "decorative",
+            "because"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w14-v016",
+          "term": "decorative",
+          "part_of_speech": "adjective",
+          "definition_en": "Used mainly for visual effect or beauty.",
+          "learner_friendly_definition_en": "Used to make the design look nicer.",
+          "learner_friendly_definition_pt": "Usado para deixar o design mais bonito visualmente.",
+          "example_sentence_en": "The embroidery is decorative because it adds color.",
+          "example_sentence_pt": "The embroidery is decorative because it adds color.",
+          "professional_context_en": "Decorative helps students describe why a visible feature is there.",
+          "professional_context_pt": "Decorative ajuda os alunos a descrever por que uma caracteristica visivel esta ali.",
+          "translation_notes_pt": "Bridge to decorativo.",
+          "pronunciation_notes": "Say DEK-uh-ray-tiv.",
+          "related_terms": [
+            "detail",
+            "functional",
+            "embroidery"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w14-vg05",
+      "title": "Inspiration and mood review",
+      "description": "Words and phrases for explaining the idea behind the design.",
+      "items": [
+        {
+          "vocab_id": "m01w14-v017",
+          "term": "inspired by",
+          "part_of_speech": "phrase",
+          "definition_en": "Based on or influenced by something.",
+          "learner_friendly_definition_en": "Getting the idea from something.",
+          "learner_friendly_definition_pt": "Ter a ideia a partir de algo.",
+          "example_sentence_en": "This design is inspired by the ocean.",
+          "example_sentence_pt": "This design is inspired by the ocean.",
+          "professional_context_en": "Inspired by is the main frame for the board rationale.",
+          "professional_context_pt": "Inspired by e a principal estrutura para a justificativa da prancha.",
+          "translation_notes_pt": "Bridge to inspirado em, but keep the exact English phrase for output.",
+          "pronunciation_notes": "Stress in-SPIRED BY.",
+          "related_terms": [
+            "because",
+            "mood",
+            "I chose"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v018",
+          "term": "because",
+          "part_of_speech": "conjunction",
+          "definition_en": "A word used to give a reason.",
+          "learner_friendly_definition_en": "A word for saying why.",
+          "learner_friendly_definition_pt": "Uma palavra para dizer por que.",
+          "example_sentence_en": "I chose blue because it feels calm.",
+          "example_sentence_pt": "I chose blue because it feels calm.",
+          "professional_context_en": "Because is essential for explaining one design choice clearly.",
+          "professional_context_pt": "Because e essencial para explicar claramente uma escolha de design.",
+          "translation_notes_pt": "Bridge to porque.",
+          "pronunciation_notes": "Say bi-KAWZ.",
+          "related_terms": [
+            "inspired by",
+            "I chose",
+            "revise"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v019",
+          "term": "I chose",
+          "part_of_speech": "phrase",
+          "definition_en": "A phrase for naming one design choice.",
+          "learner_friendly_definition_en": "A phrase for saying what I selected.",
+          "learner_friendly_definition_pt": "Uma frase para dizer o que eu escolhi.",
+          "example_sentence_en": "I chose blue and white because they feel calm.",
+          "example_sentence_pt": "I chose blue and white because they feel calm.",
+          "professional_context_en": "I chose helps students explain personal design decisions in simple English.",
+          "professional_context_pt": "I chose ajuda os alunos a explicar decisoes pessoais de design em ingles simples.",
+          "translation_notes_pt": "Bridge to eu escolhi.",
+          "pronunciation_notes": "Stress CHOSE.",
+          "related_terms": [
+            "because",
+            "inspired by",
+            "overall look"
+          ],
+          "difficulty": "core"
+        },
+        {
+          "vocab_id": "m01w14-v020",
+          "term": "revise",
+          "part_of_speech": "verb",
+          "definition_en": "To improve or change work after feedback.",
+          "learner_friendly_definition_en": "To fix or improve after comments.",
+          "learner_friendly_definition_pt": "Corrigir ou melhorar depois de comentarios.",
+          "example_sentence_en": "I revise one sentence to make it clearer.",
+          "example_sentence_pt": "I revise one sentence to make it clearer.",
+          "professional_context_en": "Revise connects the final board to Week 13 feedback language.",
+          "professional_context_pt": "Revise conecta a prancha final a linguagem de feedback da Semana 13.",
+          "translation_notes_pt": "Bridge to revisar, but keep the English verb in student output.",
+          "pronunciation_notes": "Say ri-VYZE.",
+          "related_terms": [
+            "revision",
+            "clearer",
+            "feedback"
+          ],
+          "difficulty": "core"
+        }
+      ]
+    },
+    {
+      "group_id": "m01w14-vg06",
+      "title": "Feedback and revision review",
+      "description": "Recycled Week 13 language for final checklist and improvement work.",
+      "items": [
+        {
+          "vocab_id": "m01w14-v021",
+          "term": "clearer",
+          "part_of_speech": "adjective",
+          "definition_en": "Easier to understand than before.",
+          "learner_friendly_definition_en": "More easy to understand.",
+          "learner_friendly_definition_pt": "Mais facil de entender.",
+          "example_sentence_en": "I revised the line to make it clearer.",
+          "example_sentence_pt": "I revised the line to make it clearer.",
+          "professional_context_en": "Clearer is useful for the revision comment and teacher feedback.",
+          "professional_context_pt": "Clearer e util para o comentario de revisao e para o feedback do professor.",
+          "translation_notes_pt": "Bridge to mais claro.",
+          "pronunciation_notes": "Say KLEER-er.",
+          "related_terms": [
+            "revise",
+            "caption",
+            "detail"
+          ],
+          "difficulty": "support"
+        },
+        {
+          "vocab_id": "m01w14-v022",
+          "term": "final version",
+          "part_of_speech": "phrase",
+          "definition_en": "The completed version after review and revision.",
+          "learner_friendly_definition_en": "The finished version.",
+          "learner_friendly_definition_pt": "A versao final.",
+          "example_sentence_en": "This is my final version of the mini design board.",
+          "example_sentence_pt": "This is my final version of the mini design board.",
+          "professional_context_en": "Final version helps students understand the difference between draft and submission.",
+          "professional_context_pt": "Final version ajuda os alunos a entender a diferenca entre rascunho e envio final.",
+          "translation_notes_pt": "Bridge to versao final.",
+          "pronunciation_notes": "Stress FI-nuhl VER-zhuhn.",
+          "related_terms": [
+            "design board",
+            "revise",
+            "submission"
+          ],
+          "difficulty": "support"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "week_id": "m01w14",
+  "assets": [
+    {
+      "asset_id": "m01w14-img-001",
+      "week_id": "m01w14",
+      "asset_type": "image",
+      "title": "Week 14 model mini design board",
+      "description": "A model mini design board with visible student-friendly section labels and short readable text aligned to the Week 14 reading and listening tasks.",
+      "target_filename": "assets/images/module-01/week-14/m01w14-img-001.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w14-a01",
+        "m01w14-a03",
+        "m01w14-a04"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Keep the section labels and text readable on a phone screen. The model board must visibly support opener answers and align exactly with the reading text and the listening script."
+    },
+    {
+      "asset_id": "m01w14-img-002",
+      "week_id": "m01w14",
+      "asset_type": "image",
+      "title": "Week 14 cumulative review board",
+      "description": "A keyed cumulative review board for garment, part, fabric, detail, and inspiration review with visible clues that support app-checked matching.",
+      "target_filename": "assets/images/module-01/week-14/m01w14-img-002.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w14-a02"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Keep all visual clues visible and stable. The board should support literal key matching and simple category recognition without hidden logic."
+    },
+    {
+      "asset_id": "m01w14-img-003",
+      "week_id": "m01w14",
+      "asset_type": "image",
+      "title": "Week 14 reusable four-panel gallery image A to image D",
+      "description": "A reusable four-panel gallery labeled only image A, image B, image C, and image D for label matching, structured drafting, final submission, and the teacher presentation session.",
+      "target_filename": "assets/images/module-01/week-14/m01w14-img-003.png",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w14-a05",
+        "m01w14-a06",
+        "m01w14-a08",
+        "m01w14-a09"
+      ],
+      "generation_source": "image_generation",
+      "notes": "Keep the literal image A to image D labels visible and stable. Each panel should show one distinct adult-oriented fashion look with clear garment, fabric, detail, and inspiration cues so the selected image key can be reused meaningfully."
+    },
+    {
+      "asset_id": "m01w14-aud-001",
+      "week_id": "m01w14",
+      "asset_type": "audio",
+      "title": "Week 14 model mini-board presentation",
+      "description": "One short slow clear model presentation aligned exactly to the Week 14 model mini design board.",
+      "target_filename": "assets/audio/module-01/week-14/m01w14-aud-001.mp3",
+      "status": "planned",
+      "used_by_activity_ids": [
+        "m01w14-a04"
+      ],
+      "generation_source": "audio_generation",
+      "notes": "Keep the full script only in audio_prompts.json. Do not create a separate transcript asset. The script, model board, question labels, options, and correct answers must match exactly."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "week_id": "m01w14",
+  "module_id": "module-01",
+  "week_number": 14,
+  "title": "Mini Design Board",
+  "summary": "Students review core Module 1 language, study a model board, listen to a short model presentation, build a labeled board from a selected image, draft short board text in structured lines, revise one part, submit a final mini design board, and present it with teacher support.",
+  "essential_question": "How can I present one simple fashion design idea clearly in English?",
+  "professional_context": "Week 14 connects English to first-step design-board sharing, studio presentation, and future portfolio-style communication. Students combine garment, fabric, detail, inspiration, and revision language into one small but reusable fashion artifact.",
+  "language_focus": [
+    "integrated garment, parts, silhouette, color palette, fabric, detail, inspiration, rationale, and revision language",
+    "presentation frames such as This board shows ... and The figure is wearing ...",
+    "design explanation frames such as I imagine this garment in ..., This design is inspired by ..., and I chose ... because ...",
+    "revision language for one clearer final version"
+  ],
+  "skill_focus": [
+    "reading",
+    "listening",
+    "writing",
+    "speaking",
+    "vocabulary",
+    "grammar",
+    "professional_communication",
+    "visual_literacy"
+  ],
+  "target_vocabulary_groups": [
+    "m01w14-vg01",
+    "m01w14-vg02",
+    "m01w14-vg03",
+    "m01w14-vg04",
+    "m01w14-vg05",
+    "m01w14-vg06"
+  ],
+  "grammar_focus": [
+    "is wearing",
+    "has",
+    "is",
+    "in / near / on",
+    "inspired by",
+    "because",
+    "I chose",
+    "The overall look is"
+  ],
+  "pronunciation_focus": [
+    "silhouette",
+    "palette",
+    "neckline",
+    "embroidery",
+    "lightweight",
+    "inspiration",
+    "overall",
+    "revise"
+  ],
+  "cefr_access_level": "A2",
+  "cefr_target_level": "A2",
+  "estimated_total_minutes": 144,
+  "activity_ids": [
+    "m01w14-a01",
+    "m01w14-a02",
+    "m01w14-a03",
+    "m01w14-a04",
+    "m01w14-a05",
+    "m01w14-a06",
+    "m01w14-a07",
+    "m01w14-a08",
+    "m01w14-a09"
+  ],
+  "asset_ids": [
+    "m01w14-img-001",
+    "m01w14-img-002",
+    "m01w14-img-003",
+    "m01w14-aud-001"
+  ],
+  "teacher_preparation": [
+    "Preview the model mini design board, the cumulative review board, the reusable image A to image D gallery, and the listening script before class.",
+    "Keep the core Week 14 frames visible: This board shows ..., The figure is wearing ..., I imagine this garment in ..., This design is inspired by ..., I chose ... because ..., and The overall look is ....",
+    "Keep the main writing path structured and short. The draft and final submission should use a title plus five required lines and one optional challenge line rather than a paragraph or word-count task.",
+    "Check that the model board text, listening script, questions, and correct answers all match exactly for Activity 4.",
+    "Prepare quick support for article use, is wearing, because clauses, and pronunciation of silhouette, palette, neckline, and inspiration.",
+    "Decide whether students will show the reusable gallery on screen, with printouts, or through a projected board during the teacher presentation session."
+  ],
+  "student_deliverables": [
+    "Completion of the Week 14 opener selections about the sections of a mini design board.",
+    "Completion of one cumulative matching set using the Week 14 review board.",
+    "Reading-comprehension responses about the model mini design board.",
+    "Listening-comprehension responses aligned to one short model mini-board presentation.",
+    "One selected image key plus eight saved label matches for a chosen design.",
+    "One structured draft with a title, five required lines, and one optional challenge line.",
+    "One saved revision target plus one revised line after the checklist review.",
+    "One final structured mini design board submission for teacher review.",
+    "One short teacher-observed final mini presentation with speaking-frame support."
+  ]
+}

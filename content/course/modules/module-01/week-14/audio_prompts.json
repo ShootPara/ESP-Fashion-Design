@@ -1,0 +1,21 @@
+{
+  "week_id": "m01w14",
+  "audio_prompts": [
+    {
+      "asset_id": "m01w14-aud-001",
+      "purpose": "Listening model for Week 14 mini design board presentation aligned exactly to the model board.",
+      "target_filename": "assets/audio/module-01/week-14/m01w14-aud-001.mp3",
+      "script": "This is my mini design board. The title is Soft Ocean Dress. This board shows a fashion sketch of a soft blue dress. The figure is standing in a front view. The figure is wearing a blue dress with short sleeves and a round neckline. I imagine this garment in a lightweight, flowy fabric. The main detail is floral embroidery near the neckline. This design is inspired by the ocean. I chose blue and white because they create a calm mood. The overall look is soft and elegant.",
+      "speaker_profile": "One adult teacher or Fashion Design classroom presenter speaking clearly to beginner learners.",
+      "accent_or_variety": "Clear international English suitable for Brazilian A2 learners.",
+      "speed": "slow-natural",
+      "voice_direction": "Warm, clear, and easy to follow, with short pauses between each board section and slight emphasis on the title, the main detail, and the reason sentence.",
+      "suggested_openai_voice_role": "Choose an available OpenAI or ChatGPT voice at generation time that sounds like a supportive classroom teacher or studio presenter.",
+      "duration_estimate_seconds": 40,
+      "used_by_activity_ids": [
+        "m01w14-a04"
+      ],
+      "status": "planned"
+    }
+  ]
+}
