@@ -1,7 +1,7 @@
 # Validation Report
 
 - Status: **PASS**
-- Generated at (UTC): 2026-05-07T12:13:36.400270+00:00
+- Generated at (UTC): 2026-05-07T13:11:45.421728+00:00
 
 ## Files Checked
 - `AGENTS.md`
@@ -130,9 +130,7 @@
 - None.
 
 ## Missing Assets
-- m01w13-img-001 — A single adult-learning fashion look, sketch, or mini board with a strong visible color palette, a clear silhouette, a visible neckline detail, a balanced overall look, and one plausible contrast-detail improvement point for a fast opener review. — assets/images/module-01/week-13/m01w13-img-001.png
-- m01w13-img-002 — A reusable four-panel gallery labeled only image A, image B, image C, and image D. Each panel should show one distinct design with clear strengths and one reasonable improvement point so feedback answers stay defensible. — assets/images/module-01/week-13/m01w13-img-002.png
-- m01w13-aud-001 — One short A2 listening clip with four numbered spoken feedback comments aligned exactly to the reusable image A to image D gallery. — assets/audio/module-01/week-13/m01w13-aud-001.mp3
+- None.
 
 ## Validator Scope Notes
 - The Phase 1 validator enforces required files, wrapper shapes, required fields, bilingual student-facing fields, ID patterns, controlled values, numeric minute fields, and cross-file references.
