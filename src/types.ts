@@ -64,3 +64,183 @@ export interface CourseIndex {
   total_weeks: number;
   available_modules: CourseIndexModuleSummary[];
 }
+
+export interface LocalizedTextGroup {
+  title?: string;
+  summary?: string;
+  instructions?: string;
+  success_criteria?: string[];
+  sentence_frames?: string[];
+  word_bank_label?: string;
+}
+
+export interface LocalizedStudentFacing {
+  en?: LocalizedTextGroup;
+  pt?: LocalizedTextGroup;
+}
+
+export interface ActivityInputField {
+  field_id: string;
+  prompt_en: string;
+  prompt_pt: string;
+}
+
+export interface ActivityInputItem {
+  response_type?: string;
+  label_en?: string;
+  label_pt?: string;
+  prompt_en?: string;
+  prompt_pt?: string;
+  options_en?: string[];
+  options_pt?: string[];
+  correct_answer?: string | boolean;
+  correct_answers?: string[];
+  accepted_answers?: string[];
+  match_terms_en?: string[];
+  match_terms_pt?: string[];
+  matches?: Array<{
+    image_key?: string;
+    target_key?: string;
+    term_en?: string;
+    term_pt?: string;
+    answer_en?: string;
+    answer_pt?: string;
+  }>;
+  asset_ids?: string[];
+  correct_matches?: Record<string, string>;
+  pairs?: Array<{
+    en?: string;
+    pt?: string;
+    term_en?: string;
+    term_pt?: string;
+  }>;
+  category_targets?: string[];
+  category_display_labels?: Array<{
+    key: string;
+    label_en: string;
+    label_pt: string;
+  }>;
+  category_matches?: Array<{
+    term_en: string;
+    category: string;
+  }>;
+  terms_en?: string[];
+  sentence_frame_en?: string;
+  sentence_frame_pt?: string;
+  word_bank?: string[];
+  asset_id?: string;
+  lines_en?: string[];
+  lines_pt?: string[];
+  correct_order?: string[];
+  fields?: ActivityInputField[];
+  checklist_items_en?: string[];
+  checklist_items_pt?: string[];
+}
+
+export interface ActivityStep {
+  step_number: number;
+  title: string;
+  student_action_en: string;
+  student_action_pt: string;
+  teacher_action: string;
+  estimated_minutes: number;
+  mode: string;
+}
+
+export interface ActivityExpectedOutput {
+  mode: string;
+  description_en: string;
+  description_pt: string;
+  length_or_format: string;
+}
+
+export interface ActivityAssessment {
+  mode: string;
+  completion_criteria_en?: string[];
+  completion_criteria_pt?: string[];
+  checklist_en?: string[];
+  checklist_pt?: string[];
+  rubric?: string[];
+  model_response_en?: string;
+  model_response_pt?: string;
+  common_errors?: string[];
+  feedback_prompts_en?: string[];
+  feedback_prompts_pt?: string[];
+}
+
+export interface ModuleActivity {
+  activity_id: string;
+  week_id: string;
+  sequence_number: number;
+  title: string;
+  activity_type: string;
+  summary: string;
+  student_facing?: LocalizedStudentFacing;
+  teacher_instructions?: string;
+  estimated_minutes: number;
+  primary_interaction_type: string;
+  submission_type: string;
+  checked_by: "app" | "teacher" | "student" | "not_submitted";
+  teacher_review_required: boolean;
+  revision_supported: boolean;
+  skill_focus?: string[];
+  cefr_access_level?: string;
+  cefr_target_level?: string;
+  cefr_level?: string;
+  vocabulary_refs?: string[];
+  asset_refs?: string[];
+  input?: {
+    input_type?: string;
+    prompt_en?: string;
+    prompt_pt?: string;
+    items?: ActivityInputItem[];
+  };
+  steps?: ActivityStep[];
+  expected_output?: ActivityExpectedOutput;
+  assessment?: ActivityAssessment;
+  notes_for_app_design?: string;
+}
+
+export interface ModuleWeekAsset {
+  asset_id: string;
+  week_id: string;
+  asset_type: "image" | "audio" | string;
+  title: string;
+  description: string;
+  target_filename: string;
+  status: string;
+  used_by_activity_ids?: string[];
+  generation_source?: string;
+  notes?: string;
+}
+
+export interface ModuleWeekBundle {
+  week_id: string;
+  week_number: number;
+  title: string;
+  summary: string;
+  essential_question: string;
+  week_manifest: {
+    week_id: string;
+    estimated_total_minutes?: number;
+    skill_focus?: string[];
+  };
+  activities: {
+    week_id: string;
+    activities: ModuleActivity[];
+  };
+  asset_manifest: {
+    week_id: string;
+    assets: ModuleWeekAsset[];
+  };
+  source_paths: Record<string, string>;
+}
+
+export interface ModuleBundle {
+  module_id: string;
+  module_number: number;
+  title: string;
+  description: string;
+  weeks: ModuleWeekBundle[];
+  source_paths: Record<string, string>;
+}

@@ -1,19 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link, Navigate, Route, Routes, useLocation, useParams } from "react-router-dom";
-
-interface VisibleModule {
-  module_id: string;
-  module_number: number;
-  title: string;
-  description: string;
-  source_status: string;
-  available_weeks: Array<{
-    week_id: string;
-    week_number: number;
-    title: string;
-  }>;
-  bundle_path: string;
-}
+import type { CourseIndexModuleSummary, ModuleActivity, ModuleBundle, ModuleWeekBundle } from "../types";
+import { summarizeWeekMedia } from "./assetPaths";
+import { ActivityRenderer } from "./activityRenderers";
+import { ReviewMetadataPanel } from "./reviewMetadata";
 
 interface MeResponse {
   authenticated: boolean;
@@ -31,41 +21,12 @@ interface MeResponse {
   };
   access: {
     can_access_admin: boolean;
-    visible_modules: VisibleModule[];
+    visible_modules: CourseIndexModuleSummary[];
   };
   support: {
     email: string;
     login_help_url: string;
   };
-}
-
-interface ModuleBundleWeek {
-  week_id: string;
-  week_number: number;
-  title: string;
-  summary: string;
-  essential_question: string;
-  activities: {
-    activities: Array<{
-      activity_id: string;
-      title: string;
-      summary: string;
-      student_facing?: {
-        en?: {
-          title?: string;
-          summary?: string;
-          instructions?: string;
-        };
-      };
-    }>;
-  };
-}
-
-interface ModuleBundle {
-  module_id: string;
-  title: string;
-  description: string;
-  weeks: ModuleBundleWeek[];
 }
 
 function useMe() {
@@ -111,7 +72,7 @@ function useMe() {
   return { data, error, loading };
 }
 
-function useModuleBundle(moduleSummary: VisibleModule | undefined) {
+function useModuleBundle(moduleSummary: CourseIndexModuleSummary | undefined) {
   const [bundle, setBundle] = useState<ModuleBundle | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -122,6 +83,7 @@ function useModuleBundle(moduleSummary: VisibleModule | undefined) {
     async function load() {
       if (!moduleSummary) {
         setBundle(null);
+        setError("");
         return;
       }
 
@@ -159,18 +121,69 @@ function useModuleBundle(moduleSummary: VisibleModule | undefined) {
   return { bundle, loading, error };
 }
 
+function getWeekStats(week: ModuleWeekBundle) {
+  const activities = week.activities.activities;
+  const appChecked = activities.filter((activity) => activity.checked_by === "app").length;
+  const teacherChecked = activities.filter((activity) => activity.checked_by === "teacher").length;
+  const studentChecked = activities.filter((activity) => activity.checked_by === "student").length;
+  const reviewRequired = activities.filter((activity) => activity.teacher_review_required).length;
+  const media = summarizeWeekMedia(week);
+
+  return {
+    totalActivities: activities.length,
+    appChecked,
+    teacherChecked,
+    studentChecked,
+    reviewRequired,
+    media
+  };
+}
+
+function getModuleStats(bundle: ModuleBundle) {
+  return bundle.weeks.reduce(
+    (summary, week) => {
+      const weekStats = getWeekStats(week);
+      summary.totalActivities += weekStats.totalActivities;
+      summary.appChecked += weekStats.appChecked;
+      summary.teacherChecked += weekStats.teacherChecked;
+      summary.studentChecked += weekStats.studentChecked;
+      summary.reviewRequired += weekStats.reviewRequired;
+      summary.media += weekStats.media.total;
+      return summary;
+    },
+    {
+      totalActivities: 0,
+      appChecked: 0,
+      teacherChecked: 0,
+      studentChecked: 0,
+      reviewRequired: 0,
+      media: 0
+    }
+  );
+}
+
+function getDisplayTitle(activity: ModuleActivity) {
+  return activity.student_facing?.en?.title || activity.title;
+}
+
+function getDisplaySummary(activity: ModuleActivity) {
+  return activity.student_facing?.en?.summary || activity.summary;
+}
+
 function LoadingPanel({ label }: { label: string }) {
   return (
-    <section className="panel">
-      <p>{label}</p>
+    <section className="empty-state card-surface">
+      <p className="eyebrow">Loading</p>
+      <h2>{label}</h2>
     </section>
   );
 }
 
 function ErrorPanel({ message }: { message: string }) {
   return (
-    <section className="panel danger">
-      <h2>Load error</h2>
+    <section className="empty-state card-surface danger-surface">
+      <p className="eyebrow">Load error</p>
+      <h2>Something blocked this screen.</h2>
       <p>{message}</p>
     </section>
   );
@@ -178,7 +191,8 @@ function ErrorPanel({ message }: { message: string }) {
 
 function NotFoundPanel({ title }: { title: string }) {
   return (
-    <section className="panel">
+    <section className="empty-state card-surface">
+      <p className="eyebrow">Not found</p>
       <h2>{title}</h2>
       <p>The requested route is not available in the current generated shell.</p>
     </section>
@@ -187,30 +201,52 @@ function NotFoundPanel({ title }: { title: string }) {
 
 function HomePage({ me }: { me: MeResponse }) {
   return (
-    <section className="stack">
-      <div className="panel">
-        <h2>Available Modules</h2>
-        <p>Milestone 1 shows the generated module shell and week/activity navigation, without full activity rendering yet.</p>
-      </div>
-      <div className="card-grid">
+    <section className="stack-lg">
+      <section className="hero-panel">
+        <div>
+          <p className="eyebrow">Fashion LMS</p>
+          <h2>Module review and test shell</h2>
+          <p>
+            Module 1 is available for content verification, media checks, activity-flow review, and app-checkable answer testing.
+          </p>
+        </div>
+        <div className="hero-panel__meta">
+          <span className="status-chip neutral">{me.access.visible_modules.length} visible modules</span>
+          <span className={`status-chip ${me.user.is_test_mode ? "warn" : "success"}`}>
+            {me.user.is_test_mode ? "test mode active" : "normal mode"}
+          </span>
+        </div>
+      </section>
+
+      <section className="module-grid">
         {me.access.visible_modules.map((moduleSummary) => (
-          <Link key={moduleSummary.module_id} to={`/module/${moduleSummary.module_id}`} className="card">
-            <p className="eyebrow">Module {moduleSummary.module_number}</p>
+          <Link key={moduleSummary.module_id} to={`/module/${moduleSummary.module_id}`} className="module-card">
+            <div className="module-card__header">
+              <p className="eyebrow">Module {moduleSummary.module_number}</p>
+              <span className="status-chip neutral">{moduleSummary.source_status}</span>
+            </div>
             <h3>{moduleSummary.title}</h3>
             <p>{moduleSummary.description}</p>
-            <div className="meta-row">
-              <span>{moduleSummary.available_weeks.length} weeks</span>
-              <span>{moduleSummary.source_status}</span>
+            <div className="metric-row">
+              <div>
+                <strong>{moduleSummary.available_weeks.length}</strong>
+                <span>weeks</span>
+              </div>
+              <div>
+                <strong>{moduleSummary.available_weeks[moduleSummary.available_weeks.length - 1]?.week_number ?? 0}</strong>
+                <span>latest week</span>
+              </div>
             </div>
           </Link>
         ))}
+
         {me.access.visible_modules.length === 0 ? (
-          <div className="panel">
+          <section className="empty-state card-surface">
             <h3>No visible modules</h3>
-            <p>No generated modules are currently available for this user in normal mode.</p>
-          </div>
+            <p>No generated modules are currently available for this user.</p>
+          </section>
         ) : null}
-      </div>
+      </section>
     </section>
   );
 }
@@ -224,30 +260,78 @@ function ModulePage({ me }: { me: MeResponse }) {
     return <NotFoundPanel title="Module not available" />;
   }
 
+  if (loading) {
+    return <LoadingPanel label="Loading module bundle..." />;
+  }
+
+  if (error || !bundle) {
+    return <ErrorPanel message={error || "Unable to load module bundle."} />;
+  }
+
+  const stats = getModuleStats(bundle);
+
   return (
-    <section className="stack">
-      <div className="panel">
-        <Link to="/">Back to modules</Link>
-        <p className="eyebrow">Module {moduleSummary.module_number}</p>
-        <h2>{moduleSummary.title}</h2>
-        <p>{moduleSummary.description}</p>
-      </div>
-      {loading ? <LoadingPanel label="Loading module bundle..." /> : null}
-      {error ? <ErrorPanel message={error} /> : null}
-      {bundle ? (
-        <div className="card-grid">
-          {bundle.weeks.map((week) => (
-            <Link key={week.week_id} to={`/module/${moduleSummary.module_id}/week/${week.week_id}`} className="card">
-              <p className="eyebrow">Week {week.week_number}</p>
-              <h3>{week.title}</h3>
-              <p>{week.summary}</p>
-              <div className="meta-row">
-                <span>{week.activities.activities.length} activities</span>
+    <section className="stack-lg">
+      <section className="hero-panel">
+        <div>
+          <Link className="text-link" to="/">
+            Back to modules
+          </Link>
+          <p className="eyebrow">Module {bundle.module_number}</p>
+          <h2>{bundle.title}</h2>
+          <p>{bundle.description}</p>
+        </div>
+        <div className="hero-panel__meta">
+          <span className="status-chip neutral">{bundle.weeks.length} weeks</span>
+          <span className="status-chip success">{stats.appChecked} app-checked</span>
+          <span className="status-chip warn">{stats.teacherChecked} teacher-checked</span>
+        </div>
+      </section>
+
+      <section className="stats-grid">
+        <div className="stat-card">
+          <strong>{stats.totalActivities}</strong>
+          <span>activities</span>
+        </div>
+        <div className="stat-card">
+          <strong>{stats.reviewRequired}</strong>
+          <span>teacher review</span>
+        </div>
+        <div className="stat-card">
+          <strong>{stats.media}</strong>
+          <span>linked assets</span>
+        </div>
+        <div className="stat-card">
+          <strong>{stats.studentChecked}</strong>
+          <span>self-check/student</span>
+        </div>
+      </section>
+
+      <section className="week-list card-surface">
+        <div className="section-heading">
+          <h3>All 14 weeks</h3>
+          <span className="status-chip neutral">Module view</span>
+        </div>
+        {bundle.weeks.map((week) => {
+          const weekStats = getWeekStats(week);
+          return (
+            <Link key={week.week_id} to={`/module/${bundle.module_id}/week/${week.week_id}`} className="week-row">
+              <div className="week-row__title">
+                <p className="eyebrow">Week {week.week_number}</p>
+                <h4>{week.title}</h4>
+                <p>{week.summary}</p>
+              </div>
+              <div className="week-row__meta">
+                <span className="status-chip neutral">{weekStats.totalActivities} activities</span>
+                <span className="status-chip success">{weekStats.appChecked} app</span>
+                <span className="status-chip warn">{weekStats.teacherChecked} teacher</span>
+                <span className="status-chip neutral">{weekStats.media.imageCount} images</span>
+                <span className="status-chip neutral">{weekStats.media.audioCount} audio</span>
               </div>
             </Link>
-          ))}
-        </div>
-      ) : null}
+          );
+        })}
+      </section>
     </section>
   );
 }
@@ -266,39 +350,84 @@ function WeekPage({ me }: { me: MeResponse }) {
     return <LoadingPanel label="Loading week..." />;
   }
 
-  if (error) {
-    return <ErrorPanel message={error} />;
+  if (error || !bundle) {
+    return <ErrorPanel message={error || "Unable to load week."} />;
   }
 
   if (!week) {
     return <NotFoundPanel title="Week not found" />;
   }
 
+  const weekStats = getWeekStats(week);
+  const showReview = me.user.is_test_mode || me.user.is_superuser;
+
   return (
-    <section className="stack">
-      <div className="panel">
-        <Link to={`/module/${moduleSummary.module_id}`}>Back to module</Link>
-        <p className="eyebrow">Week {week.week_number}</p>
-        <h2>{week.title}</h2>
-        <p>{week.summary}</p>
-        <p className="muted">Essential question: {week.essential_question}</p>
-      </div>
-      <div className="list-panel">
-        <h3>Activities</h3>
-        {week.activities.activities.map((activity, index) => (
+    <section className="stack-lg">
+      <section className="hero-panel">
+        <div>
+          <Link className="text-link" to={`/module/${bundle.module_id}`}>
+            Back to module
+          </Link>
+          <p className="eyebrow">Week {week.week_number}</p>
+          <h2>{week.title}</h2>
+          <p>{week.summary}</p>
+          <p className="muted">Essential question: {week.essential_question}</p>
+        </div>
+        <div className="hero-panel__meta">
+          <span className="status-chip neutral">{weekStats.totalActivities} activities</span>
+          <span className="status-chip success">{weekStats.appChecked} app-checked</span>
+          <span className="status-chip warn">{weekStats.teacherChecked} teacher-checked</span>
+        </div>
+      </section>
+
+      <section className="stats-grid">
+        <div className="stat-card">
+          <strong>{weekStats.media.imageCount}</strong>
+          <span>images</span>
+        </div>
+        <div className="stat-card">
+          <strong>{weekStats.media.audioCount}</strong>
+          <span>audio</span>
+        </div>
+        <div className="stat-card">
+          <strong>{weekStats.reviewRequired}</strong>
+          <span>teacher review</span>
+        </div>
+        <div className="stat-card">
+          <strong>{week.week_manifest.estimated_total_minutes ?? 0}</strong>
+          <span>planned minutes</span>
+        </div>
+      </section>
+
+      <section className="activity-list card-surface">
+        <div className="section-heading">
+          <h3>Activity sequence</h3>
+          <span className="status-chip neutral">Week view</span>
+        </div>
+        {week.activities.activities.map((activity) => (
           <Link
             key={activity.activity_id}
-            to={`/module/${moduleSummary.module_id}/week/${week.week_id}/activity/${activity.activity_id}`}
-            className="list-row"
+            to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${activity.activity_id}`}
+            className="activity-row"
           >
-            <span>{index + 1}.</span>
-            <div>
-              <strong>{activity.student_facing?.en?.title || activity.title}</strong>
-              <p>{activity.student_facing?.en?.summary || activity.summary}</p>
+            <div className="activity-row__main">
+              <div className="activity-row__number">{activity.sequence_number}</div>
+              <div>
+                <h4>{getDisplayTitle(activity)}</h4>
+                <p>{getDisplaySummary(activity)}</p>
+              </div>
+            </div>
+            <div className="chip-wrap">
+              <span className="status-chip neutral">{activity.primary_interaction_type}</span>
+              <span className={`status-chip ${activity.checked_by === "app" ? "success" : activity.checked_by === "teacher" ? "warn" : "neutral"}`}>
+                {activity.checked_by}
+              </span>
+              {activity.asset_refs?.length ? <span className="status-chip neutral">{activity.asset_refs.length} media</span> : null}
+              {showReview && activity.teacher_review_required ? <span className="status-chip accent">review</span> : null}
             </div>
           </Link>
         ))}
-      </div>
+      </section>
     </section>
   );
 }
@@ -319,8 +448,8 @@ function ActivityPage({ me }: { me: MeResponse }) {
     return <LoadingPanel label="Loading activity..." />;
   }
 
-  if (error) {
-    return <ErrorPanel message={error} />;
+  if (error || !bundle) {
+    return <ErrorPanel message={error || "Unable to load activity."} />;
   }
 
   if (!week || !activity) {
@@ -329,71 +458,93 @@ function ActivityPage({ me }: { me: MeResponse }) {
 
   const previous = activityIndex > 0 ? week.activities.activities[activityIndex - 1] : null;
   const next = activityIndex < week.activities.activities.length - 1 ? week.activities.activities[activityIndex + 1] : null;
+  const showReviewPanel = me.user.is_test_mode || me.user.is_superuser;
 
   return (
-    <section className="stack">
-      <div className="panel">
-        <Link to={`/module/${moduleSummary.module_id}/week/${week.week_id}`}>Back to week</Link>
-        <p className="eyebrow">{activity.activity_id}</p>
-        <h2>{activity.student_facing?.en?.title || activity.title}</h2>
-        <p>{activity.student_facing?.en?.summary || activity.summary}</p>
-      </div>
-      <div className="panel">
-        <h3>Student-facing instructions</h3>
-        <p>{activity.student_facing?.en?.instructions || "No Milestone 1 renderer yet."}</p>
-        <p className="muted">
-          This page is intentionally a navigation and metadata skeleton for Milestone 1. Full activity renderers start in Milestone 2.
-        </p>
-      </div>
-      <div className="meta-grid">
-        <div className="panel">
-          <h3>Skeleton metadata</h3>
-          <ul>
-            <li>Internal title: {activity.title}</li>
-            <li>Activity ID: {activity.activity_id}</li>
-          </ul>
-        </div>
-        <div className="panel">
-          <h3>Navigation</h3>
-          <div className="action-row">
-            {previous ? (
-              <Link to={`/module/${moduleSummary.module_id}/week/${week.week_id}/activity/${previous.activity_id}`}>
-                Previous activity
+    <section className="stack-lg">
+      <section className="activity-shell">
+        <div className="activity-shell__main">
+          <div className="activity-toolbar card-surface">
+            <div className="activity-toolbar__paths">
+              <Link className="text-link" to={`/module/${bundle.module_id}/week/${week.week_id}`}>
+                Back to week
               </Link>
-            ) : (
-              <span className="muted">First activity</span>
-            )}
-            {next ? (
-              <Link to={`/module/${moduleSummary.module_id}/week/${week.week_id}/activity/${next.activity_id}`}>
-                Next activity
-              </Link>
-            ) : (
-              <span className="muted">Last activity</span>
-            )}
+              <span className="status-chip neutral">{activity.activity_id}</span>
+            </div>
+            <div className="question-actions">
+              {previous ? (
+                <Link className="secondary-button link-button" to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${previous.activity_id}`}>
+                  Previous
+                </Link>
+              ) : (
+                <span className="status-chip neutral">First activity</span>
+              )}
+              {next ? (
+                <Link className="primary-button link-button" to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${next.activity_id}`}>
+                  Next
+                </Link>
+              ) : (
+                <span className="status-chip neutral">Last activity</span>
+              )}
+            </div>
           </div>
+
+          <ActivityRenderer activity={activity} isReviewMode={me.user.is_test_mode} week={week} />
         </div>
-      </div>
+
+        <aside className="activity-shell__side">
+          <section className="card-surface side-panel">
+            <div className="section-heading">
+              <h3>Jump in this week</h3>
+              <span className="status-chip neutral">{week.activities.activities.length} items</span>
+            </div>
+            <nav className="jump-list">
+              {week.activities.activities.map((candidate) => (
+                <Link
+                  key={candidate.activity_id}
+                  className={`jump-row${candidate.activity_id === activity.activity_id ? " is-current" : ""}`}
+                  to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${candidate.activity_id}`}
+                >
+                  <span>{candidate.sequence_number}</span>
+                  <div>
+                    <strong>{getDisplayTitle(candidate)}</strong>
+                    <p>{candidate.primary_interaction_type}</p>
+                  </div>
+                </Link>
+              ))}
+            </nav>
+          </section>
+
+          {showReviewPanel ? <ReviewMetadataPanel activity={activity} week={week} /> : null}
+        </aside>
+      </section>
     </section>
   );
 }
 
 function AdminPage({ me }: { me: MeResponse }) {
   return (
-    <section className="stack">
-      <div className="panel">
-        <h2>Admin Shell</h2>
-        <p>This Milestone 1 route confirms the superuser gate is wired.</p>
-        <p className="muted">Signed in as {me.user.email}</p>
-      </div>
-      <div className="panel">
-        <h3>Not yet implemented</h3>
-        <ul>
-          <li>User management UI</li>
-          <li>Module access toggles</li>
-          <li>Test mode management</li>
-          <li>Content testing comment triage</li>
+    <section className="stack-lg">
+      <section className="hero-panel">
+        <div>
+          <p className="eyebrow">Admin</p>
+          <h2>Superuser access confirmed</h2>
+          <p>This milestone keeps admin intentionally light while focusing on Module 1 rendering and review mode.</p>
+        </div>
+        <div className="hero-panel__meta">
+          <span className="status-chip success">superuser</span>
+          <span className="status-chip neutral">{me.user.email}</span>
+        </div>
+      </section>
+
+      <section className="card-surface stack-sm">
+        <h3>Not in Milestone 2</h3>
+        <ul className="support-list">
+          <li>Full user management UI</li>
+          <li>Content testing comments dashboard</li>
+          <li>Gradebook and analytics</li>
         </ul>
-      </div>
+      </section>
     </section>
   );
 }
@@ -402,35 +553,63 @@ function NotFoundPage() {
   return <NotFoundPanel title="Page not found" />;
 }
 
+function TestModeBanner() {
+  return (
+    <section className="test-banner">
+      <div>
+        <p className="eyebrow">TEST MODE</p>
+        <h2>Progress and submissions are not being saved.</h2>
+      </div>
+      <div className="test-banner__meta">
+        <span>Free navigation and retry are enabled.</span>
+        <span>Missing media is shown for review.</span>
+      </div>
+    </section>
+  );
+}
+
 function Shell({ me }: { me: MeResponse }) {
   const location = useLocation();
 
   return (
-    <div className="shell">
-      <header className="topbar">
+    <div className="app-shell">
+      {me.user.is_test_mode ? <TestModeBanner /> : null}
+      <header className="app-header">
         <div>
           <p className="eyebrow">Fashion LMS</p>
-          <h1>Milestone 1 Shell</h1>
+          <h1>Module 1 rendering review</h1>
+          <p className="muted">Review content, media, and answer behavior in the Worker-served shell.</p>
         </div>
-        <div className="user-card">
-          <div>{me.user.display_name || me.user.email}</div>
-          <div className="muted">{me.user.email}</div>
-          <div className="pill-row">
-            <span className="pill">{me.user.role}</span>
-            {me.user.is_test_mode ? <span className="pill warn">test mode</span> : null}
+        <div className="profile-card">
+          <strong>{me.user.display_name || me.user.email}</strong>
+          <span>{me.user.email}</span>
+          <div className="chip-wrap">
+            <span className="status-chip neutral">{me.user.role}</span>
+            {me.user.is_test_mode ? <span className="status-chip warn">test mode</span> : null}
+            {me.user.is_superuser ? <span className="status-chip accent">superuser</span> : null}
           </div>
         </div>
       </header>
-      <nav className="primary-nav">
-        <Link to="/">Modules</Link>
-        {me.access.can_access_admin ? <Link to="/admin">Admin</Link> : null}
-        <span className="muted path">{location.pathname}</span>
+
+      <nav className="top-nav">
+        <Link className="top-nav__link" to="/">
+          Modules
+        </Link>
+        {me.access.can_access_admin ? (
+          <Link className="top-nav__link" to="/admin">
+            Admin
+          </Link>
+        ) : null}
+        <span className="top-nav__path">{location.pathname}</span>
       </nav>
+
       {!me.user.is_enabled ? (
-        <section className="panel">
+        <section className="empty-state card-surface">
           <h2>Access disabled</h2>
           <p>Your login was recognized, but your LMS access is disabled.</p>
-          <a href={me.support.login_help_url}>Problems logging in?</a>
+          <a className="text-link" href={me.support.login_help_url}>
+            Problems logging in?
+          </a>
         </section>
       ) : (
         <Routes>

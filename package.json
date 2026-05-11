@@ -7,9 +7,10 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "npm run build:content && vite dev",
+    "dev": "npm run build:content && npm run sync:assets && vite dev",
     "build:content": "node ./tools/build-app-content.mjs",
-    "build": "npm run build:content && vite build",
+    "sync:assets": "node ./tools/sync-public-assets.mjs",
+    "build": "npm run build:content && npm run sync:assets && vite build",
     "preview": "npm run build && vite preview",
     "deploy": "npm run build && wrangler deploy",
     "typecheck": "tsc --noEmit",
