@@ -1,5 +1,13 @@
 # Fashion Design English LMS — Module Review/Test Mode Requirements
 
+Document filename/path for repository use:
+
+```text
+docs/fashion-lms-requiremements-for-review-mode.md
+```
+
+When Codex, README.md, AGENTS.md, implementation notes, or software build requirements refer to the LMS review/test-mode requirements, they should point to this file path.
+
 ## 1. Purpose
 
 This document defines the first requirements draft for the Fashion Design English LMS with built-in review and testing capabilities.
@@ -1098,3 +1106,497 @@ The next working document should be an implementation-oriented requirements vers
 - Codex implementation prompt
 - acceptance tests
 
+## 19. Implementation Milestones
+
+### 19.1 Milestone 1 — LMS Shell and Infrastructure
+
+Goal: create the deployable Cloudflare Worker LMS shell with authentication plumbing, D1 migrations, generated content bundle support, and basic navigation.
+
+Milestone 1 should include:
+
+- single Worker-centered project structure
+- `wrangler.jsonc` for `fashion-lms`
+- custom domain/route for `fashion.slopcopy.com`
+- D1 binding `DB` for `fashion_lms_db`
+- `migrations/` directory
+- initial D1 migration for baseline tables
+- Access identity helper with production fail-closed behavior
+- local-dev-only identity override
+- `SUPERUSER_EMAILS` handling
+- `/api/me`
+- user auto-create/update on authenticated request
+- basic React app shell
+- admin route gate
+- generated content bundle script
+- generated Module 1 app-content bundle
+- module/week/activity navigation skeleton
+
+Milestone 1 does not need complete activity rendering.
+
+### 19.2 Milestone 2 — Module 1 Rendering and Test Mode
+
+Goal: render Module 1 in student/test mode well enough to verify content and media.
+
+Milestone 2 should include:
+
+- Module 1 module view
+- week list and week view
+- activity sequence view
+- test mode banner
+- free navigation in test mode
+- image rendering
+- audio rendering
+- basic renderers for Module 1 activity types
+- app-checkable answer behavior in test mode
+- review metadata panel for activities
+- no normal learner progress writes in test mode
+
+### 19.3 Milestone 3 — Normal Student Save/Check Foundation
+
+Goal: support minimal real student progress and submissions outside test mode.
+
+Milestone 3 should include:
+
+- normal-mode module access enforcement
+- activity progress writes
+- submitted-answer writes
+- simple app-check result storage
+- correct/incorrect display for app-checkable activities
+- no gradebook, analytics dashboard, or teacher feedback workflow yet
+
+### 19.4 Milestone 4 — Admin User Management
+
+Goal: let superusers manage access and test mode.
+
+Milestone 4 should include:
+
+- admin dashboard
+- user list
+- user detail screen
+- enable/disable user
+- module access toggles
+- test mode toggle
+- superuser display based on `SUPERUSER_EMAILS` plus D1 role/status data
+
+### 19.5 Milestone 5 — Content Testing Comments and Review Dashboard
+
+Goal: make the LMS useful as the continuing content review system.
+
+Milestone 5 should include:
+
+- test-mode comment submission
+- automatic context capture for module/week/activity/screen
+- category and severity fields
+- admin content testing data list
+- comment detail screen
+- status changes: unread/read/in_progress/completed
+- hard delete
+- content/review dashboard quick flags
+
+## 20. Generated Content Bundle Contract
+
+### 20.1 Source of Truth
+
+Canonical content remains under:
+
+```text
+content/course/
+```
+
+The generated app-content bundle is a build artifact. It must not become the authoring source of truth.
+
+### 20.2 Build Script
+
+Create a content bundle builder, likely:
+
+```text
+tools/build_app_content.py
+```
+
+or, if the implementation is TypeScript-first:
+
+```text
+tools/build-app-content.ts
+```
+
+The script should read the canonical content and emit app-consumable JSON.
+
+### 20.3 Initial Output Paths
+
+Preferred generated paths:
+
+```text
+public/app-content/course-index.json
+public/app-content/modules/module-01.json
+```
+
+Future module outputs should follow the same pattern:
+
+```text
+public/app-content/modules/module-02.json
+public/app-content/modules/module-03.json
+...
+```
+
+### 20.4 Course Index Shape
+
+`course-index.json` should include enough information to render available generated modules without loading every module bundle immediately.
+
+Initial fields should include:
+
+- course ID
+- course title
+- generated timestamp
+- available generated modules
+- module IDs
+- module titles
+- module status from source
+- module bundle path
+
+Only modules with generated bundle files should appear as available modules.
+
+### 20.5 Module Bundle Shape
+
+Each generated module bundle should include:
+
+- source module ID
+- module manifest data
+- weeks
+- week manifests
+- lesson plan text or summary as needed
+- activities
+- vocabulary
+- teacher notes text or extracted sections as needed
+- asset manifest entries
+- image prompt metadata where useful for review mode
+- audio prompt metadata where useful for review mode
+- source path metadata for traceability
+
+The generated bundle should preserve canonical IDs exactly.
+
+### 20.6 Media Paths
+
+Generated content should preserve canonical media target paths such as:
+
+```text
+assets/images/module-01/week-01/...
+assets/audio/module-01/week-01/...
+```
+
+The app should use those paths when rendering images/audio.
+
+### 20.7 Build Validation
+
+The content bundle build should fail or report clearly if:
+
+- required canonical files are missing
+- JSON cannot be parsed
+- module/week/activity references do not resolve
+- media target paths referenced by generated content are missing
+- generated module output cannot be written
+
+The existing `py tools/validate_content.py` remains the main content validator. The app-content build script may add app-specific checks, but it should not replace the canonical validator.
+
+## 21. D1 Migration and Schema Draft
+
+### 21.1 Migration Directory
+
+Use:
+
+```text
+migrations/
+```
+
+Create baseline schema through D1 migrations.
+
+### 21.2 Baseline Tables
+
+Initial migration should create at least:
+
+```text
+users
+user_module_access
+learner_activity_progress
+learner_activity_submissions
+content_testing_comments
+```
+
+### 21.3 users
+
+Required behavior:
+
+- unique email
+- created/updated timestamps
+- first/last login timestamps
+- enabled flag
+- test mode flag
+- role field using `superuser` or `student`
+- root superuser snapshot/display field
+
+### 21.4 user_module_access
+
+Required behavior:
+
+- one row per user/module access switch
+- unique user/module pair
+- enabled flag
+
+### 21.5 learner_activity_progress
+
+Required behavior:
+
+- normal mode only
+- no writes in test mode
+- track activity status and timestamps
+
+### 21.6 learner_activity_submissions
+
+Required behavior:
+
+- normal mode only
+- no writes in test mode
+- store submitted answer JSON
+- store simple app-check result JSON when applicable
+
+### 21.7 content_testing_comments
+
+Required behavior:
+
+- test/review comment storage
+- user snapshot fields
+- module/week/activity context
+- category
+- severity
+- status
+- context JSON
+- hard delete when deleted by a superuser
+
+### 21.8 Migration Commands
+
+Implementation docs should include commands equivalent to:
+
+```text
+wrangler d1 migrations apply fashion_lms_db --local
+wrangler d1 migrations apply fashion_lms_db --remote
+```
+
+Actual commands should match the final `wrangler.jsonc` and D1 database configuration.
+
+## 22. API Contract — First Draft
+
+### 22.1 Identity and Session
+
+```text
+GET /api/me
+```
+
+Returns current authenticated user, app authorization state, superuser status, test mode state, enabled/disabled state, and visible modules summary.
+
+### 22.2 Modules and Content
+
+```text
+GET /api/modules
+GET /api/modules/:moduleId
+```
+
+These may serve from generated app-content files, not D1.
+
+Normal mode should filter visible modules by user access. Test mode should show modules present in generated app-content.
+
+### 22.3 Normal Student Progress/Submissions
+
+```text
+POST /api/progress/activity
+POST /api/submissions/activity
+```
+
+Names may be refined during implementation.
+
+These endpoints must not write normal learner data when the current user is in test mode.
+
+### 22.4 Admin Users
+
+```text
+GET /api/admin/users
+GET /api/admin/users/:userId
+PATCH /api/admin/users/:userId
+PATCH /api/admin/users/:userId/module-access
+```
+
+Admin APIs require superuser access.
+
+### 22.5 Content Testing Comments
+
+```text
+GET /api/content-testing-comments
+POST /api/content-testing-comments
+GET /api/content-testing-comments/:commentId
+PATCH /api/content-testing-comments/:commentId
+DELETE /api/content-testing-comments/:commentId
+```
+
+Creating comments is allowed for test-mode users and superusers in review contexts.
+
+Viewing, updating status/category/severity, and deleting comments requires superuser access.
+
+### 22.6 Review Summary
+
+```text
+GET /api/admin/review-summary
+```
+
+Returns content/review dashboard data for superusers.
+
+## 23. Local Development and Deployment Commands
+
+### 23.1 Expected Scripts
+
+`package.json` should include scripts similar to:
+
+```text
+npm run build:content
+npm run build
+npm run dev
+npm run deploy
+npm run typecheck
+```
+
+Exact names may be adjusted by Codex if the final toolchain requires it, but README.md and AGENTS.md should document the chosen commands.
+
+### 23.2 Local Dev Identity
+
+Local development may use:
+
+```text
+DEV_AUTH_EMAIL=unopenedparachute@gmail.com
+DEV_AUTH_NAME=Unopened Parachute
+```
+
+Production must ignore local-dev identity overrides.
+
+### 23.3 Environment Variables
+
+Required environment variables/secrets/config values include:
+
+```text
+SUPERUSER_EMAILS=unopenedparachute@gmail.com,brianreambrazil@gmail.com
+```
+
+Optional local-only values:
+
+```text
+DEV_AUTH_EMAIL=
+DEV_AUTH_NAME=
+```
+
+### 23.4 D1 Commands
+
+Docs should include local and remote migration commands for `fashion_lms_db`.
+
+### 23.5 Deploy Target
+
+Deploy target:
+
+```text
+fashion.slopcopy.com
+```
+
+Worker/app name:
+
+```text
+fashion-lms
+```
+
+## 24. First Codex Implementation Planning Prompt
+
+Use this as the first Codex prompt before any implementation edits:
+
+```text
+We are working in the repo:
+
+ShootPara/ESP-Fashion-Design
+
+Read this requirements document first:
+
+docs/fashion-lms-requiremements-for-review-mode.md
+
+This is a READ-ONLY implementation planning pass. Do not edit files. Do not commit. Do not push.
+
+Goal:
+Create an implementation plan for the first LMS build milestone using the requirements in docs/fashion-lms-requiremements-for-review-mode.md.
+
+Key decisions already made:
+- app/Worker name: fashion-lms
+- hostname/custom domain: fashion.slopcopy.com
+- single Cloudflare Worker serving React/static assets, API routes, and D1 operations
+- whole hostname gated by Cloudflare Access with Google
+- production identity comes only from Cloudflare Access identity data
+- local dev may use DEV_AUTH_EMAIL / DEV_AUTH_NAME
+- D1 database name: fashion_lms_db
+- D1 binding: DB
+- root superuser env var: SUPERUSER_EMAILS
+- initial superusers: unopenedparachute@gmail.com and brianreambrazil@gmail.com
+- generated app-content bundle from canonical content files
+- D1 migrations from the beginning
+- roles: superuser and student only for first pass
+- no public student profiles, usernames, forums, group chat, or student-to-student messaging
+- hard delete for deleted content testing comments
+
+Read first:
+- AGENTS.md
+- README.md
+- docs/fashion-lms-requiremements-for-review-mode.md
+- docs/fashion-course-content-requirements.md
+- docs/fashion-activity-design-guidance.md
+- content/course/course_manifest.json
+- content/course/modules/module-01/module_manifest.json
+- generated/validation_report.md
+
+Inspect the current repo structure and report:
+1. Recommended file/folder changes for Milestone 1.
+2. Proposed package/tooling choices.
+3. Proposed wrangler.jsonc shape.
+4. Proposed D1 migration files.
+5. Proposed content bundle builder design.
+6. Proposed API route structure.
+7. Proposed React UI skeleton.
+8. Risks or conflicts with the current repo.
+9. Exact implementation sequence for Milestone 1.
+10. Commands to verify the work after implementation.
+
+Do not implement yet. Report only.
+```
+
+## 25. Acceptance Tests — First Draft
+
+### 25.1 Milestone 1 Acceptance Tests
+
+Milestone 1 passes when:
+
+- project installs successfully
+- content bundle generation runs successfully
+- Module 1 generated app-content exists
+- Worker dev server starts locally
+- `/api/me` works in local dev with `DEV_AUTH_EMAIL`
+- local user row is created or updated in D1
+- superuser status is true for env-listed local dev email
+- basic React shell renders
+- admin route rejects non-superusers
+- admin route allows superusers
+- Module 1 appears in generated module navigation
+- D1 migrations apply locally
+- typecheck/build commands pass
+
+### 25.2 Later Acceptance Tests
+
+Later milestones should add tests for:
+
+- activity rendering
+- media rendering
+- test mode navigation
+- normal-mode answer save/check
+- content testing comment creation
+- admin comment triage
+- hard delete
+- production Access identity fail-closed behavior
+```
