@@ -1,20 +1,22 @@
-# Fashion Design English Course Content
+# Fashion Design English LMS and Course Content
 
-This repository contains the content-production system for an **English for Special Purposes course focused on fashion design**.
+This repository contains the canonical course-content source and implementation documentation for an **English for Special Purposes course focused on fashion design**.
 
-The current phase is **content generation only**. The goal is to create structured, reviewable, app-ready curriculum content that can later be converted into SQLite or another app-consumable content pack.
+The repository is entering the **`fashion-lms` build phase**. Canonical course content remains under `content/course/`, and the LMS will consume that content through a generated app-content bundle in a later build step.
 
-This repository is not currently building the student app, teacher app, authentication system, grading system, analytics, deployment pipeline, or final UI.
+Module 1 content and media are currently complete and validated. The current repo milestone is documentation alignment and LMS implementation preparation, not app scaffolding in this document pass.
 
 ## Source of Truth
 
-Use these documents together:
+Use these documents according to the type of work being done:
 
 ```text
+docs/fashion-lms-requiremements-for-review-mode.md
 docs/fashion-course-content-requirements.md
 docs/fashion-activity-design-guidance.md
 ```
 
+- `docs/fashion-lms-requiremements-for-review-mode.md` is the source of truth for LMS implementation, Cloudflare architecture, D1 usage, review/test mode behavior, admin behavior, and implementation milestones.
 - `docs/fashion-course-content-requirements.md` is the source of truth for content-system structure, canonical content format, schemas, validation expectations, and phase boundaries.
 - `docs/fashion-activity-design-guidance.md` is the source of truth for activity-level design quality, concrete student interaction, app-readiness, teacher review needs, and revision workflow.
 
@@ -29,6 +31,28 @@ content/
 ```
 
 Once `content/` exists, it is the canonical structured source for future app/database consumption.
+
+## Current Workstreams
+
+This repository now has two coordinated workstreams:
+
+- canonical course content authoring under `content/course/`
+- LMS implementation planning and build work under the `fashion-lms` requirements
+
+For content-generation work, follow:
+
+```text
+docs/fashion-course-content-requirements.md
+docs/fashion-activity-design-guidance.md
+```
+
+For LMS and app implementation work, read first:
+
+```text
+docs/fashion-lms-requiremements-for-review-mode.md
+```
+
+The content docs still govern canonical content authoring. The LMS requirements document governs app implementation.
 
 ## Project Strategy
 
@@ -60,13 +84,11 @@ future app integration
 
 SQLite is expected in a future phase, but it should be generated from the canonical files under `content/`. SQLite should not be the primary authoring format.
 
-## Current Phase
+## Current Repo State
 
-The current phase creates the content-production foundation.
+The content foundation is already in place, and the repository is now preparing for LMS implementation around that canonical content.
 
-The project is making content app-ready without building the app itself in this phase.
-
-In scope:
+Content-system scope remains in place:
 
 - course/module/week manifests
 - weekly lesson plans
@@ -81,18 +103,22 @@ In scope:
 - validation report
 - documentation for the content pipeline
 
-Out of scope unless explicitly requested:
+LMS planning and documentation scope now also includes:
 
-- app implementation
-- authentication
-- accounts
-- grading infrastructure
-- analytics
-- deployment
+- Worker architecture decisions
+- Cloudflare Access and D1 requirements
+- app-content bundle planning
+- LMS milestone planning
+- implementation-facing documentation alignment
+
+Still out of scope in this documentation-alignment pass unless explicitly requested:
+
+- creating app code or scaffolding
+- deployment setup files
 - production SQLite generation
 - image generation
 - audio generation
-- final UI design
+- final UI design work
 
 ## Expected Repository Structure
 
@@ -432,7 +458,7 @@ Create a database schema and build script that converts validated content files 
 
 ### Phase 6 — Future App Integration
 
-Use the generated database or content pack in a future app.
+Use the generated content and later build artifacts in the `fashion-lms` implementation governed by `docs/fashion-lms-requiremements-for-review-mode.md`.
 
 ## Codex Workflow
 
@@ -446,6 +472,14 @@ README.md
 ```
 
 For activity creation or revision work, both documentation files are required pre-reading, not optional reference material.
+
+Before making LMS or app-implementation changes, Codex should read:
+
+```text
+docs/fashion-lms-requiremements-for-review-mode.md
+AGENTS.md
+README.md
+```
 
 After each implementation task, Codex should report:
 
@@ -509,4 +543,4 @@ After `docs/fashion-course-content-requirements.md`, `README.md`, and `AGENTS.md
 6. Create `generated/validation_report.md` by running validation.
 7. Report files changed, validation result, assumptions, and any needed image/audio assets.
 
-Do not build an app, create production SQLite, or generate media in this phase unless explicitly instructed.
+Do not build app scaffolding during a content-only task unless explicitly instructed. For LMS implementation work, follow `docs/fashion-lms-requiremements-for-review-mode.md`.

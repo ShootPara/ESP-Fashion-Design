@@ -6,6 +6,8 @@ This document defines the content-production requirements for an English for Spe
 
 The current project phase is **content generation only**. The purpose of this phase is to create structured, reviewable, app-ready curriculum content files that can later be converted into a database or content pack for an application.
 
+This document governs canonical content authoring and the content pipeline. LMS and app implementation work is governed separately by `docs/fashion-lms-requiremements-for-review-mode.md`.
+
 This phase does **not** include app development, UI implementation, authentication, student tracking, grading infrastructure, analytics, or deployment.
 
 The immediate goal is to create high-quality weekly course content in structured source files, supported by schemas, manifests, validation scripts, and clear asset-planning files.
@@ -13,6 +15,8 @@ The immediate goal is to create high-quality weekly course content in structured
 This document is the source of truth for content-system structure, canonical content format, schema and validator expectations, and current phase boundaries.
 
 The companion document `docs/fashion-activity-design-guidance.md` is the source of truth for activity-design quality, concrete student interaction, app-readiness at the activity level, teacher review needs, and revision workflow expectations.
+
+For LMS implementation, Cloudflare architecture, D1 decisions, review/test mode behavior, and milestone planning, use `docs/fashion-lms-requiremements-for-review-mode.md`.
 
 ## 2. Project Strategy
 
@@ -1469,7 +1473,7 @@ This is explicitly outside the current content-generation phase.
 Codex should follow these rules:
 
 - Read `docs/fashion-course-content-requirements.md` and `docs/fashion-activity-design-guidance.md` before creating or revising activities.
-- Do not build an app unless explicitly instructed.
+- Do not build app code or scaffolding during content-only tasks unless explicitly instructed.
 - Do not modify unrelated files.
 - Do not rename established files, IDs, or folders without explicit instruction.
 - Do not generate binary media files unless explicitly instructed.
@@ -1569,7 +1573,7 @@ We are building the canonical content source structure for an English for Specia
 
 Read `docs/fashion-course-content-requirements.md` and `docs/fashion-activity-design-guidance.md` and implement Phase 1 only.
 
-Do not build an app. Do not create a production SQLite database. Do not generate images or audio. Do not modify unrelated files.
+Do not build app code or scaffolding during this content-system milestone. Do not create a production SQLite database. Do not generate images or audio. Do not modify unrelated files.
 
 Phase 1 scope:
 1. Create the content directory structure.

@@ -6,7 +6,9 @@ This document defines how course activities should be designed for the Fashion D
 
 The main requirements document defines the overall content-production system. This document focuses specifically on activity design: what students do, how activities should work in a future app, what teachers need in order to mark work, and how feedback and correction should be supported.
 
-Use this document as the source of truth for activity-level design decisions.
+Use this document as the source of truth for activity-level design decisions during content-authoring work.
+
+This document governs activity-authoring quality and app-readiness at the content level. LMS implementation behavior and system architecture are governed separately by `docs/fashion-lms-requiremements-for-review-mode.md`.
 
 The current project is still content generation. This document does not ask Codex to build the app. It tells Codex how to write app-ready activity content so the future app can support the intended workflow without major redesign.
 
@@ -14,6 +16,7 @@ Conflict-resolution rule:
 
 - `docs/fashion-course-content-requirements.md` controls file structure, canonical content format, schema and validator expectations, and phase boundaries.
 - `docs/fashion-activity-design-guidance.md` controls activity-design quality, student interaction, app-readiness, teacher review needs, and revision workflow.
+- `docs/fashion-lms-requiremements-for-review-mode.md` controls LMS implementation behavior, runtime architecture, review/test mode, and admin/system features.
 - If the current schema prevents this guidance from being followed, update the requirements, schema, and validator in a planned follow-up before generating more content.
 
 ## 2. Core Activity Design Principle

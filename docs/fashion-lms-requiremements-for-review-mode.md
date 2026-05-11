@@ -6,7 +6,7 @@ Document filename/path for repository use:
 docs/fashion-lms-requiremements-for-review-mode.md
 ```
 
-When Codex, README.md, AGENTS.md, implementation notes, or software build requirements refer to the LMS review/test-mode requirements, they should point to this file path.
+When Codex, README.md, AGENTS.md, implementation notes, or software build requirements refer to this LMS requirements document, they should point to this file path.
 
 ## 1. Purpose
 
@@ -14,7 +14,7 @@ This document defines the first requirements draft for the Fashion Design Englis
 
 The key design decision is that we will **not** build a separate disposable Module 1 verification app. Instead, the production LMS will include a durable review/test mode that can be used now to verify Module 1 and later to verify Modules 2–8 as they are created.
 
-The immediate implementation goal is to support Module 1 verification while building toward the final app architecture.
+The immediate implementation goal is to support Module 1 verification while building toward the final LMS architecture.
 
 ## 2. Project Context
 
@@ -98,7 +98,7 @@ Decision: use a **single Worker-centered project layout** for the first implemen
 
 Do not split the first implementation into a separate `apps/web` frontend project plus a separate `worker` backend project.
 
-Recommended repo layout for the LMS implementation:
+Recommended repo layout for LMS implementation:
 
 ```text
 src/                         Worker backend, API routing, auth helpers, D1 access

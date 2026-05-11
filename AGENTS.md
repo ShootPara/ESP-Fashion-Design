@@ -2,21 +2,23 @@
 
 ## Project Role
 
-This repository is being used to build the canonical content source for an **English for Special Purposes course focused on fashion design**.
+This repository is being used to build the canonical content source and LMS implementation foundation for an **English for Special Purposes course focused on fashion design**.
 
-The current phase is **content generation only**. Do not build an app unless explicitly instructed.
+Canonical course content remains under `content/course/`. The repository is also beginning the `fashion-lms` build phase. Do not create app code or scaffolding unless the current task explicitly calls for LMS implementation work.
 
 ## Source of Truth
 
 Read and follow:
 
 ```text
+docs/fashion-lms-requiremements-for-review-mode.md
 docs/fashion-course-content-requirements.md
 docs/fashion-activity-design-guidance.md
 ```
 
-Use both documents together:
+Use these documents according to task type:
 
+- `docs/fashion-lms-requiremements-for-review-mode.md` is the source of truth for LMS implementation, Cloudflare architecture, D1 usage, review/test mode behavior, admin behavior, and implementation milestones.
 - `docs/fashion-course-content-requirements.md` is the source of truth for content-system structure, canonical content format, schema and validator expectations, and phase boundaries.
 - `docs/fashion-activity-design-guidance.md` is the source of truth for activity-design quality, concrete student interaction, app-readiness, teacher review needs, and revision workflow.
 
@@ -24,9 +26,9 @@ If the current schema prevents the activity guidance from being followed, plan a
 
 Once `content/` exists, treat it as the canonical structured source for app-ready course content. Existing materials under `docs/` are living course-planning and reference materials. Use relevant `docs/` material to guide content decisions when needed, but do not treat existing docs as the final structured app-ready content format.
 
-## Current Phase Boundary
+## Current Repo Boundary
 
-In scope:
+For content-authoring work, in scope:
 
 - course/module/week content structure
 - manifests
@@ -42,7 +44,9 @@ In scope:
 - validation reports
 - documentation updates directly related to this content pipeline
 
-Out of scope unless explicitly requested:
+For LMS implementation work, follow `docs/fashion-lms-requiremements-for-review-mode.md`.
+
+Still out of scope unless the task explicitly requests implementation work:
 
 - student app
 - teacher/admin app
@@ -329,8 +333,9 @@ Schema and validator hardening for the newer operational activity metadata is ex
 ## Working Rules for Codex
 
 - Read `docs/fashion-course-content-requirements.md`, `docs/fashion-activity-design-guidance.md`, `AGENTS.md`, and `README.md` before creating or revising activities.
+- Read `docs/fashion-lms-requiremements-for-review-mode.md`, `AGENTS.md`, and `README.md` before starting LMS or app implementation work.
 - Keep work scoped to the user’s current milestone.
-- Do not build an app unless explicitly instructed.
+- Do not build app code or scaffolding during content-only tasks.
 - Do not create production SQLite unless explicitly instructed.
 - Do not generate images or audio unless explicitly instructed.
 - Do not modify unrelated files.
@@ -450,3 +455,5 @@ For Phase 1, implement only the content system foundation:
 7. Run validation and write `generated/validation_report.md`.
 8. Update `README.md`.
 9. Update this `AGENTS.md` if needed to remain aligned with the requirements document.
+
+Later LMS implementation work is governed by `docs/fashion-lms-requiremements-for-review-mode.md` and should not rewrite the canonical content-source rules above unless the task explicitly requires that.
