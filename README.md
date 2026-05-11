@@ -544,3 +544,112 @@ After `docs/fashion-course-content-requirements.md`, `README.md`, and `AGENTS.md
 7. Report files changed, validation result, assumptions, and any needed image/audio assets.
 
 Do not build app scaffolding during a content-only task unless explicitly instructed. For LMS implementation work, follow `docs/fashion-lms-requiremements-for-review-mode.md`.
+
+## LMS Milestone 1 Setup
+
+Milestone 1 adds the first `fashion-lms` Worker-centered app shell:
+
+```text
+package.json
+wrangler.jsonc
+src/
+  api/
+  auth/
+  content/
+  db/
+  ui/
+public/
+  app-content/
+migrations/
+tools/build-app-content.mjs
+```
+
+This implementation keeps canonical course content under:
+
+```text
+content/course/
+```
+
+and generates app-consumable bundle files under:
+
+```text
+public/app-content/
+```
+
+The generated bundle is a build artifact derived from canonical content. Do not hand-edit files under `public/app-content/`.
+
+## LMS Install and Local Dev
+
+Install dependencies from the repository root:
+
+```powershell
+npm install
+```
+
+Create a local `.dev.vars` file based on `.dev.vars.example` and set:
+
+```text
+SUPERUSER_EMAILS=unopenedparachute@gmail.com,brianreambrazil@gmail.com
+DEV_AUTH_EMAIL=unopenedparachute@gmail.com
+DEV_AUTH_NAME=Unopened Parachute
+```
+
+The local dev identity override exists only for local development. Production must rely on Cloudflare Access-provided identity data.
+
+## LMS Build and Migrations
+
+Generate app content:
+
+```powershell
+npm run build:content
+```
+
+Apply local D1 migrations:
+
+```powershell
+npx wrangler d1 migrations apply fashion_lms_db --local
+```
+
+Typecheck and build:
+
+```powershell
+npm run typecheck
+npm run build
+```
+
+Start local development:
+
+```powershell
+npm run dev
+```
+
+The npm scripts for `dev`, `build`, and `deploy` run `build:content` first so the generated app bundle stays in sync with `content/course/`.
+
+## LMS Milestone 1 Routes
+
+Milestone 1 includes:
+
+- `GET /api/me`
+- `GET /`
+- `GET /module/:moduleId`
+- `GET /module/:moduleId/week/:weekId`
+- `GET /module/:moduleId/week/:weekId/activity/:activityId`
+- `GET /admin`
+
+The `/admin` route is gated to superusers only.
+
+## LMS Manual Cloudflare Setup Still Required
+
+Milestone 1 code does not fully configure Cloudflare resources by itself. Manual setup still required:
+
+- create the remote D1 database `fashion_lms_db`
+- replace the placeholder `database_id` in `wrangler.jsonc`
+- configure the custom domain `fashion.slopcopy.com`
+- configure Cloudflare Access for the whole hostname with Google as the identity provider
+- set production environment variables, including `SUPERUSER_EMAILS`
+
+For LMS architecture and behavior requirements, keep using:
+
+```text
+docs/fashion-lms-requiremements-for-review-mode.md
+```

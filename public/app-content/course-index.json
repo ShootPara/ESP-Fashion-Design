@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-05-11T20:50:13.190Z",
+  "course_id": "fashion-design-english",
+  "title": "English for Fashion Design",
+  "subtitle": "A bilingual ESP content system for fashion-design learners",
+  "description": "Canonical structured source files for an English for Special Purposes course aligned to the Fashion Design curriculum and designed for future app delivery.",
+  "total_modules": 8,
+  "total_weeks": 112,
+  "available_modules": [
+    {
+      "module_id": "module-01",
+      "module_number": 1,
+      "title": "Studio English Foundations I: Garments, Tools, and Classroom Language",
+      "description": "A first-semester ESP module that introduces fashion-study identity language, studio routines, garment vocabulary, visual description, and short portfolio-ready writing.",
+      "source_status": "seeded",
+      "available_weeks": [
+        {
+          "week_id": "m01w01",
+          "week_number": 1,
+          "title": "Welcome to Fashion Design English"
+        },
+        {
+          "week_id": "m01w02",
+          "week_number": 2,
+          "title": "The Fashion Studio"
+        },
+        {
+          "week_id": "m01w03",
+          "week_number": 3,
+          "title": "Garments and Categories"
+        },
+        {
+          "week_id": "m01w04",
+          "week_number": 4,
+          "title": "Parts of a Garment"
+        },
+        {
+          "week_id": "m01w05",
+          "week_number": 5,
+          "title": "Body, Figure, and Observation Drawing"
+        },
+        {
+          "week_id": "m01w06",
+          "week_number": 6,
+          "title": "Color, Shape, and Line"
+        },
+        {
+          "week_id": "m01w07",
+          "week_number": 7,
+          "title": "Fabric and Texture Basics"
+        },
+        {
+          "week_id": "m01w08",
+          "week_number": 8,
+          "title": "Sewing Actions"
+        },
+        {
+          "week_id": "m01w09",
+          "week_number": 9,
+          "title": "Introduction to Patternmaking English"
+        },
+        {
+          "week_id": "m01w10",
+          "week_number": 10,
+          "title": "Describing a Sketch"
+        },
+        {
+          "week_id": "m01w11",
+          "week_number": 11,
+          "title": "Design Details"
+        },
+        {
+          "week_id": "m01w12",
+          "week_number": 12,
+          "title": "Creative Inspiration"
+        },
+        {
+          "week_id": "m01w13",
+          "week_number": 13,
+          "title": "Giving Simple Design Feedback"
+        },
+        {
+          "week_id": "m01w14",
+          "week_number": 14,
+          "title": "Mini Design Board"
+        }
+      ],
+      "bundle_path": "/app-content/modules/module-01.json"
+    }
+  ]
+}
