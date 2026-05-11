@@ -1,33 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link, Navigate, Route, Routes, useLocation, useParams } from "react-router-dom";
-import type { CourseIndexModuleSummary, ModuleActivity, ModuleBundle, ModuleWeekBundle } from "../types";
+import type { CourseIndexModuleSummary, MeResponse, ModuleActivity, ModuleBundle, ModuleWeekBundle } from "../types";
 import { summarizeWeekMedia } from "./assetPaths";
 import { ActivityRenderer } from "./activityRenderers";
 import { ReviewMetadataPanel } from "./reviewMetadata";
-
-interface MeResponse {
-  authenticated: boolean;
-  user: {
-    id: string;
-    email: string;
-    display_name: string;
-    role: "student" | "superuser";
-    is_superuser: boolean;
-    is_root_superuser: boolean;
-    is_enabled: boolean;
-    is_test_mode: boolean;
-    first_login_at: string;
-    last_login_at: string;
-  };
-  access: {
-    can_access_admin: boolean;
-    visible_modules: CourseIndexModuleSummary[];
-  };
-  support: {
-    email: string;
-    login_help_url: string;
-  };
-}
+import { useActivityPersistence } from "./useActivityPersistence";
 
 function useMe() {
   const [data, setData] = useState<MeResponse | null>(null);
@@ -459,6 +436,12 @@ function ActivityPage({ me }: { me: MeResponse }) {
   const previous = activityIndex > 0 ? week.activities.activities[activityIndex - 1] : null;
   const next = activityIndex < week.activities.activities.length - 1 ? week.activities.activities[activityIndex + 1] : null;
   const showReviewPanel = me.user.is_test_mode || me.user.is_superuser;
+  const persistence = useActivityPersistence({
+    activity,
+    moduleId: bundle.module_id,
+    weekId: week.week_id,
+    me
+  });
 
   return (
     <section className="stack-lg">
@@ -489,7 +472,24 @@ function ActivityPage({ me }: { me: MeResponse }) {
             </div>
           </div>
 
-          <ActivityRenderer activity={activity} isReviewMode={me.user.is_test_mode} week={week} />
+          <ActivityRenderer
+            activity={activity}
+            answer={persistence.answer}
+            appCheckResult={persistence.appCheckResult}
+            checkResponse={persistence.checkResponse}
+            clearItemAnswer={persistence.clearItemAnswer}
+            hasAnyResponse={persistence.hasAnyResponse}
+            hasSavedResponse={persistence.hasSavedResponse}
+            isAppCheckable={persistence.isAppCheckable}
+            isReviewMode={me.user.is_test_mode}
+            isSubmitting={persistence.isSubmitting}
+            loadingState={persistence.loadingState}
+            markComplete={persistence.markComplete}
+            saveResponse={persistence.saveResponse}
+            setItemAnswer={persistence.setItemAnswer}
+            statusMessage={persistence.statusMessage}
+            week={week}
+          />
         </div>
 
         <aside className="activity-shell__side">

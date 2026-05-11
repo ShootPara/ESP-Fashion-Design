@@ -7,6 +7,7 @@ export interface AuthenticatedAppUser {
   isSuperuser: boolean;
   isRootSuperuser: boolean;
   visibleModules: CourseIndexModuleSummary[];
+  enabledModuleIds: Set<string>;
 }
 
 function nowIso() {
@@ -116,14 +117,21 @@ export async function resolveAuthenticatedAppUser(
   const courseIndex = await getCourseIndex(env.ASSETS, new URL(request.url).origin);
   const enabledModuleIds = await listEnabledModuleIdsForUser(env, row.id);
 
-  const visibleModules = row.is_test_mode
-    ? courseIndex.available_modules
-    : courseIndex.available_modules.filter((moduleSummary) => enabledModuleIds.has(moduleSummary.module_id));
+  const visibleModules = !row.is_enabled
+    ? []
+    : row.is_test_mode
+      ? courseIndex.available_modules
+      : courseIndex.available_modules.filter((moduleSummary) => enabledModuleIds.has(moduleSummary.module_id));
 
   return {
     row,
     isSuperuser: effectiveSuperuser,
     isRootSuperuser: root,
-    visibleModules
+    visibleModules,
+    enabledModuleIds
   };
+}
+
+export function canAccessModule(appUser: AuthenticatedAppUser, moduleId: string): boolean {
+  return appUser.visibleModules.some((moduleSummary) => moduleSummary.module_id === moduleId);
 }

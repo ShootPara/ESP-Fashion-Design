@@ -18,7 +18,10 @@ export function createMeResponse(appUser: AuthenticatedAppUser): Response {
     },
     access: {
       can_access_admin: appUser.isSuperuser,
-      visible_modules: appUser.visibleModules
+      visible_modules: appUser.visibleModules.map((moduleSummary) => ({
+        ...moduleSummary,
+        bundle_path: `/api/modules/${moduleSummary.module_id}`
+      }))
     },
     support: {
       email: SUPPORT_EMAIL,

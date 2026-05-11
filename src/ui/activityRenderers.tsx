@@ -1,11 +1,31 @@
 import { Fragment, useState } from "react";
-import type { ActivityInputItem, ModuleActivity, ModuleWeekBundle } from "../types";
+import type {
+  ActivityAnswerPayload,
+  ActivityInputItem,
+  AppCheckItemResult,
+  AppCheckResult,
+  ModuleActivity,
+  ModuleWeekBundle
+} from "../types";
 import { findAssetById, getActivityAssets, type AssetReferenceState } from "./assetPaths";
 
 interface ActivityRendererProps {
   activity: ModuleActivity;
   week: ModuleWeekBundle;
   isReviewMode: boolean;
+  answer: ActivityAnswerPayload;
+  appCheckResult: AppCheckResult | null;
+  setItemAnswer: (itemIndex: number, responseType: string, value: unknown) => void;
+  clearItemAnswer: (itemIndex: number) => void;
+  checkResponse: () => void;
+  saveResponse: () => void;
+  markComplete: () => void;
+  hasSavedResponse: boolean;
+  isAppCheckable: boolean;
+  hasAnyResponse: boolean;
+  isSubmitting: boolean;
+  loadingState: boolean;
+  statusMessage: string;
 }
 
 function normalize(value: string | boolean | undefined | null) {
@@ -36,6 +56,70 @@ function resolveSingleCorrectAnswer(item: ActivityInputItem) {
   }
 
   return [];
+}
+
+function getItemAnswer(answer: ActivityAnswerPayload, itemIndex: number): unknown {
+  return answer.items[String(itemIndex)]?.value;
+}
+
+function getItemResult(appCheckResult: AppCheckResult | null, itemIndex: number): AppCheckItemResult | null {
+  return appCheckResult?.items.find((item) => item.item_index === itemIndex) ?? null;
+}
+
+function formatExpected(result: AppCheckItemResult | null): string {
+  if (!result?.expected) {
+    return "Not provided";
+  }
+
+  if (Array.isArray(result.expected)) {
+    return result.expected.join(", ");
+  }
+
+  if (typeof result.expected === "object") {
+    return Object.entries(result.expected)
+      .map(([key, value]) => `${key} -> ${value}`)
+      .join(", ");
+  }
+
+  return String(result.expected);
+}
+
+function hasValueForItem(item: ActivityInputItem, value: unknown): boolean {
+  switch (item.response_type) {
+    case "single_choice":
+    case "true_false":
+    case "read_and_choose":
+    case "listen_and_choose":
+    case "reading_match":
+    case "multiple_choice":
+      return Array.isArray(value) ? value.length > 0 : Boolean(value);
+    case "word_bank_fill_blank":
+    case "sentence_frame_completion":
+    case "correction_task":
+    case "corrected_sentence":
+      return typeof value === "string" && value.trim().length > 0;
+    case "image_match":
+    case "translation_match":
+    case "category_sort":
+      return typeof value === "object" && value !== null && Object.keys(value as Record<string, string>).length > 0;
+    case "word_ordering":
+      return Array.isArray(value) && value.every((entry) => String(entry ?? "").trim().length > 0);
+    case "structured_text":
+    case "self_check":
+      return (
+        typeof value === "object" &&
+        value !== null &&
+        Object.values(value as Record<string, string>).some((entry) => String(entry ?? "").trim().length > 0)
+      );
+    default:
+      return false;
+  }
+}
+
+function isInteractiveCheckableItem(item: ActivityInputItem): boolean {
+  return !["structured_text", "self_check", "context_display", "reading_text", "reading_passages"].includes(
+    item.response_type ?? ""
+  );
 }
 
 function MissingMediaCard({
@@ -104,37 +188,51 @@ function MediaPreview({
   return null;
 }
 
+function ItemFeedback({ result }: { result: AppCheckItemResult | null }) {
+  if (!result) {
+    return null;
+  }
+
+  return (
+    <p className={`feedback-line ${result.is_correct ? "is-correct" : "is-incorrect"}`}>
+      {result.is_correct ? "Correct." : `Not quite. Expected: ${formatExpected(result)}`}
+    </p>
+  );
+}
+
 function ChoiceItem({
   item,
   index,
-  multiple = false
+  multiple = false,
+  answer,
+  setItemAnswer,
+  clearItemAnswer,
+  checkResponse,
+  isAppCheckable,
+  itemResult
 }: {
   item: ActivityInputItem;
   index: number;
   multiple?: boolean;
+  answer: ActivityAnswerPayload;
+  setItemAnswer: ActivityRendererProps["setItemAnswer"];
+  clearItemAnswer: ActivityRendererProps["clearItemAnswer"];
+  checkResponse: ActivityRendererProps["checkResponse"];
+  isAppCheckable: boolean;
+  itemResult: AppCheckItemResult | null;
 }) {
-  const [selected, setSelected] = useState<string[]>([]);
-  const [checked, setChecked] = useState<null | boolean>(null);
+  const selected = Array.isArray(getItemAnswer(answer, index)) ? (getItemAnswer(answer, index) as string[]) : [];
   const answerKey = resolveSingleCorrectAnswer(item);
   const options = item.options_en ?? [];
 
   function toggle(option: string) {
-    setChecked(null);
-
     if (!multiple) {
-      setSelected([option]);
+      setItemAnswer(index, item.response_type ?? "single_choice", [option]);
       return;
     }
 
-    setSelected((current) =>
-      current.includes(option) ? current.filter((value) => value !== option) : [...current, option]
-    );
-  }
-
-  function checkAnswer() {
-    const sortedSelected = [...selected].map((value) => normalize(value)).sort();
-    const sortedAnswers = [...answerKey].sort();
-    setChecked(JSON.stringify(sortedSelected) === JSON.stringify(sortedAnswers));
+    const next = selected.includes(option) ? selected.filter((value) => value !== option) : [...selected, option];
+    setItemAnswer(index, item.response_type ?? "multiple_choice", next);
   }
 
   return (
@@ -162,33 +260,41 @@ function ChoiceItem({
         })}
       </div>
       <div className="question-actions">
-        <button className="primary-button" disabled={selected.length === 0} onClick={checkAnswer} type="button">
-          Check answer
-        </button>
-        <button
-          className="secondary-button"
-          onClick={() => {
-            setSelected([]);
-            setChecked(null);
-          }}
-          type="button"
-        >
-          Try again
+        {isAppCheckable ? (
+          <button className="primary-button" disabled={selected.length === 0} onClick={checkResponse} type="button">
+            Check answer
+          </button>
+        ) : null}
+        <button className="secondary-button" onClick={() => clearItemAnswer(index)} type="button">
+          Clear
         </button>
       </div>
-      {checked !== null ? (
-        <p className={`feedback-line ${checked ? "is-correct" : "is-incorrect"}`}>
-          {checked ? "Correct." : `Not quite. Correct answer: ${answerKey.join(", ") || "Not provided"}`}
-        </p>
-      ) : null}
+      {isAppCheckable ? <ItemFeedback result={itemResult} /> : null}
+      {!isAppCheckable && answerKey.length > 0 ? <p className="review-note">This activity keeps the learner response but is not app-checked in this milestone.</p> : null}
     </section>
   );
 }
 
-function FillBlankItem({ item, index }: { item: ActivityInputItem; index: number }) {
-  const [value, setValue] = useState("");
-  const [checked, setChecked] = useState<null | boolean>(null);
-  const accepted = (item.accepted_answers ?? []).map((answer) => normalize(answer));
+function FillBlankItem({
+  item,
+  index,
+  answer,
+  setItemAnswer,
+  clearItemAnswer,
+  checkResponse,
+  isAppCheckable,
+  itemResult
+}: {
+  item: ActivityInputItem;
+  index: number;
+  answer: ActivityAnswerPayload;
+  setItemAnswer: ActivityRendererProps["setItemAnswer"];
+  clearItemAnswer: ActivityRendererProps["clearItemAnswer"];
+  checkResponse: ActivityRendererProps["checkResponse"];
+  isAppCheckable: boolean;
+  itemResult: AppCheckItemResult | null;
+}) {
+  const value = typeof getItemAnswer(answer, index) === "string" ? String(getItemAnswer(answer, index)) : "";
 
   return (
     <section className="question-card">
@@ -202,7 +308,12 @@ function FillBlankItem({ item, index }: { item: ActivityInputItem; index: number
       {item.word_bank && item.word_bank.length > 0 ? (
         <div className="chip-wrap">
           {item.word_bank.map((word) => (
-            <button key={word} className="status-chip action" onClick={() => setValue(word)} type="button">
+            <button
+              key={word}
+              className="status-chip action"
+              onClick={() => setItemAnswer(index, item.response_type ?? "word_bank_fill_blank", word)}
+              type="button"
+            >
               {word}
             </button>
           ))}
@@ -210,46 +321,37 @@ function FillBlankItem({ item, index }: { item: ActivityInputItem; index: number
       ) : null}
       <input
         className="text-input"
-        onChange={(event) => {
-          setValue(event.target.value);
-          setChecked(null);
-        }}
+        onChange={(event) => setItemAnswer(index, item.response_type ?? "word_bank_fill_blank", event.target.value)}
         placeholder="Type your answer"
         value={value}
       />
       <div className="question-actions">
-        <button
-          className="primary-button"
-          disabled={!value.trim() || accepted.length === 0}
-          onClick={() => setChecked(accepted.includes(normalize(value)))}
-          type="button"
-        >
-          Check answer
-        </button>
-        <button
-          className="secondary-button"
-          onClick={() => {
-            setValue("");
-            setChecked(null);
-          }}
-          type="button"
-        >
-          Try again
+        {isAppCheckable ? (
+          <button className="primary-button" disabled={!value.trim()} onClick={checkResponse} type="button">
+            Check answer
+          </button>
+        ) : null}
+        <button className="secondary-button" onClick={() => clearItemAnswer(index)} type="button">
+          Clear
         </button>
       </div>
-      {checked !== null ? (
-        <p className={`feedback-line ${checked ? "is-correct" : "is-incorrect"}`}>
-          {checked ? "Correct." : `Not quite. Accepted answers: ${item.accepted_answers?.join(", ") || "Not provided"}`}
-        </p>
-      ) : null}
+      {isAppCheckable ? <ItemFeedback result={itemResult} /> : <p className="review-note">This response can be saved in normal mode.</p>}
     </section>
   );
 }
 
-function CorrectionItem({ item, index }: { item: ActivityInputItem; index: number }) {
-  const [value, setValue] = useState("");
-  const [checked, setChecked] = useState<null | boolean>(null);
-  const accepted = (item.accepted_answers ?? []).map((answer) => normalize(answer));
+function CorrectionItem(props: {
+  item: ActivityInputItem;
+  index: number;
+  answer: ActivityAnswerPayload;
+  setItemAnswer: ActivityRendererProps["setItemAnswer"];
+  clearItemAnswer: ActivityRendererProps["clearItemAnswer"];
+  checkResponse: ActivityRendererProps["checkResponse"];
+  isAppCheckable: boolean;
+  itemResult: AppCheckItemResult | null;
+}) {
+  const { item, index, answer, setItemAnswer, clearItemAnswer, checkResponse, isAppCheckable, itemResult } = props;
+  const value = typeof getItemAnswer(answer, index) === "string" ? String(getItemAnswer(answer, index)) : "";
 
   return (
     <section className="question-card">
@@ -262,53 +364,42 @@ function CorrectionItem({ item, index }: { item: ActivityInputItem; index: numbe
       </header>
       <textarea
         className="text-area"
-        onChange={(event) => {
-          setValue(event.target.value);
-          setChecked(null);
-        }}
+        onChange={(event) => setItemAnswer(index, item.response_type ?? "correction_task", event.target.value)}
         placeholder="Type the corrected sentence"
         value={value}
       />
       <div className="question-actions">
-        <button
-          className="primary-button"
-          disabled={!value.trim() || accepted.length === 0}
-          onClick={() => setChecked(accepted.includes(normalize(value)))}
-          type="button"
-        >
-          Check answer
-        </button>
-        <button
-          className="secondary-button"
-          onClick={() => {
-            setValue("");
-            setChecked(null);
-          }}
-          type="button"
-        >
-          Try again
+        {isAppCheckable ? (
+          <button className="primary-button" disabled={!value.trim()} onClick={checkResponse} type="button">
+            Check answer
+          </button>
+        ) : null}
+        <button className="secondary-button" onClick={() => clearItemAnswer(index)} type="button">
+          Clear
         </button>
       </div>
-      {checked !== null ? (
-        <p className={`feedback-line ${checked ? "is-correct" : "is-incorrect"}`}>
-          {checked ? "Correct." : `Not quite. Accepted answers: ${item.accepted_answers?.join(" / ") || "Not provided"}`}
-        </p>
-      ) : null}
+      {isAppCheckable ? <ItemFeedback result={itemResult} /> : null}
     </section>
   );
 }
 
-function MatchingItem({
-  item,
-  index,
-  isReviewMode,
-  week
-}: {
+function MatchingItem(props: {
   item: ActivityInputItem;
   index: number;
   isReviewMode: boolean;
   week: ModuleWeekBundle;
+  answer: ActivityAnswerPayload;
+  setItemAnswer: ActivityRendererProps["setItemAnswer"];
+  clearItemAnswer: ActivityRendererProps["clearItemAnswer"];
+  checkResponse: ActivityRendererProps["checkResponse"];
+  isAppCheckable: boolean;
+  itemResult: AppCheckItemResult | null;
 }) {
+  const { item, index, isReviewMode, week, answer, setItemAnswer, clearItemAnswer, checkResponse, isAppCheckable, itemResult } = props;
+  const selected =
+    typeof getItemAnswer(answer, index) === "object" && getItemAnswer(answer, index) !== null
+      ? (getItemAnswer(answer, index) as Record<string, string>)
+      : {};
   const assetPreviews = (item.asset_ids ?? [])
     .map((assetId) => findAssetById(week, assetId))
     .filter((asset): asset is AssetReferenceState => Boolean(asset));
@@ -316,17 +407,17 @@ function MatchingItem({
     item.correct_matches ??
     item.matches?.reduce<Record<string, string>>((map, match) => {
       const prompt = match.image_key || match.term_en || "";
-      const answer = match.target_key || match.answer_en || "";
-      if (prompt && answer) {
-        map[prompt] = answer;
+      const response = match.target_key || match.answer_en || "";
+      if (prompt && response) {
+        map[prompt] = response;
       }
       return map;
     }, {}) ??
     item.pairs?.reduce<Record<string, string>>((map, pair) => {
-      const left = pair.pt || pair.term_pt;
-      const right = pair.en || pair.term_en;
-      if (left && right) {
-        map[left] = right;
+      const prompt = pair.pt || pair.term_pt || "";
+      const response = pair.en || pair.term_en || "";
+      if (prompt && response) {
+        map[prompt] = response;
       }
       return map;
     }, {}) ??
@@ -348,13 +439,13 @@ function MatchingItem({
         item.pairs?.map((pair) => pair.pt || pair.term_pt || "").filter(Boolean) ??
         item.terms_en ??
         [];
-  const [selected, setSelected] = useState<Record<string, string>>({});
-  const [checked, setChecked] = useState<null | boolean>(null);
   const asset = findAssetById(week, item.asset_id);
 
-  function checkAnswer() {
-    const allCorrect = prompts.every((prompt) => normalize(selected[prompt]) === normalize(correctMap[prompt]));
-    setChecked(allCorrect);
+  function updatePrompt(prompt: string, value: string) {
+    setItemAnswer(index, item.response_type ?? "image_match", {
+      ...selected,
+      [prompt]: value
+    });
   }
 
   return (
@@ -380,13 +471,10 @@ function MatchingItem({
             <span>{prompt}</span>
             <select
               className="select-input"
-              onChange={(event) => {
-                setSelected((current) => ({ ...current, [prompt]: event.target.value }));
-                setChecked(null);
-              }}
+              onChange={(event) => updatePrompt(prompt, event.target.value)}
               value={selected[prompt] ?? ""}
             >
-              <option value="">Choose…</option>
+              <option value="">Choose...</option>
               {answerChoices.map((choice) => (
                 <option key={choice} value={choice}>
                   {choice}
@@ -397,39 +485,48 @@ function MatchingItem({
         ))}
       </div>
       <div className="question-actions">
-        <button
-          className="primary-button"
-          disabled={prompts.some((prompt) => !selected[prompt]) || prompts.length === 0}
-          onClick={checkAnswer}
-          type="button"
-        >
-          Check answer
-        </button>
-        <button
-          className="secondary-button"
-          onClick={() => {
-            setSelected({});
-            setChecked(null);
-          }}
-          type="button"
-        >
-          Try again
+        {isAppCheckable ? (
+          <button
+            className="primary-button"
+            disabled={prompts.some((prompt) => !selected[prompt]) || prompts.length === 0}
+            onClick={checkResponse}
+            type="button"
+          >
+            Check answer
+          </button>
+        ) : null}
+        <button className="secondary-button" onClick={() => clearItemAnswer(index)} type="button">
+          Clear
         </button>
       </div>
-      {checked !== null ? (
-        <p className={`feedback-line ${checked ? "is-correct" : "is-incorrect"}`}>
-          {checked ? "Correct." : "Not quite. Review the image keys or terms and try again."}
-        </p>
-      ) : null}
+      {isAppCheckable ? <ItemFeedback result={itemResult} /> : null}
     </section>
   );
 }
 
-function WordOrderingItem({ item, index }: { item: ActivityInputItem; index: number }) {
-  const [selected, setSelected] = useState<string[]>(() => new Array(item.correct_order?.length ?? 0).fill(""));
-  const [checked, setChecked] = useState<null | boolean>(null);
+function WordOrderingItem(props: {
+  item: ActivityInputItem;
+  index: number;
+  answer: ActivityAnswerPayload;
+  setItemAnswer: ActivityRendererProps["setItemAnswer"];
+  clearItemAnswer: ActivityRendererProps["clearItemAnswer"];
+  checkResponse: ActivityRendererProps["checkResponse"];
+  isAppCheckable: boolean;
+  itemResult: AppCheckItemResult | null;
+}) {
+  const { item, index, answer, setItemAnswer, clearItemAnswer, checkResponse, isAppCheckable, itemResult } = props;
+  const expectedLength = item.correct_order?.length ?? 0;
+  const selected = Array.isArray(getItemAnswer(answer, index))
+    ? (getItemAnswer(answer, index) as string[])
+    : new Array(expectedLength).fill("");
   const options = item.lines_en ?? [];
-  const answer = item.correct_order ?? [];
+  const answerKey = item.correct_order ?? [];
+
+  function updatePosition(position: number, value: string) {
+    const next = [...selected];
+    next[position] = value;
+    setItemAnswer(index, item.response_type ?? "word_ordering", next);
+  }
 
   return (
     <section className="question-card">
@@ -441,20 +538,11 @@ function WordOrderingItem({ item, index }: { item: ActivityInputItem; index: num
         </div>
       </header>
       <div className="ordering-grid">
-        {answer.map((_, position) => (
+        {answerKey.map((_, position) => (
           <label key={position} className="match-row">
             <span>Line {position + 1}</span>
-            <select
-              className="select-input"
-              onChange={(event) => {
-                const next = [...selected];
-                next[position] = event.target.value;
-                setSelected(next);
-                setChecked(null);
-              }}
-              value={selected[position] ?? ""}
-            >
-              <option value="">Choose…</option>
+            <select className="select-input" onChange={(event) => updatePosition(position, event.target.value)} value={selected[position] ?? ""}>
+              <option value="">Choose...</option>
               {options.map((option) => (
                 <option key={option} value={option}>
                   {option}
@@ -465,42 +553,42 @@ function WordOrderingItem({ item, index }: { item: ActivityInputItem; index: num
         ))}
       </div>
       <div className="question-actions">
-        <button
-          className="primary-button"
-          disabled={selected.some((value) => !value)}
-          onClick={() =>
-            setChecked(JSON.stringify(selected.map((value) => normalize(value))) === JSON.stringify(answer.map((value) => normalize(value))))
-          }
-          type="button"
-        >
-          Check answer
-        </button>
-        <button
-          className="secondary-button"
-          onClick={() => {
-            setSelected(new Array(answer.length).fill(""));
-            setChecked(null);
-          }}
-          type="button"
-        >
-          Try again
+        {isAppCheckable ? (
+          <button className="primary-button" disabled={selected.some((value) => !value)} onClick={checkResponse} type="button">
+            Check answer
+          </button>
+        ) : null}
+        <button className="secondary-button" onClick={() => clearItemAnswer(index)} type="button">
+          Clear
         </button>
       </div>
-      {checked !== null ? (
-        <p className={`feedback-line ${checked ? "is-correct" : "is-incorrect"}`}>
-          {checked ? "Correct." : "Not quite. Review the sentence sequence and try again."}
-        </p>
-      ) : null}
+      {isAppCheckable ? <ItemFeedback result={itemResult} /> : null}
     </section>
   );
 }
 
-function StructuredTextItem({ item, index }: { item: ActivityInputItem; index: number }) {
-  const [values, setValues] = useState<Record<string, string>>({});
+function StructuredTextItem(props: {
+  item: ActivityInputItem;
+  index: number;
+  answer: ActivityAnswerPayload;
+  setItemAnswer: ActivityRendererProps["setItemAnswer"];
+}) {
+  const { item, index, answer, setItemAnswer } = props;
   const fields =
     item.fields?.map((field) => ({ key: field.field_id, label: field.prompt_en })) ??
     item.sentence_frame_en?.split("\n").map((line, lineIndex) => ({ key: `line-${lineIndex}`, label: line })) ??
     [{ key: "response", label: itemTitle(item, index) }];
+  const values =
+    typeof getItemAnswer(answer, index) === "object" && getItemAnswer(answer, index) !== null
+      ? (getItemAnswer(answer, index) as Record<string, string>)
+      : {};
+
+  function updateField(key: string, value: string) {
+    setItemAnswer(index, item.response_type ?? "structured_text", {
+      ...values,
+      [key]: value
+    });
+  }
 
   return (
     <section className="question-card">
@@ -517,16 +605,14 @@ function StructuredTextItem({ item, index }: { item: ActivityInputItem; index: n
             <span>{field.label}</span>
             <textarea
               className="text-area"
-              onChange={(event) => setValues((current) => ({ ...current, [field.key]: event.target.value }))}
-              placeholder="Type here for review"
+              onChange={(event) => updateField(field.key, event.target.value)}
+              placeholder="Type here"
               value={values[field.key] ?? ""}
             />
           </label>
         ))}
       </div>
-      <p className="review-note">
-        This activity is rendered for review and drafting only. It is not auto-graded in Milestone 2.
-      </p>
+      <p className="review-note">This activity can be saved in normal mode but is not auto-graded in this milestone.</p>
     </section>
   );
 }
@@ -557,9 +643,7 @@ function SpeakingItem({ activity }: { activity: ModuleActivity }) {
           ))}
         </ul>
       ) : null}
-      <p className="review-note">
-        Speaking remains teacher-observed only. Milestone 2 does not record audio or auto-score speech.
-      </p>
+      <p className="review-note">Speaking remains teacher-observed only. Milestone 3 records completion only, not audio or scoring.</p>
     </section>
   );
 }
@@ -581,7 +665,7 @@ function PassiveItem({ item, index }: { item: ActivityInputItem; index: number }
           ))}
         </ul>
       ) : (
-        <p className="review-note">This prompt is shown as review/support content in Milestone 2.</p>
+        <p className="review-note">This prompt is shown as review/support content in the current milestone.</p>
       )}
     </section>
   );
@@ -605,49 +689,65 @@ function UnknownItem({ item, index }: { item: ActivityInputItem; index: number }
 function renderItem(
   item: ActivityInputItem,
   index: number,
-  activity: ModuleActivity,
-  week: ModuleWeekBundle,
-  isReviewMode: boolean
+  props: ActivityRendererProps
 ) {
+  const itemResult = getItemResult(props.appCheckResult, index);
+  const commonProps = {
+    item,
+    index,
+    answer: props.answer,
+    setItemAnswer: props.setItemAnswer,
+    clearItemAnswer: props.clearItemAnswer,
+    checkResponse: props.checkResponse,
+    isAppCheckable: props.isAppCheckable,
+    itemResult
+  };
+
   switch (item.response_type) {
     case "single_choice":
     case "true_false":
     case "read_and_choose":
     case "listen_and_choose":
     case "reading_match":
-      return <ChoiceItem index={index} item={item} />;
+      return <ChoiceItem {...commonProps} />;
     case "multiple_choice":
-      return <ChoiceItem index={index} item={item} multiple />;
+      return <ChoiceItem {...commonProps} multiple />;
     case "word_bank_fill_blank":
     case "sentence_frame_completion":
-      return <FillBlankItem index={index} item={item} />;
+      return <FillBlankItem {...commonProps} />;
     case "correction_task":
     case "corrected_sentence":
-      return <CorrectionItem index={index} item={item} />;
+      return <CorrectionItem {...commonProps} />;
     case "image_match":
     case "translation_match":
     case "category_sort":
-      return <MatchingItem index={index} isReviewMode={isReviewMode} item={item} week={week} />;
+      return <MatchingItem {...commonProps} isReviewMode={props.isReviewMode} week={props.week} />;
     case "word_ordering":
-      return <WordOrderingItem index={index} item={item} />;
+      return <WordOrderingItem {...commonProps} />;
     case "structured_text":
-      return <StructuredTextItem index={index} item={item} />;
+    case "self_check":
+      return <StructuredTextItem answer={props.answer} index={index} item={item} setItemAnswer={props.setItemAnswer} />;
     case "teacher_observed_speaking":
     case "speaking_prompt":
-      return <SpeakingItem activity={activity} />;
+      return <SpeakingItem activity={props.activity} />;
     case "context_display":
     case "reading_text":
     case "reading_passages":
-    case "self_check":
       return <PassiveItem index={index} item={item} />;
     default:
       return <UnknownItem index={index} item={item} />;
   }
 }
 
-export function ActivityRenderer({ activity, week, isReviewMode }: ActivityRendererProps) {
+export function ActivityRenderer(props: ActivityRendererProps) {
+  const { activity, week, isReviewMode } = props;
   const items = activity.input?.items ?? [];
   const assets = getActivityAssets(week, activity);
+  const checkableItemsAnswered =
+    !props.isAppCheckable ||
+    items.every((item, index) =>
+      isInteractiveCheckableItem(item) ? hasValueForItem(item, getItemAnswer(props.answer, index)) : true
+    );
 
   return (
     <div className="activity-layout">
@@ -696,19 +796,64 @@ export function ActivityRenderer({ activity, week, isReviewMode }: ActivityRende
         </section>
       ) : null}
 
+      {props.loadingState ? (
+        <section className="card-surface">
+          <p className="muted">Loading saved activity state...</p>
+        </section>
+      ) : null}
+
       <section className="stack-sm">
         {items.length > 0 ? (
-          items.map((item, index) => <Fragment key={`${activity.activity_id}-${index}`}>{renderItem(item, index, activity, week, isReviewMode)}</Fragment>)
+          items.map((item, index) => <Fragment key={`${activity.activity_id}-${index}`}>{renderItem(item, index, props)}</Fragment>)
         ) : activity.primary_interaction_type === "teacher_observed_speaking" ? (
           <SpeakingItem activity={activity} />
         ) : activity.primary_interaction_type === "structured_text" ? (
-          <StructuredTextItem index={0} item={{ fields: [], prompt_en: studentInstructions(activity), response_type: "structured_text" }} />
+          <StructuredTextItem
+            answer={props.answer}
+            index={0}
+            item={{ fields: [], prompt_en: studentInstructions(activity), response_type: "structured_text" }}
+            setItemAnswer={props.setItemAnswer}
+          />
         ) : (
           <section className="question-card">
             <h4>Fallback review renderer</h4>
-            <p>This activity has sparse input data in the generated bundle, so Milestone 2 is showing the surrounding review scaffolding.</p>
+            <p>This activity has sparse input data in the generated bundle, so the shell is showing the surrounding review scaffolding.</p>
           </section>
         )}
+      </section>
+
+      <section className="card-surface stack-sm">
+        <div className="section-heading">
+          <h3>Activity actions</h3>
+          <span className={`status-chip ${isReviewMode ? "warn" : "success"}`}>{isReviewMode ? "test mode" : "normal mode"}</span>
+        </div>
+        <div className="question-actions">
+          {props.isAppCheckable ? (
+            <button
+              className="primary-button"
+              disabled={!checkableItemsAnswered || props.isSubmitting}
+              onClick={props.checkResponse}
+              type="button"
+            >
+              Check answer
+            </button>
+          ) : null}
+          {props.hasSavedResponse ? (
+            <button className="secondary-button" disabled={!props.hasAnyResponse || props.isSubmitting} onClick={props.saveResponse} type="button">
+              Save response
+            </button>
+          ) : (
+            <button className="secondary-button" disabled={props.isSubmitting} onClick={props.markComplete} type="button">
+              Mark complete
+            </button>
+          )}
+        </div>
+        {props.appCheckResult ? (
+          <p className={`feedback-line ${props.appCheckResult.is_correct ? "is-correct" : "is-incorrect"}`}>
+            Score: {props.appCheckResult.score}/{props.appCheckResult.max_score}
+          </p>
+        ) : null}
+        {props.statusMessage ? <p className="review-note">{props.statusMessage}</p> : null}
       </section>
 
       {activity.steps?.length ? (

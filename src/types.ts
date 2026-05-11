@@ -65,6 +65,30 @@ export interface CourseIndex {
   available_modules: CourseIndexModuleSummary[];
 }
 
+export interface MeResponse {
+  authenticated: boolean;
+  user: {
+    id: string;
+    email: string;
+    display_name: string;
+    role: "student" | "superuser";
+    is_superuser: boolean;
+    is_root_superuser: boolean;
+    is_enabled: boolean;
+    is_test_mode: boolean;
+    first_login_at: string;
+    last_login_at: string;
+  };
+  access: {
+    can_access_admin: boolean;
+    visible_modules: CourseIndexModuleSummary[];
+  };
+  support: {
+    email: string;
+    login_help_url: string;
+  };
+}
+
 export interface LocalizedTextGroup {
   title?: string;
   summary?: string;
@@ -243,4 +267,117 @@ export interface ModuleBundle {
   description: string;
   weeks: ModuleWeekBundle[];
   source_paths: Record<string, string>;
+}
+
+export interface LearnerActivityProgressRow {
+  id: string;
+  user_id: string;
+  module_id: string;
+  week_id: string;
+  activity_id: string;
+  status: "not_started" | "in_progress" | "completed";
+  first_opened_at: string | null;
+  last_interacted_at: string;
+  completed_at: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface LearnerActivitySubmissionRow {
+  id: string;
+  user_id: string;
+  module_id: string;
+  week_id: string;
+  activity_id: string;
+  submission_type: string;
+  answer_json: string;
+  app_check_result_json: string | null;
+  is_correct: number | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ActivityAnswerItem {
+  response_type: string;
+  value: unknown;
+}
+
+export interface ActivityAnswerPayload {
+  activity_id: string;
+  items: Record<string, ActivityAnswerItem>;
+}
+
+export interface AppCheckItemResult {
+  item_index: number;
+  response_type: string;
+  prompt_label: string;
+  is_correct: boolean;
+  expected?: string | string[] | Record<string, string>;
+  received?: unknown;
+}
+
+export interface AppCheckResult {
+  checked_at: string;
+  is_correct: boolean;
+  score: number;
+  max_score: number;
+  items: AppCheckItemResult[];
+}
+
+export interface ActivityStateResponse {
+  ok: true;
+  mode: "normal" | "test";
+  persisted: boolean;
+  progress: LearnerActivityProgressRow | null;
+  submission: {
+    id: string;
+    submission_type: string;
+    answer: ActivityAnswerPayload;
+    app_check_result: AppCheckResult | null;
+    is_correct: boolean | null;
+    updated_at: string;
+  } | null;
+}
+
+export interface ActivityProgressRequest {
+  module_id: string;
+  week_id: string;
+  activity_id: string;
+  status: "in_progress" | "completed";
+  event: "view" | "save" | "check" | "mark_complete";
+}
+
+export interface ActivityProgressResponse {
+  ok: true;
+  mode: "normal" | "test";
+  persisted: boolean;
+  reason?: string;
+  progress: LearnerActivityProgressRow | null;
+}
+
+export interface ActivitySubmissionRequest {
+  module_id: string;
+  week_id: string;
+  activity_id: string;
+  submission_type: string;
+  answer: ActivityAnswerPayload;
+  run_app_check: boolean;
+  mark_completed: boolean;
+}
+
+export interface ActivitySubmissionResponse {
+  ok: true;
+  mode: "normal" | "test";
+  persisted: boolean;
+  reason?: string;
+  progress: LearnerActivityProgressRow | null;
+  submission: {
+    id: string;
+    submission_type: string;
+    answer: ActivityAnswerPayload;
+    app_check_result: AppCheckResult | null;
+    is_correct: boolean | null;
+    updated_at: string;
+  } | null;
+  app_check: AppCheckResult | null;
 }
