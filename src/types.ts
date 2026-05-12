@@ -9,8 +9,12 @@ export interface D1PreparedStatement {
   all<T = Record<string, unknown>>(): Promise<{ results: T[] }>;
 }
 
-export interface D1DatabaseLike {
+export interface D1DatabaseSessionLike {
   prepare(query: string): D1PreparedStatement;
+}
+
+export interface D1DatabaseLike extends D1DatabaseSessionLike {
+  withSession?(constraintOrBookmark?: "first-primary" | "first-unconstrained" | string): D1DatabaseSessionLike;
 }
 
 export interface Env {

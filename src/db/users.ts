@@ -1,6 +1,6 @@
 import { getCourseIndex } from "../content/courseContent";
 import { isRootSuperuser } from "../auth/superusers";
-import type { CourseIndexModuleSummary, Env, Identity, UserRow } from "../types";
+import type { CourseIndexModuleSummary, D1DatabaseSessionLike, Env, Identity, UserRow } from "../types";
 
 export interface AuthenticatedAppUser {
   row: UserRow;
@@ -16,8 +16,12 @@ function nowIso() {
   return new Date().toISOString();
 }
 
-async function getUserByEmail(env: Env, email: string): Promise<UserRow | null> {
-  return env.DB.prepare("SELECT * FROM users WHERE email = ? LIMIT 1").bind(email).first<UserRow>();
+function getAuthSession(env: Env): D1DatabaseSessionLike {
+  return env.DB.withSession?.("first-primary") ?? env.DB;
+}
+
+async function getUserByEmail(db: D1DatabaseSessionLike, email: string): Promise<UserRow | null> {
+  return db.prepare("SELECT * FROM users WHERE email = ? LIMIT 1").bind(email).first<UserRow>();
 }
 
 async function listEnabledModuleIdsForUser(env: Env, userId: string): Promise<Set<string>> {
@@ -62,7 +66,8 @@ export async function upsertAuthenticatedUser(
 ): Promise<UserRow> {
   const timestamp = nowIso();
   const root = isRootSuperuser(identity.email, rootSuperusers);
-  const existingUser = await getUserByEmail(env, identity.email);
+  const authSession = getAuthSession(env);
+  const existingUser = await getUserByEmail(authSession, identity.email);
 
   if (!existingUser) {
     const newUser: UserRow = {
@@ -79,7 +84,7 @@ export async function upsertAuthenticatedUser(
       updated_at: timestamp
     };
 
-    await env.DB.prepare(
+    await authSession.prepare(
       `INSERT INTO users (
         id, email, display_name, role, is_enabled, is_test_mode, is_root_superuser,
         first_login_at, last_login_at, created_at, updated_at
@@ -103,7 +108,7 @@ export async function upsertAuthenticatedUser(
     return newUser;
   }
 
-  await env.DB.prepare(
+  await authSession.prepare(
     `UPDATE users
       SET display_name = ?,
           role = ?,
@@ -124,7 +129,7 @@ export async function upsertAuthenticatedUser(
     )
     .run();
 
-  const updatedUser = await getUserByEmail(env, identity.email);
+  const updatedUser = await getUserByEmail(authSession, identity.email);
   if (!updatedUser) {
     throw new Error("User could not be reloaded after update.");
   }

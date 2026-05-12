@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, rmSync } from "node:fs";
 import path from "node:path";
 import { cloudflare } from "@cloudflare/vite-plugin";
 import react from "@vitejs/plugin-react";
@@ -49,6 +49,19 @@ function readLocalWorkerVars() {
   return parseDotEnvFile(devVarsPath);
 }
 
+function removeGeneratedDevVars(outputRoot: string) {
+  const candidatePaths = [
+    path.join(outputRoot, "fashion_lms", ".dev.vars"),
+    path.join(outputRoot, "fashion_lms", ".dev.vars.local")
+  ];
+
+  for (const candidatePath of candidatePaths) {
+    if (existsSync(candidatePath)) {
+      rmSync(candidatePath, { force: true });
+    }
+  }
+}
+
 export default defineConfig(({ command }) => {
   const localWorkerVars = command === "serve" ? readLocalWorkerVars() : {};
 
@@ -79,6 +92,16 @@ export default defineConfig(({ command }) => {
 
             next();
           });
+        }
+      },
+      {
+        name: "strip-generated-dev-vars",
+        writeBundle() {
+          if (command !== "build") {
+            return;
+          }
+
+          removeGeneratedDevVars(path.resolve(process.cwd(), "dist"));
         }
       },
       cloudflare({
