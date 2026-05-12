@@ -3,6 +3,7 @@ import type { Env, Identity } from "../types";
 export const SUPPORT_EMAIL = "unopenedparachute@gmail.com";
 export const SUPPORT_LOGIN_URL =
   "mailto:unopenedparachute@gmail.com?subject=Fashion%20LMS%20login%20problem";
+export const LOCAL_DEV_AUTH_NAME_HEADER = "x-local-dev-auth-name";
 
 function isLocalDevRequest(request: Request): boolean {
   const { hostname } = new URL(request.url);
@@ -31,6 +32,10 @@ function readAccessIdentity(request: Request): Identity | null {
     }
   }
 
+  if (!displayName && isLocalDevRequest(request)) {
+    displayName = request.headers.get(LOCAL_DEV_AUTH_NAME_HEADER)?.trim() ?? "";
+  }
+
   return {
     email,
     displayName,
@@ -56,7 +61,7 @@ function readDevOverride(request: Request, env: Env): Identity | null {
 }
 
 export function getAuthenticatedIdentity(request: Request, env: Env): Identity | null {
-  return readDevOverride(request, env) ?? readAccessIdentity(request);
+  return readAccessIdentity(request) ?? readDevOverride(request, env);
 }
 
 export function createIdentityProblemResponse(status = 401): Response {

@@ -1,5 +1,5 @@
 import { createIdentityProblemResponse, getAuthenticatedIdentity } from "./auth/identity";
-import { parseSuperuserEmails } from "./auth/superusers";
+import { getConfiguredSuperuserEmails } from "./auth/superusers";
 import { createMeResponse } from "./api/me";
 import { createModuleResponse } from "./api/modules";
 import { createActivityStateResponse } from "./api/activityState";
@@ -29,14 +29,14 @@ async function resolveAppUser(request: Request, env: Env) {
     return { identity: null, appUser: null };
   }
 
-  const superusers = parseSuperuserEmails(env.SUPERUSER_EMAILS);
+  const superusers = getConfiguredSuperuserEmails(request, env);
   const appUser = await resolveAuthenticatedAppUser(env, request, identity, superusers);
   return { identity, appUser };
 }
 
 async function handleApiRequest(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
-  const superusers = parseSuperuserEmails(env.SUPERUSER_EMAILS);
+  const superusers = getConfiguredSuperuserEmails(request, env);
 
   if (request.method === "GET" && url.pathname === "/api/health") {
     return Response.json({ ok: true });
