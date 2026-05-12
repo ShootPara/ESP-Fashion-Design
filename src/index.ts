@@ -5,6 +5,13 @@ import { createModuleResponse } from "./api/modules";
 import { createActivityStateResponse } from "./api/activityState";
 import { createActivityProgressResponse } from "./api/activityProgress";
 import { createActivitySubmissionResponse } from "./api/activitySubmissions";
+import { createAdminSummaryResponse } from "./api/adminSummary";
+import {
+  createAdminUserDetailResponse,
+  createAdminUserModuleAccessPatchResponse,
+  createAdminUserPatchResponse,
+  createAdminUsersListResponse
+} from "./api/adminUsers";
 import { resolveAuthenticatedAppUser } from "./db/users";
 import type { Env } from "./types";
 
@@ -21,6 +28,7 @@ async function resolveAppUser(request: Request, env: Env) {
 
 async function handleApiRequest(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
+  const superusers = parseSuperuserEmails(env.SUPERUSER_EMAILS);
 
   if (request.method === "GET" && url.pathname === "/api/health") {
     return Response.json({ ok: true });
@@ -52,6 +60,26 @@ async function handleApiRequest(request: Request, env: Env): Promise<Response> {
     return createActivitySubmissionResponse(request, env, appUser);
   }
 
+  if (request.method === "GET" && url.pathname === "/api/admin/summary") {
+    return createAdminSummaryResponse(request, env, appUser, superusers);
+  }
+
+  if (request.method === "GET" && url.pathname === "/api/admin/users") {
+    return createAdminUsersListResponse(request, env, appUser, superusers);
+  }
+
+  if (request.method === "GET" && /^\/api\/admin\/users\/[^/]+$/.test(url.pathname)) {
+    return createAdminUserDetailResponse(request, env, appUser, superusers);
+  }
+
+  if (request.method === "PATCH" && /^\/api\/admin\/users\/[^/]+$/.test(url.pathname)) {
+    return createAdminUserPatchResponse(request, env, appUser, superusers);
+  }
+
+  if (request.method === "PATCH" && /^\/api\/admin\/users\/[^/]+\/module-access$/.test(url.pathname)) {
+    return createAdminUserModuleAccessPatchResponse(request, env, appUser, superusers);
+  }
+
   return Response.json({ error: "not_found" }, { status: 404 });
 }
 
@@ -61,7 +89,7 @@ async function handleAdminRequest(request: Request, env: Env): Promise<Response>
     return createIdentityProblemResponse();
   }
 
-  if (!appUser.isSuperuser) {
+  if (!appUser.canAccessAdmin) {
     return new Response("Admin access is restricted to superusers.", {
       status: 403,
       headers: {

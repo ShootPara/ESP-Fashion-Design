@@ -61,7 +61,7 @@ export async function createActivitySubmissionResponse(
     return Response.json({ error: "invalid_body" }, { status: 400 });
   }
 
-  if (!appUser.row.is_enabled) {
+  if (!appUser.isEnabled) {
     return Response.json({ error: "user_disabled" }, { status: 403 });
   }
 

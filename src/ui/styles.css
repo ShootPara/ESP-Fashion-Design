@@ -239,12 +239,17 @@ pre {
 .module-grid,
 .stats-grid,
 .media-grid,
-.mini-media-grid {
+.mini-media-grid,
+.admin-link-grid {
   display: grid;
   gap: var(--space-4);
 }
 
 .module-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.admin-link-grid {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
@@ -706,6 +711,86 @@ pre {
   gap: var(--space-2);
 }
 
+.admin-table,
+.admin-module-list {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.admin-user-row,
+.admin-module-row,
+.admin-control-grid,
+.admin-control-card,
+.admin-module-row__meta {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.admin-user-row {
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  padding: var(--space-3) 0;
+  border-top: 1px solid rgba(74, 49, 35, 0.08);
+}
+
+.admin-table__header {
+  padding-top: 0;
+  border-top: 0;
+  color: var(--text-soft);
+}
+
+.admin-user-row--link:hover {
+  background: #faf3eb;
+  border-radius: var(--radius-md);
+  padding-left: var(--space-3);
+  padding-right: var(--space-3);
+  margin-left: calc(var(--space-3) * -1);
+  margin-right: calc(var(--space-3) * -1);
+}
+
+.admin-user-main,
+.admin-user-meta,
+.admin-control-card {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.admin-user-main span,
+.admin-user-meta span,
+.admin-module-row p,
+.admin-control-card p {
+  color: var(--text-soft);
+}
+
+.admin-notice {
+  background: linear-gradient(135deg, #fff7ec 0%, #f6ead8 100%);
+}
+
+.admin-control-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.admin-control-card {
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+}
+
+.admin-module-row {
+  padding: var(--space-3) 0;
+  border-top: 1px solid rgba(74, 49, 35, 0.08);
+}
+
+.admin-module-row:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.admin-module-row__meta {
+  justify-items: start;
+}
+
 .raw-data-block {
   overflow: auto;
   margin: 0;
@@ -759,6 +844,10 @@ pre {
   }
 
   .choice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-user-row {
     grid-template-columns: 1fr;
   }
 

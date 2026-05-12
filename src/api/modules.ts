@@ -8,7 +8,7 @@ export async function createModuleResponse(
   appUser: AuthenticatedAppUser,
   moduleId: string
 ): Promise<Response> {
-  if (!appUser.row.is_enabled) {
+  if (!appUser.isEnabled) {
     return Response.json({ error: "user_disabled" }, { status: 403 });
   }
 

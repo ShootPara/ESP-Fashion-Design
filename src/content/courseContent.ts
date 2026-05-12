@@ -1,4 +1,4 @@
-import type { AssetBinding, CourseIndex, ModuleBundle } from "../types";
+import type { AssetBinding, CourseIndex, CourseIndexModuleCatalogEntry, ModuleBundle } from "../types";
 
 export async function getCourseIndex(assets: AssetBinding, origin: string): Promise<CourseIndex> {
   const request = new Request(new URL("/app-content/course-index.json", origin).toString());
@@ -9,6 +9,14 @@ export async function getCourseIndex(assets: AssetBinding, origin: string): Prom
   }
 
   return (await response.json()) as CourseIndex;
+}
+
+export async function getModuleCatalog(
+  assets: AssetBinding,
+  origin: string
+): Promise<CourseIndexModuleCatalogEntry[]> {
+  const courseIndex = await getCourseIndex(assets, origin);
+  return courseIndex.modules;
 }
 
 export async function getModuleBundle(

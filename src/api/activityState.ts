@@ -37,7 +37,7 @@ export async function createActivityStateResponse(
     return Response.json({ error: "missing_query" }, { status: 400 });
   }
 
-  if (!appUser.row.is_enabled) {
+  if (!appUser.isEnabled) {
     return Response.json({ error: "user_disabled" }, { status: 403 });
   }
 

@@ -41,27 +41,43 @@ export interface UserRow {
   updated_at: string;
 }
 
+export interface CourseIndexWeekSummary {
+  week_id: string;
+  week_number: number;
+  title: string;
+}
+
 export interface CourseIndexModuleSummary {
   module_id: string;
   module_number: number;
   title: string;
   description: string;
   source_status: string;
-  available_weeks: Array<{
-    week_id: string;
-    week_number: number;
-    title: string;
-  }>;
+  available_weeks: CourseIndexWeekSummary[];
   bundle_path: string;
 }
 
+export interface CourseIndexModuleCatalogEntry {
+  module_id: string;
+  module_number: number;
+  title: string;
+  description: string;
+  source_status: string;
+  planned_weeks: number;
+  is_generated: boolean;
+  available_weeks: CourseIndexWeekSummary[];
+  bundle_path: string | null;
+}
+
 export interface CourseIndex {
+  generated_at?: string;
   course_id: string;
   title: string;
   subtitle: string;
   description: string;
   total_modules: number;
   total_weeks: number;
+  modules: CourseIndexModuleCatalogEntry[];
   available_modules: CourseIndexModuleSummary[];
 }
 
@@ -87,6 +103,71 @@ export interface MeResponse {
     email: string;
     login_help_url: string;
   };
+}
+
+export interface AdminSummaryResponse {
+  ok: true;
+  summary: {
+    total_users: number;
+    enabled_users: number;
+    disabled_users: number;
+    test_mode_users: number;
+    superusers: number;
+    root_superusers: number;
+    users_with_module_01: number;
+  };
+}
+
+export interface AdminUserModuleAccessSummary {
+  enabled_module_ids: string[];
+  enabled_count: number;
+  total_modules: number;
+  generated_enabled_count: number;
+  planned_enabled_count: number;
+}
+
+export interface AdminUserSummary {
+  id: string;
+  email: string;
+  display_name: string;
+  first_login_at: string;
+  last_login_at: string;
+  role: "student" | "superuser";
+  is_superuser: boolean;
+  is_root_superuser: boolean;
+  is_enabled: boolean;
+  is_test_mode: boolean;
+  module_access_summary: AdminUserModuleAccessSummary;
+}
+
+export interface AdminModuleAccessEntry extends CourseIndexModuleCatalogEntry {
+  access_enabled: boolean;
+}
+
+export interface AdminUserDetail extends AdminUserSummary {
+  module_access: AdminModuleAccessEntry[];
+}
+
+export interface AdminUsersListResponse {
+  ok: true;
+  users: AdminUserSummary[];
+}
+
+export interface AdminUserDetailResponse {
+  ok: true;
+  user: AdminUserDetail;
+}
+
+export interface UpdateAdminUserRequest {
+  is_enabled?: boolean;
+  is_test_mode?: boolean;
+}
+
+export interface UpdateAdminUserModuleAccessRequest {
+  module_access: Array<{
+    module_id: string;
+    is_enabled: boolean;
+  }>;
 }
 
 export interface LocalizedTextGroup {

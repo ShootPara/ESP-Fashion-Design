@@ -11,13 +11,13 @@ export function createMeResponse(appUser: AuthenticatedAppUser): Response {
       role: appUser.row.role,
       is_superuser: appUser.isSuperuser,
       is_root_superuser: appUser.isRootSuperuser,
-      is_enabled: Boolean(appUser.row.is_enabled),
+      is_enabled: appUser.isEnabled,
       is_test_mode: Boolean(appUser.row.is_test_mode),
       first_login_at: appUser.row.first_login_at,
       last_login_at: appUser.row.last_login_at
     },
     access: {
-      can_access_admin: appUser.isSuperuser,
+      can_access_admin: appUser.canAccessAdmin,
       visible_modules: appUser.visibleModules.map((moduleSummary) => ({
         ...moduleSummary,
         bundle_path: `/api/modules/${moduleSummary.module_id}`

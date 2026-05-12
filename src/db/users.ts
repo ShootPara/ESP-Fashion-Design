@@ -6,6 +6,8 @@ export interface AuthenticatedAppUser {
   row: UserRow;
   isSuperuser: boolean;
   isRootSuperuser: boolean;
+  isEnabled: boolean;
+  canAccessAdmin: boolean;
   visibleModules: CourseIndexModuleSummary[];
   enabledModuleIds: Set<string>;
 }
@@ -26,6 +28,31 @@ async function listEnabledModuleIdsForUser(env: Env, userId: string): Promise<Se
     .all<{ module_id: string }>();
 
   return new Set(result.results.map((row) => row.module_id));
+}
+
+export function getEffectiveIsRootSuperuser(row: Pick<UserRow, "email">, rootSuperusers: Set<string>): boolean {
+  return isRootSuperuser(row.email, rootSuperusers);
+}
+
+export function getEffectiveIsSuperuser(
+  row: Pick<UserRow, "email" | "role">,
+  rootSuperusers: Set<string>
+): boolean {
+  return getEffectiveIsRootSuperuser(row, rootSuperusers) || row.role === "superuser";
+}
+
+export function getEffectiveIsEnabled(
+  row: Pick<UserRow, "email" | "is_enabled">,
+  rootSuperusers: Set<string>
+): boolean {
+  return getEffectiveIsRootSuperuser(row, rootSuperusers) || Boolean(row.is_enabled);
+}
+
+export function canRowAccessAdmin(
+  row: Pick<UserRow, "email" | "role" | "is_enabled">,
+  rootSuperusers: Set<string>
+): boolean {
+  return getEffectiveIsSuperuser(row, rootSuperusers) && getEffectiveIsEnabled(row, rootSuperusers);
 }
 
 export async function upsertAuthenticatedUser(
@@ -90,7 +117,7 @@ export async function upsertAuthenticatedUser(
       identity.displayName || existingUser.display_name,
       root ? "superuser" : existingUser.role,
       root ? 1 : existingUser.is_enabled,
-      root ? 1 : existingUser.is_root_superuser,
+      root ? 1 : 0,
       timestamp,
       timestamp,
       existingUser.id
@@ -112,12 +139,14 @@ export async function resolveAuthenticatedAppUser(
   rootSuperusers: Set<string>
 ): Promise<AuthenticatedAppUser> {
   const row = await upsertAuthenticatedUser(env, identity, rootSuperusers);
-  const root = isRootSuperuser(row.email, rootSuperusers);
-  const effectiveSuperuser = root || row.role === "superuser";
+  const root = getEffectiveIsRootSuperuser(row, rootSuperusers);
+  const effectiveSuperuser = getEffectiveIsSuperuser(row, rootSuperusers);
+  const isEnabled = getEffectiveIsEnabled(row, rootSuperusers);
+  const canAccessAdmin = canRowAccessAdmin(row, rootSuperusers);
   const courseIndex = await getCourseIndex(env.ASSETS, new URL(request.url).origin);
   const enabledModuleIds = await listEnabledModuleIdsForUser(env, row.id);
 
-  const visibleModules = !row.is_enabled
+  const visibleModules = !isEnabled
     ? []
     : row.is_test_mode
       ? courseIndex.available_modules
@@ -127,6 +156,8 @@ export async function resolveAuthenticatedAppUser(
     row,
     isSuperuser: effectiveSuperuser,
     isRootSuperuser: root,
+    isEnabled,
+    canAccessAdmin,
     visibleModules,
     enabledModuleIds
   };

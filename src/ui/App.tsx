@@ -5,6 +5,9 @@ import { summarizeWeekMedia } from "./assetPaths";
 import { ActivityRenderer } from "./activityRenderers";
 import { ReviewMetadataPanel } from "./reviewMetadata";
 import { useActivityPersistence } from "./useActivityPersistence";
+import { AdminDashboardPage } from "./admin/AdminDashboardPage";
+import { AdminUserDetailPage } from "./admin/AdminUserDetailPage";
+import { AdminUsersPage } from "./admin/AdminUsersPage";
 
 function useMe() {
   const [data, setData] = useState<MeResponse | null>(null);
@@ -522,33 +525,6 @@ function ActivityPage({ me }: { me: MeResponse }) {
   );
 }
 
-function AdminPage({ me }: { me: MeResponse }) {
-  return (
-    <section className="stack-lg">
-      <section className="hero-panel">
-        <div>
-          <p className="eyebrow">Admin</p>
-          <h2>Superuser access confirmed</h2>
-          <p>This milestone keeps admin intentionally light while focusing on Module 1 rendering and review mode.</p>
-        </div>
-        <div className="hero-panel__meta">
-          <span className="status-chip success">superuser</span>
-          <span className="status-chip neutral">{me.user.email}</span>
-        </div>
-      </section>
-
-      <section className="card-surface stack-sm">
-        <h3>Not in Milestone 2</h3>
-        <ul className="support-list">
-          <li>Full user management UI</li>
-          <li>Content testing comments dashboard</li>
-          <li>Gradebook and analytics</li>
-        </ul>
-      </section>
-    </section>
-  );
-}
-
 function NotFoundPage() {
   return <NotFoundPanel title="Page not found" />;
 }
@@ -617,9 +593,11 @@ function Shell({ me }: { me: MeResponse }) {
           <Route path="/module/:moduleId" element={<ModulePage me={me} />} />
           <Route path="/module/:moduleId/week/:weekId" element={<WeekPage me={me} />} />
           <Route path="/module/:moduleId/week/:weekId/activity/:activityId" element={<ActivityPage me={me} />} />
+          <Route path="/admin" element={me.access.can_access_admin ? <AdminDashboardPage me={me} /> : <Navigate to="/" replace />} />
+          <Route path="/admin/users" element={me.access.can_access_admin ? <AdminUsersPage /> : <Navigate to="/" replace />} />
           <Route
-            path="/admin"
-            element={me.access.can_access_admin ? <AdminPage me={me} /> : <Navigate to="/" replace />}
+            path="/admin/users/:userId"
+            element={me.access.can_access_admin ? <AdminUserDetailPage /> : <Navigate to="/" replace />}
           />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

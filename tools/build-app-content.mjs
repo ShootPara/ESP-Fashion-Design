@@ -132,10 +132,22 @@ async function main() {
   await mkdir(modulesOutputRoot, { recursive: true });
 
   const availableModules = [];
+  const moduleCatalog = [];
 
   for (const moduleEntry of courseManifest.modules) {
     const moduleManifestPath = path.join(modulesRoot, moduleEntry.module_id, "module_manifest.json");
     if (!(await exists(moduleManifestPath))) {
+      moduleCatalog.push({
+        module_id: moduleEntry.module_id,
+        module_number: moduleEntry.module_number,
+        title: moduleEntry.title,
+        description: "",
+        source_status: moduleEntry.status,
+        planned_weeks: moduleEntry.planned_weeks,
+        is_generated: false,
+        available_weeks: [],
+        bundle_path: null
+      });
       continue;
     }
 
@@ -146,19 +158,24 @@ async function main() {
 
     await writeFile(filePath, `${JSON.stringify(bundle, null, 2)}\n`, "utf8");
 
-    availableModules.push({
+    const moduleSummary = {
       module_id: bundle.module_id,
       module_number: bundle.module_number,
       title: bundle.title,
       description: bundle.description,
       source_status: moduleEntry.status,
+      planned_weeks: moduleEntry.planned_weeks,
+      is_generated: true,
       available_weeks: bundle.weeks.map((week) => ({
         week_id: week.week_id,
         week_number: week.week_number,
         title: week.title
       })),
       bundle_path: bundlePath
-    });
+    };
+
+    moduleCatalog.push(moduleSummary);
+    availableModules.push(moduleSummary);
   }
 
   const courseIndex = {
@@ -169,6 +186,7 @@ async function main() {
     description: courseManifest.description,
     total_modules: courseManifest.total_modules,
     total_weeks: courseManifest.total_weeks,
+    modules: moduleCatalog,
     available_modules: availableModules
   };
 
