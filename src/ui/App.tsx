@@ -3,9 +3,12 @@ import { Link, Navigate, Route, Routes, useLocation, useParams } from "react-rou
 import type { CourseIndexModuleSummary, MeResponse, ModuleActivity, ModuleBundle, ModuleWeekBundle } from "../types";
 import { summarizeWeekMedia } from "./assetPaths";
 import { ActivityRenderer } from "./activityRenderers";
+import { ContentTestingCommentPanel } from "./ContentTestingCommentPanel";
 import { ReviewMetadataPanel } from "./reviewMetadata";
 import { useActivityPersistence } from "./useActivityPersistence";
 import { AdminDashboardPage } from "./admin/AdminDashboardPage";
+import { AdminContentTestingCommentDetailPage } from "./admin/AdminContentTestingCommentDetailPage";
+import { AdminContentTestingCommentsPage } from "./admin/AdminContentTestingCommentsPage";
 import { AdminUserDetailPage } from "./admin/AdminUserDetailPage";
 import { AdminUsersPage } from "./admin/AdminUsersPage";
 
@@ -150,6 +153,47 @@ function getDisplaySummary(activity: ModuleActivity) {
   return activity.student_facing?.en?.summary || activity.summary;
 }
 
+function createReviewContext(input: {
+  pathname: string;
+  isTestMode: boolean;
+  bundle: ModuleBundle;
+  week?: ModuleWeekBundle;
+  activity?: ModuleActivity;
+}) {
+  const { pathname, isTestMode, bundle, week, activity } = input;
+  const assets = week
+    ? (week.asset_manifest?.assets ?? [])
+        .filter((asset) => (activity ? (activity.asset_refs ?? []).includes(asset.asset_id) : true))
+        .map((asset) => ({
+          asset_id: asset.asset_id,
+          asset_type: asset.asset_type,
+          status: asset.status,
+          target_filename: asset.target_filename
+        }))
+    : [];
+
+  return {
+    route_path: pathname,
+    module_title: bundle.title,
+    module_number: bundle.module_number,
+    week_title: week?.title,
+    week_number: week?.week_number,
+    activity_title: activity ? getDisplayTitle(activity) : undefined,
+    activity_sequence_number: activity?.sequence_number,
+    primary_interaction_type: activity?.primary_interaction_type,
+    submission_type: activity?.submission_type,
+    checked_by: activity?.checked_by,
+    teacher_review_required: activity?.teacher_review_required,
+    revision_supported: activity?.revision_supported,
+    asset_refs: activity?.asset_refs ?? [],
+    vocabulary_refs: activity?.vocabulary_refs ?? [],
+    notes_for_app_design: activity?.notes_for_app_design,
+    source_path: activity ? week?.source_paths.activities : week ? week.source_paths.week_root : bundle.source_paths.module_root,
+    visible_asset_statuses: assets,
+    is_test_mode: isTestMode
+  };
+}
+
 function LoadingPanel({ label }: { label: string }) {
   return (
     <section className="empty-state card-surface">
@@ -232,6 +276,7 @@ function HomePage({ me }: { me: MeResponse }) {
 }
 
 function ModulePage({ me }: { me: MeResponse }) {
+  const location = useLocation();
   const { moduleId } = useParams();
   const moduleSummary = me.access.visible_modules.find((item) => item.module_id === moduleId);
   const { bundle, loading, error } = useModuleBundle(moduleSummary);
@@ -249,6 +294,7 @@ function ModulePage({ me }: { me: MeResponse }) {
   }
 
   const stats = getModuleStats(bundle);
+  const showReview = me.user.is_test_mode || me.user.is_superuser;
 
   return (
     <section className="stack-lg">
@@ -312,11 +358,24 @@ function ModulePage({ me }: { me: MeResponse }) {
           );
         })}
       </section>
+
+      {showReview ? (
+        <ContentTestingCommentPanel
+          context={createReviewContext({
+            pathname: location.pathname,
+            isTestMode: me.user.is_test_mode,
+            bundle
+          })}
+          moduleId={bundle.module_id}
+          screenContext="module"
+        />
+      ) : null}
     </section>
   );
 }
 
 function WeekPage({ me }: { me: MeResponse }) {
+  const location = useLocation();
   const { moduleId, weekId } = useParams();
   const moduleSummary = me.access.visible_modules.find((item) => item.module_id === moduleId);
   const { bundle, loading, error } = useModuleBundle(moduleSummary);
@@ -408,11 +467,26 @@ function WeekPage({ me }: { me: MeResponse }) {
           </Link>
         ))}
       </section>
+
+      {showReview ? (
+        <ContentTestingCommentPanel
+          context={createReviewContext({
+            pathname: location.pathname,
+            isTestMode: me.user.is_test_mode,
+            bundle,
+            week
+          })}
+          moduleId={bundle.module_id}
+          screenContext="week"
+          weekId={week.week_id}
+        />
+      ) : null}
     </section>
   );
 }
 
 function ActivityPage({ me }: { me: MeResponse }) {
+  const location = useLocation();
   const { moduleId, weekId, activityId } = useParams();
   const moduleSummary = me.access.visible_modules.find((item) => item.module_id === moduleId);
   const { bundle, loading, error } = useModuleBundle(moduleSummary);
@@ -519,6 +593,21 @@ function ActivityPage({ me }: { me: MeResponse }) {
           </section>
 
           {showReviewPanel ? <ReviewMetadataPanel activity={activity} week={week} /> : null}
+          {showReviewPanel ? (
+            <ContentTestingCommentPanel
+              activityId={activity.activity_id}
+              context={createReviewContext({
+                pathname: location.pathname,
+                isTestMode: me.user.is_test_mode,
+                bundle,
+                week,
+                activity
+              })}
+              moduleId={bundle.module_id}
+              screenContext="activity"
+              weekId={week.week_id}
+            />
+          ) : null}
         </aside>
       </section>
     </section>
@@ -595,6 +684,14 @@ function Shell({ me }: { me: MeResponse }) {
           <Route path="/module/:moduleId/week/:weekId/activity/:activityId" element={<ActivityPage me={me} />} />
           <Route path="/admin" element={me.access.can_access_admin ? <AdminDashboardPage me={me} /> : <Navigate to="/" replace />} />
           <Route path="/admin/users" element={me.access.can_access_admin ? <AdminUsersPage /> : <Navigate to="/" replace />} />
+          <Route
+            path="/admin/content-testing-comments"
+            element={me.access.can_access_admin ? <AdminContentTestingCommentsPage /> : <Navigate to="/" replace />}
+          />
+          <Route
+            path="/admin/content-testing-comments/:commentId"
+            element={me.access.can_access_admin ? <AdminContentTestingCommentDetailPage /> : <Navigate to="/" replace />}
+          />
           <Route
             path="/admin/users/:userId"
             element={me.access.can_access_admin ? <AdminUserDetailPage /> : <Navigate to="/" replace />}

@@ -6,6 +6,14 @@ import { createActivityStateResponse } from "./api/activityState";
 import { createActivityProgressResponse } from "./api/activityProgress";
 import { createActivitySubmissionResponse } from "./api/activitySubmissions";
 import { createAdminSummaryResponse } from "./api/adminSummary";
+import { createContentTestingCommentResponse } from "./api/contentTestingComments";
+import {
+  createAdminContentTestingCommentDeleteResponse,
+  createAdminContentTestingCommentDetailResponse,
+  createAdminContentTestingCommentPatchResponse,
+  createAdminContentTestingCommentsListResponse
+} from "./api/adminContentTestingComments";
+import { createAdminReviewSummaryResponse } from "./api/adminReviewSummary";
 import {
   createAdminUserDetailResponse,
   createAdminUserModuleAccessPatchResponse,
@@ -60,12 +68,36 @@ async function handleApiRequest(request: Request, env: Env): Promise<Response> {
     return createActivitySubmissionResponse(request, env, appUser);
   }
 
+  if (request.method === "POST" && url.pathname === "/api/content-testing-comments") {
+    return createContentTestingCommentResponse(request, env, appUser);
+  }
+
   if (request.method === "GET" && url.pathname === "/api/admin/summary") {
     return createAdminSummaryResponse(request, env, appUser, superusers);
   }
 
+  if (request.method === "GET" && url.pathname === "/api/admin/review-summary") {
+    return createAdminReviewSummaryResponse(request, env, appUser);
+  }
+
   if (request.method === "GET" && url.pathname === "/api/admin/users") {
     return createAdminUsersListResponse(request, env, appUser, superusers);
+  }
+
+  if (request.method === "GET" && url.pathname === "/api/admin/content-testing-comments") {
+    return createAdminContentTestingCommentsListResponse(env, appUser);
+  }
+
+  if (request.method === "GET" && /^\/api\/admin\/content-testing-comments\/[^/]+$/.test(url.pathname)) {
+    return createAdminContentTestingCommentDetailResponse(request, env, appUser);
+  }
+
+  if (request.method === "PATCH" && /^\/api\/admin\/content-testing-comments\/[^/]+$/.test(url.pathname)) {
+    return createAdminContentTestingCommentPatchResponse(request, env, appUser);
+  }
+
+  if (request.method === "DELETE" && /^\/api\/admin\/content-testing-comments\/[^/]+$/.test(url.pathname)) {
+    return createAdminContentTestingCommentDeleteResponse(request, env, appUser);
   }
 
   if (request.method === "GET" && /^\/api\/admin\/users\/[^/]+$/.test(url.pathname)) {

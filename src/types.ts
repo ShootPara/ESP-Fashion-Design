@@ -462,3 +462,164 @@ export interface ActivitySubmissionResponse {
   } | null;
   app_check: AppCheckResult | null;
 }
+
+export type ContentTestingCommentCategory =
+  | "content_issue"
+  | "media_issue"
+  | "answer_key_issue"
+  | "rendering_issue"
+  | "instruction_confusing"
+  | "teacher_review_issue"
+  | "access_or_navigation_issue"
+  | "other";
+
+export type ContentTestingCommentSeverity = "low" | "medium" | "high" | "blocker";
+
+export type ContentTestingCommentStatus = "unread" | "read" | "in_progress" | "completed";
+
+export type ContentTestingCommentScreenContext = "module" | "week" | "activity";
+
+export interface ContentTestingCommentRow {
+  id: string;
+  user_id: string | null;
+  user_email_snapshot: string;
+  user_display_name_snapshot: string;
+  module_id: string;
+  week_id: string;
+  activity_id: string;
+  screen_context: ContentTestingCommentScreenContext;
+  category: ContentTestingCommentCategory;
+  severity: ContentTestingCommentSeverity;
+  status: ContentTestingCommentStatus;
+  comment_text: string;
+  context_json: string;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ContentTestingCommentContext {
+  route_path: string;
+  module_title?: string;
+  module_number?: number;
+  week_title?: string;
+  week_number?: number;
+  activity_title?: string;
+  activity_sequence_number?: number;
+  primary_interaction_type?: string;
+  submission_type?: string;
+  checked_by?: string;
+  teacher_review_required?: boolean;
+  revision_supported?: boolean;
+  asset_refs?: string[];
+  vocabulary_refs?: string[];
+  notes_for_app_design?: string;
+  source_path?: string;
+  visible_asset_statuses?: Array<{
+    asset_id: string;
+    asset_type: string;
+    status: string;
+    target_filename: string;
+  }>;
+  is_test_mode?: boolean;
+}
+
+export interface ContentTestingCommentSummary {
+  id: string;
+  user_email_snapshot: string;
+  user_display_name_snapshot: string;
+  module_id: string;
+  week_id: string;
+  activity_id: string;
+  screen_context: ContentTestingCommentScreenContext;
+  category: ContentTestingCommentCategory;
+  severity: ContentTestingCommentSeverity;
+  status: ContentTestingCommentStatus;
+  comment_text: string;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ContentTestingCommentDetail extends ContentTestingCommentSummary {
+  user_id: string | null;
+  context: ContentTestingCommentContext;
+}
+
+export interface CreateContentTestingCommentRequest {
+  module_id: string;
+  week_id: string;
+  activity_id: string;
+  screen_context: ContentTestingCommentScreenContext;
+  category: ContentTestingCommentCategory;
+  severity: ContentTestingCommentSeverity;
+  comment_text: string;
+  context: ContentTestingCommentContext;
+}
+
+export interface UpdateContentTestingCommentRequest {
+  status?: ContentTestingCommentStatus;
+  category?: ContentTestingCommentCategory;
+  severity?: ContentTestingCommentSeverity;
+}
+
+export interface ContentTestingCommentCreateResponse {
+  ok: true;
+  comment: ContentTestingCommentDetail;
+}
+
+export interface AdminContentTestingCommentsListResponse {
+  ok: true;
+  comments: ContentTestingCommentSummary[];
+}
+
+export interface AdminContentTestingCommentDetailResponse {
+  ok: true;
+  comment: ContentTestingCommentDetail;
+}
+
+export interface AdminContentTestingCommentDeleteResponse {
+  ok: true;
+  deleted_id: string;
+}
+
+export interface ReviewSummaryModuleFlags {
+  module_id: string;
+  module_title: string;
+  total_weeks: number;
+  total_activities: number;
+  missing_or_non_generated_assets: number;
+  broken_asset_references: number;
+  teacher_review_required_activities: number;
+  revision_supported_activities: number;
+  speaking_activities: number;
+  listening_activities: number;
+  app_checkable_activities: number;
+  not_submitted_activities: number;
+  renderer_gap_activities: number;
+}
+
+export interface ReviewSummaryResponse {
+  ok: true;
+  summary: {
+    comments: {
+      total: number;
+      unread: number;
+      in_progress: number;
+      completed: number;
+      high_or_blocker: number;
+    };
+    quick_flags: {
+      modules_scanned: number;
+      total_activities: number;
+      missing_or_non_generated_assets: number;
+      broken_asset_references: number;
+      teacher_review_required_activities: number;
+      revision_supported_activities: number;
+      speaking_activities: number;
+      listening_activities: number;
+      app_checkable_activities: number;
+      not_submitted_activities: number;
+      renderer_gap_activities: number;
+    };
+    modules: ReviewSummaryModuleFlags[];
+  };
+}

@@ -718,6 +718,7 @@ pre {
 }
 
 .admin-user-row,
+.admin-comment-row,
 .admin-module-row,
 .admin-control-grid,
 .admin-control-card,
@@ -728,6 +729,13 @@ pre {
 
 .admin-user-row {
   grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  padding: var(--space-3) 0;
+  border-top: 1px solid rgba(74, 49, 35, 0.08);
+}
+
+.admin-comment-row {
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 0.8fr) minmax(0, 1fr) minmax(0, 0.9fr);
   align-items: center;
   padding: var(--space-3) 0;
   border-top: 1px solid rgba(74, 49, 35, 0.08);
@@ -762,6 +770,16 @@ pre {
   color: var(--text-soft);
 }
 
+.admin-comment-preview {
+  margin: 0.3rem 0 0;
+  color: var(--text-soft);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .admin-notice {
   background: linear-gradient(135deg, #fff7ec 0%, #f6ead8 100%);
 }
@@ -775,6 +793,20 @@ pre {
   border-radius: var(--radius-md);
   background: var(--surface-strong);
   border: 1px solid var(--border);
+}
+
+.review-summary-grid,
+.review-form-grid {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.review-summary-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.review-form-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
 .admin-module-row {
@@ -798,6 +830,12 @@ pre {
   border-radius: var(--radius-sm);
   background: #f5eee7;
   color: #634b3f;
+}
+
+.danger-button {
+  border-color: rgba(142, 56, 36, 0.24);
+  background: #fff2ef;
+  color: #8e3824;
 }
 
 @media (max-width: 1080px) {
@@ -848,6 +886,10 @@ pre {
   }
 
   .admin-user-row {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-comment-row {
     grid-template-columns: 1fr;
   }
 
