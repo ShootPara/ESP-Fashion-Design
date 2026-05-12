@@ -96,7 +96,7 @@ export default defineConfig(({ command }) => {
       },
       {
         name: "strip-generated-dev-vars",
-        writeBundle() {
+        closeBundle() {
           if (command !== "build") {
             return;
           }

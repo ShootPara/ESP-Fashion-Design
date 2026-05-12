@@ -1,4 +1,5 @@
 import { canAccessModule, type AuthenticatedAppUser } from "../db/users";
+import { getModuleBundle } from "../content/courseContent";
 import {
   CONTENT_TESTING_COMMENT_CATEGORIES,
   CONTENT_TESTING_COMMENT_SEVERITIES,
@@ -31,6 +32,37 @@ function isCreateContentTestingCommentRequest(body: unknown): body is CreateCont
   );
 }
 
+async function validateCommentContext(
+  request: Request,
+  env: Env,
+  body: CreateContentTestingCommentRequest
+): Promise<Response | null> {
+  const bundle = await getModuleBundle(env.ASSETS, new URL(request.url).origin, body.module_id);
+  if (!bundle) {
+    return Response.json({ error: "module_not_found" }, { status: 404 });
+  }
+
+  if (body.screen_context === "module") {
+    return null;
+  }
+
+  const week = bundle.weeks.find((candidate) => candidate.week_id === body.week_id);
+  if (!week) {
+    return Response.json({ error: "week_not_found" }, { status: 404 });
+  }
+
+  if (body.screen_context === "week") {
+    return null;
+  }
+
+  const activity = week.activities.activities.find((candidate) => candidate.activity_id === body.activity_id);
+  if (!activity) {
+    return Response.json({ error: "activity_not_found" }, { status: 404 });
+  }
+
+  return null;
+}
+
 export async function createContentTestingCommentResponse(
   request: Request,
   env: Env,
@@ -45,17 +77,23 @@ export async function createContentTestingCommentResponse(
     return Response.json({ error: "user_disabled" }, { status: 403 });
   }
 
-  if (!canAccessModule(appUser, body.module_id)) {
+  const hasNormalModuleAccess = canAccessModule(appUser, body.module_id);
+  if (!appUser.canAccessAdmin && !hasNormalModuleAccess) {
     return Response.json({ error: "module_forbidden" }, { status: 403 });
   }
 
-  if (!appUser.row.is_test_mode && !appUser.canAccessAdmin) {
+  if (!appUser.canAccessAdmin && !appUser.row.is_test_mode) {
     return Response.json({ error: "comment_submission_forbidden" }, { status: 403 });
   }
 
   const trimmedText = body.comment_text.trim();
   if (!trimmedText) {
     return Response.json({ error: "comment_text_required" }, { status: 400 });
+  }
+
+  const contextError = await validateCommentContext(request, env, body);
+  if (contextError) {
+    return contextError;
   }
 
   const comment = await createContentTestingComment(env.DB, {
