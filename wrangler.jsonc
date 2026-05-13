@@ -21,7 +21,7 @@
 	},
 	"d1_databases": [
 		{
-			"binding": "db",
+			"binding": "DB",
 			"database_name": "fashion_lms_db",
 			"database_id": "831f1465-041d-434c-946d-d1c616ab2747"
 		}
