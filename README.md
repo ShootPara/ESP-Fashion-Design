@@ -596,6 +596,8 @@ DEV_AUTH_NAME=Unopened Parachute
 
 The local dev identity override exists only for local development. Production must rely on Cloudflare Access-provided identity data.
 
+`.dev.vars` is local-only, must never be committed, and must never be deployed as a production secret source.
+
 ## LMS Build and Migrations
 
 Generate app content:
@@ -625,6 +627,149 @@ npm run dev
 
 The npm scripts for `dev`, `build`, and `deploy` run `build:content` first so the generated app bundle stays in sync with `content/course/`.
 
+## LMS Production Deployment Runbook
+
+Use this runbook during the real production deployment pass for:
+
+```text
+fashion-lms
+fashion.slopcopy.com
+fashion_lms_db
+DB
+```
+
+### Production Preconditions
+
+- Do not put secrets in git.
+- Do not commit `.dev.vars`.
+- Do not use `DEV_AUTH_EMAIL` or `DEV_AUTH_NAME` in production.
+- Keep canonical course content under `content/course/` unchanged during deployment prep unless a separate content task explicitly requires changes.
+- The whole hostname should be gated by Cloudflare Access with Google before production use.
+
+### 1. Create the Remote D1 Database
+
+Run:
+
+```powershell
+npx wrangler d1 create fashion_lms_db
+```
+
+Cloudflare will return the real `database_id` UUID for `fashion_lms_db`.
+
+### 2. Confirm the Real `database_id`
+
+Open:
+
+```text
+wrangler.jsonc
+```
+
+The current production-target block should look like:
+
+```json
+"d1_databases": [
+  {
+    "binding": "DB",
+    "database_name": "fashion_lms_db",
+    "database_id": "831f1465-041d-434c-946d-d1c616ab2747"
+  }
+]
+```
+
+If the remote D1 database is ever recreated, replace the `database_id` value with the new UUID returned by the `wrangler d1 create` command.
+
+### 3. Local Verification Before Deployment
+
+Run from the repository root:
+
+```powershell
+npm run build:content
+npm run db:migrate:local
+npm run typecheck
+npm run build
+```
+
+Also verify that no `.dev.vars` file exists anywhere inside:
+
+```text
+dist/
+```
+
+The Vite build configuration strips generated `.dev.vars` artifacts from build output. Treat any `.dev.vars` file found in `dist/` as a deployment blocker.
+
+### 4. Set the Production Superuser Secret
+
+Set `SUPERUSER_EMAILS` in Cloudflare for the Worker:
+
+```powershell
+'unopenedparachute@gmail.com,brianreambrazil@gmail.com' | npx wrangler secret put SUPERUSER_EMAILS
+```
+
+This value is the root authority for superuser access.
+
+### 5. Apply Remote D1 Migrations
+
+Run:
+
+```powershell
+npm run db:migrate:remote
+```
+
+This applies the repo `migrations/` files to the remote `fashion_lms_db` database.
+
+### 6. Deploy the Worker
+
+Run:
+
+```powershell
+npm run deploy
+```
+
+The deploy script runs the content build and app build before `wrangler deploy`.
+
+### 7. Post-Deploy Smoke Tests
+
+Check these URLs after deploy:
+
+- `https://fashion.slopcopy.com/`
+- `https://fashion.slopcopy.com/api/health`
+- `https://fashion.slopcopy.com/api/me`
+- `https://fashion.slopcopy.com/admin`
+- `https://fashion.slopcopy.com/module/module-01`
+- `https://fashion.slopcopy.com/module/module-01/week/m01w01`
+- `https://fashion.slopcopy.com/module/module-01/week/m01w01/activity/m01w01-a01`
+- `https://fashion.slopcopy.com/api/modules/module-01`
+
+Expected outcomes:
+
+- Cloudflare Access prompts for Google login when needed.
+- `/api/health` returns `{ "ok": true }`.
+- `/api/me` returns the authenticated user and correct superuser/admin state.
+- Module 1 routes render successfully.
+- `/admin` is available to the configured superusers.
+
+### 8. Rollback and Recovery Notes
+
+Useful Worker rollback commands:
+
+```powershell
+npx wrangler deployments list
+npx wrangler rollback
+```
+
+Useful D1 recovery/export commands:
+
+```powershell
+npx wrangler d1 export fashion_lms_db --remote
+npx wrangler d1 time-travel info fashion_lms_db
+```
+
+Important recovery notes:
+
+- Rolling back the Worker does not automatically roll back D1 schema or data.
+- If Cloudflare Access policy is misconfigured, fix the Access application in the Cloudflare dashboard.
+- If `SUPERUSER_EMAILS` is wrong, update the secret and redeploy.
+
 ## LMS Milestone 1 Routes
 
 Milestone 1 includes:
@@ -643,10 +788,16 @@ The `/admin` route is gated to superusers only.
 Milestone 1 code does not fully configure Cloudflare resources by itself. Manual setup still required:
 
 - create the remote D1 database `fashion_lms_db`
-- replace the placeholder `database_id` in `wrangler.jsonc`
+- confirm the configured `database_id` in `wrangler.jsonc` matches the real remote D1 UUID
 - configure the custom domain `fashion.slopcopy.com`
 - configure Cloudflare Access for the whole hostname with Google as the identity provider
 - set production environment variables, including `SUPERUSER_EMAILS`
+
+Deployment-prep repo alignment already in place:
+
+- `workers_dev` is disabled in `wrangler.jsonc`
+- the repo now points at the configured remote D1 UUID for `fashion_lms_db`
+- `.dev.vars` remains local-only and must not be committed or deployed
 
 For LMS architecture and behavior requirements, keep using:
 

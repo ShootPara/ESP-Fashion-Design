@@ -1,29 +1,29 @@
 {
-	"$schema": "./node_modules/wrangler/config-schema.json",
-	"name": "fashion-lms",
-	"main": "./src/index.ts",
-	"compatibility_date": "2026-05-11",
-	"workers_dev": true,
-	"routes": [
-		{
-			"pattern": "fashion.slopcopy.com",
-			"custom_domain": true
-		}
-	],
-	"assets": {
-		"binding": "ASSETS",
-		"not_found_handling": "single-page-application",
-		"run_worker_first": [
-			"/api/*",
-			"/admin*",
-			"/app-content/modules/*"
-		]
-	},
-	"d1_databases": [
-		{
-			"binding": "DB",
-			"database_name": "fashion_lms_db",
-			"database_id": "831f1465-041d-434c-946d-d1c616ab2747"
-		}
-	]
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "fashion-lms",
+  "main": "./src/index.ts",
+  "compatibility_date": "2026-05-11",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "fashion.slopcopy.com",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": [
+      "/api/*",
+      "/admin*",
+      "/app-content/modules/*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "fashion_lms_db",
+      "database_id": "831f1465-041d-434c-946d-d1c616ab2747"
+    }
+  ]
 }

@@ -1493,6 +1493,13 @@ DEV_AUTH_NAME=
 
 Docs should include local and remote migration commands for `fashion_lms_db`.
 
+Deployment-prep docs should also state:
+
+- create the remote D1 database with Wrangler before first production deploy
+- set the `database_id` in `wrangler.jsonc` to the real remote UUID for `fashion_lms_db`
+- keep `workers_dev` disabled for the production hostname deployment shape
+- keep `.dev.vars`, `DEV_AUTH_EMAIL`, and `DEV_AUTH_NAME` local-only
+
 ### 23.5 Deploy Target
 
 Deploy target:
