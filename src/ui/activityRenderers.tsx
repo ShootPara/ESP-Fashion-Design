@@ -40,7 +40,7 @@ function getFriendlyAssetLabel(
   fallbackLabel?: string
 ) {
   const asset = findAssetById(week, rawValue);
-  if (asset) {
+  if (asset && asset.status !== "missing_metadata") {
     return {
       primary: asset.displayTitle,
       secondary: asset.assetId
@@ -57,6 +57,25 @@ function getChoiceBadgeLabel(index: number, assetType = "image") {
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const letter = alphabet[index] ?? String(index + 1);
   return assetType === "audio" ? `Audio ${letter}` : `Image ${letter}`;
+}
+
+function prettifyMatchPrompt(prompt: string, index: number) {
+  const normalized = prompt.trim();
+  if (!normalized) {
+    return `Item ${index + 1}`;
+  }
+
+  const toolKeyMatch = normalized.match(/^tool_(\d+)$/u);
+  if (toolKeyMatch) {
+    return `Tool ${toolKeyMatch[1]}`;
+  }
+
+  const imageKeyMatch = normalized.match(/^image[_-]?([a-z0-9]+)$/iu);
+  if (imageKeyMatch) {
+    return `Image ${String(imageKeyMatch[1]).toUpperCase()}`;
+  }
+
+  return normalized.replaceAll("_", " ");
 }
 
 function studentTitle(activity: ModuleActivity) {
@@ -510,6 +529,7 @@ function MatchingItem(props: {
   const answerChoices =
     item.asset_ids ??
     item.match_terms_en ??
+    item.matches?.map((match) => match.target_key || match.answer_en || "").filter(Boolean) ??
     item.pairs?.map((pair) => pair.en || pair.term_en || "").filter(Boolean) ??
     item.category_targets ??
     [];
@@ -564,10 +584,10 @@ function MatchingItem(props: {
         </div>
       ) : null}
       <div className="matching-grid">
-        {prompts.map((prompt) => (
+        {prompts.map((prompt, promptIndex) => (
           <label key={prompt} className="match-row">
             <span className="match-row__label" title={prompt}>
-              {prompt}
+              {prettifyMatchPrompt(prompt, promptIndex)}
             </span>
             <select
               className="select-input"
