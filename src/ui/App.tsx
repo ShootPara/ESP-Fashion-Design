@@ -520,6 +520,7 @@ function ActivityPage({ me }: { me: MeResponse }) {
   const previous = activityIndex > 0 ? week.activities.activities[activityIndex - 1] : null;
   const next = activityIndex < week.activities.activities.length - 1 ? week.activities.activities[activityIndex + 1] : null;
   const showReviewPanel = me.user.is_test_mode || me.user.is_superuser;
+  const [isJumpPanelOpen, setIsJumpPanelOpen] = useState(true);
 
   return (
     <RouteErrorBoundary
@@ -578,23 +579,36 @@ function ActivityPage({ me }: { me: MeResponse }) {
             <section className="card-surface side-panel">
               <div className="section-heading">
                 <h3>Jump in this week</h3>
-                <span className="status-chip neutral">{week.activities.activities.length} items</span>
-              </div>
-              <nav className="jump-list">
-                {week.activities.activities.map((candidate) => (
-                  <Link
-                    key={candidate.activity_id}
-                    className={`jump-row${candidate.activity_id === activity.activity_id ? " is-current" : ""}`}
-                    to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${candidate.activity_id}`}
+                <div className="chip-wrap">
+                  <span className="status-chip neutral">{week.activities.activities.length} items</span>
+                  <button
+                    className="secondary-button side-panel__toggle"
+                    onClick={() => setIsJumpPanelOpen((current) => !current)}
+                    type="button"
                   >
-                    <span>{candidate.sequence_number}</span>
-                    <div>
-                      <strong>{getDisplayTitle(candidate)}</strong>
-                      <p>{candidate.primary_interaction_type}</p>
-                    </div>
-                  </Link>
-                ))}
-              </nav>
+                    {isJumpPanelOpen ? "Collapse" : "Expand"}
+                  </button>
+                </div>
+              </div>
+              {isJumpPanelOpen ? (
+                <nav className="jump-list">
+                  {week.activities.activities.map((candidate) => (
+                    <Link
+                      key={candidate.activity_id}
+                      className={`jump-row${candidate.activity_id === activity.activity_id ? " is-current" : ""}`}
+                      to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${candidate.activity_id}`}
+                    >
+                      <span>{candidate.sequence_number}</span>
+                      <div>
+                        <strong>{getDisplayTitle(candidate)}</strong>
+                        <p>{candidate.primary_interaction_type}</p>
+                      </div>
+                    </Link>
+                  ))}
+                </nav>
+              ) : (
+                <p className="review-note">Open this panel when you want to jump to another activity in the same week.</p>
+              )}
             </section>
 
             {showReviewPanel ? <ReviewMetadataPanel activity={activity} week={week} /> : null}

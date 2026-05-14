@@ -59,6 +59,10 @@ function getChoiceBadgeLabel(index: number, assetType = "image") {
   return assetType === "audio" ? `Audio ${letter}` : `Image ${letter}`;
 }
 
+function looksLikeCanonicalAssetId(value: string) {
+  return /^m\d{2}w\d{2}-(img|aud)-\d{3}$/u.test(value.trim());
+}
+
 function prettifyMatchPrompt(prompt: string, index: number) {
   const normalized = prompt.trim();
   if (!normalized) {
@@ -67,7 +71,8 @@ function prettifyMatchPrompt(prompt: string, index: number) {
 
   const toolKeyMatch = normalized.match(/^tool_(\d+)$/u);
   if (toolKeyMatch) {
-    return `Tool ${toolKeyMatch[1]}`;
+    const imageIndex = Number.parseInt(toolKeyMatch[1], 10) - 1;
+    return getChoiceBadgeLabel(Math.max(imageIndex, 0));
   }
 
   const imageKeyMatch = normalized.match(/^image[_-]?([a-z0-9]+)$/iu);
@@ -541,7 +546,12 @@ function MatchingItem(props: {
             primary: mappedBadge,
             secondary: getFriendlyAssetLabel(week, choice).primary
           }
-        : getFriendlyAssetLabel(week, choice, `Option ${choiceIndex + 1}`);
+        : looksLikeCanonicalAssetId(choice)
+          ? getFriendlyAssetLabel(week, choice, `Option ${choiceIndex + 1}`)
+          : {
+              primary: choice,
+              secondary: choice
+            };
       return [choice, friendly];
     })
   );
