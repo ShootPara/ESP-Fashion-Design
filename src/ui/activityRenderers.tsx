@@ -34,6 +34,25 @@ function normalize(value: string | boolean | undefined | null) {
     .toLowerCase();
 }
 
+function getFriendlyAssetLabel(
+  week: ModuleWeekBundle,
+  rawValue: string,
+  fallbackLabel?: string
+) {
+  const asset = findAssetById(week, rawValue);
+  if (asset) {
+    return {
+      primary: asset.displayTitle,
+      secondary: asset.assetId
+    };
+  }
+
+  return {
+    primary: fallbackLabel || rawValue,
+    secondary: rawValue
+  };
+}
+
 function studentTitle(activity: ModuleActivity) {
   return activity.student_facing?.en?.title || activity.title;
 }
@@ -165,8 +184,18 @@ function MediaPreview({
       <div className="media-card">
         <div className="media-card__meta">
           <p className="eyebrow">Audio asset</p>
-          <h4>{asset.title}</h4>
-          <code>{asset.canonicalPath}</code>
+          <h4 className="media-card__title" title={asset.displayTitle}>
+            {asset.displayTitle}
+          </h4>
+          {isReviewMode ? (
+            <details className="technical-details">
+              <summary>Technical details</summary>
+              <div className="technical-details__body">
+                <code>{asset.assetId}</code>
+                <code>{asset.canonicalPath}</code>
+              </div>
+            </details>
+          ) : null}
         </div>
         <audio controls preload="none" onError={() => setFailed(true)} src={asset.runtimeUrl} className="audio-player" />
       </div>
@@ -176,10 +205,20 @@ function MediaPreview({
   if (asset.assetType === "image") {
     return (
       <figure className="media-card">
-        <img alt={asset.title} className="media-card__image" onError={() => setFailed(true)} src={asset.runtimeUrl} />
+        <img alt={asset.displayTitle} className="media-card__image" onError={() => setFailed(true)} src={asset.runtimeUrl} />
         <figcaption className="media-card__meta">
-          <strong>{asset.title}</strong>
-          <code>{asset.canonicalPath}</code>
+          <strong className="media-card__title" title={asset.displayTitle}>
+            {asset.displayTitle}
+          </strong>
+          {isReviewMode ? (
+            <details className="technical-details">
+              <summary>Technical details</summary>
+              <div className="technical-details__body">
+                <code>{asset.assetId}</code>
+                <code>{asset.canonicalPath}</code>
+              </div>
+            </details>
+          ) : null}
         </figcaption>
       </figure>
     );
@@ -432,6 +471,12 @@ function MatchingItem(props: {
     item.pairs?.map((pair) => pair.en || pair.term_en || "").filter(Boolean) ??
     item.category_targets ??
     [];
+  const answerChoiceLabels = new Map(
+    answerChoices.map((choice, choiceIndex) => {
+      const friendly = getFriendlyAssetLabel(week, choice, `Image ${choiceIndex + 1}`);
+      return [choice, friendly];
+    })
+  );
   const prompts =
     Object.keys(correctMap).length > 0
       ? Object.keys(correctMap)
@@ -468,19 +513,27 @@ function MatchingItem(props: {
       <div className="matching-grid">
         {prompts.map((prompt) => (
           <label key={prompt} className="match-row">
-            <span>{prompt}</span>
+            <span className="match-row__label" title={prompt}>
+              {prompt}
+            </span>
             <select
               className="select-input"
               onChange={(event) => updatePrompt(prompt, event.target.value)}
+              title={selected[prompt] ? answerChoiceLabels.get(selected[prompt])?.primary ?? selected[prompt] : "Choose an option"}
               value={selected[prompt] ?? ""}
             >
               <option value="">Choose...</option>
               {answerChoices.map((choice) => (
-                <option key={choice} value={choice}>
-                  {choice}
+                <option key={choice} title={answerChoiceLabels.get(choice)?.primary ?? choice} value={choice}>
+                  {answerChoiceLabels.get(choice)?.primary ?? choice}
                 </option>
               ))}
             </select>
+            {isReviewMode && selected[prompt] ? (
+              <span className="technical-inline" title={selected[prompt]}>
+                {answerChoiceLabels.get(selected[prompt])?.secondary ?? selected[prompt]}
+              </span>
+            ) : null}
           </label>
         ))}
       </div>

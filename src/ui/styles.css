@@ -599,6 +599,11 @@ pre {
   justify-content: start;
 }
 
+.media-card__title {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .audio-player {
   width: calc(100% - 1.5rem);
   margin: 0 var(--space-3) var(--space-3);
@@ -616,6 +621,30 @@ pre {
 .review-panel {
   display: grid;
   gap: var(--space-4);
+}
+
+.technical-details {
+  display: grid;
+  gap: var(--space-1);
+  width: 100%;
+}
+
+.technical-details summary {
+  cursor: pointer;
+  color: var(--text-soft);
+  font-size: 0.84rem;
+}
+
+.technical-details__body {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.technical-details code,
+.technical-inline {
+  color: var(--text-soft);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .review-panel__header,
@@ -778,6 +807,16 @@ pre {
   line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.match-row {
+  align-items: start;
+}
+
+.match-row__label {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .admin-notice {

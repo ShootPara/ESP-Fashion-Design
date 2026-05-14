@@ -4,9 +4,26 @@ export interface AssetReferenceState {
   assetId: string;
   assetType: string;
   title: string;
+  displayTitle: string;
   runtimeUrl: string;
   canonicalPath: string;
   status: string;
+}
+
+function buildFallbackAssetLabel(assetId: string, assetType: string): string {
+  const match = assetId.match(/(\d+)(?!.*\d)/u);
+  const sequence = match ? String(Number.parseInt(match[1], 10)) : "";
+  const prefix = assetType === "audio" ? "Audio" : "Image";
+  return sequence ? `${prefix} ${sequence}` : `${prefix} asset`;
+}
+
+function resolveDisplayTitle(assetId: string, asset: ModuleWeekAsset | undefined): string {
+  const candidate = asset?.title?.trim();
+  if (candidate) {
+    return candidate;
+  }
+
+  return buildFallbackAssetLabel(assetId, asset?.asset_type ?? "image");
 }
 
 function normalizeAssetPath(targetFilename: string | undefined): string {
@@ -36,6 +53,7 @@ export function getActivityAssets(week: ModuleWeekBundle, activity: ModuleActivi
       assetId,
       assetType: asset?.asset_type ?? "unknown",
       title: asset?.title ?? "Missing asset metadata",
+      displayTitle: resolveDisplayTitle(assetId, asset),
       runtimeUrl: resolveCanonicalMediaUrl(asset?.target_filename),
       canonicalPath: normalizeAssetPath(asset?.target_filename),
       status: asset?.status ?? "missing_metadata"
@@ -54,6 +72,7 @@ export function findAssetById(week: ModuleWeekBundle, assetId: string | undefine
       assetId,
       assetType: "unknown",
       title: "Missing asset metadata",
+      displayTitle: buildFallbackAssetLabel(assetId, "image"),
       runtimeUrl: "",
       canonicalPath: "",
       status: "missing_metadata"
@@ -64,6 +83,7 @@ export function findAssetById(week: ModuleWeekBundle, assetId: string | undefine
     assetId,
     assetType: asset.asset_type,
     title: asset.title,
+    displayTitle: resolveDisplayTitle(assetId, asset),
     runtimeUrl: resolveCanonicalMediaUrl(asset.target_filename),
     canonicalPath: normalizeAssetPath(asset.target_filename),
     status: asset.status
