@@ -53,6 +53,12 @@ function getFriendlyAssetLabel(
   };
 }
 
+function getChoiceBadgeLabel(index: number, assetType = "image") {
+  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const letter = alphabet[index] ?? String(index + 1);
+  return assetType === "audio" ? `Audio ${letter}` : `Image ${letter}`;
+}
+
 function studentTitle(activity: ModuleActivity) {
   return activity.student_facing?.en?.title || activity.title;
 }
@@ -225,6 +231,41 @@ function MediaPreview({
   }
 
   return null;
+}
+
+function MatchingChoiceCard({
+  asset,
+  badgeLabel,
+  isReviewMode
+}: {
+  asset: AssetReferenceState;
+  badgeLabel: string;
+  isReviewMode: boolean;
+}) {
+  const [failed, setFailed] = useState(false);
+
+  if (!asset.runtimeUrl || failed) {
+    return isReviewMode ? <MissingMediaCard asset={asset} label={badgeLabel} /> : null;
+  }
+
+  return (
+    <figure className="media-card matching-choice-card">
+      <img alt={badgeLabel} className="media-card__image" onError={() => setFailed(true)} src={asset.runtimeUrl} />
+      <figcaption className="media-card__meta">
+        <strong className="media-card__title">{badgeLabel}</strong>
+        {isReviewMode ? (
+          <details className="technical-details">
+            <summary>Technical details</summary>
+            <div className="technical-details__body">
+              <span>{asset.displayTitle}</span>
+              <code>{asset.assetId}</code>
+              <code>{asset.canonicalPath}</code>
+            </div>
+          </details>
+        ) : null}
+      </figcaption>
+    </figure>
+  );
 }
 
 function ItemFeedback({ result }: { result: AppCheckItemResult | null }) {
@@ -442,6 +483,7 @@ function MatchingItem(props: {
   const assetPreviews = (item.asset_ids ?? [])
     .map((assetId) => findAssetById(week, assetId))
     .filter((asset): asset is AssetReferenceState => Boolean(asset));
+  const assetChoiceLabels = new Map(assetPreviews.map((asset, assetIndex) => [asset.assetId, getChoiceBadgeLabel(assetIndex, asset.assetType)]));
   const correctMap =
     item.correct_matches ??
     item.matches?.reduce<Record<string, string>>((map, match) => {
@@ -473,7 +515,13 @@ function MatchingItem(props: {
     [];
   const answerChoiceLabels = new Map(
     answerChoices.map((choice, choiceIndex) => {
-      const friendly = getFriendlyAssetLabel(week, choice, `Image ${choiceIndex + 1}`);
+      const mappedBadge = assetChoiceLabels.get(choice);
+      const friendly = mappedBadge
+        ? {
+            primary: mappedBadge,
+            secondary: getFriendlyAssetLabel(week, choice).primary
+          }
+        : getFriendlyAssetLabel(week, choice, `Option ${choiceIndex + 1}`);
       return [choice, friendly];
     })
   );
@@ -505,8 +553,13 @@ function MatchingItem(props: {
       {asset ? <MediaPreview asset={asset} isReviewMode={isReviewMode} /> : null}
       {assetPreviews.length > 0 ? (
         <div className="mini-media-grid">
-          {assetPreviews.map((preview) => (
-            <MediaPreview key={preview.assetId} asset={preview} isReviewMode={isReviewMode} />
+          {assetPreviews.map((preview, previewIndex) => (
+            <MatchingChoiceCard
+              key={preview.assetId}
+              asset={preview}
+              badgeLabel={assetChoiceLabels.get(preview.assetId) ?? getChoiceBadgeLabel(previewIndex, preview.assetType)}
+              isReviewMode={isReviewMode}
+            />
           ))}
         </div>
       ) : null}
@@ -531,7 +584,7 @@ function MatchingItem(props: {
             </select>
             {isReviewMode && selected[prompt] ? (
               <span className="technical-inline" title={selected[prompt]}>
-                {answerChoiceLabels.get(selected[prompt])?.secondary ?? selected[prompt]}
+                {selected[prompt]}{answerChoiceLabels.get(selected[prompt])?.secondary ? ` - ${answerChoiceLabels.get(selected[prompt])?.secondary}` : ""}
               </span>
             ) : null}
           </label>
@@ -796,6 +849,7 @@ export function ActivityRenderer(props: ActivityRendererProps) {
   const { activity, week, isReviewMode } = props;
   const items = activity.input?.items ?? [];
   const assets = getActivityAssets(week, activity);
+  const hasItemLevelMedia = items.some((item) => Boolean(item.asset_id) || (item.asset_ids?.length ?? 0) > 0);
   const checkableItemsAnswered =
     !props.isAppCheckable ||
     items.every((item, index) =>
@@ -835,7 +889,7 @@ export function ActivityRenderer(props: ActivityRendererProps) {
         ) : null}
       </section>
 
-      {assets.length > 0 ? (
+      {assets.length > 0 && !hasItemLevelMedia ? (
         <section className="card-surface stack-sm">
           <div className="section-heading">
             <h3>Media</h3>
@@ -877,30 +931,24 @@ export function ActivityRenderer(props: ActivityRendererProps) {
 
       <section className="card-surface stack-sm">
         <div className="section-heading">
-          <h3>Activity actions</h3>
+          <h3>{isReviewMode ? "Review mode" : "Progress"}</h3>
           <span className={`status-chip ${isReviewMode ? "warn" : "success"}`}>{isReviewMode ? "test mode" : "normal mode"}</span>
         </div>
-        <div className="question-actions">
-          {props.isAppCheckable ? (
-            <button
-              className="primary-button"
-              disabled={!checkableItemsAnswered || props.isSubmitting}
-              onClick={props.checkResponse}
-              type="button"
-            >
-              Check answer
-            </button>
-          ) : null}
-          {props.hasSavedResponse ? (
-            <button className="secondary-button" disabled={!props.hasAnyResponse || props.isSubmitting} onClick={props.saveResponse} type="button">
-              Save response
-            </button>
-          ) : (
-            <button className="secondary-button" disabled={props.isSubmitting} onClick={props.markComplete} type="button">
-              Mark complete
-            </button>
-          )}
-        </div>
+        {isReviewMode ? (
+          <p className="review-note">Checks above stay local in test mode. This page is here to review the activity flow, not to save a final learner record.</p>
+        ) : (
+          <div className="question-actions">
+            {props.hasSavedResponse ? (
+              <button className="secondary-button" disabled={!props.hasAnyResponse || props.isSubmitting} onClick={props.saveResponse} type="button">
+                Save response
+              </button>
+            ) : (
+              <button className="secondary-button" disabled={props.isSubmitting} onClick={props.markComplete} type="button">
+                Mark complete
+              </button>
+            )}
+          </div>
+        )}
         {props.appCheckResult ? (
           <p className={`feedback-line ${props.appCheckResult.is_correct ? "is-correct" : "is-incorrect"}`}>
             Score: {props.appCheckResult.score}/{props.appCheckResult.max_score}

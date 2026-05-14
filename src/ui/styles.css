@@ -580,6 +580,10 @@ pre {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
+.matching-choice-card {
+  max-width: 220px;
+}
+
 .media-card {
   overflow: hidden;
 }
@@ -645,6 +649,10 @@ pre {
   color: var(--text-soft);
   overflow-wrap: anywhere;
   word-break: break-word;
+}
+
+.technical-inline {
+  font-size: 0.84rem;
 }
 
 .review-panel__header,
@@ -810,6 +818,9 @@ pre {
 }
 
 .match-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 180px) minmax(0, 1fr);
+  gap: var(--space-3);
   align-items: start;
 }
 
@@ -817,6 +828,8 @@ pre {
   min-width: 0;
   overflow-wrap: anywhere;
   word-break: break-word;
+  line-height: 1.35;
+  padding-top: 0.9rem;
 }
 
 .admin-notice {
@@ -922,6 +935,14 @@ pre {
 
   .choice-grid {
     grid-template-columns: 1fr;
+  }
+
+  .match-row {
+    grid-template-columns: 1fr;
+  }
+
+  .match-row__label {
+    padding-top: 0;
   }
 
   .admin-user-row {
