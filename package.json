@@ -7,13 +7,13 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "npm run build:content && npm run sync:assets && vite dev",
+    "dev": "npm run build:content && npm run sync:assets && npx vite dev",
     "build:content": "node ./tools/build-app-content.mjs",
     "sync:assets": "node ./tools/sync-public-assets.mjs",
-    "build": "npm run build:content && npm run sync:assets && vite build",
-    "preview": "npm run build && vite preview",
+    "build": "npm run build:content && npm run sync:assets && npx vite build",
+    "preview": "npm run build && npx vite preview",
     "deploy": "npm run build && wrangler deploy",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "npx tsc --noEmit",
     "cf-typegen": "wrangler types",
     "db:migrate:local": "wrangler d1 migrations apply fashion_lms_db --local",
     "db:migrate:remote": "wrangler d1 migrations apply fashion_lms_db --remote"

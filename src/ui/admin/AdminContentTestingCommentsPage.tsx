@@ -16,29 +16,29 @@ export function AdminContentTestingCommentsPage() {
             Back to admin
           </Link>
           <p className="eyebrow">Admin review</p>
-          <h2>Content testing data</h2>
-          <p>Review submitted testing comments with context, severity, and workflow status.</p>
+          <h2>Review notes</h2>
+          <p>Review saved notes, page details, severity, and status.</p>
         </div>
         <div className="hero-panel__meta">
-          <span className="status-chip neutral">{comments.length} comments</span>
+          <span className="status-chip neutral">{comments.length} notes</span>
         </div>
       </section>
 
       {loading ? (
         <section className="card-surface">
-          <p className="muted">Loading content testing comments...</p>
+          <p className="muted">Loading review notes...</p>
         </section>
       ) : error ? (
         <section className="empty-state card-surface danger-surface">
-          <h3>Content testing data unavailable</h3>
+          <h3>Review notes unavailable</h3>
           <p>{error}</p>
         </section>
       ) : (
         <section className="card-surface admin-table">
           <div className="admin-table__header admin-comment-row">
-            <strong>Comment</strong>
-            <strong>Context</strong>
-            <strong>Triage</strong>
+            <strong>Note</strong>
+            <strong>Page</strong>
+            <strong>Status</strong>
             <strong>Submitted</strong>
           </div>
           {comments.map((comment) => (

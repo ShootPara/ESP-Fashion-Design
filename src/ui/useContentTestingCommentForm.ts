@@ -38,7 +38,7 @@ export function useContentTestingCommentForm(input: {
 
   async function submit() {
     if (!commentText.trim()) {
-      setError("Comment text is required.");
+      setError("Please add a note before you submit.");
       return null;
     }
 
@@ -63,7 +63,7 @@ export function useContentTestingCommentForm(input: {
 
       const json = (await response.json()) as ContentTestingCommentCreateResponse | { error?: string };
       if (!response.ok || !("ok" in json)) {
-        throw new Error("Unable to submit content testing comment.");
+        throw new Error("We could not save your note just now.");
       }
 
       setLatestComment(json.comment);
@@ -71,10 +71,10 @@ export function useContentTestingCommentForm(input: {
       setCategory("other");
       setSeverity("medium");
       setError("");
-      setStatusMessage("Content testing comment submitted.");
+      setStatusMessage("Thanks - your note was saved.");
       return json.comment;
     } catch (caught) {
-      setError(caught instanceof Error ? caught.message : "Unable to submit content testing comment.");
+      setError(caught instanceof Error ? caught.message : "We could not save your note just now.");
       return null;
     } finally {
       setSaving(false);

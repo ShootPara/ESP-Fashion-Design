@@ -40,11 +40,11 @@ export function AdminContentTestingCommentDetailPage() {
       <section className="hero-panel">
         <div>
           <Link className="text-link" to="/admin/content-testing-comments">
-            Back to content testing data
+            Back to review notes
           </Link>
           <p className="eyebrow">Admin review detail</p>
           <h2>{comment?.activity_id || comment?.week_id || comment?.module_id || "Loading comment..."}</h2>
-          <p>{comment?.user_email_snapshot || "Inspecting content testing comment context and triage state."}</p>
+          <p>{comment?.user_email_snapshot || "Review the saved note and page details."}</p>
         </div>
         {comment ? (
           <div className="hero-panel__meta">
@@ -61,12 +61,12 @@ export function AdminContentTestingCommentDetailPage() {
 
       {loading ? (
         <section className="card-surface">
-          <p className="muted">Loading content testing comment...</p>
+          <p className="muted">Loading review note...</p>
         </section>
       ) : error || !comment ? (
         <section className="empty-state card-surface danger-surface">
-          <h3>Comment detail unavailable</h3>
-          <p>{error || "Unable to load content testing comment detail."}</p>
+          <h3>Review note unavailable</h3>
+          <p>{error || "Unable to load this review note."}</p>
         </section>
       ) : (
         <>
@@ -91,7 +91,7 @@ export function AdminContentTestingCommentDetailPage() {
 
           <section className="card-surface stack-sm">
             <div className="section-heading">
-              <h3>Comment text</h3>
+              <h3>Saved note</h3>
               <span className="status-chip neutral">{saving ? "saving..." : "ready"}</span>
             </div>
             <p className="review-copy">{comment.comment_text}</p>
@@ -99,7 +99,7 @@ export function AdminContentTestingCommentDetailPage() {
 
           <section className="card-surface stack-sm">
             <div className="section-heading">
-              <h3>Triage controls</h3>
+              <h3>Note controls</h3>
               <span className="status-chip neutral">{comment.id}</span>
             </div>
             <div className="review-form-grid">
@@ -151,7 +151,7 @@ export function AdminContentTestingCommentDetailPage() {
             </div>
             <div className="question-actions">
               <button className="secondary-button danger-button" disabled={saving} onClick={() => void handleDelete()} type="button">
-                {deleteConfirm ? "Confirm permanent delete" : "Delete permanently"}
+                {deleteConfirm ? "Confirm delete" : "Delete note"}
               </button>
             </div>
             {statusMessage ? <p className="review-note">{statusMessage}</p> : null}
@@ -160,7 +160,7 @@ export function AdminContentTestingCommentDetailPage() {
 
           <section className="card-surface stack-sm">
             <div className="section-heading">
-              <h3>Captured context</h3>
+              <h3>Page details</h3>
               <span className="status-chip neutral">{comment.context.route_path || "no route path"}</span>
             </div>
             <div className="review-grid">
@@ -189,7 +189,10 @@ export function AdminContentTestingCommentDetailPage() {
                 <strong>{comment.context.submission_type || "-"}</strong>
               </div>
             </div>
-            <pre className="raw-data-block">{JSON.stringify(comment.context, null, 2)}</pre>
+            <div className="field-stack">
+              <span className="review-label">Technical details</span>
+              <pre className="raw-data-block">{JSON.stringify(comment.context, null, 2)}</pre>
+            </div>
           </section>
         </>
       )}

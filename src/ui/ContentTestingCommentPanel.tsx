@@ -6,7 +6,9 @@ import {
 } from "./useContentTestingCommentForm";
 
 function formatCategory(value: string) {
-  return value.replaceAll("_", " ");
+  return value
+    .replaceAll("_", " ")
+    .replace(/\b\w/g, (character) => character.toUpperCase());
 }
 
 export function ContentTestingCommentPanel(props: {
@@ -21,11 +23,11 @@ export function ContentTestingCommentPanel(props: {
   return (
     <section className="card-surface stack-sm">
       <div className="section-heading">
-        <h3>Content testing comment</h3>
+        <h3>Review note</h3>
         <span className="status-chip neutral">{props.screenContext} review</span>
       </div>
       <p className="muted">
-        Submit a review note with automatic module, week, activity, and screen context capture for the admin triage queue.
+        Tell us what you noticed on this page. Add the detail that will help us fix it, and we will attach the page location automatically.
       </p>
       <div className="review-form-grid">
         <label className="field-stack">
@@ -50,11 +52,11 @@ export function ContentTestingCommentPanel(props: {
         </label>
       </div>
       <label className="field-stack">
-        <span>Comment</span>
+        <span>What did you notice?</span>
         <textarea
           className="text-area"
           onChange={(event) => form.setCommentText(event.target.value)}
-          placeholder="Describe the content, media, answer key, rendering, or navigation issue."
+          placeholder="What seems wrong, confusing, or missing?"
           value={form.commentText}
         />
       </label>
@@ -65,11 +67,11 @@ export function ContentTestingCommentPanel(props: {
       </div>
       <div className="question-actions">
         <button className="primary-button" disabled={form.saving || !form.commentText.trim()} onClick={() => void form.submit()} type="button">
-          {form.saving ? "Submitting..." : "Submit comment"}
+          {form.saving ? "Saving note..." : "Submit note"}
         </button>
       </div>
       {form.statusMessage ? <p className="review-note">{form.statusMessage}</p> : null}
-      {form.latestComment ? <p className="review-note">Saved with status `{form.latestComment.status}`.</p> : null}
+      {form.latestComment ? <p className="review-note">Saved as {formatCategory(form.latestComment.status)}.</p> : null}
       {form.error ? <p className="feedback-line is-incorrect">{form.error}</p> : null}
     </section>
   );

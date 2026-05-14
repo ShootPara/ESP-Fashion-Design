@@ -22,7 +22,7 @@ export function AdminDashboardPage({ me }: { me: MeResponse }) {
         <div>
           <p className="eyebrow">Admin</p>
           <h2>User management dashboard</h2>
-          <p>Manage student access, test mode, and planned module availability without leaving the Worker-based LMS.</p>
+          <p>Manage student access, test mode, and module availability in one place.</p>
         </div>
         <div className="hero-panel__meta">
           <span className="status-chip accent">{me.user.is_root_superuser ? "root superuser" : "superuser"}</span>
@@ -107,8 +107,8 @@ export function AdminDashboardPage({ me }: { me: MeResponse }) {
             <p className="eyebrow">Review</p>
             <span className="status-chip neutral">Milestone 5</span>
           </div>
-          <h3>Content testing data</h3>
-          <p>Open the comment queue, inspect captured review context, update triage state, and permanently delete test comments.</p>
+          <h3>Review notes</h3>
+          <p>Open saved notes, review page details, update status, and remove notes you no longer need.</p>
         </Link>
       </section>
     </section>

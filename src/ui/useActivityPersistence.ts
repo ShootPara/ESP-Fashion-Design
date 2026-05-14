@@ -10,23 +10,23 @@ import type {
   ModuleActivity
 } from "../types";
 
-function createEmptyAnswer(activity: ModuleActivity): ActivityAnswerPayload {
+function createEmptyAnswer(activity: ModuleActivity | null): ActivityAnswerPayload {
   return {
-    activity_id: activity.activity_id,
+    activity_id: activity?.activity_id ?? "",
     items: {}
   };
 }
 
 export function useActivityPersistence(args: {
-  activity: ModuleActivity;
+  activity: ModuleActivity | null;
   moduleId: string;
   weekId: string;
   me: MeResponse;
 }) {
   const { activity, moduleId, weekId, me } = args;
   const isTestMode = me.user.is_test_mode;
-  const isAppCheckable = activity.checked_by === "app";
-  const hasSavedResponse = hasRealSavedResponse(activity);
+  const isAppCheckable = activity?.checked_by === "app";
+  const hasSavedResponse = activity ? hasRealSavedResponse(activity) : false;
   const [answer, setAnswer] = useState<ActivityAnswerPayload>(() => createEmptyAnswer(activity));
   const [appCheckResult, setAppCheckResult] = useState<AppCheckResult | null>(null);
   const [loadingState, setLoadingState] = useState(!isTestMode);
@@ -37,13 +37,13 @@ export function useActivityPersistence(args: {
     setAnswer(createEmptyAnswer(activity));
     setAppCheckResult(null);
     setStatusMessage("");
-  }, [activity.activity_id]);
+  }, [activity?.activity_id]);
 
   useEffect(() => {
     let cancelled = false;
 
     async function hydrate() {
-      if (isTestMode || !me.user.is_enabled) {
+      if (!activity || !moduleId || !weekId || isTestMode || !me.user.is_enabled) {
         setLoadingState(false);
         return;
       }
@@ -100,7 +100,7 @@ export function useActivityPersistence(args: {
     return () => {
       cancelled = true;
     };
-  }, [activity.activity_id, isTestMode, me.user.is_enabled, moduleId, weekId]);
+  }, [activity, isTestMode, me.user.is_enabled, moduleId, weekId]);
 
   function setItemAnswer(itemIndex: number, responseType: string, value: unknown) {
     setAnswer((current) => ({
@@ -131,6 +131,11 @@ export function useActivityPersistence(args: {
   }
 
   async function saveResponse() {
+    if (!activity) {
+      setStatusMessage("This activity is still loading.");
+      return;
+    }
+
     if (isTestMode || !hasSavedResponse) {
       setStatusMessage(isTestMode ? "Test mode keeps answers local only." : "This activity has no saved response.");
       return;
@@ -169,7 +174,7 @@ export function useActivityPersistence(args: {
   }
 
   async function checkResponse() {
-    if (!isAppCheckable) {
+    if (!activity || !isAppCheckable) {
       return;
     }
 
@@ -213,6 +218,11 @@ export function useActivityPersistence(args: {
   }
 
   async function markComplete() {
+    if (!activity) {
+      setStatusMessage("This activity is still loading.");
+      return;
+    }
+
     if (isTestMode) {
       setStatusMessage("Test mode does not save completion.");
       return;

@@ -4,6 +4,7 @@ import type { CourseIndexModuleSummary, MeResponse, ModuleActivity, ModuleBundle
 import { summarizeWeekMedia } from "./assetPaths";
 import { ActivityRenderer } from "./activityRenderers";
 import { ContentTestingCommentPanel } from "./ContentTestingCommentPanel";
+import { RouteErrorBoundary } from "./RouteErrorBoundary";
 import { ReviewMetadataPanel } from "./reviewMetadata";
 import { useActivityPersistence } from "./useActivityPersistence";
 import { AdminDashboardPage } from "./admin/AdminDashboardPage";
@@ -493,6 +494,12 @@ function ActivityPage({ me }: { me: MeResponse }) {
   const week = bundle?.weeks.find((item) => item.week_id === weekId);
   const activityIndex = week?.activities.activities.findIndex((item) => item.activity_id === activityId) ?? -1;
   const activity = activityIndex >= 0 && week ? week.activities.activities[activityIndex] : null;
+  const persistence = useActivityPersistence({
+    activity,
+    moduleId: bundle?.module_id ?? "",
+    weekId: week?.week_id ?? "",
+    me
+  });
 
   if (!moduleSummary) {
     return <NotFoundPanel title="Module not available" />;
@@ -513,104 +520,103 @@ function ActivityPage({ me }: { me: MeResponse }) {
   const previous = activityIndex > 0 ? week.activities.activities[activityIndex - 1] : null;
   const next = activityIndex < week.activities.activities.length - 1 ? week.activities.activities[activityIndex + 1] : null;
   const showReviewPanel = me.user.is_test_mode || me.user.is_superuser;
-  const persistence = useActivityPersistence({
-    activity,
-    moduleId: bundle.module_id,
-    weekId: week.week_id,
-    me
-  });
 
   return (
-    <section className="stack-lg">
-      <section className="activity-shell">
-        <div className="activity-shell__main">
-          <div className="activity-toolbar card-surface">
-            <div className="activity-toolbar__paths">
-              <Link className="text-link" to={`/module/${bundle.module_id}/week/${week.week_id}`}>
-                Back to week
-              </Link>
-              <span className="status-chip neutral">{activity.activity_id}</span>
-            </div>
-            <div className="question-actions">
-              {previous ? (
-                <Link className="secondary-button link-button" to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${previous.activity_id}`}>
-                  Previous
+    <RouteErrorBoundary
+      fallbackMessage="Something on this activity page stopped the screen from rendering. Please go back to the week page or open another activity, then leave a review note if the problem happens again."
+      fallbackTitle="This activity page hit an error."
+    >
+      <section className="stack-lg">
+        <section className="activity-shell">
+          <div className="activity-shell__main">
+            <div className="activity-toolbar card-surface">
+              <div className="activity-toolbar__paths">
+                <Link className="text-link" to={`/module/${bundle.module_id}/week/${week.week_id}`}>
+                  Back to week
                 </Link>
-              ) : (
-                <span className="status-chip neutral">First activity</span>
-              )}
-              {next ? (
-                <Link className="primary-button link-button" to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${next.activity_id}`}>
-                  Next
-                </Link>
-              ) : (
-                <span className="status-chip neutral">Last activity</span>
-              )}
+                <span className="status-chip neutral">{activity.activity_id}</span>
+              </div>
+              <div className="question-actions">
+                {previous ? (
+                  <Link className="secondary-button link-button" to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${previous.activity_id}`}>
+                    Previous
+                  </Link>
+                ) : (
+                  <span className="status-chip neutral">First activity</span>
+                )}
+                {next ? (
+                  <Link className="primary-button link-button" to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${next.activity_id}`}>
+                    Next
+                  </Link>
+                ) : (
+                  <span className="status-chip neutral">Last activity</span>
+                )}
+              </div>
             </div>
+
+            <ActivityRenderer
+              activity={activity}
+              answer={persistence.answer}
+              appCheckResult={persistence.appCheckResult}
+              checkResponse={persistence.checkResponse}
+              clearItemAnswer={persistence.clearItemAnswer}
+              hasAnyResponse={persistence.hasAnyResponse}
+              hasSavedResponse={persistence.hasSavedResponse}
+              isAppCheckable={persistence.isAppCheckable}
+              isReviewMode={me.user.is_test_mode}
+              isSubmitting={persistence.isSubmitting}
+              loadingState={persistence.loadingState}
+              markComplete={persistence.markComplete}
+              saveResponse={persistence.saveResponse}
+              setItemAnswer={persistence.setItemAnswer}
+              statusMessage={persistence.statusMessage}
+              week={week}
+            />
           </div>
 
-          <ActivityRenderer
-            activity={activity}
-            answer={persistence.answer}
-            appCheckResult={persistence.appCheckResult}
-            checkResponse={persistence.checkResponse}
-            clearItemAnswer={persistence.clearItemAnswer}
-            hasAnyResponse={persistence.hasAnyResponse}
-            hasSavedResponse={persistence.hasSavedResponse}
-            isAppCheckable={persistence.isAppCheckable}
-            isReviewMode={me.user.is_test_mode}
-            isSubmitting={persistence.isSubmitting}
-            loadingState={persistence.loadingState}
-            markComplete={persistence.markComplete}
-            saveResponse={persistence.saveResponse}
-            setItemAnswer={persistence.setItemAnswer}
-            statusMessage={persistence.statusMessage}
-            week={week}
-          />
-        </div>
+          <aside className="activity-shell__side">
+            <section className="card-surface side-panel">
+              <div className="section-heading">
+                <h3>Jump in this week</h3>
+                <span className="status-chip neutral">{week.activities.activities.length} items</span>
+              </div>
+              <nav className="jump-list">
+                {week.activities.activities.map((candidate) => (
+                  <Link
+                    key={candidate.activity_id}
+                    className={`jump-row${candidate.activity_id === activity.activity_id ? " is-current" : ""}`}
+                    to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${candidate.activity_id}`}
+                  >
+                    <span>{candidate.sequence_number}</span>
+                    <div>
+                      <strong>{getDisplayTitle(candidate)}</strong>
+                      <p>{candidate.primary_interaction_type}</p>
+                    </div>
+                  </Link>
+                ))}
+              </nav>
+            </section>
 
-        <aside className="activity-shell__side">
-          <section className="card-surface side-panel">
-            <div className="section-heading">
-              <h3>Jump in this week</h3>
-              <span className="status-chip neutral">{week.activities.activities.length} items</span>
-            </div>
-            <nav className="jump-list">
-              {week.activities.activities.map((candidate) => (
-                <Link
-                  key={candidate.activity_id}
-                  className={`jump-row${candidate.activity_id === activity.activity_id ? " is-current" : ""}`}
-                  to={`/module/${bundle.module_id}/week/${week.week_id}/activity/${candidate.activity_id}`}
-                >
-                  <span>{candidate.sequence_number}</span>
-                  <div>
-                    <strong>{getDisplayTitle(candidate)}</strong>
-                    <p>{candidate.primary_interaction_type}</p>
-                  </div>
-                </Link>
-              ))}
-            </nav>
-          </section>
-
-          {showReviewPanel ? <ReviewMetadataPanel activity={activity} week={week} /> : null}
-          {showReviewPanel ? (
-            <ContentTestingCommentPanel
-              activityId={activity.activity_id}
-              context={createReviewContext({
-                pathname: location.pathname,
-                isTestMode: me.user.is_test_mode,
-                bundle,
-                week,
-                activity
-              })}
-              moduleId={bundle.module_id}
-              screenContext="activity"
-              weekId={week.week_id}
-            />
-          ) : null}
-        </aside>
+            {showReviewPanel ? <ReviewMetadataPanel activity={activity} week={week} /> : null}
+            {showReviewPanel ? (
+              <ContentTestingCommentPanel
+                activityId={activity.activity_id}
+                context={createReviewContext({
+                  pathname: location.pathname,
+                  isTestMode: me.user.is_test_mode,
+                  bundle,
+                  week,
+                  activity
+                })}
+                moduleId={bundle.module_id}
+                screenContext="activity"
+                weekId={week.week_id}
+              />
+            ) : null}
+          </aside>
+        </section>
       </section>
-    </section>
+    </RouteErrorBoundary>
   );
 }
 

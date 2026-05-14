@@ -67,7 +67,7 @@ export function useAdminContentTestingComments() {
         const json = (await response.json()) as AdminContentTestingCommentsListResponse | { error?: string };
 
         if (!response.ok || !("ok" in json)) {
-          throw new Error("Unable to load content testing comments.");
+          throw new Error("We could not load the review notes.");
         }
 
         if (!cancelled) {
@@ -76,7 +76,7 @@ export function useAdminContentTestingComments() {
         }
       } catch (caught) {
         if (!cancelled) {
-          setError(caught instanceof Error ? caught.message : "Unable to load content testing comments.");
+          setError(caught instanceof Error ? caught.message : "We could not load the review notes.");
         }
       } finally {
         if (!cancelled) {
@@ -119,7 +119,7 @@ export function useAdminContentTestingCommentDetail(commentId: string | undefine
         const json = (await response.json()) as AdminContentTestingCommentDetailResponse | { error?: string };
 
         if (!response.ok || !("ok" in json)) {
-          throw new Error("Unable to load content testing comment detail.");
+          throw new Error("We could not load this review note.");
         }
 
         if (!cancelled) {
@@ -129,7 +129,7 @@ export function useAdminContentTestingCommentDetail(commentId: string | undefine
         }
       } catch (caught) {
         if (!cancelled) {
-          setError(caught instanceof Error ? caught.message : "Unable to load content testing comment detail.");
+          setError(caught instanceof Error ? caught.message : "We could not load this review note.");
         }
       } finally {
         if (!cancelled) {
@@ -162,15 +162,15 @@ export function useAdminContentTestingCommentDetail(commentId: string | undefine
 
       const json = (await response.json()) as AdminContentTestingCommentDetailResponse | { error?: string };
       if (!response.ok || !("ok" in json)) {
-        throw new Error("Unable to update content testing comment.");
+        throw new Error("We could not update this note.");
       }
 
       setComment(json.comment);
-      setStatusMessage("Content testing comment updated.");
+      setStatusMessage("Review note updated.");
       setError("");
       return json.comment;
     } catch (caught) {
-      setError(caught instanceof Error ? caught.message : "Unable to update content testing comment.");
+      setError(caught instanceof Error ? caught.message : "We could not update this note.");
       return null;
     } finally {
       setSaving(false);
@@ -190,14 +190,14 @@ export function useAdminContentTestingCommentDetail(commentId: string | undefine
 
       const json = (await response.json()) as AdminContentTestingCommentDeleteResponse | { error?: string };
       if (!response.ok || !("ok" in json)) {
-        throw new Error("Unable to delete content testing comment.");
+        throw new Error("We could not delete this note.");
       }
 
-      setStatusMessage("Content testing comment deleted.");
+      setStatusMessage("Review note deleted.");
       setError("");
       return true;
     } catch (caught) {
-      setError(caught instanceof Error ? caught.message : "Unable to delete content testing comment.");
+      setError(caught instanceof Error ? caught.message : "We could not delete this note.");
       return false;
     } finally {
       setSaving(false);
