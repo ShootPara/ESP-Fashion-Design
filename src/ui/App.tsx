@@ -494,6 +494,7 @@ function ActivityPage({ me }: { me: MeResponse }) {
   const week = bundle?.weeks.find((item) => item.week_id === weekId);
   const activityIndex = week?.activities.activities.findIndex((item) => item.activity_id === activityId) ?? -1;
   const activity = activityIndex >= 0 && week ? week.activities.activities[activityIndex] : null;
+  const [isJumpPanelOpen, setIsJumpPanelOpen] = useState(true);
   const persistence = useActivityPersistence({
     activity,
     moduleId: bundle?.module_id ?? "",
@@ -520,7 +521,6 @@ function ActivityPage({ me }: { me: MeResponse }) {
   const previous = activityIndex > 0 ? week.activities.activities[activityIndex - 1] : null;
   const next = activityIndex < week.activities.activities.length - 1 ? week.activities.activities[activityIndex + 1] : null;
   const showReviewPanel = me.user.is_test_mode || me.user.is_superuser;
-  const [isJumpPanelOpen, setIsJumpPanelOpen] = useState(true);
 
   return (
     <RouteErrorBoundary
